@@ -1,0 +1,114 @@
+{
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 113,
+  "fetched_at": "2026-03-16T22:01:57.307736+00:00",
+  "topics": [
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 25,
+      "pct": 22.1,
+      "sources": "CNBC(9), Bloomberg(6), FT(5), MarketWatch(4), Yahoo(1)",
+      "sample_headlines": [
+        "Trump signals coalition to force open Strait of Hormuz is not ready yet: 'Some are less than enthusiastic'",
+        "Trump says U.S. asked China to delay Xi meeting 'a month or so' due to Iran war",
+        "U.S. is allowing Iranian oil tankers through Strait of Hormuz, says Bessent",
+        "Oil prices fall as Trump pressures allies to help protect tankers in Strait of Hormuz",
+        "Apollo's John Zito questions private equity's software valuations: 'All the marks are wrong'"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 17,
+      "pct": 15.0,
+      "sources": "Bloomberg(8), CNBC(4), FT(2), Yahoo(2), MarketWatch(1)",
+      "sample_headlines": [
+        "U.S. is allowing Iranian oil tankers through Strait of Hormuz, says Bessent",
+        "Bessent says Treasury is not intervening in oil commodities markets and has no authority to do so",
+        "Oil prices fall as Trump pressures allies to help protect tankers in Strait of Hormuz",
+        "UAE\u2019s Fujairah oil trading hub targeted by a drone attack, causing large fire",
+        "Warren Buffett\u2019s parting gift to Berkshire Hathaway: A $2 billion Iran oil windfall"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 12,
+      "pct": 10.6,
+      "sources": "CNBC(6), MarketWatch(2), Yahoo(2), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Nvidia GTC 2026: CEO Jensen Huang sees $1 trillion in orders for Blackwell and Vera Rubin through '27",
+        "Bill Gurley on AI bubble: A bunch of people got rich quick and a reset is coming",
+        "Apple acquires video editing company MotionVFX to boost subscribers",
+        "Employers say AI makes workers faster \u2014 but it's also creating 'friction or mistrust,' report finds",
+        "Nebius jumps 14% after company inks $27 billion infrastructure deal with Meta"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 7,
+      "pct": 6.2,
+      "sources": "Bloomberg(4), Yahoo(2), MarketWatch(1)",
+      "sample_headlines": [
+        "Dollar is benefiting from Iran conflict as investors worry about inflation",
+        "Fmr. Minneapolis Fed Pres.: Slower Economic Growth Ahead",
+        "Rosengren: Fed is on Hold Without Iran Timeline Clarity",
+        "Gold Wavers as High Energy Prices Threaten Fed Rate Path",
+        "Shipping Insurance Costs to Cross Hormuz Soar After Ship Attacks"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "Bloomberg(2), Yahoo(2)",
+      "sample_headlines": [
+        "Wall Street\u2019s \u2018Tax Alpha\u2019 Trades Are Saving Rich Investors Billions",
+        "Treasuries Join Global Bond Rally as Oil Drops From Recent Peak",
+        "Why Advisors Are Doubling Down on Munis, High-Quality Bonds Right Now",
+        "A 'dividend' for your crypto? Wall Street's newest way to sweeten the deal for ETF holders"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Bessent says Treasury is not intervening in oil commodities markets and has no authority to do so",
+        "Wall Street\u2019s \u2018Tax Alpha\u2019 Trades Are Saving Rich Investors Billions",
+        "Uber Expands Robotaxi Empire With Nissan Deal. Is UBER a Buy Now?",
+        "Tax Pros Warn of 4 Common Strategies That Can Trigger Costly Mistakes"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "Yahoo(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Saylor\u2019s Strategy Ramps Up Sales of Preferred in Latest Bitcoin Purchase",
+        "A 'dividend' for your crypto? Wall Street's newest way to sweeten the deal for ETF holders",
+        "How to invest in cryptocurrency: A beginner's guide"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "MarketWatch(1), Yahoo(1)",
+      "sample_headlines": [
+        "\u2018Healthcare is important to me\u2019: I\u2019m worried about relocating to Florida from New Jersey. Are hospitals there under stress?",
+        "Borderlands Mexico: GM, Stellantis drive auto exports to US in February"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Trump says U.S. asked China to delay Xi meeting 'a month or so' due to Iran war",
+        "Trump-Xi China summit may be delayed if Trump wants to stay in Washington for Iran war: Bessent"
+      ]
+    }
+  ]
+}
