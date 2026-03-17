@@ -1,113 +1,112 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 113,
-  "fetched_at": "2026-03-16T22:01:57.307736+00:00",
+  "total_headlines": 124,
+  "fetched_at": "2026-03-17T22:02:17.180225+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 25,
-      "pct": 22.1,
-      "sources": "CNBC(9), Bloomberg(6), FT(5), MarketWatch(4), Yahoo(1)",
+      "count": 24,
+      "pct": 19.4,
+      "sources": "Bloomberg(10), CNBC(7), FT(4), MarketWatch(2), Yahoo(1)",
       "sample_headlines": [
-        "Trump signals coalition to force open Strait of Hormuz is not ready yet: 'Some are less than enthusiastic'",
-        "Trump says U.S. asked China to delay Xi meeting 'a month or so' due to Iran war",
-        "U.S. is allowing Iranian oil tankers through Strait of Hormuz, says Bessent",
-        "Oil prices fall as Trump pressures allies to help protect tankers in Strait of Hormuz",
-        "Apollo's John Zito questions private equity's software valuations: 'All the marks are wrong'"
+        "Iran targets UAE energy infrastructure as gas field set ablaze, tanker struck near Strait of Hormuz",
+        "U.S. counterterrorism director Joe Kent resigns over war: 'Iran posed no imminent threat'",
+        "Orlando Bravo says some software names hit by AI deserve a valuation cut",
+        "Trump slams NATO allies for not joining Iran war effort, says U.S. never needed their help",
+        "Iran war, oil price surge worsen K-shaped economy, say economists"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 17,
-      "pct": 15.0,
-      "sources": "Bloomberg(8), CNBC(4), FT(2), Yahoo(2), MarketWatch(1)",
+      "count": 16,
+      "pct": 12.9,
+      "sources": "Bloomberg(8), CNBC(4), MarketWatch(3), FT(1)",
       "sample_headlines": [
-        "U.S. is allowing Iranian oil tankers through Strait of Hormuz, says Bessent",
-        "Bessent says Treasury is not intervening in oil commodities markets and has no authority to do so",
-        "Oil prices fall as Trump pressures allies to help protect tankers in Strait of Hormuz",
-        "UAE\u2019s Fujairah oil trading hub targeted by a drone attack, causing large fire",
-        "Warren Buffett\u2019s parting gift to Berkshire Hathaway: A $2 billion Iran oil windfall"
+        "Tesla to buy $4.3 billion of LG Energy battery cells from disbanded GM plant",
+        "Iran targets UAE energy infrastructure as gas field set ablaze, tanker struck near Strait of Hormuz",
+        "Iran war, oil price surge worsen K-shaped economy, say economists",
+        "Diesel prices surge to $5 per gallon, highest since 2022, as Iran war disrupts global oil supplies",
+        "3 signals will reveal if the Iran oil shock is just a blip \u2014 or the new normal"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 12,
-      "pct": 10.6,
-      "sources": "CNBC(6), MarketWatch(2), Yahoo(2), FT(1), Bloomberg(1)",
+      "count": 13,
+      "pct": 10.5,
+      "sources": "CNBC(10), FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Nvidia GTC 2026: CEO Jensen Huang sees $1 trillion in orders for Blackwell and Vera Rubin through '27",
-        "Bill Gurley on AI bubble: A bunch of people got rich quick and a reset is coming",
-        "Apple acquires video editing company MotionVFX to boost subscribers",
-        "Employers say AI makes workers faster \u2014 but it's also creating 'friction or mistrust,' report finds",
-        "Nebius jumps 14% after company inks $27 billion infrastructure deal with Meta"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 6.2,
-      "sources": "Bloomberg(4), Yahoo(2), MarketWatch(1)",
-      "sample_headlines": [
-        "Dollar is benefiting from Iran conflict as investors worry about inflation",
-        "Fmr. Minneapolis Fed Pres.: Slower Economic Growth Ahead",
-        "Rosengren: Fed is on Hold Without Iran Timeline Clarity",
-        "Gold Wavers as High Energy Prices Threaten Fed Rate Path",
-        "Shipping Insurance Costs to Cross Hormuz Soar After Ship Attacks"
+        "OpenAI preps for IPO by end of year, tells employees ChatGPT must be 'productivity tool'",
+        "Jensen Huang says Nvidia has received orders from China and is 'restarting our manufacturing'",
+        "Tesla to buy $4.3 billion of LG Energy battery cells from disbanded GM plant",
+        "Orlando Bravo says some software names hit by AI deserve a valuation cut",
+        "Gecko Robotics brings its AI to U.S. Navy ship repair in latest next-gen defense tech deal"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "Bloomberg(2), Yahoo(2)",
+      "count": 12,
+      "pct": 9.7,
+      "sources": "Yahoo(6), CNBC(4), Bloomberg(2)",
       "sample_headlines": [
-        "Wall Street\u2019s \u2018Tax Alpha\u2019 Trades Are Saving Rich Investors Billions",
-        "Treasuries Join Global Bond Rally as Oil Drops From Recent Peak",
-        "Why Advisors Are Doubling Down on Munis, High-Quality Bonds Right Now",
-        "A 'dividend' for your crypto? Wall Street's newest way to sweeten the deal for ETF holders"
+        "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
+        "Iran war, oil price surge worsen K-shaped economy, say economists",
+        "Diesel prices surge to $5 per gallon, highest since 2022, as Iran war disrupts global oil supplies",
+        "Senators tell ByteDance to 'immediately shut down' Seedance AI video app",
+        "Haven Dollar Makes Comeback as a Hedge to the Stock Market"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 4.8,
+      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Bessent says Treasury is not intervening in oil commodities markets and has no authority to do so",
-        "Wall Street\u2019s \u2018Tax Alpha\u2019 Trades Are Saving Rich Investors Billions",
-        "Uber Expands Robotaxi Empire With Nissan Deal. Is UBER a Buy Now?",
-        "Tax Pros Warn of 4 Common Strategies That Can Trigger Costly Mistakes"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Saylor\u2019s Strategy Ramps Up Sales of Preferred in Latest Bitcoin Purchase",
-        "A 'dividend' for your crypto? Wall Street's newest way to sweeten the deal for ETF holders",
-        "How to invest in cryptocurrency: A beginner's guide"
+        "The Fed issues its latest interest rate decision Wednesday. Here's what to expect",
+        "Amazon rolls out 1-hour, 3-hour delivery as ultrafast shipping trend grows in the U.S.",
+        "Global oil prices end at more than 3-year high as Strait of Hormuz shipping activity remains limited",
+        "Traders Dial Back Bets Against Fed Cuts as Growth Worries Build",
+        "Itausa Sees Aegea Valuation Topping $7.8 Billion in Brazil IPO"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "MarketWatch(1), Yahoo(1)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(2), FT(1)",
       "sample_headlines": [
-        "\u2018Healthcare is important to me\u2019: I\u2019m worried about relocating to Florida from New Jersey. Are hospitals there under stress?",
-        "Borderlands Mexico: GM, Stellantis drive auto exports to US in February"
+        "Lululemon reports weak guidance as proxy battle, tariffs weigh on bottom line",
+        "Nissan joins Toyota, Honda in plans to export U.S. cars to Japan",
+        "Nvidia nears AI chip exports to China after US approval delays"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(2)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "FT(2), CNBC(1)",
       "sample_headlines": [
-        "Trump says U.S. asked China to delay Xi meeting 'a month or so' due to Iran war",
-        "Trump-Xi China summit may be delayed if Trump wants to stay in Washington for Iran war: Bessent"
+        "Jensen Huang says Nvidia has received orders from China and is 'restarting our manufacturing'",
+        "China is not going to bail Trump out",
+        "Nvidia nears AI chip exports to China after US approval delays"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "MarketWatch(1), Yahoo(1)",
+      "sample_headlines": [
+        "Medicare premiums could double over next the decade, wrecking retirement budgets",
+        "Analyst Report: MarketAxess Holdings Inc"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Tom Lee\u2019s BitMine Buys Another 60,000 Ethereum Despite Volatility"
       ]
     }
   ]

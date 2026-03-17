@@ -2023,6 +2023,19 @@ function buildTradePanel(idea, capital) {
 }
 
 // ── Relative Strength tab ────────────────────────────────────────────────────
+// ETF ticker descriptions for tooltips
+const ETF_DESC = {
+  XLY:'Consumer Discretionary (SPDR)',XLP:'Consumer Staples (SPDR)',IWM:'Russell 2000 Small Cap (iShares)',
+  SPY:'S&P 500 (SPDR)',HYG:'High Yield Corporate Bond (iShares)',TLT:'20+ Year Treasury Bond (iShares)',
+  KRE:'Regional Banking (SPDR)',XLU:'Utilities (SPDR)',GLD:'Gold (SPDR)',XLI:'Industrials (SPDR)',
+  XLV:'Health Care (SPDR)',XLF:'Financials (SPDR)',XLE:'Energy (SPDR)',XLK:'Technology (SPDR)',
+  XLB:'Materials (SPDR)',XLRE:'Real Estate (SPDR)'
+};
+// Wrap a ticker string with a tooltip span
+function tickerTip(t){var d=ETF_DESC[t];return d?'<span title="'+t+' — '+d+'" style="cursor:help;border-bottom:1px dotted rgba(255,255,255,0.3)">'+t+'</span>':t;}
+// Wrap a "NUM/DEN" pair name with tooltips on each ticker
+function pairTip(name){var parts=name.split('/');return parts.map(tickerTip).join('/');}
+
 function renderRelStrength(data){
   const el = document.getElementById('rs-content');
   if(!el) return;
@@ -2066,12 +2079,12 @@ function renderRelStrength(data){
   // Asset chips
   if(s.top_overweight && s.top_overweight.length > 0){
     h += '<div style="margin-bottom:16px"><div class="mini-title">Overweight Tilt</div><div class="rs-assets">';
-    s.top_overweight.forEach(a=>{ h += `<span class="ow">${a}</span>`; });
+    s.top_overweight.forEach(a=>{ h += `<span class="ow">${tickerTip(a)}</span>`; });
     h += '</div></div>';
   }
   if(s.top_underweight && s.top_underweight.length > 0){
     h += '<div style="margin-bottom:20px"><div class="mini-title">Underweight Tilt</div><div class="rs-assets">';
-    s.top_underweight.forEach(a=>{ h += `<span class="uw">${a}</span>`; });
+    s.top_underweight.forEach(a=>{ h += `<span class="uw">${tickerTip(a)}</span>`; });
     h += '</div></div>';
   }
 
@@ -2079,7 +2092,7 @@ function renderRelStrength(data){
   h += '<div class="mini-title">RS Ratio Chart</div>';
   h += '<div class="rs-pair-sel" id="rs-pair-selector">';
   data.pairs.forEach((p,i)=>{
-    h += `<button class="rs-pair-btn${i===0?' active':''}" data-idx="${i}">${p.name}</button>`;
+    h += `<button class="rs-pair-btn${i===0?' active':''}" data-idx="${i}" title="${p.name.split('/').map(t=>t+' — '+(ETF_DESC[t]||t)).join('  |  ')}">${p.name}</button>`;
   });
   h += '</div>';
   h += '<div class="chart-wrap" style="height:320px"><canvas id="chart-relstrength"></canvas></div>';
@@ -2169,7 +2182,7 @@ function renderRelStrength(data){
     h += '<tr style="' + rowDim + '" ' + edgeAttr + '>'
       + '<td style="text-align:center;white-space:nowrap">' + scoreDots + '</td>'
       + '<td style="text-align:center;padding:10px 4px"><span class="' + dotCls + '" title="' + dotTitle + '" data-trade-idx="' + i + '"></span></td>'
-      + '<td style="font-weight:600;color:' + (isTop ? 'var(--text-primary)' : 'var(--text-secondary)') + '">' + p.name + '</td>'
+      + '<td style="font-weight:600;color:' + (isTop ? 'var(--text-primary)' : 'var(--text-secondary)') + '">' + pairTip(p.name) + '</td>'
       + '<td style="color:' + (isTop ? 'var(--text-primary)' : DIM) + '">' + (p.category==='cross-asset'?'Cross-Asset':'Sector') + '</td>'
       + '<td style="color:' + rocClr + ';font-weight:' + (s.rocPass ? '600' : '400') + '">' + (p.roc_20d>=0?'+':'') + p.roc_20d.toFixed(1) + '%</td>'
       + '<td style="color:' + vsmaClr + ';font-weight:' + (s.smaPass ? '600' : '400') + '">' + vsma + '</td>'
