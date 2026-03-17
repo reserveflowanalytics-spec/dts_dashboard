@@ -1883,9 +1883,24 @@ const TRADE_IDEAS = {
   'XLE/XLK|short_num': {mean:0.83,hit:55.8,horizon:20,note:'Fade energy vs tech when tech leads.'},
   'XLY/XLP|long_num':  {mean:0.69,hit:55.5,horizon:20,note:'Borderline edge. Discretionary vs staples.'},
 };
-// IG availability constraints
+// IG availability constraints (only for ETFs with NO stock proxy)
 const IG_UNAVAIL = {
-  'HYG':'No CFD available','KRE':'Cannot short (unborrowable)'
+  'HYG':'No CFD available — no single-stock proxy for high-yield bonds'
+};
+// Stock proxies for sector ETFs — swap tickers here during forward testing
+// Index/commodity instruments (GLD, SPY, IWM, TLT) trade directly, no proxy needed
+const STOCK_PROXY = {
+  XLE: {ticker:'XOM',  name:'Exxon Mobil',       pts:15876, margin:0.20, spread:0.0017},
+  XLK: {ticker:'AAPL', name:'Apple',              pts:25400, margin:0.20, spread:0.0011},
+  XLY: {ticker:'AMZN', name:'Amazon',             pts:21490, margin:0.20, spread:0.0017},
+  XLP: {ticker:'PG',   name:'Procter & Gamble',   pts:15140, margin:0.20, spread:0.0036},
+  XLI: {ticker:'BA',   name:'Boeing',              pts:21032, margin:0.20, spread:0.0022},
+  XLV: {ticker:'UNH',  name:'UnitedHealth',       pts:28729, margin:0.20, spread:0.0013},
+  XLB: {ticker:'FCX',  name:'Freeport-McMoRan',   pts:5805,  margin:0.20, spread:0.0037},
+  XLRE:{ticker:'LEN',  name:'Lennar',              pts:9698,  margin:0.20, spread:0.0086},
+  XLF: {ticker:'JPM',  name:'JPMorgan Chase',     pts:28676, margin:0.20, spread:0.0028},
+  XLU: {ticker:'DUK',  name:'Duke Energy',         pts:13287, margin:0.20, spread:0.0071},
+  KRE: {ticker:'SCHW', name:'Charles Schwab',      pts:9416,  margin:0.20, spread:0.0071},
 };
 // IG spread classification and pricing (from Yusuf, 2026-03-06)
 const IG_ETF_INFO = {
@@ -1920,8 +1935,8 @@ function getTradeIdea(pair) {
   const key = pair.name + '|' + dir;
   const idea = TRADE_IDEAS[key];
   if (!idea) return null;
-  const numBlock = IG_UNAVAIL[pair.numerator];
-  const denBlock = IG_UNAVAIL[pair.denominator];
+  const numBlock = STOCK_PROXY[pair.numerator] ? null : IG_UNAVAIL[pair.numerator];
+  const denBlock = STOCK_PROXY[pair.denominator] ? null : IG_UNAVAIL[pair.denominator];
   return {...idea, dir, numBlock, denBlock, pair};
 }
 
@@ -1931,8 +1946,17 @@ function buildTradePanel(idea, capital) {
   const marginAvail = capital * marginUse;
 
   var num = idea.pair.numerator, den = idea.pair.denominator;
-  var numInfo = IG_ETF_INFO[num] || {cls:'US Other',spread:0.0015,pts:10000,margin:0.20,ig:num,igCode:num};
-  var denInfo = IG_ETF_INFO[den] || {cls:'US Other',spread:0.0015,pts:10000,margin:0.20,ig:den,igCode:den};
+  // Use stock proxy if available, otherwise fall back to index/commodity instrument
+  var numProxy = STOCK_PROXY[num];
+  var denProxy = STOCK_PROXY[den];
+  var numTicker = numProxy ? numProxy.ticker : num;
+  var denTicker = denProxy ? denProxy.ticker : den;
+  var numInfo = numProxy
+    ? {cls:'US Stock',spread:numProxy.spread,ig:numProxy.name,igCode:numProxy.ticker,pts:numProxy.pts,margin:numProxy.margin}
+    : (IG_ETF_INFO[num] || {cls:'US Other',spread:0.0015,pts:10000,margin:0.20,ig:num,igCode:num});
+  var denInfo = denProxy
+    ? {cls:'US Stock',spread:denProxy.spread,ig:denProxy.name,igCode:denProxy.ticker,pts:denProxy.pts,margin:denProxy.margin}
+    : (IG_ETF_INFO[den] || {cls:'US Other',spread:0.0015,pts:10000,margin:0.20,ig:den,igCode:den});
 
   // Per-leg margin: split available margin, each leg uses its own margin rate
   var numMarginRate = numInfo.margin || 0.20;
@@ -1942,8 +1966,9 @@ function buildTradePanel(idea, capital) {
   var exposure = (numExposure + denExposure) / 2; // avg for cost calcs
 
   // Use IG prices (points) for stake calc, yfinance USD for display
-  var numPriceUSD = ETF_PRICES_USD[num] || (numInfo.pts / 100);
-  var denPriceUSD = ETF_PRICES_USD[den] || (denInfo.pts / 100);
+  // For stock proxies, derive USD from pts (1 pt = 1 cent for US stocks)
+  var numPriceUSD = numProxy ? (numInfo.pts / 100) : (ETF_PRICES_USD[num] || (numInfo.pts / 100));
+  var denPriceUSD = denProxy ? (denInfo.pts / 100) : (ETF_PRICES_USD[den] || (denInfo.pts / 100));
   var numPricePts = numInfo.pts;
   var denPricePts = denInfo.pts;
   var numStake = Math.round(numExposure / numPricePts * 100);
@@ -1970,14 +1995,14 @@ function buildTradePanel(idea, capital) {
   else { numDir = 'Short'; denDir = 'Long'; }
 
   var blocked = '';
-  if (idea.numBlock) blocked += '<div style="color:#ef4444;font-size:var(--type-caption);margin-top:6px">' + num + ': ' + idea.numBlock + '</div>';
-  if (idea.denBlock) blocked += '<div style="color:#ef4444;font-size:var(--type-caption);margin-top:6px">' + den + ': ' + idea.denBlock + '</div>';
+  if (idea.numBlock) blocked += '<div style="color:#ef4444;font-size:var(--type-caption);margin-top:6px">' + num + ' (' + numTicker + '): ' + idea.numBlock + '</div>';
+  if (idea.denBlock) blocked += '<div style="color:#ef4444;font-size:var(--type-caption);margin-top:6px">' + den + ' (' + denTicker + '): ' + idea.denBlock + '</div>';
 
   return '<div class="tp-grid">'
     + '<div class="tp-section">'
     + '<div class="tp-label">Trade Structure</div>'
-    + '<div class="tp-row"><span>Direction</span><span class="tp-val">' + numDir + ' ' + num + ' / ' + denDir + ' ' + den + '</span></div>'
-    + '<div class="tp-row"><span>IG instruments</span><span class="tp-val">' + numInfo.igCode + ' / ' + denInfo.igCode + '</span></div>'
+    + '<div class="tp-row"><span>Direction</span><span class="tp-val">' + numDir + ' ' + numTicker + (numProxy ? ' <span style="color:var(--text-dim)">(' + num + ')</span>' : '') + ' / ' + denDir + ' ' + denTicker + (denProxy ? ' <span style="color:var(--text-dim)">(' + den + ')</span>' : '') + '</span></div>'
+    + '<div class="tp-row"><span>IG instruments</span><span class="tp-val">' + numInfo.igCode + (numProxy ? ' <span style="color:var(--text-dim)">' + numProxy.name + '</span>' : '') + ' / ' + denInfo.igCode + (denProxy ? ' <span style="color:var(--text-dim)">' + denProxy.name + '</span>' : '') + '</span></div>'
     + '<div class="tp-row"><span>Hold period</span><span class="tp-val">' + idea.horizon + ' trading days</span></div>'
     + '<div class="tp-row"><span>Backtest mean return</span><span class="tp-val" style="color:#10b981">+' + idea.mean.toFixed(2) + '%</span></div>'
     + '<div class="tp-row"><span>Backtest hit rate</span><span class="tp-val">' + idea.hit.toFixed(1) + '%</span></div>'
@@ -2017,7 +2042,7 @@ function buildTradePanel(idea, capital) {
     + '<div class="tp-row"><span>Carry cost (' + idea.horizon + 'd)</span><span class="tp-val">\u00A3' + carryCost.toFixed(2) + '</span></div>'
     + '<div class="tp-row"><span>Total cost</span><span class="tp-val">\u00A3' + totalCost.toFixed(2) + '</span></div>'
     + '<div class="tp-row"><span>Expected net P&L</span><span class="tp-val" style="color:' + (expectedNet > 0 ? '#10b981' : '#ef4444') + '">\u00A3' + expectedNet.toFixed(2) + '</span></div>'
-    + '<div class="tp-note">IG instrument codes and margin rates from IG demo (06 Mar 2026). Stakes in pence/point. Prices in IG points.</div>'
+    + '<div class="tp-note">Stock proxies for sector ETFs — swap tickers in STOCK_PROXY during forward testing. Index instruments (Spot Gold, US 500, etc.) trade directly. Prices in IG points.</div>'
     + '</div>'
     + '</div>';
 }
@@ -2029,7 +2054,14 @@ const ETF_DESC = {
   SPY:'S&P 500 (SPDR)',HYG:'High Yield Corporate Bond (iShares)',TLT:'20+ Year Treasury Bond (iShares)',
   KRE:'Regional Banking (SPDR)',XLU:'Utilities (SPDR)',GLD:'Gold (SPDR)',XLI:'Industrials (SPDR)',
   XLV:'Health Care (SPDR)',XLF:'Financials (SPDR)',XLE:'Energy (SPDR)',XLK:'Technology (SPDR)',
-  XLB:'Materials (SPDR)',XLRE:'Real Estate (SPDR)'
+  XLB:'Materials (SPDR)',XLRE:'Real Estate (SPDR)',
+  // Stock proxies
+  XOM:'Exxon Mobil — Energy (XLE proxy)',AAPL:'Apple — Technology (XLK proxy)',
+  AMZN:'Amazon — Consumer Disc (XLY proxy)',PG:'Procter & Gamble — Staples (XLP proxy)',
+  BA:'Boeing — Industrials (XLI proxy)',UNH:'UnitedHealth — Health Care (XLV proxy)',
+  FCX:'Freeport-McMoRan — Materials (XLB proxy)',LEN:'Lennar — Real Estate (XLRE proxy)',
+  JPM:'JPMorgan Chase — Financials (XLF proxy)',DUK:'Duke Energy — Utilities (XLU proxy)',
+  SCHW:'Charles Schwab — Regional Banks (KRE proxy)'
 };
 // Wrap a ticker string with a tooltip span
 function tickerTip(t){var d=ETF_DESC[t];return d?'<span title="'+t+' — '+d+'" style="cursor:help;border-bottom:1px dotted rgba(255,255,255,0.3)">'+t+'</span>':t;}
