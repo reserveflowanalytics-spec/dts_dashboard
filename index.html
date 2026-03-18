@@ -1941,7 +1941,7 @@ function getTradeIdea(pair) {
 }
 
 function buildTradePanel(idea, capital) {
-  capital = capital || 3000;
+  capital = capital || 2993;
   const marginUse = 0.60;
   const marginAvail = capital * marginUse;
 
@@ -1958,37 +1958,54 @@ function buildTradePanel(idea, capital) {
     ? {cls:'US Stock',spread:denProxy.spread,ig:denProxy.name,igCode:denProxy.ticker,pts:denProxy.pts,margin:denProxy.margin}
     : (IG_ETF_INFO[den] || {cls:'US Other',spread:0.0015,pts:10000,margin:0.20,ig:den,igCode:den});
 
-  // Per-leg margin: split available margin, each leg uses its own margin rate
+  // ── Sizing from IG minimum stake (0.24 £/pt) ──
+  var MIN_STAKE = 0.24;
   var numMarginRate = numInfo.margin || 0.20;
   var denMarginRate = denInfo.margin || 0.20;
-  var numExposure = (marginAvail / 2) / numMarginRate;
-  var denExposure = (marginAvail / 2) / denMarginRate;
-  var exposure = (numExposure + denExposure) / 2; // avg for cost calcs
-
-  // Use IG prices (points) for stake calc, yfinance USD for display
-  // For stock proxies, derive USD from pts (1 pt = 1 cent for US stocks)
-  var numPriceUSD = numProxy ? (numInfo.pts / 100) : (ETF_PRICES_USD[num] || (numInfo.pts / 100));
-  var denPriceUSD = denProxy ? (denInfo.pts / 100) : (ETF_PRICES_USD[den] || (denInfo.pts / 100));
   var numPricePts = numInfo.pts;
   var denPricePts = denInfo.pts;
-  var numStake = Math.round(numExposure / numPricePts * 100);
-  var denStake = Math.round(denExposure / denPricePts * 100);
 
-  // Spread cost per leg uses actual IG rate, capped at 10c/share
-  var numSpreadPerShare = Math.min(numPriceUSD * numInfo.spread, 0.10);
-  var denSpreadPerShare = Math.min(denPriceUSD * denInfo.spread, 0.10);
-  // Convert to GBP cost: stake (p/pt) * spread in points (cents) * 2 (round-trip) / 100
-  var numSpreadCost = (numStake * numSpreadPerShare * 100 * 2) / 100;
-  var denSpreadCost = (denStake * denSpreadPerShare * 100 * 2) / 100;
+  // Minimum margin needed at 0.24/pt per leg
+  // exposure = price (pts) * stake (£/pt)
+  var numMinExposure = numPricePts * MIN_STAKE;
+  var denMinExposure = denPricePts * MIN_STAKE;
+  var numMinMargin = numMinExposure * numMarginRate;
+  var denMinMargin = denMinExposure * denMarginRate;
+  var totalMinMargin = numMinMargin + denMinMargin;
+  var minCapital = Math.ceil(totalMinMargin / marginUse);
+
+  // Scale up from minimum if capital allows
+  var scaleFactor = (totalMinMargin > 0) ? Math.max(1, marginAvail / totalMinMargin) : 1;
+  var insufficientCapital = marginAvail < totalMinMargin;
+  if (insufficientCapital) scaleFactor = 1; // show minimum stakes even if over budget
+
+  var numStake = Math.floor(MIN_STAKE * scaleFactor * 100) / 100;
+  var denStake = Math.floor(MIN_STAKE * scaleFactor * 100) / 100;
+  if (numStake < MIN_STAKE) numStake = MIN_STAKE;
+  if (denStake < MIN_STAKE) denStake = MIN_STAKE;
+
+  var numExposure = numPricePts * numStake;
+  var denExposure = denPricePts * denStake;
+
+  // Use IG prices (points) for stake calc, yfinance USD for display
+  var numPriceUSD = numProxy ? (numInfo.pts / 100) : (ETF_PRICES_USD[num] || (numInfo.pts / 100));
+  var denPriceUSD = denProxy ? (denInfo.pts / 100) : (ETF_PRICES_USD[den] || (denInfo.pts / 100));
+
+  // Spread cost per leg: stake (£/pt) * spread (pts) * 2 (round-trip)
+  var numSpreadPts = numPricePts * numInfo.spread;
+  var denSpreadPts = denPricePts * denInfo.spread;
+  var numSpreadCost = numStake * numSpreadPts * 2;
+  var denSpreadCost = denStake * denSpreadPts * 2;
   var totalSpreadCost = numSpreadCost + denSpreadCost;
 
   var carryCost = (numExposure + denExposure) * IG_COSTS.carry_daily * idea.horizon;
   var totalCost = totalSpreadCost + carryCost;
   var expectedGross = ((numExposure + denExposure) / 2) * (idea.mean / 100);
   var expectedNet = expectedGross - totalCost;
-  var freeMargin = capital - marginAvail;
+  var actualMarginUsed = numExposure * numMarginRate + denExposure * denMarginRate;
+  var freeMargin = capital - actualMarginUsed;
   var totalExposure = numExposure + denExposure;
-  var bufferPct = (freeMargin / totalExposure * 100).toFixed(1);
+  var bufferPct = freeMargin > 0 ? (freeMargin / totalExposure * 100).toFixed(1) : '0';
 
   var numDir, denDir;
   if (idea.dir === 'long_num') { numDir = 'Long'; denDir = 'Short'; }
@@ -2010,7 +2027,8 @@ function buildTradePanel(idea, capital) {
     + blocked
     + '</div>'
     + '<div class="tp-section">'
-    + '<div class="tp-label">IG Spread Bet Ticket (\u00A3' + capital.toLocaleString() + ' capital, 60% margin use)</div>'
+    + '<div class="tp-label">IG Spread Bet Ticket' + (insufficientCapital ? ' <span style="color:#ef4444">— needs \u00A3' + minCapital.toLocaleString() + '+ capital</span>' : ' (\u00A3' + capital.toLocaleString() + ' capital)') + '</div>'
+    + '<div class="tp-row" style="margin-bottom:6px"><span>Min account balance (0.24/pt both legs, 60% margin use)</span><span class="tp-val' + (insufficientCapital ? '" style="color:#ef4444"' : '"') + '>\u00A3' + minCapital.toLocaleString() + '</span></div>'
     + '<table style="width:100%;border-collapse:collapse;font-size:var(--type-body-sm);margin-bottom:8px">'
     + '<thead><tr style="border-bottom:1px solid rgba(255,255,255,0.1)">'
     + '<th style="text-align:left;padding:4px 0;color:var(--text-secondary);font-size:var(--type-caption)">LEG</th>'
@@ -2024,20 +2042,21 @@ function buildTradePanel(idea, capital) {
     + '<tr><td style="padding:4px 0;color:var(--text-primary);font-weight:600">' + numInfo.igCode + '</td>'
     + '<td style="padding:4px 0;color:' + (numDir==='Long'?'#10b981':'#ef4444') + '">' + numDir + '</td>'
     + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">' + numPricePts.toLocaleString() + ' pts</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">' + numStake + 'p/pt</td>'
+    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + numStake.toFixed(2) + '/pt</td>'
     + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace;color:var(--text-dim)">' + (numMarginRate*100).toFixed(0) + '%</td>'
     + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(numExposure).toLocaleString() + '</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(marginAvail/2).toLocaleString() + '</td></tr>'
+    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(numExposure * numMarginRate).toLocaleString() + '</td></tr>'
     + '<tr><td style="padding:4px 0;color:var(--text-primary);font-weight:600">' + denInfo.igCode + '</td>'
     + '<td style="padding:4px 0;color:' + (denDir==='Long'?'#10b981':'#ef4444') + '">' + denDir + '</td>'
     + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">' + denPricePts.toLocaleString() + ' pts</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">' + denStake + 'p/pt</td>'
+    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + denStake.toFixed(2) + '/pt</td>'
     + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace;color:var(--text-dim)">' + (denMarginRate*100).toFixed(0) + '%</td>'
     + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(denExposure).toLocaleString() + '</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(marginAvail/2).toLocaleString() + '</td></tr>'
+    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(denExposure * denMarginRate).toLocaleString() + '</td></tr>'
     + '</tbody></table>'
     + '<div class="tp-row"><span>Total exposure</span><span class="tp-val">\u00A3' + Math.round(totalExposure).toLocaleString() + '</span></div>'
-    + '<div class="tp-row"><span>Free margin (buffer)</span><span class="tp-val">\u00A3' + Math.round(freeMargin).toLocaleString() + ' (~' + bufferPct + '% adverse move)</span></div>'
+    + '<div class="tp-row"><span>Margin used</span><span class="tp-val">\u00A3' + Math.round(actualMarginUsed).toLocaleString() + '</span></div>'
+    + '<div class="tp-row"><span>Free margin (buffer)</span><span class="tp-val' + (freeMargin < 0 ? '" style="color:#ef4444"' : '"') + '>\u00A3' + Math.round(freeMargin).toLocaleString() + (freeMargin > 0 ? ' (~' + bufferPct + '% adverse move)' : ' — increase capital') + '</span></div>'
     + '<div class="tp-row" style="border-top:1px solid rgba(255,255,255,0.08);padding-top:4px;margin-top:4px"><span>Spread cost (round-trip)</span><span class="tp-val">\u00A3' + totalSpreadCost.toFixed(2) + '</span></div>'
     + '<div class="tp-row"><span>Carry cost (' + idea.horizon + 'd)</span><span class="tp-val">\u00A3' + carryCost.toFixed(2) + '</span></div>'
     + '<div class="tp-row"><span>Total cost</span><span class="tp-val">\u00A3' + totalCost.toFixed(2) + '</span></div>'
