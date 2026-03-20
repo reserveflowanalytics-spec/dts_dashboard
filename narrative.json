@@ -1,112 +1,123 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 124,
-  "fetched_at": "2026-03-17T22:02:17.180225+00:00",
+  "total_headlines": 125,
+  "fetched_at": "2026-03-20T22:00:43.612308+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 24,
-      "pct": 19.4,
-      "sources": "Bloomberg(10), CNBC(7), FT(4), MarketWatch(2), Yahoo(1)",
+      "count": 27,
+      "pct": 21.6,
+      "sources": "Bloomberg(8), FT(7), CNBC(6), Yahoo(5), MarketWatch(1)",
       "sample_headlines": [
-        "Iran targets UAE energy infrastructure as gas field set ablaze, tanker struck near Strait of Hormuz",
-        "U.S. counterterrorism director Joe Kent resigns over war: 'Iran posed no imminent threat'",
-        "Orlando Bravo says some software names hit by AI deserve a valuation cut",
-        "Trump slams NATO allies for not joining Iran war effort, says U.S. never needed their help",
-        "Iran war, oil price surge worsen K-shaped economy, say economists"
+        "Trump: 'I don't want to do a ceasefire' in Iran war",
+        "Trump: U.S. could end Iran military operations 'right now' but will continue so Iran can 'never rebuild'",
+        "Elizabeth Warren demands answers on costs, economic impact of 'illegal and reckless war'",
+        "Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy",
+        "Iran war-induced fertilizer shortage threatens Republicans in farm states ahead of midterms"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 20,
+      "pct": 16.0,
+      "sources": "Yahoo(9), Bloomberg(4), MarketWatch(3), CNBC(2), FT(2)",
+      "sample_headlines": [
+        "Gold drops nearly 10% in worst weekly rout since 2011",
+        "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave",
+        "Super Micro\u2019s stock sinks 33% after co-founder\u2019s indictment. Here are Wall Street\u2019s biggest questions.",
+        "The first major stock index just fell into correction territory. Will others follow?",
+        "March 27 looks like a make-or-break day for American travelers and the partial government shutdown"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 16,
-      "pct": 12.9,
-      "sources": "Bloomberg(8), CNBC(4), MarketWatch(3), FT(1)",
+      "count": 14,
+      "pct": 11.2,
+      "sources": "Yahoo(5), Bloomberg(4), CNBC(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Tesla to buy $4.3 billion of LG Energy battery cells from disbanded GM plant",
-        "Iran targets UAE energy infrastructure as gas field set ablaze, tanker struck near Strait of Hormuz",
-        "Iran war, oil price surge worsen K-shaped economy, say economists",
-        "Diesel prices surge to $5 per gallon, highest since 2022, as Iran war disrupts global oil supplies",
-        "3 signals will reveal if the Iran oil shock is just a blip \u2014 or the new normal"
+        "U.S. says Cuba is prohibited from taking Russian oil as two tankers head to island",
+        "Oil prices top $112 after Iraq declares force majeure, Kuwait refineries attacked",
+        "Work from home, drive slower and don't use gas cookers: IEA advice on weathering the global energy crisis",
+        "Global oil prices climb for 5th straight week as U.S. sends more military might into Middle East",
+        "Iran war is the greatest threat to global energy \u2018in history\u2019, warns IEA"
       ]
     },
     {
       "topic": "AI / Tech",
       "count": 13,
-      "pct": 10.5,
-      "sources": "CNBC(10), FT(1), Bloomberg(1), Yahoo(1)",
+      "pct": 10.4,
+      "sources": "CNBC(8), Yahoo(5)",
       "sample_headlines": [
-        "OpenAI preps for IPO by end of year, tells employees ChatGPT must be 'productivity tool'",
-        "Jensen Huang says Nvidia has received orders from China and is 'restarting our manufacturing'",
-        "Tesla to buy $4.3 billion of LG Energy battery cells from disbanded GM plant",
-        "Orlando Bravo says some software names hit by AI deserve a valuation cut",
-        "Gecko Robotics brings its AI to U.S. Navy ship repair in latest next-gen defense tech deal"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 9.7,
-      "sources": "Yahoo(6), CNBC(4), Bloomberg(2)",
-      "sample_headlines": [
-        "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
-        "Iran war, oil price surge worsen K-shaped economy, say economists",
-        "Diesel prices surge to $5 per gallon, highest since 2022, as Iran war disrupts global oil supplies",
-        "Senators tell ByteDance to 'immediately shut down' Seedance AI video app",
-        "Haven Dollar Makes Comeback as a Hedge to the Stock Market"
+        "Super Micro co-founder indicted on Nvidia smuggling charges leaves board",
+        "ChatGPT's ad pilot has the industry excited, but some insiders are frustrated with the slow rollout",
+        "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China",
+        "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave",
+        "Trump administration unveils national AI policy framework to limit state power"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.8,
-      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1)",
+      "count": 11,
+      "pct": 8.8,
+      "sources": "Bloomberg(4), CNBC(3), Yahoo(3), FT(1)",
       "sample_headlines": [
-        "The Fed issues its latest interest rate decision Wednesday. Here's what to expect",
-        "Amazon rolls out 1-hour, 3-hour delivery as ultrafast shipping trend grows in the U.S.",
-        "Global oil prices end at more than 3-year high as Strait of Hormuz shipping activity remains limited",
-        "Traders Dial Back Bets Against Fed Cuts as Growth Worries Build",
-        "Itausa Sees Aegea Valuation Topping $7.8 Billion in Brazil IPO"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(2), FT(1)",
-      "sample_headlines": [
-        "Lululemon reports weak guidance as proxy battle, tariffs weigh on bottom line",
-        "Nissan joins Toyota, Honda in plans to export U.S. cars to Japan",
-        "Nvidia nears AI chip exports to China after US approval delays"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "FT(2), CNBC(1)",
-      "sample_headlines": [
-        "Jensen Huang says Nvidia has received orders from China and is 'restarting our manufacturing'",
-        "China is not going to bail Trump out",
-        "Nvidia nears AI chip exports to China after US approval delays"
+        "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave",
+        "Fed Governor Waller urges caution for now, says rate cuts possible later in the year",
+        "UK government borrowing costs hit their highest level since 2008 as inflation fears hit the gilt market",
+        "Investors start to bet on US interest rate rises amid inflation fears",
+        "Emerging Assets Extend Losing Streak on Rate Hike Bets, Oil Gain"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 10,
+      "pct": 8.0,
+      "sources": "CNBC(4), Yahoo(3), MarketWatch(2), FT(1)",
+      "sample_headlines": [
+        "'Marriage penalty' in Washington state's new millionaire tax stirs debate",
+        "Average IRS tax refund is up 10.8%, new filing data shows",
+        "Your tax refund could be smaller than expected this season. Here's why",
+        "Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know",
+        "\u2018The money is tax-free\u2019: I\u2019m 76 and won $50,000 in a settlement related to cancer from nuclear waste. What should I do with it?"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
       "count": 2,
       "pct": 1.6,
-      "sources": "MarketWatch(1), Yahoo(1)",
+      "sources": "MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Medicare premiums could double over next the decade, wrecking retirement budgets",
-        "Analyst Report: MarketAxess Holdings Inc"
+        "History says these 2 overlooked asset classes are the only real shield against 1970s-style stagflation",
+        "Stagflation Risks Have Gone Up: George Bory"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China",
+        "Tim Cook\u2019s China visit reinforces country\u2019s importance to Apple as global frictions rise"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Strive Jumps Past Tesla In Bitcoin Holdings",
+        "Crypto.com Cuts 12% Of Staff As It Adopts A.I. Technologies"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Tom Lee\u2019s BitMine Buys Another 60,000 Ethereum Despite Volatility"
+        "Tim Cook\u2019s China visit reinforces country\u2019s importance to Apple as global frictions rise"
       ]
     }
   ]
