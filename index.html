@@ -92,9 +92,21 @@
 
 /* Loading */
 .loading{text-align:center;padding:var(--sp-10);color:var(--text-secondary)}
+
+/* ── Light theme overrides ── */
+[data-theme="light"] .hero{background:radial-gradient(circle at 20% 80%,rgba(8,145,178,0.06),transparent 40%),radial-gradient(circle at 80% 20%,rgba(37,99,235,0.04),transparent 40%)}
+[data-theme="light"] .hero::after{background:linear-gradient(90deg,transparent,var(--accent),transparent)}
+[data-theme="light"] .pipe-step::before{color:rgba(8,145,178,0.12)}
+[data-theme="light"] .tr-table tr:hover{background:rgba(0,0,0,0.02)}
+[data-theme="light"] .sh-table tr:hover{background:rgba(0,0,0,0.02)}
+[data-theme="light"] .comp-icon[style*="rgba(255,255,255"]{background:rgba(0,0,0,0.04) !important}
 </style>
 </head>
 <body>
+
+<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light mode">
+  <span id="theme-icon">&#9790;</span> <span id="theme-label">Dark</span>
+</button>
 
 <div class="hero">
   <div class="container">
@@ -467,6 +479,33 @@ function renderCompositeChart(signals,spxData){
 }
 
 init().catch(e=>console.error('Init failed:',e));
+
+// Theme toggle (shared with dashboard.html)
+function toggleTheme(){
+  const html=document.documentElement;
+  const isLight=html.getAttribute('data-theme')==='light';
+  if(isLight){
+    html.removeAttribute('data-theme');
+    document.getElementById('theme-icon').innerHTML='&#9790;';
+    document.getElementById('theme-label').textContent='Dark';
+    localStorage.setItem('rfa-theme','dark');
+  }else{
+    html.setAttribute('data-theme','light');
+    document.getElementById('theme-icon').innerHTML='&#9788;';
+    document.getElementById('theme-label').textContent='Light';
+    localStorage.setItem('rfa-theme','light');
+  }
+}
+(function(){
+  var saved=localStorage.getItem('rfa-theme');
+  if(saved!=='dark'){
+    document.documentElement.setAttribute('data-theme','light');
+    var icon=document.getElementById('theme-icon');
+    var label=document.getElementById('theme-label');
+    if(icon)icon.innerHTML='&#9788;';
+    if(label)label.textContent='Light';
+  }
+})();
 </script>
 </body>
 </html>
