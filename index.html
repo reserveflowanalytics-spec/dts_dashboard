@@ -3,2508 +3,470 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>DTS Flow-of-Funds Dashboard</title>
+<title>Reserve Flow Analytics — Signal Tracker</title>
+<meta name="description" content="344+ daily macro signals generated from US Treasury fiscal flow data. Track record, methodology, and live regime."/>
 <link rel="stylesheet" href="rfa-design-system.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-/* ── Page-specific overrides (DTS Dashboard) ── */
+/* ── Page-specific styles ── */
 
-/* Header — matches RFA header pattern */
-.dts-header{position:relative;padding:var(--sp-10) 0 var(--sp-8);margin-bottom:var(--sp-8);border-bottom:1px solid var(--border);overflow:hidden;background:radial-gradient(circle at 10% 80%,rgba(6,182,212,0.08),transparent 40%),radial-gradient(circle at 90% 20%,rgba(59,130,246,0.06),transparent 40%);text-align:center}
-.dts-header::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:0.5}
-.cat{font-size:var(--type-caption);color:var(--accent);text-transform:uppercase;letter-spacing:3px;margin-bottom:var(--sp-2)}
-h1{font-family:var(--font-heading);font-size:var(--text-3xl);font-weight:800;letter-spacing:-1px;background:linear-gradient(135deg,#fff 30%,var(--text-secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:var(--sp-1)}
-.subtitle{font-size:var(--type-body);color:var(--text-secondary);margin-bottom:0;font-family:var(--font-mono)}
+.hero{position:relative;padding:var(--sp-16) 0 var(--sp-10);text-align:center;overflow:hidden;background:radial-gradient(circle at 20% 80%,rgba(6,182,212,0.08),transparent 40%),radial-gradient(circle at 80% 20%,rgba(59,130,246,0.06),transparent 40%)}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:0.4}
+.hero-cat{font-size:var(--text-xs);color:var(--accent);text-transform:uppercase;letter-spacing:3px;margin-bottom:var(--sp-3)}
+.hero h1{margin-bottom:var(--sp-3)}
+.hero-sub{font-size:var(--text-md);color:var(--text-secondary);max-width:640px;margin:0 auto var(--sp-6);line-height:1.7}
+.hero-stats{display:flex;gap:var(--sp-8);justify-content:center;flex-wrap:wrap}
+.hero-stat{text-align:center}
+.hero-stat-value{font-size:var(--text-3xl);font-weight:800;font-family:var(--font-mono);color:var(--accent)}
+.hero-stat-label{font-size:var(--text-xs);color:var(--text-secondary);text-transform:uppercase;letter-spacing:1px;margin-top:2px}
 
-/* Cards grid */
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--sp-4);margin-bottom:var(--sp-8)}
-.cards .card{text-align:center}
-.cards .card{padding:var(--sp-6) var(--sp-5)}
+/* Current regime banner */
+.regime-banner{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-6);margin-bottom:var(--sp-8);display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--sp-5);text-align:center}
+.regime-banner .rb-label{font-size:var(--text-xs);color:var(--text-secondary);text-transform:uppercase;letter-spacing:1px;margin-bottom:var(--sp-1)}
+.regime-banner .rb-value{font-size:var(--text-xl);font-weight:700;font-family:var(--font-mono)}
+@media(max-width:600px){.regime-banner{grid-template-columns:1fr}}
 
-/* Toggle buttons — alias to design system btn/btn-group */
-.toggles{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:24px}
-.tbtn{padding:var(--sp-2) var(--sp-5);border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--bg-surface);color:var(--text-secondary);cursor:pointer;font-size:var(--type-body-sm);font-weight:600;font-family:var(--font-body);transition:var(--transition-fast)}
-.tbtn:hover{border-color:var(--border-hover);color:var(--text-primary)}
-.tbtn.active{background:var(--accent-bg);color:var(--text-primary);border-color:var(--accent-border)}
+/* Section styling */
+.section{margin-bottom:var(--sp-16)}
+.section-label{font-size:var(--text-xs);color:var(--accent);text-transform:uppercase;letter-spacing:3px;margin-bottom:var(--sp-2)}
+.section h2{margin-bottom:var(--sp-3)}
+.section-intro{font-size:var(--text-base);color:var(--text-secondary);line-height:1.7;max-width:720px;margin-bottom:var(--sp-6)}
 
-/* Chart panels */
-.panel{background:var(--bg-surface);border-radius:var(--radius-md);border:1px solid var(--border);padding:var(--sp-6) var(--sp-5);margin-bottom:20px;display:none}
-.panel.active{display:block}
-.panel-title{font-size:var(--type-heading);font-weight:600;color:var(--text-primary);margin-bottom:4px}
-.panel-sub{font-size:var(--type-body-sm);color:var(--text-secondary);margin-bottom:16px;line-height:1.5}
-.chart-wrap-sm{height:240px}
+/* Pipeline steps */
+.pipeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--sp-4);margin-bottom:var(--sp-6)}
+.pipe-step{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);position:relative}
+.pipe-step::before{content:attr(data-step);position:absolute;top:var(--sp-3);right:var(--sp-4);font-size:var(--text-4xl);font-weight:800;font-family:var(--font-mono);color:rgba(6,182,212,0.1);line-height:1}
+.pipe-step h3{font-size:var(--text-base);font-weight:700;margin-bottom:var(--sp-2);color:var(--text-primary)}
+.pipe-step p{font-size:var(--text-sm);color:var(--text-secondary);line-height:1.6}
 
-/* Highlight utilities */
-.highlight{font-weight:600}
-.hl-pos{color:var(--green)}
-.hl-neg{color:var(--red)}
-.hl-a1{color:var(--accent)}
-.hl-a2{color:var(--yellow)}
+/* Signal components */
+.components{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--sp-4);margin-bottom:var(--sp-6)}
+.comp{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5)}
+.comp-header{display:flex;align-items:center;gap:var(--sp-3);margin-bottom:var(--sp-3)}
+.comp-icon{width:36px;height:36px;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:var(--text-lg);font-weight:700;font-family:var(--font-mono);flex-shrink:0}
+.comp h3{font-size:var(--text-base);font-weight:600}
+.comp p{font-size:var(--text-sm);color:var(--text-secondary);line-height:1.6}
+.comp-source{font-size:var(--text-xs);color:var(--text-dim);margin-top:var(--sp-2);font-family:var(--font-mono)}
 
-/* Transmission chain */
-.chain{background:var(--bg-surface);border-radius:var(--radius-md);padding:var(--sp-5) var(--sp-6);border:1px solid var(--border);margin-bottom:20px}
-.chain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
-.chain-item{display:flex;align-items:flex-start;gap:12px}
-.chain-bar{width:4px;min-height:52px;border-radius:2px;flex-shrink:0;margin-top:2px}
-.chain-from{font-size:var(--type-body-sm);font-weight:600;color:var(--text-primary)}
-.chain-val{font-size:var(--type-heading);font-weight:700;margin:2px 0}
-.chain-detail{font-size:var(--type-body-sm);color:var(--text-secondary)}
+/* Track record tables */
+.tr-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-5);margin-bottom:var(--sp-6)}
+@media(max-width:720px){.tr-grid{grid-template-columns:1fr}}
+.tr-card{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5)}
+.tr-card h3{font-size:var(--text-base);font-weight:600;margin-bottom:var(--sp-3)}
+.tr-table{width:100%;border-collapse:collapse;font-size:var(--text-sm)}
+.tr-table th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.5px}
+.tr-table th:not(:first-child){text-align:right}
+.tr-table td{padding:8px 6px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary)}
+.tr-table td:not(:first-child){text-align:right;font-family:var(--font-mono)}
+.tr-table tr:hover{background:rgba(255,255,255,0.02)}
+.hit-good{color:var(--green)}
+.hit-ok{color:var(--yellow)}
+.hit-bad{color:var(--red)}
 
-/* Scorecard table */
-.sc-table{width:100%;border-collapse:collapse;font-size:var(--type-body-sm)}
-.sc-table th{text-align:left;padding:10px 8px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--type-caption);text-transform:uppercase;letter-spacing:.5px}
-.sc-table th:not(:first-child){text-align:right}
-.sc-table td{padding:10px 8px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary)}
-.sc-table td:not(:first-child){text-align:right}
-.sc-table tr:hover{background:rgba(255,255,255,0.02)}
+/* Composite chart */
+.chart-panel{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-6)}
+.chart-panel h3{font-size:var(--text-base);font-weight:600;margin-bottom:var(--sp-3)}
+.chart-wrap{height:300px;position:relative}
 
-/* Monthly table */
-.mt-table{width:100%;border-collapse:collapse;font-size:var(--type-body-sm)}
-.mt-table th{text-align:right;padding:8px 6px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--type-caption);text-transform:uppercase;letter-spacing:.5px}
-.mt-table th:first-child{text-align:left}
-.mt-table td{padding:8px 6px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary);text-align:right}
-.mt-table td:first-child{text-align:left;color:var(--text-primary);font-weight:500}
+/* Signal history */
+.sh-wrap{max-height:480px;overflow-y:auto;border-radius:var(--radius-md);border:1px solid var(--border)}
+.sh-table{width:100%;border-collapse:collapse;font-size:var(--text-sm);font-family:var(--font-mono)}
+.sh-table th{text-align:left;padding:8px 8px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.5px;position:sticky;top:0;background:var(--bg-surface);z-index:1}
+.sh-table td{padding:7px 8px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary);white-space:nowrap}
+.sh-table tr:hover{background:rgba(255,255,255,0.02)}
+.badge{display:inline-block;padding:2px 8px;border-radius:var(--radius-xs);font-size:var(--text-xs);font-weight:600}
+.badge-sup{background:var(--green-bg);color:var(--green)}
+.badge-res{background:var(--red-bg);color:var(--red)}
+.badge-neu{background:var(--accent-bg);color:var(--accent)}
+.badge-bull{background:var(--green-bg);color:var(--green)}
+.badge-bear{background:var(--red-bg);color:var(--red)}
 
-/* Calendar */
-.cal-item{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid var(--border-subtle)}
-.cal-date{min-width:90px;font-weight:600;color:var(--accent);font-size:var(--type-body-sm)}
-.cal-event{font-size:var(--type-body-sm);color:var(--text-primary)}
-
-/* Mini title */
-.mini-title{font-size:var(--type-body-sm);font-weight:600;color:var(--text-primary);margin-bottom:8px}
+/* Disclaimer */
+.disclaimer{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-8)}
+.disclaimer p{font-size:var(--text-sm);color:var(--text-dim);line-height:1.7}
 
 /* Footer */
-.footer{font-size:var(--type-caption);color:var(--text-dim);text-align:center;padding-top:var(--sp-4);margin-top:var(--sp-2)}
+.footer{text-align:center;padding:var(--sp-8) 0;border-top:1px solid var(--border);font-size:var(--text-xs);color:var(--text-dim)}
+.footer a{color:var(--accent);text-decoration:none}
+.footer a:hover{text-decoration:underline}
 
-/* Report */
-.rpt{background:var(--bg-surface);border-radius:var(--radius-md);padding:var(--sp-5) var(--sp-6);border:1px solid var(--border);margin-bottom:16px}
-.rpt-h2{font-size:var(--type-heading);font-weight:700;color:var(--text-primary);margin:0 0 12px}
-.rpt-h3{font-size:var(--type-heading);font-weight:600;color:var(--accent);margin:16px 0 8px}
-.rpt-p{font-size:var(--type-body);color:var(--text-primary);line-height:1.7;margin-bottom:10px}
-.rpt-ul{margin:8px 0 12px 20px;font-size:var(--type-body);color:var(--text-primary);line-height:1.8}
-.rpt-ul li{margin-bottom:4px}
-.rpt-map{width:100%;border-collapse:collapse;font-size:var(--type-body-sm);margin:8px 0}
-.rpt-map th{text-align:left;padding:10px 12px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--type-caption);text-transform:uppercase;letter-spacing:.5px}
-.rpt-map td{padding:10px 12px;border-bottom:1px solid var(--border-subtle)}
-.rpt-map td:nth-child(2){color:var(--text-primary);font-weight:600}
-.rpt-fred{display:block;padding:10px 14px;background:var(--accent-bg);border-radius:var(--radius-sm);border:1px solid var(--accent-border);margin-bottom:8px;text-decoration:none;transition:var(--transition-fast)}
-.rpt-fred:hover{background:rgba(6,182,212,0.15);border-color:rgba(6,182,212,0.3)}
-.rpt-fred-title{font-size:var(--type-body-sm);font-weight:600;color:var(--accent)}
-.rpt-fred-reason{font-size:var(--type-body-sm);color:var(--text-secondary);margin-top:2px}
-.rpt-fred-url{font-size:var(--type-caption);color:var(--text-dim);margin-top:2px;word-break:break-all}
-.copy-btn{padding:10px 24px;border-radius:var(--radius-sm);border:1px solid var(--accent-border);background:rgba(6,182,212,0.2);color:var(--text-primary);cursor:pointer;font-size:var(--type-body);font-weight:600;font-family:var(--font-body);transition:var(--transition-fast);margin-bottom:20px}
-.copy-btn:hover{background:rgba(6,182,212,0.35)}
-.copy-btn.copied{border-color:var(--green);background:var(--green-bg);color:var(--green)}
-.signal-box{background:rgba(255,255,255,0.03);border-radius:10px;padding:14px 18px;border:1px solid var(--border);margin-bottom:10px}
-.signal-title{font-size:var(--type-body);font-weight:600;color:var(--yellow);margin-bottom:6px}
-
-/* Signal Log */
-.sl-health{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:20px}
-.sl-health .card-value{font-size:var(--type-heading)}
-.sl-table{width:100%;border-collapse:collapse;font-size:var(--type-body-sm);font-family:var(--font-mono)}
-.sl-table th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--type-caption);text-transform:uppercase;letter-spacing:.5px;position:sticky;top:0;background:var(--bg-base);z-index:1}
-.sl-table td{padding:7px 6px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary);white-space:nowrap}
-.sl-table tr:hover{background:rgba(255,255,255,0.02)}
-.sl-wrap{max-height:520px;overflow-y:auto;border-radius:var(--radius-md);border:1px solid var(--border)}
-.sl-badge{display:inline-block;padding:2px 8px;border-radius:var(--radius-xs);font-size:var(--type-caption);font-weight:600}
-.sl-sup{background:var(--green-bg);color:var(--green)}
-.sl-res{background:var(--red-bg);color:var(--red)}
-.sl-neu{background:var(--accent-bg);color:var(--accent)}
-.sl-gap{margin-top:12px}
-.sl-gap-toggle{display:inline-flex;align-items:center;gap:6px;cursor:pointer;font-size:var(--type-body-sm);color:var(--text-secondary);padding:6px 10px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--bg-surface);transition:var(--transition-fast)}
-.sl-gap-toggle:hover{background:var(--bg-surface-hover);color:var(--text-primary)}
-.sl-gap-toggle .sl-gap-count{color:var(--red);font-weight:700;font-family:var(--font-mono)}
-.sl-gap-toggle .sl-gap-arrow{transition:transform .2s;font-size:var(--type-caption)}
-.sl-gap-toggle.open .sl-gap-arrow{transform:rotate(90deg)}
-.sl-gap-chips{display:none;flex-wrap:wrap;gap:6px;margin-top:8px;padding:10px;border-radius:var(--radius-sm);background:var(--bg-surface);border:1px solid var(--border)}
-.sl-gap-chips.open{display:flex}
-.sl-gap-chip{display:inline-block;padding:3px 8px;border-radius:var(--radius-xs);font-size:var(--type-caption);font-family:var(--font-mono);color:var(--text-secondary);background:var(--bg-surface);border:1px solid var(--border);cursor:pointer;transition:var(--transition-fast);text-decoration:none}
-.sl-gap-chip:hover{background:var(--green-bg);color:var(--green);border-color:rgba(16,185,129,0.3)}
-.sl-gap-chip::after{content:'\2197';margin-left:4px;font-size:var(--type-caption);opacity:0;transition:opacity .15s}
-.sl-gap-chip:hover::after{opacity:1}
-.sl-section{margin-top:28px}
-.sl-section-title{font-size:var(--type-heading);font-weight:600;color:var(--text-primary);margin-bottom:4px}
-.sl-section-sub{font-size:var(--type-body-sm);color:var(--text-secondary);margin-bottom:14px}
-.rt-table{width:100%;border-collapse:collapse;font-size:var(--type-body-sm)}
-.rt-table th{text-align:left;padding:10px 8px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--type-caption);text-transform:uppercase;letter-spacing:.5px}
-.rt-table th:not(:first-child){text-align:right}
-.rt-table td{padding:10px 8px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary)}
-.rt-table td:not(:first-child){text-align:right;font-family:var(--font-mono);font-size:var(--type-body-sm)}
-.rt-table tr:hover{background:rgba(255,255,255,0.02)}
-.rt-pending{color:var(--text-dim);font-style:italic;font-family:var(--font-body)}
-
-/* Technicals */
-.tech-tooltip{position:absolute;pointer-events:none;background:rgba(15,15,19,0.95);border:1px solid rgba(255,255,255,0.15);border-radius:var(--radius-sm);padding:10px 14px;font-size:var(--type-body-sm);font-family:var(--font-mono);color:var(--text-primary);z-index:10;display:none;white-space:nowrap}
-.tech-tooltip .tt-date{font-weight:700;color:var(--text-primary);margin-bottom:4px}
-.tech-tooltip .tt-row{display:flex;justify-content:space-between;gap:16px}
-.tech-tooltip .tt-label{color:var(--text-secondary)}
-
-/* Hero Gauge — dominant top-of-page visual */
-.gauge-hero{margin-bottom:var(--sp-8);text-align:center}
-.gauge-hero .gauge-score-big{font-size:var(--type-hero);font-weight:800;font-family:var(--font-mono);line-height:1;letter-spacing:-2px;margin-bottom:var(--sp-1)}
-.gauge-hero .gauge-label-text{font-size:var(--type-heading);font-weight:600;margin-bottom:var(--sp-4)}
-.gauge-hero .gauge-bar-wrap{height:24px;border-radius:12px;max-width:600px;margin:0 auto var(--sp-2)}
-.gauge-hero .gauge-marker{height:32px;top:-4px;width:4px}
-.gauge-hero .gauge-labels{display:flex;justify-content:space-between;max-width:600px;margin:0 auto var(--sp-6);font-size:var(--type-caption);color:var(--text-dim)}
-
-/* Verdict line — one sentence summary below hero */
-.verdict{text-align:center;font-size:var(--type-body);color:var(--text-secondary);margin-bottom:var(--sp-8);line-height:1.6;max-width:700px;margin-left:auto;margin-right:auto}
-.verdict strong{color:var(--text-primary);font-weight:600}
-
-/* Gauge components row — below cards */
-.gauge-components-row{background:var(--bg-surface);border-radius:var(--radius-md);padding:var(--sp-5) var(--sp-6);border:1px solid var(--border);margin-bottom:var(--sp-8)}
-.gauge-components-row .gauge-comp-title{font-size:var(--type-caption);font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:var(--sp-4);text-align:center}
-.gauge-components{display:grid;grid-template-columns:repeat(6,1fr);gap:var(--sp-3);margin-bottom:var(--sp-4)}
-.gauge-component{background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:var(--radius-sm);padding:var(--sp-4);text-align:center;cursor:pointer;transition:var(--transition-fast);display:grid;grid-template-rows:2.4em 6px 1.4em auto;gap:var(--sp-1);align-content:start}
-.gauge-component:hover{background:var(--bg-surface-hover);border-color:var(--border-hover)}
-.gc-name{font-size:var(--type-caption);color:var(--text-secondary);text-transform:uppercase;letter-spacing:.5px;line-height:1.2;align-self:end}
-.gc-minibar{height:6px;border-radius:3px;position:relative;overflow:hidden;align-self:center}
-.gc-minibar-bg{position:absolute;inset:0;border-radius:3px;background:rgba(255,255,255,0.06)}
-.gc-minibar-fill{position:absolute;top:0;height:100%;border-radius:3px;transition:width .6s ease}
-.gc-score{font-size:var(--type-heading);font-weight:700;font-family:var(--font-mono);line-height:1}
-.gc-detail{font-size:var(--type-caption);color:var(--text-secondary)}
-.gauge-disclaimer{font-size:var(--type-caption);color:var(--text-dim);line-height:1.5;text-align:center;margin-top:var(--sp-2)}
-
-/* Legacy gauge-wrap kept for backward compat */
-.gauge-wrap{background:var(--bg-surface);border-radius:var(--radius-md);padding:var(--sp-5) var(--sp-6);border:1px solid var(--border);margin-bottom:28px}
-.gauge-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
-.gauge-title{font-size:var(--type-caption);font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:1.5px}
-.gauge-score{font-size:var(--type-heading-lg);font-weight:700;font-family:var(--font-mono)}
-.gauge-labels-old{display:flex;justify-content:space-between;font-size:var(--type-caption);color:var(--text-dim);margin-bottom:2px}
-.gauge-reading{font-size:var(--type-heading);font-weight:600;margin-bottom:16px}
-.rpt-highlight{animation:highlight 1.5s ease}
-
-/* Rel. Strength */
-.rs-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px}
-.rs-pair-sel{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:16px}
-.rs-pair-btn{padding:5px 12px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--bg-surface);color:var(--text-secondary);cursor:pointer;font-size:var(--type-body-sm);font-weight:600;font-family:var(--font-body);transition:var(--transition-fast)}
-.rs-pair-btn:hover{border-color:var(--border-hover)}
-.rs-pair-btn.active{background:var(--accent-bg);color:var(--text-primary);border-color:var(--accent-border)}
-.rs-table{width:100%;border-collapse:collapse;font-size:var(--type-body-sm)}
-.rs-table th{text-align:left;padding:10px 8px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--type-caption);text-transform:uppercase;letter-spacing:.5px}
-.rs-table th:not(:first-child){text-align:right}
-.rs-table td{padding:10px 8px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary)}
-.rs-table td:not(:first-child){text-align:right;font-family:var(--font-mono);font-size:var(--type-body-sm)}
-.rs-table tr:hover{background:rgba(255,255,255,0.02)}
-.rs-signal{display:inline-block;padding:2px 8px;border-radius:var(--radius-xs);font-size:var(--type-caption);font-weight:600}
-.rs-ow{background:var(--green-bg);color:var(--green)}
-.rs-uw{background:var(--red-bg);color:var(--red)}
-.rs-mix{background:var(--accent-bg);color:var(--accent)}
-.rs-aligned{color:var(--green)}.rs-divergent{color:var(--red)}.rs-neutral-align{color:var(--text-secondary)}
-.rs-assets{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
-.rs-assets span{display:inline-block;padding:3px 10px;border-radius:var(--radius-xs);font-size:var(--type-body-sm);font-weight:600;font-family:var(--font-mono)}
-.rs-assets .ow{background:rgba(16,185,129,0.15);color:var(--green);border:1px solid rgba(16,185,129,0.3)}
-.rs-assets .uw{background:rgba(239,68,68,0.15);color:var(--red);border:1px solid rgba(239,68,68,0.3)}
-/* Trade idea indicator */
-.trade-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;cursor:pointer;transition:var(--transition-fast);vertical-align:middle}
-.trade-dot.active{background:var(--green);box-shadow:0 0 6px rgba(16,185,129,0.5);animation:pulse 2s infinite}
-.trade-dot.inactive{background:rgba(255,255,255,0.1);cursor:default}
-.trade-panel{display:none;padding:16px 12px;background:rgba(16,185,129,0.05);border-left:3px solid var(--green);margin:0}
-.trade-panel.open{display:table-row}
-.trade-panel td{padding:16px 12px !important;border-bottom:1px solid rgba(16,185,129,0.15) !important}
-.trade-panel .tp-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.trade-panel .tp-section{font-size:var(--type-body-sm);color:var(--text-primary);line-height:1.7}
-.trade-panel .tp-label{color:var(--text-secondary);font-size:var(--type-caption);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;font-weight:600}
-.trade-panel .tp-val{font-family:var(--font-mono);font-size:var(--type-body-sm);color:var(--text-primary)}
-.trade-panel .tp-row{display:flex;justify-content:space-between;padding:2px 0}
-.trade-panel .tp-note{font-size:var(--type-caption);color:var(--text-dim);margin-top:8px;font-style:italic}
-.trade-panel .tp-close{float:right;background:none;border:1px solid var(--border);color:var(--text-secondary);padding:2px 8px;border-radius:var(--radius-xs);cursor:pointer;font-size:var(--type-caption)}
-.trade-panel .tp-close:hover{border-color:var(--border-hover);color:var(--text-primary)}
-
-/* Market Narrative */
-.narr-wrap{background:var(--bg-surface);border-radius:var(--radius-md);padding:var(--sp-4) var(--sp-5);border:1px solid var(--border);margin-bottom:20px}
-.narr-header{display:flex;justify-content:space-between;align-items:center;cursor:pointer;user-select:none}
-.narr-title{font-size:var(--type-caption);color:var(--text-secondary);text-transform:uppercase;letter-spacing:1.5px;font-weight:600}
-.narr-toggle{font-size:var(--type-caption);color:var(--text-dim);transition:transform .2s}
-.narr-header:hover .narr-title{color:var(--text-primary)}
-.narr-dominant{font-size:var(--type-heading);font-weight:700;color:var(--text-primary);margin:8px 0 4px}
-.narr-meta{font-size:var(--type-caption);color:var(--text-dim);margin-bottom:12px}
-.narr-body{overflow:hidden;transition:max-height .3s ease}
-.narr-body.collapsed{max-height:0 !important}
-.narr-topic{margin-bottom:10px}
-.narr-topic-header{display:flex;align-items:center;gap:10px;margin-bottom:3px}
-.narr-topic-name{font-size:var(--type-body-sm);font-weight:600;color:var(--text-primary);min-width:180px}
-.narr-bar-wrap{flex:1;height:8px;border-radius:4px;background:rgba(255,255,255,0.04);overflow:hidden}
-.narr-bar{height:100%;border-radius:4px;transition:width .6s ease}
-.narr-topic-pct{font-size:var(--type-body-sm);color:var(--text-secondary);font-family:var(--font-mono);min-width:40px;text-align:right}
-.narr-headlines{margin:2px 0 0 190px;font-size:var(--type-caption);color:var(--text-dim);line-height:1.6}
-.narr-headlines li{list-style:none;padding-left:10px;position:relative}
-.narr-headlines li::before{content:'\2022';position:absolute;left:0;color:var(--text-dim)}
-@media(max-width:720px){
-  .narr-topic-name{min-width:100px}.narr-headlines{margin-left:0}
-  .gauge-hero .gauge-score-big{font-size:var(--type-hero-mobile);letter-spacing:-1px}
-  .gauge-hero .gauge-label-text{font-size:var(--type-body)}
-  .gauge-components{grid-template-columns:repeat(2,1fr)}
-}
-
-/* Light mode overrides */
-[data-theme="light"] .dts-header { background: radial-gradient(circle at 10% 80%, rgba(8,145,178,0.06), transparent 40%), radial-gradient(circle at 90% 20%, rgba(37,99,235,0.04), transparent 40%); }
-[data-theme="light"] .dts-header::after { background: linear-gradient(90deg, transparent, var(--accent), transparent); }
+/* Loading */
+.loading{text-align:center;padding:var(--sp-10);color:var(--text-secondary)}
 </style>
 </head>
 <body>
-<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light mode">
-  <span id="theme-icon">&#9790;</span> <span id="theme-label">Dark</span>
-</button>
-<div class="container" id="app">
-  <div class="loading" id="loader">Loading dashboard data…</div>
+
+<div class="hero">
+  <div class="container">
+    <div class="hero-cat">Reserve Flow Analytics</div>
+    <h1>Signal Tracker</h1>
+    <p class="hero-sub">Daily macro signals generated from US Treasury fiscal flow data, institutional positioning, and technical regime analysis. Every signal is logged, every call is tracked.</p>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="hero-stat-value" id="stat-total">--</div><div class="hero-stat-label">Signals Generated</div></div>
+      <div class="hero-stat"><div class="hero-stat-value" id="stat-days">--</div><div class="hero-stat-label">Trading Days Tracked</div></div>
+      <div class="hero-stat"><div class="hero-stat-value" id="stat-since">--</div><div class="hero-stat-label">Tracking Since</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Current Regime -->
+  <div class="regime-banner" id="regime-banner">
+    <div><div class="rb-label">Fiscal Regime</div><div class="rb-value" id="rb-regime">--</div></div>
+    <div><div class="rb-label">Technical Regime</div><div class="rb-value" id="rb-tech">--</div></div>
+    <div><div class="rb-label">Composite Score</div><div class="rb-value" id="rb-composite">--</div></div>
+  </div>
+
+  <!-- What We Track -->
+  <div class="section">
+    <div class="section-label">Methodology</div>
+    <h2>What We Track</h2>
+    <p class="section-intro">Our signals are built from six independent data layers. Each measures a different dimension of liquidity, positioning, or market structure. The composite score combines them into a single daily reading.</p>
+
+    <div class="components">
+      <div class="comp">
+        <div class="comp-header">
+          <div class="comp-icon" style="background:var(--accent-bg);color:var(--accent)">F</div>
+          <h3>Fiscal Regime</h3>
+        </div>
+        <p>Net government spending vs. receipts. When the Treasury spends more than it collects, reserves flow into the private sector (supportive). When it collects more, reserves drain (restrictive).</p>
+        <div class="comp-source">Source: US Treasury Daily Treasury Statement</div>
+      </div>
+
+      <div class="comp">
+        <div class="comp-header">
+          <div class="comp-icon" style="background:var(--blue-bg);color:var(--blue)">T</div>
+          <h3>TGA Balance</h3>
+        </div>
+        <p>The Treasury General Account at the Fed. A rising TGA drains reserves from the banking system; a falling TGA adds them back. Direction and rate of change matter more than level.</p>
+        <div class="comp-source">Source: US Treasury Daily Treasury Statement</div>
+      </div>
+
+      <div class="comp">
+        <div class="comp-header">
+          <div class="comp-icon" style="background:var(--yellow-bg);color:var(--yellow)">C</div>
+          <h3>CFTC Positioning</h3>
+        </div>
+        <p>Commitment of Traders data across 5 contracts: S&P 500, 10-Year, 2-Year, USD, and VIX. Z-scores flag extreme positioning that historically precedes reversals.</p>
+        <div class="comp-source">Source: CFTC Traders in Financial Futures</div>
+      </div>
+
+      <div class="comp">
+        <div class="comp-header">
+          <div class="comp-icon" style="background:var(--green-bg);color:var(--green)">R</div>
+          <h3>Technical Regime</h3>
+        </div>
+        <p>SPX trend, breadth, and momentum indicators combined into a bullish/bearish regime classification. Provides the market structure context that fiscal flows operate within.</p>
+        <div class="comp-source">Source: FRED market data (SPX, yields, VIX, USD)</div>
+      </div>
+
+      <div class="comp">
+        <div class="comp-header">
+          <div class="comp-icon" style="background:var(--red-bg);color:var(--red)">M</div>
+          <h3>Margin Debt</h3>
+        </div>
+        <p>FINRA margin debt levels, momentum, and net balance. Extreme leverage readings historically cluster before drawdowns. Monthly data, z-scored for signal generation.</p>
+        <div class="comp-source">Source: FINRA margin statistics</div>
+      </div>
+
+      <div class="comp">
+        <div class="comp-header">
+          <div class="comp-icon" style="background:rgba(255,255,255,0.06);color:var(--text-primary)">S</div>
+          <h3>Composite Score</h3>
+        </div>
+        <p>Weighted combination of all layers into a single score from -100 (maximum caution) to +100 (maximum opportunity). Includes ETF sector tilt recommendations based on the regime.</p>
+        <div class="comp-source">Derived: weighted combination of all components</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- How Signals Are Generated -->
+  <div class="section">
+    <div class="section-label">Pipeline</div>
+    <h2>How Signals Are Generated</h2>
+    <p class="section-intro">The pipeline runs automatically every evening after the Treasury publishes the Daily Treasury Statement. No human discretion in signal generation; the rules are fixed.</p>
+
+    <div class="pipeline">
+      <div class="pipe-step" data-step="1">
+        <h3>Data Collection</h3>
+        <p>Treasury FiscalData API (3 endpoints), CFTC Socrata API (weekly), FINRA margin statistics (monthly), FRED market data (daily). All fetched automatically.</p>
+      </div>
+      <div class="pipe-step" data-step="2">
+        <h3>Analysis Engine</h3>
+        <p>1,800+ lines of deterministic Python code. Computes net fiscal injection, regime classification, z-scores, momentum, and cross-asset transmission maps. No ML, no black boxes.</p>
+      </div>
+      <div class="pipe-step" data-step="3">
+        <h3>Signal Logging</h3>
+        <p>Each day's reading is appended to an immutable log. Regime, momentum, TGA trend, COT z-scores, tech regime, margin signal, composite score. All timestamped.</p>
+      </div>
+      <div class="pipe-step" data-step="4">
+        <h3>Return Attribution</h3>
+        <p>Forward SPX returns (5, 10, 20 day) are computed against each logged signal. Hit rates are updated nightly. No cherry-picking; every signal is scored.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Track Record -->
+  <div class="section">
+    <div class="section-label">Performance</div>
+    <h2>Track Record</h2>
+    <p class="section-intro">Forward SPX returns measured at 5, 10, and 20 trading days after each signal. Hit rate = percentage of signals where the market moved in the predicted direction.</p>
+
+    <div class="tr-grid" id="track-record">
+      <div class="loading">Loading signal returns...</div>
+    </div>
+
+    <!-- Conditions gauge chart -->
+    <div class="chart-panel">
+      <h3>Market Conditions Gauge vs S&P 500</h3>
+      <p style="font-size:var(--text-sm);color:var(--text-secondary);margin-bottom:var(--sp-3);line-height:1.6">The gauge reads the macro environment, not market direction. <span style="color:var(--green)">Green</span> = conditions favor risk. <span style="color:var(--yellow)">Yellow</span> = neutral/mixed. <span style="color:var(--red)">Red</span> = conditions favor caution. When the gauge turns red before a drawdown, the system is working.</p>
+      <div class="chart-wrap" style="height:340px"><canvas id="compositeChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Signal History -->
+  <div class="section">
+    <div class="section-label">Signal Log</div>
+    <h2>Recent Signals</h2>
+    <p class="section-intro">The last 60 trading days of logged signals. Every day the pipeline runs, one row is added. Full history available in the daily Substack briefing.</p>
+
+    <div class="sh-wrap">
+      <table class="sh-table" id="signal-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Regime</th>
+            <th>Momentum</th>
+            <th>TGA ($bn)</th>
+            <th>Tech</th>
+            <th>Composite</th>
+            <th>Top Overweight</th>
+          </tr>
+        </thead>
+        <tbody id="signal-body">
+          <tr><td colspan="7" class="loading">Loading signals...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="disclaimer">
+    <p><strong>Disclaimer:</strong> This is an analytical research tool, not investment advice. Past signal performance does not guarantee future results. The fiscal flow framework provides a lens for understanding reserve mechanics and their transmission to financial markets. All signals are generated algorithmically from public data sources (US Treasury, CFTC, FINRA, FRED). No proprietary market data is used. Position sizing, entry timing, and risk management are your responsibility.</p>
+  </div>
+
+</div>
+
+<div class="footer">
+  <div class="container">
+    Reserve Flow Analytics &mdash; <a href="https://reserveflowanalytics.substack.com" target="_blank">Daily Briefing on Substack</a>
+  </div>
 </div>
 
 <script>
-const P = {pos:'#10b981',neg:'#ef4444',a1:'#06b6d4',a2:'#f59e0b',a3:'#ef4444',a4:'#3b82f6',a5:'#60a5fa',a6:'#34d399',muted:'#94A3B8',bg:'#0f0f13',grid:'rgba(255,255,255,0.06)'};
-const fmt = v => `$${v.toFixed(1)}B`;
-const fmtS = v => `${v>=0?'+':''}${v.toFixed(1)}B`;
-const pct = v => v===null||v===undefined?'n/a':`${v>=0?'+':''}${v.toFixed(1)}%`;
-const shortD = d => {const p=d.split('-');return p[1]+'/'+p[2];};
-
-function clr(v){return v>=0?P.pos:P.neg}
-
-const chartDefaults = {
-  responsive:true, maintainAspectRatio:false,
-  plugins:{legend:{display:false},tooltip:{
-    backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-    titleFont:{family:"'JetBrains Mono',monospace",size:12,weight:'bold'},
-    bodyFont:{family:"'JetBrains Mono',monospace",size:12},
-    titleColor:'#FAFAFA',bodyColor:'#FAFAFA',
-    cornerRadius:8,padding:12,
-    callbacks:{label:ctx=>`${ctx.dataset.label}: ${fmt(ctx.parsed.y??ctx.parsed.x)}`}
-  }},
-  scales:{x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted},border:{display:false}},
-          y:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted,callback:v=>`${v}B`},border:{display:false}}}
+const F={
+  num(v,d=1){if(v==null)return'--';return typeof v==='number'?v.toFixed(d):v},
+  pct(v){if(v==null)return'--';return v.toFixed(1)+'%'},
+  hitClass(r){if(r==null)return'';return r>=60?'hit-good':r>=45?'hit-ok':'hit-bad'},
+  regimeBadge(r){if(!r)return'<span class="badge badge-neu">--</span>';const m={'Supportive':'badge-sup','Restrictive':'badge-res','Neutral':'badge-neu'};return`<span class="badge ${m[r]||'badge-neu'}">${r}</span>`},
+  techBadge(t){if(!t)return'<span class="badge badge-neu">--</span>';return`<span class="badge ${t==='bullish'?'badge-bull':'badge-bear'}">${t[0].toUpperCase()+t.slice(1)}</span>`},
+  date(d){const p=d.split('-');return p[1]+'/'+p[2]+'/'+p[0].slice(2)}
 };
 
-function mergeOpts(overrides){
-  return JSON.parse(JSON.stringify({...chartDefaults,...overrides,plugins:{...chartDefaults.plugins,...(overrides.plugins||{})},scales:{...chartDefaults.scales,...(overrides.scales||{})}}));
-}
-
-let charts = {};
-function destroyChart(id){if(charts[id]){charts[id].destroy();delete charts[id];}}
-
-function gaugeColor(score){
-  if(score>=60) return '#059669';
-  if(score>=30) return P.pos;
-  if(score>=10) return '#34d399';
-  if(score>=-10) return P.muted;
-  if(score>=-30) return '#f87171';
-  if(score>=-60) return P.neg;
-  return '#dc2626';
-}
-
-function renderGaugeHero(G){
-  const pct = ((G.score + 100) / 200 * 100).toFixed(1);
-  const scoreClr = gaugeColor(G.score);
-  return `<div class="gauge-hero">
-    <div class="gauge-score-big" style="color:${scoreClr}">${G.score>0?'+':''}${G.score}</div>
-    <div class="gauge-label-text" style="color:${scoreClr}">${G.label}</div>
-    <div class="gauge-bar-wrap">
-      <div class="gauge-marker" style="left:${pct}%"></div>
-    </div>
-    <div class="gauge-labels"><span>Bearish</span><span>Neutral</span><span>Bullish</span></div>
-  </div>`;
-}
-
-function renderGaugeComponents(G){
-  const comps = G.components.map(c => {
-    const cClr = c.weighted >= 0 ? P.pos : P.neg;
-    const barLeft = c.score >= 0 ? 50 : (50 + c.score / 2);
-    const barWidth = Math.abs(c.score) / 2;
-    return `<div class="gauge-component" data-view="${c.view}" ${c.scroll?`data-scroll="${c.scroll}"`:''}>
-      <div class="gc-name">${c.name === 'Regime Momentum' ? 'Regime Mom.' : c.name}</div>
-      <div class="gc-minibar">
-        <div class="gc-minibar-bg"></div>
-        <div class="gc-minibar-fill" style="left:${barLeft}%;width:${barWidth}%;background:${cClr}"></div>
-      </div>
-      <div class="gc-score" style="color:${cClr}">${c.weighted>0?'+':''}${c.weighted}</div>
-      <div class="gc-detail">${c.detail}</div>
-    </div>`;
-  }).join('');
-
-  return `<div class="gauge-components-row">
-    <div class="gauge-comp-title mono">Score Breakdown</div>
-    <div class="gauge-components">${comps}</div>
-    <div class="gauge-disclaimer">Reflects fiscal flow conditions and speculative positioning, not investment advice. Based on DTS operational data + CFTC/FINRA signals.</div>
-  </div>`;
-}
-
-function buildDashboard(D){
-  const app = document.getElementById('app');
-  const c = D.cards, n = D.narrative, meta = D.meta;
-  const regimeClr = c.regime==='Supportive'?P.pos:c.regime==='Restrictive'?P.neg:P.a1;
-
-  // Build verdict line from data
-  const tgaDir = n.tga_5d > 0 ? 'TGA rebuilding (draining reserves)' : 'TGA drawing down (adding reserves)';
-  const momDir = n.momentum === 'accelerating' ? 'accelerating' : 'decelerating';
-  const verdictText = `<strong>${c.regime}</strong> fiscal regime, ${momDir}. ${tgaDir}. FYTD injection ${pct(c.fytd_yoy_pct)} YoY.`;
-
-  app.innerHTML = `
-  <div class="dts-header">
-    <div class="cat mono">Daily Treasury Statement</div>
-    <h1>Flow-of-Funds Dashboard</h1>
-    <div class="subtitle">FY${meta.fiscal_year} &mdash; Data through ${meta.latest}</div>
-  </div>
-
-  ${D.report&&D.report.gauge?renderGaugeHero(D.report.gauge):''}
-
-  <div class="verdict">${verdictText}</div>
-
-  <div class="cards">
-    <div class="card">
-      <div class="card-label mono">Regime</div>
-      <div class="card-value" style="color:${regimeClr}">${c.regime}</div>
-      <div class="card-change mono" style="color:${regimeClr}">${n.momentum==='accelerating'?'&#9650; Accelerating':'&#9660; Decelerating'}</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">TGA Balance</div>
-      <div class="card-value mono">${fmt(c.tga_level)}</div>
-      <div class="card-change mono" style="color:${n.tga_5d>0?P.neg:P.pos}">5d: ${n.tga_5d>0?'Rebuilding (drains)':'Drawing down (adds)'}</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">FYTD Fiscal Injection</div>
-      <div class="card-value mono">${fmt(c.fytd_cfi)}</div>
-      <div class="card-change mono" style="color:${clr(c.fytd_yoy_pct)}">${pct(c.fytd_yoy_pct)} YoY</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">MTD Injection</div>
-      <div class="card-value mono">${fmt(c.mtd_cfi)}</div>
-      <div class="card-change mono" style="color:${P.a1}">5d avg: ${fmt(c.avg_5d_cfi)}/d</div>
-    </div>
-  </div>
-
-  ${D.report&&D.report.gauge?renderGaugeComponents(D.report.gauge):''}
-
-  <div id="narrative-section"></div>
-
-  <div class="toggles">
-    <button class="tbtn active" data-view="flows">Daily Flows</button>
-    <button class="tbtn" data-view="cumulative">FYTD Comparison</button>
-    <button class="tbtn" data-view="weekly">Weekly Regime</button>
-    <button class="tbtn" data-view="composition">Composition</button>
-    <button class="tbtn" data-view="issuance">Issuance Mix</button>
-    <button class="tbtn" data-view="scorecard">Scorecard</button>
-    <button class="tbtn" data-view="analysis">Analysis</button>
-    <button class="tbtn" data-view="signals">Signal Log</button>
-    <button class="tbtn" data-view="report">&#9998; Report</button>
-    <button class="tbtn" data-view="technicals">Technicals</button>
-    <button class="tbtn" data-view="relstrength">Rel. Strength</button>
-  </div>
-
-  <!-- DAILY FLOWS -->
-  <div class="panel active" id="panel-flows">
-    <div class="panel-title">Daily Core Fiscal Injection + TGA Level</div>
-    <div class="panel-sub">Bars = withdrawals minus deposits (ex-debt)- positive = reserve add.  Line = TGA closing balance (right axis).</div>
-    <div class="chart-wrap"><canvas id="chart-flows"></canvas></div>
-    <div class="legend">
-      <span><span class="legend-dot" style="background:${P.pos}"></span>Reserve add</span>
-      <span><span class="legend-dot" style="background:${P.neg}"></span>Reserve drain</span>
-      <span><span class="legend-dot" style="background:${P.a2};border-radius:50%"></span>TGA level (right)</span>
-      <span style="color:${P.a2};font-size:var(--type-body-sm)">&#9733;</span><span style="font-size:var(--type-body-sm);color:var(--text-secondary);margin-left:4px">Coupon interest day</span>
-      <span style="color:${P.pos};font-size:var(--type-caption)">&#9650;</span><span style="font-size:var(--type-body-sm);color:var(--text-secondary);margin-left:4px">SSA payment cycle</span>
-    </div>
-  </div>
-
-  <!-- CUMULATIVE -->
-  <div class="panel" id="panel-cumulative">
-    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px">
-      <div>
-        <div class="panel-title" id="cumul-title">Cumulative Fiscal Injection - FY${meta.fiscal_year} vs FY${meta.fiscal_year-1}</div>
-        <div class="panel-sub" id="cumul-sub" style="margin-bottom:0">Running total of core fiscal injection by fiscal month. The gap between lines shows YoY change in how much the government has added to the private sector.</div>
-      </div>
-      <div style="display:flex;gap:4px;flex-shrink:0">
-        <button class="tbtn active" id="subview-cumul" style="padding:5px 14px">Cumulative</button>
-        <button class="tbtn" id="subview-delta" style="padding:5px 14px">YoY Gap</button>
-      </div>
-    </div>
-    <div class="chart-wrap" id="wrap-cumulative"><canvas id="chart-cumulative"></canvas></div>
-    <div class="chart-wrap" id="wrap-cumul-delta" style="display:none"><canvas id="chart-cumul-delta"></canvas></div>
-    <div class="legend" id="cumul-legend">
-      <span><span class="legend-dot" style="background:${P.a1}"></span>FY${meta.fiscal_year}</span>
-      <span><span class="legend-dot" style="background:${P.muted}"></span>FY${meta.fiscal_year-1}</span>
-    </div>
-    <div class="insight">
-      FY${meta.fiscal_year} cumulative injection is <span class="mono hl-neg">${fmt(c.fytd_cfi)}</span> through the latest date, versus
-      <span class="mono highlight">${c.fytd_cfi_prev!==null?fmt(c.fytd_cfi_prev):'n/a'}</span> at the same point in FY${meta.fiscal_year-1}.
-      That's a <span class="mono hl-neg">${pct(c.fytd_yoy_pct)}</span> YoY gap — the YoY Gap view shows whether this gap is closing or widening month by month.
-    </div>
-  </div>
-
-  <!-- WEEKLY -->
-  <div class="panel" id="panel-weekly">
-    <div class="panel-title">Weekly Fiscal Regime</div>
-    <div class="panel-sub">Core fiscal injection and TGA-driven reserve effect by week - smooths daily noise</div>
-    <div class="chart-wrap"><canvas id="chart-weekly"></canvas></div>
-    <div class="legend">
-      <span><span class="legend-dot" style="background:${P.pos}"></span>Fiscal injection (+) / drain (-)</span>
-      <span><span class="legend-dot" style="background:${P.a1};opacity:0.6"></span>Reserve effect (TGA-driven)</span>
-    </div>
-  </div>
-
-  <!-- COMPOSITION -->
-  <div class="panel" id="panel-composition">
-    <div class="panel-title">Monthly Composition - FY${meta.fiscal_year} vs FY${meta.fiscal_year-1}</div>
-    <div class="panel-sub">Key flow categories by fiscal month, comparing current and prior year</div>
-    <div class="grid-2">
-      <div><div class="mini-title">Tax Receipts</div><div class="chart-wrap-sm"><canvas id="chart-comp-taxes"></canvas></div></div>
-      <div><div class="mini-title">Household Transfers</div><div class="chart-wrap-sm"><canvas id="chart-comp-hh"></canvas></div></div>
-      <div><div class="mini-title">Interest Payments</div><div class="chart-wrap-sm"><canvas id="chart-comp-interest"></canvas></div></div>
-      <div><div class="mini-title">Tariff Receipts</div><div class="chart-wrap-sm"><canvas id="chart-comp-tariffs"></canvas></div></div>
-    </div>
-    <div class="legend" style="margin-top:16px">
-      <span><span class="legend-dot" style="background:rgba(255,255,255,0.15)"></span>FY${meta.fiscal_year-1}</span>
-      <span><span class="legend-dot" style="background:${P.a1}"></span>FY${meta.fiscal_year}</span>
-    </div>
-  </div>
-
-  <!-- ISSUANCE -->
-  <div class="panel" id="panel-issuance">
-    <div class="panel-title">FYTD Issuance Decomposition</div>
-    <div class="panel-sub">Net issuance by security type - different types affect different parts of the yield curve</div>
-    <div class="chart-wrap"><canvas id="chart-issuance"></canvas></div>
-    <div class="insight">
-      <strong>Bills</strong> affect front-end rates and money market demand.
-      <strong>Notes + Bonds</strong> affect term premium and duration risk.
-      <strong>GAS</strong> (Government Account Series) is trust fund investment - large swings signal extraordinary measures during debt ceiling standoffs.
-      <strong>TIPS</strong> accruals are inflation adjustments, not new cash raised.
-    </div>
-    <div style="margin-top:20px">
-      <div class="mini-title">Weekly Bill vs Coupon Supply</div>
-      <div class="chart-wrap-sm"><canvas id="chart-billcoupon"></canvas></div>
-    </div>
-  </div>
-
-  <!-- SCORECARD -->
-  <div class="panel" id="panel-scorecard">
-    <div class="panel-title">FYTD Scorecard - FY${meta.fiscal_year} vs FY${meta.fiscal_year-1}</div>
-    <div class="panel-sub">Year-over-year comparison at the same point in the fiscal year</div>
-    <table class="sc-table">
-      <thead><tr><th>Metric</th><th>FYTD Current</th><th>FYTD Prior</th><th>YoY Change</th></tr></thead>
-      <tbody id="scorecard-body"></tbody>
-    </table>
-    <div class="insight" style="margin-top:16px">
-      <strong>Operating deficit proxy:</strong> <span class="mono">${fmt(n.deficit_proxy)}</span> FYTD vs
-      <span class="mono">${n.deficit_prior!==null?fmt(n.deficit_prior):'n/a'}</span> prior year.
-    </div>
-    ${n.refund_4wk!=null?`<div class="insight" style="margin-top:10px">
-      <strong>Refund pace (trailing 4wk):</strong>
-      <span class="mono">${fmt(n.refund_4wk)}</span> vs
-      <span class="mono">${n.refund_4wk_prev!=null?fmt(n.refund_4wk_prev):'n/a'}</span> same window prior year &mdash;
-      <span class="mono" style="color:${clr(n.refund_4wk_yoy)}">${pct(n.refund_4wk_yoy)}</span>
-      ${n.refund_4wk_yoy!=null?(n.refund_4wk_yoy>=0?' &uarr; recent pace turned positive':'' ):''}
-    </div>`:''}
-    ${(()=>{
-      const row = (D.scorecard||[]).find(r=>r.label&&r.label.toLowerCase().includes('refund'));
-      if(!row||row.prior==null) return '';
-      const gap = +(row.current - row.prior).toFixed(1);
-      const gapStr = gap < 0 ? `<span class="mono" style="color:${P.neg}">${fmt(gap)}</span> vs prior year` : `<span class="mono" style="color:${P.pos}">+${fmt(gap)}</span> vs prior year`;
-      return `<div class="insight" style="margin-top:6px;border-left-color:${gap<0?P.neg:P.pos}">
-        <strong>Refund cumulative (FYTD):</strong>
-        <span class="mono">${fmt(row.current)}</span> vs <span class="mono">${fmt(row.prior)}</span> prior year &mdash;
-        ${gapStr} &mdash;
-        <span class="mono" style="color:${clr(row.yoy_pct)}">${pct(row.yoy_pct)}</span>
-        ${gap<0?' &darr; households still net-behind on total refunds received this fiscal year':''}
-      </div>`;
-    })()}
-
-
-    <div style="margin-top:28px">
-      <div class="panel-title">Monthly Regime (Last 12 Months)</div>
-      <div class="panel-sub" style="margin-bottom:12px">All values in $bn</div>
-      <div style="overflow-x:auto">
-        <table class="mt-table">
-          <thead><tr><th>Month</th><th>Core Inj.</th><th>Taxes</th><th>Tariffs</th><th>Refunds</th><th>HH Xfers</th><th>Interest</th><th>TGA &Delta;</th></tr></thead>
-          <tbody id="monthly-body"></tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <!-- ANALYSIS -->
-  <div class="panel" id="panel-analysis">
-    <div class="panel-title">Regime & Transmission Analysis</div>
-    <div class="panel-sub">Data-conditional narrative - updates automatically when the underlying flows change</div>
-
-    <div class="insight" style="margin-bottom:16px">
-      <div style="font-size:var(--type-heading);font-weight:600;color:${regimeClr};margin-bottom:8px">&#9679; ${c.regime} Regime</div>
-      ${n.regime_text}
-    </div>
-
-    <div class="cat mono" style="margin:20px 0 12px">Transmission Channels</div>
-    <div class="chain" style="background:transparent;border:none;padding:0">
-      <div class="chain-grid" id="transmission-grid"></div>
-    </div>
-
-    <div class="cat mono" style="margin:20px 0 12px">Key Category Signals</div>
-    <div class="insight">
-      <p style="margin-bottom:10px"><strong>Tax refunds:</strong> FYTD <span class="mono">${fmt(n.refund_fytd)}</span>
-      (<span class="mono" style="color:${clr(n.refund_yoy)}">${pct(n.refund_yoy)}</span> YoY).
-      Refund pace is the largest predictable household cash injection in Q1.</p>
-      <p style="margin-bottom:10px"><strong>Interest expense:</strong> Trailing 12m ~<span class="mono">${fmt(n.interest_12m)}</span>.
-      Interest is <span class="mono">${n.interest_share}%</span> of total withdrawals.
-      Every dollar paid is simultaneously a fiscal cost and bondholder income.</p>
-      <p style="margin-bottom:10px"><strong>Tariffs:</strong> <span class="mono">${n.tariff_share}%</span> of total deposits.
-      Tariffs drain private-sector cash exactly like taxes.</p>
-      ${n.gas_prev!==null&&Math.abs(n.gas_fytd-n.gas_prev)/Math.max(Math.abs(n.gas_prev),0.1)>0.3?
-        `<p style="margin-bottom:10px;color:${P.a2}"><strong>&#9888; GAS divergence:</strong> Net GAS issuance is <span class="mono">${fmt(n.gas_fytd)}</span> vs <span class="mono">${fmt(n.gas_prev)}</span> prior year. Large shifts can indicate extraordinary measures.</p>`:''}
-    </div>
-
-    <div class="cat mono" style="margin:20px 0 12px">Forward Calendar</div>
-    <div id="calendar-list"></div>
-
-    <div class="cat mono" style="margin:20px 0 12px">How This Read Gets Invalidated</div>
-    <div class="insight">
-      ${c.regime==='Supportive'?
-        'This call is invalidated if the 5d average drops below the 20d average for two consecutive sessions AND MTD net injection turns negative.':
-        c.regime==='Restrictive'?
-        'This call is invalidated if the 5d average rises above the 20d average for two consecutive sessions AND MTD injection improves to positive.':
-        'This call shifts to Supportive if: 5d > 20d AND MTD > 0 AND YoY improving. Shifts to Restrictive if: MTD turns negative OR 5d falls below 20d by a widening margin.'}
-      <br/><br/>If the FYTD YoY comparison on core fiscal injection changes sign, the entire fiscal stance read should be reassessed.
-    </div>
-  </div>
-
-  <!-- SIGNAL LOG -->
-  <div class="panel" id="panel-signals">
-    <div class="panel-title">Signal Log — Track Record Builder</div>
-    <div class="panel-sub">Every row is a timestamped snapshot of what the pipeline said that day. This is the evidence layer for the subscription product.</div>
-    <div id="signal-log-content"><div class="loading">Loading signal log…</div></div>
-    <div id="return-attribution-content"></div>
-  </div>
-
-  <!-- REPORT -->
-  <div class="panel" id="panel-report">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px">
-      <div>
-        <div class="panel-title">MacroPulse Pro Research Note</div>
-        <div class="panel-sub" style="margin-bottom:0">Institutional macro synthesis generated from Treasury flow data. Operational framework consistent with Federal Reserve and US Treasury accounting as described in the DTS.</div>
-      </div>
-      <button class="copy-btn" id="copy-report-btn" onclick="copyReport()">Copy Report Text</button>
-    </div>
-    <div id="report-content"></div>
-  </div>
-
-  <!-- TECHNICALS -->
-  <div class="panel" id="panel-technicals">
-    <div class="panel-title">ES Technical Regime — H12 SMA(20) Trend</div>
-    <div class="panel-sub">Daily RTH candles colored by SMA(20) regime. Cross-reference with the fiscal regime above — when both fundamentals and technicals align, conviction is highest.</div>
-    <div class="chart-wrap" style="height:420px;position:relative"><canvas id="chart-technicals"></canvas></div>
-    <div class="legend">
-      <span><span class="legend-dot" style="background:#10b981"></span>Bullish (close &gt; SMA)</span>
-      <span><span class="legend-dot" style="background:#ef4444"></span>Bearish (close &lt; SMA)</span>
-      <span><span class="legend-dot" style="background:#f59e0b;border-radius:50%"></span>SMA(20)</span>
-    </div>
-    <div class="insight" id="tech-insight"><strong>No technicals data.</strong> Run <code>python generate_technicals.py</code> to create technicals_data.json.</div>
-  </div>
-
-  <!-- REL. STRENGTH -->
-  <div class="panel" id="panel-relstrength">
-    <div class="panel-title">Relative Strength Ratio Analysis</div>
-    <div class="panel-sub">RS ratios ranked by fiscal flow correlation — connecting DTS regime signals to actionable asset rotation.</div>
-    <div id="rs-content"><div class="loading">Loading RS ratio data…</div></div>
-  </div>
-
-  <div class="footer mono">Source: US Treasury Daily Treasury Statement via FiscalData API</div>
-  `;
-
-  // Wire toggles
-  const switchTab = (view, scrollId) => {
-    document.querySelectorAll('.tbtn[data-view]').forEach(b=>b.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-    const btn = document.querySelector(`.tbtn[data-view="${view}"]`);
-    if(btn) btn.classList.add('active');
-    const panel = document.getElementById('panel-'+view);
-    if(panel) panel.classList.add('active');
-    renderCharts(D, view);
-    if(scrollId){
-      setTimeout(()=>{
-        const target = document.getElementById(scrollId);
-        if(target){
-          target.scrollIntoView({behavior:'smooth',block:'start'});
-          target.classList.add('rpt-highlight');
-          setTimeout(()=>target.classList.remove('rpt-highlight'),1500);
-        }
-      },100);
-    }
-  };
-
-  document.querySelectorAll('.tbtn[data-view]').forEach(btn=>{
-    btn.addEventListener('click',()=>switchTab(btn.dataset.view));
-  });
-
-  // Wire gauge component clicks
-  document.querySelectorAll('.gauge-component[data-view]').forEach(gc=>{
-    gc.addEventListener('click',()=>{
-      switchTab(gc.dataset.view, gc.dataset.scroll||null);
-    });
-  });
-
-  // Populate tables
-  const scBody = document.getElementById('scorecard-body');
-  D.scorecard.forEach(r=>{
-    const yoyClr = r.yoy_pct===null?'':r.yoy_pct>=0?P.pos:P.neg;
-    scBody.innerHTML += `<tr>
-      <td>${r.label}</td>
-      <td class="mono">${fmt(r.current)}</td>
-      <td class="mono">${r.prior!==null?fmt(r.prior):'n/a'}</td>
-      <td class="mono" style="color:${yoyClr}">${pct(r.yoy_pct)}</td>
-    </tr>`;
-  });
-
-  const mtBody = document.getElementById('monthly-body');
-  D.monthly_table.forEach(r=>{
-    mtBody.innerHTML += `<tr>
-      <td>${r.month}</td>
-      <td class="mono" style="color:${clr(r.cfi)}">${r.cfi.toFixed(1)}</td>
-      <td class="mono">${r.taxes.toFixed(1)}</td>
-      <td class="mono">${r.tariffs.toFixed(1)}</td>
-      <td class="mono">${r.refunds.toFixed(1)}</td>
-      <td class="mono">${r.hh.toFixed(1)}</td>
-      <td class="mono">${r.interest.toFixed(1)}</td>
-      <td class="mono" style="color:${clr(-r.tga_delta)}">${r.tga_delta.toFixed(1)}</td>
-    </tr>`;
-  });
-
-  // Transmission
-  const tGrid = document.getElementById('transmission-grid');
-  const tColors = [P.pos,P.neg,P.a1,P.a2];
-  D.transmission.forEach((t,i)=>{
-    const c = tColors[i]||P.a1;
-    tGrid.innerHTML += `
-    <div class="chain-item">
-      <div class="chain-bar" style="background:${c}"></div>
-      <div>
-        <div class="chain-from">${t.from} &rarr; ${t.to}</div>
-        <div class="chain-val mono" style="color:${c}">${fmt(t.value)}</div>
-        <div class="chain-detail">${t.detail}</div>
-      </div>
-    </div>`;
-  });
-
-  // Calendar
-  const calList = document.getElementById('calendar-list');
-  D.calendar.forEach(e=>{
-    calList.innerHTML += `<div class="cal-item"><span class="cal-date mono">${e.date}</span><span class="cal-event">${e.event}</span></div>`;
-  });
-
-  // Render default charts
-  renderCharts(D, 'flows');
-
-  // Render report
-  if(D.report){ window._reportData = D.report; renderReport(D.report); }
-}
-
-function renderCharts(D, view){
-  if(view==='flows' && !charts['flows']){
-    const ctx = document.getElementById('chart-flows').getContext('2d');
-    charts['flows'] = new Chart(ctx,{
-      type:'bar',
-      data:{
-        labels:D.daily.map(d=>shortD(d.date)),
-        datasets:[
-          {type:'bar',label:'Core Fiscal Injection',data:D.daily.map(d=>d.cfi),
-           backgroundColor:D.daily.map(d=>d.cfi>=0?P.pos+'D9':P.neg+'D9'),
-           borderRadius:2,barPercentage:0.7,yAxisID:'y',order:2},
-          {type:'line',label:'TGA Level',data:D.daily.map(d=>d.tga),
-           borderColor:P.a2,borderWidth:2.5,pointRadius:0,pointHoverRadius:4,
-           pointHoverBackgroundColor:P.a2,tension:0.3,yAxisID:'y1',order:1}
-        ]
-      },
-      options:{
-        responsive:true,maintainAspectRatio:false,
-        interaction:{mode:'index',intersect:false},
-        plugins:{legend:{display:false},tooltip:{
-          backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-          titleFont:{family:"'JetBrains Mono',monospace",size:12,weight:'bold'},
-          bodyFont:{family:"'JetBrains Mono',monospace",size:12},
-          titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:8,padding:12,
-          callbacks:{label:ctx=>`${ctx.dataset.label}: ${fmt(ctx.parsed.y)}`}
-        }},
-        scales:{
-          x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted,maxRotation:0,autoSkip:true,maxTicksLimit:10},border:{display:false}},
-          y:{position:'left',grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted,callback:v=>v+'B'},border:{display:false}},
-          y1:{position:'right',grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.a2+'99',callback:v=>'$'+v+'B'},border:{display:false}}
-        }
-      },
-      plugins:[{
-        id:'eventLines',
-        afterDraw(chart){
-          const {ctx,chartArea:{top,bottom}} = chart;
-          const xScale = chart.scales.x;
-          D.daily.forEach((d,i)=>{
-            const isInterest = d.interest > 10;
-            const isSSA      = d.hh_transfers > 25;
-            if(!isInterest && !isSSA) return;
-            const px = xScale.getPixelForValue(i);
-            const color = isInterest ? P.a2 : P.pos;
-            ctx.save();
-            ctx.setLineDash([3,4]);
-            ctx.strokeStyle = color+'66';
-            ctx.lineWidth = 1.5;
-            ctx.beginPath();
-            ctx.moveTo(px, top);
-            ctx.lineTo(px, bottom);
-            ctx.stroke();
-            ctx.setLineDash([]);
-            ctx.fillStyle = color+'CC';
-            ctx.font = "10px 'JetBrains Mono',monospace";
-            ctx.textAlign = 'center';
-            ctx.fillText(isInterest ? '\u2605' : '\u25B2', px, top + 12);
-            ctx.restore();
-          });
-        }
-      }]
-    });
-  }
-
-  if(view==='cumulative'){
-    const months = ['Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep'];
-    const fy_cur = D.cumulative[String(D.meta.fiscal_year)]||[];
-    const fy_prev = D.cumulative[String(D.meta.fiscal_year-1)]||[];
-
-    // Init cumulative chart (lazy, once)
-    if(!charts['cumulative']){
-      const curData = months.map((_,i)=>{const r=fy_cur.find(x=>x.fm===i+1);return r?r.cum_cfi:null;});
-      const prevData = months.map((_,i)=>{const r=fy_prev.find(x=>x.fm===i+1);return r?r.cum_cfi:null;});
-      const ctx = document.getElementById('chart-cumulative').getContext('2d');
-      charts['cumulative'] = new Chart(ctx,{
-        type:'line',
-        data:{labels:months,datasets:[
-          {label:'FY'+D.meta.fiscal_year,data:curData,borderColor:P.a1,borderWidth:2.5,pointRadius:3,pointBackgroundColor:P.a1,
-           backgroundColor:P.a1+'1F',fill:true,tension:0.3,spanGaps:false},
-          {label:'FY'+(D.meta.fiscal_year-1),data:prevData,borderColor:P.muted,borderWidth:2,borderDash:[6,3],pointRadius:2,pointBackgroundColor:P.muted,
-           backgroundColor:P.muted+'0F',fill:true,tension:0.3}
-        ]},
-        options:{responsive:true,maintainAspectRatio:false,
-          plugins:{legend:{display:false},tooltip:{
-            backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-            titleFont:{family:"'JetBrains Mono',monospace",size:12,weight:'bold'},bodyFont:{family:"'JetBrains Mono',monospace",size:12},
-            titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:8,padding:12,
-            callbacks:{label:ctx=>ctx.parsed.y!==null?`${ctx.dataset.label}: ${fmt(ctx.parsed.y)}`:''}
-          }},
-          scales:{
-            x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted},border:{display:false}},
-            y:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted,callback:v=>'$'+v+'B'},border:{display:false}}
-          }
-        }
-      });
-    }
-
-    // Wire sub-toggle (once)
-    if(!charts['cumulative-wired']){
-      charts['cumulative-wired'] = true;
-      const btnCumul = document.getElementById('subview-cumul');
-      const btnDelta = document.getElementById('subview-delta');
-      const wrapCumul = document.getElementById('wrap-cumulative');
-      const wrapDelta = document.getElementById('wrap-cumul-delta');
-      const legend  = document.getElementById('cumul-legend');
-      const title   = document.getElementById('cumul-title');
-      const sub     = document.getElementById('cumul-sub');
-
-      btnCumul.addEventListener('click',()=>{
-        btnCumul.classList.add('active'); btnDelta.classList.remove('active');
-        wrapCumul.style.display=''; wrapDelta.style.display='none';
-        legend.style.display='';
-        title.textContent='Cumulative Fiscal Injection \u2014 FY'+D.meta.fiscal_year+' vs FY'+(D.meta.fiscal_year-1);
-        sub.textContent='Running total of core fiscal injection by fiscal month. The gap between lines shows YoY change in how much the government has added to the private sector.';
-      });
-
-      btnDelta.addEventListener('click',()=>{
-        btnDelta.classList.add('active'); btnCumul.classList.remove('active');
-        wrapDelta.style.display=''; wrapCumul.style.display='none';
-        legend.style.display='none';
-        title.textContent='YoY Gap \u2014 FY'+D.meta.fiscal_year+' minus FY'+(D.meta.fiscal_year-1)+' (by fiscal month)';
-        sub.textContent='Green = current year running ahead of prior year. Red = running behind. A rising trend means the gap is closing \u2014 momentum improving.';
-
-        // Init delta chart (lazy, once)
-        if(!charts['cumul-delta']){
-          const deltaData = months.map((_,i)=>{
-            const cur  = fy_cur.find(x=>x.fm===i+1);
-            const prev = fy_prev.find(x=>x.fm===i+1);
-            return (cur && prev) ? +(cur.cum_cfi - prev.cum_cfi).toFixed(2) : null;
-          });
-          const ctx2 = document.getElementById('chart-cumul-delta').getContext('2d');
-          charts['cumul-delta'] = new Chart(ctx2,{
-            type:'bar',
-            data:{labels:months,datasets:[
-              {label:'YoY Gap',data:deltaData,
-               backgroundColor:deltaData.map(v=>v===null?'transparent':v>=0?P.pos+'CC':P.neg+'CC'),
-               borderRadius:4,barPercentage:0.5}
-            ]},
-            options:{responsive:true,maintainAspectRatio:false,
-              plugins:{legend:{display:false},tooltip:{
-                backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-                titleFont:{family:"'JetBrains Mono',monospace",size:12,weight:'bold'},bodyFont:{family:"'JetBrains Mono',monospace",size:12},
-                titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:8,padding:12,
-                callbacks:{label:c=>{
-                  const v=c.parsed.y;
-                  if(v===null) return '';
-                  return v>=0?`+${fmt(v)} ahead of prior year`:`${fmt(v)} behind prior year`;
-                }}
-              }},
-              scales:{
-                x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted},border:{display:false}},
-                y:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted,callback:v=>(v>0?'+':'')+v+'B'},border:{display:false}}
-              }
-            }
-          });
-        }
-      });
-    }
-  }
-
-  if(view==='weekly' && !charts['weekly']){
-    const ctx = document.getElementById('chart-weekly').getContext('2d');
-    charts['weekly'] = new Chart(ctx,{
-      type:'bar',
-      data:{labels:D.weekly.map(w=>w.week),datasets:[
-        {label:'Core Fiscal Injection',data:D.weekly.map(w=>w.cfi),
-         backgroundColor:D.weekly.map(w=>w.cfi>=0?P.pos+'D9':P.neg+'D9'),borderRadius:4,barPercentage:0.4},
-        {label:'Reserve Effect',data:D.weekly.map(w=>w.reserve),
-         backgroundColor:D.weekly.map(w=>w.reserve>=0?P.a1+'99':P.a3+'99'),borderRadius:4,barPercentage:0.4}
-      ]},
-      options:{responsive:true,maintainAspectRatio:false,
-        interaction:{mode:'index',intersect:false},
-        plugins:{legend:{display:false},tooltip:{
-          backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-          titleFont:{family:"'JetBrains Mono',monospace",size:12,weight:'bold'},bodyFont:{family:"'JetBrains Mono',monospace",size:12},
-          titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:8,padding:12,
-          callbacks:{label:ctx=>`${ctx.dataset.label}: ${fmt(ctx.parsed.y)}`}
-        }},
-        scales:{
-          x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted,maxRotation:0},border:{display:false}},
-          y:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted,callback:v=>v+'B'},border:{display:false}}
-        }
-      }
-    });
-  }
-
-  if(view==='composition' && !charts['comp-taxes']){
-    const allMonths = ['Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep'];
-    const fy_cur = D.cumulative[String(D.meta.fiscal_year)]||[];
-    const fy_prev = D.cumulative[String(D.meta.fiscal_year-1)]||[];
-    const maxFm = fy_cur.reduce((m,x)=>Math.max(m,x.fm),0);
-    const months = allMonths.slice(0, maxFm);
-    const get = (arr,fm,key) => {const r=arr.find(x=>x.fm===fm);return r?r[key]:0;};
-    const pairs = [
-      {id:'comp-taxes',curKey:'taxes',prevKey:'taxes',color:P.neg},
-      {id:'comp-hh',curKey:'hh',prevKey:'hh',color:P.pos},
-      {id:'comp-interest',curKey:'interest',prevKey:'interest',color:P.a2},
-      {id:'comp-tariffs',curKey:'tariffs',prevKey:'tariffs',color:P.a3},
-    ];
-    pairs.forEach(({id,curKey,prevKey,color})=>{
-      const ctx = document.getElementById('chart-'+id).getContext('2d');
-      charts[id] = new Chart(ctx,{
-        type:'bar',
-        data:{labels:months,datasets:[
-          {label:'FY'+(D.meta.fiscal_year-1),data:months.map((_,i)=>get(fy_prev,i+1,prevKey)),
-           backgroundColor:'rgba(255,255,255,0.12)',borderRadius:3,barPercentage:0.6},
-          {label:'FY'+D.meta.fiscal_year,data:months.map((_,i)=>get(fy_cur,i+1,curKey)),
-           backgroundColor:color+'D9',borderRadius:3,barPercentage:0.6}
-        ]},
-        options:{responsive:true,maintainAspectRatio:false,
-          plugins:{legend:{display:false},tooltip:{
-            backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-            titleFont:{family:"'JetBrains Mono',monospace",size:11},bodyFont:{family:"'JetBrains Mono',monospace",size:11},
-            titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:6,padding:10,
-            callbacks:{label:ctx=>`${ctx.dataset.label}: ${fmt(ctx.parsed.y)}`}
-          }},
-          scales:{
-            x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted},border:{display:false}},
-            y:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted,callback:v=>v+'B'},border:{display:false}}
-          }
-        }
-      });
-    });
-  }
-
-  if(view==='issuance' && !charts['issuance']){
-    const barColors = [P.a1,P.a2,P.a3,P.pos,P.a4,P.muted];
-    const ctx = document.getElementById('chart-issuance').getContext('2d');
-    charts['issuance'] = new Chart(ctx,{
-      type:'bar',
-      data:{labels:D.debt_decomp.map(d=>d.name),datasets:[
-        {label:'Net Issuance',data:D.debt_decomp.map(d=>d.net),
-         backgroundColor:D.debt_decomp.map((_,i)=>(barColors[i]||P.a1)+'D9'),
-         borderRadius:6,barPercentage:0.5}
-      ]},
-      options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',
-        plugins:{legend:{display:false},tooltip:{
-          backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-          titleFont:{family:"'JetBrains Mono',monospace",size:12,weight:'bold'},bodyFont:{family:"'JetBrains Mono',monospace",size:12},
-          titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:8,padding:12,
-          callbacks:{label:ctx=>`Net: ${fmt(ctx.parsed.x)}`}
-        }},
-        scales:{
-          x:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted,callback:v=>'$'+v+'B'},border:{display:false}},
-          y:{grid:{display:false},ticks:{font:{family:"'Inter',sans-serif",size:13,weight:600},color:'#FAFAFA'},border:{display:false}}
-        }
-      }
-    });
-
-    const ctx2 = document.getElementById('chart-billcoupon').getContext('2d');
-    charts['billcoupon'] = new Chart(ctx2,{
-      type:'bar',
-      data:{labels:D.weekly.map(w=>w.week),datasets:[
-        {label:'Bills (net)',data:D.weekly.map(w=>w.bills),backgroundColor:P.a1+'D9',borderRadius:3,barPercentage:0.4},
-        {label:'Coupon (net)',data:D.weekly.map(w=>w.coupon),backgroundColor:P.a2+'D9',borderRadius:3,barPercentage:0.4}
-      ]},
-      options:{responsive:true,maintainAspectRatio:false,
-        interaction:{mode:'index',intersect:false},
-        plugins:{legend:{display:false},tooltip:{
-          backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-          titleFont:{family:"'JetBrains Mono',monospace",size:11},bodyFont:{family:"'JetBrains Mono',monospace",size:11},
-          titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:6,padding:10,
-          callbacks:{label:ctx=>`${ctx.dataset.label}: ${fmt(ctx.parsed.y)}`}
-        }},
-        scales:{
-          x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted,maxRotation:0},border:{display:false}},
-          y:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted,callback:v=>v+'B'},border:{display:false}}
-        }
-      }
-    });
-  }
-
-  // Technicals — lazy render on first tab click
-  if(view==='technicals' && !charts['technicals'] && window._techData){
-    renderTechnicals(window._techData);
-    charts['technicals'] = true;
-  }
-
-  if(view==='relstrength' && !charts['relstrength-init']){
-    renderRelStrength(window._rsData || null);
-    charts['relstrength-init'] = true;
-  }
-}
-
-// -- Report tab ---------------------------------------------------------------
-function md(s){return (s||'').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');}
-
-function renderReport(R){
-  const el = document.getElementById('report-content');
-  if(!el||!R) return;
-
-  let h = '';
-
-  // Framework
-  if(R.framework){
-    h += `<div class="rpt" style="border-color:rgba(6,182,212,0.2)">
-      <div class="rpt-h2">Framework</div>
-      <div class="rpt-p">${md(R.framework)}</div>
-    </div>`;
-  }
-
-  // Executive Summary
-  h += `<div class="rpt" id="rpt-exec">
-    <div class="rpt-h2">Executive Summary</div>
-    <div class="rpt-p">${md(R.executive_summary)}</div>
-  </div>`;
-
-  // What Changed This Week
-  h += `<div class="rpt">
-    <div class="rpt-h2">What Changed in the Last Week</div>
-    <div class="rpt-p">${md(R.what_changed)}</div>
-  </div>`;
-
-  // MTD and FYTD Scorecard
-  h += `<div class="rpt">
-    <div class="rpt-h2">MTD and FYTD Scorecard</div>
-    <ul class="rpt-ul">${R.scorecard_items.map(s=>`<li>${md(s)}</li>`).join('')}</ul>
-  </div>`;
-
-  // Drivers and Attribution
-  h += `<div class="rpt">
-    <div class="rpt-h2">Drivers and Attribution</div>
-    <div class="rpt-p">${md(R.drivers)}</div>
-  </div>`;
-
-  // Key Data Signals
-  if(R.signals && R.signals.length){
-    h += `<div class="rpt">
-      <div class="rpt-h2">Key Data Signals</div>
-      ${R.signals.map(s=>`
-        <div class="signal-box">
-          <div class="signal-title">${s.title}</div>
-          <div class="rpt-p" style="margin-bottom:0">${md(s.text)}</div>
-        </div>
-      `).join('')}
-    </div>`;
-  }
-
-  // Regime Read and Forward Implications
-  h += `<div class="rpt">
-    <div class="rpt-h2">Regime Read and Forward Implications</div>
-    <div class="rpt-p"><strong>Base case:</strong> ${md(R.base_case)}</div>
-    <div class="rpt-p"><strong>Alternative scenario:</strong> ${md(R.alt_scenario)}</div>
-    <div class="rpt-p"><strong>Falsification:</strong> ${md(R.falsification)}</div>
-    ${R.forward_text?`<div class="rpt-h3">Things to Look Forward To</div><div class="rpt-p">${md(R.forward_text)}</div>`:''}
-    ${R.forward_calendar&&R.forward_calendar.length?`
-      <div class="rpt-h3">Upcoming Calendar</div>
-      <ul class="rpt-ul">${R.forward_calendar.map(c=>`<li>${md(c)}</li>`).join('')}</ul>
-    `:''}
-  </div>`;
-
-  // Market Mapping Layer
-  h += `<div class="rpt" id="rpt-market-map">
-    <div class="rpt-h2">Market Mapping Layer</div>
-    <div class="rpt-p" style="margin-bottom:12px">Auto-derived from DTS transmission analysis. These are probabilistic biases based on the operational flow of reserves, not predictions. The interest income channel partially offsets any \"restrictive\" fiscal read at current rate levels.</div>
-    <table class="rpt-map">
-      <thead><tr><th>Asset Bucket</th><th>Probabilistic Bias</th><th>Reasoning</th></tr></thead>
-      <tbody>${R.market_map.map(m=>`
-        <tr><td>${m.asset}</td><td>${m.bias}</td><td style="color:var(--text-secondary);font-size:var(--type-body-sm)">${m.reason}</td></tr>
-      `).join('')}</tbody>
-    </table>
-  </div>`;
-
-  // ETF Sector Tilts
-  if(R.etf_tilts && R.etf_tilts.items && R.etf_tilts.items.length){
-    const tiltColor = (t) => t === 'overweight' ? 'var(--green)' : t === 'underweight' ? 'var(--red)' : 'var(--text-secondary)';
-    const tiltBadge = (t) => `<span style="color:${tiltColor(t)};font-weight:600">${t.charAt(0).toUpperCase()+t.slice(1)}</span>`;
-    const catIcon = (c) => ({'cyclical':'\u{1F4C8}','defensive':'\u{1F6E1}','safe-haven':'\u{1F4B0}','growth':'\u{1F680}','credit':'\u{1F4B3}'}[c]||'');
-    const activeItems = R.etf_tilts.items.filter(t => t.tilt !== 'neutral');
-    h += `<div class="rpt" id="rpt-etf-tilts">
-      <div class="rpt-h2">ETF Sector Tilts</div>
-      <div class="rpt-p" style="margin-bottom:12px">${R.etf_tilts.summary||''}</div>
-      <table class="rpt-map">
-        <thead><tr><th>Ticker</th><th>Name</th><th>Category</th><th>Tilt</th><th>Rationale</th></tr></thead>
-        <tbody>${activeItems.map(t=>`
-          <tr>
-            <td style="font-weight:700;font-family:'JetBrains Mono',monospace">${t.ticker}</td>
-            <td>${t.name}</td>
-            <td>${catIcon(t.category)} ${t.category}</td>
-            <td>${tiltBadge(t.tilt)}</td>
-            <td style="color:var(--text-secondary);font-size:var(--type-body-sm)">${t.rationale}</td>
-          </tr>
-        `).join('')}</tbody>
-      </table>
-      ${R.etf_tilts.contrarian_watch && R.etf_tilts.contrarian_watch.length ?
-        `<div class="rpt-p" style="margin-top:14px"><strong>Contrarian Watchlist:</strong> ${
-          R.etf_tilts.contrarian_watch.map(w=>`<span style="font-weight:600">${w.ticker}</span> (${w.rationale})`).join(' · ')
-        }</div>` : ''}
-    </div>`;
-  }
-
-  // Speculative Positioning (COT)
-  if(R.cot && R.cot.items && R.cot.items.length){
-    const zColor = (z) => z > 1.5 ? 'var(--red)' : z > 1 ? 'var(--yellow)' : z < -1.5 ? 'var(--green)' : z < -1 ? 'var(--blue-bright)' : 'var(--text-secondary)';
-    const sigBadge = (sig) => {
-      const colors = {'Extreme Long':'var(--red)','Elevated Long':'var(--yellow)','Extreme Short':'var(--green)','Elevated Short':'var(--blue-bright)','Neutral':'var(--text-secondary)'};
-      return `<span style="color:${colors[sig]||'var(--text-secondary)'};font-weight:600">${sig}</span>`;
-    };
-    h += `<div class="rpt" id="rpt-cot">
-      <div class="rpt-h2">Speculative Positioning - Contrarian Indicator</div>
-      <div class="rpt-p" style="margin-bottom:4px">CFTC Commitment of Traders (Traders in Financial Futures). Leveraged Funds = hedge funds &amp; CTAs - historically wrong at extremes.</div>
-      <div class="rpt-p" style="margin-bottom:12px;font-size:var(--type-body-sm);color:var(--text-secondary)">Data as of: ${R.cot.data_date || 'N/A'} · Published weekly on Friday for prior Tuesday positions · Z-score >1.5 or <-1.5 = extreme</div>
-      <table class="rpt-map">
-        <thead><tr><th>Contract</th><th>Lev Net</th><th>Z-Score</th><th>%ile</th><th>1w Chg</th><th>Signal</th></tr></thead>
-        <tbody>${R.cot.items.map(c=>`
-          <tr>
-            <td>${c.label}</td>
-            <td style="font-family:'JetBrains Mono',monospace;font-size:var(--type-body-sm)">${(c.lev_net>0?'+':'')+c.lev_net.toLocaleString()}</td>
-            <td style="color:${zColor(c.z_score)};font-weight:700;font-family:'JetBrains Mono',monospace">${c.z_score>0?'+':''}${c.z_score.toFixed(1)}</td>
-            <td style="font-size:var(--type-body-sm)">${c.percentile.toFixed(0)}%</td>
-            <td style="font-family:'JetBrains Mono',monospace;font-size:var(--type-body-sm);color:${c.weekly_change>0?'var(--green)':'var(--red)'}">${c.weekly_change>0?'+':''}${c.weekly_change.toLocaleString()}</td>
-            <td>${sigBadge(c.signal)}</td>
-          </tr>
-        `).join('')}</tbody>
-      </table>
-      ${R.cot.narrative ? `<div class="rpt-p" style="margin-top:14px">${md(R.cot.narrative)}</div>` : ''}
-    </div>`;
-  }
-
-  // Speculative Leverage (FINRA Margin Debt)
-  if(R.margin && R.margin.margin_debt_bn != null){
-    const M = R.margin;
-    const mzColor = (z) => z > 1.5 ? 'var(--red)' : z > 1 ? 'var(--yellow)' : z < -1.5 ? 'var(--green)' : z < -1 ? 'var(--blue-bright)' : 'var(--text-secondary)';
-    const mSigBadge = (sig) => {
-      const colors = {'Extreme Leverage':'var(--red)','Elevated Leverage':'var(--yellow)','Extreme Deleveraging':'var(--green)','Reduced Leverage':'var(--blue-bright)','Normal':'var(--text-secondary)'};
-      return `<span style="color:${colors[sig]||'var(--text-secondary)'};font-weight:600">${sig}</span>`;
-    };
-    const mFmt = (v,dp=1) => v != null ? (v>0?'+':'')+v.toFixed(dp) : 'N/A';
-    h += `<div class="rpt" id="rpt-margin">
-      <div class="rpt-h2">Speculative Leverage - FINRA Margin Debt</div>
-      <div class="rpt-p" style="margin-bottom:4px">Aggregate debit balances in customer securities margin accounts. Proxy for speculative leverage — historically peaks near market tops.</div>
-      <div class="rpt-p" style="margin-bottom:12px;font-size:var(--type-body-sm);color:var(--text-secondary)">Data as of: ${M.month || 'N/A'} · Published monthly ~3rd week of following month · Z-score vs trailing 24 months</div>
-      <table class="rpt-map">
-        <thead><tr><th>Metric</th><th>Value</th></tr></thead>
-        <tbody>
-          <tr><td>Margin Debt</td><td style="font-family:'JetBrains Mono',monospace;font-weight:700">$${M.margin_debt_bn.toFixed(1)}bn</td></tr>
-          <tr><td>Net Balance (Free Credit − Debt)</td><td style="font-family:'JetBrains Mono',monospace;color:${M.net_margin_balance_bn < 0 ? 'var(--red)' : 'var(--green)'}">$${M.net_margin_balance_bn.toFixed(1)}bn</td></tr>
-          <tr><td>Month-over-Month</td><td style="font-family:'JetBrains Mono',monospace;color:${M.mom_change_pct > 0 ? 'var(--red)' : 'var(--green)'}">${mFmt(M.mom_change_pct)}%</td></tr>
-          <tr><td>Year-over-Year</td><td style="font-family:'JetBrains Mono',monospace;color:${M.yoy_change_pct > 0 ? 'var(--red)' : 'var(--green)'}">${mFmt(M.yoy_change_pct)}%</td></tr>
-          <tr><td>3-Month Trend</td><td style="font-weight:600;color:${M.trend_3m==='Rising'?'var(--red)':M.trend_3m==='Falling'?'var(--green)':'var(--text-secondary)'}">${M.trend_3m}</td></tr>
-          <tr><td>Z-Score (24m)</td><td style="color:${mzColor(M.z_score_24m)};font-weight:700;font-family:'JetBrains Mono',monospace">${mFmt(M.z_score_24m,2)}</td></tr>
-          <tr><td>Percentile (24m)</td><td style="font-family:'JetBrains Mono',monospace">${M.percentile_24m != null ? M.percentile_24m.toFixed(0) : 'N/A'}%</td></tr>
-          <tr><td>Signal</td><td>${mSigBadge(M.signal)}</td></tr>
-        </tbody>
-      </table>
-      ${M.narrative ? `<div class="rpt-p" style="margin-top:14px">${md(M.narrative)}</div>` : ''}
-    </div>`;
-  }
-
-  // FRED References
-  if(R.fred_refs && R.fred_refs.length){
-    h += `<div class="rpt" id="rpt-fred">
-      <div class="rpt-h2">Suggested FRED Charts</div>
-      <div class="rpt-p" style="margin-bottom:12px">Data-conditional references - include in your note where they add context to the current flow picture.</div>
-      ${R.fred_refs.map(f=>`
-        <a class="rpt-fred" href="${f.url}" target="_blank" rel="noopener">
-          <div class="rpt-fred-title">${f.title}</div>
-          <div class="rpt-fred-reason">${f.reason}</div>
-          <div class="rpt-fred-url">${f.url}</div>
-        </a>
-      `).join('')}
-    </div>`;
-  }
-
-  // Risks, Seasonality, and Data Caveats
-  h += `<div class="rpt">
-    <div class="rpt-h2">Risks, Seasonality, and Data Caveats</div>
-    <ul class="rpt-ul">${R.caveats.map(c=>`<li>${c}</li>`).join('')}</ul>
-  </div>`;
-
-  el.innerHTML = h;
-}
-
-function copyReport(){
-  const R = window._reportData;
-  if(!R) return;
-
-  // Build plain text version for LinkedIn
-  let t = '';
-  t += 'MacroPulse Pro Research Note\n';
-  t += 'Institutional macro synthesis generated from Treasury flow data, refreshed with the dashboard pipeline.\n\n';
-  t += R.date + '\n\n';
-
-  if(R.framework){
-    t += 'Framework\n\n';
-    t += R.framework.replace(/\*\*/g,'') + '\n\n';
-  }
-
-  t += 'Executive Summary\n\n';
-  t += R.executive_summary.replace(/\*\*/g,'') + '\n\n';
-
-  t += 'What Changed in the Last Week\n\n';
-  t += R.what_changed.replace(/\*\*/g,'') + '\n\n';
-
-  t += 'MTD and FYTD Scorecard\n\n';
-  R.scorecard_items.forEach(s=>{ t += '\u2022 ' + s.replace(/\*\*/g,'') + '\n'; });
-  t += '\n';
-
-  t += 'Drivers and Attribution\n\n';
-  t += R.drivers.replace(/\*\*/g,'') + '\n\n';
-
-  if(R.signals && R.signals.length){
-    t += 'Key Data Signals\n\n';
-    R.signals.forEach(s=>{
-      t += s.title + '\n';
-      t += s.text.replace(/\*\*/g,'') + '\n\n';
-    });
-  }
-
-  t += 'Regime Read and Forward Implications\n\n';
-  t += 'Base case: ' + R.base_case.replace(/\*\*/g,'') + '\n\n';
-  t += 'Alternative scenario: ' + R.alt_scenario.replace(/\*\*/g,'') + '\n\n';
-  t += 'Falsification: ' + R.falsification.replace(/\*\*/g,'') + '\n\n';
-
-  if(R.forward_text){
-    t += 'Things to Look Forward To\n\n';
-    t += R.forward_text.replace(/\*\*/g,'') + '\n\n';
-  }
-
-  t += 'Market Mapping Layer\n\n';
-  R.market_map.forEach(m=>{
-    t += m.asset + ': ' + m.bias + '\n';
-    t += '  ' + m.reason + '\n';
-  });
-  t += '\n';
-
-  if(R.etf_tilts && R.etf_tilts.items && R.etf_tilts.items.length){
-    t += 'ETF Sector Tilts\n\n';
-    t += (R.etf_tilts.summary || '') + '\n\n';
-    R.etf_tilts.items.forEach(e=>{
-      if(e.tilt !== 'neutral') t += e.ticker + ' (' + e.name + '): ' + e.tilt + ' - ' + e.rationale + '\n';
-    });
-    if(R.etf_tilts.contrarian_watch && R.etf_tilts.contrarian_watch.length){
-      t += '\nContrarian Watchlist:\n';
-      R.etf_tilts.contrarian_watch.forEach(w=>{ t += w.ticker + ': ' + w.rationale + '\n'; });
-    }
-    t += '\n';
-  }
-
-  if(R.cot && R.cot.items && R.cot.items.length){
-    t += 'Speculative Positioning - Contrarian Indicator (CFTC COT)\n\n';
-    R.cot.items.forEach(c=>{
-      t += c.label + ': Net ' + (c.lev_net>0?'+':'') + c.lev_net.toLocaleString() + ' | Z-Score: ' + c.z_score.toFixed(1) + ' | Signal: ' + c.signal + '\n';
-    });
-    t += '\n';
-    if(R.cot.narrative) t += R.cot.narrative.replace(/\*\*/g,'') + '\n\n';
-  }
-
-  t += 'Risks, Seasonality, and Data Caveats\n\n';
-  R.caveats.forEach(c=>{ t += '\u2022 ' + c + '\n'; });
-
-  navigator.clipboard.writeText(t).then(()=>{
-    const btn = document.getElementById('copy-report-btn');
-    btn.textContent = '\u2713 Copied!';
-    btn.classList.add('copied');
-    setTimeout(()=>{ btn.textContent = 'Copy Report Text'; btn.classList.remove('copied'); }, 2500);
-  });
-}
-
-// ── Signal Log tab ──────────────────────────────────────────────────────────
-function renderSignalLog(entries){
-  const el = document.getElementById('signal-log-content');
-  if(!el) return;
-
-  if(!entries || entries.length === 0){
-    el.innerHTML = `<div class="insight"><strong>No signal data yet.</strong> The signal log starts accumulating after the first daily pipeline run with log_daily_signal.py. Check that run_daily_dts.sh includes the logging step.</div>`;
-    return;
-  }
-
-  // Sort newest first
-  const sorted = [...entries].sort((a,b) => b.date.localeCompare(a.date));
-
-  // Health metrics
-  const totalDays = sorted.length;
-  const newest = sorted[0].date;
-  const oldest = sorted[sorted.length-1].date;
-
-  // US Federal holidays — computed algorithmically for any year
-  const usFederalHolidays = (year) => {
-    const h = new Set();
-    const obs = (m, d) => { // observed date: Mon if Sun, Fri if Sat
-      const dt = new Date(year, m, d), dow = dt.getDay();
-      if(dow===0) dt.setDate(d+1); else if(dow===6) dt.setDate(d-1);
-      h.add(dt.toISOString().slice(0,10));
-    };
-    const nth = (m, wd, n) => { // nth weekday of month
-      const dt = new Date(year, m, 1); let cnt=0;
-      while(true){ if(dt.getDay()===wd&&++cnt===n) return dt.toISOString().slice(0,10); dt.setDate(dt.getDate()+1); }
-    };
-    const last = (m, wd) => { // last weekday of month
-      const dt = new Date(year, m+1, 0);
-      while(dt.getDay()!==wd) dt.setDate(dt.getDate()-1);
-      return dt.toISOString().slice(0,10);
-    };
-    obs(0,1);           // New Year's Day
-    h.add(nth(0,1,3));  // MLK Day (3rd Mon Jan)
-    h.add(nth(1,1,3));  // Presidents' Day (3rd Mon Feb)
-    h.add(last(4,1));   // Memorial Day (last Mon May)
-    obs(5,19);          // Juneteenth
-    obs(6,4);           // Independence Day
-    h.add(nth(8,1,1));  // Labor Day (1st Mon Sep)
-    h.add(nth(9,1,2));  // Columbus Day (2nd Mon Oct)
-    obs(10,11);         // Veterans Day
-    h.add(nth(10,4,4)); // Thanksgiving (4th Thu Nov)
-    obs(11,25);         // Christmas
-    return h;
-  };
-
-  // Gap detection — find missing business days (excluding weekends + US Federal holidays)
-  const dateSet = new Set(sorted.map(e=>e.date));
-  const gaps = [];
-  if(totalDays > 1){
-    const start = new Date(oldest+'T00:00:00');
-    const end = new Date(newest+'T00:00:00');
-    const usHolidays = new Set();
-    for(let y=start.getFullYear(); y<=end.getFullYear(); y++){
-      usFederalHolidays(y).forEach(d=>usHolidays.add(d));
-    }
-    for(let d = new Date(start); d <= end; d.setDate(d.getDate()+1)){
-      const dow = d.getDay();
-      if(dow===0||dow===6) continue; // skip weekends
-      const ds = d.toISOString().slice(0,10);
-      if(usHolidays.has(ds)) continue; // skip US Federal holidays
-      if(!dateSet.has(ds)) gaps.push(ds);
-    }
-  }
-
-  // Regime breakdown
-  const regimeCounts = {};
-  sorted.forEach(e => { regimeCounts[e.regime] = (regimeCounts[e.regime]||0) + 1; });
-
-  // Days until Step 2 threshold
-  const daysTo30 = Math.max(0, 30 - totalDays);
-
-  const regimeBadge = (r) => {
-    const cls = r==='Supportive'?'sl-sup':r==='Restrictive'?'sl-res':'sl-neu';
-    return `<span class="sl-badge ${cls}">${r}</span>`;
-  };
-
-  const zClr = (z) => {
-    if(z===null||z===undefined) return 'var(--text-dim)';
-    if(z > 1.5) return '#ef4444';
-    if(z > 1.0) return '#f59e0b';
-    if(z < -1.5) return '#10b981';
-    if(z < -1.0) return '#60a5fa';
-    return 'var(--text-secondary)';
-  };
-
-  const fmtZ = (z) => {
-    if(z===null||z===undefined) return '—';
-    return (z>=0?'+':'')+z.toFixed(1);
-  };
-
-  let h = '';
-
-  // Health cards
-  h += `<div class="sl-health">
-    <div class="card">
-      <div class="card-label mono">Days Logged</div>
-      <div class="card-value mono" style="color:${totalDays>=30?P.pos:P.a2}">${totalDays}</div>
-      <div class="card-change mono" style="color:${daysTo30>0?'var(--yellow)':'var(--green)'}">${daysTo30>0?daysTo30+' to Step 2':'✓ Ready for Step 2'}</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">Latest Entry</div>
-      <div class="card-value mono">${newest}</div>
-      <div class="card-change mono" style="color:var(--text-secondary)">Oldest: ${oldest}</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">Gaps Detected</div>
-      <div class="card-value mono" style="color:${gaps.length>0?P.neg:P.pos}">${gaps.length}</div>
-      <div class="card-change mono" style="color:${gaps.length>0?'var(--red)':'var(--green)'}">${gaps.length>0?'Missing business days':'No gaps'}</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">Regime Split</div>
-      <div class="card-value" style="font-size:var(--type-body)">${Object.entries(regimeCounts).map(([r,c])=>regimeBadge(r)+' '+c).join(' ')}</div>
-    </div>
-  </div>`;
-
-  // Gap warning — collapsible chips with search links
-  if(gaps.length > 0){
-    const gapChips = gaps.map(d => {
-      const q = encodeURIComponent(`US Treasury closed ${d} federal holiday`);
-      return `<a class="sl-gap-chip" href="https://www.google.com/search?q=${q}" target="_blank" rel="noopener" title="Search why ${d} is missing">${d}</a>`;
-    }).join('');
-    h += `<div class="sl-gap">
-      <span class="sl-gap-toggle" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
-        <span class="sl-gap-arrow">▶</span>
-        <span class="sl-gap-count">${gaps.length}</span> missing business days — click dates to search why
-      </span>
-      <div class="sl-gap-chips">${gapChips}</div>
-    </div>`;
-  }
-
-  // Table
-  h += `<div class="sl-wrap"><table class="sl-table">
-    <thead><tr>
-      <th>Date</th><th>Regime</th><th>Momentum</th>
-      <th>TGA ($bn)</th><th>TGA Trend</th>
-      <th>5d Inj ($M)</th><th>20d Inj ($M)</th>
-      <th>Eq Bias</th><th>USD Bias</th>
-      <th>SPX z</th><th>10Y z</th><th>2Y z</th><th>VIX z</th>
-    </tr></thead>
-    <tbody>`;
-
-  sorted.forEach(e => {
-    h += `<tr>
-      <td style="color:var(--text-primary);font-weight:600">${e.date}</td>
-      <td>${regimeBadge(e.regime)}</td>
-      <td style="color:${e.regime_momentum==='Accelerating'?P.pos:e.regime_momentum==='Decelerating'?P.neg:P.muted}">${e.regime_momentum}</td>
-      <td>${e.tga_level!==null?e.tga_level.toFixed(0):'—'}</td>
-      <td style="color:${e.tga_trend==='Building'?P.neg:e.tga_trend==='Drawing'?P.pos:P.muted}">${e.tga_trend}</td>
-      <td style="color:${(e.net_fiscal_injection_5d||0)>=0?P.pos:P.neg}">${e.net_fiscal_injection_5d!==null?e.net_fiscal_injection_5d.toLocaleString():'—'}</td>
-      <td>${e.net_fiscal_injection_20d!==null?e.net_fiscal_injection_20d.toLocaleString():'—'}</td>
-      <td style="font-size:var(--type-caption)">${e.market_map_equities||'—'}</td>
-      <td style="font-size:var(--type-caption)">${e.market_map_usd||'—'}</td>
-      <td style="color:${zClr(e.cot_sp500_zscore)};font-weight:700">${fmtZ(e.cot_sp500_zscore)}</td>
-      <td style="color:${zClr(e.cot_10y_zscore)};font-weight:700">${fmtZ(e.cot_10y_zscore)}</td>
-      <td style="color:${zClr(e.cot_2y_zscore)};font-weight:700">${fmtZ(e.cot_2y_zscore)}</td>
-      <td style="color:${zClr(e.cot_vix_zscore)};font-weight:700">${fmtZ(e.cot_vix_zscore)}</td>
-    </tr>`;
-  });
-
-  h += `</tbody></table></div>`;
-
-  el.innerHTML = h;
-}
-
-// ── Return Attribution ─────────────────────────────────────────────────────
-function renderReturnAttribution(data){
-  const el = document.getElementById('return-attribution-content');
-  if(!el) return;
-
-  if(!data || !data.summary){
-    el.innerHTML = '';
-    return;
-  }
-
-  const S = data.summary;
-  const scored = data.scored_signals || 0;
-  const total = data.total_signals || 0;
-
-  const fmtHr = (hr) => {
-    if(!hr || hr.rate===null || hr.rate===undefined) return `<span class="rt-pending">pending</span>`;
-    const clr = hr.rate >= 60 ? P.pos : hr.rate < 40 ? P.neg : P.muted;
-    return `<span style="color:${clr};font-weight:700">${hr.rate.toFixed(0)}%</span> <span style="color:var(--text-dim);font-size:var(--type-caption)">(${hr.hits}/${hr.total})</span>`;
-  };
-
-  const fmtRet = (v, suffix='%') => {
-    if(v===null||v===undefined) return `<span class="rt-pending">pending</span>`;
-    const clr = v >= 0 ? P.pos : P.neg;
-    return `<span style="color:${clr}">${v>=0?'+':''}${v.toFixed(2)}${suffix}</span>`;
-  };
-
-  let h = '';
-
-  // Scoring progress
-  h += `<div class="sl-section">
-    <div class="sl-section-title">Return Attribution</div>
-    <div class="sl-section-sub">Forward returns scored against each logged signal. Updated daily as new market closes arrive. Computed at: ${data.computed_at||'—'}</div>
-  </div>`;
-
-  h += `<div class="sl-health" style="margin-bottom:20px">
-    <div class="card">
-      <div class="card-label mono">Signals Scored (5d)</div>
-      <div class="card-value mono" style="color:${scored>0?P.pos:P.a2}">${scored}/${total}</div>
-      <div class="card-change mono" style="color:var(--text-secondary)">${total-scored} awaiting forward data</div>
-    </div>
-  </div>`;
-
-  // Regime performance table
-  const regimes = S.regime_performance || {};
-  if(Object.keys(regimes).length > 0){
-    h += `<div class="sl-section" style="margin-top:16px">
-      <div class="sl-section-title">Regime → SPX Performance</div>
-      <div class="sl-section-sub">When the pipeline called Supportive, did SPX go up? When Restrictive, did it go down?</div>
-      <table class="rt-table">
-        <thead><tr><th>Regime</th><th>Count</th><th>5d Avg</th><th>5d Hit</th><th>10d Avg</th><th>10d Hit</th><th>20d Avg</th><th>20d Hit</th></tr></thead>
-        <tbody>`;
-
-    for(const regime of ['Supportive','Neutral','Restrictive']){
-      const p = regimes[regime];
-      if(!p) continue;
-      const badge = regime==='Supportive'?'sl-sup':regime==='Restrictive'?'sl-res':'sl-neu';
-      h += `<tr>
-        <td><span class="sl-badge ${badge}">${regime}</span> <span style="color:var(--text-dim);font-size:var(--type-body-sm)">(${p.count})</span></td>
-        <td class="mono">${p.count}</td>
-        <td>${fmtRet(p.avg_spx_5d)}</td><td>${fmtHr(p.hit_rate_5d)}</td>
-        <td>${fmtRet(p.avg_spx_10d)}</td><td>${fmtHr(p.hit_rate_10d)}</td>
-        <td>${fmtRet(p.avg_spx_20d)}</td><td>${fmtHr(p.hit_rate_20d)}</td>
-      </tr>`;
-    }
-    h += `</tbody></table></div>`;
-  }
-
-  // Market map performance
-  const maps = S.market_map_performance || {};
-  if(Object.keys(maps).length > 0){
-    const mapLabels = {equities:'Equities',usd:'USD',front_end:'Front-End Rates',term_premium:'Term Premium'};
-    h += `<div class="sl-section" style="margin-top:24px">
-      <div class="sl-section-title">Market Map Directional Calls</div>
-      <div class="sl-section-sub">Hit rate when the pipeline made a directional bias call (excludes Neutral)</div>
-      <table class="rt-table">
-        <thead><tr><th>Asset</th><th>Directional Calls</th><th>5d Hit</th><th>10d Hit</th><th>20d Hit</th></tr></thead>
-        <tbody>`;
-    for(const [key, p] of Object.entries(maps)){
-      h += `<tr>
-        <td>${mapLabels[key]||key}</td>
-        <td class="mono">${p.count}</td>
-        <td>${fmtHr(p.hit_rate_5d)}</td>
-        <td>${fmtHr(p.hit_rate_10d)}</td>
-        <td>${fmtHr(p.hit_rate_20d)}</td>
-      </tr>`;
-    }
-    h += `</tbody></table></div>`;
-  }
-
-  // COT contrarian performance
-  const cots = S.cot_performance || {};
-  if(Object.keys(cots).length > 0){
-    h += `<div class="sl-section" style="margin-top:24px">
-      <div class="sl-section-title">COT Contrarian Signals</div>
-      <div class="sl-section-sub">Returns when leveraged funds hit extreme positioning (z-score ±1.5)</div>
-      <table class="rt-table">
-        <thead><tr><th>Contract / Signal</th><th>Count</th><th>5d Avg</th><th>5d Hit</th><th>10d Avg</th><th>10d Hit</th><th>20d Avg</th><th>20d Hit</th></tr></thead>
-        <tbody>`;
-    for(const [label, p] of Object.entries(cots)){
-      const dispLabel = label.replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
-      h += `<tr>
-        <td>${dispLabel} <span style="color:var(--text-dim);font-size:var(--type-caption)">(${p.signal})</span></td>
-        <td class="mono">${p.count}</td>
-        <td>${fmtRet(p.avg_ret_5d,'')}</td><td>${fmtHr(p.hit_rate_5d)}</td>
-        <td>${fmtRet(p.avg_ret_10d,'')}</td><td>${fmtHr(p.hit_rate_10d)}</td>
-        <td>${fmtRet(p.avg_ret_20d,'')}</td><td>${fmtHr(p.hit_rate_20d)}</td>
-      </tr>`;
-    }
-    h += `</tbody></table></div>`;
-  }
-
-  // Combined performance
-  const combined = S.combined_performance || {};
-  if(Object.keys(combined).length > 0){
-    h += `<div class="sl-section" style="margin-top:24px">
-      <div class="sl-section-title">Combined Regime + COT (Premium Signals)</div>
-      <div class="sl-section-sub">Highest conviction: fiscal regime AND contrarian positioning aligned</div>
-      <table class="rt-table">
-        <thead><tr><th>Setup</th><th>Count</th><th>5d Avg</th><th>5d Hit</th><th>10d Avg</th><th>10d Hit</th><th>20d Avg</th><th>20d Hit</th></tr></thead>
-        <tbody>`;
-    for(const [label, p] of Object.entries(combined)){
-      h += `<tr>
-        <td>${label}</td>
-        <td class="mono">${p.count}</td>
-        <td>${fmtRet(p.avg_spx_5d)}</td><td>${fmtHr(p.hit_rate_5d)}</td>
-        <td>${fmtRet(p.avg_spx_10d)}</td><td>${fmtHr(p.hit_rate_10d)}</td>
-        <td>${fmtRet(p.avg_spx_20d)}</td><td>${fmtHr(p.hit_rate_20d)}</td>
-      </tr>`;
-    }
-    h += `</tbody></table></div>`;
-  }
-
-  // VIX-bucketed performance
-  const vb = S.vix_bucketed || {};
-  if(vb.labels && vb.buckets && vb.signals){
-    const labels = vb.labels;
-    const bk = vb.buckets;
-    const sigs = vb.signals;
-
-    // Bucket header with VIX ranges
-    let bucketDesc = labels.map(l => {
-      const b = bk[l];
-      return b ? `${l.replace('_',' ')}: VIX ${b.vix_min}-${b.vix_max} (n=${b.count})` : l;
-    }).join(' | ');
-
-    h += `<div class="sl-section" style="margin-top:24px">
-      <div class="sl-section-title">Signal Performance by VIX Environment</div>
-      <div class="sl-section-sub">Same signals sliced by volatility regime at signal date. Expanding percentile buckets (no lookahead). ${bucketDesc}</div>`;
-
-    // SPX direction table
-    h += `<table class="rt-table" style="margin-top:12px">
-      <thead><tr><th>Signal</th>`;
-    for(const l of labels){
-      const b = bk[l];
-      h += `<th colspan="2">${l.replace('_',' ')} (VIX ~${b?b.vix_median:'?'})</th>`;
-    }
-    h += `</tr><tr><th></th>`;
-    for(const l of labels){
-      h += `<th>Hit Rate</th><th>Avg SPX</th>`;
-    }
-    h += `</tr></thead><tbody>`;
-
-    // Row: SPX direction (unconditional)
-    const spxd = sigs.spx_direction || {};
-    for(const horizon of ['5d','10d','20d']){
-      h += `<tr><td>SPX up (${horizon})</td>`;
-      for(const l of labels){
-        const d = spxd[l] || {};
-        const rate = d[`spx_up_rate_${horizon}`];
-        const avg = d[`avg_spx_${horizon}`];
-        const n = d[`n_${horizon}`] || 0;
-        if(rate !== null && rate !== undefined){
-          const clr = rate >= 60 ? P.pos : rate < 40 ? P.neg : P.muted;
-          h += `<td><span style="color:${clr};font-weight:700">${rate.toFixed(0)}%</span> <span style="color:var(--text-dim);font-size:var(--type-caption)">(${n})</span></td>`;
-        } else {
-          h += `<td class="rt-pending">pending</td>`;
-        }
-        h += `<td>${fmtRet(avg)}</td>`;
-      }
-      h += `</tr>`;
-    }
-
-    // Row: Tech bullish
-    const tb = sigs.tech_bullish || {};
-    for(const horizon of ['5d','10d','20d']){
-      h += `<tr><td>Tech bullish (${horizon})</td>`;
-      for(const l of labels){
-        const d = tb[l] || {};
-        const hr = d[`hit_rate_${horizon}`];
-        const avg = d[`avg_spx_${horizon}`];
-        h += `<td>${fmtHr(hr)}</td><td>${fmtRet(avg)}</td>`;
-      }
-      h += `</tr>`;
-    }
-
-    // Row: Tech bearish
-    const tbr = sigs.tech_bearish || {};
-    for(const horizon of ['5d','10d','20d']){
-      h += `<tr><td>Tech bearish (${horizon})</td>`;
-      for(const l of labels){
-        const d = tbr[l] || {};
-        const hr = d[`hit_rate_${horizon}`];
-        const avg = d[`avg_spx_${horizon}`];
-        h += `<td>${fmtHr(hr)}</td><td>${fmtRet(avg)}</td>`;
-      }
-      h += `</tr>`;
-    }
-
-    // Row: COT crowd short
-    const cs = sigs.cot_crowd_short || {};
-    for(const horizon of ['5d','10d','20d']){
-      h += `<tr><td>COT crowd short (${horizon})</td>`;
-      for(const l of labels){
-        const d = cs[l] || {};
-        const hr = d[`hit_rate_${horizon}`];
-        const avg = d[`avg_spx_${horizon}`];
-        h += `<td>${fmtHr(hr)}</td><td>${fmtRet(avg)}</td>`;
-      }
-      h += `</tr>`;
-    }
-
-    h += `</tbody></table></div>`;
-  }
-
-  // Empty state hint
-  if(scored === 0){
-    h += `<div class="insight" style="margin-top:16px">
-      <strong>All returns pending.</strong> Forward returns fill in as trading days pass — 5d returns will appear first (after ~1 week of logging), then 10d and 20d. The FRED cache updates daily. Check back in a few days.
-    </div>`;
-  }
-
-  el.innerHTML = h;
-}
-
-// ── Technicals tab ──────────────────────────────────────────────────────────
-function renderTechnicals(techData){
-  const canvas = document.getElementById('chart-technicals');
-  const insightEl = document.getElementById('tech-insight');
-  if(!canvas || !techData || !techData.data || techData.data.length===0){
-    if(insightEl) insightEl.innerHTML = '<strong>No technicals data.</strong> Run <code>python generate_technicals.py</code> to create technicals_data.json.';
-    return;
-  }
-
-  const data = techData.data;
-  const n = data.length;
-  const ctx = canvas.getContext('2d');
-  const dpr = window.devicePixelRatio || 1;
-
-  // Dimensions from parent container
-  const rect = canvas.parentElement.getBoundingClientRect();
-  const W = rect.width;
-  const H = rect.height;
-  canvas.width = W * dpr;
-  canvas.height = H * dpr;
-  canvas.style.width = W + 'px';
-  canvas.style.height = H + 'px';
-  ctx.scale(dpr, dpr);
-
-  const mTop = 16, mBot = 36, mLeft = 60, mRight = 16;
-  const cW = W - mLeft - mRight;
-  const cH = H - mTop - mBot;
-
-  // Price range with 3% padding
-  let pMax = -Infinity, pMin = Infinity;
-  data.forEach(d => { if(d.high > pMax) pMax = d.high; if(d.low < pMin) pMin = d.low; });
-  const pad = (pMax - pMin) * 0.03;
-  const yMax = pMax + pad, yMin = pMin - pad;
-  const toY = p => mTop + cH * (1 - (p - yMin) / (yMax - yMin));
-
-  // Candle geometry
-  const slotW = cW / n;
-  const bodyW = Math.max(1, Math.floor(slotW * 0.65));
-  const toX = i => mLeft + slotW * i + slotW / 2;
-
-  // Regime colors: Green=Bullish, Red=Bearish, Blue=Neutral
-  const regClr = { bullish: '#10b981', bearish: '#ef4444', neutral: '#06b6d4' };
-
-  // Date label spacing
-  const labelStep = Math.max(1, Math.floor(n / 10));
-
-  // ── Draw function (called for initial render + crosshair restore) ──
-  function drawChart(){
-    ctx.clearRect(0, 0, W, H);
-
-    // Grid lines + y-axis price labels
-    const nGrid = 6;
-    ctx.textAlign = 'right';
-    ctx.textBaseline = 'middle';
-    ctx.font = '11px "JetBrains Mono", monospace';
-    for(let i = 0; i <= nGrid; i++){
-      const price = yMin + (yMax - yMin) * i / nGrid;
-      const y = toY(price);
-      ctx.strokeStyle = 'rgba(255,255,255,0.06)';
-      ctx.lineWidth = 1;
-      ctx.setLineDash([]);
-      ctx.beginPath(); ctx.moveTo(mLeft, y); ctx.lineTo(W - mRight, y); ctx.stroke();
-      ctx.fillStyle = '#94A3B8';
-      ctx.fillText(Math.round(price).toString(), mLeft - 8, y);
-    }
-
-    // Candles
-    for(let i = 0; i < n; i++){
-      const d = data[i];
-      const x = toX(i);
-      const color = regClr[d.regime] || regClr.neutral;
-
-      // Wick
-      ctx.strokeStyle = color;
-      ctx.lineWidth = 1;
-      ctx.setLineDash([]);
-      ctx.beginPath(); ctx.moveTo(x, toY(d.high)); ctx.lineTo(x, toY(d.low)); ctx.stroke();
-
-      // Body
-      const bTop = toY(Math.max(d.open, d.close));
-      const bBot = toY(Math.min(d.open, d.close));
-      ctx.fillStyle = color;
-      ctx.fillRect(x - bodyW / 2, bTop, bodyW, Math.max(1, bBot - bTop));
-    }
-
-    // SMA(20) line
-    ctx.strokeStyle = '#f59e0b';
-    ctx.lineWidth = 1.5;
-    ctx.setLineDash([]);
-    ctx.beginPath();
-    let started = false;
-    for(let i = 0; i < n; i++){
-      if(data[i].sma !== null){
-        const x = toX(i);
-        const y = toY(data[i].sma);
-        if(!started){ ctx.moveTo(x, y); started = true; } else ctx.lineTo(x, y);
-      }
-    }
-    ctx.stroke();
-
-    // X-axis date labels
-    ctx.fillStyle = '#94A3B8';
-    ctx.font = '10px "JetBrains Mono", monospace';
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'top';
-    for(let i = 0; i < n; i += labelStep){
-      ctx.fillText(data[i].date.slice(5), toX(i), H - mBot + 8);
-    }
-  }
-
-  // Initial draw
-  drawChart();
-
-  // Save rendered chart for fast crosshair restore
-  const chartImg = ctx.getImageData(0, 0, canvas.width, canvas.height);
-
-  // ── Tooltip + crosshair ──
-  let tooltipDiv = canvas.parentElement.querySelector('.tech-tooltip');
-  if(!tooltipDiv){
-    tooltipDiv = document.createElement('div');
-    tooltipDiv.className = 'tech-tooltip';
-    canvas.parentElement.appendChild(tooltipDiv);
-  }
-
-  let lastIdx = -1;
-
-  canvas.onmousemove = function(e){
-    const r = canvas.getBoundingClientRect();
-    const mx = e.clientX - r.left;
-    const my = e.clientY - r.top;
-
-    const idx = Math.floor((mx - mLeft) / slotW);
-    if(idx < 0 || idx >= n || mx < mLeft || mx > W - mRight || my < mTop || my > H - mBot){
-      tooltipDiv.style.display = 'none';
-      if(lastIdx >= 0){ ctx.putImageData(chartImg, 0, 0); lastIdx = -1; }
-      return;
-    }
-
-    if(idx !== lastIdx){
-      lastIdx = idx;
-      const d = data[idx];
-      const chg = d.close - d.open;
-      const chgPct = ((chg / d.open) * 100).toFixed(2);
-      const regLabel = d.regime.charAt(0).toUpperCase() + d.regime.slice(1);
-      const regColor = regClr[d.regime] || regClr.neutral;
-
-      tooltipDiv.innerHTML =
-        `<div class="tt-date">${d.date}</div>` +
-        `<div class="tt-row"><span class="tt-label">O</span> <span>${d.open.toFixed(2)}</span></div>` +
-        `<div class="tt-row"><span class="tt-label">H</span> <span>${d.high.toFixed(2)}</span></div>` +
-        `<div class="tt-row"><span class="tt-label">L</span> <span>${d.low.toFixed(2)}</span></div>` +
-        `<div class="tt-row"><span class="tt-label">C</span> <span style="color:${chg >= 0 ? P.pos : P.neg}">${d.close.toFixed(2)} (${chg >= 0 ? '+' : ''}${chgPct}%)</span></div>` +
-        (d.sma !== null ? `<div class="tt-row"><span class="tt-label">SMA</span> <span style="color:#f59e0b">${d.sma.toFixed(2)}</span></div>` : '') +
-        `<div class="tt-row"><span class="tt-label">Regime</span> <span style="color:${regColor};font-weight:700">${regLabel}</span></div>`;
-      tooltipDiv.style.display = 'block';
-
-      // Position tooltip — flip if near right edge
-      const ttW = tooltipDiv.offsetWidth;
-      let tx = toX(idx) + 12;
-      if(tx + ttW > W - 10) tx = toX(idx) - ttW - 12;
-      tooltipDiv.style.left = tx + 'px';
-      tooltipDiv.style.top = Math.max(0, my - 60) + 'px';
-    }
-
-    // Restore chart image and draw crosshair
-    ctx.putImageData(chartImg, 0, 0);
-    ctx.save();
-    ctx.strokeStyle = 'rgba(255,255,255,0.2)';
-    ctx.lineWidth = 1;
-    ctx.setLineDash([4, 4]);
-    // Crosshair uses CSS-pixel coords (transform still active)
-    const cx = toX(lastIdx);
-    ctx.beginPath(); ctx.moveTo(cx, mTop); ctx.lineTo(cx, H - mBot); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(mLeft, my); ctx.lineTo(W - mRight, my); ctx.stroke();
-    ctx.restore();
-  };
-
-  canvas.onmouseleave = function(){
-    tooltipDiv.style.display = 'none';
-    if(lastIdx >= 0){ ctx.putImageData(chartImg, 0, 0); lastIdx = -1; }
-  };
-
-  // ── Insight box ──
-  if(insightEl){
-    const latest = data[n - 1];
-    const regLabel = latest.regime.charAt(0).toUpperCase() + latest.regime.slice(1);
-    const regColor = regClr[latest.regime];
-
-    // Streak count
-    let streak = 1;
-    for(let i = n - 2; i >= 0; i--){
-      if(data[i].regime === latest.regime) streak++; else break;
-    }
-
-    // Last regime transition
-    let transDate = null, transFrom = null, transTo = null;
-    for(let i = n - 1; i > 0; i--){
-      if(data[i].regime !== data[i - 1].regime){
-        transDate = data[i].date;
-        transFrom = data[i - 1].regime.charAt(0).toUpperCase() + data[i - 1].regime.slice(1);
-        transTo = data[i].regime.charAt(0).toUpperCase() + data[i].regime.slice(1);
-        break;
-      }
-    }
-
-    // Regime breakdown
-    const counts = { bullish: 0, bearish: 0 };
-    data.forEach(d => { if(counts[d.regime] !== undefined) counts[d.regime]++; });
-
-    let txt = `<strong style="color:${regColor}">Current: ${regLabel}</strong> — ${streak} consecutive day${streak > 1 ? 's' : ''}.`;
-    if(transDate) txt += ` Last transition: ${transFrom} &rarr; ${transTo} on ${transDate}.`;
-    txt += `<br/>${techData.lookback_days}-day breakdown: <span style="color:#10b981">${counts.bullish} bullish</span>, <span style="color:#ef4444">${counts.bearish} bearish</span>.`;
-    if(latest.sma !== null){
-      const diff = latest.close - latest.sma;
-      txt += ` Close ${diff >= 0 ? 'above' : 'below'} SMA(20) by <span class="mono">${Math.abs(diff).toFixed(1)} pts</span>.`;
-    }
-    txt += `<br/>Generated: ${techData.generated_at || 'unknown'}.`;
-    insightEl.innerHTML = txt;
-  }
-}
-
-// ── Trade Ideas (backtest-validated pair/direction combos for IG) ────────────
-const TRADE_IDEAS = {
-  // key: "PAIR|direction" where direction matches the signal type
-  // long_num = "Overweight numerator" or "Numerator favored"
-  // short_num = "Underweight numerator" or "Denominator favored"
-  'GLD/SPY|long_num':  {mean:2.75,hit:66.0,horizon:20,note:'Strongest edge. Gold vs equity risk-off trend-follow.'},
-  'XLY/XLV|long_num':  {mean:1.19,hit:49.7,horizon:20,note:'Discretionary vs healthcare cyclical rotation.'},
-  'XLI/GLD|short_num': {mean:1.03,hit:60.7,horizon:20,note:'Fade industrial vs gold when gold leads.'},
-  'XLB/XLRE|long_num': {mean:0.92,hit:56.0,horizon:20,note:'Materials outperformance vs real estate.'},
-  'XLE/XLK|short_num': {mean:0.83,hit:55.8,horizon:20,note:'Fade energy vs tech when tech leads.'},
-  'XLY/XLP|long_num':  {mean:0.69,hit:55.5,horizon:20,note:'Borderline edge. Discretionary vs staples.'},
-};
-// IG availability constraints (only for ETFs with NO stock proxy)
-const IG_UNAVAIL = {
-  'HYG':'No CFD available — no single-stock proxy for high-yield bonds'
-};
-// Stock proxies for sector ETFs — swap tickers here during forward testing
-// Index/commodity instruments (GLD, SPY, IWM, TLT) trade directly, no proxy needed
-const STOCK_PROXY = {
-  XLE: {ticker:'XOM',  name:'Exxon Mobil',       pts:15876, margin:0.20, spread:0.0017},
-  XLK: {ticker:'AAPL', name:'Apple',              pts:25400, margin:0.20, spread:0.0011},
-  XLY: {ticker:'AMZN', name:'Amazon',             pts:21490, margin:0.20, spread:0.0017},
-  XLP: {ticker:'PG',   name:'Procter & Gamble',   pts:15140, margin:0.20, spread:0.0036},
-  XLI: {ticker:'BA',   name:'Boeing',              pts:21032, margin:0.20, spread:0.0022},
-  XLV: {ticker:'UNH',  name:'UnitedHealth',       pts:28729, margin:0.20, spread:0.0013},
-  XLB: {ticker:'FCX',  name:'Freeport-McMoRan',   pts:5805,  margin:0.20, spread:0.0037},
-  XLRE:{ticker:'LEN',  name:'Lennar',              pts:9698,  margin:0.20, spread:0.0086},
-  XLF: {ticker:'JPM',  name:'JPMorgan Chase',     pts:28676, margin:0.20, spread:0.0028},
-  XLU: {ticker:'DUK',  name:'Duke Energy',         pts:13287, margin:0.20, spread:0.0071},
-  KRE: {ticker:'SCHW', name:'Charles Schwab',      pts:9416,  margin:0.20, spread:0.0071},
-};
-// IG spread classification and pricing (from Yusuf, 2026-03-06)
-const IG_ETF_INFO = {
-  // US Major (0.1% spread, 10c cap) — index/commodity CFDs
-  GLD:{cls:'US Major',spread:0.001,ig:'Spot Gold',igCode:'Spot Gold',pts:5090,margin:0.05},
-  IWM:{cls:'US Major',spread:0.001,ig:'US Russell 2000',igCode:'US Russell 2000',pts:25609,margin:0.05},
-  SPY:{cls:'US Major',spread:0.001,ig:'US 500',igCode:'US 500',pts:6745,margin:0.05},
-  TLT:{cls:'US Major',spread:0.001,ig:'US T-Bond',igCode:'US T-Bond',pts:8832,margin:0.05},
-  // US Other (0.15% spread, 10c cap) — Invesco UCITS sector ETFs
-  XLB:{cls:'US Other',spread:0.0015,ig:'XLBP',igCode:'XLBP',pts:45670,margin:0.25},
-  XLE:{cls:'US Other',spread:0.0015,ig:'XLEP',igCode:'XLEP',pts:58860,margin:0.20},
-  XLF:{cls:'US Other',spread:0.0015,ig:'XLFP',igCode:'XLFP',pts:5115,margin:0.20},
-  XLI:{cls:'US Other',spread:0.0015,ig:'XLIP',igCode:'XLIP',pts:70250,margin:0.20},
-  XLK:{cls:'US Other',spread:0.0015,ig:'XLKQ',igCode:'XLKQ',pts:61309,margin:0.20},
-  XLP:{cls:'US Other',spread:0.0015,ig:'XLPP',igCode:'XLPP',pts:56810,margin:0.20},
-  XLRE:{cls:'US Other',spread:0.0015,ig:'XRES',igCode:'XRES',pts:2606,margin:0.20},
-  XLU:{cls:'US Other',spread:0.0015,ig:'XLUP',igCode:'XLUP',pts:4683,margin:0.20},
-  XLV:{cls:'US Other',spread:0.0015,ig:'XLVP',igCode:'XLVP',pts:56399,margin:0.20},
-  XLY:{cls:'US Other',spread:0.0015,ig:'XLYP',igCode:'XLYP',pts:61780,margin:0.25}
-};
-// Cost parameters (IG spread betting)
-const IG_COSTS = {carry_daily:0.000196};
-// ETF prices loaded from rs_ratios.json at runtime ($ per share)
-let ETF_PRICES_USD = {};
-
-function getTradeIdea(pair) {
-  const sig = pair.signal || '';
-  const isLongNum = sig.includes('Overweight') || sig.includes('Numerator favored');
-  const isShortNum = sig.includes('Underweight') || sig.includes('Denominator favored');
-  const dir = isLongNum ? 'long_num' : isShortNum ? 'short_num' : null;
-  if (!dir) return null;
-  const key = pair.name + '|' + dir;
-  const idea = TRADE_IDEAS[key];
-  if (!idea) return null;
-  const numBlock = STOCK_PROXY[pair.numerator] ? null : IG_UNAVAIL[pair.numerator];
-  const denBlock = STOCK_PROXY[pair.denominator] ? null : IG_UNAVAIL[pair.denominator];
-  return {...idea, dir, numBlock, denBlock, pair};
-}
-
-function buildTradePanel(idea, capital) {
-  capital = capital || 2993;
-  const marginUse = 0.60;
-  const marginAvail = capital * marginUse;
-
-  var num = idea.pair.numerator, den = idea.pair.denominator;
-  // Use stock proxy if available, otherwise fall back to index/commodity instrument
-  var numProxy = STOCK_PROXY[num];
-  var denProxy = STOCK_PROXY[den];
-  var numTicker = numProxy ? numProxy.ticker : num;
-  var denTicker = denProxy ? denProxy.ticker : den;
-  var numInfo = numProxy
-    ? {cls:'US Stock',spread:numProxy.spread,ig:numProxy.name,igCode:numProxy.ticker,pts:numProxy.pts,margin:numProxy.margin}
-    : (IG_ETF_INFO[num] || {cls:'US Other',spread:0.0015,pts:10000,margin:0.20,ig:num,igCode:num});
-  var denInfo = denProxy
-    ? {cls:'US Stock',spread:denProxy.spread,ig:denProxy.name,igCode:denProxy.ticker,pts:denProxy.pts,margin:denProxy.margin}
-    : (IG_ETF_INFO[den] || {cls:'US Other',spread:0.0015,pts:10000,margin:0.20,ig:den,igCode:den});
-
-  // ── Sizing from IG minimum stake (0.24 £/pt) ──
-  var MIN_STAKE = 0.24;
-  var numMarginRate = numInfo.margin || 0.20;
-  var denMarginRate = denInfo.margin || 0.20;
-  var numPricePts = numInfo.pts;
-  var denPricePts = denInfo.pts;
-
-  // Minimum margin needed at 0.24/pt per leg
-  // exposure = price (pts) * stake (£/pt)
-  var numMinExposure = numPricePts * MIN_STAKE;
-  var denMinExposure = denPricePts * MIN_STAKE;
-  var numMinMargin = numMinExposure * numMarginRate;
-  var denMinMargin = denMinExposure * denMarginRate;
-  var totalMinMargin = numMinMargin + denMinMargin;
-  var minCapital = Math.ceil(totalMinMargin / marginUse);
-
-  // Scale up from minimum if capital allows
-  var scaleFactor = (totalMinMargin > 0) ? Math.max(1, marginAvail / totalMinMargin) : 1;
-  var insufficientCapital = marginAvail < totalMinMargin;
-  if (insufficientCapital) scaleFactor = 1; // show minimum stakes even if over budget
-
-  var numStake = Math.floor(MIN_STAKE * scaleFactor * 100) / 100;
-  var denStake = Math.floor(MIN_STAKE * scaleFactor * 100) / 100;
-  if (numStake < MIN_STAKE) numStake = MIN_STAKE;
-  if (denStake < MIN_STAKE) denStake = MIN_STAKE;
-
-  var numExposure = numPricePts * numStake;
-  var denExposure = denPricePts * denStake;
-
-  // Use IG prices (points) for stake calc, yfinance USD for display
-  var numPriceUSD = numProxy ? (numInfo.pts / 100) : (ETF_PRICES_USD[num] || (numInfo.pts / 100));
-  var denPriceUSD = denProxy ? (denInfo.pts / 100) : (ETF_PRICES_USD[den] || (denInfo.pts / 100));
-
-  // Spread cost per leg: stake (£/pt) * spread (pts) * 2 (round-trip)
-  var numSpreadPts = numPricePts * numInfo.spread;
-  var denSpreadPts = denPricePts * denInfo.spread;
-  var numSpreadCost = numStake * numSpreadPts * 2;
-  var denSpreadCost = denStake * denSpreadPts * 2;
-  var totalSpreadCost = numSpreadCost + denSpreadCost;
-
-  var carryCost = (numExposure + denExposure) * IG_COSTS.carry_daily * idea.horizon;
-  var totalCost = totalSpreadCost + carryCost;
-  var expectedGross = ((numExposure + denExposure) / 2) * (idea.mean / 100);
-  var expectedNet = expectedGross - totalCost;
-  var actualMarginUsed = numExposure * numMarginRate + denExposure * denMarginRate;
-  var freeMargin = capital - actualMarginUsed;
-  var totalExposure = numExposure + denExposure;
-  var bufferPct = freeMargin > 0 ? (freeMargin / totalExposure * 100).toFixed(1) : '0';
-
-  var numDir, denDir;
-  if (idea.dir === 'long_num') { numDir = 'Long'; denDir = 'Short'; }
-  else { numDir = 'Short'; denDir = 'Long'; }
-
-  var blocked = '';
-  if (idea.numBlock) blocked += '<div style="color:#ef4444;font-size:var(--type-caption);margin-top:6px">' + num + ' (' + numTicker + '): ' + idea.numBlock + '</div>';
-  if (idea.denBlock) blocked += '<div style="color:#ef4444;font-size:var(--type-caption);margin-top:6px">' + den + ' (' + denTicker + '): ' + idea.denBlock + '</div>';
-
-  return '<div class="tp-grid">'
-    + '<div class="tp-section">'
-    + '<div class="tp-label">Trade Structure</div>'
-    + '<div class="tp-row"><span>Direction</span><span class="tp-val">' + numDir + ' ' + numTicker + (numProxy ? ' <span style="color:var(--text-dim)">(' + num + ')</span>' : '') + ' / ' + denDir + ' ' + denTicker + (denProxy ? ' <span style="color:var(--text-dim)">(' + den + ')</span>' : '') + '</span></div>'
-    + '<div class="tp-row"><span>IG instruments</span><span class="tp-val">' + numInfo.igCode + (numProxy ? ' <span style="color:var(--text-dim)">' + numProxy.name + '</span>' : '') + ' / ' + denInfo.igCode + (denProxy ? ' <span style="color:var(--text-dim)">' + denProxy.name + '</span>' : '') + '</span></div>'
-    + '<div class="tp-row"><span>Hold period</span><span class="tp-val">' + idea.horizon + ' trading days</span></div>'
-    + '<div class="tp-row"><span>Backtest mean return</span><span class="tp-val" style="color:#10b981">+' + idea.mean.toFixed(2) + '%</span></div>'
-    + '<div class="tp-row"><span>Backtest hit rate</span><span class="tp-val">' + idea.hit.toFixed(1) + '%</span></div>'
-    + '<div class="tp-note">' + idea.note + '</div>'
-    + blocked
-    + '</div>'
-    + '<div class="tp-section">'
-    + '<div class="tp-label">IG Spread Bet Ticket' + (insufficientCapital ? ' <span style="color:#ef4444">— needs \u00A3' + minCapital.toLocaleString() + '+ capital</span>' : ' (\u00A3' + capital.toLocaleString() + ' capital)') + '</div>'
-    + '<div class="tp-row" style="margin-bottom:6px"><span>Min account balance (0.24/pt both legs, 60% margin use)</span><span class="tp-val' + (insufficientCapital ? '" style="color:#ef4444"' : '"') + '>\u00A3' + minCapital.toLocaleString() + '</span></div>'
-    + '<table style="width:100%;border-collapse:collapse;font-size:var(--type-body-sm);margin-bottom:8px">'
-    + '<thead><tr style="border-bottom:1px solid rgba(255,255,255,0.1)">'
-    + '<th style="text-align:left;padding:4px 0;color:var(--text-secondary);font-size:var(--type-caption)">LEG</th>'
-    + '<th style="text-align:left;padding:4px 0;color:var(--text-secondary);font-size:var(--type-caption)">DIR</th>'
-    + '<th style="text-align:right;padding:4px 0;color:var(--text-secondary);font-size:var(--type-caption)">IG PRICE</th>'
-    + '<th style="text-align:right;padding:4px 0;color:var(--text-secondary);font-size:var(--type-caption)">STAKE</th>'
-    + '<th style="text-align:right;padding:4px 0;color:var(--text-secondary);font-size:var(--type-caption)">MARGIN%</th>'
-    + '<th style="text-align:right;padding:4px 0;color:var(--text-secondary);font-size:var(--type-caption)">EXPOSURE</th>'
-    + '<th style="text-align:right;padding:4px 0;color:var(--text-secondary);font-size:var(--type-caption)">MARGIN</th>'
-    + '</tr></thead><tbody>'
-    + '<tr><td style="padding:4px 0;color:var(--text-primary);font-weight:600">' + numInfo.igCode + '</td>'
-    + '<td style="padding:4px 0;color:' + (numDir==='Long'?'#10b981':'#ef4444') + '">' + numDir + '</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">' + numPricePts.toLocaleString() + ' pts</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + numStake.toFixed(2) + '/pt</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace;color:var(--text-dim)">' + (numMarginRate*100).toFixed(0) + '%</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(numExposure).toLocaleString() + '</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(numExposure * numMarginRate).toLocaleString() + '</td></tr>'
-    + '<tr><td style="padding:4px 0;color:var(--text-primary);font-weight:600">' + denInfo.igCode + '</td>'
-    + '<td style="padding:4px 0;color:' + (denDir==='Long'?'#10b981':'#ef4444') + '">' + denDir + '</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">' + denPricePts.toLocaleString() + ' pts</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + denStake.toFixed(2) + '/pt</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace;color:var(--text-dim)">' + (denMarginRate*100).toFixed(0) + '%</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(denExposure).toLocaleString() + '</td>'
-    + '<td style="text-align:right;padding:4px 0;font-family:JetBrains Mono,monospace">\u00A3' + Math.round(denExposure * denMarginRate).toLocaleString() + '</td></tr>'
-    + '</tbody></table>'
-    + '<div class="tp-row"><span>Total exposure</span><span class="tp-val">\u00A3' + Math.round(totalExposure).toLocaleString() + '</span></div>'
-    + '<div class="tp-row"><span>Margin used</span><span class="tp-val">\u00A3' + Math.round(actualMarginUsed).toLocaleString() + '</span></div>'
-    + '<div class="tp-row"><span>Free margin (buffer)</span><span class="tp-val' + (freeMargin < 0 ? '" style="color:#ef4444"' : '"') + '>\u00A3' + Math.round(freeMargin).toLocaleString() + (freeMargin > 0 ? ' (~' + bufferPct + '% adverse move)' : ' — increase capital') + '</span></div>'
-    + '<div class="tp-row" style="border-top:1px solid rgba(255,255,255,0.08);padding-top:4px;margin-top:4px"><span>Spread cost (round-trip)</span><span class="tp-val">\u00A3' + totalSpreadCost.toFixed(2) + '</span></div>'
-    + '<div class="tp-row"><span>Carry cost (' + idea.horizon + 'd)</span><span class="tp-val">\u00A3' + carryCost.toFixed(2) + '</span></div>'
-    + '<div class="tp-row"><span>Total cost</span><span class="tp-val">\u00A3' + totalCost.toFixed(2) + '</span></div>'
-    + '<div class="tp-row"><span>Expected net P&L</span><span class="tp-val" style="color:' + (expectedNet > 0 ? '#10b981' : '#ef4444') + '">\u00A3' + expectedNet.toFixed(2) + '</span></div>'
-    + '<div class="tp-note">Stock proxies for sector ETFs — swap tickers in STOCK_PROXY during forward testing. Index instruments (Spot Gold, US 500, etc.) trade directly. Prices in IG points.</div>'
-    + '</div>'
-    + '</div>';
-}
-
-// ── Relative Strength tab ────────────────────────────────────────────────────
-// ETF ticker descriptions for tooltips
-const ETF_DESC = {
-  XLY:'Consumer Discretionary (SPDR)',XLP:'Consumer Staples (SPDR)',IWM:'Russell 2000 Small Cap (iShares)',
-  SPY:'S&P 500 (SPDR)',HYG:'High Yield Corporate Bond (iShares)',TLT:'20+ Year Treasury Bond (iShares)',
-  KRE:'Regional Banking (SPDR)',XLU:'Utilities (SPDR)',GLD:'Gold (SPDR)',XLI:'Industrials (SPDR)',
-  XLV:'Health Care (SPDR)',XLF:'Financials (SPDR)',XLE:'Energy (SPDR)',XLK:'Technology (SPDR)',
-  XLB:'Materials (SPDR)',XLRE:'Real Estate (SPDR)',
-  // Stock proxies
-  XOM:'Exxon Mobil — Energy (XLE proxy)',AAPL:'Apple — Technology (XLK proxy)',
-  AMZN:'Amazon — Consumer Disc (XLY proxy)',PG:'Procter & Gamble — Staples (XLP proxy)',
-  BA:'Boeing — Industrials (XLI proxy)',UNH:'UnitedHealth — Health Care (XLV proxy)',
-  FCX:'Freeport-McMoRan — Materials (XLB proxy)',LEN:'Lennar — Real Estate (XLRE proxy)',
-  JPM:'JPMorgan Chase — Financials (XLF proxy)',DUK:'Duke Energy — Utilities (XLU proxy)',
-  SCHW:'Charles Schwab — Regional Banks (KRE proxy)'
-};
-// Wrap a ticker string with a tooltip span
-function tickerTip(t){var d=ETF_DESC[t];return d?'<span title="'+t+' — '+d+'" style="cursor:help;border-bottom:1px dotted rgba(255,255,255,0.3)">'+t+'</span>':t;}
-// Wrap a "NUM/DEN" pair name with tooltips on each ticker
-function pairTip(name){var parts=name.split('/');return parts.map(tickerTip).join('/');}
-
-function renderRelStrength(data){
-  const el = document.getElementById('rs-content');
-  if(!el) return;
-  // Load live ETF prices from rs_ratios.json
-  if(data && data.etf_prices) ETF_PRICES_USD = data.etf_prices;
-  if(!data || !data.pairs || data.pairs.length === 0){
-    el.innerHTML = '<div class="insight"><strong>No RS ratio data available.</strong> Run <code>python3 generate_rs_ratios.py</code> to generate rs_ratios.json.</div>';
-    return;
-  }
-
-  const regimeClr = data.regime==='Supportive'?P.pos:data.regime==='Restrictive'?P.neg:P.a1;
-  const momDir = data.fiscal_momentum >= 0 ? 'Positive' : 'Negative';
-  const momClr = data.fiscal_momentum >= 0 ? P.pos : P.neg;
-  const aligned = data.pairs.filter(p=>p.regime_alignment==='Aligned').length;
-  const total = data.pairs.length;
-  const s = data.summary || {};
-
-  // Section A — Summary Cards
-  let h = `<div class="rs-summary">
-    <div class="card">
-      <div class="card-label mono">Regime</div>
-      <div class="card-value" style="color:${regimeClr}">${data.regime}</div>
-      <div class="card-change mono" style="color:${regimeClr}">${data.tga_trend||''} TGA</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">Fiscal Momentum</div>
-      <div class="card-value mono" style="color:${momClr}">${data.fiscal_momentum>0?'+':''}${Number(data.fiscal_momentum).toLocaleString()}</div>
-      <div class="card-change mono" style="color:${momClr}">5d CFI minus 20d CFI</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">Pair Alignment</div>
-      <div class="card-value mono">${aligned}/${total}</div>
-      <div class="card-change mono" style="color:${aligned>=total*0.6?P.pos:aligned>=total*0.3?P.a2:P.neg}">${s.conviction?s.conviction.split('—')[0]:''}</div>
-    </div>
-    <div class="card">
-      <div class="card-label mono">Generated</div>
-      <div class="card-value" style="font-size:var(--type-body)">${data.generated||'—'}</div>
-    </div>
-  </div>`;
-
-  // Asset chips
-  if(s.top_overweight && s.top_overweight.length > 0){
-    h += '<div style="margin-bottom:16px"><div class="mini-title">Overweight Tilt</div><div class="rs-assets">';
-    s.top_overweight.forEach(a=>{ h += `<span class="ow">${tickerTip(a)}</span>`; });
-    h += '</div></div>';
-  }
-  if(s.top_underweight && s.top_underweight.length > 0){
-    h += '<div style="margin-bottom:20px"><div class="mini-title">Underweight Tilt</div><div class="rs-assets">';
-    s.top_underweight.forEach(a=>{ h += `<span class="uw">${tickerTip(a)}</span>`; });
-    h += '</div></div>';
-  }
-
-  // Section B — Chart with pair selector
-  h += '<div class="mini-title">RS Ratio Chart</div>';
-  h += '<div class="rs-pair-sel" id="rs-pair-selector">';
-  data.pairs.forEach((p,i)=>{
-    h += `<button class="rs-pair-btn${i===0?' active':''}" data-idx="${i}" title="${p.name.split('/').map(t=>t+' — '+(ETF_DESC[t]||t)).join('  |  ')}">${p.name}</button>`;
-  });
-  h += '</div>';
-  h += '<div class="chart-wrap" style="height:320px"><canvas id="chart-relstrength"></canvas></div>';
-  h += `<div class="legend" id="rs-legend">
-    <span><span class="legend-dot" style="background:${P.a1}"></span>RS Ratio</span>
-    <span><span class="legend-dot" style="background:${P.a2}"></span>SMA(20)</span>
-    <span><span class="legend-dot" style="background:rgba(16,185,129,0.15)"></span>Supportive</span>
-    <span><span class="legend-dot" style="background:rgba(239,68,68,0.15)"></span>Restrictive</span>
-  </div>`;
-
-  // Section C — Pair Ranking Table (scored and sorted by trade quality)
-  // Score each pair: 5 conditions, each worth 1 point
-  var scored = data.pairs.map(function(p, origIdx) {
-    var score = 0;
-    // 1. Fiscal correlation strength: |corr| > 0.3
-    var corrPass = Math.abs(p.fiscal_corr_60d) > 0.3;
-    if (corrPass) score++;
-    // 2. Ratio vs SMA20: is the trend confirmed?
-    var sig = p.signal || '';
-    var isLongNum = sig.includes('Overweight') || sig.includes('Numerator favored');
-    var isShortNum = sig.includes('Underweight') || sig.includes('Denominator favored');
-    var smaPass = (isLongNum && p.current_ratio > p.sma20) || (isShortNum && p.current_ratio < p.sma20);
-    if (smaPass) score++;
-    // 3. ROC confirms direction: > 0 for long num, < 0 for short num
-    var rocPass = (isLongNum && p.roc_20d > 0) || (isShortNum && p.roc_20d < 0);
-    if (rocPass) score++;
-    // 4. Regime alignment
-    var alignPass = p.regime_alignment === 'Aligned';
-    if (alignPass) score++;
-    // 5. Validated backtest edge exists for this pair+direction
-    var btIdea = getTradeIdea(p);
-    var btPass = btIdea !== null;
-    if (btPass) score++;
-    return {p:p, origIdx:origIdx, score:score, corrPass:corrPass, smaPass:smaPass, rocPass:rocPass, alignPass:alignPass, btPass:btPass, btIdea:btIdea};
-  });
-  // Sort: highest score first, then by |fiscal_corr| as tiebreaker
-  scored.sort(function(a, b) {
-    if (b.score !== a.score) return b.score - a.score;
-    return Math.abs(b.p.fiscal_corr_60d) - Math.abs(a.p.fiscal_corr_60d);
-  });
-
-  var GRN = '#10b981';
-  var DIM = 'rgba(255,255,255,0.25)';
-
-  h += '<div style="margin-top:28px;display:flex;align-items:center;justify-content:space-between">';
-  h += '<div class="mini-title" style="margin-bottom:0">Pair Rankings by Trade Quality</div>';
-  h += '<button id="rs-toggle-edge" class="rs-pair-btn active" style="font-size:var(--type-caption);padding:4px 10px">Tradeable only</button>';
-  h += '</div>';
-  h += '<div style="overflow-x:auto"><table class="rs-table"><thead><tr>';
-  h += '<th style="text-align:center">Score</th><th></th><th>Pair</th><th>Category</th><th>20d ROC</th><th>Ratio vs SMA20</th><th>60d Fiscal Corr</th><th>Signal</th><th>Aligned</th><th>Edge</th>';
-  h += '</tr></thead><tbody>';
-  scored.forEach(function(s, rank) {
-    var p = s.p;
-    var i = s.origIdx;
-    var isTop = s.score >= 4;
-    var rowDim = s.score <= 1 ? 'opacity:0.4;' : s.score === 2 ? 'opacity:0.55;' : s.score === 3 ? 'opacity:0.75;' : '';
-
-    var vsma = p.current_ratio > p.sma20 ? 'Above' : 'Below';
-    var vsmaClr = s.smaPass ? GRN : DIM;
-    var corrClr = s.corrPass ? GRN : DIM;
-    var rocClr = s.rocPass ? GRN : DIM;
-    var alignClr = s.alignPass ? GRN : DIM;
-    var btClr = s.btPass ? GRN : DIM;
-
-    var sigCls = p.signal.includes('Overweight') || p.signal.includes('Numerator favored') ? 'rs-ow' : p.signal.includes('Underweight') || p.signal.includes('Denominator favored') ? 'rs-uw' : 'rs-mix';
-
-    // Trade dot: only active if score >= 4 (at least 4 of 5 conditions met)
-    var idea = s.score >= 4 ? s.btIdea : null;
-    var dotCls = idea ? 'trade-dot active' : 'trade-dot inactive';
-    var dotTitle = idea ? 'Click for trade idea (' + s.score + '/5)' : s.score + '/5 conditions met';
-
-    // Score display: 5 filled dots
-    var scoreDots = '';
-    for (var d = 0; d < 5; d++) {
-      scoreDots += '<span style="display:inline-block;width:7px;height:7px;margin:0 1px;'
-        + 'background:' + (d < s.score ? GRN : 'rgba(255,255,255,0.1)') + ';border-radius:50%"></span>';
-    }
-
-    // Edge column: show backtest stats if validated, otherwise dash
-    var edgeText = s.btPass
-      ? '<span style="color:' + GRN + ';font-weight:600">+' + s.btIdea.mean.toFixed(1) + '% / ' + s.btIdea.hit.toFixed(0) + '%</span>'
-      : '<span style="color:' + DIM + '">—</span>';
-
-    // data-has-edge attribute for toggle filtering
-    var edgeAttr = s.btPass ? 'data-has-edge="1"' : 'data-has-edge="0"';
-
-    h += '<tr style="' + rowDim + '" ' + edgeAttr + '>'
-      + '<td style="text-align:center;white-space:nowrap">' + scoreDots + '</td>'
-      + '<td style="text-align:center;padding:10px 4px"><span class="' + dotCls + '" title="' + dotTitle + '" data-trade-idx="' + i + '"></span></td>'
-      + '<td style="font-weight:600;color:' + (isTop ? 'var(--text-primary)' : 'var(--text-secondary)') + '">' + pairTip(p.name) + '</td>'
-      + '<td style="color:' + (isTop ? 'var(--text-primary)' : DIM) + '">' + (p.category==='cross-asset'?'Cross-Asset':'Sector') + '</td>'
-      + '<td style="color:' + rocClr + ';font-weight:' + (s.rocPass ? '600' : '400') + '">' + (p.roc_20d>=0?'+':'') + p.roc_20d.toFixed(1) + '%</td>'
-      + '<td style="color:' + vsmaClr + ';font-weight:' + (s.smaPass ? '600' : '400') + '">' + vsma + '</td>'
-      + '<td style="color:' + corrClr + ';font-weight:' + (s.corrPass ? '600' : '400') + '">' + (p.fiscal_corr_60d>0?'+':'') + p.fiscal_corr_60d.toFixed(3) + '</td>'
-      + '<td><span class="rs-signal ' + sigCls + '">' + p.signal + '</span></td>'
-      + '<td style="color:' + alignClr + ';font-weight:600">' + p.regime_alignment + '</td>'
-      + '<td>' + edgeText + '</td>'
-      + '</tr>';
-    // Hidden expandable trade panel row (only for score >= 4 with validated idea)
-    if (idea) {
-      h += '<tr class="trade-panel" id="trade-panel-' + i + '"><td colspan="10">'
-        + '<button class="tp-close" data-trade-idx="' + i + '">Close</button>'
-        + buildTradePanel(idea, 3000)
-        + '</td></tr>';
-    }
-  });
-  h += '</tbody></table></div></div>';
-
-  // Section D — Rotation Framework
-  h += `<div class="insight" style="margin-top:24px">
-    <strong>Trade Quality Score (5 conditions)</strong><br/>
-    Each pair is scored on five conditions. <span style="color:#10b981">Green</span> = condition met. The trade idea dot activates at 4+ conditions. Lower-scored pairs are visually dimmed.<br/><br/>
-    Columns are ordered by leading indicator preference (most leading nearest the pair name):<br/><br/>
-    <strong>1. 20d ROC</strong> &#8212; momentum (leading). When ROC turns, the ratio is starting to move. First signal of a trend forming or reversing.<br/>
-    <strong>2. Ratio vs SMA(20)</strong> &#8212; trend confirmation (lagging). Confirms the ROC move is sustained, not a false start.<br/>
-    <strong>3. 60d Fiscal Corr</strong> &#8212; structural (slowest). |corr| > 0.3 means the pair responds meaningfully to fiscal flows. Sets <em>which</em> pair to watch.<br/>
-    <strong>4. Regime Aligned</strong> &#8212; the fiscal regime supports the trade direction. Polarity is set by correlation sign: positive corr pairs align with Supportive (pro-cyclical), negative corr pairs align with Restrictive (counter-cyclical, e.g. GLD/SPY).<br/>
-    <strong>5. Validated Edge</strong> &#8212; backtest (Jan 2023 &#8211; Mar 2026) confirms this pair+direction combo has a statistical edge after IG costs.<br/><br/>
-    <span style="color:var(--text-dim)">This is a positioning framework, not investment advice. Only pairs scoring 4/5 or 5/5 generate a trade ticket.</span>
-  </div>`;
-
-  el.innerHTML = h;
-
-  // Wire pair selector buttons
-  const btns = document.querySelectorAll('#rs-pair-selector .rs-pair-btn');
-  btns.forEach(btn=>{
-    btn.addEventListener('click',()=>{
-      btns.forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      const idx = parseInt(btn.dataset.idx);
-      renderRSChart(data.pairs[idx]);
-    });
-  });
-
-  // Wire trade idea dots and close buttons
-  document.querySelectorAll('.trade-dot.active').forEach(dot=>{
-    dot.addEventListener('click',()=>{
-      const idx = dot.dataset.tradeIdx;
-      const panel = document.getElementById('trade-panel-' + idx);
-      if (!panel) return;
-      document.querySelectorAll('.trade-panel.open').forEach(p=>{
-        if (p.id !== 'trade-panel-' + idx) p.classList.remove('open');
-      });
-      panel.classList.toggle('open');
-    });
-  });
-  document.querySelectorAll('.tp-close').forEach(btn=>{
-    btn.addEventListener('click',()=>{
-      const idx = btn.dataset.tradeIdx;
-      const panel = document.getElementById('trade-panel-' + idx);
-      if (panel) panel.classList.remove('open');
-    });
-  });
-
-  // Wire tradeable-only toggle
-  var toggleBtn = document.getElementById('rs-toggle-edge');
-  if (toggleBtn) {
-    var showAll = false; // start with tradeable only
-    // Apply initial filter
-    document.querySelectorAll('.rs-table tbody tr[data-has-edge="0"]').forEach(function(row) {
-      row.style.display = 'none';
-    });
-    toggleBtn.addEventListener('click', function() {
-      showAll = !showAll;
-      toggleBtn.textContent = showAll ? 'Tradeable only' : 'Show all';
-      toggleBtn.classList.toggle('active', !showAll);
-      document.querySelectorAll('.rs-table tbody tr[data-has-edge="0"]').forEach(function(row) {
-        row.style.display = showAll ? '' : 'none';
-      });
-    });
-  }
-
-  // Render first pair chart
-  renderRSChart(data.pairs[0]);
-}
-
-function renderRSChart(pair){
-  destroyChart('relstrength');
-  const canvas = document.getElementById('chart-relstrength');
-  if(!canvas || !pair.series) return;
-
-  const s = pair.series;
-  const dates = s.dates.map(d=>{const p=d.split('-');return p[1]+'/'+p[2];});
-
-  // Build regime background segments
-  const regimeBg = s.regime.map(r=>r==='Supportive'?'rgba(16,185,129,0.08)':r==='Restrictive'?'rgba(239,68,68,0.08)':'rgba(255,255,255,0.02)');
-
-  const ctx = canvas.getContext('2d');
-  charts['relstrength'] = new Chart(ctx,{
-    type:'line',
-    data:{labels:dates,datasets:[
-      {label:'RS Ratio',data:s.ratio,borderColor:P.a1,borderWidth:2.5,pointRadius:0,pointHoverRadius:4,
-       pointHoverBackgroundColor:P.a1,tension:0.3,order:1},
-      {label:'SMA(20)',data:s.sma20,borderColor:P.a2,borderWidth:1.5,borderDash:[6,3],pointRadius:0,
-       pointHoverRadius:3,pointHoverBackgroundColor:P.a2,tension:0.3,order:2}
-    ]},
-    options:{responsive:true,maintainAspectRatio:false,
-      interaction:{mode:'index',intersect:false},
-      plugins:{legend:{display:false},tooltip:{
-        backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
-        titleFont:{family:"'JetBrains Mono',monospace",size:12,weight:'bold'},
-        bodyFont:{family:"'JetBrains Mono',monospace",size:12},
-        titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:8,padding:12,
-        callbacks:{label:c=>c.parsed.y!==null?`${c.dataset.label}: ${c.parsed.y.toFixed(4)}`:''}
-      }},
-      scales:{
-        x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted,maxRotation:0,autoSkip:true,maxTicksLimit:12},border:{display:false}},
-        y:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted,callback:v=>v.toFixed(2)},border:{display:false}}
-      }
-    },
-    plugins:[{
-      id:'regimeBands',
-      beforeDraw(chart){
-        const {ctx:c,chartArea:{top,bottom,left,right},scales:{x}} = chart;
-        const regime = s.regime;
-        if(!regime) return;
-        regime.forEach((r,i)=>{
-          const x0 = i===0?left:x.getPixelForValue(i)-((x.getPixelForValue(1)-x.getPixelForValue(0))/2);
-          const x1 = i===regime.length-1?right:x.getPixelForValue(i)+((x.getPixelForValue(1)-x.getPixelForValue(0))/2);
-          c.fillStyle = r==='Supportive'?'rgba(16,185,129,0.06)':r==='Restrictive'?'rgba(239,68,68,0.06)':'transparent';
-          c.fillRect(x0,top,x1-x0,bottom-top);
-        });
-      }
-    }]
-  });
-}
-
-function renderNarrative(narr){
-  const el = document.getElementById('narrative-section');
-  if(!el||!narr||!narr.topics||!narr.topics.length) return;
-  const barColors = [P.a1,P.a2,P.a3,P.a4,P.a5,P.a6,P.pos,P.neg,P.muted];
-  const top5 = narr.topics.slice(0,5);
-  const maxPct = top5[0]?top5[0].pct:1;
-  const ts = narr.fetched_at?new Date(narr.fetched_at).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'';
-  const topicsHtml = top5.map((t,i)=>{
-    const barW = (t.pct/maxPct*100).toFixed(0);
-    const c = barColors[i%barColors.length];
-    const headlines = (t.sample_headlines||[]).slice(0,3).map(h=>`<li>${h}</li>`).join('');
-    return `<div class="narr-topic">
-      <div class="narr-topic-header">
-        <span class="narr-topic-name">${t.topic}</span>
-        <div class="narr-bar-wrap"><div class="narr-bar" style="width:${barW}%;background:${c}"></div></div>
-        <span class="narr-topic-pct">${t.pct.toFixed(0)}%</span>
-      </div>
-      ${headlines?`<ul class="narr-headlines">${headlines}</ul>`:''}
-    </div>`;
-  }).join('');
-
-  el.innerHTML = `<div class="narr-wrap">
-    <div class="narr-header" onclick="this.parentElement.querySelector('.narr-body').classList.toggle('collapsed');this.querySelector('.narr-toggle').textContent=this.parentElement.querySelector('.narr-body').classList.contains('collapsed')?'\\u25B6':'\\u25BC'">
-      <span class="narr-title mono">Market Narrative</span>
-      <span class="narr-toggle">&#9660;</span>
-    </div>
-    <div class="narr-dominant">${narr.dominant||'No dominant narrative'}</div>
-    <div class="narr-meta">${narr.total_headlines||0} headlines scanned${ts?' \u00B7 '+ts:''}</div>
-    <div class="narr-body">
-      ${topicsHtml}
-    </div>
-  </div>`;
-}
-
-// Load data and build
 async function init(){
-  try {
-    const resp = await fetch('viz_data.json');
-    if(!resp.ok) throw new Error('Could not load viz_data.json');
-    const data = await resp.json();
-    buildDashboard(data);
+  const [logRes,retRes,spxRes]=await Promise.all([
+    fetch('signal_log.jsonl').then(r=>r.text()).catch(()=>null),
+    fetch('signal_returns.json').then(r=>r.json()).catch(()=>null),
+    fetch('spx_series.json').then(r=>r.json()).catch(()=>null)
+  ]);
 
-    // Load signal log (non-blocking — dashboard works without it)
-    try {
-      const slResp = await fetch('signal_log.jsonl');
-      if(slResp.ok){
-        const text = await slResp.text();
-        const entries = text.trim().split('\n').filter(l=>l).map(l=>JSON.parse(l));
-        window._signalLogData = entries;
-        renderSignalLog(entries);
-      } else {
-        renderSignalLog([]);
-      }
-    } catch(slErr){
-      console.warn('Signal log not available:', slErr.message);
-      renderSignalLog([]);
-    }
+  // Parse signal log
+  let signals=[];
+  if(logRes){
+    signals=logRes.trim().split('\n').map(l=>{try{return JSON.parse(l)}catch{return null}}).filter(Boolean);
+  }
 
-    // Load return attribution (non-blocking)
-    try {
-      const raResp = await fetch('signal_returns.json');
-      if(raResp.ok){
-        const raData = await raResp.json();
-        window._returnData = raData;
-        renderReturnAttribution(raData);
-      }
-    } catch(raErr){
-      console.warn('Return attribution not available:', raErr.message);
-    }
+  // Hero stats
+  document.getElementById('stat-total').textContent=signals.length;
+  if(signals.length){
+    const first=signals[0].date,last=signals[signals.length-1].date;
+    const d1=new Date(first),d2=new Date(last);
+    const days=Math.round((d2-d1)/(1000*60*60*24));
+    document.getElementById('stat-days').textContent=days;
+    document.getElementById('stat-since').textContent=F.date(first);
+  }
 
-    // Load technicals data (non-blocking)
-    try {
-      const techResp = await fetch('technicals_data.json');
-      if(techResp.ok){
-        window._techData = await techResp.json();
-      }
-    } catch(techErr){
-      console.warn('Technicals data not available:', techErr.message);
+  // Current regime banner
+  if(signals.length){
+    const latest=signals[signals.length-1];
+    const regEl=document.getElementById('rb-regime');
+    regEl.innerHTML=F.regimeBadge(latest.regime);
+    const techEl=document.getElementById('rb-tech');
+    techEl.innerHTML=F.techBadge(latest.tech_regime);
+    const compEl=document.getElementById('rb-composite');
+    if(latest.composite_score!=null){
+      const s=latest.composite_score;
+      compEl.textContent=F.num(s,1);
+      compEl.style.color=s>20?'var(--green)':s<-20?'var(--red)':'var(--yellow)';
     }
+  }
 
-    // Load RS ratios data (non-blocking)
-    try {
-      const rsResp = await fetch('rs_ratios.json');
-      if(rsResp.ok){
-        window._rsData = await rsResp.json();
-      }
-    } catch(rsErr){
-      console.warn('RS ratios data not available:', rsErr.message);
-    }
+  // Track record
+  if(retRes&&retRes.summary){
+    renderTrackRecord(retRes.summary);
+  }
 
-    // Load market narrative (non-blocking)
-    try {
-      const narrResp = await fetch('narrative.json');
-      if(narrResp.ok){
-        const narrData = await narrResp.json();
-        window._narrativeData = narrData;
-        renderNarrative(narrData);
-      }
-    } catch(narrErr){
-      console.warn('Narrative data not available:', narrErr.message);
-    }
-  } catch(e){
-    document.getElementById('loader').innerHTML =
-      '<div style="color:#ef4444">Failed to load viz_data.json</div><div style="color:#94A3B8;font-size:var(--type-body-sm);margin-top:8px">'+e.message+'<br/>Make sure viz_data.json is in the same directory as index.html</div>';
+  // Signal history table (last 60)
+  if(signals.length){
+    renderSignalTable(signals.slice(-60).reverse());
+  }
+
+  // Conditions gauge chart
+  if(signals.length){
+    renderCompositeChart(signals.filter(s=>s.composite_score!=null),spxRes);
   }
 }
-init();
 
-// Theme toggle
-function toggleTheme() {
-  const html = document.documentElement;
-  const isLight = html.getAttribute('data-theme') === 'light';
-  if (isLight) {
-    html.removeAttribute('data-theme');
-    document.getElementById('theme-icon').innerHTML = '&#9790;';
-    document.getElementById('theme-label').textContent = 'Dark';
-    localStorage.setItem('rfa-theme', 'dark');
-  } else {
-    html.setAttribute('data-theme', 'light');
-    document.getElementById('theme-icon').innerHTML = '&#9788;';
-    document.getElementById('theme-label').textContent = 'Light';
-    localStorage.setItem('rfa-theme', 'light');
+function renderTrackRecord(S){
+  const container=document.getElementById('track-record');
+  let html='';
+
+  // Fiscal regime performance
+  html+=`<div class="tr-card"><h3>Fiscal Regime vs SPX Forward Returns</h3><table class="tr-table">
+    <thead><tr><th>Regime</th><th>Count</th><th>Avg 5d</th><th>Avg 10d</th><th>Avg 20d</th></tr></thead><tbody>`;
+  for(const[name,d] of Object.entries(S.regime_performance||{})){
+    html+=`<tr><td>${name}</td><td>${d.count}</td>
+      <td>${F.num(d.avg_spx_5d,2)}%</td>
+      <td>${F.num(d.avg_spx_10d,2)}%</td>
+      <td>${F.num(d.avg_spx_20d,2)}%</td></tr>`;
   }
+  html+=`</tbody></table></div>`;
+
+  // Tech regime performance
+  html+=`<div class="tr-card"><h3>Technical Regime vs SPX Forward Returns</h3><table class="tr-table">
+    <thead><tr><th>Regime</th><th>Count</th><th>Avg 5d</th><th>Hit 10d</th><th>Hit 20d</th></tr></thead><tbody>`;
+  for(const[name,d] of Object.entries(S.tech_regime_performance||{})){
+    html+=`<tr><td style="text-transform:capitalize">${name}</td><td>${d.count}</td>
+      <td>${F.num(d.avg_spx_5d,2)}%</td>
+      <td class="${F.hitClass(d.hit_rate_10d?.rate)}">${F.pct(d.hit_rate_10d?.rate)}</td>
+      <td class="${F.hitClass(d.hit_rate_20d?.rate)}">${F.pct(d.hit_rate_20d?.rate)}</td></tr>`;
+  }
+  html+=`</tbody></table></div>`;
+
+  // Combined fiscal + tech
+  html+=`<div class="tr-card"><h3>Combined Fiscal + Technical</h3><table class="tr-table">
+    <thead><tr><th>Combination</th><th>Count</th><th>Avg 5d</th><th>Avg 10d</th><th>Avg 20d</th></tr></thead><tbody>`;
+  for(const[name,d] of Object.entries(S.combined_fiscal_tech||{})){
+    html+=`<tr><td>${name}</td><td>${d.count}</td>
+      <td>${F.num(d.avg_spx_5d,2)}%</td>
+      <td>${F.num(d.avg_spx_10d,2)}%</td>
+      <td>${F.num(d.avg_spx_20d,2)}%</td></tr>`;
+  }
+  html+=`</tbody></table></div>`;
+
+  // COT extremes
+  html+=`<div class="tr-card"><h3>COT Extreme Positioning Signals</h3><table class="tr-table">
+    <thead><tr><th>Signal</th><th>Count</th><th>Hit 5d</th><th>Hit 10d</th><th>Hit 20d</th></tr></thead><tbody>`;
+  for(const[key,d] of Object.entries(S.cot_performance||{})){
+    const label=key.replace(/_/g,' ').replace(/(\b\w)/g,c=>c.toUpperCase());
+    html+=`<tr><td>${label}</td><td>${d.count}</td>
+      <td class="${F.hitClass(d.hit_rate_5d?.rate)}">${F.pct(d.hit_rate_5d?.rate)}</td>
+      <td class="${F.hitClass(d.hit_rate_10d?.rate)}">${F.pct(d.hit_rate_10d?.rate)}</td>
+      <td class="${F.hitClass(d.hit_rate_20d?.rate)}">${F.pct(d.hit_rate_20d?.rate)}</td></tr>`;
+  }
+  html+=`</tbody></table></div>`;
+
+  container.innerHTML=html;
 }
-(function() {
-  var saved = localStorage.getItem('rfa-theme');
-  if (saved === 'light') {
-    document.documentElement.setAttribute('data-theme', 'light');
-    var icon = document.getElementById('theme-icon');
-    var label = document.getElementById('theme-label');
-    if (icon) icon.innerHTML = '&#9788;';
-    if (label) label.textContent = 'Light';
+
+function renderSignalTable(signals){
+  const body=document.getElementById('signal-body');
+  body.innerHTML=signals.map(s=>`<tr>
+    <td>${s.date}</td>
+    <td>${F.regimeBadge(s.regime)}</td>
+    <td>${s.regime_momentum||'--'}</td>
+    <td>${F.num(s.tga_level,1)}</td>
+    <td>${F.techBadge(s.tech_regime)}</td>
+    <td style="color:${(s.composite_score||0)>20?'var(--green)':(s.composite_score||0)<-20?'var(--red)':'var(--yellow)'}">${F.num(s.composite_score,1)}</td>
+    <td style="font-family:var(--font-body);font-size:var(--text-xs)">${s.etf_top_overweight||'--'}</td>
+  </tr>`).join('');
+}
+
+function renderCompositeChart(signals,spxData){
+  const ctx=document.getElementById('compositeChart');
+  if(!ctx||!signals.length)return;
+
+  const dates=signals.map(s=>s.date);
+  const scores=signals.map(s=>s.composite_score);
+  const colors=scores.map(s=>s>20?'rgba(16,185,129,0.7)':s<-20?'rgba(239,68,68,0.7)':'rgba(245,158,11,0.7)');
+
+  // Build SPX line aligned to signal dates
+  let spxPoints=[];
+  if(spxData){
+    spxPoints=dates.map(d=>spxData[d]!=null?spxData[d]:null);
   }
-})();
+
+  const datasets=[{
+    type:'bar',
+    label:'Conditions Gauge',
+    data:scores,
+    backgroundColor:colors,
+    borderWidth:0,
+    borderRadius:2,
+    barPercentage:1,
+    categoryPercentage:0.9,
+    yAxisID:'y',
+    order:2
+  }];
+
+  if(spxPoints.some(v=>v!=null)){
+    datasets.push({
+      type:'line',
+      label:'S&P 500',
+      data:spxPoints,
+      borderColor:'rgba(59,130,246,0.8)',
+      borderWidth:2,
+      pointRadius:0,
+      pointHoverRadius:4,
+      tension:0.3,
+      spanGaps:true,
+      yAxisID:'y1',
+      order:1
+    });
+  }
+
+  new Chart(ctx,{
+    data:{labels:dates,datasets},
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{
+        legend:{display:true,labels:{color:'#94A3B8',font:{size:11,family:'Inter'},boxWidth:12,padding:16}},
+        tooltip:{
+          callbacks:{
+            title:items=>items[0].label,
+            label:item=>{
+              if(item.dataset.label==='S&P 500')return'SPX: '+item.raw.toFixed(0);
+              return'Gauge: '+item.raw.toFixed(1);
+            }
+          }
+        }
+      },
+      scales:{
+        x:{display:true,ticks:{maxTicksLimit:12,font:{size:10},color:'#555'},grid:{display:false}},
+        y:{display:true,position:'left',title:{display:true,text:'Conditions Gauge',color:'#555',font:{size:10}},
+          ticks:{font:{size:10,family:'JetBrains Mono'},color:'#555'},grid:{color:'rgba(255,255,255,0.04)'},
+          suggestedMin:-100,suggestedMax:100},
+        y1:{display:true,position:'right',title:{display:true,text:'S&P 500',color:'rgba(59,130,246,0.6)',font:{size:10}},
+          ticks:{font:{size:10,family:'JetBrains Mono'},color:'rgba(59,130,246,0.5)'},grid:{display:false}}
+      }
+    }
+  });
+}
+
+init().catch(e=>console.error('Init failed:',e));
 </script>
 </body>
 </html>
