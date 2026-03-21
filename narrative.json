@@ -1,123 +1,111 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 125,
-  "fetched_at": "2026-03-20T22:00:43.612308+00:00",
+  "total_headlines": 121,
+  "fetched_at": "2026-03-21T22:00:48.485092+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 27,
-      "pct": 21.6,
-      "sources": "Bloomberg(8), FT(7), CNBC(6), Yahoo(5), MarketWatch(1)",
+      "count": 26,
+      "pct": 21.5,
+      "sources": "Bloomberg(15), FT(5), CNBC(3), Yahoo(3)",
       "sample_headlines": [
-        "Trump: 'I don't want to do a ceasefire' in Iran war",
-        "Trump: U.S. could end Iran military operations 'right now' but will continue so Iran can 'never rebuild'",
-        "Elizabeth Warren demands answers on costs, economic impact of 'illegal and reckless war'",
-        "Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy",
-        "Iran war-induced fertilizer shortage threatens Republicans in farm states ahead of midterms"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 20,
-      "pct": 16.0,
-      "sources": "Yahoo(9), Bloomberg(4), MarketWatch(3), CNBC(2), FT(2)",
-      "sample_headlines": [
-        "Gold drops nearly 10% in worst weekly rout since 2011",
-        "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave",
-        "Super Micro\u2019s stock sinks 33% after co-founder\u2019s indictment. Here are Wall Street\u2019s biggest questions.",
-        "The first major stock index just fell into correction territory. Will others follow?",
-        "March 27 looks like a make-or-break day for American travelers and the partial government shutdown"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 14,
-      "pct": 11.2,
-      "sources": "Yahoo(5), Bloomberg(4), CNBC(3), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "U.S. says Cuba is prohibited from taking Russian oil as two tankers head to island",
-        "Oil prices top $112 after Iraq declares force majeure, Kuwait refineries attacked",
-        "Work from home, drive slower and don't use gas cookers: IEA advice on weathering the global energy crisis",
-        "Global oil prices climb for 5th straight week as U.S. sends more military might into Middle East",
-        "Iran war is the greatest threat to global energy \u2018in history\u2019, warns IEA"
+        "Iran says nuclear enrichment plant attacked, Israel denies responsibility",
+        "\u2018Tax resistance\u2019 gains attention amid ICE protests, Iran war \u2014 and IRS penalties could follow",
+        "Government bonds face \u2018perfect storm\u2019 as Iran war rattles Europe's central banks",
+        "Iran fires missiles at UK\u2019s Diego Garcia base",
+        "Iran war raises the risk of a bond market shock"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 10.4,
-      "sources": "CNBC(8), Yahoo(5)",
+      "count": 16,
+      "pct": 13.2,
+      "sources": "Yahoo(7), CNBC(6), Bloomberg(2), FT(1)",
       "sample_headlines": [
+        "OpenClaw's ChatGPT moment sparks concern that AI models are becoming commodities",
+        "FedEx has started delivering 'promotion-ready' AI training to over 400,000 workers",
         "Super Micro co-founder indicted on Nvidia smuggling charges leaves board",
         "ChatGPT's ad pilot has the industry excited, but some insiders are frustrated with the slow rollout",
-        "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China",
-        "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave",
-        "Trump administration unveils national AI policy framework to limit state power"
+        "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 12,
+      "pct": 9.9,
+      "sources": "CNBC(5), Bloomberg(3), Yahoo(3), MarketWatch(1)",
+      "sample_headlines": [
+        "Trump threatens to deploy ICE agents to airports if DHS shutdown doesn't end, while Elon Musk offers to cover TSA agents' pay",
+        "3 themes that gripped Wall Street as stocks dropped for a 4th straight week",
+        "Small cap-focused Russell 2000 becomes first U.S. benchmark to enter correction territory",
+        "Gold drops nearly 10% in worst weekly rout since 2011",
+        "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 10,
+      "pct": 8.3,
+      "sources": "Bloomberg(6), Yahoo(2), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "The stock market actually doesn\u2019t care as much about oil prices as you think",
+        "Canada\u2019s oil producers in line for C$90bn windfall from Iran war",
+        "Negative West Texas Gas Prices Reveal Mismatch in Global Energy",
+        "Hedge Fund Sees 31% Gain From Oil-Stock Bet Before Prices Surged",
+        "As Iran War Continues, Natural Gas Prices Soar"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 8.8,
-      "sources": "Bloomberg(4), CNBC(3), Yahoo(3), FT(1)",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "Bloomberg(3), CNBC(2), FT(1)",
       "sample_headlines": [
+        "FedEx has started delivering 'promotion-ready' AI training to over 400,000 workers",
         "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave",
-        "Fed Governor Waller urges caution for now, says rate cuts possible later in the year",
-        "UK government borrowing costs hit their highest level since 2008 as inflation fears hit the gilt market",
-        "Investors start to bet on US interest rate rises amid inflation fears",
-        "Emerging Assets Extend Losing Streak on Rate Hike Bets, Oil Gain"
+        "Jay Powell extols \u2018independence and integrity\u2019 after latest attacks by Trump",
+        "India\u2019s Modi Stresses Need for Secure Shipping in Call With Iran",
+        "Fed Contends With Iran War Uncertainty"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 10,
-      "pct": 8.0,
-      "sources": "CNBC(4), Yahoo(3), MarketWatch(2), FT(1)",
+      "count": 5,
+      "pct": 4.1,
+      "sources": "CNBC(2), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
+        "\u2018Tax resistance\u2019 gains attention amid ICE protests, Iran war \u2014 and IRS penalties could follow",
         "'Marriage penalty' in Washington state's new millionaire tax stirs debate",
-        "Average IRS tax refund is up 10.8%, new filing data shows",
-        "Your tax refund could be smaller than expected this season. Here's why",
-        "Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know",
-        "\u2018The money is tax-free\u2019: I\u2019m 76 and won $50,000 in a settlement related to cancer from nuclear waste. What should I do with it?"
+        "\u2018The money is tax-free\u2019: I\u2019m 76 and won $50,000 in a settlement related to cancer from nuclear waste. What should I do with it?",
+        "The IRS has changed the tax rules for 2026 \u2014 here\u2019s how to keep more money and not overpay",
+        "Austria Eyes \u20ac2 Billion in Budget Cuts With Risk From \u2018Dumb War\u2019"
       ]
     },
     {
       "topic": "Recession / Slowdown",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "MarketWatch(1), Bloomberg(1)",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "History says these 2 overlooked asset classes are the only real shield against 1970s-style stagflation",
-        "Stagflation Risks Have Gone Up: George Bory"
+        "History says these 2 overlooked asset classes are the only real shield against 1970s-style stagflation"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China",
-        "Tim Cook\u2019s China visit reinforces country\u2019s importance to Apple as global frictions rise"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Yahoo(2)",
-      "sample_headlines": [
-        "Strive Jumps Past Tesla In Bitcoin Holdings",
-        "Crypto.com Cuts 12% Of Staff As It Adopts A.I. Technologies"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Tim Cook\u2019s China visit reinforces country\u2019s importance to Apple as global frictions rise"
+        "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "Financial advisers used to say no to bitcoin. Now they\u2019re saying maybe \u2014 but with a catch."
       ]
     }
   ]
