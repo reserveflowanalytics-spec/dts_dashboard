@@ -1,111 +1,105 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 121,
-  "fetched_at": "2026-03-21T22:00:48.485092+00:00",
+  "total_headlines": 125,
+  "fetched_at": "2026-03-22T22:00:44.516667+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 26,
-      "pct": 21.5,
-      "sources": "Bloomberg(15), FT(5), CNBC(3), Yahoo(3)",
+      "count": 28,
+      "pct": 22.4,
+      "sources": "Bloomberg(15), FT(8), Yahoo(3), CNBC(2)",
       "sample_headlines": [
-        "Iran says nuclear enrichment plant attacked, Israel denies responsibility",
+        "The economy has a Strait of Hormuz deadline for Trump: Two weeks",
         "\u2018Tax resistance\u2019 gains attention amid ICE protests, Iran war \u2014 and IRS penalties could follow",
-        "Government bonds face \u2018perfect storm\u2019 as Iran war rattles Europe's central banks",
-        "Iran fires missiles at UK\u2019s Diego Garcia base",
-        "Iran war raises the risk of a bond market shock"
+        "Trump pushes Iran war to new phase of escalation",
+        "Iran threatens \u2018vital\u2019 infrastructure and Hormuz Strait closure in response to Trump ultimatum",
+        "War with Iran has exposed American fragility at sea"
       ]
     },
     {
       "topic": "AI / Tech",
       "count": 16,
-      "pct": 13.2,
-      "sources": "Yahoo(7), CNBC(6), Bloomberg(2), FT(1)",
+      "pct": 12.8,
+      "sources": "Yahoo(8), CNBC(5), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "OpenAI's data center pivot underscores Wall Street spending concerns ahead of IPO",
+        "Why Spotify AI more than music will be the secret to keeping subscribers",
         "OpenClaw's ChatGPT moment sparks concern that AI models are becoming commodities",
-        "FedEx has started delivering 'promotion-ready' AI training to over 400,000 workers",
-        "Super Micro co-founder indicted on Nvidia smuggling charges leaves board",
-        "ChatGPT's ad pilot has the industry excited, but some insiders are frustrated with the slow rollout",
-        "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 9.9,
-      "sources": "CNBC(5), Bloomberg(3), Yahoo(3), MarketWatch(1)",
-      "sample_headlines": [
-        "Trump threatens to deploy ICE agents to airports if DHS shutdown doesn't end, while Elon Musk offers to cover TSA agents' pay",
-        "3 themes that gripped Wall Street as stocks dropped for a 4th straight week",
-        "Small cap-focused Russell 2000 becomes first U.S. benchmark to enter correction territory",
-        "Gold drops nearly 10% in worst weekly rout since 2011",
-        "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave"
+        "Companies are doing more with less in AI era. Workers can take advantage",
+        "FedEx has started delivering 'promotion-ready' AI training to over 400,000 workers"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 8.3,
-      "sources": "Bloomberg(6), Yahoo(2), MarketWatch(1), FT(1)",
+      "count": 11,
+      "pct": 8.8,
+      "sources": "Yahoo(5), Bloomberg(4), FT(2)",
       "sample_headlines": [
-        "The stock market actually doesn\u2019t care as much about oil prices as you think",
-        "Canada\u2019s oil producers in line for C$90bn windfall from Iran war",
-        "Negative West Texas Gas Prices Reveal Mismatch in Global Energy",
-        "Hedge Fund Sees 31% Gain From Oil-Stock Bet Before Prices Surged",
-        "As Iran War Continues, Natural Gas Prices Soar"
+        "World faces gas supply cliff edge as Gulf\u2019s final LNG shipments approach ports",
+        "Iran war leaves US oil and gas dealmaking \u2018in paralysis\u2019",
+        "New Zealand Yields Rise to Highest in a Year on Outlook Cut, Oil",
+        "Oil & Gas Prices Highest in Years",
+        "Trump Planned for Big Oil\u2019s Global Dominance. Then He Went to War With Iran"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 5.0,
-      "sources": "Bloomberg(3), CNBC(2), FT(1)",
+      "count": 9,
+      "pct": 7.2,
+      "sources": "Yahoo(7), CNBC(2)",
       "sample_headlines": [
+        "The price of menstrual products is skyrocketing from inflation, tariffs",
         "FedEx has started delivering 'promotion-ready' AI training to over 400,000 workers",
-        "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave",
-        "Jay Powell extols \u2018independence and integrity\u2019 after latest attacks by Trump",
-        "India\u2019s Modi Stresses Need for Secure Shipping in Call With Iran",
-        "Fed Contends With Iran War Uncertainty"
+        "'The energy tax': Analysts weigh impact of surging gasoline prices on inflation, consumers",
+        "3 weeks of war, possible rate hikes, and AI's 'show me' phase: What to watch this week",
+        "HELOC and home equity loan rates Sunday, March 22, 2026: Steady following second Fed rate pause"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 4.1,
-      "sources": "CNBC(2), MarketWatch(2), Bloomberg(1)",
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 7.2,
+      "sources": "Yahoo(4), CNBC(3), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "\u2018Tax resistance\u2019 gains attention amid ICE protests, Iran war \u2014 and IRS penalties could follow",
-        "'Marriage penalty' in Washington state's new millionaire tax stirs debate",
-        "\u2018The money is tax-free\u2019: I\u2019m 76 and won $50,000 in a settlement related to cancer from nuclear waste. What should I do with it?",
-        "The IRS has changed the tax rules for 2026 \u2014 here\u2019s how to keep more money and not overpay",
-        "Austria Eyes \u20ac2 Billion in Budget Cuts With Risk From \u2018Dumb War\u2019"
+        "OpenAI's data center pivot underscores Wall Street spending concerns ahead of IPO",
+        "Top Wall Street analysts are confident about the long-term prospects of these 3 stocks",
+        "3 themes that gripped Wall Street as stocks dropped for a 4th straight week",
+        "Stocks are teetering on the edge of correction territory. Why the \u2018TACO trade\u2019 could flop.",
+        "Wall Street\u2019s Favorite Emerging-Market Bet Falters as War Rages"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "MarketWatch(1)",
+      "topic": "Trade / Tariffs",
+      "count": 4,
+      "pct": 3.2,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "History says these 2 overlooked asset classes are the only real shield against 1970s-style stagflation"
+        "The price of menstrual products is skyrocketing from inflation, tariffs",
+        "\u2018Healthcare is important to me\u2019: I\u2019m worried about relocating to Florida from New Jersey. Are hospitals there under stress?",
+        "Is the US-Canada Trade War Overblown?",
+        "Hormuz Strait Closure Forcing Trump, Importers to Seek Solution"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China"
+        "HORMUZ TRACKER: China-Bound LPG Carrier Joins Sparse Transits",
+        "Eli Lilly and Company (LLY) Expands Zepbound Access as Pricing Reforms Boost Long-Term Growth Outlook",
+        "Nvidia Corp (NVDA) Sets Sights on Chinese Customers After H200 License Approval"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "MarketWatch(1)",
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), CNBC(1)",
       "sample_headlines": [
-        "Financial advisers used to say no to bitcoin. Now they\u2019re saying maybe \u2014 but with a catch."
+        "\u2018Tax resistance\u2019 gains attention amid ICE protests, Iran war \u2014 and IRS penalties could follow",
+        "'The energy tax': Analysts weigh impact of surging gasoline prices on inflation, consumers",
+        "Arizona man sold two homes for $744K \u2014 then lost in court and owed taxes on $255K. What every seller must know"
       ]
     }
   ]
