@@ -1,105 +1,103 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 125,
-  "fetched_at": "2026-03-22T22:00:44.516667+00:00",
+  "total_headlines": 122,
+  "fetched_at": "2026-03-23T22:01:15.526992+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 28,
-      "pct": 22.4,
-      "sources": "Bloomberg(15), FT(8), Yahoo(3), CNBC(2)",
+      "count": 26,
+      "pct": 21.3,
+      "sources": "FT(8), Bloomberg(8), CNBC(6), Yahoo(3), MarketWatch(1)",
       "sample_headlines": [
-        "The economy has a Strait of Hormuz deadline for Trump: Two weeks",
-        "\u2018Tax resistance\u2019 gains attention amid ICE protests, Iran war \u2014 and IRS penalties could follow",
-        "Trump pushes Iran war to new phase of escalation",
-        "Iran threatens \u2018vital\u2019 infrastructure and Hormuz Strait closure in response to Trump ultimatum",
-        "War with Iran has exposed American fragility at sea"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 16,
-      "pct": 12.8,
-      "sources": "Yahoo(8), CNBC(5), MarketWatch(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "OpenAI's data center pivot underscores Wall Street spending concerns ahead of IPO",
-        "Why Spotify AI more than music will be the secret to keeping subscribers",
-        "OpenClaw's ChatGPT moment sparks concern that AI models are becoming commodities",
-        "Companies are doing more with less in AI era. Workers can take advantage",
-        "FedEx has started delivering 'promotion-ready' AI training to over 400,000 workers"
+        "Chevron CEO says Iran war impact isn't fully priced into oil market, traders have \u2018scant information\u2019",
+        "Asia wants more U.S. oil and gas to reduce Middle East dependence after Iran war, Burgum says",
+        "Oil tumbles nearly 11% after Trump puts hold on U.S. strikes against Iran energy infrastructure for five days",
+        "More than 40 Middle East energy assets \u2018severely damaged,\u2019 IEA chief says",
+        "BlackRock\u2019s Larry Fink warns against market timing, says missing best days can halve returns"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 11,
-      "pct": 8.8,
-      "sources": "Yahoo(5), Bloomberg(4), FT(2)",
+      "count": 17,
+      "pct": 13.9,
+      "sources": "CNBC(7), Bloomberg(6), FT(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "World faces gas supply cliff edge as Gulf\u2019s final LNG shipments approach ports",
-        "Iran war leaves US oil and gas dealmaking \u2018in paralysis\u2019",
-        "New Zealand Yields Rise to Highest in a Year on Outlook Cut, Oil",
-        "Oil & Gas Prices Highest in Years",
-        "Trump Planned for Big Oil\u2019s Global Dominance. Then He Went to War With Iran"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.2,
-      "sources": "Yahoo(7), CNBC(2)",
-      "sample_headlines": [
-        "The price of menstrual products is skyrocketing from inflation, tariffs",
-        "FedEx has started delivering 'promotion-ready' AI training to over 400,000 workers",
-        "'The energy tax': Analysts weigh impact of surging gasoline prices on inflation, consumers",
-        "3 weeks of war, possible rate hikes, and AI's 'show me' phase: What to watch this week",
-        "HELOC and home equity loan rates Sunday, March 22, 2026: Steady following second Fed rate pause"
+        "Volume in stock and oil futures surged minutes before Trump's market-turning post",
+        "Chevron CEO says Iran war impact isn't fully priced into oil market, traders have \u2018scant information\u2019",
+        "Asia wants more U.S. oil and gas to reduce Middle East dependence after Iran war, Burgum says",
+        "Oil tumbles nearly 11% after Trump puts hold on U.S. strikes against Iran energy infrastructure for five days",
+        "China sees long lines at the gas pump as Mideast turmoil hits"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 7.2,
-      "sources": "Yahoo(4), CNBC(3), MarketWatch(1), Bloomberg(1)",
+      "count": 10,
+      "pct": 8.2,
+      "sources": "CNBC(6), MarketWatch(2), Bloomberg(2)",
       "sample_headlines": [
-        "OpenAI's data center pivot underscores Wall Street spending concerns ahead of IPO",
-        "Top Wall Street analysts are confident about the long-term prospects of these 3 stocks",
-        "3 themes that gripped Wall Street as stocks dropped for a 4th straight week",
-        "Stocks are teetering on the edge of correction territory. Why the \u2018TACO trade\u2019 could flop.",
-        "Wall Street\u2019s Favorite Emerging-Market Bet Falters as War Rages"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.2,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "The price of menstrual products is skyrocketing from inflation, tariffs",
-        "\u2018Healthcare is important to me\u2019: I\u2019m worried about relocating to Florida from New Jersey. Are hospitals there under stress?",
-        "Is the US-Canada Trade War Overblown?",
-        "Hormuz Strait Closure Forcing Trump, Importers to Seek Solution"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "HORMUZ TRACKER: China-Bound LPG Carrier Joins Sparse Transits",
-        "Eli Lilly and Company (LLY) Expands Zepbound Access as Pricing Reforms Boost Long-Term Growth Outlook",
-        "Nvidia Corp (NVDA) Sets Sights on Chinese Customers After H200 License Approval"
+        "Volume in stock and oil futures surged minutes before Trump's market-turning post",
+        "ICE deployed to some U.S. airports as long security lines persist during partial shutdown",
+        "Trump administration plans to bring more diesel to market as fuel prices surge, Wright says",
+        "Oil tumbles nearly 11% after Trump puts hold on U.S. strikes against Iran energy infrastructure for five days",
+        "Here are the things we want to see to trust this stock market rally"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Yahoo(2), CNBC(1)",
+      "count": 10,
+      "pct": 8.2,
+      "sources": "Yahoo(7), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
-        "\u2018Tax resistance\u2019 gains attention amid ICE protests, Iran war \u2014 and IRS penalties could follow",
-        "'The energy tax': Analysts weigh impact of surging gasoline prices on inflation, consumers",
-        "Arizona man sold two homes for $744K \u2014 then lost in court and owed taxes on $255K. What every seller must know"
+        "These states are considering gas-tax holidays. Here\u2019s how much drivers could save.",
+        "If you\u2019re trying to avoid an IRS audit, leave these three things alone on your tax return",
+        "Treasury Yields Fall From Highs as Trump Talk Spurs Slide in Oil",
+        "I inherited a $1.5M Roth IRA. I have some debt, but also want a home. What are the tax rules so I make the best of this?",
+        "For Your (Tax) Health: The Underloved HSA"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 6,
+      "pct": 4.9,
+      "sources": "Yahoo(3), CNBC(2), MarketWatch(1)",
+      "sample_headlines": [
+        "Synopsys shares rally as activist Elliott builds multibillion-dollar stake in chip design firm",
+        "U.S. executives, from Apple to Eli Lilly, revamp their push into the world's second-largest economy at the China Development Forum",
+        "These chip stocks could be winners as Elon Musk executes on his \u2018Terafab\u2019 vision",
+        "1 Stock to Buy Now to Bet on Physical AI the Nvidia Way",
+        "Is an OpenClaw Partnership the Next Big Thing for Nvidia Stock? How to Position Now."
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 5,
+      "pct": 4.1,
+      "sources": "Bloomberg(2), Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
+        "Pricing In a Fed Rate Hike Is 'Misguided,' Julian Emanuel Says",
+        "Treasury Yields Fall From Highs as Trump Talk Spurs Slide in Oil",
+        "The 2026 COLA Is Three Months In. Here Is Whether It Is Still Keeping Up With Inflation.",
+        "Best high-yield savings interest rates today, March 23, 2026 (Earn up to 4% APY)"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "China sees long lines at the gas pump as Mideast turmoil hits",
+        "U.S. executives, from Apple to Eli Lilly, revamp their push into the world's second-largest economy at the China Development Forum"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "The uneven cost of tariffs: Why some households will pay more than others"
       ]
     }
   ]
