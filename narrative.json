@@ -1,103 +1,95 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 122,
-  "fetched_at": "2026-03-23T22:01:15.526992+00:00",
+  "total_headlines": 129,
+  "fetched_at": "2026-03-24T22:00:59.425011+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 26,
-      "pct": 21.3,
-      "sources": "FT(8), Bloomberg(8), CNBC(6), Yahoo(3), MarketWatch(1)",
+      "count": 28,
+      "pct": 21.7,
+      "sources": "Bloomberg(11), CNBC(8), FT(4), MarketWatch(3), Yahoo(2)",
       "sample_headlines": [
-        "Chevron CEO says Iran war impact isn't fully priced into oil market, traders have \u2018scant information\u2019",
-        "Asia wants more U.S. oil and gas to reduce Middle East dependence after Iran war, Burgum says",
-        "Oil tumbles nearly 11% after Trump puts hold on U.S. strikes against Iran energy infrastructure for five days",
-        "More than 40 Middle East energy assets \u2018severely damaged,\u2019 IEA chief says",
-        "BlackRock\u2019s Larry Fink warns against market timing, says missing best days can halve returns"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 17,
-      "pct": 13.9,
-      "sources": "CNBC(7), Bloomberg(6), FT(2), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "Volume in stock and oil futures surged minutes before Trump's market-turning post",
-        "Chevron CEO says Iran war impact isn't fully priced into oil market, traders have \u2018scant information\u2019",
-        "Asia wants more U.S. oil and gas to reduce Middle East dependence after Iran war, Burgum says",
-        "Oil tumbles nearly 11% after Trump puts hold on U.S. strikes against Iran energy infrastructure for five days",
-        "China sees long lines at the gas pump as Mideast turmoil hits"
+        "U.S. sent Iran 15-point plan to end war, report says; Trump says 'in negotiations right now'",
+        "Jamie Dimon says Iran war makes Middle East peace prospects better in the long term",
+        "Pakistan offers to facilitate U.S.-Iran war talks as Trump and Tehran give mixed signals",
+        "Kuwait says Strait of Hormuz closure is beyond catastrophic, will trigger domino effect across global economy",
+        "As Iran war causes gas and airfares to spike, lawmakers warn of price gouging \u2014 but experts point to supply shocks"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 8.2,
-      "sources": "CNBC(6), MarketWatch(2), Bloomberg(2)",
+      "count": 20,
+      "pct": 15.5,
+      "sources": "Yahoo(12), Bloomberg(4), CNBC(3), MarketWatch(1)",
       "sample_headlines": [
-        "Volume in stock and oil futures surged minutes before Trump's market-turning post",
-        "ICE deployed to some U.S. airports as long security lines persist during partial shutdown",
-        "Trump administration plans to bring more diesel to market as fuel prices surge, Wright says",
-        "Oil tumbles nearly 11% after Trump puts hold on U.S. strikes against Iran energy infrastructure for five days",
-        "Here are the things we want to see to trust this stock market rally"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 10,
-      "pct": 8.2,
-      "sources": "Yahoo(7), MarketWatch(2), Bloomberg(1)",
-      "sample_headlines": [
-        "These states are considering gas-tax holidays. Here\u2019s how much drivers could save.",
-        "If you\u2019re trying to avoid an IRS audit, leave these three things alone on your tax return",
-        "Treasury Yields Fall From Highs as Trump Talk Spurs Slide in Oil",
-        "I inherited a $1.5M Roth IRA. I have some debt, but also want a home. What are the tax rules so I make the best of this?",
-        "For Your (Tax) Health: The Underloved HSA"
+        "Senate Republicans, White House nearing deal to end DHS shutdown amid TSA delays",
+        "Delta suspends 'specialty services' perk for members of Congress, cites DHS shutdown",
+        "Home Depot makes another pro deal \u2014 plus, what's behind Corning's big rally",
+        "Medicare is cracking down on  rising fraud and improper care at hospice as admissions soar",
+        "Bond Market Nears \u2018Inflection Point\u2019 After War-Related Selloff"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 6,
-      "pct": 4.9,
-      "sources": "Yahoo(3), CNBC(2), MarketWatch(1)",
+      "count": 18,
+      "pct": 14.0,
+      "sources": "CNBC(8), Yahoo(5), FT(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Synopsys shares rally as activist Elliott builds multibillion-dollar stake in chip design firm",
-        "U.S. executives, from Apple to Eli Lilly, revamp their push into the world's second-largest economy at the China Development Forum",
-        "These chip stocks could be winners as Elon Musk executes on his \u2018Terafab\u2019 vision",
-        "1 Stock to Buy Now to Bet on Physical AI the Nvidia Way",
-        "Is an OpenClaw Partnership the Next Big Thing for Nvidia Stock? How to Position Now."
+        "Meta must pay $375 million for violating New Mexico law in child exploitation case, jury rules",
+        "OpenAI shutters short-form video app Sora as company reels in costs",
+        "Amazon acquires 'approachable' humanoid maker Fauna Robotics",
+        "Google partners with Agile Robots, growing its AI robotics footprint",
+        "Arm releases first in-house chip, with Meta as debut customer"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 13,
+      "pct": 10.1,
+      "sources": "Bloomberg(4), Yahoo(4), CNBC(2), MarketWatch(2), FT(1)",
+      "sample_headlines": [
+        "DCCC launches geotargeted digital ad campaign hitting GOP for gas prices",
+        "Oil rises, with Brent climbing back above $100 as optimism fades over Iran war de-escalation",
+        "Iran is testing a \u2018selective\u2019 Strait of Hormuz strategy that could deliver another shock to oil markets",
+        "Pentagon reportedly plans to deploy 3,000 troops to the Middle East, lifting oil prices by nearly 5%",
+        "Oil swings below $100 in latest bout of market volatility"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 5,
+      "pct": 3.9,
+      "sources": "Yahoo(4), Bloomberg(1)",
+      "sample_headlines": [
+        "Tether\u2019s Landmark Fundraise on Hold as Crypto Giant Seeks Audit",
+        "Crypto Miners Are Losing Nearly $20,000 On Each Bitcoin Produced",
+        "Tom Lee's BitMine Purchases Another $138 million Of Ethereum",
+        "Corpay \u2013 How Stablecoin and Blockchain Can Drive Long-Term Growth",
+        "These 2 Bitcoin ETFs Are Seeing Inflows for the First Time in Months"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 4.1,
-      "sources": "Bloomberg(2), Yahoo(2), CNBC(1)",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
-        "Pricing In a Fed Rate Hike Is 'Misguided,' Julian Emanuel Says",
-        "Treasury Yields Fall From Highs as Trump Talk Spurs Slide in Oil",
-        "The 2026 COLA Is Three Months In. Here Is Whether It Is Still Keeping Up With Inflation.",
-        "Best high-yield savings interest rates today, March 23, 2026 (Earn up to 4% APY)"
+        "OpenAI revamps shopping experience in ChatGPT after struggling with Instant Checkout offering",
+        "US Treasuries Slide as Inflation Woes Lead to a Weak Auction",
+        "Inflation Shock Will Be Short-Lived, Pimco's Wilding Says",
+        "Iran War Pulls Petrobras Into Brazil\u2019s Inflation Battle"
       ]
     },
     {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(2)",
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "China sees long lines at the gas pump as Mideast turmoil hits",
-        "U.S. executives, from Apple to Eli Lilly, revamp their push into the world's second-largest economy at the China Development Forum"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "The uneven cost of tariffs: Why some households will pay more than others"
+        "Amazon's Zoox to debut robotaxis in Austin, Miami later this year as it awaits paid ride approval",
+        "These states are considering gas-tax holidays. Here\u2019s how much drivers could save.",
+        "BHP Sees Potash Heading Toward Deficit as Demand Outpaces Supply",
+        "I Asked ChatGPT Which Tax Credits Matter Most for Middle-Class Families: Here\u2019s What It Said"
       ]
     }
   ]
