@@ -1,115 +1,108 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 121,
-  "fetched_at": "2026-03-25T08:22:32.559244+00:00",
+  "total_headlines": 127,
+  "fetched_at": "2026-03-25T22:00:47.748080+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 39,
-      "pct": 32.2,
-      "sources": "Bloomberg(12), CNBC(10), Yahoo(7), MarketWatch(6), FT(4)",
+      "count": 25,
+      "pct": 19.7,
+      "sources": "Bloomberg(13), CNBC(6), FT(4), Yahoo(2)",
       "sample_headlines": [
-        "U.S. sent Iran 15-point plan to end war, report says; Trump says 'in negotiations right now'",
-        "\u2018Asia\u2019s Ukraine moment\u2019: How the Iran war could accelerate a shift into renewables",
-        "Oil drops 5% with Brent back below $100 as Trump signals talks to end Iran war",
-        "Gold jumps 2% as oil slump eases inflation fears amid Trump Iran talks",
-        "South Korea braces for 'worst-case scenarios' as Iran oil shock deepens"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 17,
-      "pct": 14.0,
-      "sources": "Bloomberg(7), CNBC(4), Yahoo(3), MarketWatch(2), FT(1)",
-      "sample_headlines": [
-        "Oil drops 5% with Brent back below $100 as Trump signals talks to end Iran war",
-        "Gold jumps 2% as oil slump eases inflation fears amid Trump Iran talks",
-        "South Korea braces for 'worst-case scenarios' as Iran oil shock deepens",
-        "Venezuela opposition leader Mar\u00eda Corina Machado calls for full privatization of oil industry",
-        "Oil prices fall, stock futures climb on reports U.S. has proposed a cease-fire to Iran"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 17,
-      "pct": 14.0,
-      "sources": "CNBC(8), Yahoo(5), MarketWatch(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Meta must pay $375 million for violating New Mexico law in child exploitation case, jury rules",
-        "OpenAI shutters short-form video app Sora as company reels in costs",
-        "OpenAI raises additional money to bring record funding round to $120 billion, CFO tells Cramer",
-        "Meta makes 'big bet' on top leaders with stock options as pressure builds to catch up in AI",
-        "Arm stock pops 6% as CEO Haas issues $15 billion revenue expectation for new chip"
+        "Iran has no intention to hold talks with U.S; foreign minister says Trump proposal to end war being reviewed",
+        "How the Iran war could crush the U.S. housing recovery, and it's not just about mortgage rates",
+        "U.S. Postal Service seeks 8% fuel surcharge for package deliveries as Iran war raises oil prices",
+        "Elon Musk calls for Delaware judge to recuse herself in lawsuits, alleging bias",
+        "It\u2019s not just oil and gas. The Strait of Hormuz blockage is rattling another vital commodity"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 6.6,
-      "sources": "CNBC(3), MarketWatch(2), Yahoo(2), FT(1)",
+      "count": 18,
+      "pct": 14.2,
+      "sources": "Yahoo(10), CNBC(5), Bloomberg(3)",
       "sample_headlines": [
-        "Home Depot makes another pro deal \u2014 plus, what's behind Corning's big rally",
-        "Senate Republicans, White House nearing deal to end DHS shutdown amid TSA delays",
-        "Delta suspends 'specialty services' perk for members of Congress, cites DHS shutdown",
-        "Oil prices fall, stock futures climb on reports U.S. has proposed a cease-fire to Iran",
-        "A bad Treasury auction is offering a glimpse into the anxiety on Wall Street over the Iran war"
+        "Republicans balk at Senate Democrats' DHS shutdown counteroffer",
+        "Space stocks rally on reports of SpaceX's imminent IPO filing",
+        "The research firm whose AI paper knocked the whole stock market is out with another big call",
+        "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
+        "ECB ready to hike rates even if expected inflation surge is short-lived, Lagarde says"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 11.0,
+      "sources": "CNBC(8), MarketWatch(2), Yahoo(2), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Jury in Los Angeles finds Meta, YouTube negligent in social media addiction trial",
+        "Meta cutting several hundred jobs across Reality Labs, Facebook and other departments",
+        "The research firm whose AI paper knocked the whole stock market is out with another big call",
+        "New Mexico seeking changes to Meta's platform after jury finds company liable",
+        "Microsoft's diversity chief is leaving as company continues 'AI-powered transformation'"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 11,
+      "pct": 8.7,
+      "sources": "Bloomberg(4), CNBC(3), Yahoo(2), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "U.S. Postal Service seeks 8% fuel surcharge for package deliveries as Iran war raises oil prices",
+        "Trump administration waives gasoline regulations to address surging fuel prices",
+        "It\u2019s not just oil and gas. The Strait of Hormuz blockage is rattling another vital commodity",
+        "Oil pares losses as traders weigh cease-fire prospects and try to \u2018price in light at the end of the tunnel\u2019",
+        "Oil volatile as Iran lays out own terms to end conflict"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 5.0,
-      "sources": "Bloomberg(3), Yahoo(2), CNBC(1)",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "Bloomberg(3), CNBC(2), Yahoo(2)",
       "sample_headlines": [
-        "Gold jumps 2% as oil slump eases inflation fears amid Trump Iran talks",
-        "UK Inflation Holds Steady at 3% Before Iran War Impact",
-        "Why Philippines Is More Exposed to Oil Shocks in SEA",
-        "Philippine Airlines Chief Says Nation May Need to Ration Fuel",
-        "Mortgage and refinance interest rates today, March 24, 2026: Higher yet again"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 5,
-      "pct": 4.1,
-      "sources": "Bloomberg(4), FT(1)",
-      "sample_headlines": [
-        "China reviews $2bn Manus sale to Meta as founders barred from leaving country",
-        "Meituan, Alibaba Shares Jump as Beijing Vows to End Price Wars",
-        "China Investors Shift In and Out of HK ETFs as Confidence Wavers",
-        "US Forms 15-Point Plan to End Iran War | The China Show 3/25/2026",
-        "Mideast Funds Ride China AI Wave to World-Beating IPO Gains"
+        "As March Madness unfolds, NY Fed highlights sports betting toll on consumer credit health",
+        "ECB ready to hike rates even if expected inflation surge is short-lived, Lagarde says",
+        "BlackRock's Rieder Renews Call for Rate Cuts",
+        "Miran Says Fed Policy Is Holding the Economy Back",
+        "Bank of France Trims Growth Forecast, Sees Faster Inflation"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 4.1,
-      "sources": "Yahoo(3), MarketWatch(1), Bloomberg(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Yahoo(2)",
       "sample_headlines": [
-        "A bad Treasury auction is offering a glimpse into the anxiety on Wall Street over the Iran war",
-        "Nickel Spikes After Indonesia\u2019s President Approves Export Tax",
-        "Tax refunds are up from a year ago. Will that help the burn of higher gas prices?",
-        "3 ways your relationship status could impact your tax bill",
-        "Influencer tax rules: A guide for TikTok, Twitch, and other creators"
+        "Zoox to widen US robotaxi footprint with San Francisco, Vegas expansion",
+        "3 ways your relationship status could impact your tax bill"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Are Your Investments Prepared for a Recession? Here's How to Tell."
+        "Recession odds climb on Wall Street as economy shows cracks beneath the surface"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "China",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Nickel Spikes After Indonesia\u2019s President Approves Export Tax"
+        "White House says Trump will meet Xi in China in May"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Bernstein Calls Bitcoin Bottom And Issues $150,000 Price Target"
       ]
     }
   ]
