@@ -1,108 +1,112 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 127,
-  "fetched_at": "2026-03-25T22:00:47.748080+00:00",
+  "total_headlines": 124,
+  "fetched_at": "2026-03-29T21:01:15.190233+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 25,
-      "pct": 19.7,
-      "sources": "Bloomberg(13), CNBC(6), FT(4), Yahoo(2)",
+      "count": 26,
+      "pct": 21.0,
+      "sources": "Bloomberg(10), CNBC(7), FT(4), Yahoo(4), MarketWatch(1)",
       "sample_headlines": [
-        "Iran has no intention to hold talks with U.S; foreign minister says Trump proposal to end war being reviewed",
-        "How the Iran war could crush the U.S. housing recovery, and it's not just about mortgage rates",
-        "U.S. Postal Service seeks 8% fuel surcharge for package deliveries as Iran war raises oil prices",
-        "Elon Musk calls for Delaware judge to recuse herself in lawsuits, alleging bias",
-        "It\u2019s not just oil and gas. The Strait of Hormuz blockage is rattling another vital commodity"
+        "Middle East leaders huddle in Pakistan as Trump weighs ground operations in Iran",
+        "The problem for investors: We don't know how Trump wants the Iran war to end",
+        "How the big oil and gas CEOs think the Iran war supply disruption will play out",
+        "The Iran war is defense tech's chance to shine, but few systems and weapons are ready",
+        "Analysis: A new oil shock is building. The next few weeks of war will be decisive for the economy."
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 18,
-      "pct": 14.2,
-      "sources": "Yahoo(10), CNBC(5), Bloomberg(3)",
+      "count": 16,
+      "pct": 12.9,
+      "sources": "Yahoo(5), CNBC(4), Bloomberg(4), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Republicans balk at Senate Democrats' DHS shutdown counteroffer",
-        "Space stocks rally on reports of SpaceX's imminent IPO filing",
-        "The research firm whose AI paper knocked the whole stock market is out with another big call",
-        "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
-        "ECB ready to hike rates even if expected inflation surge is short-lived, Lagarde says"
+        "Top Wall Street analysts like these dividend stocks for solid returns",
+        "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "As stocks and bonds fall, and oil hits $100, a futures trade that boomed in 2022 may again be a winner",
+        "Cramer\u2019s game plan: Oil shock is driving this sell-off and tech won\u2019t bottom until it ends",
+        "Is Trump losing his grip on the stock market? Sustained declines suggest the president\u2019s influence has waned."
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 11.0,
-      "sources": "CNBC(8), MarketWatch(2), Yahoo(2), FT(1), Bloomberg(1)",
+      "count": 13,
+      "pct": 10.5,
+      "sources": "Yahoo(12), CNBC(1)",
       "sample_headlines": [
-        "Jury in Los Angeles finds Meta, YouTube negligent in social media addiction trial",
-        "Meta cutting several hundred jobs across Reality Labs, Facebook and other departments",
-        "The research firm whose AI paper knocked the whole stock market is out with another big call",
-        "New Mexico seeking changes to Meta's platform after jury finds company liable",
-        "Microsoft's diversity chief is leaving as company continues 'AI-powered transformation'"
+        "Meta's court losses spell potential trouble for AI research, consumer safety",
+        "ACM Research (ACMR) Shanghai Unit Outlines Profit Distribution Plan For Fiscal 2025",
+        "Lattice Semiconductor (LSCC) Partners With Nvidia to Join Halos AI Systems Inspection Lab Ecosystem",
+        "Microchip Technology (MCHP) Launches a New System-in-Package for Automotive Human-Machine Interfaces",
+        "Is Marvell Technology (MRVL) One of the High Growth Semiconductor Stocks to Buy?"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "Bloomberg(4), CNBC(3), Yahoo(2), MarketWatch(1), FT(1)",
+      "count": 9,
+      "pct": 7.3,
+      "sources": "CNBC(4), Bloomberg(3), Yahoo(2)",
       "sample_headlines": [
-        "U.S. Postal Service seeks 8% fuel surcharge for package deliveries as Iran war raises oil prices",
-        "Trump administration waives gasoline regulations to address surging fuel prices",
-        "It\u2019s not just oil and gas. The Strait of Hormuz blockage is rattling another vital commodity",
-        "Oil pares losses as traders weigh cease-fire prospects and try to \u2018price in light at the end of the tunnel\u2019",
-        "Oil volatile as Iran lays out own terms to end conflict"
+        "How the big oil and gas CEOs think the Iran war supply disruption will play out",
+        "As stocks and bonds fall, and oil hits $100, a futures trade that boomed in 2022 may again be a winner",
+        "Analysis: A new oil shock is building. The next few weeks of war will be decisive for the economy.",
+        "Cramer\u2019s game plan: Oil shock is driving this sell-off and tech won\u2019t bottom until it ends",
+        "Philippine Refiner Petron Buys Russian Crude, Eyes More If Iran War Persists"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "Bloomberg(3), CNBC(2), Yahoo(2)",
+      "count": 4,
+      "pct": 3.2,
+      "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "As March Madness unfolds, NY Fed highlights sports betting toll on consumer credit health",
-        "ECB ready to hike rates even if expected inflation surge is short-lived, Lagarde says",
-        "BlackRock's Rieder Renews Call for Rate Cuts",
-        "Miran Says Fed Policy Is Holding the Economy Back",
-        "Bank of France Trims Growth Forecast, Sees Faster Inflation"
+        "Worried about Strait of Hormuz inflation to come? The world economy has one word for you: Plastics",
+        "Philippine Refiner Petron Buys Russian Crude, Eyes More If Iran War Persists",
+        "Emerging Markets Rout Lures Contrarians Betting on Rate Cuts",
+        "Leadership Row Erupts at Philippine Conglomerate Over ABS-CBN Capital Infusion"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Yahoo(2)",
+      "count": 4,
+      "pct": 3.2,
+      "sources": "CNBC(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Zoox to widen US robotaxi footprint with San Francisco, Vegas expansion",
-        "3 ways your relationship status could impact your tax bill"
+        "New fees, fewer flights: Higher fuel prices pinch consumer budgets beyond the gas pump",
+        "Not everyone can expect a bigger tax refund this year \u2014 what's actually driving your result",
+        "Eurozone borrowing costs soar on fears of fiscal hit from Iran shock",
+        "ACM Research (ACMR) Shanghai Unit Outlines Profit Distribution Plan For Fiscal 2025"
       ]
     },
     {
       "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Recession odds climb on Wall Street as economy shows cracks beneath the surface"
+        "Distressed-debt funds target private credit downturn as \u2018greatest opportunity\u2019 since 2008",
+        "JPMorgan, Pimco Say Bond Market Is Underestimating Slowdown Risk"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "White House says Trump will meet Xi in China in May"
+        "How Chinese, Russian Arctic ambitions are fueling a U.S. polar icebreaker mission",
+        "China Summons US Envoy to HK Over Alert on Security Law Changes",
+        "ACM Research (ACMR) Shanghai Unit Outlines Profit Distribution Plan For Fiscal 2025"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Bernstein Calls Bitcoin Bottom And Issues $150,000 Price Target"
+        "Worried Market Volatility Will Hurt Your Retirement Savings? Here's the 1 Important Thing to Know."
       ]
     }
   ]

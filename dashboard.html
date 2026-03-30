@@ -374,6 +374,59 @@ function buildDashboard(D){
 
   <div id="narrative-section"></div>
 
+  <!-- PRACTITIONER CHECKLIST -->
+  ${(()=>{
+    // Compute each signal status
+    const fy26 = (D.cumulative[String(D.meta.fiscal_year)]||[]).slice().sort((a,b)=>a.fm-b.fm);
+    const latestFm = fy26.length ? fy26[fy26.length-1] : null;
+    const prevFm   = fy26.length > 1 ? fy26[fy26.length-2] : null;
+    const tariffTrend = latestFm && prevFm ? latestFm.tariffs - prevFm.tariffs : null;
+
+    const signals = [
+      {label:'FYTD YoY',
+       status: c.fytd_yoy_pct > 0 ? 'bull' : c.fytd_yoy_pct > -8 ? 'neutral' : 'bear',
+       value: pct(c.fytd_yoy_pct),
+       note: c.fytd_yoy_pct > 0 ? 'improving' : 'restrictive'},
+      {label:'TGA direction',
+       status: n.tga_5d < 0 ? 'bull' : n.tga_5d > 0 ? 'bear' : 'neutral',
+       value: n.tga_5d > 0 ? 'rebuilding' : 'drawing down',
+       note: n.tga_5d > 0 ? 'drains reserves' : 'adds reserves'},
+      {label:'5d vs 20d CFI',
+       status: c.avg_5d_cfi > c.avg_20d_cfi ? 'bull' : c.avg_5d_cfi > c.avg_20d_cfi * 0.8 ? 'neutral' : 'bear',
+       value: fmt(c.avg_5d_cfi)+' vs '+fmt(c.avg_20d_cfi),
+       note: c.avg_5d_cfi > c.avg_20d_cfi ? 'momentum up' : 'momentum fading'},
+      {label:'Refund pace',
+       status: n.refund_4wk_yoy == null ? 'neutral'
+              : n.refund_4wk_yoy > 0 ? 'bull' : n.refund_4wk_yoy > -10 ? 'neutral' : 'bear',
+       value: n.refund_4wk_yoy != null ? pct(n.refund_4wk_yoy)+' YoY' : 'n/a',
+       note: 'trailing 4wk'},
+      {label:'Tariff drain',
+       status: tariffTrend == null ? 'neutral'
+              : tariffTrend < -2 ? 'bull' : tariffTrend > 2 ? 'bear' : 'neutral',
+       value: latestFm ? fmt(latestFm.tariffs)+'B ('+latestFm.month+')' : 'n/a',
+       note: tariffTrend != null ? (tariffTrend < 0 ? 'easing' : 'rising') : ''},
+    ];
+
+    const dot = s => s==='bull' ? '#10b981' : s==='bear' ? '#ef4444' : '#94A3B8';
+    const bg  = s => s==='bull' ? 'rgba(16,185,129,0.08)' : s==='bear' ? 'rgba(239,68,68,0.08)' : 'rgba(148,163,184,0.06)';
+    const bdr = s => s==='bull' ? 'rgba(16,185,129,0.2)' : s==='bear' ? 'rgba(239,68,68,0.2)' : 'rgba(148,163,184,0.15)';
+
+    const items = signals.map(s=>`
+      <div style="flex:1;min-width:130px;padding:8px 10px;background:${bg(s.status)};border:1px solid ${bdr(s.status)};border-radius:6px">
+        <div style="display:flex;align-items:center;gap:5px;margin-bottom:4px">
+          <span style="width:7px;height:7px;border-radius:50%;background:${dot(s.status)};flex-shrink:0"></span>
+          <span style="font-size:10px;font-family:'JetBrains Mono',monospace;color:#94A3B8;letter-spacing:0.05em">${s.label.toUpperCase()}</span>
+        </div>
+        <div style="font-size:13px;font-family:'JetBrains Mono',monospace;color:${dot(s.status)};font-weight:600">${s.value}</div>
+        <div style="font-size:10px;color:#64748b;margin-top:2px">${s.note}</div>
+      </div>`).join('');
+
+    return `<div style="margin:16px 0;padding:12px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:8px">
+      <div style="font-size:10px;font-family:'JetBrains Mono',monospace;color:#64748b;letter-spacing:0.08em;margin-bottom:10px">PRACTITIONER SIGNALS</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">${items}</div>
+    </div>`;
+  })()}
+
   <div class="toggles">
     <button class="tbtn active" data-view="flows">Daily Flows</button>
     <button class="tbtn" data-view="cumulative">FYTD Comparison</button>
@@ -386,6 +439,7 @@ function buildDashboard(D){
     <button class="tbtn" data-view="report">&#9998; Report</button>
     <button class="tbtn" data-view="technicals">Technicals</button>
     <button class="tbtn" data-view="relstrength">Rel. Strength</button>
+    <button class="tbtn" data-view="marketlink">Market Linkage</button>
   </div>
 
   <!-- DAILY FLOWS -->
@@ -399,6 +453,7 @@ function buildDashboard(D){
       <span><span class="legend-dot" style="background:${P.a2};border-radius:50%"></span>TGA level (right)</span>
       <span style="color:${P.a2};font-size:var(--type-body-sm)">&#9733;</span><span style="font-size:var(--type-body-sm);color:var(--text-secondary);margin-left:4px">Coupon interest day</span>
       <span style="color:${P.pos};font-size:var(--type-caption)">&#9650;</span><span style="font-size:var(--type-body-sm);color:var(--text-secondary);margin-left:4px">SSA payment cycle</span>
+      <span style="display:inline-block;width:12px;height:12px;background:rgba(251,191,36,0.25);border:1px dashed rgba(251,191,36,0.5);border-radius:2px;vertical-align:middle"></span><span style="font-size:var(--type-body-sm);color:var(--text-secondary);margin-left:4px">CR / Continuing Resolution</span>
     </div>
   </div>
 
@@ -451,6 +506,32 @@ function buildDashboard(D){
     <div class="legend" style="margin-top:16px">
       <span><span class="legend-dot" style="background:rgba(255,255,255,0.15)"></span>FY${meta.fiscal_year-1}</span>
       <span><span class="legend-dot" style="background:${P.a1}"></span>FY${meta.fiscal_year}</span>
+    </div>
+
+    <!-- TARIFF DRAIN TRACKER -->
+    <div style="margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.07)">
+      <div class="mini-title" style="margin-bottom:6px">TARIFF DRAIN TRACKER</div>
+      <div style="font-size:12px;color:var(--text-secondary);margin-bottom:14px">Monthly customs &amp; tariff receipts vs prior fiscal year. Tariffs drain private-sector dollars identically to income taxes — operationally equivalent to a tax increase.</div>
+      <div style="height:220px;position:relative"><canvas id="chart-tariff-tracker"></canvas></div>
+      <div style="margin-top:14px;display:flex;gap:12px;flex-wrap:wrap">
+        ${(()=>{
+          const tr = (D.scorecard||[]).find(r=>r.label&&r.label.toLowerCase().includes('tariff'));
+          const fy26 = (D.cumulative[String(D.meta.fiscal_year)]||[]).slice().sort((a,b)=>a.fm-b.fm);
+          const peak = fy26.reduce((m,x)=>x.tariffs>m?x.tariffs:m, 0);
+          const latest = fy26.length ? fy26[fy26.length-1] : null;
+          if(!tr||!latest) return '';
+          const trending = peak > latest.tariffs + 1 ? 'decelerating from peak' : 'near peak';
+          return `
+            <div class="insight" style="flex:1;min-width:200px;margin:0">
+              <strong>FYTD YoY:</strong> <span class="mono" style="color:${P.neg}">+${tr.yoy_pct.toFixed(1)}%</span>
+              &mdash; ${fmt(tr.current)}B vs ${fmt(tr.prior)}B prior year
+            </div>
+            <div class="insight" style="flex:1;min-width:200px;margin:0">
+              <strong>FY${D.meta.fiscal_year} trend:</strong> peak <span class="mono">${peak.toFixed(1)}B</span>
+              &rarr; <span class="mono">${latest.tariffs.toFixed(1)}B</span> (${latest.month}) &mdash; ${trending}
+            </div>`;
+        })()}
+      </div>
     </div>
   </div>
 
@@ -505,6 +586,51 @@ function buildDashboard(D){
     })()}
 
 
+    <!-- ABSOLUTE LEVEL CONTEXT -->
+    <div style="margin-top:28px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.07)">
+      <div class="mini-title" style="margin-bottom:6px">ABSOLUTE LEVEL CONTEXT</div>
+      <div style="font-size:12px;color:var(--text-secondary);margin-bottom:16px">
+        The YoY comparison reads <strong style="color:${clr(c.fytd_yoy_pct)}">${pct(c.fytd_yoy_pct)}</strong> — but in absolute terms,
+        the current FYTD injection of <strong class="mono">${fmt(c.fytd_cfi)}B</strong> would have constituted the entire annual federal
+        deficit as recently as ${c.fytd_cfi < 318 ? '2000' : c.fytd_cfi < 1294 ? '~2008' : c.fytd_cfi < 1830 ? '~2017' : '~2019'}.
+        Context: what counts as "restrictive" is relative to recent history, not absolute dollar terms.
+      </div>
+      ${(()=>{
+        // Historical full-year federal deficits for reference
+        const refs = [
+          {label:'FY2005 (full year)', value:318,  note:'pre-GFC baseline'},
+          {label:'FY2010 (full year)', value:1294, note:'GFC peak deficit'},
+          {label:'FY2020 (full year)', value:3132, note:'COVID peak deficit'},
+          {label:'FY2025 (full year)', value:1830, note:'most recent full year'},
+        ];
+        const fytdMonths = (D.cumulative[String(D.meta.fiscal_year)]||[]).length;
+        const annualized = +(c.fytd_cfi * (12 / Math.max(fytdMonths,1))).toFixed(0);
+        const allValues = [...refs.map(r=>r.value), annualized];
+        const maxVal = Math.max(...allValues);
+        const barRow = (label, value, color, note, pct_w) => `
+          <div style="margin-bottom:10px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
+              <span style="font-size:11px;font-family:'JetBrains Mono',monospace;color:#94A3B8">${label}</span>
+              <span style="font-size:12px;font-family:'JetBrains Mono',monospace;color:${color}">${value >= 1000 ? (value/1000).toFixed(2)+'T' : value+'B'}
+                <span style="font-size:10px;color:#64748b"> ${note}</span></span>
+            </div>
+            <div style="background:rgba(255,255,255,0.05);border-radius:3px;height:8px;overflow:hidden">
+              <div style="width:${pct_w}%;height:100%;background:${color};border-radius:3px;transition:width 0.3s"></div>
+            </div>
+          </div>`;
+        const rows = refs.map(r=>barRow(r.label, r.value, 'rgba(148,163,184,0.6)', r.note, (r.value/maxVal*100).toFixed(1))).join('');
+        const fytdBar = barRow(
+          'FY'+D.meta.fiscal_year+' FYTD ('+fytdMonths+'mo actual)',
+          c.fytd_cfi, P.a1, 'current FYTD',
+          (c.fytd_cfi/maxVal*100).toFixed(1));
+        const annBar = barRow(
+          'FY'+D.meta.fiscal_year+' annualized ('+fytdMonths+'mo run-rate)',
+          annualized, P.a1+'99', 'est. full year',
+          (annualized/maxVal*100).toFixed(1));
+        return `<div style="max-width:680px">${rows}${fytdBar}${annBar}</div>`;
+      })()}
+    </div>
+
     <div style="margin-top:28px">
       <div class="panel-title">Monthly Regime (Last 12 Months)</div>
       <div class="panel-sub" style="margin-bottom:12px">All values in $bn</div>
@@ -546,8 +672,121 @@ function buildDashboard(D){
         `<p style="margin-bottom:10px;color:${P.a2}"><strong>&#9888; GAS divergence:</strong> Net GAS issuance is <span class="mono">${fmt(n.gas_fytd)}</span> vs <span class="mono">${fmt(n.gas_prev)}</span> prior year. Large shifts can indicate extraordinary measures.</p>`:''}
     </div>
 
+    <!-- INTEREST INCOME CHANNEL -->
+    <div class="cat mono" style="margin:20px 0 12px">Interest Income Channel</div>
+    <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:16px">
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px">
+        <div style="flex:1;min-width:160px;text-align:center;padding:12px;background:rgba(255,255,255,0.04);border-radius:6px">
+          <div style="font-size:10px;font-family:'JetBrains Mono',monospace;color:#94A3B8;letter-spacing:0.06em;margin-bottom:6px">TRAILING 12M INTEREST</div>
+          <div style="font-size:22px;font-family:'JetBrains Mono',monospace;color:${P.a2};font-weight:700">${fmt(n.interest_12m)}</div>
+          <div style="font-size:10px;color:#94A3B8;margin-top:4px">${n.interest_share}% of total withdrawals</div>
+        </div>
+        <div style="flex:1;min-width:160px;text-align:center;padding:12px;background:rgba(255,255,255,0.04);border-radius:6px">
+          <div style="font-size:10px;font-family:'JetBrains Mono',monospace;color:#94A3B8;letter-spacing:0.06em;margin-bottom:6px">FYTD INTEREST</div>
+          <div style="font-size:22px;font-family:'JetBrains Mono',monospace;color:${P.a2};font-weight:700">${(()=>{
+            const r=(D.scorecard||[]).find(x=>x.label&&x.label.toLowerCase().includes('interest'));
+            return r ? fmt(r.current) : 'n/a';
+          })()}</div>
+          <div style="font-size:10px;color:#94A3B8;margin-top:4px">${(()=>{
+            const r=(D.scorecard||[]).find(x=>x.label&&x.label.toLowerCase().includes('interest'));
+            return r&&r.yoy_pct!=null ? pct(r.yoy_pct)+' YoY' : '';
+          })()}</div>
+        </div>
+        <div style="flex:1;min-width:160px;text-align:center;padding:12px;background:rgba(255,255,255,0.04);border-radius:6px">
+          <div style="font-size:10px;font-family:'JetBrains Mono',monospace;color:#94A3B8;letter-spacing:0.06em;margin-bottom:6px">AUTOPILOT RATE</div>
+          <div style="font-size:22px;font-family:'JetBrains Mono',monospace;color:${P.a2};font-weight:700">${(n.interest_12m/12).toFixed(1)}B<span style="font-size:13px;color:#94A3B8">/mo</span></div>
+          <div style="font-size:10px;color:#94A3B8;margin-top:4px">est. monthly run-rate</div>
+        </div>
+      </div>
+      <div style="font-size:12px;color:#94A3B8;line-height:1.6;border-top:1px solid rgba(255,255,255,0.07);padding-top:12px">
+        <strong style="color:#FAFAFA">The rate paradox:</strong> Fed "tightening" simultaneously injects more dollars through interest income.
+        At current rate levels, ~${fmt(n.interest_12m)} per year flows from Treasury to bondholders on autopilot,
+        partially offsetting the restrictive intent of higher rates. This channel operates regardless of fiscal regime
+        and represents income for those who already hold financial assets.
+        ${(()=>{
+          const r=(D.scorecard||[]).find(x=>x.label&&x.label.toLowerCase().includes('interest'));
+          if(!r||!r.prior) return '';
+          const yoyGap = (r.current - r.prior).toFixed(1);
+          const sign = yoyGap >= 0 ? '+' : '';
+          return `The FYTD YoY gap is <span class="mono" style="color:${P.a2}">${sign}${yoyGap}B</span> vs prior year.`;
+        })()}
+      </div>
+    </div>
+
     <div class="cat mono" style="margin:20px 0 12px">Forward Calendar</div>
     <div id="calendar-list"></div>
+
+    <div class="cat mono" style="margin:20px 0 12px">Regime Flip Watch</div>
+    ${(()=>{
+      // Compute flip conditions for current regime
+      const is5dAbove20d = c.avg_5d_cfi > c.avg_20d_cfi;
+      const isMtdPositive = c.mtd_cfi > 0;
+      const isYoYImproving = c.fytd_yoy_pct > -5; // within 5% of parity = inflecting
+      const gap5v20 = (c.avg_5d_cfi - c.avg_20d_cfi).toFixed(2);
+      const gapSign = gap5v20 >= 0 ? '+' : '';
+
+      let conditions = [];
+      if(c.regime === 'Restrictive'){
+        conditions = [
+          {label:'5d avg > 20d avg', met: is5dAbove20d,
+           detail:`${fmt(c.avg_5d_cfi)}/d vs ${fmt(c.avg_20d_cfi)}/d  (gap: ${gapSign}${gap5v20}B/d)`},
+          {label:'MTD injection > 0', met: isMtdPositive,
+           detail:`MTD: ${fmt(c.mtd_cfi)}B`},
+          {label:'FYTD YoY within 5%', met: isYoYImproving,
+           detail:`FYTD YoY: ${pct(c.fytd_yoy_pct)}`},
+        ];
+      } else if(c.regime === 'Supportive'){
+        conditions = [
+          {label:'5d avg < 20d avg', met: !is5dAbove20d,
+           detail:`${fmt(c.avg_5d_cfi)}/d vs ${fmt(c.avg_20d_cfi)}/d  (gap: ${gapSign}${gap5v20}B/d)`},
+          {label:'MTD injection < 0', met: !isMtdPositive,
+           detail:`MTD: ${fmt(c.mtd_cfi)}B`},
+          {label:'FYTD YoY deteriorating (<-5%)', met: c.fytd_yoy_pct < -5,
+           detail:`FYTD YoY: ${pct(c.fytd_yoy_pct)}`},
+        ];
+      } else {
+        conditions = [
+          {label:'5d vs 20d avg', met: null,
+           detail:`${fmt(c.avg_5d_cfi)}/d vs ${fmt(c.avg_20d_cfi)}/d  (gap: ${gapSign}${gap5v20}B/d)`},
+          {label:'MTD injection', met: null,
+           detail:`MTD: ${fmt(c.mtd_cfi)}B  (${isMtdPositive?'positive':'negative'})`},
+          {label:'FYTD YoY', met: null,
+           detail:`FYTD YoY: ${pct(c.fytd_yoy_pct)}`},
+        ];
+      }
+
+      const metCount = conditions.filter(x=>x.met===true).length;
+      const totalFlip = conditions.filter(x=>x.met!==null).length;
+      const allMet = metCount === totalFlip && totalFlip > 0;
+      const flipLabel = c.regime==='Restrictive'?'Restrictive \u2192 Neutral':c.regime==='Supportive'?'Supportive \u2192 Neutral':'Neutral \u2192 ?';
+
+      const rows = conditions.map(cond=>{
+        const icon = cond.met===null ? '<span style="color:#94A3B8">&#9679;</span>'
+                   : cond.met ? '<span style="color:#10b981">&#10003;</span>'
+                               : '<span style="color:#ef4444">&#10007;</span>';
+        const labelClr = cond.met===null ? '#94A3B8' : cond.met ? '#10b981' : '#ef4444';
+        return `<tr>
+          <td style="padding:8px 12px;width:28px;text-align:center;font-size:15px">${icon}</td>
+          <td style="padding:8px 12px;color:${labelClr};font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600">${cond.label}</td>
+          <td style="padding:8px 12px;color:#94A3B8;font-family:'JetBrains Mono',monospace;font-size:12px">${cond.detail}</td>
+        </tr>`;
+      }).join('');
+
+      const summaryClr = allMet ? '#f59e0b' : '#94A3B8';
+      const summaryText = allMet
+        ? `<strong style="color:#f59e0b">&#9888; All flip conditions met</strong> &mdash; regime change signal active`
+        : `${metCount} of ${totalFlip} flip conditions met &mdash; regime intact`;
+
+      return `<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:8px;overflow:hidden;margin-bottom:16px">
+        <div style="padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.07);font-size:11px;color:#94A3B8;font-family:'JetBrains Mono',monospace;letter-spacing:0.05em">
+          CONDITIONS TO FLIP: ${flipLabel}
+        </div>
+        <table style="width:100%;border-collapse:collapse">${rows}</table>
+        <div style="padding:10px 14px;border-top:1px solid rgba(255,255,255,0.07);font-size:12px;color:${summaryClr};font-family:'JetBrains Mono',monospace">
+          ${summaryText}
+        </div>
+      </div>`;
+    })()}
 
     <div class="cat mono" style="margin:20px 0 12px">How This Read Gets Invalidated</div>
     <div class="insight">
@@ -598,6 +837,25 @@ function buildDashboard(D){
     <div class="panel-title">Relative Strength Ratio Analysis</div>
     <div class="panel-sub">RS ratios ranked by fiscal flow correlation — connecting DTS regime signals to actionable asset rotation.</div>
     <div id="rs-content"><div class="loading">Loading RS ratio data…</div></div>
+  </div>
+
+  <!-- MARKET LINKAGE -->
+  <div class="panel" id="panel-marketlink">
+    <div class="panel-title">Fiscal Flow vs Market Linkage</div>
+    <div class="panel-sub">Daily core fiscal injection (20d rolling avg) overlaid against S&amp;P 500. Shaded regions = fiscal regime. When both fiscal momentum and price trend align, conviction is highest.</div>
+    <div class="chart-wrap" style="height:360px;position:relative"><canvas id="chart-marketlink"></canvas></div>
+    <div class="legend" style="margin-top:10px">
+      <span><span class="legend-dot" style="background:${P.a1}"></span>20d avg CFI (left, $B/d)</span>
+      <span><span class="legend-dot" style="background:${P.a2};border-radius:50%"></span>SPX close (right)</span>
+      <span style="display:inline-block;width:12px;height:8px;background:rgba(16,185,129,0.15);border-radius:2px;vertical-align:middle"></span><span style="font-size:var(--type-body-sm);color:var(--text-secondary);margin-left:4px">Supportive regime</span>
+      <span style="display:inline-block;width:12px;height:8px;background:rgba(239,68,68,0.12);border-radius:2px;vertical-align:middle"></span><span style="font-size:var(--type-body-sm);color:var(--text-secondary);margin-left:4px">Restrictive regime</span>
+    </div>
+    <div class="insight" style="margin-top:16px">
+      The fiscal injection channel (Treasury spending minus receipts) adds bank reserves to the private sector.
+      Sustained positive net injection historically correlates with equity risk appetite.
+      This chart tracks whether the current flow pace is aligned with or diverging from market direction.
+      <strong>Divergences</strong> — strong SPX with deteriorating fiscal flows, or vice versa — are the signals worth watching.
+    </div>
   </div>
 
   <div class="footer mono">Source: US Treasury Daily Treasury Statement via FiscalData API</div>
@@ -725,8 +983,38 @@ function renderCharts(D, view){
       plugins:[{
         id:'eventLines',
         afterDraw(chart){
-          const {ctx,chartArea:{top,bottom}} = chart;
+          const {ctx,chartArea:{top,bottom,left,right}} = chart;
           const xScale = chart.scales.x;
+          const dates = D.daily.map(d=>d.date);
+
+          // CR / continuing resolution periods — update dates as needed
+          // Each entry: {start:'YYYY-MM-DD', end:'YYYY-MM-DD', label:'short label'}
+          // cr_periods comes from viz_data.json — maintained in analyze_dts_mmt_v2.py CR_PERIODS table
+          const crPeriods = (D.cr_periods || []).map(p=>({start:p.start, end:p.end, label:p.label}));
+
+          crPeriods.forEach(({start, end, label})=>{
+            const startIdx = dates.findIndex(d=>d>=start);
+            const endIdx   = dates.findLastIndex(d=>d<=end);
+            if(startIdx < 0 || endIdx < 0 || startIdx > endIdx) return;
+            const x0 = xScale.getPixelForValue(startIdx);
+            const x1 = xScale.getPixelForValue(endIdx);
+            ctx.save();
+            ctx.fillStyle = 'rgba(251,191,36,0.06)';
+            ctx.fillRect(x0, top, x1-x0, bottom-top);
+            ctx.strokeStyle = 'rgba(251,191,36,0.2)';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([3,3]);
+            ctx.beginPath(); ctx.moveTo(x0,top); ctx.lineTo(x0,bottom); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(x1,top); ctx.lineTo(x1,bottom); ctx.stroke();
+            ctx.setLineDash([]);
+            ctx.fillStyle = 'rgba(251,191,36,0.6)';
+            ctx.font = "9px 'JetBrains Mono',monospace";
+            ctx.textAlign = 'left';
+            ctx.fillText(label, x0+4, top+10);
+            ctx.restore();
+          });
+
+          // Interest coupon and SSA payment event markers
           D.daily.forEach((d,i)=>{
             const isInterest = d.interest > 10;
             const isSSA      = d.hh_transfers > 25;
@@ -912,6 +1200,43 @@ function renderCharts(D, view){
         }
       });
     });
+
+    // Tariff drain tracker — full 12-month trend for both FY years
+    if(!charts['tariff-tracker']){
+      const allMonthsFull = ['Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep'];
+      const allFm = Array.from({length:12},(_,i)=>i+1);
+      const fy_cur_all = D.cumulative[String(D.meta.fiscal_year)]||[];
+      const fy_prev_all = D.cumulative[String(D.meta.fiscal_year-1)]||[];
+      const curTariffs = allFm.map(fm=>{ const r=fy_cur_all.find(x=>x.fm===fm); return r?r.tariffs:null; });
+      const prevTariffs = allFm.map(fm=>{ const r=fy_prev_all.find(x=>x.fm===fm); return r?r.tariffs:null; });
+      // Shade current-year bars amber; dim months with no data yet
+      const curColors = curTariffs.map(v=>v!==null ? P.a2+'D9' : P.a2+'22');
+      const ctxTT = document.getElementById('chart-tariff-tracker').getContext('2d');
+      charts['tariff-tracker'] = new Chart(ctxTT,{
+        type:'bar',
+        data:{labels:allMonthsFull,datasets:[
+          {label:'FY'+(D.meta.fiscal_year-1),data:prevTariffs,
+           backgroundColor:'rgba(255,255,255,0.12)',borderRadius:3,barPercentage:0.6},
+          {label:'FY'+D.meta.fiscal_year,data:curTariffs,
+           backgroundColor:curColors,borderRadius:3,barPercentage:0.6}
+        ]},
+        options:{responsive:true,maintainAspectRatio:false,
+          plugins:{
+            legend:{display:true,labels:{color:P.muted,font:{family:"'JetBrains Mono',monospace",size:11}}},
+            tooltip:{
+              backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
+              titleFont:{family:"'JetBrains Mono',monospace",size:11},bodyFont:{family:"'JetBrains Mono',monospace",size:11},
+              titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:6,padding:10,
+              callbacks:{label:ctx=>ctx.parsed.y!==null?`${ctx.dataset.label}: ${fmt(ctx.parsed.y)}`:'no data yet'}
+            }
+          },
+          scales:{
+            x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted},border:{display:false}},
+            y:{grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.muted,callback:v=>v+'B'},border:{display:false}}
+          }
+        }
+      });
+    }
   }
 
   if(view==='issuance' && !charts['issuance']){
@@ -970,6 +1295,83 @@ function renderCharts(D, view){
   if(view==='relstrength' && !charts['relstrength-init']){
     renderRelStrength(window._rsData || null);
     charts['relstrength-init'] = true;
+  }
+
+  if(view==='marketlink' && !charts['marketlink']){
+    const spx = window._spxData || {};
+    // Build aligned date array from daily data
+    const dates = D.daily.map(d=>d.date);
+    // 20d rolling average of CFI
+    const cfiVals = D.daily.map(d=>d.cfi);
+    const roll20 = cfiVals.map((_,i)=>{
+      if(i < 19) return null;
+      const slice = cfiVals.slice(i-19, i+1);
+      return +(slice.reduce((s,v)=>s+v,0)/20).toFixed(2);
+    });
+    // SPX lookup — use same-day or nearest prior trading day
+    const spxKeys = Object.keys(spx).sort();
+    const getSpx = (date) => {
+      if(spx[date] !== undefined) return spx[date];
+      // find last key <= date
+      const prior = spxKeys.filter(k=>k<=date);
+      return prior.length ? spx[prior[prior.length-1]] : null;
+    };
+    const spxVals = dates.map(d=>getSpx(d));
+    // Regime colors for background segments
+    const regimeColors = D.daily.map(d=>{
+      const sig = D.signal_log_latest || null;
+      // Use day-level regime if available; fallback to overall regime
+      const r = d.regime || D.meta.regime;
+      return r==='Supportive'?'rgba(16,185,129,0.08)':r==='Restrictive'?'rgba(239,68,68,0.06)':'transparent';
+    });
+    const labels = dates.map(d=>shortD(d));
+    const ctx = document.getElementById('chart-marketlink').getContext('2d');
+    charts['marketlink'] = new Chart(ctx,{
+      type:'line',
+      data:{labels,datasets:[
+        {label:'20d avg CFI',data:roll20,
+         borderColor:P.a1,borderWidth:2.5,pointRadius:0,pointHoverRadius:4,
+         pointHoverBackgroundColor:P.a1,tension:0.3,yAxisID:'y',spanGaps:false},
+        {label:'SPX',data:spxVals,
+         borderColor:P.a2,borderWidth:2,pointRadius:0,pointHoverRadius:4,
+         pointHoverBackgroundColor:P.a2,tension:0.2,yAxisID:'y1'}
+      ]},
+      options:{
+        responsive:true,maintainAspectRatio:false,
+        interaction:{mode:'index',intersect:false},
+        plugins:{legend:{display:false},tooltip:{
+          backgroundColor:'#0f0f13',borderColor:'rgba(255,255,255,0.1)',borderWidth:1,
+          titleFont:{family:"'JetBrains Mono',monospace",size:12,weight:'bold'},
+          bodyFont:{family:"'JetBrains Mono',monospace",size:12},
+          titleColor:'#FAFAFA',bodyColor:'#FAFAFA',cornerRadius:8,padding:12,
+          callbacks:{label:c=>{
+            if(c.datasetIndex===0) return c.parsed.y!==null?`CFI 20d avg: ${fmt(c.parsed.y)}/d`:'';
+            return `SPX: ${c.parsed.y!==null?c.parsed.y.toFixed(0):'n/a'}`;
+          }}
+        }},
+        scales:{
+          x:{grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:10},color:P.muted,maxRotation:0,autoSkip:true,maxTicksLimit:10},border:{display:false}},
+          y:{position:'left',grid:{color:P.grid},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.a1+'99',callback:v=>v+'B/d'},border:{display:false},title:{display:true,text:'CFI 20d avg ($B/d)',color:P.a1+'99',font:{family:"'JetBrains Mono',monospace",size:10}}},
+          y1:{position:'right',grid:{display:false},ticks:{font:{family:"'JetBrains Mono',monospace",size:11},color:P.a2+'99',callback:v=>v.toFixed(0)},border:{display:false},title:{display:true,text:'SPX',color:P.a2+'99',font:{family:"'JetBrains Mono',monospace",size:10}}}
+        }
+      },
+      plugins:[{
+        id:'regimeBands',
+        beforeDraw(chart){
+          const {ctx:c,chartArea:{top,bottom,left,right},scales:{x}} = chart;
+          D.daily.forEach((d,i)=>{
+            const r = d.regime || D.meta.regime;
+            const fill = r==='Supportive'?'rgba(16,185,129,0.08)':r==='Restrictive'?'rgba(239,68,68,0.06)':null;
+            if(!fill) return;
+            const hw = i===0?0:(x.getPixelForValue(1)-x.getPixelForValue(0))/2;
+            const x0 = i===0?left:x.getPixelForValue(i)-hw;
+            const x1 = i===D.daily.length-1?right:x.getPixelForValue(i)+hw;
+            c.fillStyle = fill;
+            c.fillRect(x0,top,x1-x0,bottom-top);
+          });
+        }
+      }]
+    });
   }
 }
 
@@ -2505,6 +2907,16 @@ async function init(){
       }
     } catch(rsErr){
       console.warn('RS ratios data not available:', rsErr.message);
+    }
+
+    // Load SPX series (non-blocking)
+    try {
+      const spxResp = await fetch('spx_series.json');
+      if(spxResp.ok){
+        window._spxData = await spxResp.json();
+      }
+    } catch(spxErr){
+      console.warn('SPX series not available:', spxErr.message);
     }
 
     // Load market narrative (non-blocking)
