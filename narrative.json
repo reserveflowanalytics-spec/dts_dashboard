@@ -1,112 +1,113 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 124,
-  "fetched_at": "2026-03-29T21:01:15.190233+00:00",
+  "total_headlines": 121,
+  "fetched_at": "2026-03-30T21:02:15.051716+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 26,
-      "pct": 21.0,
-      "sources": "Bloomberg(10), CNBC(7), FT(4), Yahoo(4), MarketWatch(1)",
+      "count": 27,
+      "pct": 22.3,
+      "sources": "Bloomberg(10), CNBC(6), FT(5), Yahoo(5), MarketWatch(1)",
       "sample_headlines": [
-        "Middle East leaders huddle in Pakistan as Trump weighs ground operations in Iran",
-        "The problem for investors: We don't know how Trump wants the Iran war to end",
-        "How the big oil and gas CEOs think the Iran war supply disruption will play out",
-        "The Iran war is defense tech's chance to shine, but few systems and weapons are ready",
-        "Analysis: A new oil shock is building. The next few weeks of war will be decisive for the economy."
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 12.9,
-      "sources": "Yahoo(5), CNBC(4), Bloomberg(4), FT(2), MarketWatch(1)",
-      "sample_headlines": [
-        "Top Wall Street analysts like these dividend stocks for solid returns",
-        "Here are the 3 big things we're watching in the stock market in the week ahead",
-        "As stocks and bonds fall, and oil hits $100, a futures trade that boomed in 2022 may again be a winner",
-        "Cramer\u2019s game plan: Oil shock is driving this sell-off and tech won\u2019t bottom until it ends",
-        "Is Trump losing his grip on the stock market? Sustained declines suggest the president\u2019s influence has waned."
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 13,
-      "pct": 10.5,
-      "sources": "Yahoo(12), CNBC(1)",
-      "sample_headlines": [
-        "Meta's court losses spell potential trouble for AI research, consumer safety",
-        "ACM Research (ACMR) Shanghai Unit Outlines Profit Distribution Plan For Fiscal 2025",
-        "Lattice Semiconductor (LSCC) Partners With Nvidia to Join Halos AI Systems Inspection Lab Ecosystem",
-        "Microchip Technology (MCHP) Launches a New System-in-Package for Automotive Human-Machine Interfaces",
-        "Is Marvell Technology (MRVL) One of the High Growth Semiconductor Stocks to Buy?"
+        "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
+        "Delaware judge reassigns Elon Musk cases after accusation of bias",
+        "Iran's attacks on aluminum producers are sending 'shockwaves' through the metals market",
+        "Trump reportedly wants to 'take the oil in Iran' as Tehran targets water, power facilities in Kuwait",
+        "Pessimism sets in for Europe as Iran war hits economic and consumer confidence"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 7.3,
-      "sources": "CNBC(4), Bloomberg(3), Yahoo(2)",
+      "count": 15,
+      "pct": 12.4,
+      "sources": "Bloomberg(6), CNBC(4), MarketWatch(2), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "How the big oil and gas CEOs think the Iran war supply disruption will play out",
-        "As stocks and bonds fall, and oil hits $100, a futures trade that boomed in 2022 may again be a winner",
-        "Analysis: A new oil shock is building. The next few weeks of war will be decisive for the economy.",
-        "Cramer\u2019s game plan: Oil shock is driving this sell-off and tech won\u2019t bottom until it ends",
-        "Philippine Refiner Petron Buys Russian Crude, Eyes More If Iran War Persists"
+        "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022",
+        "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
+        "Trump reportedly wants to 'take the oil in Iran' as Tehran targets water, power facilities in Kuwait",
+        "Russia welcomes arrival of oil tanker in Cuba after Trump softens approach to U.S. blockade",
+        "This is a reason the Middle East\u2019s major oil-producing countries have been selling their U.S. Treasurys"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 12,
+      "pct": 9.9,
+      "sources": "CNBC(4), MarketWatch(4), Yahoo(3), Bloomberg(1)",
+      "sample_headlines": [
+        "Iran's attacks on aluminum producers are sending 'shockwaves' through the metals market",
+        "Mistral secures $830 million in debt financing to fund AI data center",
+        "Samsung-backed AI chip firm Rebellions raises $400 million ahead of IPO",
+        "Meta's court losses spell potential trouble for AI research, consumer safety",
+        "This AI power company\u2019s Trump-named power project still has no customers in sight"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 3.2,
-      "sources": "Bloomberg(3), CNBC(1)",
+      "count": 11,
+      "pct": 9.1,
+      "sources": "Yahoo(5), Bloomberg(4), CNBC(1), Google News(1)",
       "sample_headlines": [
-        "Worried about Strait of Hormuz inflation to come? The world economy has one word for you: Plastics",
-        "Philippine Refiner Petron Buys Russian Crude, Eyes More If Iran War Persists",
-        "Emerging Markets Rout Lures Contrarians Betting on Rate Cuts",
-        "Leadership Row Erupts at Philippine Conglomerate Over ABS-CBN Capital Infusion"
+        "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
+        "Fed Chair Jerome Powell Just Sent a Signal That Could Shake the Stock Market - Yahoo Finance",
+        "Schwab's Martin: Risks to Inflation and Labor Mandates",
+        "US Bonds Rally as Traders Bet on Fed Rate Cut in About-Face",
+        "Treasuries Climb as Powell Eases Fed-Hike Jitters: Markets Wrap"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 7.4,
+      "sources": "Bloomberg(3), CNBC(2), Yahoo(2), MarketWatch(1), Google News(1)",
+      "sample_headlines": [
+        "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022",
+        "Micron stock sinks 10%, further cratering in post-earnings sell-off",
+        "Nasdaq paves the way for SpaceX and OpenAI to quickly join a premier index after IPOs",
+        "Fed Chair Jerome Powell Just Sent a Signal That Could Shake the Stock Market - Yahoo Finance",
+        "S&amp;P 500 Nears Correction Territory as Iran Deal Remains Elusive"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.2,
-      "sources": "CNBC(2), FT(1), Yahoo(1)",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "CNBC(3), MarketWatch(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
+        "Maximize your wealth with these tax strategies",
         "New fees, fewer flights: Higher fuel prices pinch consumer budgets beyond the gas pump",
-        "Not everyone can expect a bigger tax refund this year \u2014 what's actually driving your result",
-        "Eurozone borrowing costs soar on fears of fiscal hit from Iran shock",
-        "ACM Research (ACMR) Shanghai Unit Outlines Profit Distribution Plan For Fiscal 2025"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "FT(1), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Distressed-debt funds target private credit downturn as \u2018greatest opportunity\u2019 since 2008",
-        "JPMorgan, Pimco Say Bond Market Is Underestimating Slowdown Risk"
+        "Budget airlines built on cheap fares now face a painful reality: Fuel is getting expensive",
+        "This is a reason the Middle East\u2019s major oil-producing countries have been selling their U.S. Treasurys",
+        "351 Exchange ETFs A Growing Tax Tool: Brent Sullivan"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "How Chinese, Russian Arctic ambitions are fueling a U.S. polar icebreaker mission",
-        "China Summons US Envoy to HK Over Alert on Security Law Changes",
-        "ACM Research (ACMR) Shanghai Unit Outlines Profit Distribution Plan For Fiscal 2025"
+        "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
+        "A blueprint for Chinese global leadership"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Bitcoin and ethereum price today, Monday, March 30, 2026: Values moving up after lower weekend prices",
+        "Selling crypto? What to know before you cash out."
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Worried Market Volatility Will Hurt Your Retirement Savings? Here's the 1 Important Thing to Know."
+        "This is what really causes recessions, a former top Trump White House economist says"
       ]
     }
   ]
