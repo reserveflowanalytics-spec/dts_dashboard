@@ -1,104 +1,103 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 121,
-  "fetched_at": "2026-03-30T21:02:15.051716+00:00",
+  "total_headlines": 132,
+  "fetched_at": "2026-03-31T21:02:02.692369+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 27,
-      "pct": 22.3,
-      "sources": "Bloomberg(10), CNBC(6), FT(5), Yahoo(5), MarketWatch(1)",
+      "count": 25,
+      "pct": 18.9,
+      "sources": "Bloomberg(10), CNBC(5), FT(5), MarketWatch(3), Google News(1), Yahoo(1)",
       "sample_headlines": [
-        "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
-        "Delaware judge reassigns Elon Musk cases after accusation of bias",
-        "Iran's attacks on aluminum producers are sending 'shockwaves' through the metals market",
-        "Trump reportedly wants to 'take the oil in Iran' as Tehran targets water, power facilities in Kuwait",
-        "Pessimism sets in for Europe as Iran war hits economic and consumer confidence"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 15,
-      "pct": 12.4,
-      "sources": "Bloomberg(6), CNBC(4), MarketWatch(2), Yahoo(2), FT(1)",
-      "sample_headlines": [
-        "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022",
-        "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
-        "Trump reportedly wants to 'take the oil in Iran' as Tehran targets water, power facilities in Kuwait",
-        "Russia welcomes arrival of oil tanker in Cuba after Trump softens approach to U.S. blockade",
-        "This is a reason the Middle East\u2019s major oil-producing countries have been selling their U.S. Treasurys"
+        "Warren Buffett says Iran bomb would make nuclear disaster harder to avoid",
+        "Warren Buffett says he sold Apple too soon and would buy more of it, though not in this market",
+        "Pete Hegseth's broker attempted to make defense investments before Iran war: Financial Times",
+        "Warren Buffett says he's still making calls on investments at Berkshire, flags 'tiny' new buy",
+        "Stocks, bonds and commodities: How global markets have traded the Iran war"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 12,
-      "pct": 9.9,
-      "sources": "CNBC(4), MarketWatch(4), Yahoo(3), Bloomberg(1)",
+      "count": 21,
+      "pct": 15.9,
+      "sources": "CNBC(9), Yahoo(6), FT(3), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Iran's attacks on aluminum producers are sending 'shockwaves' through the metals market",
-        "Mistral secures $830 million in debt financing to fund AI data center",
-        "Samsung-backed AI chip firm Rebellions raises $400 million ahead of IPO",
-        "Meta's court losses spell potential trouble for AI research, consumer safety",
-        "This AI power company\u2019s Trump-named power project still has no customers in sight"
+        "Microsoft closes worst quarter on Wall Street since 2008 on AI concerns: 'Redmond is in a pickle'",
+        "OpenAI closes record-breaking $122 billion funding round as anticipation builds for IPO",
+        "Oracle cutting thousands in latest layoff round as company continues to ramp AI spending",
+        "'Project Hail Mary' is the box office proof point Amazon MGM has been waiting for",
+        "Amazon settles Teamsters case alleging it retaliated against striking workers"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 11,
+      "topic": "Oil / Energy",
+      "count": 12,
       "pct": 9.1,
-      "sources": "Yahoo(5), Bloomberg(4), CNBC(1), Google News(1)",
+      "sources": "Bloomberg(6), MarketWatch(2), Yahoo(2), CNBC(1), FT(1)",
       "sample_headlines": [
-        "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
-        "Fed Chair Jerome Powell Just Sent a Signal That Could Shake the Stock Market - Yahoo Finance",
-        "Schwab's Martin: Risks to Inflation and Labor Mandates",
-        "US Bonds Rally as Traders Bet on Fed Rate Cut in About-Face",
-        "Treasuries Climb as Powell Eases Fed-Hike Jitters: Markets Wrap"
+        "Why $4 a gallon gas prices won\u2019t trigger Fed interest rate hikes \u2014 and could lead to cuts",
+        "Oil prices saw a record rise in March. Why the U.S. may not need to reopen the Strait of Hormuz.",
+        "Oil prices gain for the month but fall for the session on hopes that an end to the Iran war may be near",
+        "Oil soars 60% in March as Middle East crisis chokes energy supplies",
+        "US Treasuries Rise as Oil Retreats From Multiyear High"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 7.4,
-      "sources": "Bloomberg(3), CNBC(2), Yahoo(2), MarketWatch(1), Google News(1)",
+      "count": 8,
+      "pct": 6.1,
+      "sources": "Bloomberg(4), CNBC(1), Google News(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022",
-        "Micron stock sinks 10%, further cratering in post-earnings sell-off",
-        "Nasdaq paves the way for SpaceX and OpenAI to quickly join a premier index after IPOs",
-        "Fed Chair Jerome Powell Just Sent a Signal That Could Shake the Stock Market - Yahoo Finance",
-        "S&amp;P 500 Nears Correction Territory as Iran Deal Remains Elusive"
+        "Microsoft closes worst quarter on Wall Street since 2008 on AI concerns: 'Redmond is in a pickle'",
+        "Iran war wipes $120bn off Dubai, Abu Dhabi stock markets - Al Jazeera",
+        "UK submarine captain steps down after link to Chinese spy case",
+        "Traders Trigger Euphoric Rally With Iran, Trump Seeking Exit",
+        "Bond Traders Ditch Inflation Bets as Oil Surge Threatens Growth"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "Fed / Rates / Inflation",
       "count": 6,
-      "pct": 5.0,
-      "sources": "CNBC(3), MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "pct": 4.5,
+      "sources": "Bloomberg(3), CNBC(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Maximize your wealth with these tax strategies",
-        "New fees, fewer flights: Higher fuel prices pinch consumer budgets beyond the gas pump",
-        "Budget airlines built on cheap fares now face a painful reality: Fuel is getting expensive",
-        "This is a reason the Middle East\u2019s major oil-producing countries have been selling their U.S. Treasurys",
-        "351 Exchange ETFs A Growing Tax Tool: Brent Sullivan"
+        "Why $4 a gallon gas prices won\u2019t trigger Fed interest rate hikes \u2014 and could lead to cuts",
+        "Inflation worries become growth worries",
+        "Bond Traders Ditch Inflation Bets as Oil Surge Threatens Growth",
+        "Iran War Threatens to Wreck Trump Dream of Lower Interest Rates",
+        "Fed\u2019s Barr Flags Stablecoin Risks As Agencies Ready Rules"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), FT(1)",
+      "count": 3,
+      "pct": 2.3,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
-        "A blueprint for Chinese global leadership"
+        "Nike turnaround timeline still unclear amid uneven recovery in China, North America",
+        "UK submarine captain steps down after link to Chinese spy case",
+        "Big Take Asia: China\u2019s OpenClaw Craze (Podcast)"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.3,
+      "sources": "Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "I asked ChatGPT for tax help\u2014experts say I fell into a classic trap",
+        "I Asked ChatGPT How Much the Top 1% Would Pay If Taxed at the Same Effective Rate as the Lower 75%",
+        "A 58-year-old left NYC for Miami to save on taxes \u2014 then retired early thanks to hidden savings. Here\u2019s the math"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
-      "pct": 1.7,
-      "sources": "Yahoo(2)",
+      "pct": 1.5,
+      "sources": "MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum price today, Monday, March 30, 2026: Values moving up after lower weekend prices",
-        "Selling crypto? What to know before you cash out."
+        "This threat to your crypto wallet is even closer than you think, Google warns",
+        "Branch Out With These Multi-Coin Crypto ETFs"
       ]
     },
     {
@@ -107,7 +106,16 @@
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "This is what really causes recessions, a former top Trump White House economist says"
+        "Oracle cutting thousands in latest layoff round as company continues to ramp AI spending"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "U.S. Army suspends Kid Rock helicopter flyby crews from flight duties"
       ]
     }
   ]
