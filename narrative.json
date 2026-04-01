@@ -1,103 +1,92 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 132,
-  "fetched_at": "2026-03-31T21:02:02.692369+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 127,
+  "fetched_at": "2026-04-01T21:01:15.526934+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 25,
-      "pct": 18.9,
-      "sources": "Bloomberg(10), CNBC(5), FT(5), MarketWatch(3), Google News(1), Yahoo(1)",
+      "count": 19,
+      "pct": 15.0,
+      "sources": "Bloomberg(8), CNBC(4), FT(4), Yahoo(2), Google News(1)",
       "sample_headlines": [
-        "Warren Buffett says Iran bomb would make nuclear disaster harder to avoid",
-        "Warren Buffett says he sold Apple too soon and would buy more of it, though not in this market",
-        "Pete Hegseth's broker attempted to make defense investments before Iran war: Financial Times",
-        "Warren Buffett says he's still making calls on investments at Berkshire, flags 'tiny' new buy",
-        "Stocks, bonds and commodities: How global markets have traded the Iran war"
+        "Trump says Iran's president asked for ceasefire, but U.S. wants Hormuz Strait open first",
+        "Iran's war propaganda homes in on Trump with Lego memes",
+        "Iran threatens Nvidia, Apple and other tech giants with attacks",
+        "Oil prices fall to around $100 after Trump indicates war could end in weeks",
+        "Iran war wipes $120bn off Dubai, Abu Dhabi stock markets - aljazeera.com"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 21,
-      "pct": 15.9,
-      "sources": "CNBC(9), Yahoo(6), FT(3), Bloomberg(2), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 13,
+      "pct": 10.2,
+      "sources": "CNBC(4), Bloomberg(4), MarketWatch(2), Yahoo(2), Google News(1)",
       "sample_headlines": [
-        "Microsoft closes worst quarter on Wall Street since 2008 on AI concerns: 'Redmond is in a pickle'",
-        "OpenAI closes record-breaking $122 billion funding round as anticipation builds for IPO",
-        "Oracle cutting thousands in latest layoff round as company continues to ramp AI spending",
-        "'Project Hail Mary' is the box office proof point Amazon MGM has been waiting for",
-        "Amazon settles Teamsters case alleging it retaliated against striking workers"
+        "TSA Shutdown: GOP leaders Thune and Johnson boost two-track approach to funding DHS",
+        "Stock market is in for 'choppy, bumpy ride' in 2026, strategist says. Why it pays to stay invested",
+        "Wall Street loses patience with Nike as turnaround drags, China weakness deepens",
+        "Here are 3 ways to ignite a rally in beaten-down bank stocks like Wells Fargo and Goldman",
+        "Just in time for Easter: Egg prices tumbled 70%, and here\u2019s how people responded"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 12,
-      "pct": 9.1,
-      "sources": "Bloomberg(6), MarketWatch(2), Yahoo(2), CNBC(1), FT(1)",
+      "pct": 9.4,
+      "sources": "Bloomberg(5), Yahoo(5), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Why $4 a gallon gas prices won\u2019t trigger Fed interest rate hikes \u2014 and could lead to cuts",
-        "Oil prices saw a record rise in March. Why the U.S. may not need to reopen the Strait of Hormuz.",
-        "Oil prices gain for the month but fall for the session on hopes that an end to the Iran war may be near",
-        "Oil soars 60% in March as Middle East crisis chokes energy supplies",
-        "US Treasuries Rise as Oil Retreats From Multiyear High"
+        "Oil prices fall to around $100 after Trump indicates war could end in weeks",
+        "Why $4-a-gallon gas prices feel a lot worse in 2026 vs. 2022",
+        "Stocks Extend Rally on War-End Optimism, Oil Falls: Markets Wrap",
+        "Oil Falls in Choppy Trade Ahead of Trump Speech on Iran War",
+        "AI Boom, Energy Risks Shape M&amp;A Landscape, Morgan Stanley Says"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 6.1,
-      "sources": "Bloomberg(4), CNBC(1), Google News(1), FT(1), Yahoo(1)",
+      "topic": "AI / Tech",
+      "count": 10,
+      "pct": 7.9,
+      "sources": "CNBC(5), Yahoo(2), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Microsoft closes worst quarter on Wall Street since 2008 on AI concerns: 'Redmond is in a pickle'",
-        "Iran war wipes $120bn off Dubai, Abu Dhabi stock markets - Al Jazeera",
-        "UK submarine captain steps down after link to Chinese spy case",
-        "Traders Trigger Euphoric Rally With Iran, Trump Seeking Exit",
-        "Bond Traders Ditch Inflation Bets as Oil Surge Threatens Growth"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.5,
-      "sources": "Bloomberg(3), CNBC(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "Why $4 a gallon gas prices won\u2019t trigger Fed interest rate hikes \u2014 and could lead to cuts",
-        "Inflation worries become growth worries",
-        "Bond Traders Ditch Inflation Bets as Oil Surge Threatens Growth",
-        "Iran War Threatens to Wreck Trump Dream of Lower Interest Rates",
-        "Fed\u2019s Barr Flags Stablecoin Risks As Agencies Ready Rules"
+        "Iran threatens Nvidia, Apple and other tech giants with attacks",
+        "Intel shares jump 9% after buying back Ireland chip fab in sign of renewed strength",
+        "Five key questions Apple faces entering its second half-century",
+        "Visa launches new AI tools to manage the charge dispute process",
+        "'I hate customer-service chatbots': The consumer-AI refund relationship is off to a rocky start"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 4.7,
+      "sources": "Bloomberg(3), CNBC(2), FT(1)",
       "sample_headlines": [
-        "Nike turnaround timeline still unclear amid uneven recovery in China, North America",
-        "UK submarine captain steps down after link to Chinese spy case",
-        "Big Take Asia: China\u2019s OpenClaw Craze (Podcast)"
+        "Wall Street loses patience with Nike as turnaround drags, China weakness deepens",
+        "Volkswagen deal with EV maker Xpeng shows how China tech threatens Western automakers",
+        "Shutting Hormuz is a template for China in Taiwan",
+        "New Zealand Signs Cook Islands Agreement to Counter China Deal",
+        "Cofco Books First Argentina Corn Cargo to China in 15 Years"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "Trade / Tariffs",
       "count": 3,
-      "pct": 2.3,
-      "sources": "Yahoo(2), CNBC(1)",
+      "pct": 2.4,
+      "sources": "Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "I asked ChatGPT for tax help\u2014experts say I fell into a classic trap",
-        "I Asked ChatGPT How Much the Top 1% Would Pay If Taxed at the Same Effective Rate as the Lower 75%",
-        "A 58-year-old left NYC for Miami to save on taxes \u2014 then retired early thanks to hidden savings. Here\u2019s the math"
+        "\u2018Liberation day\u2019 one year later: What Trump\u2019s tariffs are costing America",
+        "US Drops Sanctions on Venezuela\u2019s Rodr\u00edguez as Ties Improve",
+        "Venezuelan Oil Exports Hit 6-Year High as India Fills China Gap"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
-      "pct": 1.5,
-      "sources": "MarketWatch(1), Yahoo(1)",
+      "pct": 1.6,
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "This threat to your crypto wallet is even closer than you think, Google warns",
-        "Branch Out With These Multi-Coin Crypto ETFs"
+        "Franklin Templeton acquires digital assets investment firm in active crypto management push",
+        "Exclusive: Former a16z crypto investor raises $10 million to launch stablecoin clearinghouse Better Money"
       ]
     },
     {
@@ -106,16 +95,16 @@
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Oracle cutting thousands in latest layoff round as company continues to ramp AI spending"
+        "Oracle layoffs will help cost savings, analysts say"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "U.S. Army suspends Kid Rock helicopter flyby crews from flight duties"
+        "Rich Americans flee Massachusetts after millionaire tax, pulling $4.2B of income out of state. Slash your own taxes now"
       ]
     }
   ]
