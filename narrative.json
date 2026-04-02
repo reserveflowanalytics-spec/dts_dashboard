@@ -1,110 +1,90 @@
 {
-  "dominant": "No clear dominant narrative",
+  "dominant": "Iran / Middle East conflict",
   "total_headlines": 127,
-  "fetched_at": "2026-04-01T21:01:15.526934+00:00",
+  "fetched_at": "2026-04-02T21:01:13.236659+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 19,
-      "pct": 15.0,
-      "sources": "Bloomberg(8), CNBC(4), FT(4), Yahoo(2), Google News(1)",
+      "count": 25,
+      "pct": 19.7,
+      "sources": "Bloomberg(11), CNBC(10), FT(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump says Iran's president asked for ceasefire, but U.S. wants Hormuz Strait open first",
-        "Iran's war propaganda homes in on Trump with Lego memes",
-        "Iran threatens Nvidia, Apple and other tech giants with attacks",
-        "Oil prices fall to around $100 after Trump indicates war could end in weeks",
-        "Iran war wipes $120bn off Dubai, Abu Dhabi stock markets - aljazeera.com"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 10.2,
-      "sources": "CNBC(4), Bloomberg(4), MarketWatch(2), Yahoo(2), Google News(1)",
-      "sample_headlines": [
-        "TSA Shutdown: GOP leaders Thune and Johnson boost two-track approach to funding DHS",
-        "Stock market is in for 'choppy, bumpy ride' in 2026, strategist says. Why it pays to stay invested",
-        "Wall Street loses patience with Nike as turnaround drags, China weakness deepens",
-        "Here are 3 ways to ignite a rally in beaten-down bank stocks like Wells Fargo and Goldman",
-        "Just in time for Easter: Egg prices tumbled 70%, and here\u2019s how people responded"
+        "Iran and Oman drafting protocol to 'monitor' Hormuz Strait traffic: IRNA",
+        "Amazon to add 3.5% fuel and logistics surcharge for sellers as Iran war drives up energy prices",
+        "Trump's Iran war speech paints a grim picture for oil markets with more than 600 million barrels at risk",
+        "Analysis: Trump's Iran speech ignores the risks of a return to the 1970s",
+        "Grocery shock on the horizon for approaching U.S. elections as Iran war drags on"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 12,
-      "pct": 9.4,
-      "sources": "Bloomberg(5), Yahoo(5), CNBC(1), MarketWatch(1)",
+      "count": 15,
+      "pct": 11.8,
+      "sources": "Bloomberg(9), CNBC(4), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Oil prices fall to around $100 after Trump indicates war could end in weeks",
-        "Why $4-a-gallon gas prices feel a lot worse in 2026 vs. 2022",
-        "Stocks Extend Rally on War-End Optimism, Oil Falls: Markets Wrap",
-        "Oil Falls in Choppy Trade Ahead of Trump Speech on Iran War",
-        "AI Boom, Energy Risks Shape M&amp;A Landscape, Morgan Stanley Says"
+        "Brent oil spot price for actual cargo soars to $141, highest level since 2008 financial crisis",
+        "Amazon to add 3.5% fuel and logistics surcharge for sellers as Iran war drives up energy prices",
+        "Trump's Iran war speech paints a grim picture for oil markets with more than 600 million barrels at risk",
+        "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
+        "Global oil stockpiles could sink to critically disruptive levels soon, sparking more shortages"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 10,
-      "pct": 7.9,
-      "sources": "CNBC(5), Yahoo(2), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 9,
+      "pct": 7.1,
+      "sources": "CNBC(4), Bloomberg(2), MarketWatch(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Iran threatens Nvidia, Apple and other tech giants with attacks",
-        "Intel shares jump 9% after buying back Ireland chip fab in sign of renewed strength",
-        "Five key questions Apple faces entering its second half-century",
-        "Visa launches new AI tools to manage the charge dispute process",
-        "'I hate customer-service chatbots': The consumer-AI refund relationship is off to a rocky start"
+        "Amazon to add 3.5% fuel and logistics surcharge for sellers as Iran war drives up energy prices",
+        "OpenAI acquires popular tech podcast TBPN",
+        "Tesla's stock suffers steepest drop of 2026 on disappointing deliveries report",
+        "Amazon weighs a deal to boost its satellite internet ambitions. Why it's worthy pursuit",
+        "OpenAI is officially a media company, after buying Silicon Valley\u2019s favorite podcast TBPN"
       ]
     },
     {
-      "topic": "China",
-      "count": 6,
-      "pct": 4.7,
-      "sources": "Bloomberg(3), CNBC(2), FT(1)",
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 7.1,
+      "sources": "Bloomberg(6), CNBC(1), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Wall Street loses patience with Nike as turnaround drags, China weakness deepens",
-        "Volkswagen deal with EV maker Xpeng shows how China tech threatens Western automakers",
-        "Shutting Hormuz is a template for China in Taiwan",
-        "New Zealand Signs Cook Islands Agreement to Counter China Deal",
-        "Cofco Books First Argentina Corn Cargo to China in 15 Years"
+        "DHS shutdown: Senate advances deal to fund agency with TSA, waits on House",
+        "The S&P 500 could hit bottom by May \u2014 and 6,000 is the stock market\u2019s correction floor",
+        "Stocks Reverse Losses, Oil Prices Surge: Markets Wrap",
+        "Wall Street Money Managers Hunker Down as Iran War Rages On",
+        "Bonds\u2019 Oil-Driven Selloff Stalls as Growth Concerns Return"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Bloomberg(2), MarketWatch(1)",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "FT(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "\u2018Liberation day\u2019 one year later: What Trump\u2019s tariffs are costing America",
-        "US Drops Sanctions on Venezuela\u2019s Rodr\u00edguez as Ties Improve",
-        "Venezuelan Oil Exports Hit 6-Year High as India Fills China Gap"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "Franklin Templeton acquires digital assets investment firm in active crypto management push",
-        "Exclusive: Former a16z crypto investor raises $10 million to launch stablecoin clearinghouse Better Money"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Oracle layoffs will help cost savings, analysts say"
+        "Trump administration sets up to 100% tariffs on some imported drugs, with many companies exempt",
+        "The case for Trump\u2019s tariffs looks strong a year on from \u2018liberation day\u2019",
+        "Trump administration announces new tariffs on pharmaceuticals",
+        "Ethan Allen CEO on Tariffs, 'Cautious' Consumers"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(1), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Trump's overtime deduction has been a 'home run,' Treasury says. What it means for the tax break",
+        "Gas-tax breaks sound tempting at $4 a gallon. Too bad they don\u2019t actually work.",
+        "US Treasury calls in regulators for talks on private credit risks"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Rich Americans flee Massachusetts after millionaire tax, pulling $4.2B of income out of state. Slash your own taxes now"
+        "Starbucks to award bonuses to baristas, expand tipping to promote turnaround efforts"
       ]
     }
   ]
