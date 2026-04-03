@@ -1,90 +1,128 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 127,
-  "fetched_at": "2026-04-02T21:01:13.236659+00:00",
+  "total_headlines": 120,
+  "fetched_at": "2026-04-03T21:00:47.025816+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 25,
-      "pct": 19.7,
-      "sources": "Bloomberg(11), CNBC(10), FT(2), MarketWatch(1), Yahoo(1)",
+      "count": 28,
+      "pct": 23.3,
+      "sources": "Bloomberg(13), CNBC(7), FT(3), Yahoo(3), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Iran and Oman drafting protocol to 'monitor' Hormuz Strait traffic: IRNA",
-        "Amazon to add 3.5% fuel and logistics surcharge for sellers as Iran war drives up energy prices",
-        "Trump's Iran war speech paints a grim picture for oil markets with more than 600 million barrels at risk",
+        "U.S. fighter jet shot down in Iran, one crew member rescued, MS NOW reports",
+        "Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'",
         "Analysis: Trump's Iran speech ignores the risks of a return to the 1970s",
-        "Grocery shock on the horizon for approaching U.S. elections as Iran war drags on"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 15,
-      "pct": 11.8,
-      "sources": "Bloomberg(9), CNBC(4), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Brent oil spot price for actual cargo soars to $141, highest level since 2008 financial crisis",
-        "Amazon to add 3.5% fuel and logistics surcharge for sellers as Iran war drives up energy prices",
-        "Trump's Iran war speech paints a grim picture for oil markets with more than 600 million barrels at risk",
-        "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
-        "Global oil stockpiles could sink to critically disruptive levels soon, sparking more shortages"
+        "Iran and Oman drafting protocol to 'monitor' Hormuz Strait traffic: IRNA",
+        "Asia-Pacific markets mostly rise in Easter trade on hopes for Hormuz reopening"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 9,
-      "pct": 7.1,
-      "sources": "CNBC(4), Bloomberg(2), MarketWatch(1), FT(1), Yahoo(1)",
+      "count": 17,
+      "pct": 14.2,
+      "sources": "CNBC(10), Yahoo(4), MarketWatch(2), FT(1)",
+      "sample_headlines": [
+        "OpenAI's Fidji Simo takes medical leave, announces leadership changes",
+        "Trump tariff fallout: Some industries grapple with lingering effects one year later",
+        "Meta, Google under attack as court cases bypass 30-year-old legal shield",
+        "'Chasing vibes' \u2014 OpenAI's M&A strategy gets more confusing with TBPN purchase",
+        "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 14,
+      "pct": 11.7,
+      "sources": "Bloomberg(8), Yahoo(5), CNBC(1)",
       "sample_headlines": [
         "Amazon to add 3.5% fuel and logistics surcharge for sellers as Iran war drives up energy prices",
-        "OpenAI acquires popular tech podcast TBPN",
-        "Tesla's stock suffers steepest drop of 2026 on disappointing deliveries report",
-        "Amazon weighs a deal to boost its satellite internet ambitions. Why it's worthy pursuit",
-        "OpenAI is officially a media company, after buying Silicon Valley\u2019s favorite podcast TBPN"
+        "Meloni Visits Gulf to Bolster Energy Ties to War-Hit States",
+        "NEC\u2019s Hassett on Jobs Report, Oil Exports, US Economy",
+        "First LNG Tanker Exits Strait of Hormuz Along Omani Coast",
+        "Oil Market Stress Threatens Shortages in Asia, Europe"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 7.1,
-      "sources": "Bloomberg(6), CNBC(1), MarketWatch(1), Yahoo(1)",
+      "count": 12,
+      "pct": 10.0,
+      "sources": "Yahoo(6), CNBC(2), MarketWatch(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "DHS shutdown: Senate advances deal to fund agency with TSA, waits on House",
-        "The S&P 500 could hit bottom by May \u2014 and 6,000 is the stock market\u2019s correction floor",
-        "Stocks Reverse Losses, Oil Prices Surge: Markets Wrap",
-        "Wall Street Money Managers Hunker Down as Iran War Rages On",
-        "Bonds\u2019 Oil-Driven Selloff Stalls as Growth Concerns Return"
+        "U.S. fighter jet shot down in Iran, one crew member rescued, MS NOW reports",
+        "Wall Street snapped its 5-week losing streak. Here are 3 themes that caught our eye",
+        "My partner\u2019s parents offered a down payment, but they hate the property we chose. What should we do?",
+        "Why investors are so eager for the SpaceX IPO countdown",
+        "US fighter jet shot down over Iran"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 8,
+      "pct": 6.7,
+      "sources": "Bloomberg(3), Yahoo(2), CNBC(1), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "I study happiness for a living: The most emotionally secure people share these 7 'quietly powerful' traits",
+        "Jobs data, Iran war add to inflation fears for retirees",
+        "US judge upholds block of subpoenas in criminal investigation of Jay Powell",
+        "US Judge Denies Pirro Motion to Revive Quashed Fed Subpoenas",
+        "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 4,
-      "pct": 3.1,
-      "sources": "FT(2), CNBC(1), Bloomberg(1)",
+      "pct": 3.3,
+      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
+        "Trump tariff fallout: Some industries grapple with lingering effects one year later",
         "Trump administration sets up to 100% tariffs on some imported drugs, with many companies exempt",
-        "The case for Trump\u2019s tariffs looks strong a year on from \u2018liberation day\u2019",
-        "Trump administration announces new tariffs on pharmaceuticals",
-        "Ethan Allen CEO on Tariffs, 'Cautious' Consumers"
+        "NEC\u2019s Hassett on Jobs Report, Oil Exports, US Economy",
+        "Exclusive-Russian oil output cuts are unavoidable as drone attacks shrink exports, sources say"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), MarketWatch(1), FT(1)",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Trump's overtime deduction has been a 'home run,' Treasury says. What it means for the tax break",
-        "Gas-tax breaks sound tempting at $4 a gallon. Too bad they don\u2019t actually work.",
-        "US Treasury calls in regulators for talks on private credit risks"
+        "Treasury Bonds Fall on Strength in March Payrolls: Markets Wrap",
+        "Italy Deficit at 3.1% Breaches EU Ceiling in Setback for Meloni",
+        "3 Stocks to Buy That Are Benefitting from Trump's Big Business Tax Breaks",
+        "IRS Fresh Start may expand tax payment options, but there's one thing to watch out for"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "topic": "Recession / Slowdown",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Starbucks to award bonuses to baristas, expand tipping to promote turnaround efforts"
+        "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
+        "US Adds 178,000 Jobs in March, Unemployment Rate Falls to 4.3%",
+        "Microsoft just had its worst quarter on Wall Street in nearly two decades \u2014 the steepest fall since the Great Recession"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
+        "Yuan Fees for Ships to Pass Hormuz Boost Chinese Payment Stocks",
+        "China expands digital yuan programme with 12 new bank operators"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "Yahoo(3)",
+      "sample_headlines": [
+        "Bitcoin Whale Is Wall Street's No. 1 Crush And No. 1 Stock Issuer. Coincidence?",
+        "Bitcoin ETFs Snap Four-Month Outflow Streak With $1.32B in Inflows",
+        "How to keep your crypto safe"
       ]
     }
   ]
