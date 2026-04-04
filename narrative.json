@@ -1,128 +1,115 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 120,
-  "fetched_at": "2026-04-03T21:00:47.025816+00:00",
+  "total_headlines": 112,
+  "fetched_at": "2026-04-04T21:00:57.549175+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 28,
-      "pct": 23.3,
-      "sources": "Bloomberg(13), CNBC(7), FT(3), Yahoo(3), MarketWatch(1), Google News(1)",
+      "count": 23,
+      "pct": 20.5,
+      "sources": "Bloomberg(7), CNBC(6), Yahoo(5), FT(4), Google News(1)",
       "sample_headlines": [
-        "U.S. fighter jet shot down in Iran, one crew member rescued, MS NOW reports",
-        "Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'",
-        "Analysis: Trump's Iran speech ignores the risks of a return to the 1970s",
-        "Iran and Oman drafting protocol to 'monitor' Hormuz Strait traffic: IRNA",
+        "Trump warns Iran '48 hours before all Hell will reign down,' while search for missing crew member intensifies",
+        "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
+        "Polymarket removes wagers on U.S. service member rescue mission in Iran",
+        "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
         "Asia-Pacific markets mostly rise in Easter trade on hopes for Hormuz reopening"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 17,
-      "pct": 14.2,
-      "sources": "CNBC(10), Yahoo(4), MarketWatch(2), FT(1)",
+      "count": 12,
+      "pct": 10.7,
+      "sources": "CNBC(8), Yahoo(3), FT(1)",
       "sample_headlines": [
+        "Apple at 50: The iPhone maker 'blew a 5-year lead' on AI, but former insiders say it can still win",
         "OpenAI's Fidji Simo takes medical leave, announces leadership changes",
         "Trump tariff fallout: Some industries grapple with lingering effects one year later",
         "Meta, Google under attack as court cases bypass 30-year-old legal shield",
-        "'Chasing vibes' \u2014 OpenAI's M&A strategy gets more confusing with TBPN purchase",
-        "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 14,
-      "pct": 11.7,
-      "sources": "Bloomberg(8), Yahoo(5), CNBC(1)",
-      "sample_headlines": [
-        "Amazon to add 3.5% fuel and logistics surcharge for sellers as Iran war drives up energy prices",
-        "Meloni Visits Gulf to Bolster Energy Ties to War-Hit States",
-        "NEC\u2019s Hassett on Jobs Report, Oil Exports, US Economy",
-        "First LNG Tanker Exits Strait of Hormuz Along Omani Coast",
-        "Oil Market Stress Threatens Shortages in Asia, Europe"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 10.0,
-      "sources": "Yahoo(6), CNBC(2), MarketWatch(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "U.S. fighter jet shot down in Iran, one crew member rescued, MS NOW reports",
-        "Wall Street snapped its 5-week losing streak. Here are 3 themes that caught our eye",
-        "My partner\u2019s parents offered a down payment, but they hate the property we chose. What should we do?",
-        "Why investors are so eager for the SpaceX IPO countdown",
-        "US fighter jet shot down over Iran"
+        "'Chasing vibes' \u2014 OpenAI's M&A strategy gets more confusing with TBPN purchase"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.7,
-      "sources": "Bloomberg(3), Yahoo(2), CNBC(1), MarketWatch(1), FT(1)",
+      "count": 9,
+      "pct": 8.0,
+      "sources": "Bloomberg(4), Yahoo(3), CNBC(2)",
       "sample_headlines": [
+        "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
         "I study happiness for a living: The most emotionally secure people share these 7 'quietly powerful' traits",
-        "Jobs data, Iran war add to inflation fears for retirees",
-        "US judge upholds block of subpoenas in criminal investigation of Jay Powell",
-        "US Judge Denies Pirro Motion to Revive Quashed Fed Subpoenas",
-        "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook"
+        "US Inflation Seen Spiking in First Snapshot Since Iran War",
+        "Sleijpen Says ECB Discussion Will Be Rate Hike or Hold: Podcast",
+        "US Judge Denies Pirro Motion to Revive Quashed Fed Subpoenas"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 8.0,
+      "sources": "Yahoo(4), CNBC(3), FT(2)",
       "sample_headlines": [
-        "Trump tariff fallout: Some industries grapple with lingering effects one year later",
-        "Trump administration sets up to 100% tariffs on some imported drugs, with many companies exempt",
+        "Trump warns Iran '48 hours before all Hell will reign down,' while search for missing crew member intensifies",
+        "Basic business class is here with new, stripped-down United Polaris fares",
+        "Wall Street snapped its 5-week losing streak. Here are 3 themes that caught our eye",
+        "The shadowy group claiming attacks around Europe",
+        "Japan cracks down on its wayward cyclists"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 7,
+      "pct": 6.2,
+      "sources": "Bloomberg(5), Yahoo(2)",
+      "sample_headlines": [
+        "Germany Among States Pushing EU to Tax Energy Windfall Profits",
+        "India Acknowledges Iranian Oil Purchases, Dismisses Payment Woes",
+        "Meloni Visits Gulf to Bolster Energy Ties to War-Hit States",
         "NEC\u2019s Hassett on Jobs Report, Oil Exports, US Economy",
-        "Exclusive-Russian oil output cuts are unavoidable as drone attacks shrink exports, sources say"
+        "Oil Market Stress Threatens Shortages in Asia, Europe"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "Bloomberg(2), Yahoo(2)",
+      "count": 5,
+      "pct": 4.5,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
+        "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
+        "Gas-tax breaks sound tempting at $4 a gallon. Too bad they don\u2019t actually work.",
+        "Germany Among States Pushing EU to Tax Energy Windfall Profits",
         "Treasury Bonds Fall on Strength in March Payrolls: Markets Wrap",
-        "Italy Deficit at 3.1% Breaches EU Ceiling in Setback for Meloni",
-        "3 Stocks to Buy That Are Benefitting from Trump's Big Business Tax Breaks",
-        "IRS Fresh Start may expand tax payment options, but there's one thing to watch out for"
+        "Rent, debt, and groceries: How Americans are spending their tax refunds"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "pct": 2.7,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
         "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
-        "US Adds 178,000 Jobs in March, Unemployment Rate Falls to 4.3%",
-        "Microsoft just had its worst quarter on Wall Street in nearly two decades \u2014 the steepest fall since the Great Recession"
+        "\u2018Mass layoffs by email might be the new norm\u2019 as Oracle lays off thousands that way",
+        "US Adds 178,000 Jobs in March, Unemployment Rate Falls to 4.3%"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump tariff fallout: Some industries grapple with lingering effects one year later",
+        "NEC\u2019s Hassett on Jobs Report, Oil Exports, US Economy"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
-        "Yuan Fees for Ships to Pass Hormuz Boost Chinese Payment Stocks",
-        "China expands digital yuan programme with 12 new bank operators"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "Yahoo(3)",
-      "sample_headlines": [
-        "Bitcoin Whale Is Wall Street's No. 1 Crush And No. 1 Stock Issuer. Coincidence?",
-        "Bitcoin ETFs Snap Four-Month Outflow Streak With $1.32B in Inflows",
-        "How to keep your crypto safe"
+        "The Chinese box office isn't the Hollywood kingmaker it used to be. Here's why",
+        "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs"
       ]
     }
   ]
