@@ -1,115 +1,101 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 112,
-  "fetched_at": "2026-04-04T21:00:57.549175+00:00",
+  "total_headlines": 116,
+  "fetched_at": "2026-04-05T21:00:35.070303+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 23,
-      "pct": 20.5,
-      "sources": "Bloomberg(7), CNBC(6), Yahoo(5), FT(4), Google News(1)",
+      "count": 26,
+      "pct": 22.4,
+      "sources": "Bloomberg(12), FT(6), CNBC(4), Yahoo(3), MarketWatch(1)",
       "sample_headlines": [
-        "Trump warns Iran '48 hours before all Hell will reign down,' while search for missing crew member intensifies",
+        "Trump vows Iran will be 'living in Hell' by Tuesday if Strait of Hormuz deadline missed",
         "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
-        "Polymarket removes wagers on U.S. service member rescue mission in Iran",
         "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
-        "Asia-Pacific markets mostly rise in Easter trade on hopes for Hormuz reopening"
+        "Polymarket removes wagers on U.S. service member rescue mission in Iran",
+        "Delta kicks off an earnings season focused on surging gas prices and the Iran war"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 12,
-      "pct": 10.7,
-      "sources": "CNBC(8), Yahoo(3), FT(1)",
+      "count": 17,
+      "pct": 14.7,
+      "sources": "Yahoo(10), CNBC(5), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
         "Apple at 50: The iPhone maker 'blew a 5-year lead' on AI, but former insiders say it can still win",
+        "The mega IPOs of SpaceX, Anthropic and OpenAI alone can't fix this stock market",
         "OpenAI's Fidji Simo takes medical leave, announces leadership changes",
-        "Trump tariff fallout: Some industries grapple with lingering effects one year later",
-        "Meta, Google under attack as court cases bypass 30-year-old legal shield",
         "'Chasing vibes' \u2014 OpenAI's M&A strategy gets more confusing with TBPN purchase"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 8.0,
-      "sources": "Bloomberg(4), Yahoo(3), CNBC(2)",
+      "topic": "Oil / Energy",
+      "count": 10,
+      "pct": 8.6,
+      "sources": "Bloomberg(7), MarketWatch(2), Yahoo(1)",
       "sample_headlines": [
-        "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
-        "I study happiness for a living: The most emotionally secure people share these 7 'quietly powerful' traits",
-        "US Inflation Seen Spiking in First Snapshot Since Iran War",
-        "Sleijpen Says ECB Discussion Will Be Rate Hike or Hold: Podcast",
-        "US Judge Denies Pirro Motion to Revive Quashed Fed Subpoenas"
+        "Delta kicks off an earnings season focused on surging gas prices and the Iran war",
+        "\u2018Our mood changes almost on a daily basis\u2019: Why $4 gas prices feel a lot worse this time around",
+        "OPEC+ Makes Symbolic Oil Hike, Sees Long Supply Hit From War",
+        "Hormuz Tracker: Iraq-Linked Oil Tanker Exits Hormuz Via Iran",
+        "OPEC+ Plans Symbolic Oil Quota Hike for May"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 9,
-      "pct": 8.0,
-      "sources": "Yahoo(4), CNBC(3), FT(2)",
+      "pct": 7.8,
+      "sources": "Yahoo(5), CNBC(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump warns Iran '48 hours before all Hell will reign down,' while search for missing crew member intensifies",
         "Basic business class is here with new, stripped-down United Polaris fares",
-        "Wall Street snapped its 5-week losing streak. Here are 3 themes that caught our eye",
-        "The shadowy group claiming attacks around Europe",
-        "Japan cracks down on its wayward cyclists"
+        "The mega IPOs of SpaceX, Anthropic and OpenAI alone can't fix this stock market",
+        "US rescues second fighter jet airman shot down over Iran",
+        "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap",
+        "Dow Jones Futures Loom As Trump Says Iran Faces 'Hell' If No Deal; Sandisk Leads 7 Stocks To Watch"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 6.2,
-      "sources": "Bloomberg(5), Yahoo(2)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 8,
+      "pct": 6.9,
+      "sources": "Yahoo(4), Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "Germany Among States Pushing EU to Tax Energy Windfall Profits",
-        "India Acknowledges Iranian Oil Purchases, Dismisses Payment Woes",
-        "Meloni Visits Gulf to Bolster Energy Ties to War-Hit States",
-        "NEC\u2019s Hassett on Jobs Report, Oil Exports, US Economy",
-        "Oil Market Stress Threatens Shortages in Asia, Europe"
+        "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
+        "US Inflation Seen Spiking in First Snapshot Since Iran War",
+        "Chinese Bonds Near Inflection Point as Inflation Outlook Shifts",
+        "Sleijpen Says ECB Discussion Will Be Rate Hike or Hold: Podcast",
+        "Inflation readings, oil volatility, and airline earnings: What to watch this week"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 4.5,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
-        "Gas-tax breaks sound tempting at $4 a gallon. Too bad they don\u2019t actually work.",
-        "Germany Among States Pushing EU to Tax Energy Windfall Profits",
-        "Treasury Bonds Fall on Strength in March Payrolls: Markets Wrap",
-        "Rent, debt, and groceries: How Americans are spending their tax refunds"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
       "count": 3,
-      "pct": 2.7,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "pct": 2.6,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
-        "\u2018Mass layoffs by email might be the new norm\u2019 as Oracle lays off thousands that way",
-        "US Adds 178,000 Jobs in March, Unemployment Rate Falls to 4.3%"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump tariff fallout: Some industries grapple with lingering effects one year later",
-        "NEC\u2019s Hassett on Jobs Report, Oil Exports, US Economy"
+        "Older Americans face big tax changes. Here's where they can find free filing help",
+        "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
+        "Germany Among States Pushing EU to Tax Energy Windfall Profits"
       ]
     },
     {
       "topic": "China",
       "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(2)",
+      "pct": 1.7,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
         "The Chinese box office isn't the Hollywood kingmaker it used to be. Here's why",
-        "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs"
+        "Chinese Bonds Near Inflection Point as Inflation Outlook Shifts"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "4 Tech Stocks With More Potential Than Any Cryptocurrency"
       ]
     }
   ]
