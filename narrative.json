@@ -1,101 +1,124 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 116,
-  "fetched_at": "2026-04-05T21:00:35.070303+00:00",
+  "total_headlines": 120,
+  "fetched_at": "2026-04-06T21:01:03.805320+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 26,
-      "pct": 22.4,
-      "sources": "Bloomberg(12), FT(6), CNBC(4), Yahoo(3), MarketWatch(1)",
+      "count": 29,
+      "pct": 24.2,
+      "sources": "Bloomberg(10), CNBC(6), FT(6), Yahoo(6), MarketWatch(1)",
       "sample_headlines": [
-        "Trump vows Iran will be 'living in Hell' by Tuesday if Strait of Hormuz deadline missed",
-        "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
-        "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
-        "Polymarket removes wagers on U.S. service member rescue mission in Iran",
-        "Delta kicks off an earnings season focused on surging gas prices and the Iran war"
+        "Offbeat Wall Street research firm says it sent an analyst to Strait of Hormuz. Here's what they learned",
+        "Trump says Iran ceasefire proposal 'significant' but 'not good enough' as Hormuz Strait deadline nears",
+        "OpenAI asks California, Delaware to investigate Musk's 'anti-competitive behavior' ahead of April trial",
+        "Trump's Iran ultimatum and signals of a possible deal keep investors on tenterhooks",
+        "India turns to Iran for oil and gas after 7-year hiatus, signaling limits to U.S. tilt"
       ]
     },
     {
       "topic": "AI / Tech",
       "count": 17,
-      "pct": 14.7,
-      "sources": "Yahoo(10), CNBC(5), FT(1), Bloomberg(1)",
+      "pct": 14.2,
+      "sources": "Yahoo(8), CNBC(6), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+        "OpenAI asks California, Delaware to investigate Musk's 'anti-competitive behavior' ahead of April trial",
         "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
-        "Apple at 50: The iPhone maker 'blew a 5-year lead' on AI, but former insiders say it can still win",
-        "The mega IPOs of SpaceX, Anthropic and OpenAI alone can't fix this stock market",
-        "OpenAI's Fidji Simo takes medical leave, announces leadership changes",
-        "'Chasing vibes' \u2014 OpenAI's M&A strategy gets more confusing with TBPN purchase"
+        "AI may replace your financial advisor, MIT professor says \u2014 but there's one big hurdle",
+        "AI data center boom \u2018stress tests\u2019 insurers as private capital floods in"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 8.6,
-      "sources": "Bloomberg(7), MarketWatch(2), Yahoo(1)",
+      "count": 11,
+      "pct": 9.2,
+      "sources": "Bloomberg(5), FT(3), CNBC(1), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Delta kicks off an earnings season focused on surging gas prices and the Iran war",
-        "\u2018Our mood changes almost on a daily basis\u2019: Why $4 gas prices feel a lot worse this time around",
-        "OPEC+ Makes Symbolic Oil Hike, Sees Long Supply Hit From War",
-        "Hormuz Tracker: Iraq-Linked Oil Tanker Exits Hormuz Via Iran",
-        "OPEC+ Plans Symbolic Oil Quota Hike for May"
+        "India turns to Iran for oil and gas after 7-year hiatus, signaling limits to U.S. tilt",
+        "Trump moves to scrap utility bill aid for Americans, as soaring energy costs hit over $1,000 on average this winter",
+        "Will the Stock Market Crash as the Oil Shock Hits the Economy? History Says the S&P 500 Will Do This Next. - Yahoo Finance",
+        "Saudi Arabia charges record premium for its oil",
+        "EU warns capitals against turning energy crunch into fiscal crisis"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 7.8,
-      "sources": "Yahoo(5), CNBC(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Basic business class is here with new, stripped-down United Polaris fares",
-        "The mega IPOs of SpaceX, Anthropic and OpenAI alone can't fix this stock market",
-        "US rescues second fighter jet airman shot down over Iran",
-        "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap",
-        "Dow Jones Futures Loom As Trump Says Iran Faces 'Hell' If No Deal; Sandisk Leads 7 Stocks To Watch"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
       "count": 8,
-      "pct": 6.9,
-      "sources": "Yahoo(4), Bloomberg(3), CNBC(1)",
+      "pct": 6.7,
+      "sources": "CNBC(2), Google News(2), MarketWatch(1), FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
-        "US Inflation Seen Spiking in First Snapshot Since Iran War",
-        "Chinese Bonds Near Inflection Point as Inflation Outlook Shifts",
-        "Sleijpen Says ECB Discussion Will Be Rate Hike or Hold: Podcast",
-        "Inflation readings, oil volatility, and airline earnings: What to watch this week"
+        "Offbeat Wall Street research firm says it sent an analyst to Strait of Hormuz. Here's what they learned",
+        "S&P 500 aims to extend win streak \u2014 plus, a CFO switch at one of our key names",
+        "An S&P 500 change may be imminent. These stocks are leading contenders to join the index.",
+        "Will the Stock Market Crash as the Oil Shock Hits the Economy? History Says the S&P 500 Will Do This Next. - Yahoo Finance",
+        "Finance Minister Wagle Denies Crackdown on Stock Market Investors - Ratopati"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "count": 8,
+      "pct": 6.7,
+      "sources": "Yahoo(3), MarketWatch(2), CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Older Americans face big tax changes. Here's where they can find free filing help",
-        "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
-        "Germany Among States Pushing EU to Tax Energy Windfall Profits"
+        "Average tax refund is up $350 compared to last year as IRS deadline approaches",
+        "Americans are increasingly saying they won\u2019t pay their taxes this year as a political protest. Here\u2019s what could happen to them.",
+        "I just learned my 82-year-old mother owes $130,000 in back taxes to the IRS \u2014 and she could lose her house",
+        "EU warns capitals against turning energy crunch into fiscal crisis",
+        "Retail Crowd Seen Resuming Stock-Buying Binge After Tax Deadline"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 7,
+      "pct": 5.8,
+      "sources": "Yahoo(4), Bloomberg(3)",
+      "sample_headlines": [
+        "Chatter About Fed\u2019s Balance Sheet Is Ahead of Reality, CIBC Says",
+        "US Crude Exports Test Limits as Shipping Constraints Mount",
+        "US Truck Rates at Highest Since 2022 Add to Inflation Pressures",
+        "JPMorgan has a stark message on the next Fed rate cut",
+        "The Fed quietly altered its March inflation forecast \u2014 and it points to more pain for Americans. How to fight back"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "FDA declines to issue specific guidance on health programs' foreign drug imports",
+        "Flexport CEO: Top Iran Supply Chain Risk is Fertilizer",
+        "US Crude Exports Test Limits as Shipping Constraints Mount",
+        "Borderlands Mexico: Tariff pressure shows up in customs data across North America"
       ]
     },
     {
       "topic": "China",
       "count": 2,
       "pct": 1.7,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "sources": "FT(1), Yahoo(1)",
       "sample_headlines": [
-        "The Chinese box office isn't the Hollywood kingmaker it used to be. Here's why",
-        "Chinese Bonds Near Inflection Point as Inflation Outlook Shifts"
+        "China and Europe launch rare joint space mission",
+        "China's middle class is 'shadow saving' \u2014 hoarding cash instead of spending \u2014 and it could be a problem for Americans"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "New college graduates face a tough job market. Here\u2019s why unemployment hits them harder"
       ]
     },
     {
       "topic": "Crypto",
       "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "pct": 0.8,
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "4 Tech Stocks With More Potential Than Any Cryptocurrency"
+        "Next Gen Bitcoin ETFs, Refiners Outperform Broader Market | ETF IQ 4/6/2026"
       ]
     }
   ]
