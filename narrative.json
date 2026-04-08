@@ -1,92 +1,100 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 129,
-  "fetched_at": "2026-04-07T21:04:09.023279+00:00",
+  "total_headlines": 127,
+  "fetched_at": "2026-04-08T21:00:41.415265+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 31,
-      "pct": 24.0,
-      "sources": "Bloomberg(14), CNBC(7), FT(6), MarketWatch(2), Yahoo(2)",
+      "count": 33,
+      "pct": 26.0,
+      "sources": "Bloomberg(13), CNBC(9), FT(5), Yahoo(4), MarketWatch(2)",
       "sample_headlines": [
-        "Iran updates: Pakistan seeks 2-week pause after Trump warns 'whole civilization will die' if no deal by deadline",
-        "AWS teams working around the clock to keep Middle East services up after drone strikes, CEO says",
-        "Jet fuel supply concerns grow as war with Iran drags on, airlines cut flights",
-        "House Democrats call on federal regulator to crack down on offshore prediction market war bets",
-        "Iran war upends spring housing market. Here's what real estate agents are seeing"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 9.3,
-      "sources": "CNBC(5), Yahoo(3), Bloomberg(2), Google News(1), FT(1)",
-      "sample_headlines": [
-        "Trump praises Hungary PM Viktor Orb\u00e1n\u00a0after Vance calls him at Budapest rally",
-        "Chrysler CEO says there is a minivan 'resurgence' but stays quiet on product plans",
-        "House Democrats call on federal regulator to crack down on offshore prediction market war bets",
-        "Delta raises checked bag fees $10 amid jet fuel price surge, joining other carriers",
-        "Offbeat Wall Street research firm says it sent an analyst to Strait of Hormuz. Here's what they learned"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 7.8,
-      "sources": "Bloomberg(5), CNBC(1), MarketWatch(1), Google News(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "With gas prices above $4, drivers across the country grapple with higher costs: \u201cI have to spend it\u2014there\u2019s no other way\u201d",
-        "Real-world oil prices just hit a record high, signaling acute stress in the energy market",
-        "Will the Stock Market Crash as the Oil Shock Hits the Economy? History Says the S&P 500 Will Do This Next. - Yahoo Finance",
-        "Oil eases and US stocks close higher as Pakistan floats US-Iran deadline extension",
-        "DoubleLine's Sherman: Oil Doing the Hiking for the Fed"
+        "U.S. has violated ceasefire agreement, Iran parliamentary speaker says",
+        "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement",
+        "Rep. Ritchie Torres calls for probe into futures trades placed ahead of March pause on Iran hostilities",
+        "Gas prices should soon start slowly easing if ceasefire holds, analysts say",
+        "Fed officials still foresee rate cut this year, despite war impacts, minutes show"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 9,
-      "pct": 7.0,
-      "sources": "CNBC(4), Yahoo(4), MarketWatch(1)",
+      "count": 18,
+      "pct": 14.2,
+      "sources": "Yahoo(10), CNBC(6), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Apple shares sink on report of foldable iPhone delays",
-        "Anthropic limits Mythos AI rollout over fears hackers could use model for cyberattacks",
-        "With gas prices above $4, drivers across the country grapple with higher costs: \u201cI have to spend it\u2014there\u2019s no other way\u201d",
-        "Broadcom agrees to expanded chip deals with Google, Anthropic",
-        "Amazon\u2019s stock could soar 50%, as this analyst says investors are looking at AI spending all wrong"
+        "Meta debuts new AI model, attempting to catch Google, OpenAI after spending billions",
+        "AI's next bottleneck: Why even the best chips made in the U.S. take a round trip to Taiwan",
+        "Meta unveils a new AI model that it hopes will justify its massive spending plans",
+        "Why the U.S. Navy\u2019s retail business is fighting Walmart and Amazon to fund its own future",
+        "Microsoft developer tools executive Julia Liuson is retiring after 34 years"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 15,
+      "pct": 11.8,
+      "sources": "Bloomberg(7), MarketWatch(3), Yahoo(3), CNBC(1), FT(1)",
+      "sample_headlines": [
+        "Rep. Ritchie Torres calls for probe into futures trades placed ahead of March pause on Iran hostilities",
+        "Retail and travel stocks rally after Iran cease-fire \u2014 but it could take months for consumers to see lower prices",
+        "How the \u2018TACO\u2019 trade went from a light-hearted Wall Street joke to a serious moneymaker",
+        "Stock market celebrates the Iran cease-fire, but bond market shows we\u2019re not out of the woods yet",
+        "Fed officials sparred over response to energy surge caused by Iran war"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 13,
+      "pct": 10.2,
+      "sources": "Bloomberg(6), CNBC(3), FT(2), MarketWatch(1), Yahoo(1)",
+      "sample_headlines": [
+        "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement",
+        "Gas prices should soon start slowly easing if ceasefire holds, analysts say",
+        "Delta CEO says airline will 'meaningfully' cut growth plans, sees $300 million boost from its refinery",
+        "Bonds may be the real winner now that the world economy has sidestepped a historic oil crisis",
+        "Saudi Arabia\u2019s key east-west oil pipeline hit as Middle East energy attacks continue"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.7,
-      "sources": "Yahoo(4), CNBC(1), Bloomberg(1)",
+      "count": 8,
+      "pct": 6.3,
+      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "House Democrats call on federal regulator to crack down on offshore prediction market war bets",
-        "DoubleLine's Sherman: Oil Doing the Hiking for the Fed",
-        "JPMorgan has a stark message on the next Fed rate cut",
-        "Corn Slipping Lower Early on Monday",
-        "Soybeans Popping Higher Out of the Long Weekend"
+        "Pirro's Powell probe faces a difficult road to appeal, former prosecutors say",
+        "Fed officials still foresee rate cut this year, despite war impacts, minutes show",
+        "Markets shift back toward potential Fed rate cut this year with Iran ceasefire in place",
+        "Many Fed officials think rate cuts are still likely, March meeting minutes show",
+        "Fed officials sparred over response to energy surge caused by Iran war"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "Yahoo(2), Bloomberg(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "Bitcoin Pares Losses After Middle East Tensions Ease",
-        "Analyst Doubles Down On Bitcoin Falling To $10,000",
-        "Bitcoin Rebounds Near $70,000, Charles Schwab To Launch Direct Trading"
+        "Latest investigation into bitcoin founder ties identity to Blockstream CEO Adam Back",
+        "Iran demands crypto fees for ships passing Hormuz during ceasefire"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
       "pct": 1.6,
-      "sources": "CNBC(1), Yahoo(1)",
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Mailing your tax return near the deadline comes with a risk that 'matters more now than ever'",
-        "Tax Pros Reveal 3 Investment Moves That Can Push You into a Higher Tax Bracket"
+        "Meta debuts new AI model, attempting to catch Google, OpenAI after spending billions",
+        "April\u2019s First US Treasury Auctions See Improved Demand"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "The \u2018McValue\u2019 Menu Is Getting Bigger. Does That Make McDonald\u2019s a Top Recession-Proof Stock to Buy Now?"
       ]
     },
     {
@@ -95,16 +103,7 @@
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "ASML shares fall after proposed U.S. export curbs target an already fragile China market"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "ASML shares fall after proposed U.S. export curbs target an already fragile China market"
+        "Trump threatens tariffs of 50% on countries 'supplying military weapons to Iran'"
       ]
     }
   ]
