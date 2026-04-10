@@ -1,108 +1,112 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 126,
-  "fetched_at": "2026-04-09T21:01:01.210847+00:00",
+  "total_headlines": 125,
+  "fetched_at": "2026-04-10T21:00:48.238821+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 32,
-      "pct": 25.4,
-      "sources": "Bloomberg(12), CNBC(9), Yahoo(5), MarketWatch(3), FT(3)",
+      "count": 39,
+      "pct": 31.2,
+      "sources": "CNBC(11), Yahoo(11), Bloomberg(8), MarketWatch(5), FT(4)",
       "sample_headlines": [
-        "Iran attacks on crucial Saudi pipeline and production facilities slash kingdom's oil output",
-        "The Strait of Hormuz is not open as Iran controls access after ceasefire, UAE oil CEO says",
-        "Automatic U.S. military draft registration planned by December, filing shows",
-        "Oil rally loses steam after Israel agrees to negotiate with Lebanon",
-        "From war to weather: A 'super El Ni\u00f1o' event poses fresh risks to global food costs"
+        "Trump praises Palantir as stock has worst week in over a year and Iran conflict drags on",
+        "Iran's speaker says negotiations with U.S. can't start without Lebanon ceasefire, asset release",
+        "U.S. oil slips below $100 as Trump demands reopening of Strait of Hormuz",
+        "Ireland gridlocked by fuel protests as Iran war drives prices higher",
+        "White House warned staff against Iran war bets on prediction markets"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 15,
-      "pct": 11.9,
-      "sources": "CNBC(5), Bloomberg(5), Yahoo(3), FT(2)",
+      "pct": 12.0,
+      "sources": "CNBC(6), Yahoo(6), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Iran attacks on crucial Saudi pipeline and production facilities slash kingdom's oil output",
+        "U.S. oil slips below $100 as Trump demands reopening of Strait of Hormuz",
         "Keir Starmer: 'I'm fed up' with Trump and Putin affecting UK energy costs",
-        "The Strait of Hormuz is not open as Iran controls access after ceasefire, UAE oil CEO says",
-        "Oil rally loses steam after Israel agrees to negotiate with Lebanon",
-        "Family offices piled into oil after capital dried up. The recent rally has made for big gains"
+        "Social Security 2027 cost-of-living adjustment estimate rises with gas prices",
+        "Consumer prices rose 3.3% in March, as energy prices spiked due to Iran conflict",
+        "Trump says Iran 'better stop now' if it's charging oil tankers fees to go through Strait of Hormuz"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 10.3,
-      "sources": "CNBC(6), Yahoo(4), MarketWatch(2), FT(1)",
+      "count": 15,
+      "pct": 12.0,
+      "sources": "Yahoo(7), CNBC(5), FT(2), Bloomberg(1)",
       "sample_headlines": [
-        "Meta's long-awaited AI model is finally here. But can it make money?",
-        "OpenAI looks to take on Anthropic with $100 per month ChatGPT Pro subscriptions",
-        "Salesforce won't be discarded in the AI boom, but what companies want is changing",
-        "Amazon CEO Jassy defends $200 billion AI spend: \"We're not going to be conservative\"",
-        "Google expands partnership with Intel for AI chips"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 9.5,
-      "sources": "Yahoo(5), MarketWatch(3), CNBC(2), Bloomberg(2)",
-      "sample_headlines": [
-        "Oil rally loses steam after Israel agrees to negotiate with Lebanon",
-        "Family offices piled into oil after capital dried up. The recent rally has made for big gains",
-        "Brown-Forman\u2019s stock is the S&P 500\u2019s top gainer Thursday as merger drama heats up",
-        "Software stocks are having a \u2018full-fledged breakdown\u2019 \u2014 and they may fall even further",
-        "The stock-market correction isn\u2019t over yet. Here\u2019s why the Iran cease-fire is actually a bad omen."
+        "Vance, Bessent questioned tech giants on AI security before Anthropic's Mythos release",
+        "Man arrested after Sam Altman's house hit with Molotov cocktail, OpenAI headquarters threatened",
+        "Powell, Bessent discussed Anthropic's Mythos AI cyber threat with major U.S. banks",
+        "TSMC posts 35% jump in revenue to new record high as AI chip demand stays strong",
+        "OpenAI slams Anthropic in memo to shareholders as its leading AI rival gains momentum"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.6,
-      "sources": "Yahoo(3), CNBC(2), MarketWatch(1), Bloomberg(1)",
+      "count": 10,
+      "pct": 8.0,
+      "sources": "CNBC(4), Bloomberg(3), MarketWatch(2), FT(1)",
       "sample_headlines": [
+        "Here's the inflation breakdown for March 2026 \u2014 in one chart",
         "Keir Starmer: 'I'm fed up' with Trump and Putin affecting UK energy costs",
-        "Inflation held sticky at 3% as U.S. headed into war with Iran, key Fed gauge shows",
-        "Your grocery bill will be the next casualty of the Iran war. These investment moves can counter food inflation.",
-        "Bond Traders Hedge Against More Losses as Inflation Data Looms",
-        "2 Stocks I\u2019d Add to the Shopping Cart for the Agentic Commerce Revolution"
+        "Powell, Bessent discussed Anthropic's Mythos AI cyber threat with major U.S. banks",
+        "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed",
+        "Your grocery bill will be the next casualty of the Iran war. These investment moves can counter food inflation."
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 7.2,
+      "sources": "Bloomberg(4), Yahoo(4), CNBC(1)",
+      "sample_headlines": [
+        "Here's the inflation breakdown for March 2026 \u2014 in one chart",
+        "Wall Street Strategists Wrestle With War\u2019s Toll on 2026 Outlook",
+        "US Stocks Halt Rally at End of Best Week in 2026: Markets Wrap",
+        "Winklevoss Twins\u2019 $330 Million Gemini Loans in Focus After Rout",
+        "Wall Street Seizes on Private Credit Fears With New Way to Short"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "China's Xi invokes 'threat' of Taiwan independence in first cross-strait opposition talks in a decade",
+        "China\u2019s Xi tells Taiwan opposition leader unification an \u2018inevitability\u2019",
+        "China to Ban Sulfuric Acid Exports as War Hits Supply"
       ]
     },
     {
       "topic": "Crypto",
       "count": 3,
       "pct": 2.4,
-      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "sources": "Yahoo(3)",
       "sample_headlines": [
-        "Bitcoin miners are losing money minting coins. It\u2019s the same problem that killed the penny.",
-        "Iran\u2019s Sanctions-Busting Crypto Ambitions Grow on Toll Payments",
-        "What is crypto staking? A beginner's guide to earning rewards on your crypto."
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Disney plans layoffs of as many as 1,000 employees"
+        "Nexus Mutual wants to be the insurance policy your crypto never had",
+        "Bitcoin and ethereum price today, Thursday, April 9, 2026: Crypto rally slows as ceasefire wavers",
+        "3 Crypto Stocks That Could Help Make You a Fortune"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Iran\u2019s Sanctions-Busting Crypto Ambitions Grow on Toll Payments"
+        "China to Ban Sulfuric Acid Exports as War Hits Supply",
+        "Colombia Hits Back at Ecuador With 100% Reciprocal Tariffs"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(2)",
       "sample_headlines": [
+        "Average tax refund is 11% higher, latest IRS filing data shows",
         "How 'married filing separately' status could affect Trump tax breaks this season"
       ]
     }
