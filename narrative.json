@@ -1,26 +1,52 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 122,
-  "fetched_at": "2026-04-11T21:00:25.828670+00:00",
+  "total_headlines": 120,
+  "fetched_at": "2026-04-12T21:00:50.343278+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 27,
-      "pct": 22.1,
-      "sources": "Bloomberg(9), CNBC(8), FT(4), MarketWatch(3), Yahoo(3)",
+      "count": 33,
+      "pct": 27.5,
+      "sources": "Bloomberg(14), FT(7), Yahoo(5), CNBC(4), MarketWatch(3)",
       "sample_headlines": [
-        "U.S.-Iran peace summit in Pakistan concludes with no deal, talks to continue on Sunday",
+        "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
         "Trump praises Palantir as stock has worst week in over a year and Iran conflict drags on",
-        "U.S. oil slips below $100 as Trump demands reopening of Strait of Hormuz",
-        "Stocks gain on Iran ceasefire, plus 3 more things that drove last week's market",
-        "Consumer sentiment hits record low, inflation fears rise amid Iran war"
+        "Why the stock market has stayed resilient despite the Iran war and software stock rout",
+        "Cramer warns of \u2018incredibly overconfident\u2019 market after U.S.-Iran ceasefire",
+        "Trump announces blockade of Strait of Hormuz as Vance leaves Pakistan talks with no deal. How financial markets are reacting."
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 16,
+      "pct": 13.3,
+      "sources": "Yahoo(10), Bloomberg(5), FT(1)",
+      "sample_headlines": [
+        "Oil prices expected to rise as hope fades of end to Iran war",
+        "Iran War Drives Oil Shock",
+        "Oil-Rich Latin America Lures Traders Navigating War Jitters",
+        "Oil Tankers U-Turn in Hormuz as US-Iran Talks Break Down",
+        "A Frantic Race for Barrels Is Gripping the Global Oil Market"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 15,
+      "pct": 12.5,
+      "sources": "Yahoo(9), CNBC(3), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Top Wall Street analysts prefer these dividend stocks for steady income",
+        "Why the stock market has stayed resilient despite the Iran war and software stock rout",
+        "This morning routine is key to a successful day, says mental performance coach\u2014and it only takes 4 minutes",
+        "Wall Street banks set to report $40bn trading haul as Iran war rekindles volatility",
+        "Oil Tankers U-Turn in Hormuz as US-Iran Talks Break Down"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 23,
-      "pct": 18.9,
-      "sources": "Yahoo(15), CNBC(6), FT(1), Bloomberg(1)",
+      "count": 13,
+      "pct": 10.8,
+      "sources": "Yahoo(6), CNBC(5), Bloomberg(2)",
       "sample_headlines": [
         "Vibe check from inside one of AI industry's main events: 'Claude mania'",
         "Man arrested after Sam Altman's house hit with Molotov cocktail, OpenAI headquarters threatened",
@@ -30,82 +56,35 @@
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 11,
-      "pct": 9.0,
-      "sources": "CNBC(4), Bloomberg(4), MarketWatch(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "U.S. oil slips below $100 as Trump demands reopening of Strait of Hormuz",
-        "Social Security 2027 cost-of-living adjustment estimate rises with gas prices",
-        "Keir Starmer: 'I'm fed up' with Trump and Putin affecting UK energy costs",
-        "Consumer prices rose 3.3% in March, as energy prices spiked due to Iran conflict",
-        "Here\u2019s when gas prices and airfares could go down if the Iran cease-fire holds"
-      ]
-    },
-    {
       "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.6,
-      "sources": "CNBC(5), MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Here's the inflation breakdown for March 2026 \u2014 in one chart",
         "Elon Musk\u2019s xAI faces fresh opposition after landing permit for Mississippi power plant",
-        "Consumer sentiment hits record low, inflation fears rise amid Iran war",
-        "Powell, Bessent discussed Anthropic's Mythos AI cyber threat with major U.S. banks",
-        "Keir Starmer: 'I'm fed up' with Trump and Putin affecting UK energy costs"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 6,
-      "pct": 4.9,
-      "sources": "Yahoo(2), CNBC(1), MarketWatch(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Here's the inflation breakdown for March 2026 \u2014 in one chart",
-        "Here\u2019s when gas prices and airfares could go down if the Iran cease-fire holds",
-        "Anthropic closes in on OpenAI as US business use surges",
-        "Europe Energy Traders Brace for 21-Hour Day as Volatility Surges",
-        "Dow Jones Futures Eye Direct U.S.-Iran Talks; Google, Amazon, Nvidia In Buy Areas"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Average tax refund is 11% higher, latest IRS filing data shows",
-        "Corporate tax cuts from the \u2018Big Beautiful Bill\u2019 aren\u2019t giveaways \u2014 the new law actually fuels investment",
-        "Zambia\u2019s Cabinet Approves Revised 2026 Budget as Fuel Costs Jump"
+        "Bond Traders Snap Back to Inflation as Higher-for-Longer Sets In",
+        "A Frantic Race for Barrels Is Gripping the Global Oil Market"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
         "Trump policies, China's biotech boom are ending Europe's pharma powerhouse era",
-        "Here\u2019s how much weight-loss drugs Wegovy, Zepbound and Foundayo cost \u2014 and how to pick the best GLP-1 for you"
+        "Inside the American Startups Trying to Break China's Mineral Chokehold",
+        "China Unveils Taiwan Goodwill Steps After Opposition Talks"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
-      "pct": 1.6,
+      "pct": 1.7,
       "sources": "Yahoo(2)",
       "sample_headlines": [
-        "Forget Bitcoin ETFs; This Is How Crypto Is Really Going Mainstream",
-        "Jim Cramer on Riot Platforms: \u201cIf You Want That, You Just Go Buy Bitcoin\u201d"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Oracle's new CFO got $26M in stock after layoffs. Employee says an 'algorithm' targeted workers with stock options first"
+        "The Hottest New Trade in Crypto",
+        "Stablecoin Forecasts Stretch Higher as Bessent Presses for U.S. Crypto Clarity"
       ]
     },
     {
