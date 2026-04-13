@@ -1,99 +1,117 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 120,
-  "fetched_at": "2026-04-12T21:00:50.343278+00:00",
+  "total_headlines": 127,
+  "fetched_at": "2026-04-13T21:02:38.531491+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 33,
-      "pct": 27.5,
-      "sources": "Bloomberg(14), FT(7), Yahoo(5), CNBC(4), MarketWatch(3)",
+      "count": 34,
+      "pct": 26.8,
+      "sources": "Bloomberg(13), CNBC(9), Yahoo(5), FT(4), MarketWatch(3)",
       "sample_headlines": [
-        "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
-        "Trump praises Palantir as stock has worst week in over a year and Iran conflict drags on",
-        "Why the stock market has stayed resilient despite the Iran war and software stock rout",
-        "Cramer warns of \u2018incredibly overconfident\u2019 market after U.S.-Iran ceasefire",
-        "Trump announces blockade of Strait of Hormuz as Vance leaves Pakistan talks with no deal. How financial markets are reacting."
+        "U.S. begins blockade in Strait of Hormuz; Trump warns Iran 'attack ships' to stay away",
+        "BlackRock raises view on U.S. stocks on belief that war is over, profits are up",
+        "Oracle pops nearly 12%, leading bounce back rally in software stocks",
+        "Fed nominee Warsh clears a hurdle to Senate hearing",
+        "Middle East oil production plunges due to Iran war, OPEC data shows"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 16,
-      "pct": 13.3,
-      "sources": "Yahoo(10), Bloomberg(5), FT(1)",
+      "pct": 12.6,
+      "sources": "Yahoo(6), Bloomberg(5), CNBC(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Oil prices expected to rise as hope fades of end to Iran war",
-        "Iran War Drives Oil Shock",
-        "Oil-Rich Latin America Lures Traders Navigating War Jitters",
-        "Oil Tankers U-Turn in Hormuz as US-Iran Talks Break Down",
-        "A Frantic Race for Barrels Is Gripping the Global Oil Market"
+        "Middle East oil production plunges due to Iran war, OPEC data shows",
+        "The Iran war is compounding California's energy crunch",
+        "Why pressure is mounting at oil giant BP ahead of its annual general meeting",
+        "These stocks are taking big hits from worries about higher gasoline prices",
+        "Oil supply crunch intensifies as last Hormuz tankers reach refineries"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 15,
-      "pct": 12.5,
-      "sources": "Yahoo(9), CNBC(3), Bloomberg(2), FT(1)",
+      "count": 11,
+      "pct": 8.7,
+      "sources": "CNBC(4), Yahoo(4), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Top Wall Street analysts prefer these dividend stocks for steady income",
-        "Why the stock market has stayed resilient despite the Iran war and software stock rout",
-        "This morning routine is key to a successful day, says mental performance coach\u2014and it only takes 4 minutes",
-        "Wall Street banks set to report $40bn trading haul as Iran war rekindles volatility",
-        "Oil Tankers U-Turn in Hormuz as US-Iran Talks Break Down"
+        "Oracle pops nearly 12%, leading bounce back rally in software stocks",
+        "Wall Street still loves streaming, but are its affections well placed?",
+        "Middle East oil production plunges due to Iran war, OPEC data shows",
+        "The indicator guiding our next move as stocks shake off breakdown in peace talks",
+        "Wall Street watchdog says private credit is \u2018not a systemic risk\u2019"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 10.8,
-      "sources": "Yahoo(6), CNBC(5), Bloomberg(2)",
+      "count": 9,
+      "pct": 7.1,
+      "sources": "Yahoo(4), CNBC(2), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "Vibe check from inside one of AI industry's main events: 'Claude mania'",
-        "Man arrested after Sam Altman's house hit with Molotov cocktail, OpenAI headquarters threatened",
+        "OpenAI touts Amazon alliance in memo, says Microsoft has 'limited our ability' to reach clients",
         "A mom and tech entrepreneur building AI advocate for rare-disease families like hers",
-        "Elon Musk\u2019s xAI faces fresh opposition after landing permit for Mississippi power plant",
-        "Vance, Bessent questioned tech giants on AI security before Anthropic's Mythos release"
+        "Why SpaceX\u2019s IPO could put pressure on Tesla\u2019s stock",
+        "Is OpenAI outgrowing Microsoft? A new Amazon alliance raises the stakes.",
+        "Meta builds AI version of Mark Zuckerberg to interact with staff"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "Yahoo(4), CNBC(2), Bloomberg(1)",
+      "sample_headlines": [
+        "IRS publishes list of occupations that qualify for 'no tax on tips' provision",
+        "Treasury yields edge lower as investors hope for U.S.-Iran deal",
+        "Colombia\u2019s Valencia Vows $14 Billion Deficit Cut, Oil Push",
+        "Gen X workers are making 10 tax mistakes that can cost them thousands. How to fix them fast before retirement",
+        "Social Security Recipients: The Tax Withholding Choice That Can Prevent an April Surprise"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
+      "count": 5,
+      "pct": 3.9,
+      "sources": "CNBC(2), Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "Elon Musk\u2019s xAI faces fresh opposition after landing permit for Mississippi power plant",
-        "Bond Traders Snap Back to Inflation as Higher-for-Longer Sets In",
-        "A Frantic Race for Barrels Is Gripping the Global Oil Market"
+        "Fed nominee Warsh clears a hurdle to Senate hearing",
+        "Treasury yields edge lower as investors hope for U.S.-Iran deal",
+        "Gold Eases as US Plan to Blockade Hormuz Raises Inflation Risks",
+        "Fed Slashes T\u2011Bill Purchases in Sharper Than Signaled Pullback",
+        "Jamie Dimon says American dream is 'slipping out of reach' \u2014 so he's launching an $80B blitz across 6 fronts"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(2), Yahoo(1)",
+      "sample_headlines": [
+        "Tariff refunds unlikely to benefit consumers, CNBC CFO Council survey finds",
+        "Trump threatens 50% tariffs on China as report suggests plans for arms shipment to Iran",
+        "Borderlands Mexico: China automakers gain ground as U.S. exports soften"
       ]
     },
     {
       "topic": "China",
       "count": 3,
-      "pct": 2.5,
-      "sources": "Bloomberg(2), CNBC(1)",
+      "pct": 2.4,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump policies, China's biotech boom are ending Europe's pharma powerhouse era",
-        "Inside the American Startups Trying to Break China's Mineral Chokehold",
-        "China Unveils Taiwan Goodwill Steps After Opposition Talks"
+        "Trump threatens 50% tariffs on China as report suggests plans for arms shipment to Iran",
+        "Milei\u2019s Auction Favors Group With Past China Ties, US Dredger Warns",
+        "Borderlands Mexico: China automakers gain ground as U.S. exports soften"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "Yahoo(2)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "The Hottest New Trade in Crypto",
-        "Stablecoin Forecasts Stretch Higher as Bessent Presses for U.S. Crypto Clarity"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Why Starlink is so important to SpaceX's IPO"
+        "Kraken Crypto Exchange Says Criminal Group Claims Access to Some Customer Data",
+        "The IRS Is Asking About Your Crypto Again \u2014 and Most People Still Don\u2019t Understand the Question",
+        "The Trumps have lost more than $1 billion on bitcoin since the president's return to office. What\u2019s behind the huge loss"
       ]
     }
   ]
