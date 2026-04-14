@@ -1,117 +1,128 @@
 {
   "dominant": "Iran / Middle East conflict",
   "total_headlines": 127,
-  "fetched_at": "2026-04-13T21:02:38.531491+00:00",
+  "fetched_at": "2026-04-14T21:00:49.020889+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 34,
-      "pct": 26.8,
-      "sources": "Bloomberg(13), CNBC(9), Yahoo(5), FT(4), MarketWatch(3)",
+      "count": 38,
+      "pct": 29.9,
+      "sources": "Bloomberg(15), CNBC(9), FT(9), Yahoo(5)",
       "sample_headlines": [
-        "U.S. begins blockade in Strait of Hormuz; Trump warns Iran 'attack ships' to stay away",
-        "BlackRock raises view on U.S. stocks on belief that war is over, profits are up",
-        "Oracle pops nearly 12%, leading bounce back rally in software stocks",
-        "Fed nominee Warsh clears a hurdle to Senate hearing",
-        "Middle East oil production plunges due to Iran war, OPEC data shows"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 16,
-      "pct": 12.6,
-      "sources": "Yahoo(6), Bloomberg(5), CNBC(3), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Middle East oil production plunges due to Iran war, OPEC data shows",
-        "The Iran war is compounding California's energy crunch",
-        "Why pressure is mounting at oil giant BP ahead of its annual general meeting",
-        "These stocks are taking big hits from worries about higher gasoline prices",
-        "Oil supply crunch intensifies as last Hormuz tankers reach refineries"
+        "More U.S.-Iran peace deal talks are in discussion, White House says",
+        "Fed nominee Warsh filings detail vast wealth, far exceeding past chairs",
+        "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin",
+        "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
+        "China calls U.S. blockade of the Strait of Hormuz 'dangerous and irresponsible'"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "CNBC(4), Yahoo(4), Bloomberg(2), FT(1)",
+      "count": 16,
+      "pct": 12.6,
+      "sources": "Bloomberg(7), MarketWatch(3), Yahoo(3), CNBC(2), FT(1)",
       "sample_headlines": [
-        "Oracle pops nearly 12%, leading bounce back rally in software stocks",
-        "Wall Street still loves streaming, but are its affections well placed?",
-        "Middle East oil production plunges due to Iran war, OPEC data shows",
-        "The indicator guiding our next move as stocks shake off breakdown in peace talks",
-        "Wall Street watchdog says private credit is \u2018not a systemic risk\u2019"
+        "Stocks keep the rally going and oil tumbles. Here's why we have some trepidation",
+        "U.S. oil price tumbles below $92 as White House considers further talks with Iran",
+        "Amazon\u2019s stock is on its best run since 2022 as Globalstar acquisition fuels rally",
+        "As S&P 500 approaches record highs, this is what could derail the stock-market rebound",
+        "Albertsons cites slower GLP-1 growth, higher gas prices for a sales miss and downbeat outlook"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 15,
+      "pct": 11.8,
+      "sources": "Bloomberg(7), CNBC(3), MarketWatch(2), Yahoo(2), FT(1)",
+      "sample_headlines": [
+        "Oracle jumps for a second day, Bloom Energy soars 22% on AI data center power deal",
+        "Stocks keep the rally going and oil tumbles. Here's why we have some trepidation",
+        "U.S. oil price tumbles below $92 as White House considers further talks with Iran",
+        "The International Energy Agency is really worried about the global oil market",
+        "Albertsons cites slower GLP-1 growth, higher gas prices for a sales miss and downbeat outlook"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 9,
-      "pct": 7.1,
-      "sources": "Yahoo(4), CNBC(2), MarketWatch(2), FT(1)",
+      "count": 12,
+      "pct": 9.4,
+      "sources": "CNBC(5), Yahoo(5), MarketWatch(2)",
       "sample_headlines": [
-        "OpenAI touts Amazon alliance in memo, says Microsoft has 'limited our ability' to reach clients",
-        "A mom and tech entrepreneur building AI advocate for rare-disease families like hers",
-        "Why SpaceX\u2019s IPO could put pressure on Tesla\u2019s stock",
-        "Is OpenAI outgrowing Microsoft? A new Amazon alliance raises the stakes.",
-        "Meta builds AI version of Mark Zuckerberg to interact with staff"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "Yahoo(4), CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "IRS publishes list of occupations that qualify for 'no tax on tips' provision",
-        "Treasury yields edge lower as investors hope for U.S.-Iran deal",
-        "Colombia\u2019s Valencia Vows $14 Billion Deficit Cut, Oil Push",
-        "Gen X workers are making 10 tax mistakes that can cost them thousands. How to fix them fast before retirement",
-        "Social Security Recipients: The Tax Withholding Choice That Can Prevent an April Surprise"
+        "Nvidia stock is on a 10-day winning streak and up 18% over that stretch",
+        "CEOs are betting AI will augment work rather than displace all workers",
+        "Amazon to buy Globalstar to bolster Leo satellite business in deal worth about $11.6 billion",
+        "Oracle jumps for a second day, Bloom Energy soars 22% on AI data center power deal",
+        "Suspect in attack at Sam Altman's house aimed to kill OpenAI CEO, warned of humanity's extinction from AI"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 3.9,
-      "sources": "CNBC(2), Bloomberg(2), Yahoo(1)",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "Bloomberg(3), CNBC(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Fed nominee Warsh clears a hurdle to Senate hearing",
-        "Treasury yields edge lower as investors hope for U.S.-Iran deal",
-        "Gold Eases as US Plan to Blockade Hormuz Raises Inflation Risks",
-        "Fed Slashes T\u2011Bill Purchases in Sharper Than Signaled Pullback",
-        "Jamie Dimon says American dream is 'slipping out of reach' \u2014 so he's launching an $80B blitz across 6 fronts"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(2), Yahoo(1)",
-      "sample_headlines": [
-        "Tariff refunds unlikely to benefit consumers, CNBC CFO Council survey finds",
-        "Trump threatens 50% tariffs on China as report suggests plans for arms shipment to Iran",
-        "Borderlands Mexico: China automakers gain ground as U.S. exports soften"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Trump threatens 50% tariffs on China as report suggests plans for arms shipment to Iran",
-        "Milei\u2019s Auction Favors Group With Past China Ties, US Dredger Warns",
-        "Borderlands Mexico: China automakers gain ground as U.S. exports soften"
+        "Fed nominee Warsh filings detail vast wealth, far exceeding past chairs",
+        "Treasury Secretary Bessent backs rate cuts but says he understands if the Fed wants to wait",
+        "Fed chair nominee Kevin Warsh reveals assets worth more than $130mn",
+        "Stocks Rally Toward Record on Cooler PPI Growth, Oil-Price Drop",
+        "Treasuries Gain With Stocks as Oil Falls in Wake of PPI Data"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Yahoo(2), Bloomberg(1)",
+      "count": 5,
+      "pct": 3.9,
+      "sources": "Yahoo(3), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Kraken Crypto Exchange Says Criminal Group Claims Access to Some Customer Data",
-        "The IRS Is Asking About Your Crypto Again \u2014 and Most People Still Don\u2019t Understand the Question",
-        "The Trumps have lost more than $1 billion on bitcoin since the president's return to office. What\u2019s behind the huge loss"
+        "Crypto exchange Kraken confirms it has confidentially filed for an IPO",
+        "Why bitcoin\u2019s next stop could be $98,000 after surmounting this key hurdle, technical analyst says",
+        "Strategy Buys $1 Billion Of Bitcoin Using Preferred Stock",
+        "How to start buying crypto with $100",
+        "8 common crypto scams and how to avoid them"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 5,
+      "pct": 3.9,
+      "sources": "CNBC(3), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Treasury Secretary Bessent backs rate cuts but says he understands if the Fed wants to wait",
+        "House Republican campaign arm touts tax cuts in new 2026 election ad",
+        "The Iran war could cost the American taxpayer $1 trillion, says Harvard academic",
+        "A Tax Day Cash Drain Is Coming for Calm US Funding Markets",
+        "$13B RIA Soltis Adds In-House Tax Prep Through Acquisition"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "CNBC(1), FT(1), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "China calls U.S. blockade of the Strait of Hormuz 'dangerous and irresponsible'",
+        "China shock 2.0: the flood of high-tech goods that will change the world",
+        "US-Sanctioned Tanker Linked To China Tests Trump Blockade",
+        "\u200b\u200bWhy Are Chinese Semiconductors Booming?"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Bloomberg(2)",
+      "sample_headlines": [
+        "Dollar and VIX Back in Tandem as Iran War Usurps Tariff Bets",
+        "US to Let Iran Oil Sanctions Waiver Expire Amid Blockade"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin"
       ]
     }
   ]
