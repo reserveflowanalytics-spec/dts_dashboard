@@ -1,128 +1,113 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 127,
-  "fetched_at": "2026-04-14T21:00:49.020889+00:00",
+  "total_headlines": 128,
+  "fetched_at": "2026-04-15T21:01:16.011001+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 38,
-      "pct": 29.9,
-      "sources": "Bloomberg(15), CNBC(9), FT(9), Yahoo(5)",
+      "count": 28,
+      "pct": 21.9,
+      "sources": "CNBC(9), Bloomberg(9), FT(5), Yahoo(3), MarketWatch(2)",
       "sample_headlines": [
-        "More U.S.-Iran peace deal talks are in discussion, White House says",
-        "Fed nominee Warsh filings detail vast wealth, far exceeding past chairs",
-        "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin",
-        "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
-        "China calls U.S. blockade of the Strait of Hormuz 'dangerous and irresponsible'"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 12.6,
-      "sources": "Bloomberg(7), MarketWatch(3), Yahoo(3), CNBC(2), FT(1)",
-      "sample_headlines": [
-        "Stocks keep the rally going and oil tumbles. Here's why we have some trepidation",
-        "U.S. oil price tumbles below $92 as White House considers further talks with Iran",
-        "Amazon\u2019s stock is on its best run since 2022 as Globalstar acquisition fuels rally",
-        "As S&P 500 approaches record highs, this is what could derail the stock-market rebound",
-        "Albertsons cites slower GLP-1 growth, higher gas prices for a sales miss and downbeat outlook"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 15,
-      "pct": 11.8,
-      "sources": "Bloomberg(7), CNBC(3), MarketWatch(2), Yahoo(2), FT(1)",
-      "sample_headlines": [
-        "Oracle jumps for a second day, Bloom Energy soars 22% on AI data center power deal",
-        "Stocks keep the rally going and oil tumbles. Here's why we have some trepidation",
-        "U.S. oil price tumbles below $92 as White House considers further talks with Iran",
-        "The International Energy Agency is really worried about the global oil market",
-        "Albertsons cites slower GLP-1 growth, higher gas prices for a sales miss and downbeat outlook"
+        "White House budget chief Russell Vought won't estimate Iran war cost in testimony",
+        "Iran war damaged as much as $58 billion of energy infrastructure, Rystad estimates",
+        "For cruise lines, Iran conflict and oil prices threaten to dent profits",
+        "A few tankers and ships are going through the Strait of Hormuz. Here's the latest traffic",
+        "Iran war 'very close to over,' Trump says \u2014 and the stock market 'is going to boom'"
       ]
     },
     {
       "topic": "AI / Tech",
+      "count": 14,
+      "pct": 10.9,
+      "sources": "CNBC(5), Yahoo(5), MarketWatch(2), Bloomberg(2)",
+      "sample_headlines": [
+        "Amazon sellers boycott ads in policy change revolt: 'We're running out of f---ing margin'",
+        "Tesla stock adds nearly 8% as Elon Musk touts chip progress",
+        "Nvidia's long-awaited stock breakout is proof that patience pays off",
+        "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges",
+        "Snap's stock jumps on plans to axe 16% of its workforce citing AI efficiencies"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
       "count": 12,
       "pct": 9.4,
-      "sources": "CNBC(5), Yahoo(5), MarketWatch(2)",
+      "sources": "Yahoo(5), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Nvidia stock is on a 10-day winning streak and up 18% over that stretch",
-        "CEOs are betting AI will augment work rather than displace all workers",
-        "Amazon to buy Globalstar to bolster Leo satellite business in deal worth about $11.6 billion",
-        "Oracle jumps for a second day, Bloom Energy soars 22% on AI data center power deal",
-        "Suspect in attack at Sam Altman's house aimed to kill OpenAI CEO, warned of humanity's extinction from AI"
+        "Goldman Sachs bond traders stumbled as Wall Street rivals thrived: 'A fire is being lit under' them",
+        "Iran war 'very close to over,' Trump says \u2014 and the stock market 'is going to boom'",
+        "The S&P 500 just clinched a record high. Here are 6 charts to watch for what comes next.",
+        "S&P 500 hits record high as markets surge back from Iran shock",
+        "S&P, Nasdaq Hit Records on Ceasefire Hopes | Closing Bell"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "Bloomberg(3), CNBC(2), FT(1), Yahoo(1)",
+      "count": 8,
+      "pct": 6.2,
+      "sources": "CNBC(4), FT(3), MarketWatch(1)",
       "sample_headlines": [
-        "Fed nominee Warsh filings detail vast wealth, far exceeding past chairs",
-        "Treasury Secretary Bessent backs rate cuts but says he understands if the Fed wants to wait",
-        "Fed chair nominee Kevin Warsh reveals assets worth more than $130mn",
-        "Stocks Rally Toward Record on Cooler PPI Growth, Oil-Price Drop",
-        "Treasuries Gain With Stocks as Oil Falls in Wake of PPI Data"
+        "Trump threatens to fire Powell if the Fed chair doesn't leave office on his own",
+        "SantaCon promoter arrested for charity fraud, New York federal prosecutors say",
+        "Jeanine Pirro pursues Fed pressure while clock ticks on her appeal in Powell probe",
+        "Cleveland Fed President Hammack expects interest rates to stay on hold 'for a good while'",
+        "U.S. economy is sagging with Iran war one major source of uncertainty for business, Fed\u2019s \u2018beige book\u2019 finds"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 5,
-      "pct": 3.9,
-      "sources": "Yahoo(3), CNBC(1), MarketWatch(1)",
+      "topic": "Oil / Energy",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "CNBC(3), Bloomberg(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Crypto exchange Kraken confirms it has confidentially filed for an IPO",
-        "Why bitcoin\u2019s next stop could be $98,000 after surmounting this key hurdle, technical analyst says",
-        "Strategy Buys $1 Billion Of Bitcoin Using Preferred Stock",
-        "How to start buying crypto with $100",
-        "8 common crypto scams and how to avoid them"
+        "Iran war damaged as much as $58 billion of energy infrastructure, Rystad estimates",
+        "For cruise lines, Iran conflict and oil prices threaten to dent profits",
+        "Top Energy Democrat probes Trump administration's preparations for Strait of Hormuz closure",
+        "US crude exports hit record as Iran war disrupts Middle East supplies",
+        "US Probes Suspicious Oil Trades Made Before Trump Pivots"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 5,
       "pct": 3.9,
-      "sources": "CNBC(3), Bloomberg(1), Yahoo(1)",
+      "sources": "CNBC(4), MarketWatch(1)",
       "sample_headlines": [
-        "Treasury Secretary Bessent backs rate cuts but says he understands if the Fed wants to wait",
-        "House Republican campaign arm touts tax cuts in new 2026 election ad",
-        "The Iran war could cost the American taxpayer $1 trillion, says Harvard academic",
-        "A Tax Day Cash Drain Is Coming for Calm US Funding Markets",
-        "$13B RIA Soltis Adds In-House Tax Prep Through Acquisition"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 4,
-      "pct": 3.1,
-      "sources": "CNBC(1), FT(1), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "China calls U.S. blockade of the Strait of Hormuz 'dangerous and irresponsible'",
-        "China shock 2.0: the flood of high-tech goods that will change the world",
-        "US-Sanctioned Tanker Linked To China Tests Trump Blockade",
-        "\u200b\u200bWhy Are Chinese Semiconductors Booming?"
+        "White House budget chief Russell Vought won't estimate Iran war cost in testimony",
+        "Tax Day proposal to exempt Election Day poll worker pay floated by House Democrats",
+        "How to file a tax extension for free by the April 15 deadline",
+        "Parents could see $5,500 boost to earned income tax credit under new Democratic measure",
+        "Who were the winners this tax season? People who took advantage of the bigger SALT deduction."
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 2,
       "pct": 1.6,
-      "sources": "Bloomberg(2)",
+      "sources": "FT(2)",
       "sample_headlines": [
-        "Dollar and VIX Back in Tandem as Iran War Usurps Tariff Bets",
-        "US to Let Iran Oil Sanctions Waiver Expire Amid Blockade"
+        "Rate setters face \u2018double danger\u2019 from Iran war and tariffs, Fed official warns",
+        "US crude exports hit record as Iran war disrupts Middle East supplies"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "China",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Iran used Chinese spy satellite to target US bases",
+        "China\u2019s $51 Trillion Savings Help Bonds to Outperform During War"
+      ]
+    },
+    {
+      "topic": "Crypto",
       "count": 1,
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin"
+        "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges"
       ]
     }
   ]
