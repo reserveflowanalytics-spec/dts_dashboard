@@ -1,113 +1,102 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 128,
-  "fetched_at": "2026-04-15T21:01:16.011001+00:00",
+  "total_headlines": 127,
+  "fetched_at": "2026-04-16T21:01:10.351931+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 28,
-      "pct": 21.9,
-      "sources": "CNBC(9), Bloomberg(9), FT(5), Yahoo(3), MarketWatch(2)",
+      "count": 30,
+      "pct": 23.6,
+      "sources": "CNBC(11), Bloomberg(9), FT(4), Yahoo(4), MarketWatch(2)",
       "sample_headlines": [
-        "White House budget chief Russell Vought won't estimate Iran war cost in testimony",
-        "Iran war damaged as much as $58 billion of energy infrastructure, Rystad estimates",
-        "For cruise lines, Iran conflict and oil prices threaten to dent profits",
-        "A few tankers and ships are going through the Strait of Hormuz. Here's the latest traffic",
-        "Iran war 'very close to over,' Trump says \u2014 and the stock market 'is going to boom'"
+        "U.S. Navy blockade of Iran enters fourth day. Here\u2019s the latest tanker traffic in Strait of Hormuz",
+        "Trump nominates Erica Schwartz as CDC director amid turmoil around leadership, vaccine policy",
+        "Kevin Warsh wants to lead a scandal-ridden Fed. His wealth is a complication.",
+        "Brent oil price near $100 again with U.S.-Iran talks uncertain and Hormuz still blocked",
+        "Vance's Iran and Orb\u00e1n setbacks raise questions about his standing with Trump"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 16,
+      "pct": 12.6,
+      "sources": "Yahoo(6), CNBC(3), MarketWatch(3), FT(2), Bloomberg(2)",
+      "sample_headlines": [
+        "Why the stock market is hitting records despite Iran war",
+        "Airline CEOs urged by lawmaker to lower fares if fuel prices come down",
+        "World's biggest chocolate maker issues profit warning as cocoa prices collapse; shares plunge 17%",
+        "The S&P 500\u2019s record high may be an illusion \u2014 and this rally is a warning",
+        "Stocks usually take the escalator up and the elevator down. In this latest rebound, it is happening in reverse."
       ]
     },
     {
       "topic": "AI / Tech",
       "count": 14,
-      "pct": 10.9,
-      "sources": "CNBC(5), Yahoo(5), MarketWatch(2), Bloomberg(2)",
+      "pct": 11.0,
+      "sources": "Yahoo(7), CNBC(6), Bloomberg(1)",
       "sample_headlines": [
-        "Amazon sellers boycott ads in policy change revolt: 'We're running out of f---ing margin'",
-        "Tesla stock adds nearly 8% as Elon Musk touts chip progress",
-        "Nvidia's long-awaited stock breakout is proof that patience pays off",
-        "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges",
-        "Snap's stock jumps on plans to axe 16% of its workforce citing AI efficiencies"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 9.4,
-      "sources": "Yahoo(5), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Goldman Sachs bond traders stumbled as Wall Street rivals thrived: 'A fire is being lit under' them",
-        "Iran war 'very close to over,' Trump says \u2014 and the stock market 'is going to boom'",
-        "The S&P 500 just clinched a record high. Here are 6 charts to watch for what comes next.",
-        "S&P 500 hits record high as markets surge back from Iran shock",
-        "S&P, Nasdaq Hit Records on Ceasefire Hopes | Closing Bell"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.2,
-      "sources": "CNBC(4), FT(3), MarketWatch(1)",
-      "sample_headlines": [
-        "Trump threatens to fire Powell if the Fed chair doesn't leave office on his own",
-        "SantaCon promoter arrested for charity fraud, New York federal prosecutors say",
-        "Jeanine Pirro pursues Fed pressure while clock ticks on her appeal in Powell probe",
-        "Cleveland Fed President Hammack expects interest rates to stay on hold 'for a good while'",
-        "U.S. economy is sagging with Iran war one major source of uncertainty for business, Fed\u2019s \u2018beige book\u2019 finds"
+        "Another absurd AI pivot is propelling a new stock higher Thursday. Shares of Myseum jump 130%",
+        "Google will let users connect their photos to the Gemini chatbot and Nano Banana",
+        "TSMC and ASML post-earnings stock moves could be a sign of what's to come from chip companies",
+        "Anthropic rolls out Claude Opus 4.7, an AI model that is less risky than Mythos",
+        "Retail traders pile into Allbirds after odd AI pivot. History shows it won't end well"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 7,
       "pct": 5.5,
-      "sources": "CNBC(3), Bloomberg(2), FT(1), Yahoo(1)",
+      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Iran war damaged as much as $58 billion of energy infrastructure, Rystad estimates",
-        "For cruise lines, Iran conflict and oil prices threaten to dent profits",
-        "Top Energy Democrat probes Trump administration's preparations for Strait of Hormuz closure",
-        "US crude exports hit record as Iran war disrupts Middle East supplies",
-        "US Probes Suspicious Oil Trades Made Before Trump Pivots"
+        "Trump nominates Erica Schwartz as CDC director amid turmoil around leadership, vaccine policy",
+        "Brent oil price near $100 again with U.S.-Iran talks uncertain and Hormuz still blocked",
+        "Trump says gas prices 'not very high' as most U.S. voters blame him for price spike",
+        "This \u2018hidden\u2019 price of oil is at record highs \u2014 and it\u2019ll hit your electric bill next",
+        "US oil bosses warn Trump to stand firm against Iran\u2019s Hormuz toll"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 3.9,
-      "sources": "CNBC(4), MarketWatch(1)",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "FT(2), Bloomberg(2), CNBC(1), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "White House budget chief Russell Vought won't estimate Iran war cost in testimony",
-        "Tax Day proposal to exempt Election Day poll worker pay floated by House Democrats",
-        "How to file a tax extension for free by the April 15 deadline",
-        "Parents could see $5,500 boost to earned income tax credit under new Democratic measure",
-        "Who were the winners this tax season? People who took advantage of the bigger SALT deduction."
+        "How the wealthy are planning to cut their 2026 tax bills",
+        "Former Treasury Secretary Henry Paulson warns U.S. needs an emergency \u2018break-the-glass\u2019 plan if Treasury demand collapses",
+        "The tax-focused hedge fund craze taking over Wall Street",
+        "New York City\u2019s super-rich cry foul over proposed tax on second homes",
+        "Treasury\u2019s Cash Pile Jumps Most Since September on Tax Day"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "FT(2)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(2), FT(1)",
       "sample_headlines": [
-        "Rate setters face \u2018double danger\u2019 from Iran war and tariffs, Fed official warns",
-        "US crude exports hit record as Iran war disrupts Middle East supplies"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Iran used Chinese spy satellite to target US bases",
-        "China\u2019s $51 Trillion Savings Help Bonds to Outperform During War"
+        "Kevin Warsh wants to lead a scandal-ridden Fed. His wealth is a complication.",
+        "New York Fed President Williams worries war will slow growth, aggravate inflation",
+        "Can Trump unseat Powell as Fed chair?"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "Charles Schwab to launch direct bitcoin, ether trading to compete with Robinhood",
+        "Bitmine Reports $3.8 Billion Loss As Ethereum Sinks",
+        "Bitcoin's 'Extreme Pain Zone' Sits At This Level Where Sellers Will Face Total Exhaustion, Says Crypto Analyst"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges"
+        "Nomura Economist Anderson Warns of Stagflation Risks in Europe"
       ]
     }
   ]
