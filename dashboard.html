@@ -1765,7 +1765,7 @@ function renderSignalLog(entries){
     </div>
     <div class="card">
       <div class="card-label mono">Regime Split</div>
-      <div class="card-value" style="font-size:var(--type-body)">${Object.entries(regimeCounts).map(([r,c])=>regimeBadge(r)+' '+c).join(' ')}</div>
+      <div style="display:flex;flex-direction:column;gap:4px;font-size:var(--type-body)">${['Restrictive','Supportive','Neutral'].filter(r=>regimeCounts[r]).map(r=>`<div>${regimeBadge(r)} ${regimeCounts[r]}</div>`).join('')}</div>
     </div>
   </div>`;
 
