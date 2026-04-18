@@ -1,102 +1,100 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 127,
-  "fetched_at": "2026-04-16T21:01:10.351931+00:00",
+  "total_headlines": 118,
+  "fetched_at": "2026-04-18T21:00:37.944340+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 30,
-      "pct": 23.6,
-      "sources": "CNBC(11), Bloomberg(9), FT(4), Yahoo(4), MarketWatch(2)",
+      "count": 33,
+      "pct": 28.0,
+      "sources": "Bloomberg(17), CNBC(8), FT(4), Yahoo(3), Google News(1)",
       "sample_headlines": [
-        "U.S. Navy blockade of Iran enters fourth day. Here\u2019s the latest tanker traffic in Strait of Hormuz",
-        "Trump nominates Erica Schwartz as CDC director amid turmoil around leadership, vaccine policy",
-        "Kevin Warsh wants to lead a scandal-ridden Fed. His wealth is a complication.",
-        "Brent oil price near $100 again with U.S.-Iran talks uncertain and Hormuz still blocked",
-        "Vance's Iran and Orb\u00e1n setbacks raise questions about his standing with Trump"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 12.6,
-      "sources": "Yahoo(6), CNBC(3), MarketWatch(3), FT(2), Bloomberg(2)",
-      "sample_headlines": [
-        "Why the stock market is hitting records despite Iran war",
-        "Airline CEOs urged by lawmaker to lower fares if fuel prices come down",
-        "World's biggest chocolate maker issues profit warning as cocoa prices collapse; shares plunge 17%",
-        "The S&P 500\u2019s record high may be an illusion \u2014 and this rally is a warning",
-        "Stocks usually take the escalator up and the elevator down. In this latest rebound, it is happening in reverse."
+        "Iran says Strait of Hormuz is closed again as vessels attempting to cross come under fire",
+        "No escape: U.S.-Iran war, $4 gas, has taken all the fun out of consumer spending",
+        "Fed Governor Waller says Iran war and labor market risks are keeping central bank on hold",
+        "House Dem Sam Liccardo probes suspicious oil trades during Iran war",
+        "Why the stock market is hitting records despite Iran war"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 11.0,
-      "sources": "Yahoo(7), CNBC(6), Bloomberg(1)",
+      "count": 19,
+      "pct": 16.1,
+      "sources": "CNBC(7), Yahoo(7), Bloomberg(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Another absurd AI pivot is propelling a new stock higher Thursday. Shares of Myseum jump 130%",
-        "Google will let users connect their photos to the Gemini chatbot and Nano Banana",
-        "TSMC and ASML post-earnings stock moves could be a sign of what's to come from chip companies",
-        "Anthropic rolls out Claude Opus 4.7, an AI model that is less risky than Mythos",
-        "Retail traders pile into Allbirds after odd AI pivot. History shows it won't end well"
+        "Nvidia's once-tight bond with gamers is cracking over AI, 'and that breaks my heart'",
+        "AI fears drive some young adults to grad school \u2014 'people shelter in higher education,' expert says",
+        "There's an 'art' to writing AI prompts for personal finance, MIT professor says",
+        "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+        "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1), FT(1)",
+      "count": 8,
+      "pct": 6.8,
+      "sources": "Bloomberg(4), CNBC(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
+        "House Dem Sam Liccardo probes suspicious oil trades during Iran war",
         "Trump nominates Erica Schwartz as CDC director amid turmoil around leadership, vaccine policy",
-        "Brent oil price near $100 again with U.S.-Iran talks uncertain and Hormuz still blocked",
-        "Trump says gas prices 'not very high' as most U.S. voters blame him for price spike",
-        "This \u2018hidden\u2019 price of oil is at record highs \u2014 and it\u2019ll hit your electric bill next",
-        "US oil bosses warn Trump to stand firm against Iran\u2019s Hormuz toll"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "FT(2), Bloomberg(2), CNBC(1), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "How the wealthy are planning to cut their 2026 tax bills",
-        "Former Treasury Secretary Henry Paulson warns U.S. needs an emergency \u2018break-the-glass\u2019 plan if Treasury demand collapses",
-        "The tax-focused hedge fund craze taking over Wall Street",
-        "New York City\u2019s super-rich cry foul over proposed tax on second homes",
-        "Treasury\u2019s Cash Pile Jumps Most Since September on Tax Day"
+        "This \u2018hidden\u2019 price of oil is going to hit your electric bill next",
+        "Why Oil Markets Won\u2019t Recover Quickly From the Iran War",
+        "Federal Agency Probes Suspicious Oil Trades Made Before Trump Pivots"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(2), FT(1)",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Kevin Warsh wants to lead a scandal-ridden Fed. His wealth is a complication.",
-        "New York Fed President Williams worries war will slow growth, aggravate inflation",
-        "Can Trump unseat Powell as Fed chair?"
+        "Fed Governor Waller says Iran war and labor market risks are keeping central bank on hold",
+        "Child psychologist: This common issue can hurt kids' future success, happiness\u2014they won't just 'grow out of it'",
+        "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+        "The world\u2019s most stable asset is losing its grip \u2014 leaving your paycheck and retirement vulnerable to inflation",
+        "Federal Agency Probes Suspicious Oil Trades Made Before Trump Pivots"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Yahoo(2), CNBC(1)",
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "CNBC(4), Yahoo(2), Google News(1)",
       "sample_headlines": [
-        "Charles Schwab to launch direct bitcoin, ether trading to compete with Robinhood",
-        "Bitmine Reports $3.8 Billion Loss As Ethereum Sinks",
-        "Bitcoin's 'Extreme Pain Zone' Sits At This Level Where Sellers Will Face Total Exhaustion, Says Crypto Analyst"
+        "Berkshire shares left behind as S&P 500 rallies to record high",
+        "Here are 3 forces that drove a remarkable, record-setting week on Wall Street",
+        "Why the stock market is hitting records despite Iran war",
+        "If a violent downturn strikes the market, new ETF strategies may be vulnerable. Here's why",
+        "Here\u2019s what the stock market might have gotten wrong about the Iran war - The Washington Post"
       ]
     },
     {
       "topic": "Recession / Slowdown",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "If a violent downturn strikes the market, new ETF strategies may be vulnerable. Here's why",
+        "War Revives Stagflation Dangers for Global Economy"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Bessent says to adjust your paycheck withholding \u2014 but mistakes could trigger a tax bill, experts caution",
+        "Average tax refund is 11.2% higher, latest IRS filing data shows"
+      ]
+    },
+    {
+      "topic": "Crypto",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Nomura Economist Anderson Warns of Stagflation Risks in Europe"
+        "Trump family\u2019s World Liberty crypto venture faces investor backlash"
       ]
     }
   ]
