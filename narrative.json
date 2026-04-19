@@ -1,100 +1,109 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 118,
-  "fetched_at": "2026-04-18T21:00:37.944340+00:00",
+  "total_headlines": 126,
+  "fetched_at": "2026-04-19T21:00:41.234432+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 33,
-      "pct": 28.0,
-      "sources": "Bloomberg(17), CNBC(8), FT(4), Yahoo(3), Google News(1)",
+      "count": 31,
+      "pct": 24.6,
+      "sources": "Bloomberg(14), Yahoo(8), CNBC(4), FT(3), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Iran says Strait of Hormuz is closed again as vessels attempting to cross come under fire",
-        "No escape: U.S.-Iran war, $4 gas, has taken all the fun out of consumer spending",
-        "Fed Governor Waller says Iran war and labor market risks are keeping central bank on hold",
-        "House Dem Sam Liccardo probes suspicious oil trades during Iran war",
-        "Why the stock market is hitting records despite Iran war"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 19,
-      "pct": 16.1,
-      "sources": "CNBC(7), Yahoo(7), Bloomberg(3), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Nvidia's once-tight bond with gamers is cracking over AI, 'and that breaks my heart'",
-        "AI fears drive some young adults to grad school \u2014 'people shelter in higher education,' expert says",
-        "There's an 'art' to writing AI prompts for personal finance, MIT professor says",
-        "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
-        "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 8,
-      "pct": 6.8,
-      "sources": "Bloomberg(4), CNBC(2), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "House Dem Sam Liccardo probes suspicious oil trades during Iran war",
-        "Trump nominates Erica Schwartz as CDC director amid turmoil around leadership, vaccine policy",
-        "This \u2018hidden\u2019 price of oil is going to hit your electric bill next",
-        "Why Oil Markets Won\u2019t Recover Quickly From the Iran War",
-        "Federal Agency Probes Suspicious Oil Trades Made Before Trump Pivots"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.9,
-      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "Fed Governor Waller says Iran war and labor market risks are keeping central bank on hold",
-        "Child psychologist: This common issue can hurt kids' future success, happiness\u2014they won't just 'grow out of it'",
-        "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
-        "The world\u2019s most stable asset is losing its grip \u2014 leaving your paycheck and retirement vulnerable to inflation",
-        "Federal Agency Probes Suspicious Oil Trades Made Before Trump Pivots"
+        "Trump says U.S. struck and seized Iranian-flagged cargo ship in Gulf of Oman",
+        "Software stock dogs have joined market rally. There's a classic investing lesson in the rebound",
+        "1 big thing we're watching in this week's market just as important as Iran",
+        "No escape: U.S.-Iran war, $4 gas, have taken all the fun out of consumer spending",
+        "Investors brace for renewed volatility after this weekend\u2019s Iran developments"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 5.9,
-      "sources": "CNBC(4), Yahoo(2), Google News(1)",
+      "count": 15,
+      "pct": 11.9,
+      "sources": "Yahoo(8), CNBC(3), MarketWatch(1), Google News(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "Software stock dogs have joined market rally. There's a classic investing lesson in the rebound",
+        "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
         "Berkshire shares left behind as S&P 500 rallies to record high",
-        "Here are 3 forces that drove a remarkable, record-setting week on Wall Street",
-        "Why the stock market is hitting records despite Iran war",
-        "If a violent downturn strikes the market, new ETF strategies may be vulnerable. Here's why",
+        "The S&P 500 has blown past 7,000 in an epic comeback rally. Here\u2019s why it can keep going.",
         "Here\u2019s what the stock market might have gotten wrong about the Iran war - The Washington Post"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "topic": "Oil / Energy",
+      "count": 12,
+      "pct": 9.5,
+      "sources": "Yahoo(8), Bloomberg(2), CNBC(1), FT(1)",
       "sample_headlines": [
-        "If a violent downturn strikes the market, new ETF strategies may be vulnerable. Here's why",
-        "War Revives Stagflation Dangers for Global Economy"
+        "Gas prices may not drop below $3 a gallon until next year: Energy Secretary Wright",
+        "Brussels pushes remote working to ease energy crisis",
+        "Traders Brace for Renewed Turmoil on Hormuz Standoff",
+        "IEA Head Pitches Iraq-Turkey Pipeline to Bypass Hormuz: H\u00fcrriyet",
+        "Wall Street just sent oil stocks a brutal message after Iran\u2019s move"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 10,
+      "pct": 7.9,
+      "sources": "CNBC(7), Yahoo(3)",
+      "sample_headlines": [
+        "SiIicon Valley's AI agent hiccups: Wasted tokens and 'chaotic' systems",
+        "Amazon, USPS and the risk of a widening delivery divide in rural America",
+        "AI fears drive some young adults to grad school \u2014 'people shelter in higher education,' expert says",
+        "There's an 'art' to writing AI prompts for personal finance, MIT professor says",
+        "Nvidia's once-tight bond with gamers is cracking over AI"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 4.8,
+      "sources": "CNBC(3), Bloomberg(2), Yahoo(1)",
+      "sample_headlines": [
+        "I'm a psychologist who studies couples: People in the happiest relationships do 5 things on Sundays\u2014that most neglect",
+        "Child psychologist: This common issue can hurt kids' future success, happiness\u2014they won't just 'grow out of it'",
+        "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+        "Hormuz Shipping Traffic Grinds to a Halt as Tensions Deepen",
+        "What to Expect From Fed Chair Nominee Kevin Warsh's Confirmation Hearing"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(2)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Bessent says to adjust your paycheck withholding \u2014 but mistakes could trigger a tax bill, experts caution",
-        "Average tax refund is 11.2% higher, latest IRS filing data shows"
+        "New York City is floating a $500 million second-home tax \u2014 and it would hurt industries that support thousands of jobs",
+        "Next Catalyst for Treasury Bonds Is Named Kevin Warsh",
+        "Are the Rich Paying Their Fair Share of Taxes?"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
-      "sources": "FT(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Trump family\u2019s World Liberty crypto venture faces investor backlash"
+        "War Revives Stagflation Dangers for Global Economy"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "1 big thing we're watching in this week's market just as important as Iran"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "China\u2019s Orient Securities Deal to Create $86 Billion Brokerage"
       ]
     }
   ]
