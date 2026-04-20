@@ -1,109 +1,112 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 126,
-  "fetched_at": "2026-04-19T21:00:41.234432+00:00",
+  "total_headlines": 121,
+  "fetched_at": "2026-04-20T21:00:57.246120+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 31,
-      "pct": 24.6,
-      "sources": "Bloomberg(14), Yahoo(8), CNBC(4), FT(3), MarketWatch(1), Google News(1)",
+      "count": 28,
+      "pct": 23.1,
+      "sources": "CNBC(9), Bloomberg(9), FT(6), Yahoo(3), MarketWatch(1)",
       "sample_headlines": [
-        "Trump says U.S. struck and seized Iranian-flagged cargo ship in Gulf of Oman",
-        "Software stock dogs have joined market rally. There's a classic investing lesson in the rebound",
-        "1 big thing we're watching in this week's market just as important as Iran",
-        "No escape: U.S.-Iran war, $4 gas, have taken all the fun out of consumer spending",
-        "Investors brace for renewed volatility after this weekend\u2019s Iran developments"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 15,
-      "pct": 11.9,
-      "sources": "Yahoo(8), CNBC(3), MarketWatch(1), Google News(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Software stock dogs have joined market rally. There's a classic investing lesson in the rebound",
-        "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
-        "Berkshire shares left behind as S&P 500 rallies to record high",
-        "The S&P 500 has blown past 7,000 in an epic comeback rally. Here\u2019s why it can keep going.",
-        "Here\u2019s what the stock market might have gotten wrong about the Iran war - The Washington Post"
+        "Chair nominee Kevin Warsh says Fed must \u2018stay in its lane\u2019 to maintain independence",
+        "Trump threatens Iran again as ceasefire deadline looms, U.S. gears up for peace talks",
+        "Investors are misreading news about the Iran war, analysts say as markets whipsaw",
+        "Strait of Hormuz ship traffic briefly rose and then slowed after weekend attacks",
+        "Kevin Warsh would be the first tech bro Fed chair. How Silicon Valley shaped him"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 12,
-      "pct": 9.5,
-      "sources": "Yahoo(8), Bloomberg(2), CNBC(1), FT(1)",
+      "count": 11,
+      "pct": 9.1,
+      "sources": "Bloomberg(6), FT(2), CNBC(1), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Gas prices may not drop below $3 a gallon until next year: Energy Secretary Wright",
-        "Brussels pushes remote working to ease energy crisis",
-        "Traders Brace for Renewed Turmoil on Hormuz Standoff",
-        "IEA Head Pitches Iraq-Turkey Pipeline to Bypass Hormuz: H\u00fcrriyet",
-        "Wall Street just sent oil stocks a brutal message after Iran\u2019s move"
+        "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
+        "Global oil prices climb back above $95 a barrel, as Iran closes Strait of Hormuz again and cease-fire deadline looms",
+        "US oil refiners reap windfall from Iran war",
+        "US Export-Import Bank boosts energy lending during Iran conflict",
+        "South America Could Unlock 2.1 Million Barrels a Day on $100 Oil"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 10,
+      "pct": 8.3,
+      "sources": "FT(4), CNBC(2), Bloomberg(2), Yahoo(2)",
+      "sample_headlines": [
+        "Chair nominee Kevin Warsh says Fed must \u2018stay in its lane\u2019 to maintain independence",
+        "Kevin Warsh would be the first tech bro Fed chair. How Silicon Valley shaped him",
+        "Kevin Warsh to say Fed independence not threatened by political pressure",
+        "Kevin Warsh: Trump\u2019s next fall guy at the Fed?",
+        "The looming battle over the Fed\u2019s balance sheet"
       ]
     },
     {
       "topic": "AI / Tech",
       "count": 10,
-      "pct": 7.9,
-      "sources": "CNBC(7), Yahoo(3)",
+      "pct": 8.3,
+      "sources": "CNBC(6), FT(2), Yahoo(2)",
       "sample_headlines": [
-        "SiIicon Valley's AI agent hiccups: Wasted tokens and 'chaotic' systems",
-        "Amazon, USPS and the risk of a widening delivery divide in rural America",
-        "AI fears drive some young adults to grad school \u2014 'people shelter in higher education,' expert says",
-        "There's an 'art' to writing AI prompts for personal finance, MIT professor says",
-        "Nvidia's once-tight bond with gamers is cracking over AI"
+        "Apple taps John Ternus\u00a0as CEO to replace Tim Cook, who will become chairman",
+        "Amazon to invest up to another $25 billion in Anthropic as part of AI infrastructure deal",
+        "Marvell pops on report it will help Google with custom AI chips. Broadcom shares sink",
+        "Amazon 'strong-armed' Levi's, Hanes to hike prices on rival sites, California DA says",
+        "Amazon, USPS and the risk of a widening delivery divide in rural America"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.8,
-      "sources": "CNBC(3), Bloomberg(2), Yahoo(1)",
+      "topic": "Equities / Market moves",
+      "count": 10,
+      "pct": 8.3,
+      "sources": "Bloomberg(3), Yahoo(3), MarketWatch(2), CNBC(1), FT(1)",
       "sample_headlines": [
-        "I'm a psychologist who studies couples: People in the happiest relationships do 5 things on Sundays\u2014that most neglect",
-        "Child psychologist: This common issue can hurt kids' future success, happiness\u2014they won't just 'grow out of it'",
-        "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
-        "Hormuz Shipping Traffic Grinds to a Halt as Tensions Deepen",
-        "What to Expect From Fed Chair Nominee Kevin Warsh's Confirmation Hearing"
+        "Software stock dogs have joined market rally. There's a classic investing lesson in the rebound",
+        "Psychedelic stocks surge after Trump supports using drugs like LSD for mental health",
+        "The stock market\u2019s record rally now faces these two big risks",
+        "Shares in data centre hopeful Fermi plunge as top executives quit",
+        "Rally on Pause with Peace Deal Uncertainty | Closing Bell"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Bloomberg(2), MarketWatch(1)",
+      "topic": "Trade / Tariffs",
+      "count": 5,
+      "pct": 4.1,
+      "sources": "CNBC(2), MarketWatch(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "New York City is floating a $500 million second-home tax \u2014 and it would hurt industries that support thousands of jobs",
-        "Next Catalyst for Treasury Bonds Is Named Kevin Warsh",
-        "Are the Rich Paying Their Fair Share of Taxes?"
+        "Tariff refunds begin on Monday. These retailers are due big paydays",
+        "Japan's Mitsubishi Heavy Industries sees shares jump nearly 4% on first ever warship export deal",
+        "Businesses trying to claim tariff refunds are already running into problems",
+        "US Export-Import Bank boosts energy lending during Iran conflict",
+        "Borderlands Mexico: Truck exports to U.S. fall in March"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Hormuz disruptions hit China\u2019s Christmas capital \u2014 and holiday spending",
+        "China calls for \u2018concerted\u2019 industry efforts to tackle excess solar production"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "War Revives Stagflation Dangers for Global Economy"
+        "\u2018Like the 1930s\u2019: Ray Dalio warns Trump\u2019s agenda could plunge the US into times \u2018worse than a recession.\u2019 How to prepare"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "1 big thing we're watching in this week's market just as important as Iran"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "China\u2019s Orient Securities Deal to Create $86 Billion Brokerage"
+        "Executives Are Deferring Unlimited Compensation Tax-Free, but HR Won\u2019t Explain the Bankruptcy Risk"
       ]
     }
   ]
