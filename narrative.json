@@ -1,112 +1,113 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 121,
-  "fetched_at": "2026-04-20T21:00:57.246120+00:00",
+  "total_headlines": 124,
+  "fetched_at": "2026-04-21T21:00:54.345061+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 28,
-      "pct": 23.1,
-      "sources": "CNBC(9), Bloomberg(9), FT(6), Yahoo(3), MarketWatch(1)",
+      "count": 31,
+      "pct": 25.0,
+      "sources": "Bloomberg(18), CNBC(7), FT(4), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Chair nominee Kevin Warsh says Fed must \u2018stay in its lane\u2019 to maintain independence",
-        "Trump threatens Iran again as ceasefire deadline looms, U.S. gears up for peace talks",
-        "Investors are misreading news about the Iran war, analysts say as markets whipsaw",
-        "Strait of Hormuz ship traffic briefly rose and then slowed after weekend attacks",
-        "Kevin Warsh would be the first tech bro Fed chair. How Silicon Valley shaped him"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 11,
-      "pct": 9.1,
-      "sources": "Bloomberg(6), FT(2), CNBC(1), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
-        "Global oil prices climb back above $95 a barrel, as Iran closes Strait of Hormuz again and cease-fire deadline looms",
-        "US oil refiners reap windfall from Iran war",
-        "US Export-Import Bank boosts energy lending during Iran conflict",
-        "South America Could Unlock 2.1 Million Barrels a Day on $100 Oil"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 8.3,
-      "sources": "FT(4), CNBC(2), Bloomberg(2), Yahoo(2)",
-      "sample_headlines": [
-        "Chair nominee Kevin Warsh says Fed must \u2018stay in its lane\u2019 to maintain independence",
-        "Kevin Warsh would be the first tech bro Fed chair. How Silicon Valley shaped him",
-        "Kevin Warsh to say Fed independence not threatened by political pressure",
-        "Kevin Warsh: Trump\u2019s next fall guy at the Fed?",
-        "The looming battle over the Fed\u2019s balance sheet"
+        "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
+        "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact",
+        "A timeline of how the Iran war shook oil prices \u2014 and what comes next",
+        "How Warsh can give Trump rate cuts, keep Fed independent, and make the market happy",
+        "Trump tells CNBC he expects U.S. to make \u2018great deal\u2019 with Iran"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 10,
-      "pct": 8.3,
-      "sources": "CNBC(6), FT(2), Yahoo(2)",
+      "count": 17,
+      "pct": 13.7,
+      "sources": "CNBC(7), Yahoo(4), FT(3), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
-        "Apple taps John Ternus\u00a0as CEO to replace Tim Cook, who will become chairman",
-        "Amazon to invest up to another $25 billion in Anthropic as part of AI infrastructure deal",
-        "Marvell pops on report it will help Google with custom AI chips. Broadcom shares sink",
-        "Amazon 'strong-armed' Levi's, Hanes to hike prices on rival sites, California DA says",
-        "Amazon, USPS and the risk of a widening delivery divide in rural America"
+        "Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access",
+        "Tim Cook turned Apple into a $4 trillion juggernaut by not trying to be Steve Jobs",
+        "Tim Cook reactions: Trump, Altman, Buffett and more on the Apple CEO move",
+        "Apple incoming CEO John Ternus faces a defining challenge: Fixing the company's AI strategy",
+        "Microsoft cuts Game Pass subscription prices after new Xbox CEO promises to 'recommit' to gamers"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 13,
+      "pct": 10.5,
+      "sources": "Bloomberg(7), CNBC(3), FT(2), Yahoo(1)",
+      "sample_headlines": [
+        "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact",
+        "How Warsh can give Trump rate cuts, keep Fed independent, and make the market happy",
+        "UPS and FedEx have begun filing for some tariff refunds",
+        "Warsh sidesteps questions over Trump\u2019s influence on Fed rate policy",
+        "The Republican rebel blocking Trump\u2019s pick for Fed chair"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 8.3,
-      "sources": "Bloomberg(3), Yahoo(3), MarketWatch(2), CNBC(1), FT(1)",
+      "count": 9,
+      "pct": 7.3,
+      "sources": "Yahoo(4), CNBC(3), Bloomberg(2)",
       "sample_headlines": [
-        "Software stock dogs have joined market rally. There's a classic investing lesson in the rebound",
-        "Psychedelic stocks surge after Trump supports using drugs like LSD for mental health",
-        "The stock market\u2019s record rally now faces these two big risks",
-        "Shares in data centre hopeful Fermi plunge as top executives quit",
-        "Rally on Pause with Peace Deal Uncertainty | Closing Bell"
+        "United Airlines slashes 2026 forecast as fuel costs surge",
+        "Senate Republicans unveil immigration funding framework as DHS shutdown drags on",
+        "Trump surprised by stock market comeback amid Iran conflict, thought Dow would be down 20%",
+        "US Stocks Tumble for Second Day as US-Iran Talks Stall",
+        "Markets Extend Downturn | Closing Bell"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 5,
-      "pct": 4.1,
-      "sources": "CNBC(2), MarketWatch(1), FT(1), Yahoo(1)",
+      "topic": "Oil / Energy",
+      "count": 8,
+      "pct": 6.5,
+      "sources": "Bloomberg(4), Yahoo(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Tariff refunds begin on Monday. These retailers are due big paydays",
-        "Japan's Mitsubishi Heavy Industries sees shares jump nearly 4% on first ever warship export deal",
-        "Businesses trying to claim tariff refunds are already running into problems",
-        "US Export-Import Bank boosts energy lending during Iran conflict",
-        "Borderlands Mexico: Truck exports to U.S. fall in March"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Hormuz disruptions hit China\u2019s Christmas capital \u2014 and holiday spending",
-        "China calls for \u2018concerted\u2019 industry efforts to tackle excess solar production"
+        "A timeline of how the Iran war shook oil prices \u2014 and what comes next",
+        "Halliburton\u2019s outlook backs one analyst\u2019s view to buy oil-service stocks now",
+        "Oil, Gas Whipsaw Post-Settlement as Trump Extends Iran Ceasefire",
+        "Oil Traders Say Billion-Barrel Hole Will Linger Long After War",
+        "US Natural Gas Extends Gains on Global Oil, Gas Price Increase"
       ]
     },
     {
       "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "\u2018Like the 1930s\u2019: Ray Dalio warns Trump\u2019s agenda could plunge the US into times \u2018worse than a recession.\u2019 How to prepare"
+        "Markets Extend Downturn | Closing Bell",
+        "Oil Traders Warn of Recession Impact as Hormuz Hits Demand",
+        "Daily Spotlight: Debt a High Level of GDP"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(2), Yahoo(1)",
+      "sample_headlines": [
+        "Trump says 'I'll remember' companies that don\u2019t seek tariff refunds",
+        "UPS and FedEx have begun filing for some tariff refunds",
+        "U.S. opens tariff refund portal for $166 billion in duties"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(3)",
+      "sample_headlines": [
+        "Major crypto platform shuts down amid market slump",
+        "Major bank identifies surprising trend for American crypto investors",
+        "Crypto mining: What it is and how it works"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "Executives Are Deferring Unlimited Compensation Tax-Free, but HR Won\u2019t Explain the Bankruptcy Risk"
+        "\u2018This is unbelievable\u2019: My adviser made $300,000 trading options. Now I\u2019m being killed by taxes. Do I fire him?"
       ]
     }
   ]

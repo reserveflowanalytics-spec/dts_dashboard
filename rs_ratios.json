@@ -1,25 +1,25 @@
 {
-  "generated": "2026-04-20",
+  "generated": "2026-04-21",
   "regime": "Restrictive",
-  "fiscal_momentum": -55070.0,
+  "fiscal_momentum": -51860.0,
   "tga_trend": "Building",
   "etf_prices": {
-    "XLB": 51.88,
-    "SPY": 710.14,
-    "XLV": 148.8,
-    "XLK": 154.35,
-    "GLD": 445.93,
-    "XLI": 173.51,
-    "XLY": 120.41,
-    "XLRE": 44.48,
-    "HYG": 80.65,
-    "IWM": 275.78,
-    "XLE": 55.02,
-    "XLP": 82.46,
-    "XLF": 52.43,
-    "TLT": 87.07,
-    "XLU": 46.16,
-    "KRE": 70.37
+    "SPY": 708.72,
+    "IWM": 277.35,
+    "XLY": 119.87,
+    "XLV": 147.42,
+    "GLD": 442.09,
+    "XLB": 52.23,
+    "HYG": 80.58,
+    "XLP": 82.39,
+    "XLU": 45.75,
+    "TLT": 87.05,
+    "XLF": 52.63,
+    "XLK": 154.56,
+    "XLI": 173.9,
+    "KRE": 70.64,
+    "XLRE": 44.64,
+    "XLE": 55.07
   },
   "pairs": [
     {
@@ -28,15 +28,14 @@
       "numerator": "XLE",
       "denominator": "XLK",
       "rationale": "Energy vs tech \u2014 real asset vs growth",
-      "fiscal_corr_60d": 0.735,
-      "current_ratio": 0.3565,
-      "sma20": 0.4242,
-      "roc_20d": -16.43,
+      "fiscal_corr_60d": 0.779,
+      "current_ratio": 0.3563,
+      "sma20": 0.4202,
+      "roc_20d": -18.3,
       "signal": "Underweight numerator",
       "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -155,10 +154,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          0.304,
           0.2963,
           0.2917,
           0.2858,
@@ -277,10 +276,10 @@
           0.3782,
           0.371,
           0.3722,
-          0.3565
+          0.3565,
+          0.3563
         ],
         "sma20": [
-          0.305,
           0.3035,
           0.3022,
           0.3008,
@@ -399,7 +398,8 @@
           0.4324,
           0.4301,
           0.4277,
-          0.4242
+          0.4242,
+          0.4202
         ],
         "regime": [
           "Restrictive",
@@ -407,7 +407,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -514,6 +513,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -532,15 +532,14 @@
       "numerator": "XLY",
       "denominator": "XLP",
       "rationale": "Consumer discretionary vs staples \u2014 pure domestic demand proxy",
-      "fiscal_corr_60d": -0.681,
-      "current_ratio": 1.4602,
-      "sma20": 1.3607,
-      "roc_20d": 8.72,
+      "fiscal_corr_60d": -0.71,
+      "current_ratio": 1.4549,
+      "sma20": 1.3669,
+      "roc_20d": 9.38,
       "signal": "Overweight numerator",
       "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -659,10 +658,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          1.5165,
           1.517,
           1.5363,
           1.5521,
@@ -781,10 +780,10 @@
           1.4292,
           1.4579,
           1.4446,
-          1.4602
+          1.4602,
+          1.4549
         ],
         "sma20": [
-          1.522,
           1.5202,
           1.5192,
           1.5197,
@@ -903,7 +902,8 @@
           1.3439,
           1.3497,
           1.3548,
-          1.3607
+          1.3607,
+          1.3669
         ],
         "regime": [
           "Restrictive",
@@ -911,7 +911,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -1018,6 +1017,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -1036,15 +1036,14 @@
       "numerator": "XLI",
       "denominator": "XLP",
       "rationale": "Industrials vs staples \u2014 cyclical vs defensive",
-      "fiscal_corr_60d": -0.615,
-      "current_ratio": 2.1042,
-      "sma20": 2.033,
-      "roc_20d": 4.84,
+      "fiscal_corr_60d": -0.645,
+      "current_ratio": 2.1107,
+      "sma20": 2.0388,
+      "roc_20d": 5.83,
       "signal": "Overweight numerator",
       "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -1163,10 +1162,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          1.965,
           1.9732,
           1.9811,
           1.9868,
@@ -1285,10 +1284,10 @@
           2.1278,
           2.1118,
           2.0917,
-          2.1042
+          2.1042,
+          2.1107
         ],
         "sma20": [
-          1.9672,
           1.9672,
           1.9676,
           1.9678,
@@ -1407,7 +1406,8 @@
           2.0167,
           2.0238,
           2.0281,
-          2.033
+          2.033,
+          2.0388
         ],
         "regime": [
           "Restrictive",
@@ -1415,7 +1415,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -1522,6 +1521,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -1540,15 +1540,14 @@
       "numerator": "XLY",
       "denominator": "XLV",
       "rationale": "Discretionary vs healthcare \u2014 cyclical vs defensive",
-      "fiscal_corr_60d": -0.545,
-      "current_ratio": 0.8092,
-      "sma20": 0.7583,
-      "roc_20d": 7.92,
+      "fiscal_corr_60d": -0.61,
+      "current_ratio": 0.8131,
+      "sma20": 0.7618,
+      "roc_20d": 9.45,
       "signal": "Overweight numerator",
       "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -1667,10 +1666,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          0.8197,
           0.8173,
           0.8271,
           0.8326,
@@ -1789,10 +1788,10 @@
           0.7824,
           0.7998,
           0.8023,
-          0.8092
+          0.8092,
+          0.8131
         ],
         "sma20": [
-          0.8331,
           0.8296,
           0.8265,
           0.8249,
@@ -1911,7 +1910,8 @@
           0.7508,
           0.7529,
           0.7554,
-          0.7583
+          0.7583,
+          0.7618
         ],
         "regime": [
           "Restrictive",
@@ -1919,7 +1919,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -2026,6 +2025,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -2044,15 +2044,14 @@
       "numerator": "XLF",
       "denominator": "XLU",
       "rationale": "Financials vs utilities \u2014 rate/growth vs rate-defensive",
-      "fiscal_corr_60d": -0.439,
-      "current_ratio": 1.1358,
-      "sma20": 1.0914,
-      "roc_20d": 7.7,
+      "fiscal_corr_60d": -0.475,
+      "current_ratio": 1.1504,
+      "sma20": 1.0939,
+      "roc_20d": 4.46,
       "signal": "Overweight numerator",
       "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -2171,10 +2170,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          1.1701,
           1.169,
           1.1707,
           1.1827,
@@ -2293,10 +2292,10 @@
           1.1143,
           1.1336,
           1.1225,
-          1.1358
+          1.1358,
+          1.1504
         ],
         "sma20": [
-          1.1884,
           1.1844,
           1.1804,
           1.1774,
@@ -2415,7 +2414,8 @@
           1.0797,
           1.0837,
           1.0873,
-          1.0914
+          1.0914,
+          1.0939
         ],
         "regime": [
           "Restrictive",
@@ -2423,7 +2423,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -2530,6 +2529,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -2548,15 +2548,14 @@
       "numerator": "GLD",
       "denominator": "SPY",
       "rationale": "Hard asset vs equity \u2014 inflation hedge vs risk",
-      "fiscal_corr_60d": 0.329,
-      "current_ratio": 0.6279,
-      "sma20": 0.6408,
-      "roc_20d": -3.1,
+      "fiscal_corr_60d": 0.343,
+      "current_ratio": 0.6238,
+      "sma20": 0.6401,
+      "roc_20d": -2.13,
       "signal": "Underweight numerator",
       "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -2675,10 +2674,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          0.5671,
           0.5606,
           0.5386,
           0.5334,
@@ -2797,10 +2796,10 @@
           0.6409,
           0.6293,
           0.6272,
-          0.6279
+          0.6279,
+          0.6238
         ],
         "sma20": [
-          0.5603,
           0.562,
           0.5622,
           0.5621,
@@ -2919,7 +2918,8 @@
           0.647,
           0.6442,
           0.6418,
-          0.6408
+          0.6408,
+          0.6401
         ],
         "regime": [
           "Restrictive",
@@ -2927,7 +2927,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -3034,6 +3033,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -3052,15 +3052,14 @@
       "numerator": "HYG",
       "denominator": "TLT",
       "rationale": "Credit risk appetite vs duration safety",
-      "fiscal_corr_60d": -0.311,
-      "current_ratio": 0.9263,
-      "sma20": 0.9206,
-      "roc_20d": 1.82,
+      "fiscal_corr_60d": -0.303,
+      "current_ratio": 0.9257,
+      "sma20": 0.9209,
+      "roc_20d": 0.76,
       "signal": "Overweight numerator",
       "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -3179,10 +3178,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          0.8783,
           0.8803,
           0.8795,
           0.8763,
@@ -3301,10 +3300,10 @@
           0.9231,
           0.9266,
           0.9313,
-          0.9263
+          0.9263,
+          0.9257
         ],
         "sma20": [
-          0.8887,
           0.8875,
           0.8865,
           0.8853,
@@ -3423,7 +3422,8 @@
           0.9181,
           0.9188,
           0.9198,
-          0.9206
+          0.9206,
+          0.9209
         ],
         "regime": [
           "Restrictive",
@@ -3431,7 +3431,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -3538,6 +3537,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -3556,15 +3556,14 @@
       "numerator": "XLB",
       "denominator": "XLRE",
       "rationale": "Materials vs real estate \u2014 commodity cycle vs rate sensitivity",
-      "fiscal_corr_60d": 0.292,
-      "current_ratio": 1.1664,
-      "sma20": 1.2038,
-      "roc_20d": 2.19,
+      "fiscal_corr_60d": 0.291,
+      "current_ratio": 1.17,
+      "sma20": 1.2043,
+      "roc_20d": 0.86,
       "signal": "Denominator favored (momentum turning)",
       "regime_alignment": "Divergent",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -3683,10 +3682,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          1.06,
           1.0519,
           1.0492,
           1.0745,
@@ -3805,10 +3804,10 @@
           1.1976,
           1.1836,
           1.1812,
-          1.1664
+          1.1664,
+          1.17
         ],
         "sma20": [
-          1.0716,
           1.0708,
           1.0697,
           1.0698,
@@ -3927,7 +3926,8 @@
           1.2002,
           1.2013,
           1.2026,
-          1.2038
+          1.2038,
+          1.2043
         ],
         "regime": [
           "Restrictive",
@@ -3935,7 +3935,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -4042,6 +4041,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -4060,15 +4060,14 @@
       "numerator": "XLI",
       "denominator": "GLD",
       "rationale": "Industrial activity vs hard asset",
-      "fiscal_corr_60d": -0.13,
-      "current_ratio": 0.3891,
-      "sma20": 0.3894,
-      "roc_20d": 1.41,
-      "signal": "Denominator favored (momentum turning)",
-      "regime_alignment": "Divergent",
+      "fiscal_corr_60d": -0.134,
+      "current_ratio": 0.3934,
+      "sma20": 0.3895,
+      "roc_20d": 0.86,
+      "signal": "Overweight numerator",
+      "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -4187,10 +4186,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          0.4061,
           0.4078,
           0.4219,
           0.4219,
@@ -4309,10 +4308,10 @@
           0.3895,
           0.3886,
           0.387,
-          0.3891
+          0.3891,
+          0.3934
         ],
         "sma20": [
-          0.411,
           0.4095,
           0.409,
           0.4086,
@@ -4431,7 +4430,8 @@
           0.3869,
           0.3883,
           0.3891,
-          0.3894
+          0.3894,
+          0.3895
         ],
         "regime": [
           "Restrictive",
@@ -4439,7 +4439,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -4546,6 +4545,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -4564,15 +4564,14 @@
       "numerator": "KRE",
       "denominator": "XLU",
       "rationale": "Regional banks vs utilities \u2014 reserves/lending vs rate-defensive",
-      "fiscal_corr_60d": -0.069,
-      "current_ratio": 1.5245,
-      "sma20": 1.4483,
-      "roc_20d": 12.15,
+      "fiscal_corr_60d": -0.121,
+      "current_ratio": 1.544,
+      "sma20": 1.4548,
+      "roc_20d": 9.23,
       "signal": "Overweight numerator",
-      "regime_alignment": "Neutral",
+      "regime_alignment": "Aligned",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -4691,10 +4690,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          1.3357,
           1.343,
           1.3382,
           1.3551,
@@ -4813,10 +4812,10 @@
           1.4911,
           1.503,
           1.485,
-          1.5245
+          1.5245,
+          1.544
         ],
         "sma20": [
-          1.3829,
           1.3759,
           1.3697,
           1.3646,
@@ -4935,7 +4934,8 @@
           1.4251,
           1.4328,
           1.44,
-          1.4483
+          1.4483,
+          1.4548
         ],
         "regime": [
           "Restrictive",
@@ -4943,7 +4943,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -5050,6 +5049,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -5068,15 +5068,14 @@
       "numerator": "IWM",
       "denominator": "SPY",
       "rationale": "Small cap vs large cap \u2014 fiscal sensitivity vs global earners",
-      "fiscal_corr_60d": 0.032,
-      "current_ratio": 0.3883,
-      "sma20": 0.383,
-      "roc_20d": 3.19,
+      "fiscal_corr_60d": -0.026,
+      "current_ratio": 0.3913,
+      "sma20": 0.3839,
+      "roc_20d": 4.79,
       "signal": "Overweight numerator",
       "regime_alignment": "Neutral",
       "series": {
         "dates": [
-          "2025-10-23",
           "2025-10-24",
           "2025-10-27",
           "2025-10-28",
@@ -5195,10 +5194,10 @@
           "2026-04-14",
           "2026-04-15",
           "2026-04-16",
-          "2026-04-17"
+          "2026-04-17",
+          "2026-04-20"
         ],
         "ratio": [
-          0.367,
           0.3685,
           0.3655,
           0.3626,
@@ -5317,10 +5316,10 @@
           0.3869,
           0.3849,
           0.3847,
-          0.3883
+          0.3883,
+          0.3913
         ],
         "sma20": [
-          0.3672,
           0.3674,
           0.3675,
           0.3674,
@@ -5439,7 +5438,8 @@
           0.3812,
           0.3818,
           0.3824,
-          0.383
+          0.383,
+          0.3839
         ],
         "regime": [
           "Restrictive",
@@ -5447,7 +5447,6 @@
           "Restrictive",
           "Restrictive",
           "Restrictive",
-          "Restrictive",
           "Supportive",
           "Restrictive",
           "Neutral",
@@ -5554,6 +5553,7 @@
           "Supportive",
           "Supportive",
           "Supportive",
+          "Restrictive",
           "Restrictive",
           "Restrictive",
           "Restrictive",
@@ -5569,7 +5569,6 @@
   ],
   "summary": {
     "top_overweight": [
-      "GLD",
       "HYG",
       "IWM",
       "KRE",
@@ -5581,6 +5580,7 @@
       "XLY"
     ],
     "top_underweight": [
+      "GLD",
       "TLT",
       "XLB",
       "XLE",
@@ -5588,6 +5588,6 @@
       "XLU",
       "XLV"
     ],
-    "conviction": "Moderate \u2014 7/11 pairs aligned with regime"
+    "conviction": "High \u2014 fiscal momentum negative, regime Restrictive, 9/11 pairs aligned"
   }
 }
