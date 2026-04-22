@@ -1,128 +1,93 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 114,
-  "fetched_at": "2026-04-22T07:03:15.260528+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 125,
+  "fetched_at": "2026-04-22T21:01:07.291697+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 30,
-      "pct": 26.3,
-      "sources": "Bloomberg(11), CNBC(10), Yahoo(4), FT(3), MarketWatch(2)",
-      "sample_headlines": [
-        "Hormuz is just a \u2018dry run\u2019 if China and U.S. go to war in the Pacific, Singapore foreign minister warns",
-        "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
-        "UK inflation jumps to 3.3% in March as fuel prices surge amid Iran war",
-        "European stocks set to open lower as Trump refuses to lift Strait of Hormuz blockade",
-        "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 19,
-      "pct": 16.7,
-      "sources": "Yahoo(7), CNBC(5), MarketWatch(4), FT(3)",
+      "count": 18,
+      "pct": 14.4,
+      "sources": "Bloomberg(6), Yahoo(6), CNBC(4), FT(2)",
       "sample_headlines": [
-        "Tim Cook turned Apple into a $4 trillion juggernaut by not trying to be Steve Jobs",
-        "Apple incoming CEO John Ternus faces a defining challenge: Fixing the company's AI strategy",
-        "Apple's elevation of silicon head Johny Srouji signals sprint to build in-house chips for all devices",
-        "Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access",
-        "New Apple CEO John Ternus doubted himself when he started: 'I wasn't sure I belonged'"
+        "Tesla misses on revenue but beats on profit as auto margins jump",
+        "We're adding a speculative stock to our Bullpen that can benefit from the AI data center boom",
+        "Microsoft's LinkedIn names longtime exec Dan Shapero its new CEO",
+        "Google unveils chips for AI training and inference in latest shot at Nvidia",
+        "Tesla shares rally as profits rebound from last year\u2019s lows"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 10.5,
-      "sources": "Bloomberg(5), CNBC(3), Yahoo(3), MarketWatch(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 15,
+      "pct": 12.0,
+      "sources": "CNBC(6), Bloomberg(5), FT(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "UK inflation jumps to 3.3% in March as fuel prices surge amid Iran war",
-        "United Airlines slashes 2026 forecast as fuel costs surge",
-        "Senate Republicans unveil immigration funding framework as DHS shutdown drags on",
-        "Airlines cut flights as fuel costs surge \u2014 an economic fallout from the Iran war that markets may be missing",
-        "US Stock Futures Rise, Oil Drops on Iran Optimism: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 8,
-      "pct": 7.0,
-      "sources": "Bloomberg(4), CNBC(2), Yahoo(2)",
-      "sample_headlines": [
-        "Oil edges lower after Trump extends ceasefire with Iran",
-        "A timeline of how the Iran war shook oil prices \u2014 and what comes next",
-        "Iran Tankers Go Dark to Sail Past US Blockade Laden With Oil",
-        "China\u2019s Oil Majors Sell Barrels as Run Rates Drop to 2022 Low",
-        "US Stock Futures Rise, Oil Drops on Iran Optimism: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 8,
-      "pct": 7.0,
-      "sources": "Bloomberg(7), CNBC(1)",
-      "sample_headlines": [
-        "Hormuz is just a \u2018dry run\u2019 if China and U.S. go to war in the Pacific, Singapore foreign minister warns",
-        "China\u2019s Rare Earth Exports to Japan Show Marked Drop",
-        "China\u2019s Oil Majors Sell Barrels as Run Rates Drop to 2022 Low",
-        "PBOC Injects Cash Despite Flush Liquidity, Fueling Bond Rally",
-        "Trump Extends Iran Ceasefire as Talks Falter | The China Show 4/22/2026"
+        "Kevin Warsh gave his preferred way for measuring inflation. It could come back to bite him",
+        "ServiceNow stock sinks 14% as subscription revenue takes hit from Iran war",
+        "IBM CEO Krishna says Iran, other uncertainty is weighing on company's outlook",
+        "Bessent says 'many' U.S. allies have asked for currency swaps amid Iran war turbulence",
+        "Strait of Hormuz remains basically closed as Iran seizes ships after Trump ceasefire extension"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "CNBC(4), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 4.8,
+      "sources": "CNBC(4), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "UK inflation jumps to 3.3% in March as fuel prices surge amid Iran war",
-        "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact",
-        "How Warsh can give Trump rate cuts, keep Fed independent, and make the market happy",
-        "UPS and FedEx have begun filing for some tariff refunds",
-        "What is Cursor? SpaceX could buy the AI company for a whopping $60 billion."
+        "Kevin Warsh gave his preferred way for measuring inflation. It could come back to bite him",
+        "Pirro says DOJ won't drop Fed probe, will appeal judge's order blocking Powell subpoenas",
+        "BMW says it has no intention of dropping sedans, even as some rivals cut back",
+        "House Republican proposes small-business tax cut to pair with GOP federal budget package",
+        "Trump\u2019s \u2018dirty ceasefire\u2019 tested as Iran hits shipping"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Equities / Market moves",
+      "count": 6,
+      "pct": 4.8,
+      "sources": "Bloomberg(3), CNBC(1), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "United Airlines slashes 2026 forecast as fuel costs surge, but demand remains strong",
+        "Tesla shares rally as profits rebound from last year\u2019s lows",
+        "Chip Stocks Rally for Record 16th Straight Day on AI Optimism",
+        "Getty Images Downgraded on Weaker Liquidity, Merger Doubt",
+        "Trump Media CEO Exit Caps a 90% Drop as MAGA Stocks Stumble"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
       "count": 5,
-      "pct": 4.4,
-      "sources": "Yahoo(5)",
+      "pct": 4.0,
+      "sources": "Bloomberg(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Major crypto platform shuts down amid market slump",
-        "Major bank identifies surprising trend for American crypto investors",
-        "As Charles Schwab Unveils a New Crypto Trading Program, Is SCHW Stock a Buy, Sell, or Hold?",
-        "Tether Takes 8.2% Stake in Antalpha as Bitcoin Mining Finance Draws Bigger Backers",
-        "Crypto mining: What it is and how it works"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump says 'I'll remember' companies that don\u2019t seek tariff refunds",
-        "UPS and FedEx have begun filing for some tariff refunds",
-        "China\u2019s Rare Earth Exports to Japan Show Marked Drop"
+        "Iran attacks oil tankers in Hormuz, sending oil back above $101 a barrel",
+        "Russia to suspend Kazakh oil flows through key pipeline supplying Berlin",
+        "Emerging FX Sinks as Iran War Drags On, Oil Holds Over $100",
+        "Head of Bolivian State Oil Company Quits After Less Than a Month",
+        "Oil Rises on Elusive Peace Deal Outlook, Iran Gunboat Attacks"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 4,
+      "pct": 3.2,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "\u2018This is unbelievable\u2019: My adviser made $300,000 trading options. Now I\u2019m being killed by taxes. Do I fire him?",
-        "Vietnam\u2019s GSM Taxi Plans to Hold IPO in 2028, Founder Says",
-        "Your choice of state can almost triple your tax burden. Do you know what your home base is costing you?"
+        "House Republican proposes small-business tax cut to pair with GOP federal budget package",
+        "Spirit Airlines may get a bailout. What\u2019s in it for U.S. taxpayers?",
+        "ECB\u2019s Lane Sees \u2018Natural\u2019 Fiscal Case for Europe Common Debt",
+        "How Pentagon Budget Reveal Could Boost Palantir Stock Amid AI Wave"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Iran\u2019s GDP drain grows as maritime blockades tighten financial pressure points"
+        "Crypto billionaire Justin Sun sues Trump family\u2019s World Liberty Financial",
+        "Coinbase Launches USDC Borrowing for UK Users: Use Crypto Without Selling"
       ]
     }
   ]
