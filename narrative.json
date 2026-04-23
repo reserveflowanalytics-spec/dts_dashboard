@@ -1,93 +1,109 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 125,
-  "fetched_at": "2026-04-22T21:01:07.291697+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 130,
+  "fetched_at": "2026-04-23T21:01:55.124589+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 18,
-      "pct": 14.4,
-      "sources": "Bloomberg(6), Yahoo(6), CNBC(4), FT(2)",
-      "sample_headlines": [
-        "Tesla misses on revenue but beats on profit as auto margins jump",
-        "We're adding a speculative stock to our Bullpen that can benefit from the AI data center boom",
-        "Microsoft's LinkedIn names longtime exec Dan Shapero its new CEO",
-        "Google unveils chips for AI training and inference in latest shot at Nvidia",
-        "Tesla shares rally as profits rebound from last year\u2019s lows"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 15,
-      "pct": 12.0,
-      "sources": "CNBC(6), Bloomberg(5), FT(2), MarketWatch(1), Yahoo(1)",
+      "count": 22,
+      "pct": 16.9,
+      "sources": "CNBC(8), Bloomberg(7), FT(5), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Kevin Warsh gave his preferred way for measuring inflation. It could come back to bite him",
-        "ServiceNow stock sinks 14% as subscription revenue takes hit from Iran war",
-        "IBM CEO Krishna says Iran, other uncertainty is weighing on company's outlook",
-        "Bessent says 'many' U.S. allies have asked for currency swaps amid Iran war turbulence",
-        "Strait of Hormuz remains basically closed as Iran seizes ships after Trump ceasefire extension"
+        "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
+        "These charts show how Iran's economy is in freefall",
+        "White House warns of 'industrial-scale' efforts in China to rip off U.S. AI tech",
+        "Software stocks plunge on ServiceNow, IBM results as AI fears escalate",
+        "Trump orders Navy to 'shoot and kill any boat' laying mines in Hormuz Strait"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.8,
-      "sources": "CNBC(4), FT(1), Bloomberg(1)",
+      "topic": "AI / Tech",
+      "count": 20,
+      "pct": 15.4,
+      "sources": "CNBC(7), Yahoo(6), FT(5), MarketWatch(2)",
       "sample_headlines": [
-        "Kevin Warsh gave his preferred way for measuring inflation. It could come back to bite him",
-        "Pirro says DOJ won't drop Fed probe, will appeal judge's order blocking Powell subpoenas",
-        "BMW says it has no intention of dropping sedans, even as some rivals cut back",
-        "House Republican proposes small-business tax cut to pair with GOP federal budget package",
-        "Trump\u2019s \u2018dirty ceasefire\u2019 tested as Iran hits shipping"
+        "Microsoft plans first-ever voluntary employee buyout for up to 7% of U.S. workforce",
+        "Meta will cut 10% of workforce as company pushes deeper into AI",
+        "Intel's stock soars 16% as results top estimates, with chipmaker showing signs of growth",
+        "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
+        "OpenAI announces GPT-5.5, its latest artificial intelligence model"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 6,
-      "pct": 4.8,
-      "sources": "Bloomberg(3), CNBC(1), FT(1), Yahoo(1)",
+      "count": 11,
+      "pct": 8.5,
+      "sources": "Bloomberg(4), CNBC(3), MarketWatch(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "United Airlines slashes 2026 forecast as fuel costs surge, but demand remains strong",
-        "Tesla shares rally as profits rebound from last year\u2019s lows",
-        "Chip Stocks Rally for Record 16th Straight Day on AI Optimism",
-        "Getty Images Downgraded on Weaker Liquidity, Merger Doubt",
-        "Trump Media CEO Exit Caps a 90% Drop as MAGA Stocks Stumble"
+        "Software stocks plunge on ServiceNow, IBM results as AI fears escalate",
+        "American Airlines cuts 2026 earnings projections after surge in jet fuel",
+        "'CAR' crash: Avis Budget stock plunge reminding some on Wall Street of GameStop",
+        "Meta plans to cut 10% of workforce, or 8,000 jobs, as it doubles down on AI",
+        "Texas Instruments topped Wall Street\u2019s outlook on more than just data-center demand"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.0,
-      "sources": "Bloomberg(3), MarketWatch(1), FT(1)",
+      "count": 7,
+      "pct": 5.4,
+      "sources": "Bloomberg(3), CNBC(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Iran attacks oil tankers in Hormuz, sending oil back above $101 a barrel",
-        "Russia to suspend Kazakh oil flows through key pipeline supplying Berlin",
-        "Emerging FX Sinks as Iran War Drags On, Oil Holds Over $100",
-        "Head of Bolivian State Oil Company Quits After Less Than a Month",
-        "Oil Rises on Elusive Peace Deal Outlook, Iran Gunboat Attacks"
+        "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
+        "'We are facing the biggest energy security threat in history,' IEA chief tells CNBC",
+        "The oil tankers slipping through Hormuz",
+        "Stocks Decline as Iran Jitters Spur Rally in Oil: Markets Wrap",
+        "Oil Jumps as Iran Tensions Simmer With Hormuz Flows Blocked"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "Bloomberg(3), FT(1)",
+      "sample_headlines": [
+        "The oil tankers slipping through Hormuz",
+        "Gold Falls as US-Iran Hormuz Standoff Heightens Inflation Risk",
+        "Fed\u2019s Bowman Cautions Wall Street CEOs Against Capital Gripes",
+        "Fed, FDIC Finalize Changes Easing Community Bank Leverage Ratio"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.3,
+      "sources": "CNBC(1), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "White House warns of 'industrial-scale' efforts in China to rip off U.S. AI tech",
+        "Hainan had one job for years: capturing domestic luxury-goods spending. Now China wants the island province to work harder.",
+        "White House accuses China of \u2018industrial-scale\u2019 theft of AI technology"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.2,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 2,
+      "pct": 1.5,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "House Republican proposes small-business tax cut to pair with GOP federal budget package",
-        "Spirit Airlines may get a bailout. What\u2019s in it for U.S. taxpayers?",
-        "ECB\u2019s Lane Sees \u2018Natural\u2019 Fiscal Case for Europe Common Debt",
-        "How Pentagon Budget Reveal Could Boost Palantir Stock Amid AI Wave"
+        "NYC Mayor Mamdani knocked Ken Griffin in pied-a-terre tax promo. His firm calls the move 'shameful'",
+        "'CAR' crash: Avis Budget stock plunge reminding some on Wall Street of GameStop"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Nike cuts 1,400 roles in second round of layoffs this year"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "FT(1), Yahoo(1)",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Crypto billionaire Justin Sun sues Trump family\u2019s World Liberty Financial",
-        "Coinbase Launches USDC Borrowing for UK Users: Use Crypto Without Selling"
+        "Cathie Wood: The Days of Big Crashes in Bitcoin Are Over"
       ]
     }
   ]
