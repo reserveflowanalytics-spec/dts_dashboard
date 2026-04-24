@@ -1,109 +1,112 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 130,
-  "fetched_at": "2026-04-23T21:01:55.124589+00:00",
+  "total_headlines": 128,
+  "fetched_at": "2026-04-24T21:00:41.947704+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 22,
-      "pct": 16.9,
-      "sources": "CNBC(8), Bloomberg(7), FT(5), MarketWatch(1), Yahoo(1)",
+      "count": 25,
+      "pct": 19.5,
+      "sources": "Bloomberg(12), CNBC(8), MarketWatch(2), FT(2), Yahoo(1)",
       "sample_headlines": [
-        "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
-        "These charts show how Iran's economy is in freefall",
-        "White House warns of 'industrial-scale' efforts in China to rip off U.S. AI tech",
-        "Software stocks plunge on ServiceNow, IBM results as AI fears escalate",
-        "Trump orders Navy to 'shoot and kill any boat' laying mines in Hormuz Strait"
+        "Pirro could reopen Fed probe at any time, Democratic senators warn",
+        "Strait of Hormuz may not fully reopen until second half of 2026, Baker Hughes says",
+        "Kushner, Witkoff \u2014 not Vance \u2014 heading to Pakistan for 'direct talks' with Iran, White House says",
+        "Bessent defends U.S. dollar swap lines as Iran war harms global finances",
+        "DOJ ends Powell probe, lifts hurdle for Trump\u2019s Fed chair nominee Warsh"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 15.4,
-      "sources": "CNBC(7), Yahoo(6), FT(5), MarketWatch(2)",
+      "count": 22,
+      "pct": 17.2,
+      "sources": "CNBC(11), Yahoo(7), Bloomberg(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Microsoft plans first-ever voluntary employee buyout for up to 7% of U.S. workforce",
-        "Meta will cut 10% of workforce as company pushes deeper into AI",
-        "Intel's stock soars 16% as results top estimates, with chipmaker showing signs of growth",
-        "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
-        "OpenAI announces GPT-5.5, its latest artificial intelligence model"
+        "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+        "Nvidia stock closes at record, pushing market cap past $5 trillion",
+        "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+        "Intel's stock has best day since 1987, soaring 24% as chipmaker shows signs of a turnaround",
+        "AI data center backlash threatens Pennsylvania GOP incumbents in 2026 election"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 13,
+      "pct": 10.2,
+      "sources": "CNBC(6), Bloomberg(6), FT(1)",
+      "sample_headlines": [
+        "Analysis: The threat to the Fed's independence isn't over",
+        "Pirro could reopen Fed probe at any time, Democratic senators warn",
+        "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
+        "DOJ ends Powell probe, lifts hurdle for Trump\u2019s Fed chair nominee Warsh",
+        "Bettors on Kalshi now see Warsh likely confirmed by mid-May after DOJ drops Powell probe"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 11,
-      "pct": 8.5,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(2), FT(1), Yahoo(1)",
+      "pct": 8.6,
+      "sources": "Bloomberg(4), CNBC(3), FT(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Software stocks plunge on ServiceNow, IBM results as AI fears escalate",
-        "American Airlines cuts 2026 earnings projections after surge in jet fuel",
-        "'CAR' crash: Avis Budget stock plunge reminding some on Wall Street of GameStop",
-        "Meta plans to cut 10% of workforce, or 8,000 jobs, as it doubles down on AI",
-        "Texas Instruments topped Wall Street\u2019s outlook on more than just data-center demand"
+        "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
+        "Wall Street's 'fear gauge' is doing something unusual. What it means",
+        "We're raising our price target on chipmaker Arm after its blistering rally",
+        "There\u2019s a new stock for the nuclear-power IPO trade, and Wall Street is piling in. Should you?",
+        "US stocks race ahead of Europe as Wall Street shrugs off energy shock"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.4,
-      "sources": "Bloomberg(3), CNBC(2), FT(1), Yahoo(1)",
+      "count": 10,
+      "pct": 7.8,
+      "sources": "Bloomberg(3), Yahoo(3), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
-        "'We are facing the biggest energy security threat in history,' IEA chief tells CNBC",
-        "The oil tankers slipping through Hormuz",
-        "Stocks Decline as Iran Jitters Spur Rally in Oil: Markets Wrap",
-        "Oil Jumps as Iran Tensions Simmer With Hormuz Flows Blocked"
+        "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
+        "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan",
+        "Why crude prices won\u2019t fall back to levels seen before the Iran war anytime soon",
+        "US stocks race ahead of Europe as Wall Street shrugs off energy shock",
+        "Amazon-Backed X-Energy Climbs 27% After $1.02 Billion US IPO"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 3.1,
-      "sources": "Bloomberg(3), FT(1)",
-      "sample_headlines": [
-        "The oil tankers slipping through Hormuz",
-        "Gold Falls as US-Iran Hormuz Standoff Heightens Inflation Risk",
-        "Fed\u2019s Bowman Cautions Wall Street CEOs Against Capital Gripes",
-        "Fed, FDIC Finalize Changes Easing Community Bank Leverage Ratio"
-      ]
-    },
-    {
-      "topic": "China",
+      "topic": "Trade / Tariffs",
       "count": 3,
       "pct": 2.3,
-      "sources": "CNBC(1), MarketWatch(1), FT(1)",
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "White House warns of 'industrial-scale' efforts in China to rip off U.S. AI tech",
-        "Hainan had one job for years: capturing domestic luxury-goods spending. Now China wants the island province to work harder.",
-        "White House accuses China of \u2018industrial-scale\u2019 theft of AI technology"
+        "Trump warns of \u2018big tariff\u2019 if UK doesn\u2019t drop digital services tax on U.S. tech firms",
+        "Judge sanctions woman who sued Leon Black in Epstein-linked case",
+        "US Sanctions China Refinery, Iran Shadow Fleet Ahead of Talks"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.5,
-      "sources": "CNBC(2)",
+      "count": 3,
+      "pct": 2.3,
+      "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
-        "NYC Mayor Mamdani knocked Ken Griffin in pied-a-terre tax promo. His firm calls the move 'shameful'",
-        "'CAR' crash: Avis Budget stock plunge reminding some on Wall Street of GameStop"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Nike cuts 1,400 roles in second round of layoffs this year"
+        "Trump warns of \u2018big tariff\u2019 if UK doesn\u2019t drop digital services tax on U.S. tech firms",
+        "Tax the Rich Policies Draw Attention",
+        "Belgium Cut by S&amp;P in Second Judgment on Worst Euro-Zone Deficit"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Blockchain Capital Seeks $700M for Two New Crypto Funds",
+        "Bitcoin and ethereum price today, Thursday, April 23, 2026: Strong opening for bitcoin, but traders still cautious"
+      ]
+    },
+    {
+      "topic": "China",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Cathie Wood: The Days of Big Crashes in Bitcoin Are Over"
+        "US Sanctions China Refinery, Iran Shadow Fleet Ahead of Talks"
       ]
     }
   ]
