@@ -1,112 +1,101 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 128,
-  "fetched_at": "2026-04-24T21:00:41.947704+00:00",
+  "total_headlines": 120,
+  "fetched_at": "2026-04-25T21:00:53.479596+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 25,
-      "pct": 19.5,
-      "sources": "Bloomberg(12), CNBC(8), MarketWatch(2), FT(2), Yahoo(1)",
+      "count": 24,
+      "pct": 20.0,
+      "sources": "Bloomberg(12), CNBC(7), FT(3), Yahoo(2)",
       "sample_headlines": [
+        "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations: 'If they want to talk, all they have to do is call'",
+        "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
         "Pirro could reopen Fed probe at any time, Democratic senators warn",
-        "Strait of Hormuz may not fully reopen until second half of 2026, Baker Hughes says",
-        "Kushner, Witkoff \u2014 not Vance \u2014 heading to Pakistan for 'direct talks' with Iran, White House says",
-        "Bessent defends U.S. dollar swap lines as Iran war harms global finances",
-        "DOJ ends Powell probe, lifts hurdle for Trump\u2019s Fed chair nominee Warsh"
+        "This little-known ETF is up over 600% amid U.S.-Iran war, a better trade than oil or energy stocks",
+        "Kushner, Witkoff \u2014 not Vance \u2014 heading to Pakistan for 'direct talks' with Iran, White House says"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 22,
-      "pct": 17.2,
-      "sources": "CNBC(11), Yahoo(7), Bloomberg(2), MarketWatch(1), FT(1)",
+      "count": 17,
+      "pct": 14.2,
+      "sources": "CNBC(7), Yahoo(6), MarketWatch(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
+        "We tried out xAI's Grok chatbot while driving a Tesla in NYC. Here's what happened.",
         "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
-        "Nvidia stock closes at record, pushing market cap past $5 trillion",
-        "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
-        "Intel's stock has best day since 1987, soaring 24% as chipmaker shows signs of a turnaround",
-        "AI data center backlash threatens Pennsylvania GOP incumbents in 2026 election"
+        "AI data center backlash threatens Pennsylvania GOP incumbents in 2026 election",
+        "How a new Amazon-backed Hollywood production startup deploys AI for speed and cost-cutting"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 13,
-      "pct": 10.2,
-      "sources": "CNBC(6), Bloomberg(6), FT(1)",
-      "sample_headlines": [
-        "Analysis: The threat to the Fed's independence isn't over",
-        "Pirro could reopen Fed probe at any time, Democratic senators warn",
-        "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
-        "DOJ ends Powell probe, lifts hurdle for Trump\u2019s Fed chair nominee Warsh",
-        "Bettors on Kalshi now see Warsh likely confirmed by mid-May after DOJ drops Powell probe"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
       "count": 11,
-      "pct": 8.6,
-      "sources": "Bloomberg(4), CNBC(3), FT(2), MarketWatch(1), Yahoo(1)",
+      "pct": 9.2,
+      "sources": "CNBC(5), Bloomberg(3), Yahoo(3)",
       "sample_headlines": [
-        "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
-        "Wall Street's 'fear gauge' is doing something unusual. What it means",
-        "We're raising our price target on chipmaker Arm after its blistering rally",
-        "There\u2019s a new stock for the nuclear-power IPO trade, and Wall Street is piling in. Should you?",
-        "US stocks race ahead of Europe as Wall Street shrugs off energy shock"
+        "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
+        "Pirro could reopen Fed probe at any time, Democratic senators warn",
+        "DOJ ends Powell probe, lifts hurdle for Trump\u2019s Fed chair nominee Warsh",
+        "Bettors on Kalshi now see Warsh likely confirmed by mid-May after DOJ drops Powell probe",
+        "Fed is likely to hold rates steady \u2014 here's how that impacts consumer costs"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 7.8,
-      "sources": "Bloomberg(3), Yahoo(3), CNBC(2), MarketWatch(1), FT(1)",
+      "count": 9,
+      "pct": 7.5,
+      "sources": "Bloomberg(4), CNBC(2), Yahoo(2), FT(1)",
       "sample_headlines": [
+        "This little-known ETF is up over 600% amid U.S.-Iran war, a better trade than oil or energy stocks",
         "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
-        "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan",
-        "Why crude prices won\u2019t fall back to levels seen before the Iran war anytime soon",
-        "US stocks race ahead of Europe as Wall Street shrugs off energy shock",
-        "Amazon-Backed X-Energy Climbs 27% After $1.02 Billion US IPO"
+        "America\u2019s bid for energy supremacy is being forged in war",
+        "Billion-Barrel Hormuz Oil Shock Is About to Crash Demand",
+        "The Billion-Barrel Hormuz Oil Shock Is About to Crash Demand"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "topic": "Equities / Market moves",
+      "count": 8,
+      "pct": 6.7,
+      "sources": "CNBC(4), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Trump warns of \u2018big tariff\u2019 if UK doesn\u2019t drop digital services tax on U.S. tech firms",
-        "Judge sanctions woman who sued Leon Black in Epstein-linked case",
-        "US Sanctions China Refinery, Iran Shadow Fleet Ahead of Talks"
+        "Berkshire attracts interest as it slips further behind the S&P 500",
+        "3 forces that drove another historic \u2013 yet volatile \u2013 week for the S&P 500",
+        "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
+        "Wall Street's 'fear gauge' is doing something unusual. What it means",
+        "S&P's Yergin: \"The Biggest Energy Disruption We've Ever Seen\""
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "China",
       "count": 3,
-      "pct": 2.3,
+      "pct": 2.5,
       "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
-        "Trump warns of \u2018big tariff\u2019 if UK doesn\u2019t drop digital services tax on U.S. tech firms",
-        "Tax the Rich Policies Draw Attention",
-        "Belgium Cut by S&amp;P in Second Judgment on Worst Euro-Zone Deficit"
+        "36-year-old left the U.S. for China\u2014now pays $1,000 rent and $100 for groceries for family of 4: It's my 'version of the American Dream\u2019",
+        "Inside the Rise of BYD, China\u2019s Top EV Maker",
+        "China Warns of Heavy Rain, Flood Risks Ahead of May Day Holiday"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
-      "pct": 1.6,
-      "sources": "Yahoo(2)",
+      "pct": 1.7,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Blockchain Capital Seeks $700M for Two New Crypto Funds",
-        "Bitcoin and ethereum price today, Thursday, April 23, 2026: Strong opening for bitcoin, but traders still cautious"
+        "Pointed News Quiz | Insurance, Crypto, Media",
+        "Bitcoin\u2019s Stealth Rally Has Traders Setting Sights on $80,000"
       ]
     },
     {
-      "topic": "China",
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "US Sanctions China Refinery, Iran Shadow Fleet Ahead of Talks"
+        "Re-Budget After a Raise: 6 Smart Moves To Make in 2026"
       ]
     }
   ]
