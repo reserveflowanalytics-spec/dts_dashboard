@@ -326,6 +326,224 @@ function renderGaugeComponents(G){
   </div>`;
 }
 
+// Position Recommendation hero card. Renders the variable Tier-1 overlay
+// recommendation, broken out into baseline / overlay / total exposure +
+// confluence checklist. Source: variable_overlay_backtest.py rule.
+function renderPositionRecommendation(pr){
+  if(!pr) return '';
+  const isOpen = pr.tier1_open === true;
+  const exposureColor = pr.total_exposure_pct > 100 ? '#10b981' : '#94A3B8';
+  const stateLabel = isOpen ? 'TIER-1 ACTIVE' : 'BASELINE ONLY';
+  const stateBadgeColor = isOpen ? '#10b981' : '#94A3B8';
+  const stateBg = isOpen ? 'rgba(16,185,129,0.08)' : 'rgba(148,163,184,0.06)';
+
+  // Confluence breakdown - either locked at entry (open trade) or hypothetical (no trade)
+  let breakdown, confluenceCount, overlayPct, totalExposure, contextNote;
+  if(isOpen){
+    breakdown = pr.confluence_breakdown || {};
+    confluenceCount = pr.confluence_count;
+    overlayPct = pr.overlay_leverage_pct;
+    totalExposure = pr.total_exposure_pct;
+    contextNote = `Trade #${pr.open_trade_id} OPEN. Entered ${pr.entry_date} at $${pr.entry_price}, target $${pr.target_price}.`;
+  } else {
+    const hypo = pr.if_tier1_fired_today || {};
+    breakdown = hypo.confluence_breakdown || {};
+    confluenceCount = hypo.confluence_count;
+    overlayPct = hypo.overlay_leverage_pct;
+    totalExposure = pr.total_exposure_pct;
+    const cv = hypo.current_curve_t10y2y, cz = hypo.current_credit_z, sz = hypo.current_skew_z;
+    contextNote = `Tier-1 setup not currently firing. If Tier-1 fired today: ${confluenceCount}/4 confluence -> ${overlayPct}% overlay (${100+overlayPct}% total).`;
+    // Display current values inline for the if-fired case
+    breakdown._curve_value = cv;
+    breakdown._credit_z = cz;
+    breakdown._skew_z = sz;
+  }
+
+  const checks = [
+    {key:'tier1', label:'Tier-1 firing (count=0 + VIX&ge;32)', currentNote:''},
+    {key:'curve_inverted', label:'Curve inverted (T10Y2Y &lt; -0.25)',
+      currentNote: breakdown._curve_value !== undefined && breakdown._curve_value !== null
+                    ? `Current: ${breakdown._curve_value > 0 ? '+' : ''}${breakdown._curve_value.toFixed(2)}` : ''},
+    {key:'credit_stressed', label:'Credit stressed (HYG/LQD z &le; -1)',
+      currentNote: breakdown._credit_z !== undefined && breakdown._credit_z !== null
+                    ? `Current z: ${breakdown._credit_z > 0 ? '+' : ''}${breakdown._credit_z.toFixed(2)}` : ''},
+    {key:'skew_elevated', label:'SKEW elevated (z &ge; 0.5)',
+      currentNote: breakdown._skew_z !== undefined && breakdown._skew_z !== null
+                    ? `Current z: ${breakdown._skew_z > 0 ? '+' : ''}${breakdown._skew_z.toFixed(2)}` : ''},
+  ];
+
+  const checkRows = checks.map(c => {
+    const fired = breakdown[c.key] === true;
+    const dot = fired ? '#10b981' : '#475569';
+    const txt = fired ? 'var(--text-primary)' : 'var(--text-secondary)';
+    const mark = fired ? '&check;' : '&times;';
+    return `<div style="display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:1px solid var(--border-subtle)">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:3px;background:${dot};color:white;font-size:11px;font-weight:700;flex-shrink:0">${mark}</span>
+      <span style="flex:1;font-size:13px;color:${txt}">${c.label}</span>
+      ${c.currentNote ? `<span class="mono" style="font-size:12px;color:var(--text-secondary)">${c.currentNote}</span>` : ''}
+    </div>`;
+  }).join('');
+
+  const hv = pr.historical_validation || {};
+  const validationNote = hv.var_rule_final_equity
+    ? `Backtest 2009-2026 (n=${hv.trades_n}): $10k -> $${hv.var_rule_final_equity.toLocaleString()} via this rule, vs $${hv.buyhold_final_equity.toLocaleString()} pure buy-and-hold. Worst single-trade loss ${hv.max_single_trade_loss_pp}pp.`
+    : '';
+
+  return `<div style="background:var(--bg-surface);border:1px solid var(--accent-border);border-radius:var(--radius-md);padding:var(--sp-6);margin:var(--sp-6) 0;position:relative;overflow:hidden">
+    <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,${exposureColor},transparent)"></div>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:var(--sp-4);flex-wrap:wrap">
+      <div class="card-label mono" style="font-size:11px;letter-spacing:2px;color:var(--accent)">Position Recommendation</div>
+      <span class="badge mono" style="background:${stateBg};color:${stateBadgeColor};padding:2px 10px;border-radius:3px;font-size:10px;letter-spacing:1px">${stateLabel}</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:var(--sp-4);margin-bottom:var(--sp-5)">
+      <div>
+        <div class="card-label mono" style="font-size:10px">Baseline</div>
+        <div class="card-value mono" style="font-size:24px">${pr.baseline_pct}%</div>
+      </div>
+      <div>
+        <div class="card-label mono" style="font-size:10px">Overlay</div>
+        <div class="card-value mono" style="font-size:24px;color:${overlayPct > 0 ? '#10b981' : 'var(--text-secondary)'}">${overlayPct||0}%</div>
+      </div>
+      <div>
+        <div class="card-label mono" style="font-size:10px">Total Long</div>
+        <div class="card-value mono" style="font-size:28px;font-weight:800;color:${exposureColor}">${totalExposure}%</div>
+      </div>
+      <div>
+        <div class="card-label mono" style="font-size:10px">Confluence</div>
+        <div class="card-value mono" style="font-size:24px">${confluenceCount}/4</div>
+      </div>
+    </div>
+    <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;margin-bottom:var(--sp-4)">${contextNote}</div>
+    <div style="background:var(--bg-deep);border-radius:var(--radius-sm);padding:var(--sp-4);margin-bottom:var(--sp-3)">
+      <div class="card-label mono" style="font-size:10px;letter-spacing:1.5px;margin-bottom:8px">Confluence Breakdown</div>
+      ${checkRows}
+    </div>
+    ${validationNote ? `<div style="font-size:11px;color:var(--text-dim);font-family:var(--font-mono);line-height:1.5">${validationNote}</div>` : ''}
+  </div>`;
+}
+
+// Timing trade log panel: track record summary + open positions + recent
+// closed trades. Source data: data/timing_trades.jsonl, exported via the
+// timing_trades block in viz_data.json.
+function renderTimingSystem(tt){
+  if(!tt || !tt.track_record) {
+    return '<div style="color:var(--text-secondary);padding:var(--sp-5)">No timing trade data available.</div>';
+  }
+  const tr = tt.track_record;
+  const opens = tt.open || [];
+  const pendings = tt.pending || [];
+  const closed = tt.closed_recent || [];
+  const rules = tt.rules || {};
+  const hitColor = tr.hit_rate_pct >= 80 ? '#10b981' : tr.hit_rate_pct >= 60 ? '#fbbf24' : '#ef4444';
+
+  // Track record summary (4 cards)
+  const summary = `
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--sp-4);margin-bottom:var(--sp-6)">
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);text-align:center">
+      <div class="card-label mono" style="font-size:10px">Hit Rate</div>
+      <div class="card-value mono" style="font-size:32px;font-weight:800;color:${hitColor}">${tr.hit_rate_pct.toFixed(1)}%</div>
+      <div style="font-size:11px;color:var(--text-secondary)">${tr.n_winners} of ${tr.n_closed} winners</div>
+    </div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);text-align:center">
+      <div class="card-label mono" style="font-size:10px">Mean Return</div>
+      <div class="card-value mono" style="font-size:32px;font-weight:800;color:#10b981">+${tr.mean_return_pct.toFixed(2)}%</div>
+      <div style="font-size:11px;color:var(--text-secondary)">per closed trade</div>
+    </div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);text-align:center">
+      <div class="card-label mono" style="font-size:10px">Avg Hold</div>
+      <div class="card-value mono" style="font-size:32px;font-weight:800">${tr.avg_days_held.toFixed(0)}</div>
+      <div style="font-size:11px;color:var(--text-secondary)">trading days</div>
+    </div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);text-align:center">
+      <div class="card-label mono" style="font-size:10px">Best / Worst</div>
+      <div class="mono" style="font-size:18px;font-weight:700;color:#10b981">+${tr.best_return_pct.toFixed(2)}%</div>
+      <div class="mono" style="font-size:14px;color:${tr.worst_return_pct < 0 ? '#ef4444' : '#10b981'}">${tr.worst_return_pct > 0 ? '+' : ''}${tr.worst_return_pct.toFixed(2)}%</div>
+    </div>
+  </div>`;
+
+  // Open positions table
+  let openSection = '';
+  if(opens.length > 0){
+    const rows = opens.map(t => `
+      <tr>
+        <td>${t.trigger_date}</td>
+        <td>${t.entry_date_actual||'n/a'}</td>
+        <td class="mono">${t.entry_price ? '$'+t.entry_price.toFixed(2) : 'n/a'}</td>
+        <td class="mono">${t.target_price ? '$'+t.target_price.toFixed(2) : 'n/a'}</td>
+        <td>${t.max_hold_date||'n/a'}</td>
+      </tr>`).join('');
+    openSection = `
+    <div style="background:var(--bg-surface);border:1px solid #10b981;border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-6)">
+      <div class="card-label mono" style="margin-bottom:var(--sp-3);color:#10b981">Open Position${opens.length>1?'s':''} (${opens.length})</div>
+      <table class="tr-table" style="width:100%">
+        <thead><tr><th>Trigger</th><th>Entry Date</th><th>Entry $</th><th>Target $</th><th>Max-Hold</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+  } else if (pendings.length > 0){
+    const rows = pendings.map(t => `
+      <tr>
+        <td>${t.trigger_date}</td>
+        <td>${t.entry_date_planned||'n/a'}</td>
+        <td>Awaiting T+10 entry</td>
+      </tr>`).join('');
+    openSection = `
+    <div style="background:var(--bg-surface);border:1px solid var(--accent-border);border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-6)">
+      <div class="card-label mono" style="margin-bottom:var(--sp-3);color:var(--accent)">Pending Trade${pendings.length>1?'s':''} (${pendings.length})</div>
+      <table class="tr-table" style="width:100%">
+        <thead><tr><th>Trigger</th><th>Planned Entry</th><th>Status</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+  } else {
+    openSection = `
+    <div style="background:rgba(148,163,184,0.06);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);margin-bottom:var(--sp-6);text-align:center;color:var(--text-secondary);font-size:13px">
+      No open positions. Next trade fires when count=0 + VIX&ge;32 cluster appears.
+    </div>`;
+  }
+
+  // Recent closed trades table
+  const closedRows = closed.slice().reverse().map(t => {
+    const ret = t.return_pct;
+    const retColor = ret > 5 ? '#10b981' : ret > 0 ? '#34d399' : '#ef4444';
+    const reasonBadge = t.exit_reason === 'target' ? 'badge-sup' : 'badge-neu';
+    return `<tr>
+      <td>${t.trigger_date}</td>
+      <td>${t.entry_date_actual||'n/a'}</td>
+      <td class="mono">${t.entry_price ? '$'+t.entry_price.toFixed(2) : 'n/a'}</td>
+      <td>${t.exit_date||'n/a'}</td>
+      <td class="mono">${t.exit_price ? '$'+t.exit_price.toFixed(2) : 'n/a'}</td>
+      <td>${t.days_held||'n/a'}</td>
+      <td><span class="badge ${reasonBadge}">${t.exit_reason||'n/a'}</span></td>
+      <td class="mono" style="color:${retColor};font-weight:700">${ret > 0 ? '+' : ''}${ret.toFixed(2)}%</td>
+    </tr>`;
+  }).join('');
+
+  const closedSection = closed.length > 0 ? `
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-6)">
+    <div class="card-label mono" style="margin-bottom:var(--sp-3)">Most Recent Closed Trades</div>
+    <div style="overflow-x:auto">
+      <table class="tr-table" style="width:100%;min-width:680px">
+        <thead><tr><th>Trigger</th><th>Entry</th><th>Entry $</th><th>Exit</th><th>Exit $</th><th>Days</th><th>Reason</th><th>Return</th></tr></thead>
+        <tbody>${closedRows}</tbody>
+      </table>
+    </div>
+  </div>` : '';
+
+  // Rules block
+  const rulesBlock = `
+  <div style="background:var(--bg-deep);border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:var(--sp-4);font-size:13px;line-height:1.7;color:var(--text-secondary)">
+    <div class="card-label mono" style="margin-bottom:var(--sp-2);color:var(--accent)">Trade Rules</div>
+    <div><strong style="color:var(--text-primary)">Trigger:</strong> ${rules.trigger||'count=0 AND VIX&ge;32'}</div>
+    <div><strong style="color:var(--text-primary)">Entry:</strong> ${rules.entry||'T+10 trading days'}</div>
+    <div><strong style="color:var(--text-primary)">Take-profit:</strong> +${rules.take_profit_pct||10}%</div>
+    <div><strong style="color:var(--text-primary)">Max-hold:</strong> ${rules.max_hold_trading_days||120} trading days</div>
+    ${rules.source ? `<div style="margin-top:6px;font-family:var(--font-mono);font-size:11px;color:var(--text-dim)">Source: ${rules.source}</div>` : ''}
+  </div>`;
+
+  return summary + openSection + closedSection + rulesBlock;
+}
+
 function buildDashboard(D){
   const app = document.getElementById('app');
   const c = D.cards, n = D.narrative, meta = D.meta;
@@ -369,6 +587,8 @@ function buildDashboard(D){
       <div class="card-change mono" style="color:${P.a1}">5d avg: ${fmt(c.avg_5d_cfi)}/d</div>
     </div>
   </div>
+
+  ${renderPositionRecommendation(D.position_recommendation)}
 
   ${D.report&&D.report.gauge?renderGaugeComponents(D.report.gauge):''}
 
@@ -436,6 +656,7 @@ function buildDashboard(D){
     <button class="tbtn" data-view="scorecard">Scorecard</button>
     <button class="tbtn" data-view="analysis">Analysis</button>
     <button class="tbtn" data-view="signals">Signal Log</button>
+    <button class="tbtn" data-view="timing">Timing System</button>
     <button class="tbtn" data-view="report">&#9998; Report</button>
     <button class="tbtn" data-view="technicals">Technicals</button>
     <button class="tbtn" data-view="relstrength">Rel. Strength</button>
@@ -805,6 +1026,13 @@ function buildDashboard(D){
     <div class="panel-sub">Every row is a timestamped snapshot of what the pipeline said that day. This is the evidence layer for the subscription product.</div>
     <div id="signal-log-content"><div class="loading">Loading signal log…</div></div>
     <div id="return-attribution-content"></div>
+  </div>
+
+  <!-- TIMING SYSTEM -->
+  <div class="panel" id="panel-timing">
+    <div class="panel-title">Tier-1 Timing System — Trade Log</div>
+    <div class="panel-sub">Discrete panic-buy setups: count=0 (4-pillar Fed action regime tightening) + VIX&ge;32 (extreme fear). Entry T+10 trading days, take-profit +10%, max-hold 120 trading days. Backtested 2009-2026.</div>
+    ${renderTimingSystem(D.timing_trades)}
   </div>
 
   <!-- REPORT -->
