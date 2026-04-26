@@ -1,101 +1,104 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 120,
-  "fetched_at": "2026-04-25T21:00:53.479596+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 119,
+  "fetched_at": "2026-04-26T21:00:59.591338+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 24,
-      "pct": 20.0,
-      "sources": "Bloomberg(12), CNBC(7), FT(3), Yahoo(2)",
+      "count": 16,
+      "pct": 13.4,
+      "sources": "Bloomberg(5), CNBC(4), Yahoo(4), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations: 'If they want to talk, all they have to do is call'",
+        "Tillis ends block of Fed chair nominee Warsh, clears way for Trump pick",
+        "This little-known ETF is up over 600% amid U.S.-Iran war, a better trade than oil or energy stocks",
         "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
         "Pirro could reopen Fed probe at any time, Democratic senators warn",
-        "This little-known ETF is up over 600% amid U.S.-Iran war, a better trade than oil or energy stocks",
-        "Kushner, Witkoff \u2014 not Vance \u2014 heading to Pakistan for 'direct talks' with Iran, White House says"
+        "Sen. Thom Tillis drops opposition, says he\u2019ll back Kevin Warsh\u2019s Fed confirmation"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 17,
-      "pct": 14.2,
-      "sources": "CNBC(7), Yahoo(6), MarketWatch(2), FT(1), Bloomberg(1)",
+      "count": 9,
+      "pct": 7.6,
+      "sources": "Yahoo(5), CNBC(3), MarketWatch(1)",
       "sample_headlines": [
         "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
         "We tried out xAI's Grok chatbot while driving a Tesla in NYC. Here's what happened.",
-        "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
-        "AI data center backlash threatens Pennsylvania GOP incumbents in 2026 election",
-        "How a new Amazon-backed Hollywood production startup deploys AI for speed and cost-cutting"
+        "Cramer: Why all the money flowing to AI stocks is a problem \u2014 and how it can be fixed",
+        "\u2018AI genuinely freaks me out\u2019: Do I leave my $150,000 nonprofit job for a $215,000 data analytics position \u2014 with a 50-minute commute?",
+        "Amazon Stock Just Keeps Rising. Here's the Latest Catalyst Driving Shares Higher -- and a Close Look at the Stock."
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 9.2,
-      "sources": "CNBC(5), Bloomberg(3), Yahoo(3)",
+      "count": 8,
+      "pct": 6.7,
+      "sources": "Bloomberg(4), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
+        "Tillis ends block of Fed chair nominee Warsh, clears way for Trump pick",
         "Pirro could reopen Fed probe at any time, Democratic senators warn",
-        "DOJ ends Powell probe, lifts hurdle for Trump\u2019s Fed chair nominee Warsh",
-        "Bettors on Kalshi now see Warsh likely confirmed by mid-May after DOJ drops Powell probe",
-        "Fed is likely to hold rates steady \u2014 here's how that impacts consumer costs"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 7.5,
-      "sources": "Bloomberg(4), CNBC(2), Yahoo(2), FT(1)",
-      "sample_headlines": [
-        "This little-known ETF is up over 600% amid U.S.-Iran war, a better trade than oil or energy stocks",
-        "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
-        "America\u2019s bid for energy supremacy is being forged in war",
-        "Billion-Barrel Hormuz Oil Shock Is About to Crash Demand",
-        "The Billion-Barrel Hormuz Oil Shock Is About to Crash Demand"
+        "Sen. Thom Tillis drops opposition, says he\u2019ll back Kevin Warsh\u2019s Fed confirmation",
+        "Senior Republican clears path for Kevin Warsh\u2019s confirmation as Fed chair",
+        "Bond Traders Await Powell Update, Slate of US Treasury Auctions"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 8,
       "pct": 6.7,
-      "sources": "CNBC(4), Bloomberg(2), Yahoo(2)",
+      "sources": "Bloomberg(4), Yahoo(3), CNBC(1)",
       "sample_headlines": [
-        "Berkshire attracts interest as it slips further behind the S&P 500",
-        "3 forces that drove another historic \u2013 yet volatile \u2013 week for the S&P 500",
-        "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
-        "Wall Street's 'fear gauge' is doing something unusual. What it means",
-        "S&P's Yergin: \"The Biggest Energy Disruption We've Ever Seen\""
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "Bloomberg(2), CNBC(1)",
-      "sample_headlines": [
-        "36-year-old left the U.S. for China\u2014now pays $1,000 rent and $100 for groceries for family of 4: It's my 'version of the American Dream\u2019",
-        "Inside the Rise of BYD, China\u2019s Top EV Maker",
-        "China Warns of Heavy Rain, Flood Risks Ahead of May Day Holiday"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "Bloomberg(2)",
-      "sample_headlines": [
-        "Pointed News Quiz | Insurance, Crypto, Media",
-        "Bitcoin\u2019s Stealth Rally Has Traders Setting Sights on $80,000"
+        "Top Wall Street analysts pick these 3 dividend stocks for reliable income",
+        "Goldman, JPMorgan Show Wall Street\u2019s Split in Quantum Computing Race",
+        "Record-Setting Momentum Rally Is Drawing Doubters",
+        "Big Tech\u2019s $16 Trillion Earnings Week Is Make-Or-Break for Rally",
+        "Investors Dive Back Into Frontier Markets After April Rally"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Bond Traders Await Powell Update, Slate of US Treasury Auctions",
+        "Jim Cramer on Avis Budget Group (CAR): \u201cDon\u2019t Buy the Parabola\u201d"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "This little-known ETF is up over 600% amid U.S.-Iran war, a better trade than oil or energy stocks"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "As mass layoffs threaten jobs, here are 4 smart moves to protect yourself"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "36-year-old left the U.S. for China\u2014now pays $1,000 rent and $100 for groceries for family of 4: It's my 'version of the American Dream\u2019"
+      ]
+    },
+    {
+      "topic": "Crypto",
       "count": 1,
       "pct": 0.8,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Re-Budget After a Raise: 6 Smart Moves To Make in 2026"
+        "MicroStrategy\u2019s Bitcoin Holdings Hit $63.46 Billion Record"
       ]
     }
   ]
