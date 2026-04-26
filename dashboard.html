@@ -562,7 +562,189 @@ function renderTimingSystem(tt){
   return summary + openSection + closedSection + rulesBlock;
 }
 
+// Today's Positioning: synthesises tech regime + RS conviction + Tier-1 status
+// + macro confluence into a single daily action card. Renders into the
+// #todays-trade-card placeholder once all data files (viz_data, technicals,
+// rs_ratios) have loaded.
+function renderTodaysTrade(){
+  const D = window._vizData;
+  const tech = window._techData;
+  const rs = window._rsData;
+  const target = document.getElementById('todays-trade-card');
+  if(!target || !D) return;
+
+  // Pull individual signals
+  const pr = D.position_recommendation || {};
+  const tier1Open = pr.tier1_open === true;
+  const techRegime = (tech && tech.data && tech.data.length)
+    ? tech.data[tech.data.length - 1].regime : null;  // 'bullish' / 'bearish'
+  const techClose = (tech && tech.data && tech.data.length)
+    ? tech.data[tech.data.length - 1].close : null;
+  const techSma = (tech && tech.data && tech.data.length)
+    ? tech.data[tech.data.length - 1].sma : null;
+
+  const rsConvictionStr = rs && rs.summary ? rs.summary.conviction : '';
+  const rsConvLevel = rsConvictionStr.toLowerCase().startsWith('high') ? 'high'
+                    : rsConvictionStr.toLowerCase().startsWith('med')  ? 'medium'
+                    : rsConvictionStr.toLowerCase().startsWith('low')  ? 'low'
+                    : 'unknown';
+  const rsTopOver = (rs && rs.summary && rs.summary.top_overweight) || [];
+  const rsTopUnder = (rs && rs.summary && rs.summary.top_underweight) || [];
+  const rsAlignedPairs = rs && rs.pairs
+    ? rs.pairs.filter(p => p.regime_alignment === 'Aligned').length : 0;
+  const rsTotalPairs = rs && rs.pairs ? rs.pairs.length : 0;
+
+  const fiscalRegime = D.cards ? D.cards.regime : null;
+
+  // Build signal-firing inventory
+  const signals = [
+    {label: `Fiscal regime: ${fiscalRegime || 'n/a'}`,
+     fired: fiscalRegime === 'Supportive',
+     neutral: fiscalRegime === 'Neutral',
+     hint: fiscalRegime === 'Restrictive' ? 'macro headwind, but not a trade signal alone' : ''},
+    {label: `Tech regime: ${techRegime ? techRegime.toUpperCase() : 'n/a'}`
+            + (techClose && techSma ? ` (SPX ${techClose.toFixed(0)} vs SMA20 ${techSma.toFixed(0)})` : ''),
+     fired: techRegime === 'bullish',
+     hint: techRegime === 'bullish' ? 'trend confirms long bias' : 'trend caution; reduce conviction'},
+    {label: `RS conviction: ${rsConvictionStr || 'n/a'}`,
+     fired: rsConvLevel === 'high',
+     neutral: rsConvLevel === 'medium',
+     hint: rsAlignedPairs > 0 ? `${rsAlignedPairs}/${rsTotalPairs} pairs aligned with regime` : ''},
+    {label: `Tier-1 panic-buy setup`,
+     fired: tier1Open,
+     hint: tier1Open ? 'discrete trade open: hold to TP or max-hold' : 'dormant; no leverage today'},
+    {label: `Macro confluence (curve / credit / SKEW)`,
+     fired: !tier1Open && pr.if_tier1_fired_today
+            && pr.if_tier1_fired_today.confluence_count >= 3,
+     neutral: !tier1Open && pr.if_tier1_fired_today
+            && pr.if_tier1_fired_today.confluence_count === 2,
+     hint: !tier1Open && pr.if_tier1_fired_today
+            ? `${pr.if_tier1_fired_today.confluence_count - 1}/3 macro signals confirming`
+            : ''},
+  ];
+
+  // Decide bias + conviction
+  let bias = 'NEUTRAL', biasColor = '#94A3B8', conviction = 'low';
+  if(tier1Open){
+    bias = 'LEVERAGED LONG'; biasColor = '#10b981'; conviction = 'high';
+  } else if(techRegime === 'bullish' && rsConvLevel === 'high'){
+    bias = 'LONG'; biasColor = '#10b981'; conviction = 'medium';
+  } else if(techRegime === 'bullish' && (rsConvLevel === 'medium' || rsConvLevel === 'low')){
+    bias = 'LONG'; biasColor = '#34d399'; conviction = 'low-medium';
+  } else if(techRegime === 'bearish' && rsConvLevel === 'high'){
+    bias = 'CAUTIOUS'; biasColor = '#fbbf24'; conviction = 'medium';
+  } else if(techRegime === 'bearish'){
+    bias = 'REDUCED'; biasColor = '#f97316'; conviction = 'low';
+  }
+
+  // Build action recommendation
+  let action;
+  if(tier1Open){
+    action = `Hold open Tier-1 trade #${pr.open_trade_id}. Total exposure ${pr.total_exposure_pct}% long (${pr.baseline_pct}% baseline + ${pr.overlay_leverage_pct}% overlay).`;
+  } else if(bias === 'LONG'){
+    action = `Hold 100% SPY baseline. No leveraged overlay (Tier-1 dormant). Apply RS pair tilts within the long position.`;
+  } else if(bias === 'CAUTIOUS'){
+    action = `Reduce baseline to 60-80% SPY. RS pair tilts may still work but at smaller size. Do not add leverage.`;
+  } else if(bias === 'REDUCED'){
+    action = `Reduce to 30-50% SPY baseline. Hold cash buffer for next Tier-1 setup.`;
+  } else {
+    action = `No high-conviction signal. Default 100% buy-and-hold.`;
+  }
+
+  // Pair recommendations from RS
+  let pairBlock = '';
+  if(rs && rs.pairs && rs.pairs.length){
+    const overweightPairs = rs.pairs.filter(p =>
+      p.signal === 'Overweight numerator' && p.regime_alignment === 'Aligned'
+    ).slice(0, 4);
+    const underweightPairs = rs.pairs.filter(p =>
+      p.signal === 'Underweight numerator' && p.regime_alignment === 'Aligned'
+    ).slice(0, 3);
+
+    const owRows = overweightPairs.map(p => `
+      <div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border-subtle);font-size:13px">
+        <span style="font-family:var(--font-mono);color:#10b981;font-weight:600">${p.name}</span>
+        <span style="color:var(--text-secondary);font-size:11px">${p.rationale ? p.rationale.split('—')[0].trim() : ''}</span>
+        <span style="font-family:var(--font-mono);color:${p.roc_20d > 0 ? '#10b981' : '#ef4444'};font-size:12px">${p.roc_20d > 0 ? '+' : ''}${p.roc_20d.toFixed(1)}%</span>
+      </div>`).join('');
+
+    const uwRows = underweightPairs.map(p => `
+      <div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border-subtle);font-size:13px">
+        <span style="font-family:var(--font-mono);color:#ef4444;font-weight:600">${p.name}</span>
+        <span style="color:var(--text-secondary);font-size:11px">${p.rationale ? p.rationale.split('—')[0].trim() : ''}</span>
+        <span style="font-family:var(--font-mono);color:${p.roc_20d > 0 ? '#10b981' : '#ef4444'};font-size:12px">${p.roc_20d > 0 ? '+' : ''}${p.roc_20d.toFixed(1)}%</span>
+      </div>`).join('');
+
+    pairBlock = `
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-4);margin-top:var(--sp-4)">
+      <div style="background:rgba(16,185,129,0.04);border:1px solid rgba(16,185,129,0.2);border-radius:var(--radius-sm);padding:var(--sp-3)">
+        <div class="card-label mono" style="font-size:10px;color:#10b981;margin-bottom:6px">Overweight (RS leaders)</div>
+        ${owRows || '<div style="color:var(--text-dim);font-size:12px">none aligned</div>'}
+      </div>
+      <div style="background:rgba(239,68,68,0.04);border:1px solid rgba(239,68,68,0.2);border-radius:var(--radius-sm);padding:var(--sp-3)">
+        <div class="card-label mono" style="font-size:10px;color:#ef4444;margin-bottom:6px">Underweight / avoid</div>
+        ${uwRows || '<div style="color:var(--text-dim);font-size:12px">none aligned</div>'}
+      </div>
+    </div>`;
+  }
+
+  // Triggers to watch
+  const watchUp = tier1Open
+    ? 'Trade target hit (close at +10%) or max-hold reached'
+    : 'Tier-1 fires (count=0 + VIX&ge;32) → scale to 125-200% via overlay';
+  const watchDown = bias === 'LONG'
+    ? 'Tech regime flips to bearish OR RS conviction drops below medium → reduce baseline'
+    : 'Continued weakness in trend + RS → further reduce or move to cash';
+
+  // Render signal flags
+  const flagRows = signals.map(s => {
+    const dot = s.fired ? '#10b981' : s.neutral ? '#fbbf24' : '#475569';
+    const mark = s.fired ? '&check;' : s.neutral ? '~' : '&times;';
+    const txt = s.fired ? 'var(--text-primary)' : 'var(--text-secondary)';
+    return `<div style="display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:1px solid var(--border-subtle)">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:3px;background:${dot};color:white;font-size:11px;font-weight:700;flex-shrink:0">${mark}</span>
+      <span style="flex:1;font-size:13px;color:${txt}">${s.label}</span>
+      ${s.hint ? `<span style="font-size:11px;color:var(--text-dim);font-style:italic">${s.hint}</span>` : ''}
+    </div>`;
+  }).join('');
+
+  target.innerHTML = `
+  <div style="background:linear-gradient(180deg,var(--bg-surface),var(--bg-deep));border:2px solid ${biasColor};border-radius:var(--radius-md);padding:var(--sp-6);margin:var(--sp-5) 0;position:relative;overflow:hidden">
+    <div style="position:absolute;top:0;left:0;right:0;height:4px;background:${biasColor}"></div>
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--sp-3);margin-bottom:var(--sp-4)">
+      <div>
+        <div class="card-label mono" style="font-size:11px;letter-spacing:2px;color:var(--accent)">Today's Positioning</div>
+        <div style="font-size:36px;font-weight:800;color:${biasColor};font-family:var(--font-mono);line-height:1.1;margin-top:4px">${bias}</div>
+      </div>
+      <div style="text-align:right">
+        <div class="card-label mono" style="font-size:10px">Conviction</div>
+        <div style="font-size:24px;font-weight:700;font-family:var(--font-mono);color:var(--text-primary);text-transform:uppercase">${conviction}</div>
+      </div>
+    </div>
+    <div style="background:rgba(6,182,212,0.06);border-left:3px solid var(--accent);border-radius:var(--radius-sm);padding:var(--sp-4);margin-bottom:var(--sp-4);font-size:14px;line-height:1.6;color:var(--text-primary)">
+      <strong>Action:</strong> ${action}
+    </div>
+    <div style="background:var(--bg-deep);border-radius:var(--radius-sm);padding:var(--sp-4);margin-bottom:var(--sp-3)">
+      <div class="card-label mono" style="font-size:10px;letter-spacing:1.5px;margin-bottom:8px">Signals</div>
+      ${flagRows}
+    </div>
+    ${pairBlock}
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-3);margin-top:var(--sp-4);font-size:12px">
+      <div style="background:rgba(16,185,129,0.04);border:1px solid rgba(16,185,129,0.15);border-radius:var(--radius-sm);padding:var(--sp-3)">
+        <div class="card-label mono" style="font-size:10px;color:#10b981;margin-bottom:4px">Watch for upgrade</div>
+        <div style="color:var(--text-secondary);line-height:1.5">${watchUp}</div>
+      </div>
+      <div style="background:rgba(239,68,68,0.04);border:1px solid rgba(239,68,68,0.15);border-radius:var(--radius-sm);padding:var(--sp-3)">
+        <div class="card-label mono" style="font-size:10px;color:#ef4444;margin-bottom:4px">Watch for downgrade</div>
+        <div style="color:var(--text-secondary);line-height:1.5">${watchDown}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
 function buildDashboard(D){
+  // Save for late-binding synthesis once technicals/RS data finish loading
+  window._vizData = D;
   const app = document.getElementById('app');
   const c = D.cards, n = D.narrative, meta = D.meta;
   const regimeClr = c.regime==='Supportive'?P.pos:c.regime==='Restrictive'?P.neg:P.a1;
@@ -582,6 +764,8 @@ function buildDashboard(D){
   ${D.report&&D.report.gauge?renderGaugeHero(D.report.gauge):''}
 
   <div class="verdict">${verdictText}</div>
+
+  <div id="todays-trade-card"></div>
 
   <div class="cards">
     <div class="card">
@@ -3106,6 +3290,7 @@ async function init(){
     if(!resp.ok) throw new Error('Could not load viz_data.json');
     const data = await resp.json();
     buildDashboard(data);
+    try { renderTodaysTrade(); } catch(_){}
 
     // Load signal log (non-blocking — dashboard works without it)
     try {
@@ -3140,6 +3325,7 @@ async function init(){
       const techResp = await fetch('technicals_data.json');
       if(techResp.ok){
         window._techData = await techResp.json();
+        try { renderTodaysTrade(); } catch(_){}
       }
     } catch(techErr){
       console.warn('Technicals data not available:', techErr.message);
@@ -3150,6 +3336,7 @@ async function init(){
       const rsResp = await fetch('rs_ratios.json');
       if(rsResp.ok){
         window._rsData = await rsResp.json();
+        try { renderTodaysTrade(); } catch(_){}
       }
     } catch(rsErr){
       console.warn('RS ratios data not available:', rsErr.message);
