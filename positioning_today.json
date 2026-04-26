@@ -1,0 +1,60 @@
+{
+  "as_of": "2026-04-23",
+  "computed_at": "2026-04-26T14:11:07Z",
+  "bias": "LONG",
+  "conviction": "medium",
+  "bias_reason": "Tech bullish + RS high-conviction risk-on.",
+  "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
+  "signals": {
+    "fiscal_regime": "Restrictive",
+    "tech_regime": "bullish",
+    "tech_close": 7194.75,
+    "tech_sma20": 6871.85,
+    "rs_conviction_level": "high",
+    "rs_conviction_label": "High \u2014 fiscal momentum negative, regime Restrictive, 10/11 pairs aligned",
+    "rs_aligned_pairs": "10/11",
+    "tier1_open": false,
+    "macro_confluence": "0/3"
+  },
+  "overweight_pairs": [
+    {
+      "pair": "XLY/XLP",
+      "rationale": "Consumer discretionary vs staples",
+      "roc_20d": 3.82
+    },
+    {
+      "pair": "XLI/XLP",
+      "rationale": "Industrials vs staples",
+      "roc_20d": 2.95
+    },
+    {
+      "pair": "XLY/XLV",
+      "rationale": "Discretionary vs healthcare",
+      "roc_20d": 6.33
+    },
+    {
+      "pair": "XLF/XLU",
+      "rationale": "Financials vs utilities",
+      "roc_20d": 3.07
+    }
+  ],
+  "underweight_pairs": [
+    {
+      "pair": "XLE/XLK",
+      "rationale": "Energy vs tech",
+      "roc_20d": -17.44
+    },
+    {
+      "pair": "GLD/SPY",
+      "rationale": "Hard asset vs equity",
+      "roc_20d": -4.0
+    },
+    {
+      "pair": "XLB/XLRE",
+      "rationale": "Materials vs real estate",
+      "roc_20d": -3.94
+    }
+  ],
+  "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
+  "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
+}

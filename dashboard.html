@@ -562,6 +562,150 @@ function renderTimingSystem(tt){
   return summary + openSection + closedSection + rulesBlock;
 }
 
+// Bias History panel: renders position_ledger.jsonl as a timeline ribbon
+// (one cell per ledger entry) plus a table of recent rows with bias-change
+// events highlighted. Source: data/position_ledger.jsonl, copied to dashboard
+// dir nightly by run_daily_dts.sh.
+function renderBiasHistory(entries){
+  const target = document.getElementById('bias-history-content');
+  if(!target) return;
+  if(!entries || entries.length === 0){
+    target.innerHTML = `
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-6);text-align:center;color:var(--text-secondary)">
+      No ledger entries yet. The position ledger populates as the pipeline runs.
+    </div>`;
+    return;
+  }
+
+  // Sort chronologically (oldest first)
+  entries.sort((a, b) => (a.computed_at || '').localeCompare(b.computed_at || ''));
+
+  const biasColor = b => {
+    switch(b){
+      case 'LEVERAGED LONG': return '#10b981';
+      case 'LONG':           return '#34d399';
+      case 'NEUTRAL':        return '#94A3B8';
+      case 'CAUTIOUS':       return '#fbbf24';
+      case 'REDUCED':        return '#f97316';
+      case 'SHORT':          return '#ef4444';
+      default:               return '#475569';
+    }
+  };
+
+  // Identify bias change events (where bias differs from prior row)
+  const events = [];
+  for(let i = 1; i < entries.length; i++){
+    if(entries[i].bias !== entries[i-1].bias){
+      events.push({
+        from: entries[i-1].bias,
+        to:   entries[i].bias,
+        as_of: entries[i].as_of,
+        computed_at: entries[i].computed_at,
+        index: i,
+      });
+    }
+  }
+
+  // Timeline ribbon — one cell per entry, color by bias
+  const ribbonCells = entries.map((e, i) => {
+    const isChange = events.some(ev => ev.index === i);
+    const border = isChange ? '2px solid white' : '1px solid rgba(255,255,255,0.05)';
+    return `<div title="${e.as_of} • ${e.bias} (${e.conviction})"
+      style="flex:1;min-width:8px;height:32px;background:${biasColor(e.bias)};border:${border};box-sizing:border-box"></div>`;
+  }).join('');
+
+  // Track-record summary
+  const totalEntries = entries.length;
+  const biasCounts = {};
+  entries.forEach(e => { biasCounts[e.bias] = (biasCounts[e.bias] || 0) + 1; });
+  const dominantBias = Object.entries(biasCounts).sort((a,b)=>b[1]-a[1])[0];
+  const changeFreq = events.length / Math.max(1, totalEntries) * 100;
+
+  // Recent table (last 30 entries, newest first)
+  const recent = entries.slice(-30).reverse();
+  const tableRows = recent.map((e, idx) => {
+    // Did this row mark a change vs the row before it (in the chronological order)?
+    const origIdx = entries.length - 1 - idx;  // index in chronological array
+    const isChange = origIdx > 0 && entries[origIdx].bias !== entries[origIdx-1].bias;
+    const rowBg = isChange ? 'rgba(6,182,212,0.08)' : 'transparent';
+    const dateOnly = (e.as_of || '').split('T')[0];
+    const computedShort = (e.computed_at || '').slice(11, 16);
+    return `<tr style="background:${rowBg}">
+      <td>${dateOnly}</td>
+      <td class="mono" style="font-size:11px;color:var(--text-dim)">${computedShort}</td>
+      <td><span class="mono" style="display:inline-block;padding:2px 8px;border-radius:3px;background:${biasColor(e.bias)};color:white;font-size:11px;font-weight:700">${e.bias}</span></td>
+      <td class="mono">${e.conviction || 'n/a'}</td>
+      <td>${e.fiscal_regime || 'n/a'}</td>
+      <td>${e.tech_regime || 'n/a'}</td>
+      <td>${e.rs_conviction || 'n/a'}</td>
+      <td>${e.tier1_open ? '<span style="color:#10b981;font-weight:700">OPEN</span>' : 'dormant'}</td>
+      ${isChange ? `<td><span class="badge mono" style="background:rgba(6,182,212,0.2);color:var(--accent);padding:2px 6px;font-size:10px">CHANGE</span></td>` : '<td></td>'}
+    </tr>`;
+  }).join('');
+
+  // Bias change events list
+  const eventsList = events.slice(-10).reverse().map(ev => {
+    return `<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border-subtle)">
+      <span class="mono" style="font-size:11px;color:var(--text-secondary);min-width:90px">${ev.as_of}</span>
+      <span class="mono" style="font-size:11px;padding:2px 8px;border-radius:3px;background:${biasColor(ev.from)};color:white;font-weight:700">${ev.from}</span>
+      <span style="color:var(--text-secondary);font-size:14px">&rarr;</span>
+      <span class="mono" style="font-size:11px;padding:2px 8px;border-radius:3px;background:${biasColor(ev.to)};color:white;font-weight:700">${ev.to}</span>
+    </div>`;
+  }).join('');
+
+  target.innerHTML = `
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:var(--sp-4);margin-bottom:var(--sp-5)">
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);text-align:center">
+      <div class="card-label mono" style="font-size:10px">Ledger Entries</div>
+      <div class="card-value mono" style="font-size:28px">${totalEntries}</div>
+    </div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);text-align:center">
+      <div class="card-label mono" style="font-size:10px">Bias Changes</div>
+      <div class="card-value mono" style="font-size:28px;color:var(--accent)">${events.length}</div>
+      <div style="font-size:11px;color:var(--text-secondary)">${changeFreq.toFixed(1)}% of runs</div>
+    </div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);text-align:center">
+      <div class="card-label mono" style="font-size:10px">Dominant Bias</div>
+      <div class="mono" style="display:inline-block;font-size:18px;font-weight:700;padding:4px 12px;border-radius:4px;background:${biasColor(dominantBias[0])};color:white;margin-top:6px">${dominantBias[0]}</div>
+      <div style="font-size:11px;color:var(--text-secondary);margin-top:4px">${dominantBias[1]} of ${totalEntries} runs</div>
+    </div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-4);text-align:center">
+      <div class="card-label mono" style="font-size:10px">Latest Bias</div>
+      <div class="mono" style="display:inline-block;font-size:18px;font-weight:700;padding:4px 12px;border-radius:4px;background:${biasColor(entries[entries.length-1].bias)};color:white;margin-top:6px">${entries[entries.length-1].bias}</div>
+      <div style="font-size:11px;color:var(--text-secondary);margin-top:4px">${entries[entries.length-1].as_of}</div>
+    </div>
+  </div>
+
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-5)">
+    <div class="card-label mono" style="margin-bottom:8px">Timeline Ribbon</div>
+    <div style="display:flex;width:100%;border-radius:4px;overflow:hidden">${ribbonCells}</div>
+    <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-dim);margin-top:6px">
+      <span>${entries[0].as_of}</span>
+      <span>${entries[entries.length-1].as_of}</span>
+    </div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:11px">
+      ${['LEVERAGED LONG','LONG','NEUTRAL','CAUTIOUS','REDUCED','SHORT'].map(b =>
+        `<span style="display:inline-flex;align-items:center;gap:5px"><span style="display:inline-block;width:10px;height:10px;background:${biasColor(b)};border-radius:2px"></span>${b}</span>`
+      ).join('')}
+    </div>
+  </div>
+
+  ${events.length > 0 ? `
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-5)">
+    <div class="card-label mono" style="margin-bottom:var(--sp-3)">Recent Bias-Change Events</div>
+    ${eventsList}
+  </div>` : ''}
+
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);overflow-x:auto">
+    <div class="card-label mono" style="margin-bottom:var(--sp-3)">Recent Ledger Entries (last 30, newest first)</div>
+    <table class="tr-table" style="width:100%;min-width:760px">
+      <thead><tr><th>Date</th><th>Time</th><th>Bias</th><th>Conviction</th><th>Fiscal</th><th>Tech</th><th>RS</th><th>Tier-1</th><th></th></tr></thead>
+      <tbody>${tableRows}</tbody>
+    </table>
+  </div>`;
+}
+
+
 // Today's Positioning: synthesises tech regime + RS conviction + Tier-1 status
 // + macro confluence into a single daily action card. Renders into the
 // #todays-trade-card placeholder once all data files (viz_data, technicals,
@@ -859,6 +1003,7 @@ function buildDashboard(D){
     <button class="tbtn" data-view="analysis">Analysis</button>
     <button class="tbtn" data-view="signals">Signal Log</button>
     <button class="tbtn" data-view="timing">Timing System</button>
+    <button class="tbtn" data-view="bias-history">Bias History</button>
     <button class="tbtn" data-view="report">&#9998; Report</button>
     <button class="tbtn" data-view="technicals">Technicals</button>
     <button class="tbtn" data-view="relstrength">Rel. Strength</button>
@@ -1235,6 +1380,13 @@ function buildDashboard(D){
     <div class="panel-title">Tier-1 Timing System — Trade Log</div>
     <div class="panel-sub">Discrete panic-buy setups: count=0 (4-pillar Fed action regime tightening) + VIX&ge;32 (extreme fear). Entry T+10 trading days, take-profit +10%, max-hold 120 trading days. Backtested 2009-2026.</div>
     ${renderTimingSystem(D.timing_trades)}
+  </div>
+
+  <!-- BIAS HISTORY -->
+  <div class="panel" id="panel-bias-history">
+    <div class="panel-title">Bias History — Position Ledger</div>
+    <div class="panel-sub">Append-only log of every pipeline run, showing the synthesised bias call. Bias-change events are highlighted and trigger Telegram alerts.</div>
+    <div id="bias-history-content"><div class="loading">Loading position ledger&hellip;</div></div>
   </div>
 
   <!-- REPORT -->
@@ -3350,6 +3502,22 @@ async function init(){
       }
     } catch(spxErr){
       console.warn('SPX series not available:', spxErr.message);
+    }
+
+    // Load position ledger for the Bias History panel (non-blocking)
+    try {
+      const plResp = await fetch('position_ledger.jsonl');
+      if(plResp.ok){
+        const text = await plResp.text();
+        const entries = text.trim().split('\n').filter(l=>l).map(l=>JSON.parse(l));
+        window._biasLedger = entries;
+        renderBiasHistory(entries);
+      } else {
+        renderBiasHistory([]);
+      }
+    } catch(plErr){
+      console.warn('Position ledger not available:', plErr.message);
+      renderBiasHistory([]);
     }
 
     // Load market narrative (non-blocking)
