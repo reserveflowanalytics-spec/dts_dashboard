@@ -337,26 +337,40 @@ function renderPositionRecommendation(pr){
   const stateBadgeColor = isOpen ? '#10b981' : '#94A3B8';
   const stateBg = isOpen ? 'rgba(16,185,129,0.08)' : 'rgba(148,163,184,0.06)';
 
-  // Confluence breakdown - either locked at entry (open trade) or hypothetical (no trade)
+  // Headline numbers reflect ACTUAL CURRENT exposure, not hypothetical.
+  // Confluence breakdown reflects ACTUAL CURRENT state of each signal.
+  // The hypothetical "if Tier-1 fired today" goes in a separate footer block.
   let breakdown, confluenceCount, overlayPct, totalExposure, contextNote;
+  let hypoNote = '';
+
   if(isOpen){
+    // Active trade: numbers and breakdown reflect locked-in state at entry
     breakdown = pr.confluence_breakdown || {};
     confluenceCount = pr.confluence_count;
     overlayPct = pr.overlay_leverage_pct;
     totalExposure = pr.total_exposure_pct;
     contextNote = `Trade #${pr.open_trade_id} OPEN. Entered ${pr.entry_date} at $${pr.entry_price}, target $${pr.target_price}.`;
   } else {
+    // No active trade: actual current state is 100% baseline, 0% overlay
     const hypo = pr.if_tier1_fired_today || {};
-    breakdown = hypo.confluence_breakdown || {};
-    confluenceCount = hypo.confluence_count;
-    overlayPct = hypo.overlay_leverage_pct;
-    totalExposure = pr.total_exposure_pct;
-    const cv = hypo.current_curve_t10y2y, cz = hypo.current_credit_z, sz = hypo.current_skew_z;
-    contextNote = `Tier-1 setup not currently firing. If Tier-1 fired today: ${confluenceCount}/4 confluence -> ${overlayPct}% overlay (${100+overlayPct}% total).`;
-    // Display current values inline for the if-fired case
-    breakdown._curve_value = cv;
-    breakdown._credit_z = cz;
-    breakdown._skew_z = sz;
+    const hypoBreakdown = hypo.confluence_breakdown || {};
+    overlayPct = 0;
+    totalExposure = 100;
+    // Current confluence: count macro signals only (Tier-1 itself is not firing)
+    confluenceCount = (hypoBreakdown.curve_inverted ? 1 : 0)
+                    + (hypoBreakdown.credit_stressed ? 1 : 0)
+                    + (hypoBreakdown.skew_elevated ? 1 : 0);
+    breakdown = {
+      tier1: false,  // Not firing right now
+      curve_inverted: hypoBreakdown.curve_inverted === true,
+      credit_stressed: hypoBreakdown.credit_stressed === true,
+      skew_elevated: hypoBreakdown.skew_elevated === true,
+      _curve_value: hypo.current_curve_t10y2y,
+      _credit_z: hypo.current_credit_z,
+      _skew_z: hypo.current_skew_z,
+    };
+    contextNote = `Tier-1 setup not currently firing. Hold baseline 100% buy-and-hold.`;
+    hypoNote = `If Tier-1 were to fire today, current macro state (${hypo.confluence_count}/4 with Tier-1) would size the overlay at <strong>${hypo.overlay_leverage_pct}%</strong> for total exposure of <strong>${hypo.total_exposure_pct}% long</strong>.`;
   }
 
   const checks = [
@@ -415,9 +429,13 @@ function renderPositionRecommendation(pr){
     </div>
     <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;margin-bottom:var(--sp-4)">${contextNote}</div>
     <div style="background:var(--bg-deep);border-radius:var(--radius-sm);padding:var(--sp-4);margin-bottom:var(--sp-3)">
-      <div class="card-label mono" style="font-size:10px;letter-spacing:1.5px;margin-bottom:8px">Confluence Breakdown</div>
+      <div class="card-label mono" style="font-size:10px;letter-spacing:1.5px;margin-bottom:8px">Current Signal State</div>
       ${checkRows}
     </div>
+    ${hypoNote ? `<div style="background:rgba(6,182,212,0.04);border:1px solid rgba(6,182,212,0.15);border-radius:var(--radius-sm);padding:var(--sp-3) var(--sp-4);margin-bottom:var(--sp-3);font-size:12px;color:var(--text-secondary);line-height:1.6">
+      <span class="mono" style="font-size:10px;letter-spacing:1px;color:var(--accent);text-transform:uppercase;display:block;margin-bottom:4px">If Tier-1 Fires Next</span>
+      ${hypoNote}
+    </div>` : ''}
     ${validationNote ? `<div style="font-size:11px;color:var(--text-dim);font-family:var(--font-mono);line-height:1.5">${validationNote}</div>` : ''}
   </div>`;
 }
