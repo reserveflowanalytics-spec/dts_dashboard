@@ -1,104 +1,111 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 119,
-  "fetched_at": "2026-04-26T21:00:59.591338+00:00",
+  "total_headlines": 127,
+  "fetched_at": "2026-04-27T21:00:56.726675+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 16,
-      "pct": 13.4,
-      "sources": "Bloomberg(5), CNBC(4), Yahoo(4), FT(2), MarketWatch(1)",
+      "count": 18,
+      "pct": 14.2,
+      "sources": "CNBC(4), MarketWatch(4), Bloomberg(4), FT(3), Yahoo(3)",
       "sample_headlines": [
+        "Trump discussed Iran's Hormuz Strait proposal with top aides, White House says",
+        "Ray Dalio says Kevin Warsh shouldn't cut interest rates in a \u2018stagflation\u2019 era",
+        "Brent oil prices top $108 per barrel after Iran peace talks unravel",
         "Tillis ends block of Fed chair nominee Warsh, clears way for Trump pick",
-        "This little-known ETF is up over 600% amid U.S.-Iran war, a better trade than oil or energy stocks",
-        "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
-        "Pirro could reopen Fed probe at any time, Democratic senators warn",
-        "Sen. Thom Tillis drops opposition, says he\u2019ll back Kevin Warsh\u2019s Fed confirmation"
+        "There\u2019s a pizza price war going on, and Domino\u2019s is feeling the pain"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 9,
-      "pct": 7.6,
-      "sources": "Yahoo(5), CNBC(3), MarketWatch(1)",
+      "count": 15,
+      "pct": 11.8,
+      "sources": "CNBC(8), FT(3), MarketWatch(2), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
-        "We tried out xAI's Grok chatbot while driving a Tesla in NYC. Here's what happened.",
-        "Cramer: Why all the money flowing to AI stocks is a problem \u2014 and how it can be fixed",
-        "\u2018AI genuinely freaks me out\u2019: Do I leave my $150,000 nonprofit job for a $215,000 data analytics position \u2014 with a 50-minute commute?",
-        "Amazon Stock Just Keeps Rising. Here's the Latest Catalyst Driving Shares Higher -- and a Close Look at the Stock."
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.7,
-      "sources": "Bloomberg(4), CNBC(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Tillis ends block of Fed chair nominee Warsh, clears way for Trump pick",
-        "Pirro could reopen Fed probe at any time, Democratic senators warn",
-        "Sen. Thom Tillis drops opposition, says he\u2019ll back Kevin Warsh\u2019s Fed confirmation",
-        "Senior Republican clears path for Kevin Warsh\u2019s confirmation as Fed chair",
-        "Bond Traders Await Powell Update, Slate of US Treasury Auctions"
+        "This bank CEO let his AI clone handle an earnings call \u2014 now he's signing an OpenAI deal",
+        "Nvidia, Intel call buyers defy the dip in chip stocks",
+        "OpenAI shakes up partnership with Microsoft, capping revenue share payments",
+        "Former Google DeepMind researcher's AI startup raises record $1.1 billion seed funding to pursue superintelligence",
+        "Biggest winner of the amended Microsoft-OpenAI deal \u2014 plus, mixed news for Eli Lilly"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 6.7,
-      "sources": "Bloomberg(4), Yahoo(3), CNBC(1)",
+      "count": 10,
+      "pct": 7.9,
+      "sources": "Bloomberg(4), CNBC(3), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "Top Wall Street analysts pick these 3 dividend stocks for reliable income",
-        "Goldman, JPMorgan Show Wall Street\u2019s Split in Quantum Computing Race",
-        "Record-Setting Momentum Rally Is Drawing Doubters",
-        "Big Tech\u2019s $16 Trillion Earnings Week Is Make-Or-Break for Rally",
-        "Investors Dive Back Into Frontier Markets After April Rally"
+        "Micron and Sandisk continue rally as demand for memory expected to persist",
+        "Wall Street expects solid Q1 results for GM, as Ford and Stellantis try to gain traction",
+        "AI bill would crack down on deepfake distribution and protect whistleblowers",
+        "Meta\u2019s Chinese stumble suggests a declining tolerance for shades of grey",
+        "Stocks Hold Record in Countdown to Tech Earnings: Markets Wrap"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "Bloomberg(1), Yahoo(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 9,
+      "pct": 7.1,
+      "sources": "Yahoo(4), CNBC(3), Bloomberg(2)",
       "sample_headlines": [
-        "Bond Traders Await Powell Update, Slate of US Treasury Auctions",
-        "Jim Cramer on Avis Budget Group (CAR): \u201cDon\u2019t Buy the Parabola\u201d"
+        "Ray Dalio says Kevin Warsh shouldn't cut interest rates in a \u2018stagflation\u2019 era",
+        "OpenAI shakes up partnership with Microsoft, capping revenue share payments",
+        "Tillis ends block of Fed chair nominee Warsh, clears way for Trump pick",
+        "A Warsh-Led Fed Stands to Reignite the Treasuries Steepener Bet",
+        "Strong Start For ETFs In 2026, What's Next For The Fed | ETF IQ 4/27/2026"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "This little-known ETF is up over 600% amid U.S.-Iran war, a better trade than oil or energy stocks"
+        "Brent oil prices top $108 per barrel after Iran peace talks unravel",
+        "Oil giant Shell to buy Canada\u2019s ARC Resources for $16.4 billion in push to boost output",
+        "This price for Brent crude is more important for its outlook than $100, charts show",
+        "Global oil prices surpass $108 a barrel on concerns Iran may have to cut production due to limited storage",
+        "Shell\u2019s ARC Deal Seen as Win for Mark Carney\u2019s Pro-Oil Pivot"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "FT(2), CNBC(1)",
+      "sample_headlines": [
+        "China blocks Meta's $2 billion takeover of AI startup Manus",
+        "China blocks Meta\u2019s $2bn purchase of AI group Manus",
+        "Meta\u2019s Chinese stumble suggests a declining tolerance for shades of grey"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "Prediction markets prepare to invade one of crypto\u2019s biggest and riskiest trades",
+        "Kevin O'Leary sold 26 altcoins after the 2025 crash, kept only Bitcoin and Ethereum \u2014 says the rest have 'no future'",
+        "This Is What Happens When You Allocate 1% of Your Portfolio to Crypto, According to Charles Schwab"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
-      "sources": "MarketWatch(1)",
-      "sample_headlines": [
-        "As mass layoffs threaten jobs, here are 4 smart moves to protect yourself"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "36-year-old left the U.S. for China\u2014now pays $1,000 rent and $100 for groceries for family of 4: It's my 'version of the American Dream\u2019"
+        "Ray Dalio says Kevin Warsh shouldn't cut interest rates in a \u2018stagflation\u2019 era"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "MicroStrategy\u2019s Bitcoin Holdings Hit $63.46 Billion Record"
+        "This price for Brent crude is more important for its outlook than $100, charts show"
       ]
     }
   ]
