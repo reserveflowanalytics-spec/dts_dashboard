@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-04-24",
-  "computed_at": "2026-04-27T21:01:11Z",
+  "as_of": "2026-04-27",
+  "computed_at": "2026-04-28T21:01:19Z",
   "bias": "LONG",
   "conviction": "medium",
   "bias_reason": "Tech bullish + RS high-conviction risk-on.",
@@ -8,11 +8,11 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
-    "tech_close": 7194.75,
-    "tech_sma20": 6871.85,
+    "tech_close": 7207.25,
+    "tech_sma20": 6911.85,
     "rs_conviction_level": "high",
-    "rs_conviction_label": "High \u2014 fiscal momentum positive, regime Restrictive, 9/11 pairs aligned",
-    "rs_aligned_pairs": "9/11",
+    "rs_conviction_label": "High \u2014 fiscal momentum positive, regime Restrictive, 10/11 pairs aligned",
+    "rs_aligned_pairs": "10/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -20,39 +20,39 @@
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": 6.32
+      "roc_20d": 10.75
     },
     {
       "pair": "XLI/XLP",
       "rationale": "Industrials vs staples",
-      "roc_20d": 4.26
+      "roc_20d": 7.62
     },
     {
       "pair": "XLY/XLV",
       "rationale": "Discretionary vs healthcare",
-      "roc_20d": 10.24
+      "roc_20d": 11.35
     },
     {
       "pair": "XLF/XLU",
       "rationale": "Financials vs utilities",
-      "roc_20d": 2.9
+      "roc_20d": 6.96
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": -23.55
+      "roc_20d": -26.58
     },
     {
       "pair": "GLD/SPY",
       "rationale": "Hard asset vs equity",
-      "roc_20d": -2.29
+      "roc_20d": -8.09
     },
     {
       "pair": "XLB/XLRE",
       "rationale": "Materials vs real estate",
-      "roc_20d": -2.78
+      "roc_20d": -2.6
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",

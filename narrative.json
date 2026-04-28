@@ -1,111 +1,113 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 127,
-  "fetched_at": "2026-04-27T21:00:56.726675+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 129,
+  "fetched_at": "2026-04-28T21:01:04.166512+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 18,
-      "pct": 14.2,
-      "sources": "CNBC(4), MarketWatch(4), Bloomberg(4), FT(3), Yahoo(3)",
-      "sample_headlines": [
-        "Trump discussed Iran's Hormuz Strait proposal with top aides, White House says",
-        "Ray Dalio says Kevin Warsh shouldn't cut interest rates in a \u2018stagflation\u2019 era",
-        "Brent oil prices top $108 per barrel after Iran peace talks unravel",
-        "Tillis ends block of Fed chair nominee Warsh, clears way for Trump pick",
-        "There\u2019s a pizza price war going on, and Domino\u2019s is feeling the pain"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 11.8,
-      "sources": "CNBC(8), FT(3), MarketWatch(2), Bloomberg(1), Yahoo(1)",
+      "count": 22,
+      "pct": 17.1,
+      "sources": "Yahoo(8), CNBC(7), Bloomberg(3), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "This bank CEO let his AI clone handle an earnings call \u2014 now he's signing an OpenAI deal",
-        "Nvidia, Intel call buyers defy the dip in chip stocks",
-        "OpenAI shakes up partnership with Microsoft, capping revenue share payments",
-        "Former Google DeepMind researcher's AI startup raises record $1.1 billion seed funding to pursue superintelligence",
-        "Biggest winner of the amended Microsoft-OpenAI deal \u2014 plus, mixed news for Eli Lilly"
+        "Traders bet Nvidia's stock will return to record highs soon",
+        "OpenAI brings its models to Amazon's cloud after ending exclusivity with Microsoft",
+        "OpenAI reportedly missed revenue targets. Shares of Oracle and these chip stocks are falling",
+        "Meta shares look 'iffy' into earnings. How to trade it",
+        "Meta's new AI model shows early promise, but investors want to see Zuckerberg's strategy"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 7.9,
-      "sources": "Bloomberg(4), CNBC(3), Yahoo(2), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 19,
+      "pct": 14.7,
+      "sources": "Bloomberg(7), CNBC(6), FT(3), Yahoo(3)",
       "sample_headlines": [
-        "Micron and Sandisk continue rally as demand for memory expected to persist",
-        "Wall Street expects solid Q1 results for GM, as Ford and Stellantis try to gain traction",
-        "AI bill would crack down on deepfake distribution and protect whistleblowers",
-        "Meta\u2019s Chinese stumble suggests a declining tolerance for shades of grey",
-        "Stocks Hold Record in Countdown to Tech Earnings: Markets Wrap"
+        "Jamie Dimon warns of 'some kind of bond crisis' ahead as global debt risks build",
+        "U.S. is 'being humiliated by Iran,' says Germany's Merz, as Europe's patience wanes",
+        "U.S. oil hovers near $100 on report Trump dissatisfied with Iran's proposal to open Hormuz",
+        "GM: Iran war causing cost increases, but pricey vehicles continue to sell",
+        "Inflation could get in the way of Warsh's desire to cut interest rates, CNBC survey finds"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 13,
+      "pct": 10.1,
+      "sources": "Bloomberg(5), CNBC(3), MarketWatch(2), FT(2), Yahoo(1)",
+      "sample_headlines": [
+        "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices",
+        "U.S. oil hovers near $100 on report Trump dissatisfied with Iran's proposal to open Hormuz",
+        "United Arab Emirates to leave OPEC May 1, energy chief says still committed to oil price stability",
+        "These two countries are the most likely to leave OPEC\u2019s orbit next",
+        "U.A.E. is leaving OPEC but will still need to exercise caution as it increases oil production"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 9,
-      "pct": 7.1,
-      "sources": "Yahoo(4), CNBC(3), Bloomberg(2)",
+      "pct": 7.0,
+      "sources": "CNBC(3), Bloomberg(3), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "Ray Dalio says Kevin Warsh shouldn't cut interest rates in a \u2018stagflation\u2019 era",
-        "OpenAI shakes up partnership with Microsoft, capping revenue share payments",
-        "Tillis ends block of Fed chair nominee Warsh, clears way for Trump pick",
-        "A Warsh-Led Fed Stands to Reignite the Treasuries Steepener Bet",
-        "Strong Start For ETFs In 2026, What's Next For The Fed | ETF IQ 4/27/2026"
+        "Here's everything to expect when the Fed issues its latest interest rate decision Wednesday",
+        "Inflation could get in the way of Warsh's desire to cut interest rates, CNBC survey finds",
+        "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
+        "Why Donald Trump has an inflation problem",
+        "Emerging Assets Drop as Risk-Off Mood Lifts Dollar Ahead of Fed"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), Yahoo(1)",
+      "topic": "Equities / Market moves",
+      "count": 6,
+      "pct": 4.7,
+      "sources": "Yahoo(4), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Brent oil prices top $108 per barrel after Iran peace talks unravel",
-        "Oil giant Shell to buy Canada\u2019s ARC Resources for $16.4 billion in push to boost output",
-        "This price for Brent crude is more important for its outlook than $100, charts show",
-        "Global oil prices surpass $108 a barrel on concerns Iran may have to cut production due to limited storage",
-        "Shell\u2019s ARC Deal Seen as Win for Mark Carney\u2019s Pro-Oil Pivot"
+        "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
+        "Amazon is back in Wall Street\u2019s good graces. Here\u2019s what will determine whether it stays there.",
+        "Qualcomm surges on report of OpenAI tie-up for AI smartphone processors",
+        "Stocks' strong April gains come with 1 potential downside",
+        "Cotton Rallying on Monday Morning"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
+        "Oaktree Capital Accuses BJ\u2019s of Breaching Tariff Refund Deal",
+        "US Warns of Sanctions Risks for Chinese Refiners of Iranian Oil",
+        "India-New Zealand trade pact cuts fruit tariffs, boosts exports, visas"
       ]
     },
     {
       "topic": "China",
       "count": 3,
-      "pct": 2.4,
-      "sources": "FT(2), CNBC(1)",
+      "pct": 2.3,
+      "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
-        "China blocks Meta's $2 billion takeover of AI startup Manus",
-        "China blocks Meta\u2019s $2bn purchase of AI group Manus",
-        "Meta\u2019s Chinese stumble suggests a declining tolerance for shades of grey"
+        "Op-ed: In blocking Meta-Manus deal, China sent a powerful reminder to Mark Zuckerberg and U.S. market about AI race",
+        "China\u2019s Used Cooking Oil Ships to US as War Drives Biofuel Boom",
+        "US Warns of Sanctions Risks for Chinese Refiners of Iranian Oil"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Yahoo(2), CNBC(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Prediction markets prepare to invade one of crypto\u2019s biggest and riskiest trades",
-        "Kevin O'Leary sold 26 altcoins after the 2025 crash, kept only Bitcoin and Ethereum \u2014 says the rest have 'no future'",
-        "This Is What Happens When You Allocate 1% of Your Portfolio to Crypto, According to Charles Schwab"
+        "JPMorgan Taps Former Goldman Exec to Lead Blockchain Unit",
+        "Bitcoin and ethereum price today, Monday, April 27, 2026: Prices hold ahead of potential peace talks and Fed meeting"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Ray Dalio says Kevin Warsh shouldn't cut interest rates in a \u2018stagflation\u2019 era"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "MarketWatch(1)",
-      "sample_headlines": [
-        "This price for Brent crude is more important for its outlook than $100, charts show"
+        "Columbia Eyes $485 Million Sale of Taxable, Tax-Exempt Bonds"
       ]
     }
   ]
