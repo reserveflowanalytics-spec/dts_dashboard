@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-04-27",
-  "computed_at": "2026-04-28T21:01:19Z",
+  "as_of": "2026-04-28",
+  "computed_at": "2026-04-29T21:01:37Z",
   "bias": "LONG",
   "conviction": "medium",
   "bias_reason": "Tech bullish + RS high-conviction risk-on.",
@@ -8,11 +8,11 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
-    "tech_close": 7207.25,
-    "tech_sma20": 6911.85,
+    "tech_close": 7171.5,
+    "tech_sma20": 6951.04,
     "rs_conviction_level": "high",
-    "rs_conviction_label": "High \u2014 fiscal momentum positive, regime Restrictive, 10/11 pairs aligned",
-    "rs_aligned_pairs": "10/11",
+    "rs_conviction_label": "High \u2014 fiscal momentum positive, regime Restrictive, 9/11 pairs aligned",
+    "rs_aligned_pairs": "9/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -20,39 +20,39 @@
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": 10.75
-    },
-    {
-      "pair": "XLI/XLP",
-      "rationale": "Industrials vs staples",
-      "roc_20d": 7.62
+      "roc_20d": 9.14
     },
     {
       "pair": "XLY/XLV",
       "rationale": "Discretionary vs healthcare",
-      "roc_20d": 11.35
+      "roc_20d": 10.73
     },
     {
       "pair": "XLF/XLU",
       "rationale": "Financials vs utilities",
-      "roc_20d": 6.96
+      "roc_20d": 6.45
+    },
+    {
+      "pair": "HYG/TLT",
+      "rationale": "Credit risk appetite vs duration safety",
+      "roc_20d": 2.59
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": -26.58
+      "roc_20d": -24.77
     },
     {
       "pair": "GLD/SPY",
       "rationale": "Hard asset vs equity",
-      "roc_20d": -8.09
+      "roc_20d": -9.63
     },
     {
       "pair": "XLB/XLRE",
       "rationale": "Materials vs real estate",
-      "roc_20d": -2.6
+      "roc_20d": -4.12
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",

@@ -1,113 +1,117 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 129,
-  "fetched_at": "2026-04-28T21:01:04.166512+00:00",
+  "dominant": "Fed / Rates / Inflation",
+  "total_headlines": 127,
+  "fetched_at": "2026-04-29T21:01:20.315369+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 22,
-      "pct": 17.1,
-      "sources": "Yahoo(8), CNBC(7), Bloomberg(3), MarketWatch(2), FT(2)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 23,
+      "pct": 18.1,
+      "sources": "Bloomberg(10), CNBC(8), MarketWatch(2), FT(2), Yahoo(1)",
       "sample_headlines": [
-        "Traders bet Nvidia's stock will return to record highs soon",
-        "OpenAI brings its models to Amazon's cloud after ending exclusivity with Microsoft",
-        "OpenAI reportedly missed revenue targets. Shares of Oracle and these chip stocks are falling",
-        "Meta shares look 'iffy' into earnings. How to trade it",
-        "Meta's new AI model shows early promise, but investors want to see Zuckerberg's strategy"
+        "Alphabet beats on revenue, with cloud booming 63% and topping $20 billion",
+        "Amazon's cloud unit reports 28% sales growth, topping estimates",
+        "Jerome Powell says he will continue to serve as a Fed governor, calls Trump criticism 'unprecedented'",
+        "Fed holds rates steady but with highest level of dissent since 1992",
+        "Fed holds interest rates steady: Here's what that means for credit cards, mortgages, car loans and savings rates"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 19,
-      "pct": 14.7,
-      "sources": "Bloomberg(7), CNBC(6), FT(3), Yahoo(3)",
+      "count": 18,
+      "pct": 14.2,
+      "sources": "Bloomberg(8), CNBC(6), FT(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Jamie Dimon warns of 'some kind of bond crisis' ahead as global debt risks build",
-        "U.S. is 'being humiliated by Iran,' says Germany's Merz, as Europe's patience wanes",
-        "U.S. oil hovers near $100 on report Trump dissatisfied with Iran's proposal to open Hormuz",
-        "GM: Iran war causing cost increases, but pricey vehicles continue to sell",
-        "Inflation could get in the way of Warsh's desire to cut interest rates, CNBC survey finds"
+        "Brent oil tops $118 after Trump says he will blockade Iran until it agrees to a nuclear deal",
+        "Hegseth defends Iran war's mission, costs in first testimony since conflict began",
+        "Trump threatens Iran with AI picture of himself with a gun: 'No more Mr. Nice guy!'",
+        "Mortgage rates surge to nearly four-week high as Iran headlines impact markets",
+        "Trump Fed pick Kevin Warsh clears key Senate hurdle, teeing up final vote"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 11.0,
+      "sources": "CNBC(10), FT(4)",
+      "sample_headlines": [
+        "Meta stock drops as capex, user growth numbers come in below Wall Street estimates",
+        "Microsoft beats on top and bottom lines with 40% Azure growth",
+        "Amazon stock dips even as earnings beat expectations with strong cloud growth",
+        "Chipotle posts surprise same-store sales growth in early sign chain could be breaking its slump",
+        "Amazon's cloud unit reports 28% sales growth, topping estimates"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 13,
-      "pct": 10.1,
-      "sources": "Bloomberg(5), CNBC(3), MarketWatch(2), FT(2), Yahoo(1)",
+      "count": 11,
+      "pct": 8.7,
+      "sources": "CNBC(3), Bloomberg(3), MarketWatch(2), FT(2), Yahoo(1)",
       "sample_headlines": [
-        "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices",
-        "U.S. oil hovers near $100 on report Trump dissatisfied with Iran's proposal to open Hormuz",
-        "United Arab Emirates to leave OPEC May 1, energy chief says still committed to oil price stability",
-        "These two countries are the most likely to leave OPEC\u2019s orbit next",
-        "U.A.E. is leaving OPEC but will still need to exercise caution as it increases oil production"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.0,
-      "sources": "CNBC(3), Bloomberg(3), Yahoo(2), FT(1)",
-      "sample_headlines": [
-        "Here's everything to expect when the Fed issues its latest interest rate decision Wednesday",
-        "Inflation could get in the way of Warsh's desire to cut interest rates, CNBC survey finds",
-        "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
-        "Why Donald Trump has an inflation problem",
-        "Emerging Assets Drop as Risk-Off Mood Lifts Dollar Ahead of Fed"
+        "Brent oil tops $118 after Trump says he will blockade Iran until it agrees to a nuclear deal",
+        "Shocking UAE exit rocks OPEC, but group will still hold significant sway over the oil market",
+        "Trump says it's 'great' that UAE pulled out of OPEC",
+        "The U.S. produces the most oil in the world. So why are gasoline prices so high?",
+        "Stocks may be missing this looming danger in the oil market"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 6,
-      "pct": 4.7,
-      "sources": "Yahoo(4), CNBC(1), MarketWatch(1)",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
-        "Amazon is back in Wall Street\u2019s good graces. Here\u2019s what will determine whether it stays there.",
-        "Qualcomm surges on report of OpenAI tie-up for AI smartphone processors",
-        "Stocks' strong April gains come with 1 potential downside",
-        "Cotton Rallying on Monday Morning"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.1,
-      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
-        "Oaktree Capital Accuses BJ\u2019s of Breaching Tariff Refund Deal",
-        "US Warns of Sanctions Risks for Chinese Refiners of Iranian Oil",
-        "India-New Zealand trade pact cuts fruit tariffs, boosts exports, visas"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "Bloomberg(2), CNBC(1)",
-      "sample_headlines": [
-        "Op-ed: In blocking Meta-Manus deal, China sent a powerful reminder to Mark Zuckerberg and U.S. market about AI race",
-        "China\u2019s Used Cooking Oil Ships to US as War Drives Biofuel Boom",
-        "US Warns of Sanctions Risks for Chinese Refiners of Iranian Oil"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "JPMorgan Taps Former Goldman Exec to Lead Blockchain Unit",
-        "Bitcoin and ethereum price today, Monday, April 27, 2026: Prices hold ahead of potential peace talks and Fed meeting"
+        "Meta stock drops as capex, user growth numbers come in below Wall Street estimates",
+        "Mortgage rates surge to nearly four-week high as Iran headlines impact markets",
+        "Iran war fuels bond-market selloff, as inflation fears put future Fed rate cuts in doubt",
+        "Ford\u2019s profit jumps as carmaker powers through an EV slowdown",
+        "Oil surge divides Fed as Jay Powell\u2019s term at helm draws to a close"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Treasury Yields Climb as Fed Split Amid War Risks: Markets Wrap",
+        "Bill Maher blasts America\u2019s $5T tax monster: \u2018Almost 60%\u2019 of his income goes to Uncle Sam while the poor still suffer"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "Ford\u2019s profit jumps as carmaker powers through an EV slowdown"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Ford raises 2026 guidance as $1.3 billion tariff refund assists in offsetting higher costs"
+      ]
+    },
+    {
+      "topic": "China",
       "count": 1,
       "pct": 0.8,
       "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Columbia Eyes $485 Million Sale of Taxable, Tax-Exempt Bonds"
+        "Copper Slips as Traders Weigh Iran War Impact, China Demand"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Visa, WeFi Partner on Everyday Stablecoin Payments, as CEO Calls for Crypto To Work \u2018As Cleanly\u2019 as Cards"
       ]
     }
   ]
