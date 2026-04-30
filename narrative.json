@@ -1,90 +1,82 @@
 {
-  "dominant": "Fed / Rates / Inflation",
-  "total_headlines": 127,
-  "fetched_at": "2026-04-29T21:01:20.315369+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 128,
+  "fetched_at": "2026-04-30T21:01:15.227925+00:00",
   "topics": [
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 23,
-      "pct": 18.1,
-      "sources": "Bloomberg(10), CNBC(8), MarketWatch(2), FT(2), Yahoo(1)",
-      "sample_headlines": [
-        "Alphabet beats on revenue, with cloud booming 63% and topping $20 billion",
-        "Amazon's cloud unit reports 28% sales growth, topping estimates",
-        "Jerome Powell says he will continue to serve as a Fed governor, calls Trump criticism 'unprecedented'",
-        "Fed holds rates steady but with highest level of dissent since 1992",
-        "Fed holds interest rates steady: Here's what that means for credit cards, mortgages, car loans and savings rates"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 18,
-      "pct": 14.2,
-      "sources": "Bloomberg(8), CNBC(6), FT(2), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "Brent oil tops $118 after Trump says he will blockade Iran until it agrees to a nuclear deal",
-        "Hegseth defends Iran war's mission, costs in first testimony since conflict began",
-        "Trump threatens Iran with AI picture of himself with a gun: 'No more Mr. Nice guy!'",
-        "Mortgage rates surge to nearly four-week high as Iran headlines impact markets",
-        "Trump Fed pick Kevin Warsh clears key Senate hurdle, teeing up final vote"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 11.0,
-      "sources": "CNBC(10), FT(4)",
+      "count": 16,
+      "pct": 12.5,
+      "sources": "CNBC(7), Bloomberg(3), MarketWatch(2), FT(2), Yahoo(2)",
       "sample_headlines": [
-        "Meta stock drops as capex, user growth numbers come in below Wall Street estimates",
-        "Microsoft beats on top and bottom lines with 40% Azure growth",
-        "Amazon stock dips even as earnings beat expectations with strong cloud growth",
-        "Chipotle posts surprise same-store sales growth in early sign chain could be breaking its slump",
-        "Amazon's cloud unit reports 28% sales growth, topping estimates"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "CNBC(3), Bloomberg(3), MarketWatch(2), FT(2), Yahoo(1)",
-      "sample_headlines": [
-        "Brent oil tops $118 after Trump says he will blockade Iran until it agrees to a nuclear deal",
-        "Shocking UAE exit rocks OPEC, but group will still hold significant sway over the oil market",
-        "Trump says it's 'great' that UAE pulled out of OPEC",
-        "The U.S. produces the most oil in the world. So why are gasoline prices so high?",
-        "Stocks may be missing this looming danger in the oil market"
+        "Apple reports earnings and revenue beat, boosted by services business",
+        "Google cloud growth tops Microsoft and Amazon as all three beat estimates on AI demand",
+        "Intel's stock more than doubles in April for best month in chipmaker's 55 years on Nasdaq",
+        "Apple's stock has gone nowhere for 6 months. Traders expect a wild ride Thursday night",
+        "AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), FT(1)",
+      "count": 16,
+      "pct": 12.5,
+      "sources": "CNBC(7), MarketWatch(4), Bloomberg(2), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "Meta stock drops as capex, user growth numbers come in below Wall Street estimates",
-        "Mortgage rates surge to nearly four-week high as Iran headlines impact markets",
-        "Iran war fuels bond-market selloff, as inflation fears put future Fed rate cuts in doubt",
-        "Ford\u2019s profit jumps as carmaker powers through an EV slowdown",
-        "Oil surge divides Fed as Jay Powell\u2019s term at helm draws to a close"
+        "Trump signs DHS funding bill, ending shutdown for most of agency, including TSA",
+        "Intel's stock more than doubles in April for best month in chipmaker's 55 years on Nasdaq",
+        "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
+        "Rivian renegotiates DOE loan down to $4.5 billion, adjusts capacity plans for Georgia plant",
+        "Trump taps Nicole Saphier for surgeon general after pulling Casey Means nomination"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Bloomberg(1), Yahoo(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 11,
+      "pct": 8.6,
+      "sources": "CNBC(5), Bloomberg(3), MarketWatch(1), Google News(1), FT(1)",
       "sample_headlines": [
-        "Treasury Yields Climb as Fed Split Amid War Risks: Markets Wrap",
-        "Bill Maher blasts America\u2019s $5T tax monster: \u2018Almost 60%\u2019 of his income goes to Uncle Sam while the poor still suffer"
+        "Trump said his blockade would cause Iran's oil industry to 'explode' this week. Why that won't happen",
+        "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
+        "Inside Wealth: Markets are underpricing the risk of Middle East pullback in AI, says tech investor Jack Selby",
+        "Trump admin. faces critical 60-day Iran war deadline, but floats ceasefire loophole",
+        "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "MarketWatch(1)",
+      "topic": "Oil / Energy",
+      "count": 9,
+      "pct": 7.0,
+      "sources": "CNBC(3), MarketWatch(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Ford\u2019s profit jumps as carmaker powers through an EV slowdown"
+        "Trump said his blockade would cause Iran's oil industry to 'explode' this week. Why that won't happen",
+        "California gas prices hit $6 per gallon as fuel costs jump nearly 30 cents in a week across the U.S.",
+        "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears",
+        "Stocks clock their best month since 2020 as Wall Street shakes off Iran oil shock",
+        "Oil\u2019s surge to $125 a barrel just made the next bet for traders a lot harder"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 5,
+      "pct": 3.9,
+      "sources": "CNBC(5)",
+      "sample_headlines": [
+        "Reddit reports 69% jump in revenue, topping analyst estimates",
+        "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
+        "AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027",
+        "Trump administration finalizes federal student loan caps\u2014what it means for borrowers",
+        "Core inflation rate hit 3.2% in March as first-quarter growth disappointed at 2%"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.3,
+      "sources": "CNBC(2), Yahoo(1)",
+      "sample_headlines": [
+        "Apple execs to talk China and tariffs, but will avoid discussing foldable iPhone, per traders on Kalshi",
+        "Eli Lilly blows past quarterly estimates, hikes outlook as Zepbound and Mounjaro sales skyrocket",
+        "Yum China Q1 Earnings Call Highlights"
       ]
     },
     {
@@ -93,25 +85,16 @@
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Ford raises 2026 guidance as $1.3 billion tariff refund assists in offsetting higher costs"
+        "Apple execs to talk China and tariffs, but will avoid discussing foldable iPhone, per traders on Kalshi"
       ]
     },
     {
-      "topic": "China",
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Copper Slips as Traders Weigh Iran War Impact, China Demand"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Visa, WeFi Partner on Everyday Stablecoin Payments, as CEO Calls for Crypto To Work \u2018As Cleanly\u2019 as Cards"
+        "Treasury Department announces new Series I bond rate of 4.26% for the next six months"
       ]
     }
   ]
