@@ -1,100 +1,105 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 128,
-  "fetched_at": "2026-04-30T21:01:15.227925+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 116,
+  "fetched_at": "2026-05-01T21:02:29.266433+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 16,
-      "pct": 12.5,
-      "sources": "CNBC(7), Bloomberg(3), MarketWatch(2), FT(2), Yahoo(2)",
-      "sample_headlines": [
-        "Apple reports earnings and revenue beat, boosted by services business",
-        "Google cloud growth tops Microsoft and Amazon as all three beat estimates on AI demand",
-        "Intel's stock more than doubles in April for best month in chipmaker's 55 years on Nasdaq",
-        "Apple's stock has gone nowhere for 6 months. Traders expect a wild ride Thursday night",
-        "AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 12.5,
-      "sources": "CNBC(7), MarketWatch(4), Bloomberg(2), Yahoo(2), FT(1)",
+      "count": 20,
+      "pct": 17.2,
+      "sources": "Yahoo(9), Bloomberg(4), CNBC(3), MarketWatch(3), FT(1)",
       "sample_headlines": [
-        "Trump signs DHS funding bill, ending shutdown for most of agency, including TSA",
-        "Intel's stock more than doubles in April for best month in chipmaker's 55 years on Nasdaq",
         "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "Rivian renegotiates DOE loan down to $4.5 billion, adjusts capacity plans for Georgia plant",
-        "Trump taps Nicole Saphier for surgeon general after pulling Casey Means nomination"
+        "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz",
+        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable",
+        "\u2018The numbers don\u2019t lie\u2019: If I had invested my Social Security in the S&P 500 I\u2019d have $4 million. Is the system broken?",
+        "If Spirit ends up shutting down, these airlines stand to benefit"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 8.6,
-      "sources": "CNBC(5), Bloomberg(3), MarketWatch(1), Google News(1), FT(1)",
+      "count": 17,
+      "pct": 14.7,
+      "sources": "CNBC(6), Bloomberg(5), FT(3), MarketWatch(1), Google News(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump said his blockade would cause Iran's oil industry to 'explode' this week. Why that won't happen",
+        "Exxon Mobil CEO expects higher oil prices due to Iran war: \u2018The market hasn\u2019t seen the full impact\u2019",
+        "Trump tells Congress hostilities in Iran 'have terminated' as war powers deadline hits",
+        "Engine trouble ahead? How the Strait of Hormuz standoff threatens luxury auto giants",
         "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "Inside Wealth: Markets are underpricing the risk of Middle East pullback in AI, says tech investor Jack Selby",
-        "Trump admin. faces critical 60-day Iran war deadline, but floats ceasefire loophole",
-        "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears"
+        "Elon Musk billionaires bill supporters draw progressive challengers in Delaware"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 12.1,
+      "sources": "CNBC(5), Bloomberg(4), Yahoo(3), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Apple's stock gains as company execs cite iPhone, Mac demand in boosting guidance",
+        "What Sandisk's play on surging memory prices means for our tech stocks",
+        "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
+        "Alphabet is winning the AI revolution. Here's how Mike Khouw is trading it",
+        "Apple CEO Tim Cook warns of extended memory crunch. 'We'll look at a range of options'"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 7.0,
-      "sources": "CNBC(3), MarketWatch(2), Bloomberg(2), Yahoo(2)",
+      "count": 12,
+      "pct": 10.3,
+      "sources": "Bloomberg(6), Yahoo(3), FT(2), CNBC(1)",
       "sample_headlines": [
-        "Trump said his blockade would cause Iran's oil industry to 'explode' this week. Why that won't happen",
-        "California gas prices hit $6 per gallon as fuel costs jump nearly 30 cents in a week across the U.S.",
-        "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears",
-        "Stocks clock their best month since 2020 as Wall Street shakes off Iran oil shock",
-        "Oil\u2019s surge to $125 a barrel just made the next bet for traders a lot harder"
+        "Exxon Mobil CEO expects higher oil prices due to Iran war: \u2018The market hasn\u2019t seen the full impact\u2019",
+        "Oil market one month from crunch point as global stockpiles dwindle",
+        "Exxon and Chevron defy Trump pressure to boost oil production",
+        "Big Oil Bosses Warn Energy Is Moving Closer to Cliff\u2019s Edge",
+        "Stocks Hit Record as Oil Falls on US-Iran Hopes"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 3.9,
-      "sources": "CNBC(5)",
+      "count": 9,
+      "pct": 7.8,
+      "sources": "CNBC(4), Yahoo(3), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Reddit reports 69% jump in revenue, topping analyst estimates",
+        "Berkshire Hathaway\u2019s shopping extravaganza draws lighter crowds as spotlight shifts to Greg Abel",
+        "Pirro keeps pressure on Fed's Powell despite dropping probe",
+        "Fed dissenters explain 'no' votes, saying they disagreed with hinting next move would be a cut",
         "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027",
-        "Trump administration finalizes federal student loan caps\u2014what it means for borrowers",
-        "Core inflation rate hit 3.2% in March as first-quarter growth disappointed at 2%"
+        "New Fed chair Warsh will have a fight on his hands if he pushes for interest-rate cuts"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 6,
+      "pct": 5.2,
+      "sources": "CNBC(3), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Trump says he's raising EU auto tariffs to 25% without clarifying how",
+        "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz",
+        "Trump scraps Scotch whisky tariffs \u2018in honor\u2019 of King Charles",
+        "Trump says he will raise tariff on EU vehicles to 25%",
+        "Magna CEO Says New Trump Tariffs Will Spare Partsmaker"
       ]
     },
     {
       "topic": "China",
       "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(2), Yahoo(1)",
+      "pct": 2.6,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Apple execs to talk China and tariffs, but will avoid discussing foldable iPhone, per traders on Kalshi",
-        "Eli Lilly blows past quarterly estimates, hikes outlook as Zepbound and Mounjaro sales skyrocket",
-        "Yum China Q1 Earnings Call Highlights"
+        "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
+        "Brooks Apparel 'Resonating' With Chinese Runners, Says CEO Dan Sheridan",
+        "Eli Lilly Q1 2026 earnings: Mounjaro, Zepbound drive strong results"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Apple execs to talk China and tariffs, but will avoid discussing foldable iPhone, per traders on Kalshi"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Treasury Department announces new Series I bond rate of 4.26% for the next six months"
+        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable",
+        "Bitcoin and ethereum prices today, Thursday, April 30, 2026: Values moving lower each morning this week"
       ]
     }
   ]

@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-04-29",
-  "computed_at": "2026-04-30T21:01:32Z",
+  "as_of": "2026-04-30",
+  "computed_at": "2026-05-01T21:02:42Z",
   "bias": "LONG",
-  "conviction": "medium",
-  "bias_reason": "Tech bullish + RS high-conviction risk-on.",
+  "conviction": "low-medium",
+  "bias_reason": "Tech bullish but RS conviction not at high.",
   "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
-    "tech_close": 7170.25,
-    "tech_sma20": 6981.1,
-    "rs_conviction_level": "high",
-    "rs_conviction_label": "High \u2014 fiscal momentum positive, regime Restrictive, 8/11 pairs aligned",
-    "rs_aligned_pairs": "8/11",
+    "tech_close": 7238.25,
+    "tech_sma20": 7012.04,
+    "rs_conviction_level": "unknown",
+    "rs_conviction_label": "Moderate \u2014 7/11 pairs aligned with regime",
+    "rs_aligned_pairs": "7/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -20,39 +20,39 @@
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": 6.0
+      "roc_20d": 4.14
     },
     {
       "pair": "XLY/XLV",
       "rationale": "Discretionary vs healthcare",
-      "roc_20d": 10.04
-    },
-    {
-      "pair": "XLF/XLU",
-      "rationale": "Financials vs utilities",
-      "roc_20d": 5.65
+      "roc_20d": 9.07
     },
     {
       "pair": "HYG/TLT",
       "rationale": "Credit risk appetite vs duration safety",
-      "roc_20d": 1.97
+      "roc_20d": 2.03
+    },
+    {
+      "pair": "IWM/SPY",
+      "rationale": "Small cap vs large cap",
+      "roc_20d": 1.55
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": -19.51
+      "roc_20d": -14.44
     },
     {
       "pair": "GLD/SPY",
       "rationale": "Hard asset vs equity",
-      "roc_20d": -11.34
+      "roc_20d": -11.77
     },
     {
       "pair": "XLB/XLRE",
       "rationale": "Materials vs real estate",
-      "roc_20d": -4.59
+      "roc_20d": -5.92
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
