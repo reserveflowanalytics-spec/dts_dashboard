@@ -1,104 +1,114 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 125,
-  "fetched_at": "2026-05-02T07:29:36.023576+00:00",
+  "total_headlines": 122,
+  "fetched_at": "2026-05-02T21:02:06.532479+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 20,
-      "pct": 16.0,
-      "sources": "FT(7), Bloomberg(7), CNBC(5), MarketWatch(1)",
+      "count": 22,
+      "pct": 18.0,
+      "sources": "Bloomberg(9), CNBC(7), FT(5), Yahoo(1)",
       "sample_headlines": [
+        "The U.S.-Iran war is coming for your credit score and mortgage application",
+        "Airfare amid Iran war: Buy now or wait out the conflict? Experts weigh the risks",
         "Exxon Mobil CEO expects higher oil prices due to Iran war: \u2018The market hasn\u2019t seen the full impact\u2019",
         "Trump tells Congress hostilities in Iran 'have terminated' as war powers deadline hits",
-        "Engine trouble ahead? How the Strait of Hormuz standoff threatens luxury auto giants",
-        "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "Elon Musk billionaires bill supporters draw progressive challengers in Delaware"
+        "Engine trouble ahead? How the Strait of Hormuz standoff threatens luxury auto giants"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 11.2,
-      "sources": "CNBC(5), Bloomberg(4), MarketWatch(2), FT(2), Yahoo(1)",
+      "count": 16,
+      "pct": 13.1,
+      "sources": "Bloomberg(7), CNBC(6), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
-        "Spirit Airlines begins orderly wind-down after failing to reach deal for bailout lifeline",
-        "Spirit Airlines could shut down overnight. Here's what travelers need to know",
+        "Spirit Airlines shuts down after failing to reach a bailout deal, ending discount travel era",
+        "Spirit Airlines shut down. Here's what travelers need to know if they have tickets",
+        "The S&P 500 and Nasdaq kept their record rallies going. Here are 3 key takeaways",
         "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz",
-        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 10,
-      "pct": 8.0,
-      "sources": "CNBC(4), Yahoo(4), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Apple's stock gains as company execs cite iPhone, Mac demand in boosting guidance",
-        "What Sandisk's play on surging memory prices means for our tech stocks",
-        "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
-        "Alphabet is winning the AI revolution. Here's how Mike Khouw is trading it",
-        "Apple just gave a clue that a big AI acquisition may be in the cards"
+        "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 8,
-      "pct": 6.4,
-      "sources": "Bloomberg(3), Yahoo(3), CNBC(1), FT(1)",
+      "count": 9,
+      "pct": 7.4,
+      "sources": "Bloomberg(5), Yahoo(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
         "Exxon Mobil CEO expects higher oil prices due to Iran war: \u2018The market hasn\u2019t seen the full impact\u2019",
-        "Libya reaps oil bonanza from Iran war price surge",
-        "Wall Street Week | Warsh\u2019s Fed, Vibe Coding, Geothermal Energy, Vegas Bets Big",
-        "Big Oil Bosses Warn Energy Is Moving Closer to Cliff\u2019s Edge",
-        "Stocks Hit Record as Oil Falls on US-Iran Hopes"
+        "These 3 companies are keeping the lights on for AI\u2019s energy demand \u2014 and cashing in",
+        "UAE Departs OPEC as Iran Feel Economic Sting of Blockade",
+        "OPEC+ Provisionally Agrees June Quota Increase, Delegate Says",
+        "Iran Juggles Oil Cuts and Storage Strain to Resist US Blockade"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.6,
-      "sources": "CNBC(4), Bloomberg(3)",
+      "count": 9,
+      "pct": 7.4,
+      "sources": "CNBC(3), MarketWatch(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Berkshire Hathaway\u2019s shopping extravaganza draws lighter crowds as spotlight shifts to Greg Abel",
         "Pirro keeps pressure on Fed's Powell despite dropping probe",
         "Fed dissenters explain 'no' votes, saying they disagreed with hinting next move would be a cut",
         "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "Wall Street Week | Warsh\u2019s Fed, Vibe Coding, Geothermal Energy, Vegas Bets Big"
+        "\u2018We\u2019re all worried the honey pot will run dry\u2019: Does the U.S. government borrow from my Social Security to fund federal programs?",
+        "Higher inflation is on the way. The Fed needs to make this clear before it raises rates."
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 8,
+      "pct": 6.6,
+      "sources": "Yahoo(5), CNBC(3)",
+      "sample_headlines": [
+        "Apple's stock gains as company execs cite iPhone, Mac demand in boosting guidance",
+        "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
+        "Alphabet is winning the AI revolution. Here's how Mike Khouw is trading it",
+        "Mark Zuckerberg sends startling message to Meta employees",
+        "Google just had its best month since 2004"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 5,
-      "pct": 4.0,
-      "sources": "CNBC(3), FT(1), Bloomberg(1)",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "CNBC(3), Bloomberg(1)",
       "sample_headlines": [
         "Trump says he's raising EU auto tariffs to 25%",
         "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz",
         "Trump scraps Scotch whisky tariffs \u2018in honor\u2019 of King Charles",
-        "Trump says he will raise tariff on EU vehicles to 25%",
-        "Magna CEO Says New Trump Tariffs Will Spare Partsmaker"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
-        "Is China decoupling on food?",
-        "Brooks Apparel 'Resonating' With Chinese Runners, Says CEO Dan Sheridan"
+        "Beijing Tells Chinese Firms to Ignore US Sanctions on Refiners"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable",
+        "Adam \u2018Not Satoshi\u2019 Back Is at Peace With Wall Street Crypto Era",
+        "Is \"The Great Rotation\" Back to Crypto Going to Happen Soon?",
+        "Elon Musk Says Most Cryptocurrencies Are 'Scams,' While Some Have 'Merit' During OpenAI Trial: Report"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
+        "Beijing Tells Chinese Firms to Ignore US Sanctions on Refiners"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable"
+        "Higher gas prices are eating into Americans' tax refunds"
       ]
     }
   ]
