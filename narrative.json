@@ -1,26 +1,13 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 116,
-  "fetched_at": "2026-05-01T21:02:29.266433+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 125,
+  "fetched_at": "2026-05-02T07:29:36.023576+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 20,
-      "pct": 17.2,
-      "sources": "Yahoo(9), Bloomberg(4), CNBC(3), MarketWatch(3), FT(1)",
-      "sample_headlines": [
-        "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz",
-        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable",
-        "\u2018The numbers don\u2019t lie\u2019: If I had invested my Social Security in the S&P 500 I\u2019d have $4 million. Is the system broken?",
-        "If Spirit ends up shutting down, these airlines stand to benefit"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 17,
-      "pct": 14.7,
-      "sources": "CNBC(6), Bloomberg(5), FT(3), MarketWatch(1), Google News(1), Yahoo(1)",
+      "count": 20,
+      "pct": 16.0,
+      "sources": "FT(7), Bloomberg(7), CNBC(5), MarketWatch(1)",
       "sample_headlines": [
         "Exxon Mobil CEO expects higher oil prices due to Iran war: \u2018The market hasn\u2019t seen the full impact\u2019",
         "Trump tells Congress hostilities in Iran 'have terminated' as war powers deadline hits",
@@ -30,51 +17,64 @@
       ]
     },
     {
-      "topic": "AI / Tech",
+      "topic": "Equities / Market moves",
       "count": 14,
-      "pct": 12.1,
-      "sources": "CNBC(5), Bloomberg(4), Yahoo(3), MarketWatch(1), FT(1)",
+      "pct": 11.2,
+      "sources": "CNBC(5), Bloomberg(4), MarketWatch(2), FT(2), Yahoo(1)",
+      "sample_headlines": [
+        "Spirit Airlines begins orderly wind-down after failing to reach deal for bailout lifeline",
+        "Spirit Airlines could shut down overnight. Here's what travelers need to know",
+        "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
+        "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz",
+        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 10,
+      "pct": 8.0,
+      "sources": "CNBC(4), Yahoo(4), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
         "Apple's stock gains as company execs cite iPhone, Mac demand in boosting guidance",
         "What Sandisk's play on surging memory prices means for our tech stocks",
         "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
         "Alphabet is winning the AI revolution. Here's how Mike Khouw is trading it",
-        "Apple CEO Tim Cook warns of extended memory crunch. 'We'll look at a range of options'"
+        "Apple just gave a clue that a big AI acquisition may be in the cards"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 12,
-      "pct": 10.3,
-      "sources": "Bloomberg(6), Yahoo(3), FT(2), CNBC(1)",
+      "count": 8,
+      "pct": 6.4,
+      "sources": "Bloomberg(3), Yahoo(3), CNBC(1), FT(1)",
       "sample_headlines": [
         "Exxon Mobil CEO expects higher oil prices due to Iran war: \u2018The market hasn\u2019t seen the full impact\u2019",
-        "Oil market one month from crunch point as global stockpiles dwindle",
-        "Exxon and Chevron defy Trump pressure to boost oil production",
+        "Libya reaps oil bonanza from Iran war price surge",
+        "Wall Street Week | Warsh\u2019s Fed, Vibe Coding, Geothermal Energy, Vegas Bets Big",
         "Big Oil Bosses Warn Energy Is Moving Closer to Cliff\u2019s Edge",
         "Stocks Hit Record as Oil Falls on US-Iran Hopes"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.8,
-      "sources": "CNBC(4), Yahoo(3), MarketWatch(1), Bloomberg(1)",
+      "count": 7,
+      "pct": 5.6,
+      "sources": "CNBC(4), Bloomberg(3)",
       "sample_headlines": [
         "Berkshire Hathaway\u2019s shopping extravaganza draws lighter crowds as spotlight shifts to Greg Abel",
         "Pirro keeps pressure on Fed's Powell despite dropping probe",
         "Fed dissenters explain 'no' votes, saying they disagreed with hinting next move would be a cut",
         "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "New Fed chair Warsh will have a fight on his hands if he pushes for interest-rate cuts"
+        "Wall Street Week | Warsh\u2019s Fed, Vibe Coding, Geothermal Energy, Vegas Bets Big"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 6,
-      "pct": 5.2,
-      "sources": "CNBC(3), Bloomberg(2), FT(1)",
+      "count": 5,
+      "pct": 4.0,
+      "sources": "CNBC(3), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump says he's raising EU auto tariffs to 25% without clarifying how",
+        "Trump says he's raising EU auto tariffs to 25%",
         "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz",
         "Trump scraps Scotch whisky tariffs \u2018in honor\u2019 of King Charles",
         "Trump says he will raise tariff on EU vehicles to 25%",
@@ -84,22 +84,21 @@
     {
       "topic": "China",
       "count": 3,
-      "pct": 2.6,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "pct": 2.4,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
         "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
-        "Brooks Apparel 'Resonating' With Chinese Runners, Says CEO Dan Sheridan",
-        "Eli Lilly Q1 2026 earnings: Mounjaro, Zepbound drive strong results"
+        "Is China decoupling on food?",
+        "Brooks Apparel 'Resonating' With Chinese Runners, Says CEO Dan Sheridan"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), Yahoo(1)",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable",
-        "Bitcoin and ethereum prices today, Thursday, April 30, 2026: Values moving lower each morning this week"
+        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable"
       ]
     }
   ]
