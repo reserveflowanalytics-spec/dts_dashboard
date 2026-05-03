@@ -1,114 +1,113 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 122,
-  "fetched_at": "2026-05-02T21:02:06.532479+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 121,
+  "fetched_at": "2026-05-03T21:01:04.407817+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 22,
-      "pct": 18.0,
-      "sources": "Bloomberg(9), CNBC(7), FT(5), Yahoo(1)",
+      "count": 18,
+      "pct": 14.9,
+      "sources": "CNBC(6), Bloomberg(6), FT(4), Yahoo(2)",
       "sample_headlines": [
+        "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+        "JPMorgan's Jamie Dimon issued vague credit recession warning, but the bond market has more pressing issues",
+        "Big Tech earnings show how big, smart spending can be rewarded by the market",
         "The U.S.-Iran war is coming for your credit score and mortgage application",
-        "Airfare amid Iran war: Buy now or wait out the conflict? Experts weigh the risks",
-        "Exxon Mobil CEO expects higher oil prices due to Iran war: \u2018The market hasn\u2019t seen the full impact\u2019",
-        "Trump tells Congress hostilities in Iran 'have terminated' as war powers deadline hits",
-        "Engine trouble ahead? How the Strait of Hormuz standoff threatens luxury auto giants"
+        "Airfare amid Iran war: Buy now or wait out the conflict? Experts weigh the risks"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 13.1,
-      "sources": "Bloomberg(7), CNBC(6), Yahoo(2), MarketWatch(1)",
+      "count": 15,
+      "pct": 12.4,
+      "sources": "CNBC(5), Yahoo(5), MarketWatch(3), Google News(1), FT(1)",
       "sample_headlines": [
-        "Spirit Airlines shuts down after failing to reach a bailout deal, ending discount travel era",
+        "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+        "Top Wall Street analysts like these 3 stocks for their long-term prospects",
         "Spirit Airlines shut down. Here's what travelers need to know if they have tickets",
-        "The S&P 500 and Nasdaq kept their record rallies going. Here are 3 key takeaways",
-        "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz"
+        "Healthcare cost surge makes parental paid leave benefits a target for workplace cuts",
+        "Spirit Airlines shuts down after failing to reach a bailout deal, ending discount travel era"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 7.4,
-      "sources": "Bloomberg(5), Yahoo(2), CNBC(1), MarketWatch(1)",
+      "count": 12,
+      "pct": 9.9,
+      "sources": "Bloomberg(6), Yahoo(4), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Exxon Mobil CEO expects higher oil prices due to Iran war: \u2018The market hasn\u2019t seen the full impact\u2019",
-        "These 3 companies are keeping the lights on for AI\u2019s energy demand \u2014 and cashing in",
-        "UAE Departs OPEC as Iran Feel Economic Sting of Blockade",
-        "OPEC+ Provisionally Agrees June Quota Increase, Delegate Says",
-        "Iran Juggles Oil Cuts and Storage Strain to Resist US Blockade"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.4,
-      "sources": "CNBC(3), MarketWatch(2), Bloomberg(2), Yahoo(2)",
-      "sample_headlines": [
-        "Pirro keeps pressure on Fed's Powell despite dropping probe",
-        "Fed dissenters explain 'no' votes, saying they disagreed with hinting next move would be a cut",
-        "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "\u2018We\u2019re all worried the honey pot will run dry\u2019: Does the U.S. government borrow from my Social Security to fund federal programs?",
-        "Higher inflation is on the way. The Fed needs to make this clear before it raises rates."
+        "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+        "OPEC+ announces modest boost in oil production. But here\u2019s why it\u2019s a mostly symbolic move.",
+        "OPEC+ Agrees Symbolic Quota Hike as UAE Touts Oil Investment",
+        "US Is Oil Supplier of Last Resort as Hormuz Disruptions Worsen",
+        "The Energy Source Hiding Beneath Your Feet"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 8,
-      "pct": 6.6,
-      "sources": "Yahoo(5), CNBC(3)",
+      "count": 9,
+      "pct": 7.4,
+      "sources": "Yahoo(5), Bloomberg(3), MarketWatch(1)",
       "sample_headlines": [
-        "Apple's stock gains as company execs cite iPhone, Mac demand in boosting guidance",
-        "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
-        "Alphabet is winning the AI revolution. Here's how Mike Khouw is trading it",
-        "Mark Zuckerberg sends startling message to Meta employees",
-        "Google just had its best month since 2004"
+        "The market is riding high on an AI spending boom \u2014 but what could crack this rally?",
+        "Traders Grapple With Two-Sided Tail Risk as Stocks Regain Highs",
+        "US Navy Taps AI Firm to Clear Iranian Mines in Strait of Hormuz",
+        "Big Tech Earnings Show Split Between AI Trade Winners and Losers",
+        "Mark Zuckerberg sends startling message to Meta employees"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "CNBC(3), Bloomberg(1)",
+      "count": 5,
+      "pct": 4.1,
+      "sources": "CNBC(2), Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
+        "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
         "Trump says he's raising EU auto tariffs to 25%",
-        "UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz",
-        "Trump scraps Scotch whisky tariffs \u2018in honor\u2019 of King Charles",
-        "Beijing Tells Chinese Firms to Ignore US Sanctions on Refiners"
+        "Ukraine Says Russia\u2019s Primorsk Oil Export Port Damaged in Attack",
+        "Beijing Tells China Firms to Ignore US Sanctions on Refiners",
+        "UAE exits Arab oil exporters alliance OAPEC following OPEC departure"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Fed / Rates / Inflation",
       "count": 4,
       "pct": 3.3,
-      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable",
-        "Adam \u2018Not Satoshi\u2019 Back Is at Peace With Wall Street Crypto Era",
-        "Is \"The Great Rotation\" Back to Crypto Going to Happen Soon?",
-        "Elon Musk Says Most Cryptocurrencies Are 'Scams,' While Some Have 'Merit' During OpenAI Trial: Report"
+        "Pirro appears to drop plans to appeal criminal investigation of Fed Chair Powell",
+        "\u2018We\u2019re all worried the honey pot will run dry\u2019: Does the U.S. government borrow from my Social Security to fund federal programs?",
+        "Bond Traders Look to Treasury Refunding, Fed Speakers and Jobs",
+        "Philippines Accuses China of Conducting Illegal Marine Research"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), Google News(1)",
+      "sample_headlines": [
+        "JPMorgan's Jamie Dimon issued vague credit recession warning, but the bond market has more pressing issues",
+        "Top economist Gary Shilling says a recession and a deep stock-market plunge are likely by year-end - Business Insider"
       ]
     },
     {
       "topic": "China",
       "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "pct": 1.7,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Lutnick gets grilling on Nvidia chip sales to China in letter from Sen. Chris Coons",
-        "Beijing Tells Chinese Firms to Ignore US Sanctions on Refiners"
+        "Beijing Tells China Firms to Ignore US Sanctions on Refiners",
+        "Philippines Accuses China of Conducting Illegal Marine Research"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Higher gas prices are eating into Americans' tax refunds"
+        "Treasury Market on Watch for Shift in Yellen-Era Debt Playbook",
+        "Bond Traders Look to Treasury Refunding, Fed Speakers and Jobs"
       ]
     }
   ]
