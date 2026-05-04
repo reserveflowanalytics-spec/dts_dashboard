@@ -1,60 +1,23 @@
 {
-  "as_of": "2026-04-30",
-  "computed_at": "2026-05-03T21:01:15Z",
+  "as_of": "2026-05-01",
+  "computed_at": "2026-05-04T21:02:06Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
   "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
   "signals": {
-    "fiscal_regime": "Restrictive",
+    "fiscal_regime": "Neutral",
     "tech_regime": "bullish",
     "tech_close": 7257.5,
     "tech_sma20": 7043.75,
-    "rs_conviction_level": "unknown",
-    "rs_conviction_label": "Moderate \u2014 7/11 pairs aligned with regime",
-    "rs_aligned_pairs": "7/11",
+    "rs_conviction_level": "low",
+    "rs_conviction_label": "Low \u2014 only 0/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "0/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
-  "overweight_pairs": [
-    {
-      "pair": "XLY/XLP",
-      "rationale": "Consumer discretionary vs staples",
-      "roc_20d": 4.14
-    },
-    {
-      "pair": "XLY/XLV",
-      "rationale": "Discretionary vs healthcare",
-      "roc_20d": 9.07
-    },
-    {
-      "pair": "HYG/TLT",
-      "rationale": "Credit risk appetite vs duration safety",
-      "roc_20d": 2.03
-    },
-    {
-      "pair": "IWM/SPY",
-      "rationale": "Small cap vs large cap",
-      "roc_20d": 1.55
-    }
-  ],
-  "underweight_pairs": [
-    {
-      "pair": "XLE/XLK",
-      "rationale": "Energy vs tech",
-      "roc_20d": -14.44
-    },
-    {
-      "pair": "GLD/SPY",
-      "rationale": "Hard asset vs equity",
-      "roc_20d": -11.77
-    },
-    {
-      "pair": "XLB/XLRE",
-      "rationale": "Materials vs real estate",
-      "roc_20d": -5.92
-    }
-  ],
+  "overweight_pairs": [],
+  "underweight_pairs": [],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
   "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
 }
