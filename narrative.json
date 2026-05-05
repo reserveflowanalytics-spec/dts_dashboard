@@ -1,123 +1,113 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 121,
-  "fetched_at": "2026-05-04T21:01:51.221162+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 128,
+  "fetched_at": "2026-05-05T21:01:35.048319+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 16,
-      "pct": 13.2,
-      "sources": "Bloomberg(6), CNBC(5), FT(2), Yahoo(2), MarketWatch(1)",
+      "count": 20,
+      "pct": 15.6,
+      "sources": "CNBC(9), Bloomberg(6), FT(3), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz",
-        "Oil prices jump after Iran attacks UAE as U.S. tries to open Strait of Hormuz",
-        "Circle jumps nearly 20% on Clarity Act compromise that preserves stablecoin rewards",
-        "\u2018Misplaced euphoria\u2019: Markets are sleepwalking into a recession amid Iran war oil price shock",
-        "Warsh's take on Fed independence is met with confusion and some concern"
+        "U.S. says 'Project Freedom' will reopen Hormuz Strait for commerce. Experts are skeptical",
+        "Iran doesn\u2019t have \u2018kamikaze dolphins,\u2019 Hegseth says. But marine mammals have a long history of military use",
+        "Data suggests 'hiring recession' may be behind us \u2014 but the Iran war poses job market risks",
+        "Anthropic CEO warns of cyber \u2018moment of danger\u2019 as AI exposes thousands of vulnerabilities",
+        "Hegseth says 'the ceasefire is not over' after U.S., Iran exchange fire"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 11.6,
-      "sources": "Yahoo(5), CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
+      "count": 17,
+      "pct": 13.3,
+      "sources": "Yahoo(6), Bloomberg(5), CNBC(3), FT(3)",
       "sample_headlines": [
-        "Musk texted OpenAI's Brockman about settlement two days before trial began",
-        "Anthropic teams with Goldman, Blackstone and others on $1.5 billion AI venture targeting PE-owned firms",
-        "UPS, FedEx stocks sink after Amazon expands logistics network to other businesses",
-        "Meta's public nuisance case in New Mexico has billion-dollar consequences",
-        "Palantir posts its fastest revenue growth ever while calling out \u2018AI slop\u2019"
+        "Anthropic CEO warns of cyber \u2018moment of danger\u2019 as AI exposes thousands of vulnerabilities",
+        "Microsoft Xbox CEO overhauls leadership amid sinking sales: 'We need to evolve how we work'",
+        "Trump admin moves further into AI oversight, will test Google, Microsoft and xAI models",
+        "Meta plans advanced \u2018agentic\u2019 AI assistant for consumers",
+        "Meta and Zuckerberg sued by publishers over \u2018massive\u2019 copyright infringement"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 10.7,
-      "sources": "CNBC(3), FT(3), Bloomberg(3), Yahoo(3), MarketWatch(1)",
+      "count": 16,
+      "pct": 12.5,
+      "sources": "Yahoo(8), Bloomberg(4), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Pinterest surges 17% after earnings beat as company posts strong guidance",
-        "What's behind Eli Lilly's down-and-up day after last week's post-earnings surge",
-        "The market's next test could come down to two stocks",
-        "\u2018The numbers don\u2019t lie\u2019: If I had invested my Social Security in the S&P 500 I\u2019d have $4 million. Is the system broken?",
-        "The law firm that shaped Wall Street and the world"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 9.1,
-      "sources": "Bloomberg(4), CNBC(3), Yahoo(3), MarketWatch(1)",
-      "sample_headlines": [
-        "Pirro abandons plan to appeal Powell subpoenas in Fed investigation",
-        "UPS, FedEx stocks sink after Amazon expands logistics network to other businesses",
-        "Warsh's take on Fed independence is met with confusion and some concern",
-        "Amazon is taking on FedEx and UPS. That may not be so simple.",
-        "Gold Falls as Flare-Up of Hormuz Tensions Fuels Inflation Risks"
+        "Micron zooms past $700 billion market cap as rally in memory stocks accelerates",
+        "Ford\u2019s secret EV unit emerges from shadows, still bullish on new pickup amid market slowdown",
+        "Super Micro\u2019s stock surges as Wall Street cheers a margin recovery",
+        "Global oil reserves plunge at record pace as Middle East war strains supplies",
+        "Fresh AI Disruption Selloff Hits Thomson Reuters Despite Strong Results"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 7.4,
-      "sources": "Bloomberg(4), CNBC(2), MarketWatch(2), FT(1)",
+      "count": 13,
+      "pct": 10.2,
+      "sources": "Bloomberg(5), CNBC(4), Yahoo(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Oil prices jump after Iran attacks UAE as U.S. tries to open Strait of Hormuz",
-        "\u2018Misplaced euphoria\u2019: Markets are sleepwalking into a recession amid Iran war oil price shock",
-        "The secret to lowering gas prices in the U.S.? Selling American oil overseas.",
-        "Global oil prices top $114 and settle at 4-year high after Iranian attacks on U.A.E. revive worries of further supply disruptions",
-        "The oil price crunch is looming"
+        "Gold and oil have been two of the hottest trades of the past one year. One of them has to break",
+        "Johnson & Johnson reaches a milestone for one of its most exciting pipeline products",
+        "Oil prices fall after U.S. says Iran ceasefire remains in place despite UAE attacks",
+        "Central banks risk a recession by raising rates to tackle Iran oil shock, strategist warns",
+        "This narrow shipping lane is how Trump now wants oil tankers to navigate the Strait of Hormuz"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "Yahoo(3), Bloomberg(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 9,
+      "pct": 7.0,
+      "sources": "CNBC(3), Yahoo(3), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
-        "Treasury Market on Watch for Shift in Yellen-Era Debt Plan",
-        "IRS Crypto Tax Relief Could Create Two Versions of the Same Trade",
-        "A Couple With $3.5 Million Discovers State Estate Taxes Could Cost Their Kids Six Figures",
-        "Warren Buffett once bragged he could fix the deficit \u2018in 5 minutes\u2019 \u2014 And Elon Musk agrees. Could it actually work?"
+        "Jerome Powell making a 'significant mistake' by staying on at the Fed, Sen. Tim Scott says",
+        "Should you buy Series I bonds amid higher inflation? What experts say",
+        "Pirro changes course in Fed investigation, move unlikely to satisfy Powell",
+        "The food inflation crisis will soon be all investors are talking about",
+        "This narrow shipping lane is how Trump now wants oil tankers to navigate the Strait of Hormuz"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "CNBC(4)",
+      "sample_headlines": [
+        "Data suggests 'hiring recession' may be behind us \u2014 but the Iran war poses job market risks",
+        "After Coinbase, prediction market traders forecast more tech layoffs ahead",
+        "Ford\u2019s secret EV unit emerges from shadows, still bullish on new pickup amid market slowdown",
+        "Central banks risk a recession by raising rates to tackle Iran oil shock, strategist warns"
       ]
     },
     {
       "topic": "Crypto",
       "count": 3,
-      "pct": 2.5,
-      "sources": "Yahoo(2), FT(1)",
+      "pct": 2.3,
+      "sources": "Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "Trump family crypto venture sues major backer for defamation",
-        "IRS Crypto Tax Relief Could Create Two Versions of the Same Trade",
+        "Strategy Survives Another Bitcoin Crash With More Alchemy",
+        "Embrace AI or Get Left Behind: Job Cuts Sweep Through Crypto Firms",
         "Bitcoin and ethereum prices today, Monday, May 4, 2026: Bitcoin tops $80,000, then pulls back"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "pct": 1.6,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "\u2018Misplaced euphoria\u2019: Markets are sleepwalking into a recession amid Iran war oil price shock",
-        "Europe Is Facing Stagflationary Shock, EU\u2019s Dombrovskis Says"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), FT(1)",
-      "sample_headlines": [
-        "How Chinese carmaker Geely put roots in the U.S.",
-        "China is building soft power as Trump burns bridges"
+        "Saudi Arabia Sees Widest Deficit Since 2018 on More Spending",
+        "Stephen Jen Warns of Fiscal Risk to US Dollar, Bond Haven Status"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Which stocks do I actually own? Why experts say it's important to know"
+        "US Natural Gas Futures Fall on Lower Supply to LNG Export Plants"
       ]
     }
   ]

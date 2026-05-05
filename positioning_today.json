@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-05-01",
-  "computed_at": "2026-05-04T21:02:06Z",
+  "as_of": "2026-05-04",
+  "computed_at": "2026-05-05T21:01:49Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,8 +8,8 @@
   "signals": {
     "fiscal_regime": "Neutral",
     "tech_regime": "bullish",
-    "tech_close": 7257.5,
-    "tech_sma20": 7043.75,
+    "tech_close": 7231.0,
+    "tech_sma20": 7072.65,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 0/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "0/11",
