@@ -1,113 +1,112 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 128,
-  "fetched_at": "2026-05-05T21:01:35.048319+00:00",
+  "total_headlines": 130,
+  "fetched_at": "2026-05-06T21:01:20.616965+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
       "count": 20,
-      "pct": 15.6,
-      "sources": "CNBC(9), Bloomberg(6), FT(3), MarketWatch(1), Yahoo(1)",
+      "pct": 15.4,
+      "sources": "CNBC(9), Bloomberg(8), FT(3)",
       "sample_headlines": [
-        "U.S. says 'Project Freedom' will reopen Hormuz Strait for commerce. Experts are skeptical",
-        "Iran doesn\u2019t have \u2018kamikaze dolphins,\u2019 Hegseth says. But marine mammals have a long history of military use",
-        "Data suggests 'hiring recession' may be behind us \u2014 but the Iran war poses job market risks",
-        "Anthropic CEO warns of cyber \u2018moment of danger\u2019 as AI exposes thousands of vulnerabilities",
-        "Hegseth says 'the ceasefire is not over' after U.S., Iran exchange fire"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 17,
-      "pct": 13.3,
-      "sources": "Yahoo(6), Bloomberg(5), CNBC(3), FT(3)",
-      "sample_headlines": [
-        "Anthropic CEO warns of cyber \u2018moment of danger\u2019 as AI exposes thousands of vulnerabilities",
-        "Microsoft Xbox CEO overhauls leadership amid sinking sales: 'We need to evolve how we work'",
-        "Trump admin moves further into AI oversight, will test Google, Microsoft and xAI models",
-        "Meta plans advanced \u2018agentic\u2019 AI assistant for consumers",
-        "Meta and Zuckerberg sued by publishers over \u2018massive\u2019 copyright infringement"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 12.5,
-      "sources": "Yahoo(8), Bloomberg(4), CNBC(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Micron zooms past $700 billion market cap as rally in memory stocks accelerates",
-        "Ford\u2019s secret EV unit emerges from shadows, still bullish on new pickup amid market slowdown",
-        "Super Micro\u2019s stock surges as Wall Street cheers a margin recovery",
-        "Global oil reserves plunge at record pace as Middle East war strains supplies",
-        "Fresh AI Disruption Selloff Hits Thomson Reuters Despite Strong Results"
+        "Snap issues cautious guidance as Perplexity deal ends, Middle East 'geopolitical situation' causes uncertainty",
+        "Apollo CEO Rowan warns of market correction, slams 'egregious' practices at rival insurers",
+        "Warner Bros. Discovery books $2.9 billion net loss tied to Paramount deal, restructuring costs",
+        "Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe",
+        "Trump says Iran will be bombed at a 'much higher level' if it doesn't agree to peace deal"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 13,
-      "pct": 10.2,
-      "sources": "Bloomberg(5), CNBC(4), Yahoo(2), MarketWatch(1), FT(1)",
+      "count": 14,
+      "pct": 10.8,
+      "sources": "Yahoo(6), CNBC(3), Bloomberg(3), FT(2)",
       "sample_headlines": [
-        "Gold and oil have been two of the hottest trades of the past one year. One of them has to break",
-        "Johnson & Johnson reaches a milestone for one of its most exciting pipeline products",
-        "Oil prices fall after U.S. says Iran ceasefire remains in place despite UAE attacks",
-        "Central banks risk a recession by raising rates to tackle Iran oil shock, strategist warns",
-        "This narrow shipping lane is how Trump now wants oil tankers to navigate the Strait of Hormuz"
+        "Surging gas prices are hitting lower-income households harder, New York Fed study shows",
+        "Even if an Iran deal calms energy markets, one oil stock can still stand out",
+        "Oil prices fall more than 7% as U.S. and Iran appear close to deal to end war",
+        "US fuel exports hit record in boon for oil companies and threat to Trump",
+        "Why the UAE really left Opec"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 11,
+      "pct": 8.5,
+      "sources": "CNBC(5), MarketWatch(2), FT(2), Yahoo(2)",
+      "sample_headlines": [
+        "Nvidia to invest up to $3.2 billion in Corning as part of massive optical fiber deal with 3 new factories focused on AI",
+        "Will Elon Musk win his lawsuit against Sam Altman's OpenAI? Here's what prediction markets think",
+        "Elon Musk's Terafab chip factory in Texas could cost up to $119 billion, filing shows",
+        "Why Boeing and Honeywell are rallying \u2014 plus, the AI trade gets another boost",
+        "Apple's R&D investments top 10% of sales as AI race creates 'sense of urgency'"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 6.9,
+      "sources": "MarketWatch(3), CNBC(2), Bloomberg(2), Yahoo(2)",
+      "sample_headlines": [
+        "Apollo CEO Rowan warns of market correction, slams 'egregious' practices at rival insurers",
+        "Why Boeing and Honeywell are rallying \u2014 plus, the AI trade gets another boost",
+        "This gold-timing indicator just hit a bottom \u2014 and history says a strong rally is next",
+        "S&P 500 record profits are a double-edged sword \u2014 and it could slash your returns",
+        "The Dow exits correction territory on the way back to 50,000. What fueled its recovery."
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.0,
-      "sources": "CNBC(3), Yahoo(3), MarketWatch(2), Bloomberg(1)",
+      "count": 7,
+      "pct": 5.4,
+      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Jerome Powell making a 'significant mistake' by staying on at the Fed, Sen. Tim Scott says",
-        "Should you buy Series I bonds amid higher inflation? What experts say",
-        "Pirro changes course in Fed investigation, move unlikely to satisfy Powell",
-        "The food inflation crisis will soon be all investors are talking about",
-        "This narrow shipping lane is how Trump now wants oil tankers to navigate the Strait of Hormuz"
+        "Surging gas prices are hitting lower-income households harder, New York Fed study shows",
+        "Private payrolls rose by 109,000 in April, topping expectations, ADP says",
+        "\u2018We\u2019re worried the honey pot will run dry\u2019: Does the government borrow from my Social Security to fund federal programs?",
+        "Gold, Silver Surge as US-Iran Truce Hopes Ease Inflation Risks",
+        "Elite M&amp;A Lawyers Fed Massive Insider-Trading Ring, US Alleges"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "Fiscal / Government spending",
       "count": 4,
       "pct": 3.1,
-      "sources": "CNBC(4)",
+      "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "Data suggests 'hiring recession' may be behind us \u2014 but the Iran war poses job market risks",
-        "After Coinbase, prediction market traders forecast more tech layoffs ahead",
-        "Ford\u2019s secret EV unit emerges from shadows, still bullish on new pickup amid market slowdown",
-        "Central banks risk a recession by raising rates to tackle Iran oil shock, strategist warns"
+        "Ken Griffin: Citadel expanding in Miami in response to NYC mayor Mamdani's 'poor taste' tax video",
+        "Canada\u2019s Carbon Tax Hinders Pipeline Plans, Cenovus CEO Says",
+        "Treasury Repo Trading Debate Spurs Big Wagers on Lending Rates",
+        "Foreign Demand for Treasury Debt Is Stalling, Trade Group Says"
       ]
     },
     {
       "topic": "Crypto",
       "count": 3,
       "pct": 2.3,
-      "sources": "Bloomberg(2), Yahoo(1)",
+      "sources": "Yahoo(3)",
       "sample_headlines": [
-        "Strategy Survives Another Bitcoin Crash With More Alchemy",
-        "Embrace AI or Get Left Behind: Job Cuts Sweep Through Crypto Firms",
-        "Bitcoin and ethereum prices today, Monday, May 4, 2026: Bitcoin tops $80,000, then pulls back"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Bloomberg(2)",
-      "sample_headlines": [
-        "Saudi Arabia Sees Widest Deficit Since 2018 on More Spending",
-        "Stephen Jen Warns of Fiscal Risk to US Dollar, Bond Haven Status"
+        "Crypto Exchange Bullish Buys Equiniti For $4.2 Billion",
+        "VC Firm Andreessen Horowitz Launches $2.2 Billion Crypto Fund",
+        "Standard Chartered Takes Stake In Crypto Trading Firm GSR"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "US Natural Gas Futures Fall on Lower Supply to LNG Export Plants"
+        "US fuel exports hit record in boon for oil companies and threat to Trump"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "FT(1)",
+      "sample_headlines": [
+        "Chinese AI start-up DeepSeek nears $45bn valuation"
       ]
     }
   ]
