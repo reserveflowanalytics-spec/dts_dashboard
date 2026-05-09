@@ -1,13 +1,13 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 119,
-  "fetched_at": "2026-05-09T17:49:05.526164+00:00",
+  "total_headlines": 121,
+  "fetched_at": "2026-05-09T21:01:02.951394+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 24,
-      "pct": 20.2,
-      "sources": "Bloomberg(10), CNBC(6), FT(4), Yahoo(3), MarketWatch(1)",
+      "count": 22,
+      "pct": 18.2,
+      "sources": "Bloomberg(10), CNBC(6), FT(3), Yahoo(3)",
       "sample_headlines": [
         "The Iran war will change global energy markets in these important ways, oil executives say",
         "Iran focus at Trump-Xi summit may delay progress on tariffs, rare earths",
@@ -17,61 +17,22 @@
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 12,
-      "pct": 10.1,
-      "sources": "Yahoo(6), CNBC(4), MarketWatch(2)",
-      "sample_headlines": [
-        "Nvidia embraces role of AI investor, pushing past $40 billion in equity bets this year",
-        "How to take control of the AI data center boom and built it into your own home in the future",
-        "What an Apple deal to buy Intel chips would mean for the iPhone maker",
-        "Micron surges nearly 38% on week as memory chip rally goes parabolic",
-        "The most prestigious job in AI has no description"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
       "count": 12,
-      "pct": 10.1,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(2), Yahoo(2), FT(1)",
+      "pct": 9.9,
+      "sources": "CNBC(4), Bloomberg(4), Yahoo(3), FT(1)",
       "sample_headlines": [
+        "S&P 500 extends winning streak to 6 weeks. What drove the stock market gains",
         "Rocket Lab surges 34% in best day ever on revenue beat, record-setting launch deal",
         "Micron surges nearly 38% on week as memory chip rally goes parabolic",
         "Virginia Supreme Court strikes down redistricting push in blow to Democrats",
-        "\u2018The S&P 500 seems to be doing particularly well\u2019: I\u2019m 66. Is this a good time to invest $100,000 in the stock market?",
-        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 8.4,
-      "sources": "Yahoo(6), Bloomberg(2), CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "The Federal Reserve is quickly running out of reasons to cut interest rates",
-        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
-        "Goldman Sees Fed Cuts Delayed to December, March on Inflation",
-        "Colombia Inflation Ticks Up, Fueling Case For Renewed Rate Hikes",
-        "Fed official triggers new rate-cut warning"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 8,
-      "pct": 6.7,
-      "sources": "CNBC(3), Bloomberg(3), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "The Iran war will change global energy markets in these important ways, oil executives say",
-        "Consumer sentiment falls to fresh record low in May as surging gas prices hit outlook",
-        "U.S. says it struck two Iran-flagged oil tankers trying to skirt blockade",
-        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
-        "LNG carriers test Iran blockade in Strait of Hormuz"
+        "New York Stock Exchange to open private members\u2019 club on Wall Street"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 8,
-      "pct": 6.7,
+      "pct": 6.6,
       "sources": "CNBC(5), FT(2), Bloomberg(1)",
       "sample_headlines": [
         "The Iran war will change global energy markets in these important ways, oil executives say",
@@ -84,7 +45,7 @@
     {
       "topic": "China",
       "count": 8,
-      "pct": 6.7,
+      "pct": 6.6,
       "sources": "Bloomberg(5), FT(2), CNBC(1)",
       "sample_headlines": [
         "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
@@ -95,15 +56,52 @@
       ]
     },
     {
+      "topic": "Oil / Energy",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "CNBC(3), Bloomberg(3)",
+      "sample_headlines": [
+        "The Iran war will change global energy markets in these important ways, oil executives say",
+        "Consumer sentiment falls to fresh record low in May as surging gas prices hit outlook",
+        "U.S. says it struck two Iran-flagged oil tankers trying to skirt blockade",
+        "DOJ Probing Suspicious Oil Trades Tied To Iran War",
+        "Iran War Is Draining World\u2019s Oil Buffer at an Unprecedented Pace"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "Bloomberg(3), Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "The Federal Reserve is quickly running out of reasons to cut interest rates",
+        "Inflation Drumbeat Persists for Unnerved US Consumer",
+        "Goldman Sees Fed Cuts Delayed to December, March on Inflation",
+        "Colombia Inflation Ticks Up, Fueling Case For Renewed Rate Hikes",
+        "Best high-yield savings interest rates today, May 9, 2026 (Earn up to 4.1% APY)"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "CNBC(3), Yahoo(3)",
+      "sample_headlines": [
+        "Nvidia embraces role of AI investor, pushing past $40 billion in equity bets this year",
+        "How to take control of the AI data center boom and built it into your own home in the future",
+        "Micron surges nearly 38% on week as memory chip rally goes parabolic",
+        "Maravai (MRVI) Q1 2026 Earnings Transcript",
+        "Jim Cramer on Meta: \u201cI Think It\u2019s Time to Stop Worrying and Start Buying\u201d"
+      ]
+    },
+    {
       "topic": "Crypto",
-      "count": 5,
-      "pct": 4.2,
-      "sources": "CNBC(2), Yahoo(2), Bloomberg(1)",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
         "Major crypto bill slated for May 14 Senate Banking Committee vote",
-        "The hottest ETF since bitcoin-mania just added $1 billion in a day",
         "Crypto Industry Throws Lap-Dance Party in Middle of Bear Market",
-        "Trump Media Reports $2.2B in Assets as Crypto Holdings Drive Q1 Loss",
         "Bitcoin and ethereum prices today, Friday, May 8, 2026: Prices holding following strong jobs report"
       ]
     },
