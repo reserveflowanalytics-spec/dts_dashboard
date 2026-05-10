@@ -1,108 +1,105 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 121,
-  "fetched_at": "2026-05-09T21:01:02.951394+00:00",
+  "total_headlines": 123,
+  "fetched_at": "2026-05-10T21:00:49.021473+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 22,
-      "pct": 18.2,
-      "sources": "Bloomberg(10), CNBC(6), FT(3), Yahoo(3)",
+      "count": 21,
+      "pct": 17.1,
+      "sources": "Bloomberg(10), CNBC(5), Yahoo(4), FT(2)",
       "sample_headlines": [
+        "Netanyahu says Iran war is 'not over' as Trump rejects latest Iranian offer",
+        "Retailers are on a hiring spree. But consumers are sending warning signs",
+        "Saudi Aramco Q1 profit jumps 26% as key pipeline reaches capacity amid Iran war",
         "The Iran war will change global energy markets in these important ways, oil executives say",
-        "Iran focus at Trump-Xi summit may delay progress on tariffs, rare earths",
-        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
-        "Virginia Supreme Court strikes down redistricting push in blow to Democrats",
-        "U.S. says it struck two Iran-flagged oil tankers trying to skirt blockade"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 9.9,
-      "sources": "CNBC(4), Bloomberg(4), Yahoo(3), FT(1)",
-      "sample_headlines": [
-        "S&P 500 extends winning streak to 6 weeks. What drove the stock market gains",
-        "Rocket Lab surges 34% in best day ever on revenue beat, record-setting launch deal",
-        "Micron surges nearly 38% on week as memory chip rally goes parabolic",
-        "Virginia Supreme Court strikes down redistricting push in blow to Democrats",
-        "New York Stock Exchange to open private members\u2019 club on Wall Street"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 8,
-      "pct": 6.6,
-      "sources": "CNBC(5), FT(2), Bloomberg(1)",
-      "sample_headlines": [
-        "The Iran war will change global energy markets in these important ways, oil executives say",
-        "Iran focus at Trump-Xi summit may delay progress on tariffs, rare earths",
-        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
-        "Whisky business: Investors pin hopes on Trump\u2019s Scotch tariff reversal after dire three years",
-        "Trump threatens EU with \u2018much higher\u2019 tariffs if no trade deal signed by new deadline"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 8,
-      "pct": 6.6,
-      "sources": "Bloomberg(5), FT(2), CNBC(1)",
-      "sample_headlines": [
-        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
-        "US imposes sanctions on Chinese companies for allegedly helping Iran",
-        "China\u2019s exports jump 14% ahead of Xi-Trump summit",
-        "China Summit Stays on Track Despite Iran Concerns",
-        "\"China is Just Watching\": Ro Khanna on Why the Iran Conflict is a Gift to Beijing"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.0,
-      "sources": "CNBC(3), Bloomberg(3)",
-      "sample_headlines": [
-        "The Iran war will change global energy markets in these important ways, oil executives say",
-        "Consumer sentiment falls to fresh record low in May as surging gas prices hit outlook",
-        "U.S. says it struck two Iran-flagged oil tankers trying to skirt blockade",
-        "DOJ Probing Suspicious Oil Trades Tied To Iran War",
-        "Iran War Is Draining World\u2019s Oil Buffer at an Unprecedented Pace"
+        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 5.0,
-      "sources": "Bloomberg(3), Yahoo(2), CNBC(1)",
+      "count": 13,
+      "pct": 10.6,
+      "sources": "Yahoo(6), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
+        "With Netflix new ad-free standard plan at $20, streaming's tipping point into old TV is getting closer",
         "The Federal Reserve is quickly running out of reasons to cut interest rates",
-        "Inflation Drumbeat Persists for Unnerved US Consumer",
-        "Goldman Sees Fed Cuts Delayed to December, March on Inflation",
-        "Colombia Inflation Ticks Up, Fueling Case For Renewed Rate Hikes",
-        "Best high-yield savings interest rates today, May 9, 2026 (Earn up to 4.1% APY)"
+        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
+        "Iran war could prompt Federal Reserve to raise rates, Pimco says",
+        "Taking Stock of Jerome Powell\u2019s Fed Chair Term"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 11,
+      "pct": 8.9,
+      "sources": "Bloomberg(5), CNBC(2), Yahoo(2), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Saudi Aramco Q1 profit jumps 26% as key pipeline reaches capacity amid Iran war",
+        "The Iran war will change global energy markets in these important ways, oil executives say",
+        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
+        "How top Wall Street law firms became a pipeline for insider trading",
+        "Qatar Sends First LNG Shipment Through Hormuz Since War Started"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 6,
-      "pct": 5.0,
-      "sources": "CNBC(3), Yahoo(3)",
+      "count": 10,
+      "pct": 8.1,
+      "sources": "Yahoo(5), MarketWatch(2), CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
         "Nvidia embraces role of AI investor, pushing past $40 billion in equity bets this year",
-        "How to take control of the AI data center boom and built it into your own home in the future",
-        "Micron surges nearly 38% on week as memory chip rally goes parabolic",
-        "Maravai (MRVI) Q1 2026 Earnings Transcript",
-        "Jim Cramer on Meta: \u201cI Think It\u2019s Time to Stop Worrying and Start Buying\u201d"
+        "Big Tech\u2019s AI spending is depriving investors of juicy payouts",
+        "As Nvidia earnings draw closer, here are 5 things investors need to watch",
+        "OpenAI trial lays bare rivalries behind start-up\u2019s $852bn rise",
+        "AI Wins Have Alphabet Poised to Become World\u2019s Biggest Company"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 8,
+      "pct": 6.5,
+      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Alphabet's 160% rally in a year reflects value of owning 'most of the stack' in AI",
+        "Top Wall Street analysts recommend these 3 dividend stocks for stable income",
+        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
+        "\u2018The S&P 500 seems to be doing particularly well\u2019: I\u2019m 66. Is this a good time to invest $100,000 in the stock market?",
+        "How top Wall Street law firms became a pipeline for insider trading"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 5,
+      "pct": 4.1,
+      "sources": "CNBC(3), Bloomberg(2)",
+      "sample_headlines": [
+        "The Iran war will change global energy markets in these important ways, oil executives say",
+        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
+        "Whisky business: Investors pin hopes on Trump\u2019s Scotch tariff reversal after dire three years",
+        "Trump's Latest 10% Tariffs Declared Unlawful by US Trade",
+        "Spice Company Wins Suit Over 10% Trump Global Tariffs"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
+        "Trump\u2019s war has given China an economic opening",
+        "Trump, Xi Set to Meet for High-Stakes Meeting in Beijing"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "Major crypto bill slated for May 14 Senate Banking Committee vote",
-        "Crypto Industry Throws Lap-Dance Party in Middle of Bear Market",
-        "Bitcoin and ethereum prices today, Friday, May 8, 2026: Prices holding following strong jobs report"
+        "SEC delay on prediction markets ETFs echoes a long-fought bitcoin fund battle",
+        "Major crypto bill slated for May 14 Senate Banking Committee vote"
       ]
     },
     {
