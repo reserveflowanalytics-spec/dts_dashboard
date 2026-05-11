@@ -1,114 +1,115 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 123,
-  "fetched_at": "2026-05-10T21:00:49.021473+00:00",
+  "total_headlines": 122,
+  "fetched_at": "2026-05-11T21:01:23.203565+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
       "count": 21,
-      "pct": 17.1,
-      "sources": "Bloomberg(10), CNBC(5), Yahoo(4), FT(2)",
+      "pct": 17.2,
+      "sources": "Bloomberg(8), CNBC(5), FT(4), Yahoo(3), Google News(1)",
       "sample_headlines": [
-        "Netanyahu says Iran war is 'not over' as Trump rejects latest Iranian offer",
-        "Retailers are on a hiring spree. But consumers are sending warning signs",
-        "Saudi Aramco Q1 profit jumps 26% as key pipeline reaches capacity amid Iran war",
-        "The Iran war will change global energy markets in these important ways, oil executives say",
-        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 13,
-      "pct": 10.6,
-      "sources": "Yahoo(6), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "With Netflix new ad-free standard plan at $20, streaming's tipping point into old TV is getting closer",
-        "The Federal Reserve is quickly running out of reasons to cut interest rates",
-        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
-        "Iran war could prompt Federal Reserve to raise rates, Pimco says",
-        "Taking Stock of Jerome Powell\u2019s Fed Chair Term"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 11,
-      "pct": 8.9,
-      "sources": "Bloomberg(5), CNBC(2), Yahoo(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Saudi Aramco Q1 profit jumps 26% as key pipeline reaches capacity amid Iran war",
-        "The Iran war will change global energy markets in these important ways, oil executives say",
-        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
-        "How top Wall Street law firms became a pipeline for insider trading",
-        "Qatar Sends First LNG Shipment Through Hormuz Since War Started"
+        "Trump says Iran ceasefire is 'on life support' after rejecting Tehran's counterproposal",
+        "Google says it likely thwarted effort by hacker group to use AI for 'mass exploitation event'",
+        "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists",
+        "Trump, congressional Republicans float suspending federal gas tax amid Iran war",
+        "Redistricting war isn't over, Democrats say as Jeffries calls a meeting this week"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 10,
-      "pct": 8.1,
-      "sources": "Yahoo(5), MarketWatch(2), CNBC(1), FT(1), Bloomberg(1)",
+      "count": 20,
+      "pct": 16.4,
+      "sources": "CNBC(10), Yahoo(6), MarketWatch(3), FT(1)",
       "sample_headlines": [
-        "Nvidia embraces role of AI investor, pushing past $40 billion in equity bets this year",
-        "Big Tech\u2019s AI spending is depriving investors of juicy payouts",
-        "As Nvidia earnings draw closer, here are 5 things investors need to watch",
-        "OpenAI trial lays bare rivalries behind start-up\u2019s $852bn rise",
-        "AI Wins Have Alphabet Poised to Become World\u2019s Biggest Company"
+        "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
+        "Google says it likely thwarted effort by hacker group to use AI for 'mass exploitation event'",
+        "OpenAI revenue chief Dresser says enterprise AI adoption is 'at a tipping point'",
+        "Parabolic AI rally has bulls eyeing a comeback for this one-time meme metal trade",
+        "Former Tesla CFO Deepak Ahuja joins EV battery recycler Redwood Materials"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 6.5,
-      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), FT(1), Bloomberg(1)",
+      "count": 15,
+      "pct": 12.3,
+      "sources": "Yahoo(6), CNBC(5), Bloomberg(2), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Alphabet's 160% rally in a year reflects value of owning 'most of the stack' in AI",
-        "Top Wall Street analysts recommend these 3 dividend stocks for stable income",
-        "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
-        "\u2018The S&P 500 seems to be doing particularly well\u2019: I\u2019m 66. Is this a good time to invest $100,000 in the stock market?",
-        "How top Wall Street law firms became a pipeline for insider trading"
+        "Parabolic AI rally has bulls eyeing a comeback for this one-time meme metal trade",
+        "Chip stocks continue to surge. Here's how to buy one for less",
+        "\u2018The haters will hate\u2019: Dan Ives predicts Nasdaq 30,000 as AI rally expands",
+        "Hantavirus cases spark brief surge in pharma and biotech stocks \u2014 here\u2019s why trading is so volatile",
+        "Micron shares are rising again despite weak overall market. Why memory chip rally seems unstoppable"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 5,
-      "pct": 4.1,
-      "sources": "CNBC(3), Bloomberg(2)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 11,
+      "pct": 9.0,
+      "sources": "Bloomberg(4), Yahoo(4), CNBC(3)",
       "sample_headlines": [
-        "The Iran war will change global energy markets in these important ways, oil executives say",
-        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
-        "Whisky business: Investors pin hopes on Trump\u2019s Scotch tariff reversal after dire three years",
-        "Trump's Latest 10% Tariffs Declared Unlawful by US Trade",
-        "Spice Company Wins Suit Over 10% Trump Global Tariffs"
+        "OpenAI revenue chief Dresser says enterprise AI adoption is 'at a tipping point'",
+        "Trump, congressional Republicans float suspending federal gas tax amid Iran war",
+        "Congress and retailers want to rebuild national parks. Tolls on federal roads might pay for it",
+        "US Stocks Advance on Earnings Momentum Ahead of CPI Reading",
+        "Goldman, BofA Delay Fed Cut Calls After \u2018Last Straw\u2019 Jobs Data"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 6,
+      "pct": 4.9,
+      "sources": "Bloomberg(4), CNBC(2)",
+      "sample_headlines": [
+        "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists",
+        "High gas prices are hurting restaurant sales \u2014 but not all chains",
+        "Oil Climbs as US-Iran Deadlock Lifts Bond Yields: Markets Wrap",
+        "Oil Climbs as Trump Says US-Iran Ceasefire on \u2018Life Support\u2019",
+        "Fervo Energy Boosts IPO Target to $1.8 Billion"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "count": 5,
+      "pct": 4.1,
+      "sources": "CNBC(2), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
-        "Trump\u2019s war has given China an economic opening",
-        "Trump, Xi Set to Meet for High-Stakes Meeting in Beijing"
+        "Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",
+        "A beat-and-raise is key for Qnity \u2014 plus, high stakes for CEOs on Trump China trip",
+        "As Trump heads to China, here\u2019s how much the dollar is overvalued, according to Goldman Sachs",
+        "Trump to press China\u2019s Xi about Iran war at summit",
+        "Crop Futures Advance Ahead of Key USDA Report, China Summit"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "CNBC(3), FT(1)",
+      "sample_headlines": [
+        "Trump, congressional Republicans float suspending federal gas tax amid Iran war",
+        "The wealthy keep buying Manhattan real estate despite potential pied-\u00e0-terre tax",
+        "IRS may owe millions of taxpayers refunds for pandemic-era penalty relief. How to file a claim",
+        "US to consider suspending petrol tax as Iran war pushes up prices"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
       "pct": 1.6,
-      "sources": "CNBC(2)",
+      "sources": "MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "SEC delay on prediction markets ETFs echoes a long-fought bitcoin fund battle",
-        "Major crypto bill slated for May 14 Senate Banking Committee vote"
+        "Strategy\u2019s Michael Saylor raps about how he gets shareholders to pay for bitcoin buys",
+        "Bitcoin and ethereum prices today, Monday, May 11, 2026: Bitcoin's strongest opening in months"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Dying with a health savings account can leave a tax bomb for heirs"
+        "Hassett says AI isn't costing anybody their job right now \u2014 but tech layoffs keep coming"
       ]
     }
   ]
