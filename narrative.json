@@ -1,114 +1,117 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 125,
-  "fetched_at": "2026-05-12T21:00:49.280832+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 128,
+  "fetched_at": "2026-05-13T21:00:58.446934+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 23,
-      "pct": 18.4,
-      "sources": "Yahoo(13), CNBC(3), Bloomberg(3), FT(2), MarketWatch(1), Google News(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 17,
+      "pct": 13.3,
+      "sources": "CNBC(6), Bloomberg(5), MarketWatch(3), FT(3)",
       "sample_headlines": [
-        "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
-        "Qualcomm drops 11% as chip stocks pull back from record AI-driven rally",
-        "AI super rally has retail investors acting the most aggressive since trading frenzy during Covid",
-        "This bearish \u2018key reversal\u2019 chart pattern could be why chip stocks suffered a rare selloff",
-        "The economic warning stock market bulls are probably forgetting - Yahoo Finance"
+        "Kevin Warsh wins Senate confirmation as the next Federal Reserve chair",
+        "Wholesale inflation jumps 6% in April on annual basis, biggest increase since 2022",
+        "Mortgage rates jump to highest level since March on hotter inflation reports",
+        "Amazon ditches Rufus chatbot, launches Alexa shopping agent in AI strategy pivot",
+        "This stock is our favorite way to hedge against the pickup in inflation"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 22,
-      "pct": 17.6,
-      "sources": "CNBC(7), Bloomberg(6), Yahoo(4), Google News(2), FT(2), MarketWatch(1)",
+      "count": 15,
+      "pct": 11.7,
+      "sources": "CNBC(5), MarketWatch(4), FT(4), Bloomberg(2)",
       "sample_headlines": [
-        "It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas",
-        "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
-        "Trump doesn't need Congress to restart Iran strikes: Hegseth",
-        "Traders will soon be able to bet on computer chip prices as AI drives costs skyward",
-        "Senate confirms Kevin Warsh as Fed governor, clears way for chair vote"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 20,
-      "pct": 16.0,
-      "sources": "Bloomberg(8), CNBC(6), Yahoo(3), FT(2), MarketWatch(1)",
-      "sample_headlines": [
-        "It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas",
-        "Trump wants gas tax relief. But slim driver savings could strain a key federal fund",
-        "Social Security COLA for 2027 may be higher as inflation rises, new estimates find",
-        "Senate confirms Kevin Warsh as Fed governor, clears way for chair vote",
-        "Student loan interest rates are set to rise for 2026-27: Expert analysis"
+        "Kevin Warsh wins Senate confirmation as the next Federal Reserve chair",
+        "AI-driven cyberattacks will start to be the 'new norm' in months, Palo Alto warns",
+        "Jamie Dimon warns JPMorgan may rethink new London office if 'very smart' Starmer is ousted as UK PM",
+        "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges",
+        "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 11.2,
-      "sources": "CNBC(6), MarketWatch(3), Bloomberg(2), Yahoo(2), FT(1)",
+      "count": 15,
+      "pct": 11.7,
+      "sources": "CNBC(6), Bloomberg(4), MarketWatch(3), Yahoo(2)",
       "sample_headlines": [
-        "Google races to put Gemini at the center of Android before Apple\u2019s AI reboot",
-        "Traders will soon be able to bet on computer chip prices as AI drives costs skyward",
-        "An under-the-radar AI stock just delivered the best quarter of the chip sector",
-        "Qualcomm drops 11% as chip stocks pull back from record AI-driven rally",
-        "AI super rally has retail investors acting the most aggressive since trading frenzy during Covid"
+        "Cisco's stock pops 15% on surging AI orders, as company says it's cutting almost 4,000 jobs",
+        "Altman details Musk's OpenAI fallout, says nonprofit was 'left for dead'",
+        "Amazon ditches Rufus chatbot, launches Alexa shopping agent in AI strategy pivot",
+        "Hyperscalers' AI buildout will require massive amounts of energy. Two under-the-radar stocks will benefit",
+        "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 10,
-      "pct": 8.0,
-      "sources": "Bloomberg(6), CNBC(2), MarketWatch(1), Yahoo(1)",
+      "pct": 7.8,
+      "sources": "CNBC(4), Bloomberg(4), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas",
-        "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal",
-        "Meet the Nvidias of power \u2014 5 stocks winning Big Tech\u2019s $700 billion AI energy grab",
-        "S&P 500 & NASDAQ Fall as Oil Jumps | Closing Bell",
-        "Treasuries Fall as Rising Oil Prices Herald Sticky Inflation"
+        "Beer demand stumbles as gas prices surge, data shows",
+        "Hyperscalers' AI buildout will require massive amounts of energy. Two under-the-radar stocks will benefit",
+        "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says",
+        "Oil price spike turmoil far from over, IEA says as inventories are depleted at \u201crecord pace\"",
+        "Meet the Nvidias of power \u2014 5 stocks winning Big Tech\u2019s $700 billion AI energy grab"
       ]
     },
     {
       "topic": "China",
-      "count": 9,
-      "pct": 7.2,
-      "sources": "CNBC(4), Bloomberg(3), MarketWatch(1), Yahoo(1)",
+      "count": 8,
+      "pct": 6.2,
+      "sources": "CNBC(3), FT(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Auto-state lawmakers seek to keep certain Chinese vehicles out of U.S. as Trump heads to Beijing",
-        "Trump is taking more than a dozen U.S. executives to China. Jensen Huang isn't one of them",
-        "Analysis: Iran war hangs over Trump's China trip \u2014 and his presidency",
-        "On Holding beats first-quarter expectations, sees double-digit growth in China as Nike lags",
-        "Boeing could finally reignite its China business. Will that breathe new life into its stock?"
+        "Trump arrives in Beijing with CEOs ahead of Xi meetings",
+        "Bulls bet big on these three China-related stock trades during Trump visit",
+        "Trump in China: Traders predict a tariff truce extension and Boeing aircraft purchases",
+        "What CEOs from Tesla, Nvidia and over a dozen other companies hope to gain by joining Trump in China",
+        "Trump demands Xi \u2018open\u2019 China to US business"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Beer demand stumbles as gas prices surge, data shows",
+        "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges",
+        "Ford\u2019s stock just paced the S&P 500. The carmaker is putting a very Tesla spin on things.",
+        "Here\u2019s how to invest when the stock market gets this concentrated",
+        "Gold Slips as US Inflation Resurgence Raises Odds of Fed Hike"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(3)",
+      "count": 5,
+      "pct": 3.9,
+      "sources": "CNBC(3), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Waymo recalls 3,800 robotaxis after glitch allowed some vehicles to 'drive into standing water'",
-        "Trump wants gas tax relief. But slim driver savings could strain a key federal fund",
-        "New York City Mayor Zohran Mamdani's pied-\u00e0-terre property tax is moving ahead. But will it work?"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "Crypto legislation faces another hurdle: Labor unions",
-        "Bitcoin and ethereum prices today, Monday, May 11, 2026: Bitcoin's strongest opening in months"
+        "Gas tax holiday as Trump promises? Not so fast, trucking, construction industries say",
+        "10-year Treasury yield hits new high for the year after very hot producer prices reading",
+        "New York City Mayor Zohran Mamdani's pied-\u00e0-terre property tax is moving ahead. But will it work?",
+        "Treasury Buyers Get 5% Long Bond for First Time Since 2007",
+        "White House taps Treasury assistant as NCUA\u2019s next chair"
       ]
     },
     {
       "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.3,
+      "sources": "CNBC(2), Yahoo(1)",
+      "sample_headlines": [
+        "Trump in China: Traders predict a tariff truce extension and Boeing aircraft purchases",
+        "India hikes bullion import duties as the world's second-largest gold market faces a declining rupee",
+        "Dawn Meats snaps up German importer Alexander Eyckeler"
+      ]
+    },
+    {
+      "topic": "Crypto",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Companies start getting tariff refunds after Supreme Court decision"
+        "Exodus Movement Sells More Than 1,000 Bitcoin"
       ]
     }
   ]
