@@ -1,117 +1,125 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 128,
-  "fetched_at": "2026-05-13T21:00:58.446934+00:00",
+  "total_headlines": 131,
+  "fetched_at": "2026-05-14T21:00:45.400437+00:00",
   "topics": [
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 17,
-      "pct": 13.3,
-      "sources": "CNBC(6), Bloomberg(5), MarketWatch(3), FT(3)",
+      "topic": "AI / Tech",
+      "count": 18,
+      "pct": 13.7,
+      "sources": "CNBC(7), Bloomberg(4), MarketWatch(3), Yahoo(3), FT(1)",
       "sample_headlines": [
-        "Kevin Warsh wins Senate confirmation as the next Federal Reserve chair",
-        "Wholesale inflation jumps 6% in April on annual basis, biggest increase since 2022",
-        "Mortgage rates jump to highest level since March on hotter inflation reports",
-        "Amazon ditches Rufus chatbot, launches Alexa shopping agent in AI strategy pivot",
-        "This stock is our favorite way to hedge against the pickup in inflation"
+        "Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion",
+        "Ford surges nearly 20% in two days. It might be an AI 'meme' stock after energy pivot",
+        "Some short sellers are seeing opportunity in this tech mania. How they're spotting fake AI stocks",
+        "Musk's China trip during OpenAI trial prompts apology from his lawyer for CEO's absence",
+        "Goldman says tech stock 'up crash' is sign of even more gains to come"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 17,
+      "pct": 13.0,
+      "sources": "Yahoo(10), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion",
+        "Ford surges nearly 20% in two days. It might be an AI 'meme' stock after energy pivot",
+        "Nvidia earnings alone won\u2019t rescue the S&P 500 from its new sell signal",
+        "Self-report fraud and walk free, New York prosecutors tell Wall Street",
+        "AI Rally Crushes Stock Pickers With Just 1 in 4 Beating Market"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 15,
-      "pct": 11.7,
-      "sources": "CNBC(5), MarketWatch(4), FT(4), Bloomberg(2)",
+      "pct": 11.5,
+      "sources": "CNBC(7), Bloomberg(5), FT(3)",
       "sample_headlines": [
-        "Kevin Warsh wins Senate confirmation as the next Federal Reserve chair",
-        "AI-driven cyberattacks will start to be the 'new norm' in months, Palo Alto warns",
-        "Jamie Dimon warns JPMorgan may rethink new London office if 'very smart' Starmer is ousted as UK PM",
-        "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges",
-        "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 15,
-      "pct": 11.7,
-      "sources": "CNBC(6), Bloomberg(4), MarketWatch(3), Yahoo(2)",
-      "sample_headlines": [
-        "Cisco's stock pops 15% on surging AI orders, as company says it's cutting almost 4,000 jobs",
-        "Altman details Musk's OpenAI fallout, says nonprofit was 'left for dead'",
-        "Amazon ditches Rufus chatbot, launches Alexa shopping agent in AI strategy pivot",
-        "Hyperscalers' AI buildout will require massive amounts of energy. Two under-the-radar stocks will benefit",
-        "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 7.8,
-      "sources": "CNBC(4), Bloomberg(4), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "Beer demand stumbles as gas prices surge, data shows",
-        "Hyperscalers' AI buildout will require massive amounts of energy. Two under-the-radar stocks will benefit",
-        "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says",
-        "Oil price spike turmoil far from over, IEA says as inventories are depleted at \u201crecord pace\"",
-        "Meet the Nvidias of power \u2014 5 stocks winning Big Tech\u2019s $700 billion AI energy grab"
+        "Xi warns Trump: Mishandling Taiwan will put U.S.-China relationship in 'great jeopardy'",
+        "Bond market believes Fed behind the curve on inflation as Warsh takes over",
+        "Fed Governor Miran submits resignation, throws support behind Warsh as new chair",
+        "Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed",
+        "Analysis: Trump finally gets his man at the Fed. Will Kevin Warsh disappoint him?"
       ]
     },
     {
       "topic": "China",
+      "count": 15,
+      "pct": 11.5,
+      "sources": "CNBC(7), FT(3), MarketWatch(2), Bloomberg(2), Yahoo(1)",
+      "sample_headlines": [
+        "Xi warns Trump: Mishandling Taiwan will put U.S.-China relationship in 'great jeopardy'",
+        "China will order 200 Boeing jets, Trump tells Fox News",
+        "Chinese parts are already in U.S. cars as lawmakers warn Trump against China auto deal",
+        "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
+        "Musk's China trip during OpenAI trial prompts apology from his lawyer for CEO's absence"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
       "count": 8,
-      "pct": 6.2,
-      "sources": "CNBC(3), FT(2), Bloomberg(2), MarketWatch(1)",
+      "pct": 6.1,
+      "sources": "CNBC(4), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Trump arrives in Beijing with CEOs ahead of Xi meetings",
-        "Bulls bet big on these three China-related stock trades during Trump visit",
-        "Trump in China: Traders predict a tariff truce extension and Boeing aircraft purchases",
-        "What CEOs from Tesla, Nvidia and over a dozen other companies hope to gain by joining Trump in China",
-        "Trump demands Xi \u2018open\u2019 China to US business"
+        "Bond market believes Fed behind the curve on inflation as Warsh takes over",
+        "Fed Governor Miran submits resignation, throws support behind Warsh as new chair",
+        "Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed",
+        "Analysis: Trump finally gets his man at the Fed. Will Kevin Warsh disappoint him?",
+        "Gold Declines as Market Weighs Federal Reserve Rate Path"
       ]
     },
     {
-      "topic": "Equities / Market moves",
+      "topic": "Oil / Energy",
       "count": 7,
-      "pct": 5.5,
-      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), Bloomberg(1)",
+      "pct": 5.3,
+      "sources": "Bloomberg(4), Yahoo(2), CNBC(1)",
       "sample_headlines": [
-        "Beer demand stumbles as gas prices surge, data shows",
-        "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges",
-        "Ford\u2019s stock just paced the S&P 500. The carmaker is putting a very Tesla spin on things.",
-        "Here\u2019s how to invest when the stock market gets this concentrated",
-        "Gold Slips as US Inflation Resurgence Raises Odds of Fed Hike"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 3.9,
-      "sources": "CNBC(3), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Gas tax holiday as Trump promises? Not so fast, trucking, construction industries say",
-        "10-year Treasury yield hits new high for the year after very hot producer prices reading",
-        "New York City Mayor Zohran Mamdani's pied-\u00e0-terre property tax is moving ahead. But will it work?",
-        "Treasury Buyers Get 5% Long Bond for First Time Since 2007",
-        "White House taps Treasury assistant as NCUA\u2019s next chair"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(2), Yahoo(1)",
-      "sample_headlines": [
-        "Trump in China: Traders predict a tariff truce extension and Boeing aircraft purchases",
-        "India hikes bullion import duties as the world's second-largest gold market faces a declining rupee",
-        "Dawn Meats snaps up German importer Alexander Eyckeler"
+        "Ford surges nearly 20% in two days. It might be an AI 'meme' stock after energy pivot",
+        "Oil Steady After Trump-Xi Talks as Iran War Remains in Limbo",
+        "Dollar\u2019s Link to Oil Most Positive Ever Amid Iran Conflict",
+        "Foreign Buyers Snap Up Nearly Half of Trump\u2019s Emergency Oil",
+        "Brazilian Oil Jobs Are at 16-Year High on Offshore Drilling Boom"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 5,
+      "pct": 3.8,
+      "sources": "Yahoo(3), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Crypto industry scores win as Clarity Act regulation bill clears Senate hurdle",
+        "Bitcoin Tops $80,000 as Crypto Market Regulation Bill Advances",
+        "Charles Schwab Launches Crypto Trading For Retail Investors",
+        "Metaplanet posts $725M Q1 net loss on bitcoin valuation hit as sales rise 251%",
+        "After Falling 33% in 6 Months, Is Ethereum Still a Buy With $1,000?"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 1.5,
+      "sources": "CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "Nearly 40% chances of stagflation by end of 2026, traders say",
+        "Walmart layoffs today: Tech-related jobs get cut as retail giant consolidates product and design operations"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "Exodus Movement Sells More Than 1,000 Bitcoin"
+        "Trump\u2019s best China trade deal is the one he doesn\u2019t make"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "UFC's Dana White urges Trump to reverse gambling tax law. His letter moved the prediction market"
       ]
     }
   ]
