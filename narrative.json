@@ -1,125 +1,102 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 131,
-  "fetched_at": "2026-05-14T21:00:45.400437+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 127,
+  "fetched_at": "2026-05-15T21:00:43.628935+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 18,
-      "pct": 13.7,
-      "sources": "CNBC(7), Bloomberg(4), MarketWatch(3), Yahoo(3), FT(1)",
-      "sample_headlines": [
-        "Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion",
-        "Ford surges nearly 20% in two days. It might be an AI 'meme' stock after energy pivot",
-        "Some short sellers are seeing opportunity in this tech mania. How they're spotting fake AI stocks",
-        "Musk's China trip during OpenAI trial prompts apology from his lawyer for CEO's absence",
-        "Goldman says tech stock 'up crash' is sign of even more gains to come"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
-      "count": 17,
-      "pct": 13.0,
-      "sources": "Yahoo(10), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
+      "count": 20,
+      "pct": 15.7,
+      "sources": "Yahoo(8), Bloomberg(6), CNBC(3), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion",
-        "Ford surges nearly 20% in two days. It might be an AI 'meme' stock after energy pivot",
-        "Nvidia earnings alone won\u2019t rescue the S&P 500 from its new sell signal",
-        "Self-report fraud and walk free, New York prosecutors tell Wall Street",
-        "AI Rally Crushes Stock Pickers With Just 1 in 4 Beating Market"
+        "Traders now see next Fed interest rate move as a hike following inflation surge",
+        "Can the S&P 500 hold on for a 7th weekly gain? Plus, Friday's best and worst stocks",
+        "Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth",
+        "Stocks and bonds get swept up in a selloff, as Trump\u2019s China visit fails to pry open the Strait of Hormuz",
+        "Don\u2019t fear a summer stock crash: Market history shows this massive spring rally isn\u2019t a trap"
       ]
     },
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 15,
-      "pct": 11.5,
-      "sources": "CNBC(7), Bloomberg(5), FT(3)",
+      "topic": "AI / Tech",
+      "count": 19,
+      "pct": 15.0,
+      "sources": "CNBC(7), Yahoo(4), MarketWatch(3), Bloomberg(3), FT(2)",
       "sample_headlines": [
-        "Xi warns Trump: Mishandling Taiwan will put U.S.-China relationship in 'great jeopardy'",
-        "Bond market believes Fed behind the curve on inflation as Warsh takes over",
-        "Fed Governor Miran submits resignation, throws support behind Warsh as new chair",
-        "Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed",
-        "Analysis: Trump finally gets his man at the Fed. Will Kevin Warsh disappoint him?"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 15,
-      "pct": 11.5,
-      "sources": "CNBC(7), FT(3), MarketWatch(2), Bloomberg(2), Yahoo(1)",
-      "sample_headlines": [
-        "Xi warns Trump: Mishandling Taiwan will put U.S.-China relationship in 'great jeopardy'",
-        "China will order 200 Boeing jets, Trump tells Fox News",
-        "Chinese parts are already in U.S. cars as lawmakers warn Trump against China auto deal",
-        "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
-        "Musk's China trip during OpenAI trial prompts apology from his lawyer for CEO's absence"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.1,
-      "sources": "CNBC(4), Bloomberg(2), Yahoo(2)",
-      "sample_headlines": [
-        "Bond market believes Fed behind the curve on inflation as Warsh takes over",
-        "Fed Governor Miran submits resignation, throws support behind Warsh as new chair",
-        "Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed",
-        "Analysis: Trump finally gets his man at the Fed. Will Kevin Warsh disappoint him?",
-        "Gold Declines as Market Weighs Federal Reserve Rate Path"
+        "Trump went big on tech stocks in first quarter of 2026, new filings show",
+        "What you need to know about Nvidia competitor Cerebras after wild IPO",
+        "Detroit automakers have cut more than 20,000 U.S. salaried jobs as AI threat looms",
+        "'Biggest bottleneck in the AI buildup' fuels DRAM ETF to record",
+        "Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.3,
-      "sources": "Bloomberg(4), Yahoo(2), CNBC(1)",
+      "count": 15,
+      "pct": 11.8,
+      "sources": "Bloomberg(6), Yahoo(5), CNBC(4)",
       "sample_headlines": [
-        "Ford surges nearly 20% in two days. It might be an AI 'meme' stock after energy pivot",
-        "Oil Steady After Trump-Xi Talks as Iran War Remains in Limbo",
-        "Dollar\u2019s Link to Oil Most Positive Ever Amid Iran Conflict",
-        "Foreign Buyers Snap Up Nearly Half of Trump\u2019s Emergency Oil",
-        "Brazilian Oil Jobs Are at 16-Year High on Offshore Drilling Boom"
+        "How China and U.S. eased the Middle East oil shock and kept prices from spiking even higher",
+        "China will buy more U.S. oil because it is a natural trade partner, says Energy Secretary Wright",
+        "UAE fast tracks second West-East oil pipeline to bypass Strait of Hormuz",
+        "CIA chief makes historic trip to Cuba as US blockade chokes island's energy supplies",
+        "Global Bond Selloff Worsens as Rising Oil Prices Spook Investors"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 5,
-      "pct": 3.8,
-      "sources": "Yahoo(3), CNBC(1), Bloomberg(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 9,
+      "pct": 7.1,
+      "sources": "CNBC(3), FT(2), Bloomberg(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Crypto industry scores win as Clarity Act regulation bill clears Senate hurdle",
-        "Bitcoin Tops $80,000 as Crypto Market Regulation Bill Advances",
-        "Charles Schwab Launches Crypto Trading For Retail Investors",
-        "Metaplanet posts $725M Q1 net loss on bitcoin valuation hit as sales rise 251%",
-        "After Falling 33% in 6 Months, Is Ethereum Still a Buy With $1,000?"
+        "Stephen Miran exits the Fed. How he set the stage for Kevin Warsh.",
+        "How China and U.S. eased the Middle East oil shock and kept prices from spiking even higher",
+        "UAE fast tracks second West-East oil pipeline to bypass Strait of Hormuz",
+        "Stocks and bonds get swept up in a selloff, as Trump\u2019s China visit fails to pry open the Strait of Hormuz",
+        "Global bonds tumble on fears of inflation shock from Iran war"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 9,
+      "pct": 7.1,
+      "sources": "Bloomberg(4), CNBC(3), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "Traders now see next Fed interest rate move as a hike following inflation surge",
+        "Stephen Miran exits the Fed. How he set the stage for Kevin Warsh.",
+        "Inflation rate projected to hit 6% in the second quarter, top economic forecasters say",
+        "Global bonds tumble on fears of inflation shock from Iran war",
+        "Emerging Markets Cap Worst Week Since March on Inflation Fears"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 9,
+      "pct": 7.1,
+      "sources": "CNBC(6), MarketWatch(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump told Xi \u2018I don't talk about\u2019 whether U.S. would defend Taiwan from China",
+        "How China and U.S. eased the Middle East oil shock and kept prices from spiking even higher",
+        "Chinese EVs are coming to Canada, and some dealers can't wait to sell them",
+        "Bristol Myers Squibb turns to China to develop new drugs in newest cross-continent collaboration",
+        "Trump-Xi summit: The 3 big takeaways from historic meeting in Beijing"
       ]
     },
     {
       "topic": "Recession / Slowdown",
-      "count": 2,
-      "pct": 1.5,
-      "sources": "CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "Nearly 40% chances of stagflation by end of 2026, traders say",
-        "Walmart layoffs today: Tech-related jobs get cut as retail giant consolidates product and design operations"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "MarketWatch(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Trump\u2019s best China trade deal is the one he doesn\u2019t make"
+        "Daily Spotlight: GDP Growing with $4.50 Gas"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "UFC's Dana White urges Trump to reverse gambling tax law. His letter moved the prediction market"
+        "New York Plans Tax on Homes Over $1 Million Purchased With Cash"
       ]
     }
   ]
