@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21",
-  "computed_at": "2026-05-26T08:34:13Z",
+  "as_of": "2026-05-22",
+  "computed_at": "2026-05-26T21:01:20Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
   "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
   "signals": {
-    "fiscal_regime": "Neutral",
+    "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
     "tech_close": 7564.5,
     "tech_sma20": 7379.86,
