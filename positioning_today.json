@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-05-26",
-  "computed_at": "2026-05-27T21:01:22Z",
+  "as_of": "2026-05-27",
+  "computed_at": "2026-05-28T21:02:59Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,15 +8,31 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
-    "tech_close": 7539.25,
-    "tech_sma20": 7398.25,
+    "tech_close": 7540.0,
+    "tech_sma20": 7416.74,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 0/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "0/11",
+    "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "3/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
-  "overweight_pairs": [],
+  "overweight_pairs": [
+    {
+      "pair": "XLI/XLP",
+      "rationale": "Industrials vs staples",
+      "roc_20d": 0.13
+    },
+    {
+      "pair": "XLY/XLP",
+      "rationale": "Consumer discretionary vs staples",
+      "roc_20d": 2.04
+    },
+    {
+      "pair": "IWM/SPY",
+      "rationale": "Small cap vs large cap",
+      "roc_20d": 0.53
+    }
+  ],
   "underweight_pairs": [],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
   "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
