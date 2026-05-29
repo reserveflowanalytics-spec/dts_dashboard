@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-05-27",
-  "computed_at": "2026-05-28T21:02:59Z",
+  "as_of": "2026-05-28",
+  "computed_at": "2026-05-29T21:02:01Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,8 +8,8 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
-    "tech_close": 7540.0,
-    "tech_sma20": 7416.74,
+    "tech_close": 7582.0,
+    "tech_sma20": 7433.93,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "3/11",
@@ -20,17 +20,17 @@
     {
       "pair": "XLI/XLP",
       "rationale": "Industrials vs staples",
-      "roc_20d": 0.13
+      "roc_20d": 0.45
     },
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": 2.04
+      "roc_20d": 2.6
     },
     {
       "pair": "IWM/SPY",
       "rationale": "Small cap vs large cap",
-      "roc_20d": 0.53
+      "roc_20d": 1.21
     }
   ],
   "underweight_pairs": [],
