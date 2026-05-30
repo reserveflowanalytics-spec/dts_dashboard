@@ -1,25 +1,25 @@
 {
-  "generated": "2026-05-29",
+  "generated": "2026-05-30",
   "regime": "Restrictive",
   "fiscal_momentum": -9400.0,
   "tga_trend": "Building",
   "etf_prices": {
-    "XLP": 84.43,
     "GLD": 412.77,
+    "XLF": 51.27,
+    "KRE": 69.55,
+    "XLE": 56.95,
+    "XLY": 122.06,
+    "XLB": 51.36,
+    "TLT": 85.74,
+    "IWM": 292.03,
+    "SPY": 754.6,
     "XLRE": 44.41,
-    "XLK": 186.85,
     "HYG": 80.23,
     "XLV": 150.88,
-    "XLY": 122.06,
-    "XLF": 51.27,
-    "XLU": 44.63,
-    "XLE": 56.95,
-    "TLT": 85.74,
     "XLI": 173.8,
-    "SPY": 754.6,
-    "KRE": 69.55,
-    "XLB": 51.36,
-    "IWM": 292.03
+    "XLU": 44.63,
+    "XLP": 84.43,
+    "XLK": 186.85
   },
   "pairs": [
     {
