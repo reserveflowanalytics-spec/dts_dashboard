@@ -1,102 +1,123 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 127,
-  "fetched_at": "2026-05-15T21:00:43.628935+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 122,
+  "fetched_at": "2026-06-02T12:24:32.396380+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 20,
-      "pct": 15.7,
-      "sources": "Yahoo(8), Bloomberg(6), CNBC(3), MarketWatch(2), FT(1)",
-      "sample_headlines": [
-        "Traders now see next Fed interest rate move as a hike following inflation surge",
-        "Can the S&P 500 hold on for a 7th weekly gain? Plus, Friday's best and worst stocks",
-        "Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth",
-        "Stocks and bonds get swept up in a selloff, as Trump\u2019s China visit fails to pry open the Strait of Hormuz",
-        "Don\u2019t fear a summer stock crash: Market history shows this massive spring rally isn\u2019t a trap"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 19,
-      "pct": 15.0,
-      "sources": "CNBC(7), Yahoo(4), MarketWatch(3), Bloomberg(3), FT(2)",
+      "count": 22,
+      "pct": 18.0,
+      "sources": "CNBC(8), Yahoo(8), MarketWatch(2), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Trump went big on tech stocks in first quarter of 2026, new filings show",
-        "What you need to know about Nvidia competitor Cerebras after wild IPO",
-        "Detroit automakers have cut more than 20,000 U.S. salaried jobs as AI threat looms",
-        "'Biggest bottleneck in the AI buildup' fuels DRAM ETF to record",
-        "Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth"
+        "Alphabet plans to raise $80 billion from stock sales to fund AI build-out",
+        "Nvidia's Jensen Huang says Marvell could be the next trillion-dollar company; stock jumps 22%",
+        "Nvidia's new PC chips represent CEO Huang's bid to win at every layer of AI stack",
+        "Microsoft and Google are late to AI coding, but 'absolutely critical' they compete for growth",
+        "Amazon's four-day Prime Day event starts June 23, as shoppers battle inflation"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 15,
-      "pct": 11.8,
-      "sources": "Bloomberg(6), Yahoo(5), CNBC(4)",
+      "topic": "Equities / Market moves",
+      "count": 17,
+      "pct": 13.9,
+      "sources": "Bloomberg(7), CNBC(4), Yahoo(4), MarketWatch(2)",
       "sample_headlines": [
-        "How China and U.S. eased the Middle East oil shock and kept prices from spiking even higher",
-        "China will buy more U.S. oil because it is a natural trade partner, says Energy Secretary Wright",
-        "UAE fast tracks second West-East oil pipeline to bypass Strait of Hormuz",
-        "CIA chief makes historic trip to Cuba as US blockade chokes island's energy supplies",
-        "Global Bond Selloff Worsens as Rising Oil Prices Spook Investors"
+        "Polymarket closes its first block trade as prediction markets push for Wall Street adoption",
+        "The stock market just did something eerily similar to the dot-com bubble top in 2000",
+        "Stock market corrections will happen: Here's how we navigate the ups and downs",
+        "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
+        "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 9,
-      "pct": 7.1,
-      "sources": "CNBC(3), FT(2), Bloomberg(2), MarketWatch(1), Yahoo(1)",
+      "count": 15,
+      "pct": 12.3,
+      "sources": "Bloomberg(6), Yahoo(4), CNBC(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Stephen Miran exits the Fed. How he set the stage for Kevin Warsh.",
-        "How China and U.S. eased the Middle East oil shock and kept prices from spiking even higher",
-        "UAE fast tracks second West-East oil pipeline to bypass Strait of Hormuz",
-        "Stocks and bonds get swept up in a selloff, as Trump\u2019s China visit fails to pry open the Strait of Hormuz",
-        "Global bonds tumble on fears of inflation shock from Iran war"
+        "Software stocks just passed a big milestone",
+        "Trump tells CNBC: 'I don't care' if Iran negotiations are over",
+        "Treasury yields fall as investors pin hopes on Israel-Hezbollah ceasefire",
+        "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?",
+        "Israel\u2019s Netanyahu faces backlash after Trump call"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.1,
-      "sources": "Bloomberg(4), CNBC(3), FT(1), Yahoo(1)",
+      "count": 10,
+      "pct": 8.2,
+      "sources": "CNBC(4), Yahoo(4), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Traders now see next Fed interest rate move as a hike following inflation surge",
-        "Stephen Miran exits the Fed. How he set the stage for Kevin Warsh.",
-        "Inflation rate projected to hit 6% in the second quarter, top economic forecasters say",
-        "Global bonds tumble on fears of inflation shock from Iran war",
-        "Emerging Markets Cap Worst Week Since March on Inflation Fears"
+        "Amazon's four-day Prime Day event starts June 23, as shoppers battle inflation",
+        "Treasury yields fall as investors pin hopes on Israel-Hezbollah ceasefire",
+        "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
+        "FedEx Freight CEO says the spinoff will help the company 'leapfrog' competitors",
+        "Eurozone inflation rises to 3.2% in May as ECB prepares to raise rates"
       ]
     },
     {
       "topic": "China",
-      "count": 9,
-      "pct": 7.1,
-      "sources": "CNBC(6), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 4.9,
+      "sources": "Bloomberg(2), Yahoo(2), CNBC(1), FT(1)",
       "sample_headlines": [
-        "Trump told Xi \u2018I don't talk about\u2019 whether U.S. would defend Taiwan from China",
-        "How China and U.S. eased the Middle East oil shock and kept prices from spiking even higher",
-        "Chinese EVs are coming to Canada, and some dealers can't wait to sell them",
-        "Bristol Myers Squibb turns to China to develop new drugs in newest cross-continent collaboration",
-        "Trump-Xi summit: The 3 big takeaways from historic meeting in Beijing"
+        "NBA star Stephen Curry partners with Chinese sportswear giant Li-Ning",
+        "Tencent moves closer to launching AI agent for China\u2019s most-used app",
+        "China Says UK Ties \u2018Returning to Normal\u2019 After Years of Tension",
+        "China Robotics Firms Line Up IPOs to Pitch Next Phase of AI",
+        "General Mills offloads H\u00e4agen-Dazs shops in China"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Trump administration proposes 25% tariff on Brazilian goods over unfair trade practices",
+        "Why the most important company enabling AI isn\u2019t Nvidia, according to this fund manager",
+        "Persian Gulf LNG Exporters Are Adopting Shadow-Fleet Tactics",
+        "India\u2019s Fuel Exports Plunge in May as Domestic Needs Prioritized"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "CNBC(2), MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Treasury yields fall as investors pin hopes on Israel-Hezbollah ceasefire",
+        "Retail had a 'surprisingly robust' first quarter, but the real test is ahead as tax refunds dry up",
+        "How gold overtook U.S. Treasurys as number-one reserve asset",
+        "Pimco Says Treasury Yields Driven by Fed Bets, Not AI, for Now"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Oil prices drop after Trump tries to reassure traders that peace deal is coming",
+        "Persian Gulf LNG Exporters Are Adopting Shadow-Fleet Tactics"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Daily Spotlight: GDP Growing with $4.50 Gas"
+        "How did Spain\u2019s unemployment rate converge with Finland\u2019s?"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "Crypto",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "New York Plans Tax on Homes Over $1 Million Purchased With Cash"
+        "Bitcoin and ethereum prices today, Monday, June 1, 2026: Prices falling this morning"
       ]
     }
   ]
