@@ -3522,7 +3522,8 @@ async function init(){
 
     // Load market narrative (non-blocking)
     try {
-      const narrResp = await fetch('narrative.json');
+      // Cache-bust: narrative.json updates daily; ?v=<now> defeats GitHub Pages / browser caching
+      const narrResp = await fetch('narrative.json?v=' + Date.now());
       if(narrResp.ok){
         const narrData = await narrResp.json();
         window._narrativeData = narrData;
