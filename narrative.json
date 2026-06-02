@@ -1,123 +1,113 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 122,
-  "fetched_at": "2026-06-02T12:24:32.396380+00:00",
+  "total_headlines": 126,
+  "fetched_at": "2026-06-02T21:01:37.101421+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 22,
-      "pct": 18.0,
-      "sources": "CNBC(8), Yahoo(8), MarketWatch(2), FT(2), Bloomberg(2)",
+      "count": 28,
+      "pct": 22.2,
+      "sources": "CNBC(10), Yahoo(10), Bloomberg(5), FT(3)",
       "sample_headlines": [
-        "Alphabet plans to raise $80 billion from stock sales to fund AI build-out",
-        "Nvidia's Jensen Huang says Marvell could be the next trillion-dollar company; stock jumps 22%",
-        "Nvidia's new PC chips represent CEO Huang's bid to win at every layer of AI stack",
-        "Microsoft and Google are late to AI coding, but 'absolutely critical' they compete for growth",
-        "Amazon's four-day Prime Day event starts June 23, as shoppers battle inflation"
+        "Palo Alto Networks pops 12% on earnings beat as AI fuels cybersecurity urgency",
+        "Goldman Sachs CEO David Solomon says markets are in 'greed' mode as AI companies seek billions",
+        "Microsoft unveils new AI models to lessen reliance on OpenAI and lower costs for developers",
+        "Trump signs AI executive order asking companies to give government early access to models",
+        "Why BlackRock's Rick Rieder feels 'a bit more relaxed' about AI bull market than dotcom era"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 17,
-      "pct": 13.9,
-      "sources": "Bloomberg(7), CNBC(4), Yahoo(4), MarketWatch(2)",
+      "count": 19,
+      "pct": 15.1,
+      "sources": "CNBC(6), Yahoo(5), MarketWatch(3), Bloomberg(3), FT(2)",
       "sample_headlines": [
-        "Polymarket closes its first block trade as prediction markets push for Wall Street adoption",
-        "The stock market just did something eerily similar to the dot-com bubble top in 2000",
-        "Stock market corrections will happen: Here's how we navigate the ups and downs",
-        "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
-        "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?"
+        "The CFTC has sparked a potential revolution on Wall Street. Exchange stocks are dropping",
+        "Ulta shares pop as beauty retailer beats Wall Street expectations and hikes earnings outlook",
+        "Job openings in April surged to 7.6 million, the highest in nearly two years",
+        "Why BlackRock's Rick Rieder feels 'a bit more relaxed' about AI bull market than dotcom era",
+        "Polymarket closes its first block trade as prediction markets push for Wall Street adoption"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 15,
-      "pct": 12.3,
-      "sources": "Bloomberg(6), Yahoo(4), CNBC(3), MarketWatch(1), FT(1)",
+      "count": 11,
+      "pct": 8.7,
+      "sources": "Bloomberg(4), MarketWatch(3), CNBC(2), FT(1), Yahoo(1)",
       "sample_headlines": [
+        "Trump, Rubio say talks with Tehran ongoing despite Iranian media claims otherwise",
         "Software stocks just passed a big milestone",
-        "Trump tells CNBC: 'I don't care' if Iran negotiations are over",
-        "Treasury yields fall as investors pin hopes on Israel-Hezbollah ceasefire",
         "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?",
-        "Israel\u2019s Netanyahu faces backlash after Trump call"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 8.2,
-      "sources": "CNBC(4), Yahoo(4), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Amazon's four-day Prime Day event starts June 23, as shoppers battle inflation",
-        "Treasury yields fall as investors pin hopes on Israel-Hezbollah ceasefire",
-        "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
-        "FedEx Freight CEO says the spinoff will help the company 'leapfrog' competitors",
-        "Eurozone inflation rises to 3.2% in May as ECB prepares to raise rates"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 6,
-      "pct": 4.9,
-      "sources": "Bloomberg(2), Yahoo(2), CNBC(1), FT(1)",
-      "sample_headlines": [
-        "NBA star Stephen Curry partners with Chinese sportswear giant Li-Ning",
-        "Tencent moves closer to launching AI agent for China\u2019s most-used app",
-        "China Says UK Ties \u2018Returning to Normal\u2019 After Years of Tension",
-        "China Robotics Firms Line Up IPOs to Pitch Next Phase of AI",
-        "General Mills offloads H\u00e4agen-Dazs shops in China"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "Trump administration proposes 25% tariff on Brazilian goods over unfair trade practices",
-        "Why the most important company enabling AI isn\u2019t Nvidia, according to this fund manager",
-        "Persian Gulf LNG Exporters Are Adopting Shadow-Fleet Tactics",
-        "India\u2019s Fuel Exports Plunge in May as Domestic Needs Prioritized"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "CNBC(2), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Treasury yields fall as investors pin hopes on Israel-Hezbollah ceasefire",
-        "Retail had a 'surprisingly robust' first quarter, but the real test is ahead as tax refunds dry up",
-        "How gold overtook U.S. Treasurys as number-one reserve asset",
-        "Pimco Says Treasury Yields Driven by Fed Bets, Not AI, for Now"
+        "Why Lumentum, Coherent and other optical stocks are rocketing toward big gains",
+        "The S&P 500 is climbing for a 9th straight day \u2014 but the \u2018breadth paradox\u2019 is sending a rare warning"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "MarketWatch(1), Bloomberg(1)",
+      "count": 5,
+      "pct": 4.0,
+      "sources": "Bloomberg(4), Yahoo(1)",
       "sample_headlines": [
-        "Oil prices drop after Trump tries to reassure traders that peace deal is coming",
-        "Persian Gulf LNG Exporters Are Adopting Shadow-Fleet Tactics"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "FT(1)",
-      "sample_headlines": [
-        "How did Spain\u2019s unemployment rate converge with Finland\u2019s?"
+        "Canadian Stocks Index Hits 35,000 Amid Rally in Energy",
+        "Aberdeen Economist on Falling Brent Crude Prices",
+        "Oil Swings Higher as Traders Weigh Prospects of US-Iran Deal",
+        "US Natural Gas Futures Dip on Lower Flows to LNG Export Plants",
+        "Kosmos Energy (KOS) Reports Record Q1 2026 Production Despite Net Loss"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 5,
+      "pct": 4.0,
+      "sources": "Yahoo(3), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Commodities regulator alleges Winklevosses' Gemini crypto exchange was politically targeted",
+        "12 Reasons This Is The Worst Crypto Winter Ever",
+        "Bitcoin ETF News: BTC ETFs Hit 10-Day Outflow Streak, Is Institutional Hype Over?",
+        "American Bitcoin Corp Q1 2026 Earnings Call Summary",
+        "MicroStrategy Sells Bitcoin For the First Time Since 2022, Hands Trader a $200,000 Win"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 4,
+      "pct": 3.2,
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "NBA star Stephen Curry partners with Chinese sportswear giant Li-Ning",
+        "Traders Most Bullish Yuan in 15 Years on Global Role, Valuation",
+        "From lottery draws to fiscal spending, China broadens digital yuan footprint",
+        "China EV Makers Report Monthly Sales. BYD Barely Grows, XPeng Slumps."
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "Trump still protected from tax enforcement, but anti-weaponization fund is dead, Blanche says",
+        "From lottery draws to fiscal spending, China broadens digital yuan footprint",
+        "A new NJ bill would hand pet owners up to $900 in tax credits \u2014 and your state could be next"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(1), FT(1)",
+      "sample_headlines": [
+        "The CFTC has sparked a potential revolution on Wall Street. Exchange stocks are dropping",
+        "Shipping tycoon prefers $200,000 fee to cross Strait of Hormuz to \u2018this hassle\u2019"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Monday, June 1, 2026: Prices falling this morning"
+        "US Natural Gas Futures Dip on Lower Flows to LNG Export Plants"
       ]
     }
   ]
