@@ -1,113 +1,114 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 126,
-  "fetched_at": "2026-06-02T21:01:37.101421+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 108,
+  "fetched_at": "2026-06-03T21:01:59.094064+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 28,
-      "pct": 22.2,
-      "sources": "CNBC(10), Yahoo(10), Bloomberg(5), FT(3)",
+      "count": 15,
+      "pct": 13.9,
+      "sources": "CNBC(5), Bloomberg(4), Yahoo(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Palo Alto Networks pops 12% on earnings beat as AI fuels cybersecurity urgency",
-        "Goldman Sachs CEO David Solomon says markets are in 'greed' mode as AI companies seek billions",
-        "Microsoft unveils new AI models to lessen reliance on OpenAI and lower costs for developers",
-        "Trump signs AI executive order asking companies to give government early access to models",
-        "Why BlackRock's Rick Rieder feels 'a bit more relaxed' about AI bull market than dotcom era"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 19,
-      "pct": 15.1,
-      "sources": "CNBC(6), Yahoo(5), MarketWatch(3), Bloomberg(3), FT(2)",
-      "sample_headlines": [
-        "The CFTC has sparked a potential revolution on Wall Street. Exchange stocks are dropping",
-        "Ulta shares pop as beauty retailer beats Wall Street expectations and hikes earnings outlook",
-        "Job openings in April surged to 7.6 million, the highest in nearly two years",
-        "Why BlackRock's Rick Rieder feels 'a bit more relaxed' about AI bull market than dotcom era",
-        "Polymarket closes its first block trade as prediction markets push for Wall Street adoption"
+        "Morgan Stanley will soon open its trillion-dollar wealth management funnel to AI agents",
+        "OpenAI CEO Sam Altman meets with lawmakers, Trump officials in DC",
+        "Leveraged ETF assets double in two months as investors press AI bet",
+        "Meta is trying to sell AI agents to businesses in latest effort to diversify away from ads",
+        "France's Macron invites Sam Altman to attend G7, OpenAI tells CNBC"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "Bloomberg(4), MarketWatch(3), CNBC(2), FT(1), Yahoo(1)",
+      "count": 13,
+      "pct": 12.0,
+      "sources": "FT(4), Bloomberg(4), CNBC(3), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump, Rubio say talks with Tehran ongoing despite Iranian media claims otherwise",
-        "Software stocks just passed a big milestone",
-        "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?",
-        "Why Lumentum, Coherent and other optical stocks are rocketing toward big gains",
-        "The S&P 500 is climbing for a 9th straight day \u2014 but the \u2018breadth paradox\u2019 is sending a rare warning"
+        "Broadcom stock slips on disappointing software revenue",
+        "Trump says Iran agreed to not have nuclear weapons, but 'they can change their mind'",
+        "Fed Chair Warsh makes first hires at central bank, including 'Project 2025' author",
+        "Oil settles at highest price in over a week. \u2018Oil tanks are getting emptier each week Hormuz stays closed.\u2019",
+        "Trump\u2019s Iran war drains US oil stocks to lowest level since 2004"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 13,
+      "pct": 12.0,
+      "sources": "Bloomberg(4), Yahoo(4), CNBC(3), MarketWatch(2)",
+      "sample_headlines": [
+        "Historic stock rally faces key test",
+        "What's behind Palo Alto's earnings sell-off \u2014 and how to proceed",
+        "Bitcoin set to slump to new lows for 2026 after recent sell-off, traders forecast",
+        "Stocks take a breather on Wednesday as torrid rally cools \u2014 putting potentially historic S&P 500 winning streak in jeopardy",
+        "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong."
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 5.6,
+      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Fed Chair Warsh makes first hires at central bank, including 'Project 2025' author",
+        "\u2018Squeezing more life out of every dollar\u2019: How inflation is forcing a new reality on American families and amplifying the economy\u2019s \u2018K shape\u2019",
+        "Bessent says US inflation jump will be \u2018short-term blip\u2019",
+        "Treasury Yield Rises Most in Two Weeks After Jobs Gauge",
+        "Warsh\u2019s Fed Debut Is a Key Risk for FX, Morgan Stanley Says"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 5,
-      "pct": 4.0,
-      "sources": "Bloomberg(4), Yahoo(1)",
+      "pct": 4.6,
+      "sources": "FT(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Canadian Stocks Index Hits 35,000 Amid Rally in Energy",
-        "Aberdeen Economist on Falling Brent Crude Prices",
-        "Oil Swings Higher as Traders Weigh Prospects of US-Iran Deal",
-        "US Natural Gas Futures Dip on Lower Flows to LNG Export Plants",
-        "Kosmos Energy (KOS) Reports Record Q1 2026 Production Despite Net Loss"
+        "Oil settles at highest price in over a week. \u2018Oil tanks are getting emptier each week Hormuz stays closed.\u2019",
+        "Trump\u2019s Iran war drains US oil stocks to lowest level since 2004",
+        "Gulf states in talks for oil pipelines to bypass Hormuz",
+        "Stocks Decline as US-Iran Clashes Drive Oil Higher: Markets Wrap",
+        "Oil Extends Gain as US-Iran Clashes Cloud Outlook for Peace Deal"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 5,
-      "pct": 4.0,
-      "sources": "Yahoo(3), CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Commodities regulator alleges Winklevosses' Gemini crypto exchange was politically targeted",
-        "12 Reasons This Is The Worst Crypto Winter Ever",
-        "Bitcoin ETF News: BTC ETFs Hit 10-Day Outflow Streak, Is Institutional Hype Over?",
-        "American Bitcoin Corp Q1 2026 Earnings Call Summary",
-        "MicroStrategy Sells Bitcoin For the First Time Since 2022, Hands Trader a $200,000 Win"
-      ]
-    },
-    {
-      "topic": "China",
       "count": 4,
-      "pct": 3.2,
-      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "pct": 3.7,
+      "sources": "CNBC(3), Bloomberg(1)",
       "sample_headlines": [
-        "NBA star Stephen Curry partners with Chinese sportswear giant Li-Ning",
-        "Traders Most Bullish Yuan in 15 Years on Global Role, Valuation",
-        "From lottery draws to fiscal spending, China broadens digital yuan footprint",
-        "China EV Makers Report Monthly Sales. BYD Barely Grows, XPeng Slumps."
+        "Bitcoin's high-conviction holders are turning into sellers as the crypto's price hits new lows",
+        "Bitcoin set to slump to new lows for 2026 after recent sell-off, traders forecast",
+        "Bitcoin trails stocks by most since 2019 as traders get their kicks elsewhere",
+        "A 180% Crypto Rally Shows New Investing Era as Bitcoin Melts"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Yahoo(2), CNBC(1)",
+      "count": 4,
+      "pct": 3.7,
+      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump still protected from tax enforcement, but anti-weaponization fund is dead, Blanche says",
-        "From lottery draws to fiscal spending, China broadens digital yuan footprint",
-        "A new NJ bill would hand pet owners up to $900 in tax credits \u2014 and your state could be next"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), FT(1)",
-      "sample_headlines": [
-        "The CFTC has sparked a potential revolution on Wall Street. Exchange stocks are dropping",
-        "Shipping tycoon prefers $200,000 fee to cross Strait of Hormuz to \u2018this hassle\u2019"
+        "Bessent says he is performing IRS commissioner duties amid Trump tax settlement scrutiny",
+        "Trump Accounts create a 'legal backdoor' for Roth IRA wealth, tax attorney says",
+        "Treasury Yield Rises Most in Two Weeks After Jobs Gauge",
+        "HPE Stock Surges On Fiscal Q2 Earnings Beat, Raised Guidance, Fiscal 2027 Outlook"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "count": 2,
+      "pct": 1.9,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "US Natural Gas Futures Dip on Lower Flows to LNG Export Plants"
+        "Bessent says he is performing IRS commissioner duties amid Trump tax settlement scrutiny",
+        "U.S. proposes fresh tariffs on 60 economies over forced labor trade practices"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Khanna and China committee press Blanche for report on Chinese manufacturing in U.S."
       ]
     }
   ]
