@@ -1,114 +1,103 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 108,
-  "fetched_at": "2026-06-03T21:01:59.094064+00:00",
+  "total_headlines": 115,
+  "fetched_at": "2026-06-04T21:01:42.261300+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
+      "topic": "Equities / Market moves",
       "count": 15,
-      "pct": 13.9,
-      "sources": "CNBC(5), Bloomberg(4), Yahoo(3), FT(2), MarketWatch(1)",
+      "pct": 13.0,
+      "sources": "Yahoo(5), Bloomberg(4), CNBC(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Morgan Stanley will soon open its trillion-dollar wealth management funnel to AI agents",
-        "OpenAI CEO Sam Altman meets with lawmakers, Trump officials in DC",
-        "Leveraged ETF assets double in two months as investors press AI bet",
-        "Meta is trying to sell AI agents to businesses in latest effort to diversify away from ads",
-        "France's Macron invites Sam Altman to attend G7, OpenAI tells CNBC"
+        "Quantinuum closes flat in Nasdaq debut, after upsized offering",
+        "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
+        "Investors can 'buy' SpaceX early with Coinbase perpetual futures on pre-IPOs",
+        "Micron suffers record market-cap wipeout as Broadcom casts a shadow over chip stocks",
+        "Broadcom suffers $285bn rout as revenue outlook disappoints"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 11,
+      "pct": 9.6,
+      "sources": "CNBC(4), MarketWatch(2), FT(2), Yahoo(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Confirmed screwworm case in Texas sends two biotech stocks higher",
+        "Vibe-coding phenomenon lifts AI startup Supabase to $10.5 billion valuation",
+        "Ramp hits $44 billion valuation as companies look to rein in AI spending",
+        "Amazon engineers in Seattle slam employer for building AI data centers while laying off 30,000 staffers",
+        "Micron suffers record market-cap wipeout as Broadcom casts a shadow over chip stocks"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 12.0,
-      "sources": "FT(4), Bloomberg(4), CNBC(3), MarketWatch(1), Yahoo(1)",
+      "count": 8,
+      "pct": 7.0,
+      "sources": "Bloomberg(5), CNBC(2), Yahoo(1)",
       "sample_headlines": [
-        "Broadcom stock slips on disappointing software revenue",
-        "Trump says Iran agreed to not have nuclear weapons, but 'they can change their mind'",
-        "Fed Chair Warsh makes first hires at central bank, including 'Project 2025' author",
-        "Oil settles at highest price in over a week. \u2018Oil tanks are getting emptier each week Hormuz stays closed.\u2019",
-        "Trump\u2019s Iran war drains US oil stocks to lowest level since 2004"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 12.0,
-      "sources": "Bloomberg(4), Yahoo(4), CNBC(3), MarketWatch(2)",
-      "sample_headlines": [
-        "Historic stock rally faces key test",
-        "What's behind Palo Alto's earnings sell-off \u2014 and how to proceed",
-        "Bitcoin set to slump to new lows for 2026 after recent sell-off, traders forecast",
-        "Stocks take a breather on Wednesday as torrid rally cools \u2014 putting potentially historic S&P 500 winning streak in jeopardy",
-        "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong."
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 5.6,
-      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Fed Chair Warsh makes first hires at central bank, including 'Project 2025' author",
-        "\u2018Squeezing more life out of every dollar\u2019: How inflation is forcing a new reality on American families and amplifying the economy\u2019s \u2018K shape\u2019",
-        "Bessent says US inflation jump will be \u2018short-term blip\u2019",
-        "Treasury Yield Rises Most in Two Weeks After Jobs Gauge",
-        "Warsh\u2019s Fed Debut Is a Key Risk for FX, Morgan Stanley Says"
+        "Ships stranded in Persian Gulf quietly coordinate with U.S. Navy to exit Hormuz",
+        "Oil prices fall 3% on report Trump reluctant to restart Iran war",
+        "US-Iran Talks Progress Stalls After Hezbollah Rejects Truce",
+        "Israel Won't Have A Say In How The Iran War Ends, Aaron David Miller Says",
+        "Oil Dips After Israel-Lebanon Ceasefire Even as Clashes Persist"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.6,
-      "sources": "FT(2), Bloomberg(2), MarketWatch(1)",
+      "count": 7,
+      "pct": 6.1,
+      "sources": "Bloomberg(4), Yahoo(2), CNBC(1)",
       "sample_headlines": [
-        "Oil settles at highest price in over a week. \u2018Oil tanks are getting emptier each week Hormuz stays closed.\u2019",
-        "Trump\u2019s Iran war drains US oil stocks to lowest level since 2004",
-        "Gulf states in talks for oil pipelines to bypass Hormuz",
-        "Stocks Decline as US-Iran Clashes Drive Oil Higher: Markets Wrap",
-        "Oil Extends Gain as US-Iran Clashes Cloud Outlook for Peace Deal"
+        "Oil prices fall 3% on report Trump reluctant to restart Iran war",
+        "Princeton Endowment Backs Out of Oil and Gas Divestment Vow",
+        "Oil Dips After Israel-Lebanon Ceasefire Even as Clashes Persist",
+        "US Strategic Petroleum Reserve Nears a 3-Year Low",
+        "Treasuries Rise as Oil Signals Optimism on Iran Peace Accord"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 4,
-      "pct": 3.7,
-      "sources": "CNBC(3), Bloomberg(1)",
+      "count": 6,
+      "pct": 5.2,
+      "sources": "CNBC(2), Yahoo(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "Bitcoin is weathering its ugliest week in months as narrative fades and liquidity rotates",
         "Bitcoin's high-conviction holders are turning into sellers as the crypto's price hits new lows",
-        "Bitcoin set to slump to new lows for 2026 after recent sell-off, traders forecast",
-        "Bitcoin trails stocks by most since 2019 as traders get their kicks elsewhere",
-        "A 180% Crypto Rally Shows New Investing Era as Bitcoin Melts"
+        "Bitcoin tumbles after Strategy sale unnerves crypto traders",
+        "Saylor\u2019s Bitcoin Machine Is Misfiring on Every Cylinder",
+        "Bitcoin crash triggers billions in liquidations"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 4,
-      "pct": 3.7,
-      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
+      "pct": 3.5,
+      "sources": "MarketWatch(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Bessent says he is performing IRS commissioner duties amid Trump tax settlement scrutiny",
-        "Trump Accounts create a 'legal backdoor' for Roth IRA wealth, tax attorney says",
-        "Treasury Yield Rises Most in Two Weeks After Jobs Gauge",
-        "HPE Stock Surges On Fiscal Q2 Earnings Beat, Raised Guidance, Fiscal 2027 Outlook"
+        "Trump's 'big beautiful bill' has a 'double taxation' trap for top earners, tax experts say",
+        "Wasted AI budgets at Uber, Microsoft and Nvidia trigger hiring \u2014 because human workers are cheaper",
+        "California\u2019s proposed \u2018billionaire tax\u2019 is moronic. We should do this instead.",
+        "Illinois Passes $56B Budget as Bears Deal Stalled"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.9,
-      "sources": "CNBC(2)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "Bessent says he is performing IRS commissioner duties amid Trump tax settlement scrutiny",
-        "U.S. proposes fresh tariffs on 60 economies over forced labor trade practices"
+        "This Jobs Report Will Not Help the Fed, Says JPM's Berro",
+        "Soybeans Popping Back Higher on Wednesday",
+        "HELOC and home equity loan interest rates today, Wednesday, June 3, 2026: Rate shopping matters, even when rates are low"
       ]
     },
     {
-      "topic": "China",
+      "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.9,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Khanna and China committee press Blanche for report on Chinese manufacturing in U.S."
+        "Long-term unemployment is surging in the U.S. There are hidden costs for workers and the economy"
       ]
     }
   ]
