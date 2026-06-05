@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-06-03",
-  "computed_at": "2026-06-04T21:01:56Z",
+  "as_of": "2026-06-04",
+  "computed_at": "2026-06-05T21:02:09Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,11 +8,11 @@
   "signals": {
     "fiscal_regime": "Supportive",
     "tech_regime": "bullish",
-    "tech_close": 7572.5,
-    "tech_sma20": 7496.06,
+    "tech_close": 7599.5,
+    "tech_sma20": 7507.82,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 4/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "4/11",
+    "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "3/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -20,24 +20,19 @@
     {
       "pair": "XLI/GLD",
       "rationale": "Industrial activity vs hard asset",
-      "roc_20d": 3.53
+      "roc_20d": 4.37
     }
   ],
   "underweight_pairs": [
     {
       "pair": "GLD/SPY",
       "rationale": "Hard asset vs equity",
-      "roc_20d": -6.43
-    },
-    {
-      "pair": "IWM/SPY",
-      "rationale": "Small cap vs large cap",
-      "roc_20d": -2.3
+      "roc_20d": -7.5
     },
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": -16.64
+      "roc_20d": -9.28
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",

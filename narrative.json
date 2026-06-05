@@ -1,103 +1,110 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 115,
-  "fetched_at": "2026-06-04T21:01:42.261300+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 113,
+  "fetched_at": "2026-06-05T21:01:51.950541+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 15,
-      "pct": 13.0,
-      "sources": "Yahoo(5), Bloomberg(4), CNBC(3), FT(2), MarketWatch(1)",
-      "sample_headlines": [
-        "Quantinuum closes flat in Nasdaq debut, after upsized offering",
-        "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
-        "Investors can 'buy' SpaceX early with Coinbase perpetual futures on pre-IPOs",
-        "Micron suffers record market-cap wipeout as Broadcom casts a shadow over chip stocks",
-        "Broadcom suffers $285bn rout as revenue outlook disappoints"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 9.6,
-      "sources": "CNBC(4), MarketWatch(2), FT(2), Yahoo(2), Bloomberg(1)",
+      "count": 20,
+      "pct": 17.7,
+      "sources": "CNBC(10), Yahoo(4), FT(3), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
-        "Confirmed screwworm case in Texas sends two biotech stocks higher",
-        "Vibe-coding phenomenon lifts AI startup Supabase to $10.5 billion valuation",
-        "Ramp hits $44 billion valuation as companies look to rein in AI spending",
-        "Amazon engineers in Seattle slam employer for building AI data centers while laying off 30,000 staffers",
-        "Micron suffers record market-cap wipeout as Broadcom casts a shadow over chip stocks"
+        "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
+        "Google to pay SpaceX $920 million a month for compute capacity at xAI data centers",
+        "Trump administration, OpenAI discussing possible government stake in the AI startup",
+        "Apple's WWDC: Tim Cook's AI legacy at stake in his final developer conference as CEO",
+        "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic"
       ]
     },
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 7.0,
-      "sources": "Bloomberg(5), CNBC(2), Yahoo(1)",
+      "topic": "Equities / Market moves",
+      "count": 17,
+      "pct": 15.0,
+      "sources": "Bloomberg(6), CNBC(3), MarketWatch(3), Yahoo(3), Google News(1), FT(1)",
       "sample_headlines": [
-        "Ships stranded in Persian Gulf quietly coordinate with U.S. Navy to exit Hormuz",
-        "Oil prices fall 3% on report Trump reluctant to restart Iran war",
-        "US-Iran Talks Progress Stalls After Hezbollah Rejects Truce",
-        "Israel Won't Have A Say In How The Iran War Ends, Aaron David Miller Says",
-        "Oil Dips After Israel-Lebanon Ceasefire Even as Clashes Persist"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "Bloomberg(4), Yahoo(2), CNBC(1)",
-      "sample_headlines": [
-        "Oil prices fall 3% on report Trump reluctant to restart Iran war",
-        "Princeton Endowment Backs Out of Oil and Gas Divestment Vow",
-        "Oil Dips After Israel-Lebanon Ceasefire Even as Clashes Persist",
-        "US Strategic Petroleum Reserve Nears a 3-Year Low",
-        "Treasuries Rise as Oil Signals Optimism on Iran Peace Accord"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 6,
-      "pct": 5.2,
-      "sources": "CNBC(2), Yahoo(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Bitcoin is weathering its ugliest week in months as narrative fades and liquidity rotates",
-        "Bitcoin's high-conviction holders are turning into sellers as the crypto's price hits new lows",
-        "Bitcoin tumbles after Strategy sale unnerves crypto traders",
-        "Saylor\u2019s Bitcoin Machine Is Misfiring on Every Cylinder",
-        "Bitcoin crash triggers billions in liquidations"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "MarketWatch(2), CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump's 'big beautiful bill' has a 'double taxation' trap for top earners, tax experts say",
-        "Wasted AI budgets at Uber, Microsoft and Nvidia trigger hiring \u2014 because human workers are cheaper",
-        "California\u2019s proposed \u2018billionaire tax\u2019 is moronic. We should do this instead.",
-        "Illinois Passes $56B Budget as Bears Deal Stalled"
+        "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test",
+        "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic",
+        "No tech, no problem. Dow makes record and traders think these stocks can lead now",
+        "For the first time ever, an S&P 500 ETF has over $1 trillion in assets. Here\u2019s why that should worry you.",
+        "This hot new financial product has Wall Street spooked. What you should know before trying it out."
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "Yahoo(2), Bloomberg(1)",
+      "count": 12,
+      "pct": 10.6,
+      "sources": "Bloomberg(8), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "This Jobs Report Will Not Help the Fed, Says JPM's Berro",
-        "Soybeans Popping Back Higher on Wednesday",
-        "HELOC and home equity loan interest rates today, Wednesday, June 3, 2026: Rate shopping matters, even when rates are low"
+        "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
+        "Odds of a Fed hike this year jump on prediction markets",
+        "The Fed may already be too late in hiking interest rates \u2014 which is bad news for these borrowers",
+        "Investors boost bets for Fed rate rise after bumper US jobs report",
+        "Dollar Gains as Resilient Job Market Boosts Fed Hike Bets"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 9,
+      "pct": 8.0,
+      "sources": "CNBC(5), Yahoo(3), Bloomberg(1)",
+      "sample_headlines": [
+        "Iran's threats against this Red Sea chokepoint are a big vulnerability for the oil market",
+        "Warren Buffett disciple\u00a0Guy Spier built career on value investing. A rare cancer changed everything",
+        "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
+        "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
+        "How the Strait of Hormuz standoff flipped the energy security debate"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Iran's threats against this Red Sea chokepoint are a big vulnerability for the oil market",
+        "How the Strait of Hormuz standoff flipped the energy security debate",
+        "Oil Falls as Traders Weigh Demand Destruction, Stalled Talks",
+        "Analyst Report: CMS Energy Corp"
       ]
     },
     {
       "topic": "Recession / Slowdown",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "CNBC(1), MarketWatch(1), Yahoo(1)",
+      "sample_headlines": [
+        "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
+        "The hiring recession is over \u2014 but landing a new role is much harder than it looks",
+        "Freight distress spreads as bankruptcies, layoffs top 600 jobs"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "CNBC(2), Yahoo(1)",
+      "sample_headlines": [
+        "Bitcoin cracks $60,000, sinking to lowest level since October 2024",
+        "Crypto mutiny on Strategy: Shorts target 'MSTR' in bitcoin bloodbath",
+        "Better and Coinbase issue the first crypto-backed conventional mortgage"
+      ]
+    },
+    {
+      "topic": "China",
       "count": 1,
       "pct": 0.9,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Long-term unemployment is surging in the U.S. There are hidden costs for workers and the economy"
+        "'The chokepoints now run both ways': JPMorgan says 5 forces are quietly reshaping the US-China balance of power"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "The Mortgage Hedging \u2018Beast\u2019 Is Returning to the Treasury Market"
       ]
     }
   ]
