@@ -1,94 +1,119 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 117,
-  "fetched_at": "2026-06-06T10:23:48.491889+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 118,
+  "fetched_at": "2026-06-06T21:01:20.652207+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 18,
-      "pct": 15.4,
-      "sources": "CNBC(9), FT(4), MarketWatch(2), Yahoo(2), Bloomberg(1)",
+      "count": 16,
+      "pct": 13.6,
+      "sources": "CNBC(8), Yahoo(4), MarketWatch(3), Bloomberg(1)",
       "sample_headlines": [
+        "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
         "Google to pay SpaceX $920 million a month for compute capacity at xAI data centers",
-        "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
         "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
-        "Trump administration, OpenAI discussing possible government stake in the AI startup",
-        "Apple's WWDC: Tim Cook's AI legacy at stake in his final developer conference as CEO"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 18,
-      "pct": 15.4,
-      "sources": "Bloomberg(6), CNBC(4), MarketWatch(3), FT(2), Yahoo(2), Google News(1)",
-      "sample_headlines": [
-        "Marvell Technology and Flex to join S&P 500 index, replacing Pool and Campbell's",
-        "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test",
-        "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic",
-        "No tech, no problem. Dow makes record and traders think these stocks can lead now",
-        "S&P 500 sees $1.8 trillion wipeout, Nasdaq tallies biggest point drop on record: What investors need to know about Friday\u2019s selloff"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 9.4,
-      "sources": "Bloomberg(6), Yahoo(3), CNBC(2)",
-      "sample_headlines": [
-        "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
-        "Odds of a Fed hike this year jump on prediction markets",
-        "Charting the Global Economy: Jobs, Inflation Feed Rate-Hike Bets",
-        "Philippine Court Drops Remaining Marcos Ill-Gotten Wealth Case",
-        "KPMG Chief Economist Discusses Fed Rate Hike Expectations"
+        "AstraZeneca CEO says AI is reshaping drug development \u2014 and helping boost the odds of success",
+        "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 8.5,
-      "sources": "CNBC(5), Yahoo(3), FT(1), Bloomberg(1)",
+      "count": 14,
+      "pct": 11.9,
+      "sources": "CNBC(6), Bloomberg(4), FT(3), Yahoo(1)",
       "sample_headlines": [
-        "Social media bans on teens risk strengthening Big Tech's grip on the sector, Bluesky exec warns",
+        "Inside the Obama-era Iran nuclear deal that Trump withdrew from",
         "Warren Buffett disciple\u00a0Guy Spier built career on value investing. A rare cancer changed everything",
+        "Social media bans on teens risk strengthening Big Tech's grip on the sector, Bluesky exec warns",
         "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
-        "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
-        "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests"
+        "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Equities / Market moves",
+      "count": 14,
+      "pct": 11.9,
+      "sources": "CNBC(6), MarketWatch(4), FT(2), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
+        "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
+        "Here are 3 forces that drove a whirlwind week for the stock market",
+        "Marvell Technology and Flex to join S&P 500 index, replacing Pool and Campbell's",
+        "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "Bloomberg(4), Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
+        "ECB Steps Up as G7\u2019s Lead Hawk With Interest-Rate Hike Primed",
+        "Fed\u2019s Barr Warns of Risks Tied to Looser Wall Street Bank Rules",
+        "Frasers Weighs \u00a3500 Million Bid for Shopping Center, Sky Reports",
+        "Charting the Global Economy: Jobs, Inflation Feed Rate-Hike Bets"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "Bloomberg(3), Yahoo(2), CNBC(1), FT(1)",
+      "sample_headlines": [
+        "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
+        "Trump relaunches tariffs war after court struck down levies",
+        "US Proposes New Tariffs Over Forced Labor",
+        "US Sanctions Cuba\u2019s D\u00edaz-Canel as Trump Ramps Up Pressure",
+        "RBNZ\u2019s Breman Says Country Finding Solutions to Protectionism"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
       "count": 6,
       "pct": 5.1,
-      "sources": "CNBC(2), Yahoo(2), MarketWatch(1), Bloomberg(1)",
+      "sources": "MarketWatch(3), FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin cracks $60,000, sinking to lowest level since October 2024",
-        "Crypto mutiny on Strategy: Shorts target 'MSTR' in bitcoin bloodbath",
-        "Bitcoin is suffering from an \u2018attention\u2019 deficit, as momentum traders have moved on",
-        "Tech Selloff, Bitcoin Drop Test Retail Investor Strength Ahead of SpaceX IPO",
-        "Bitcoin and ethereum prices today, Friday, June 5, 2026: Prices continue their descent - 5 reasons why"
+        "You\u2019re going to pay tax on RMDs \u2014 there\u2019s no way around it. Or is there?",
+        "Busted AI budgets at Uber, Microsoft and Nvidia spur hiring \u2014 because human workers are cheaper",
+        "Silicon Valley was built on public money \u2014 now it\u2019s fighting California\u2019s billionaire tax",
+        "Netherlands moves to soothe rich investors over tax on paper profits",
+        "Broadway Shows Eye London, NY Wooing With Tax Credits"
       ]
     },
     {
       "topic": "China",
       "count": 4,
       "pct": 3.4,
-      "sources": "Bloomberg(2), FT(1), Yahoo(1)",
+      "sources": "CNBC(1), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "Chinese EVs may hit U.S. within a few years, one way or another",
+        "Tired of nausea or taking a GLP-1 pill every day? These experimental drugs could be better than Zepbound and Wegovy.",
         "Wasting China\u2019s solar panel surplus is madness",
-        "China\u2019s Regulator to Deepen Focus on Returns in Fund Overhaul",
-        "China, New Zealand Hold Trade Talks to Deepen Cooperation",
-        "China and Hong Kong users unable to access SpaceX website, IPO documents"
+        "China\u2019s Regulator to Deepen Focus on Returns in Fund Overhaul"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "CNBC(2), Yahoo(2)",
+      "sample_headlines": [
+        "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
+        "Crypto mutiny on Strategy: Shorts target 'MSTR' in bitcoin bloodbath",
+        "Bitcoin's Biggest Buyer Just Sold Some. Should Other Investors Follow Suit?",
+        "$10,000 in ETHT Became $7,731 in One Day as Ethereum Cracked Below $1,600"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 3,
-      "pct": 2.6,
-      "sources": "CNBC(1), FT(1), Yahoo(1)",
+      "pct": 2.5,
+      "sources": "FT(2), CNBC(1)",
       "sample_headlines": [
         "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
-        "Allegations against Maine Senate candidate plunge Democrats into turmoil",
-        "From Netflix to toilet paper, Americans love subscriptions \u2014 but 30% are spending much more than they realize"
+        "Oil tanker owners fear market crash after Iran war drove record profits",
+        "Allegations against Maine Senate candidate plunge Democrats into turmoil"
       ]
     },
     {
@@ -98,25 +123,7 @@
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
         "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
-        "Strong U.S. Jobs Report Lowers Recession Risks Despite Wage Growth Lagging Inflation"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "RBNZ\u2019s Breman Says Country Finding Solutions to Protectionism"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "MarketWatch(1)",
-      "sample_headlines": [
-        "Bitcoin is suffering from an \u2018attention\u2019 deficit, as momentum traders have moved on"
+        "IATA Director on Air Transport Stagflation & Challenges"
       ]
     }
   ]
