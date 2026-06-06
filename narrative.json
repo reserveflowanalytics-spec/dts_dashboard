@@ -1,110 +1,122 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 113,
-  "fetched_at": "2026-06-05T21:01:51.950541+00:00",
+  "total_headlines": 117,
+  "fetched_at": "2026-06-06T10:23:48.491889+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 17.7,
-      "sources": "CNBC(10), Yahoo(4), FT(3), MarketWatch(2), Bloomberg(1)",
+      "count": 18,
+      "pct": 15.4,
+      "sources": "CNBC(9), FT(4), MarketWatch(2), Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
         "Google to pay SpaceX $920 million a month for compute capacity at xAI data centers",
+        "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
+        "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
         "Trump administration, OpenAI discussing possible government stake in the AI startup",
-        "Apple's WWDC: Tim Cook's AI legacy at stake in his final developer conference as CEO",
-        "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic"
+        "Apple's WWDC: Tim Cook's AI legacy at stake in his final developer conference as CEO"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 17,
-      "pct": 15.0,
-      "sources": "Bloomberg(6), CNBC(3), MarketWatch(3), Yahoo(3), Google News(1), FT(1)",
+      "count": 18,
+      "pct": 15.4,
+      "sources": "Bloomberg(6), CNBC(4), MarketWatch(3), FT(2), Yahoo(2), Google News(1)",
       "sample_headlines": [
+        "Marvell Technology and Flex to join S&P 500 index, replacing Pool and Campbell's",
         "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test",
         "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic",
         "No tech, no problem. Dow makes record and traders think these stocks can lead now",
-        "For the first time ever, an S&P 500 ETF has over $1 trillion in assets. Here\u2019s why that should worry you.",
-        "This hot new financial product has Wall Street spooked. What you should know before trying it out."
+        "S&P 500 sees $1.8 trillion wipeout, Nasdaq tallies biggest point drop on record: What investors need to know about Friday\u2019s selloff"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 12,
-      "pct": 10.6,
-      "sources": "Bloomberg(8), CNBC(2), MarketWatch(1), FT(1)",
+      "count": 11,
+      "pct": 9.4,
+      "sources": "Bloomberg(6), Yahoo(3), CNBC(2)",
       "sample_headlines": [
         "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
         "Odds of a Fed hike this year jump on prediction markets",
-        "The Fed may already be too late in hiking interest rates \u2014 which is bad news for these borrowers",
-        "Investors boost bets for Fed rate rise after bumper US jobs report",
-        "Dollar Gains as Resilient Job Market Boosts Fed Hike Bets"
+        "Charting the Global Economy: Jobs, Inflation Feed Rate-Hike Bets",
+        "Philippine Court Drops Remaining Marcos Ill-Gotten Wealth Case",
+        "KPMG Chief Economist Discusses Fed Rate Hike Expectations"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 9,
-      "pct": 8.0,
-      "sources": "CNBC(5), Yahoo(3), Bloomberg(1)",
+      "count": 10,
+      "pct": 8.5,
+      "sources": "CNBC(5), Yahoo(3), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Iran's threats against this Red Sea chokepoint are a big vulnerability for the oil market",
+        "Social media bans on teens risk strengthening Big Tech's grip on the sector, Bluesky exec warns",
         "Warren Buffett disciple\u00a0Guy Spier built career on value investing. A rare cancer changed everything",
-        "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
         "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
-        "How the Strait of Hormuz standoff flipped the energy security debate"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Iran's threats against this Red Sea chokepoint are a big vulnerability for the oil market",
-        "How the Strait of Hormuz standoff flipped the energy security debate",
-        "Oil Falls as Traders Weigh Demand Destruction, Stalled Talks",
-        "Analyst Report: CMS Energy Corp"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "CNBC(1), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
-        "The hiring recession is over \u2014 but landing a new role is much harder than it looks",
-        "Freight distress spreads as bankruptcies, layoffs top 600 jobs"
+        "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
+        "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "CNBC(2), Yahoo(1)",
+      "count": 6,
+      "pct": 5.1,
+      "sources": "CNBC(2), Yahoo(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
         "Bitcoin cracks $60,000, sinking to lowest level since October 2024",
         "Crypto mutiny on Strategy: Shorts target 'MSTR' in bitcoin bloodbath",
-        "Better and Coinbase issue the first crypto-backed conventional mortgage"
+        "Bitcoin is suffering from an \u2018attention\u2019 deficit, as momentum traders have moved on",
+        "Tech Selloff, Bitcoin Drop Test Retail Investor Strength Ahead of SpaceX IPO",
+        "Bitcoin and ethereum prices today, Friday, June 5, 2026: Prices continue their descent - 5 reasons why"
       ]
     },
     {
       "topic": "China",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "Bloomberg(2), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "Wasting China\u2019s solar panel surplus is madness",
+        "China\u2019s Regulator to Deepen Focus on Returns in Fund Overhaul",
+        "China, New Zealand Hold Trade Talks to Deepen Cooperation",
+        "China and Hong Kong users unable to access SpaceX website, IPO documents"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "CNBC(1), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
+        "Allegations against Maine Senate candidate plunge Democrats into turmoil",
+        "From Netflix to toilet paper, Americans love subscriptions \u2014 but 30% are spending much more than they realize"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
+        "Strong U.S. Jobs Report Lowers Recession Risks Despite Wage Growth Lagging Inflation"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "'The chokepoints now run both ways': JPMorgan says 5 forces are quietly reshaping the US-China balance of power"
+        "RBNZ\u2019s Breman Says Country Finding Solutions to Protectionism"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "The Mortgage Hedging \u2018Beast\u2019 Is Returning to the Treasury Market"
+        "Bitcoin is suffering from an \u2018attention\u2019 deficit, as momentum traders have moved on"
       ]
     }
   ]
