@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-06-04",
-  "computed_at": "2026-06-07T21:01:38Z",
+  "as_of": "2026-06-05",
+  "computed_at": "2026-06-08T21:07:24Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -11,8 +11,8 @@
     "tech_close": 7400.25,
     "tech_sma20": 7506.79,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "3/11",
+    "rs_conviction_label": "Low \u2014 only 4/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "4/11",
     "tier1_open": false,
     "macro_confluence": "1/3"
   },
@@ -20,19 +20,24 @@
     {
       "pair": "XLI/GLD",
       "rationale": "Industrial activity vs hard asset",
-      "roc_20d": 4.37
+      "roc_20d": 9.06
     }
   ],
   "underweight_pairs": [
     {
       "pair": "GLD/SPY",
       "rationale": "Hard asset vs equity",
-      "roc_20d": -7.5
+      "roc_20d": -8.95
     },
     {
-      "pair": "XLE/XLK",
-      "rationale": "Energy vs tech",
-      "roc_20d": -9.28
+      "pair": "XLY/XLP",
+      "rationale": "Consumer discretionary vs staples",
+      "roc_20d": -3.57
+    },
+    {
+      "pair": "XLB/XLRE",
+      "rationale": "Materials vs real estate",
+      "roc_20d": -2.16
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",

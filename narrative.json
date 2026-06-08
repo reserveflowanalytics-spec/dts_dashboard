@@ -1,122 +1,101 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 128,
-  "fetched_at": "2026-06-07T21:01:19.882655+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 124,
+  "fetched_at": "2026-06-08T21:07:09.283545+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 15,
-      "pct": 11.7,
-      "sources": "FT(6), CNBC(5), Bloomberg(2), Yahoo(2)",
+      "count": 24,
+      "pct": 19.4,
+      "sources": "CNBC(8), Bloomberg(8), MarketWatch(3), Yahoo(3), FT(2)",
       "sample_headlines": [
-        "Fragile ceasefire in jeopardy as Iran reportedly fires missiles at Israel",
-        "Inside the Obama-era Iran nuclear deal that Trump withdrew from",
-        "Social media bans on teens risk strengthening Big Tech's grip on the sector, Bluesky exec warns",
-        "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
-        "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market"
+        "Netanyahu says war with Iran, Hezbollah isn't over after Tehran says it's halting strikes",
+        "China is helping to cushion global oil prices below $100 \u2014 but analysts warn it won\u2019t last",
+        "Corning strikes another multibillion-dollar AI deal. What the new Amazon pact means for the stock",
+        "Kalshi traders say Strait of Hormuz traffic won't return to normal before January",
+        "Congress moves toward approving $70 billion for ICE and CBP through Trump's presidency"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 8.6,
-      "sources": "CNBC(5), Yahoo(5), Bloomberg(1)",
+      "count": 23,
+      "pct": 18.5,
+      "sources": "Bloomberg(7), CNBC(5), Yahoo(5), MarketWatch(3), FT(3)",
       "sample_headlines": [
-        "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
-        "Google to pay SpaceX $920 million a month for compute capacity at xAI data centers",
-        "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
-        "AstraZeneca CEO says AI is reshaping drug development \u2014 and helping boost the odds of success",
-        "Trump administration, OpenAI discussing possible government stake in the AI startup"
+        "Nvidia CEO Jensen Huang declines Senate testimony on AI, China and exports",
+        "Chip rebound sparks hedging flurry from traders",
+        "Chip rebound has one trader buying protection",
+        "Corning strikes another multibillion-dollar AI deal. What the new Amazon pact means for the stock",
+        "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S."
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 8.6,
-      "sources": "CNBC(5), MarketWatch(2), Yahoo(2), FT(1), Bloomberg(1)",
+      "count": 12,
+      "pct": 9.7,
+      "sources": "Yahoo(5), CNBC(2), Bloomberg(2), MarketWatch(1), Google News(1), FT(1)",
       "sample_headlines": [
-        "Top Wall Street analysts recommend these 3 dividend stocks for solid returns",
-        "Here are the 6 big things we're watching in the stock market this week",
-        "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
-        "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
-        "Marvell Technology and Flex to join S&P 500 index, replacing Pool and Campbell's"
+        "Silicon Valley\u2019s new buyout playbook is hitting Wall Street",
+        "Marvell Technology jumps 10% after news it will join the S&P 500 index",
+        "BofA sees \u2018red flags\u2019 in the U.S. stock market. Here\u2019s what to buy now.",
+        "Korea halts entire stock market, global chaos - News.com.au",
+        "Wall Street rebounds as traders race back into chip stocks"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 8,
-      "pct": 6.2,
-      "sources": "Bloomberg(3), Yahoo(2), CNBC(1), MarketWatch(1), FT(1)",
+      "pct": 6.5,
+      "sources": "Bloomberg(5), CNBC(2), Yahoo(1)",
       "sample_headlines": [
-        "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
-        "S&P 500 companies can\u2019t stop talking about higher oil prices. But few say they\u2019ll actually hurt profits.",
-        "Airlines face $100bn hit on jet fuel from Iran energy shock",
-        "OPEC+ Agrees Another Symbolic Quota Increase for July",
-        "Sen. Armstrong Advocates for Energy Infrastructure Expansion"
+        "China is helping to cushion global oil prices below $100 \u2014 but analysts warn it won\u2019t last",
+        "Oil prices ease after Iran says military operations against Israel are over",
+        "US Stocks Rebound From Selloff as Chipmakers, Energy Shares Rise",
+        "Treasuries Pare Drop in Oil-Driven Move Tied to Iran War",
+        "Oil Edges Higher After Iran, Israel Signal Halt to Escalations"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.7,
-      "sources": "FT(2), Bloomberg(2), CNBC(1), Yahoo(1)",
+      "count": 7,
+      "pct": 5.6,
+      "sources": "Yahoo(3), MarketWatch(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Inflation inside the electronics you buy may soon become a bit more sticky",
-        "Trump piles pressure on Warsh with call for rate cut",
-        "Voters sour on Trump\u2019s handling of inflation and grocery prices \u2014 FT poll",
-        "Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot",
-        "ECB Steps Up as G7\u2019s Lead Hawk With Interest-Rate Hike Primed"
+        "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
+        "Inflation could top 4% this week. The bond market wants Fed Chair Warsh to prove he\u2019ll fight it.",
+        "An inflation storm is brewing in the Pacific Ocean \u2014 and your portfolio isn\u2019t ready",
+        "New York\u2019s Penn Station Rehab Eyes Billions in Federal Funding",
+        "US retirees spend a whopping 52.5% of their income on just 2 categories \u2014 neither is food or healthcare. Do this instead"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "Crypto",
       "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "pct": 2.4,
+      "sources": "Yahoo(3)",
       "sample_headlines": [
-        "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
-        "Embraer Arijan Meijer on Tariff Impact Within Aviation",
-        "Deere & Co (DE) Stock Is a Tariff Story. Here\u2019s What to Know"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Brazil Budget Freeze Grounds Aircraft Approval Process",
-        "Why Bill to End Truck Tax Matters for Paccar Inc (PCAR) Stock",
-        "Treasury Secretary Scott Bessent Says Young People Playing The Lottery 'Drives Me Crazy' \u2014 Urges Them To Invest And 'Watch It Grow'"
+        "HODL or NCIQ? The Simplest Crypto ETF vs. the Most Diversified One and Why the Difference Matters.",
+        "Bitcoin and ethereum prices today, Monday, June 8, 2026: Moving up after bitcoin prices fell below $60,000",
+        "Your guide to managing crypto volatility with dollar-cost averaging"
       ]
     },
     {
       "topic": "China",
       "count": 2,
       "pct": 1.6,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "Chinese EVs may hit U.S. within a few years, one way or another",
-        "GE Sees Potential For More China Deals After Trump-Xi Meeting"
+        "Nvidia CEO Jensen Huang declines Senate testimony on AI, China and exports",
+        "China is helping to cushion global oil prices below $100 \u2014 but analysts warn it won\u2019t last"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
-        "The SpaceX IPO is Coming Soon. What Does It Mean for Crypto?"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Amazon unveils latest warehouse robot as tech giants continue AI layoffs"
+        "Nvidia CEO Jensen Huang declines Senate testimony on AI, China and exports"
       ]
     }
   ]
