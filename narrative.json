@@ -1,115 +1,101 @@
 {
-  "dominant": "AI / Tech",
+  "dominant": "No clear dominant narrative",
   "total_headlines": 127,
-  "fetched_at": "2026-06-09T21:07:08.897428+00:00",
+  "fetched_at": "2026-06-10T21:05:13.771083+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 23,
-      "pct": 18.1,
-      "sources": "CNBC(10), Yahoo(6), MarketWatch(3), Bloomberg(3), FT(1)",
+      "count": 19,
+      "pct": 15.0,
+      "sources": "Yahoo(8), CNBC(6), Bloomberg(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
-        "Semiconductor shorts pile on as winning trade reverses",
-        "GM eyes new battery chemistry to grow AI data center, energy storage business",
-        "Apple shares slide after big Siri AI reveal",
-        "Rivian is betting on its R2 EV to turn the automaker into a household name like Tesla"
+        "Wall Street needs a crash course in the token economy ahead of AI IPOs. SpaceX offers a preview",
+        "Amazon trucking expansion sparks freight stock sell-off",
+        "Humaniod robotics company raises up to $1.4 billion from Nvidia, Amazon and others",
+        "Palantir's Karp says businesses are 'unhappy' with the frontier AI labs",
+        "Private credit lenders say their big software bet faces an AI reckoning \u2014 but not a \u2018SaaSpocalypse'"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 12.6,
-      "sources": "CNBC(6), Yahoo(6), FT(2), MarketWatch(1), Bloomberg(1)",
+      "count": 19,
+      "pct": 15.0,
+      "sources": "CNBC(8), Yahoo(5), Bloomberg(3), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "Trump says U.S. must 'respond' after Iran shoots down helicopter over Hormuz Strait",
-        "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
-        "White House border czar Tom Homan blames New York Gov. Hochul for promised ICE surge",
-        "Home sales surged in May to the highest level since December",
-        "Bitcoin's brutal sell-off sparks a flurry of trading in related stocks, including one big bullish bet"
+        "Wall Street needs a crash course in the token economy ahead of AI IPOs. SpaceX offers a preview",
+        "Unique SpaceX IPO is hedging challenge for Wall Street: 'What are you going to do, short NASA?'",
+        "Volatility surge has trader eyeing one 'stable' stock",
+        "As gold's tumble continues, traders bet the pain may last for two more years",
+        "Here's the inflation breakdown for May 2026 \u2014 in one chart"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 12,
-      "pct": 9.4,
-      "sources": "CNBC(4), Bloomberg(4), FT(3), Yahoo(1)",
+      "count": 16,
+      "pct": 12.6,
+      "sources": "CNBC(7), Bloomberg(5), FT(4)",
       "sample_headlines": [
-        "Trump says U.S. must 'respond' after Iran shoots down helicopter over Hormuz Strait",
-        "$70 billion immigration funding package moves toward passage in U.S. House",
-        "Energy Secretary Chris Wright says traffic in Strait of Hormuz is rising 'very meaningfully'",
-        "The 'SaaSpocalypse' is over, says private equity giant Thoma Bravo. Here's why it sees an AI boom for software",
-        "Trump vows to \u2018respond\u2019 after Iran \u2018shot down\u2019 a US helicopter"
+        "Trump keeps saying an Iran deal is close. Markets keep believing it",
+        "Trump pledges more Iran strikes, saying U.S. will be 'attacking them very hard'",
+        "Oil prices rise after Trump says U.S. will attack Iran 'very hard'",
+        "Trump says U.S. secretly moved more than 100 million barrels of oil through Strait of Hormuz",
+        "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 7.1,
-      "sources": "Bloomberg(4), CNBC(2), FT(2), Yahoo(1)",
+      "count": 10,
+      "pct": 7.9,
+      "sources": "Yahoo(3), CNBC(2), FT(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "GM eyes new battery chemistry to grow AI data center, energy storage business",
-        "Energy Secretary Chris Wright says traffic in Strait of Hormuz is rising 'very meaningfully'",
-        "Oil slides as US official says Hormuz transits are \u2018meaningfully\u2019 climbing",
-        "Oil market defies predictions of summer supply crunch",
-        "Treasuries Hold Oil-Driven Gains Despite Soft Auction Demand"
+        "Oil prices rise after Trump says U.S. will attack Iran 'very hard'",
+        "Trump says U.S. secretly moved more than 100 million barrels of oil through Strait of Hormuz",
+        "My plumber charged $160 to fix the cistern on my toilet \u2014 but created another problem. Do I pay again?",
+        "Oil tankers increase \u2018dark\u2019 transits through Strait of Hormuz",
+        "US inflation jumped to 4.2% in May amid Middle East energy shock"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.3,
-      "sources": "Bloomberg(4), MarketWatch(2), CNBC(1), Yahoo(1)",
+      "count": 10,
+      "pct": 7.9,
+      "sources": "Bloomberg(3), CNBC(2), MarketWatch(2), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "The May inflation numbers are due out Wednesday morning. Here's what to expect",
-        "A powerful inflation storm is brewing \u2014 and your portfolio isn\u2019t ready",
-        "Sales of million-dollar homes suggest inflation is spurring the wealthy to buy now",
-        "Emerging Assets Stage Comeback as Dollar Weakens Ahead of CPI",
-        "Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast"
+        "Trump says 'I love the inflation' after consumer price index hits 3-year high",
+        "Here's the inflation breakdown for May 2026 \u2014 in one chart",
+        "\u2018It will not bring you happiness\u2019: I have advice for your single, childless 62-year-old multimillionaire reader",
+        "The 4.2% inflation rate is a bummer, but the worst might be over",
+        "US inflation jumped to 4.2% in May amid Middle East energy shock"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 6,
-      "pct": 4.7,
-      "sources": "Yahoo(4), CNBC(2)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump family got about $500M from crypto venture \u2014 but investors saw steep losses",
-        "Bitcoin's brutal sell-off sparks a flurry of trading in related stocks, including one big bullish bet",
-        "Bitcoin Steadies After $60,000 Breach as Saylor Adds to Hoard",
-        "MicroStrategy Buys Bitcoin 2 Weeks After Selling",
-        "Morning Minute: Bitcoin Recovers After Fall Below $60k"
+        "Company that bet big on Trump-backed crypto says its fortunes have improved",
+        "Bitcoin Selloff Leaves Half of All Supply Trading at a Loss",
+        "Bitcoin and ethereum prices today, Tuesday, June 9, 2026: Values stabilize as investors may seek alternatives"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.1,
-      "sources": "Bloomberg(3), MarketWatch(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Fund a grandchild\u2019s retirement tax-free from birth \u2014 if you can trust an 18-year-old with the money",
-        "Will Billionaires Really Flee a California Wealth Tax?",
-        "Chile Finance Minister Backs Off Key Budget Goal as Debt Rises",
-        "Speaker Visits White House as FISA, Budget Bill Hang in Balance"
+        "Sports betting is taking a bite out of gamblers\u2019 grocery budgets, new research suggests",
+        "UK\u2019s Reeves to Lower Tax Burden for Wealthy US Expats"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "S&amp;P 500 Traders Grapple With Swings Reminiscent of Tariff Tumult",
-        "Microsoft seeks Nevada tariff to shield ratepayers from data center costs"
-      ]
-    },
-    {
-      "topic": "China",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "China Tightens Its Grip on Billions in Offshore Wealth"
+        "Trump suggests he may not renew trade deal with Mexico and Canada"
       ]
     }
   ]
