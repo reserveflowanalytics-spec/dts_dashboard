@@ -1,101 +1,91 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 127,
-  "fetched_at": "2026-06-10T21:05:13.771083+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 120,
+  "fetched_at": "2026-06-11T21:01:46.387899+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 19,
-      "pct": 15.0,
-      "sources": "Yahoo(8), CNBC(6), Bloomberg(3), MarketWatch(1), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 22,
+      "pct": 18.3,
+      "sources": "Bloomberg(12), CNBC(4), Yahoo(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Wall Street needs a crash course in the token economy ahead of AI IPOs. SpaceX offers a preview",
-        "Amazon trucking expansion sparks freight stock sell-off",
-        "Humaniod robotics company raises up to $1.4 billion from Nvidia, Amazon and others",
-        "Palantir's Karp says businesses are 'unhappy' with the frontier AI labs",
-        "Private credit lenders say their big software bet faces an AI reckoning \u2014 but not a \u2018SaaSpocalypse'"
+        "Trump claims Iran war settled 'subject to finalization,' expects signing in 'next few days'",
+        "From startup to $1.8 trillion: The investors who took a chance on SpaceX now reap the rewards",
+        "Oil tanker CEO sees Hormuz ship traffic quickly increasing if U.S. and Iran reach a deal",
+        "Iran threatens Elon Musk's companies in Middle East: Iranian state media",
+        "Global oil prices end near an 8-week low as Trump backs away from his threat of strikes on Iran"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 19,
-      "pct": 15.0,
-      "sources": "CNBC(8), Yahoo(5), Bloomberg(3), MarketWatch(2), FT(1)",
+      "pct": 15.8,
+      "sources": "Yahoo(9), CNBC(4), Bloomberg(4), MarketWatch(2)",
       "sample_headlines": [
-        "Wall Street needs a crash course in the token economy ahead of AI IPOs. SpaceX offers a preview",
-        "Unique SpaceX IPO is hedging challenge for Wall Street: 'What are you going to do, short NASA?'",
-        "Volatility surge has trader eyeing one 'stable' stock",
-        "As gold's tumble continues, traders bet the pain may last for two more years",
-        "Here's the inflation breakdown for May 2026 \u2014 in one chart"
+        "SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019",
+        "SpaceX IPO won\u2019t \u2018break\u2019 the bull market. But investors are worried about what comes next",
+        "Oracle shares tumble 11% on increased capital raise, cash concerns",
+        "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
+        "Missed the rally in optical stocks? Coherent and Lumentum just got more attractive, according to J.P. Morgan."
       ]
     },
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 16,
-      "pct": 12.6,
-      "sources": "CNBC(7), Bloomberg(5), FT(4)",
+      "topic": "AI / Tech",
+      "count": 15,
+      "pct": 12.5,
+      "sources": "Yahoo(7), CNBC(5), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Trump keeps saying an Iran deal is close. Markets keep believing it",
-        "Trump pledges more Iran strikes, saying U.S. will be 'attacking them very hard'",
-        "Oil prices rise after Trump says U.S. will attack Iran 'very hard'",
-        "Trump says U.S. secretly moved more than 100 million barrels of oil through Strait of Hormuz",
-        "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 7.9,
-      "sources": "Yahoo(3), CNBC(2), FT(2), Bloomberg(2), MarketWatch(1)",
-      "sample_headlines": [
-        "Oil prices rise after Trump says U.S. will attack Iran 'very hard'",
-        "Trump says U.S. secretly moved more than 100 million barrels of oil through Strait of Hormuz",
-        "My plumber charged $160 to fix the cistern on my toilet \u2014 but created another problem. Do I pay again?",
-        "Oil tankers increase \u2018dark\u2019 transits through Strait of Hormuz",
-        "US inflation jumped to 4.2% in May amid Middle East energy shock"
+        "Ahead of SpaceX IPO, Elon Musk addresses ASML employees as part of push into chip manufacturing",
+        "OpenAI to acquire Ona to support its AI coding assistant, Codex",
+        "Coinbase launches tool to let AI agents manage trading and payments",
+        "Eaton moves one step closer to becoming a cleaner bet on the AI boom",
+        "DoorDash lets customers use photos, prompts to order food and book reservations in latest AI push"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 7.9,
-      "sources": "Bloomberg(3), CNBC(2), MarketWatch(2), Yahoo(2), FT(1)",
+      "count": 7,
+      "pct": 5.8,
+      "sources": "Yahoo(4), CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Trump says 'I love the inflation' after consumer price index hits 3-year high",
-        "Here's the inflation breakdown for May 2026 \u2014 in one chart",
-        "\u2018It will not bring you happiness\u2019: I have advice for your single, childless 62-year-old multimillionaire reader",
-        "The 4.2% inflation rate is a bummer, but the worst might be over",
-        "US inflation jumped to 4.2% in May amid Middle East energy shock"
+        "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
+        "Trump might 'love the inflation,' but consumers are feeling the pain, experts say",
+        "New York Penn Station Rehab Eyes Billions in Federal Funding",
+        "Saia, Old Dominion and FedEx Freight Slide After Amazon Expands Nationwide LTL Service",
+        "Stock Futures Stay Lower After CPI Inflation Report Matches Expectations"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 4.2,
+      "sources": "CNBC(2), Bloomberg(2), MarketWatch(1)",
+      "sample_headlines": [
+        "Oil tanker CEO sees Hormuz ship traffic quickly increasing if U.S. and Iran reach a deal",
+        "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
+        "Global oil prices end near an 8-week low as Trump backs away from his threat of strikes on Iran",
+        "Oil Tumbles as Trump Signals US Drawing Closer to Deal With Iran",
+        "US Bonds Surge as Trump\u2019s Vow That War Is Ending Sends Oil Lower"
       ]
     },
     {
       "topic": "Crypto",
       "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "pct": 2.5,
+      "sources": "Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
-        "Company that bet big on Trump-backed crypto says its fortunes have improved",
-        "Bitcoin Selloff Leaves Half of All Supply Trading at a Loss",
-        "Bitcoin and ethereum prices today, Tuesday, June 9, 2026: Values stabilize as investors may seek alternatives"
+        "Bitcoin\u2019s long-term return may actually be close to zero \u2014 and that could be just what it needs",
+        "More Than 50% Of Bitcoin Supply Is Now Underwater",
+        "Bitcoin and ethereum prices today, June 10, 2026: BTC, ETH open lower and falling further"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Sports betting is taking a bite out of gamblers\u2019 grocery budgets, new research suggests",
-        "UK\u2019s Reeves to Lower Tax Burden for Wealthy US Expats"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
+      "topic": "China",
       "count": 1,
       "pct": 0.8,
-      "sources": "FT(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Trump suggests he may not renew trade deal with Mexico and Canada"
+        "Alibaba Shares Drop on China AI Infrastructure Spending Report, but Citi Sees Long-Term Benefits (BABA)"
       ]
     }
   ]
