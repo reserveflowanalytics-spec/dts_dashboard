@@ -1,91 +1,103 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 120,
-  "fetched_at": "2026-06-11T21:01:46.387899+00:00",
+  "total_headlines": 118,
+  "fetched_at": "2026-06-12T21:02:02.102128+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 22,
-      "pct": 18.3,
-      "sources": "Bloomberg(12), CNBC(4), Yahoo(3), FT(2), MarketWatch(1)",
+      "count": 18,
+      "pct": 15.3,
+      "sources": "CNBC(5), Bloomberg(5), Yahoo(4), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "Trump claims Iran war settled 'subject to finalization,' expects signing in 'next few days'",
-        "From startup to $1.8 trillion: The investors who took a chance on SpaceX now reap the rewards",
-        "Oil tanker CEO sees Hormuz ship traffic quickly increasing if U.S. and Iran reach a deal",
-        "Iran threatens Elon Musk's companies in Middle East: Iranian state media",
-        "Global oil prices end near an 8-week low as Trump backs away from his threat of strikes on Iran"
+        "Trump administration: Iran deal signing likely in coming days, but not '100%' certain",
+        "Kevin Warsh will not be the Fed 'chair.' His immediate predecessors were",
+        "For Warsh as Fed chair, silence may be the point",
+        "U.S. crude oil falls below $85 as U.S. and Iran near a deal to reopen Hormuz",
+        "Warren questions SpaceX IPO oversight in new letter to stock indexes"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 19,
-      "pct": 15.8,
-      "sources": "Yahoo(9), CNBC(4), Bloomberg(4), MarketWatch(2)",
+      "count": 18,
+      "pct": 15.3,
+      "sources": "Yahoo(8), CNBC(5), Bloomberg(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019",
-        "SpaceX IPO won\u2019t \u2018break\u2019 the bull market. But investors are worried about what comes next",
-        "Oracle shares tumble 11% on increased capital raise, cash concerns",
-        "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
-        "Missed the rally in optical stocks? Coherent and Lumentum just got more attractive, according to J.P. Morgan."
+        "Elon Musk becomes world's first trillionaire as SpaceX begins trading on the Nasdaq",
+        "Trump name still must come down from Kennedy Center, judge says",
+        "SpaceX 'proxies' plunge as real deal arrives: Here's where traders are buying the dip",
+        "The S&P 500 already made a big call on SpaceX stock and index fund investors need to know it",
+        "Bitcoin's latest plunge revives the debate over owning it\u2014and whether it's just 'crypto being crypto'"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 12.5,
-      "sources": "Yahoo(7), CNBC(5), FT(2), MarketWatch(1)",
+      "count": 11,
+      "pct": 9.3,
+      "sources": "CNBC(3), Bloomberg(3), Yahoo(3), MarketWatch(2)",
       "sample_headlines": [
-        "Ahead of SpaceX IPO, Elon Musk addresses ASML employees as part of push into chip manufacturing",
-        "OpenAI to acquire Ona to support its AI coding assistant, Codex",
-        "Coinbase launches tool to let AI agents manage trading and payments",
-        "Eaton moves one step closer to becoming a cleaner bet on the AI boom",
-        "DoorDash lets customers use photos, prompts to order food and book reservations in latest AI push"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.8,
-      "sources": "Yahoo(4), CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
-        "Trump might 'love the inflation,' but consumers are feeling the pain, experts say",
-        "New York Penn Station Rehab Eyes Billions in Federal Funding",
-        "Saia, Old Dominion and FedEx Freight Slide After Amazon Expands Nationwide LTL Service",
-        "Stock Futures Stay Lower After CPI Inflation Report Matches Expectations"
+        "Meta reportedly begins dismantling $2 billion Manus deal on Beijing's orders",
+        "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
+        "Honeywell CEO says AI will 'redefine automation' as labor shortages mount",
+        "Is it too late to buy SpaceX\u2019s stock? Here\u2019s how Tesla\u2019s did after one day \u2014 and five years.",
+        "Adobe\u2019s CFO is departing for Marvell. And it\u2019s one more reason for investors to choose chips over software."
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.2,
-      "sources": "CNBC(2), Bloomberg(2), MarketWatch(1)",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "Bloomberg(4), CNBC(1), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Oil tanker CEO sees Hormuz ship traffic quickly increasing if U.S. and Iran reach a deal",
-        "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
-        "Global oil prices end near an 8-week low as Trump backs away from his threat of strikes on Iran",
-        "Oil Tumbles as Trump Signals US Drawing Closer to Deal With Iran",
-        "US Bonds Surge as Trump\u2019s Vow That War Is Ending Sends Oil Lower"
+        "U.S. crude oil falls below $85 as U.S. and Iran near a deal to reopen Hormuz",
+        "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
+        "Oil touches three-month low after Trump says US close to Iran deal",
+        "Energy Market Leaders on Navigating Risk",
+        "BloombergNEF Global Energy Market Outlook"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 5.1,
+      "sources": "CNBC(3), Yahoo(3)",
+      "sample_headlines": [
+        "Kevin Warsh will not be the Fed 'chair.' His immediate predecessors were",
+        "For Warsh as Fed chair, silence may be the point",
+        "Pirro's losses in Fed investigation should stay on the books, judge rules",
+        "The Odds Of A Rate Hike Are Soaring \u2014 What To Do Now",
+        "Best high-yield savings interest rates today, Thursday, June 11, 2026: Top account pays 4.10% APY"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "Yahoo(2), MarketWatch(1)",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin\u2019s long-term return may actually be close to zero \u2014 and that could be just what it needs",
-        "More Than 50% Of Bitcoin Supply Is Now Underwater",
-        "Bitcoin and ethereum prices today, June 10, 2026: BTC, ETH open lower and falling further"
+        "Bitcoin's latest plunge revives the debate over owning it\u2014and whether it's just 'crypto being crypto'",
+        "Tether\u2019s Brief Flip of Ether in Value Gives Crypto a Reality Check",
+        "Bitcoin Bottom Hunters Are Eyeing Up AI Frenzy,  SpaceX IPO",
+        "Bitcoin and ethereum prices today, Thursday, June 11, 2026: Prices lifting off low opening figures"
       ]
     },
     {
       "topic": "China",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "Meta reportedly begins dismantling $2 billion Manus deal on Beijing's orders",
+        "Analysis-EU curbs on Chinese inverters risk slowing solar rollout over security fears",
+        "Renault CEO pushes EU for China sourcing deal amid assembly concerns"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Alibaba Shares Drop on China AI Infrastructure Spending Report, but Citi Sees Long-Term Benefits (BABA)"
+        "Analyst Report: MarketAxess Holdings Inc"
       ]
     }
   ]
