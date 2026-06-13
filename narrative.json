@@ -1,103 +1,108 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 118,
-  "fetched_at": "2026-06-12T21:02:02.102128+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 123,
+  "fetched_at": "2026-06-13T21:01:19.883415+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 18,
-      "pct": 15.3,
-      "sources": "CNBC(5), Bloomberg(5), Yahoo(4), MarketWatch(2), FT(2)",
+      "count": 17,
+      "pct": 13.8,
+      "sources": "Bloomberg(9), CNBC(5), FT(2), Yahoo(1)",
       "sample_headlines": [
-        "Trump administration: Iran deal signing likely in coming days, but not '100%' certain",
-        "Kevin Warsh will not be the Fed 'chair.' His immediate predecessors were",
+        "Trump says peace deal will be signed Sunday after Iran said it remains cautious on timing",
+        "UAE denies 'false' reports of fund transfer to Iran",
+        "Moats vs. moonshots: The Warren Buffett-Elon Musk style debate",
         "For Warsh as Fed chair, silence may be the point",
-        "U.S. crude oil falls below $85 as U.S. and Iran near a deal to reopen Hormuz",
-        "Warren questions SpaceX IPO oversight in new letter to stock indexes"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 18,
-      "pct": 15.3,
-      "sources": "Yahoo(8), CNBC(5), Bloomberg(3), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Elon Musk becomes world's first trillionaire as SpaceX begins trading on the Nasdaq",
-        "Trump name still must come down from Kennedy Center, judge says",
-        "SpaceX 'proxies' plunge as real deal arrives: Here's where traders are buying the dip",
-        "The S&P 500 already made a big call on SpaceX stock and index fund investors need to know it",
-        "Bitcoin's latest plunge revives the debate over owning it\u2014and whether it's just 'crypto being crypto'"
+        "Call Kevin Warsh the Fed 'chairman'"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 9.3,
-      "sources": "CNBC(3), Bloomberg(3), Yahoo(3), MarketWatch(2)",
+      "count": 9,
+      "pct": 7.3,
+      "sources": "FT(3), CNBC(2), Yahoo(2), Google News(1), Bloomberg(1)",
       "sample_headlines": [
-        "Meta reportedly begins dismantling $2 billion Manus deal on Beijing's orders",
         "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
-        "Honeywell CEO says AI will 'redefine automation' as labor shortages mount",
-        "Is it too late to buy SpaceX\u2019s stock? Here\u2019s how Tesla\u2019s did after one day \u2014 and five years.",
-        "Adobe\u2019s CFO is departing for Marvell. And it\u2019s one more reason for investors to choose chips over software."
+        "SpaceX COO Shotwell says Tesla tie-up \u2018might make Elon\u2019s life a little easier\u2019",
+        "After SpaceX\u2019s huge IPO, Americans\u2019 financial future will be bound to AI - The Guardian",
+        "AI is disrupting investment",
+        "AI is revolutionising the stock market"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.9,
-      "sources": "Bloomberg(4), CNBC(1), MarketWatch(1), FT(1)",
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 7.3,
+      "sources": "CNBC(2), FT(2), Bloomberg(2), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
-        "U.S. crude oil falls below $85 as U.S. and Iran near a deal to reopen Hormuz",
-        "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
-        "Oil touches three-month low after Trump says US close to Iran deal",
-        "Energy Market Leaders on Navigating Risk",
-        "BloombergNEF Global Energy Market Outlook"
+        "What drove the stock market last week \u2014 before and after SpaceX's historic IPO",
+        "SpaceX 'proxies' plunge as real deal arrives: Here's where traders are buying the dip",
+        "When a World Cup team loses, its country\u2019s stock market also goes down. Here\u2019s the weird reason why.",
+        "How Wall Street pulled off the biggest IPO in history for SpaceX",
+        "AI is revolutionising the stock market"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 6,
-      "pct": 5.1,
-      "sources": "CNBC(3), Yahoo(3)",
+      "pct": 4.9,
+      "sources": "CNBC(3), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Kevin Warsh will not be the Fed 'chair.' His immediate predecessors were",
         "For Warsh as Fed chair, silence may be the point",
         "Pirro's losses in Fed investigation should stay on the books, judge rules",
-        "The Odds Of A Rate Hike Are Soaring \u2014 What To Do Now",
-        "Best high-yield savings interest rates today, Thursday, June 11, 2026: Top account pays 4.10% APY"
+        "Call Kevin Warsh the Fed 'chairman'",
+        "Social Security\u2019s COLA could be 4.7% in 2027 as inflation hits the highest level in 3 years",
+        "How to tame the inflation python"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.4,
-      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), FT(1)",
       "sample_headlines": [
-        "Bitcoin's latest plunge revives the debate over owning it\u2014and whether it's just 'crypto being crypto'",
-        "Tether\u2019s Brief Flip of Ether in Value Gives Crypto a Reality Check",
-        "Bitcoin Bottom Hunters Are Eyeing Up AI Frenzy,  SpaceX IPO",
-        "Bitcoin and ethereum prices today, Thursday, June 11, 2026: Prices lifting off low opening figures"
+        "Investment firms join Donald Trump\u2019s $100bn race for Venezuelan oil",
+        "Is Kosmos Energy Ltd. (KOS) A Good Stock To Buy Now?",
+        "Petr\u00f3leo Brasileiro S.A. \u2013 Petrobras (PBR) Inks Deal with SBM Offshore for Oil and Gas Production Vessels"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "Yahoo(2), CNBC(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Meta reportedly begins dismantling $2 billion Manus deal on Beijing's orders",
-        "Analysis-EU curbs on Chinese inverters risk slowing solar rollout over security fears",
-        "Renault CEO pushes EU for China sourcing deal amid assembly concerns"
+        "Top Motorcycle Exporter China Urges Industry to Curb Price Wars",
+        "China Rebukes US Over \u2018Military\u2019 Labeling of Its Top Firms"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Fintech Stock Block Is Trying to Prove That the Ultimate Cryptocurrency Has a Real Use Case, But Will It Work?",
+        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "New student loan plan comes with higher bills for many. Tax planning can help cut your payments",
+        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Analyst Report: MarketAxess Holdings Inc"
+        "Top Motorcycle Exporter China Urges Industry to Curb Price Wars"
       ]
     }
   ]
