@@ -1,89 +1,78 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 123,
-  "fetched_at": "2026-06-13T21:01:19.883415+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 127,
+  "fetched_at": "2026-06-14T21:01:18.564181+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 17,
-      "pct": 13.8,
-      "sources": "Bloomberg(9), CNBC(5), FT(2), Yahoo(1)",
+      "topic": "AI / Tech",
+      "count": 26,
+      "pct": 20.5,
+      "sources": "Yahoo(21), CNBC(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Trump says peace deal will be signed Sunday after Iran said it remains cautious on timing",
-        "UAE denies 'false' reports of fund transfer to Iran",
-        "Moats vs. moonshots: The Warren Buffett-Elon Musk style debate",
-        "For Warsh as Fed chair, silence may be the point",
-        "Call Kevin Warsh the Fed 'chairman'"
+        "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
+        "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
+        "Wall Street digests record fundraising haul as AI race intensifies",
+        "SpaceX and OpenAI Are Ending Wall Street\u2019s Era of Stock Scarcity",
+        "Equity Funding Squeeze Driven By AI Rally, SpaceX IPO Stretches Banks"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 9,
-      "pct": 7.3,
-      "sources": "FT(3), CNBC(2), Yahoo(2), Google News(1), Bloomberg(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 17,
+      "pct": 13.4,
+      "sources": "Bloomberg(7), CNBC(4), Yahoo(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
-        "SpaceX COO Shotwell says Tesla tie-up \u2018might make Elon\u2019s life a little easier\u2019",
-        "After SpaceX\u2019s huge IPO, Americans\u2019 financial future will be bound to AI - The Guardian",
-        "AI is disrupting investment",
-        "AI is revolutionising the stock market"
+        "U.S. peace deal with Iran in question as Israel strikes Lebanon, Trump warns not to 'blow it'",
+        "Trump heads to G7 summit in France as world awaits Iran deal",
+        "UAE denies 'false' reports of fund transfer to Iran",
+        "Moats vs. moonshots: The Warren Buffett-Elon Musk style debate",
+        "Defaults in debt markets are starting again, warns Pimco. Here\u2019s the bond giant\u2019s game plan."
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 7.3,
-      "sources": "CNBC(2), FT(2), Bloomberg(2), Yahoo(2), MarketWatch(1)",
+      "count": 12,
+      "pct": 9.4,
+      "sources": "Bloomberg(6), CNBC(3), FT(2), Yahoo(1)",
       "sample_headlines": [
-        "What drove the stock market last week \u2014 before and after SpaceX's historic IPO",
-        "SpaceX 'proxies' plunge as real deal arrives: Here's where traders are buying the dip",
-        "When a World Cup team loses, its country\u2019s stock market also goes down. Here\u2019s the weird reason why.",
-        "How Wall Street pulled off the biggest IPO in history for SpaceX",
-        "AI is revolutionising the stock market"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.9,
-      "sources": "CNBC(3), MarketWatch(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "For Warsh as Fed chair, silence may be the point",
-        "Pirro's losses in Fed investigation should stay on the books, judge rules",
-        "Call Kevin Warsh the Fed 'chairman'",
-        "Social Security\u2019s COLA could be 4.7% in 2027 as inflation hits the highest level in 3 years",
-        "How to tame the inflation python"
+        "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
+        "UK forces board sanctioned Russian shadow fleet oil tanker",
+        "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "Trump tells Israel and Hizbollah to \u2018stand down\u2019 as he pushes for Iran deal",
+        "Wall Street digests record fundraising haul as AI race intensifies"
       ]
     },
     {
       "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "Yahoo(2), CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "UK forces board sanctioned Russian shadow fleet oil tanker",
+        "My plumber charged $160 to fix the cistern on my toilet \u2014 but created another problem. Do I pay again?",
+        "Oil executives send a blunt message to Americans on gas prices",
+        "Jim Cramer Returns To Diamondback Energy (FANG) As Oil Prices Touch $96"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
       "count": 3,
       "pct": 2.4,
-      "sources": "Yahoo(2), FT(1)",
+      "sources": "Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Investment firms join Donald Trump\u2019s $100bn race for Venezuelan oil",
-        "Is Kosmos Energy Ltd. (KOS) A Good Stock To Buy Now?",
-        "Petr\u00f3leo Brasileiro S.A. \u2013 Petrobras (PBR) Inks Deal with SBM Offshore for Oil and Gas Production Vessels"
+        "SpaceX shows investors still want moonshots. The Fed may test that theory this week.",
+        "Fed and BOE Stay Guarded After 100 Days of Iran War",
+        "Fed Chair Warsh Faces Challenging Debut"
       ]
     },
     {
       "topic": "China",
       "count": 2,
       "pct": 1.6,
-      "sources": "Bloomberg(2)",
+      "sources": "FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Top Motorcycle Exporter China Urges Industry to Curb Price Wars",
-        "China Rebukes US Over \u2018Military\u2019 Labeling of Its Top Firms"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Yahoo(2)",
-      "sample_headlines": [
-        "Fintech Stock Block Is Trying to Prove That the Ultimate Cryptocurrency Has a Real Use Case, But Will It Work?",
-        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury"
+        "China tees up digital payments system to compete with dollar",
+        "Mongolia Reaffirms One China Policy at Meeting, China Says"
       ]
     },
     {
@@ -93,16 +82,7 @@
       "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
         "New student loan plan comes with higher bills for many. Tax planning can help cut your payments",
-        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "Top Motorcycle Exporter China Urges Industry to Curb Price Wars"
+        "CrowdStrike (CRWD): ARR Growth Shows Why Falcon Still Has Room to Expand Across Cybersecurity Budgets"
       ]
     }
   ]
