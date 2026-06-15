@@ -1,88 +1,101 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 127,
-  "fetched_at": "2026-06-14T21:01:18.564181+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 123,
+  "fetched_at": "2026-06-15T21:05:24.556449+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 26,
-      "pct": 20.5,
-      "sources": "Yahoo(21), CNBC(2), Bloomberg(2), FT(1)",
-      "sample_headlines": [
-        "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
-        "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
-        "Wall Street digests record fundraising haul as AI race intensifies",
-        "SpaceX and OpenAI Are Ending Wall Street\u2019s Era of Stock Scarcity",
-        "Equity Funding Squeeze Driven By AI Rally, SpaceX IPO Stretches Banks"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 17,
-      "pct": 13.4,
-      "sources": "Bloomberg(7), CNBC(4), Yahoo(3), FT(2), MarketWatch(1)",
+      "count": 31,
+      "pct": 25.2,
+      "sources": "CNBC(12), Bloomberg(12), FT(5), Yahoo(2)",
       "sample_headlines": [
-        "U.S. peace deal with Iran in question as Israel strikes Lebanon, Trump warns not to 'blow it'",
-        "Trump heads to G7 summit in France as world awaits Iran deal",
-        "UAE denies 'false' reports of fund transfer to Iran",
-        "Moats vs. moonshots: The Warren Buffett-Elon Musk style debate",
-        "Defaults in debt markets are starting again, warns Pimco. Here\u2019s the bond giant\u2019s game plan."
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 9.4,
-      "sources": "Bloomberg(6), CNBC(3), FT(2), Yahoo(1)",
-      "sample_headlines": [
-        "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
-        "UK forces board sanctioned Russian shadow fleet oil tanker",
-        "Here are the 3 big things we're watching in the stock market in the week ahead",
-        "Trump tells Israel and Hizbollah to \u2018stand down\u2019 as he pushes for Iran deal",
-        "Wall Street digests record fundraising haul as AI race intensifies"
+        "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
+        "Vance says 'a lot' of Iran deal details to figure out, but U.S. has 'all the cards'",
+        "How the Strait of Hormuz reopening could unfold if the U.S.-Iran deal is implemented",
+        "Warsh's Fed is likely to hold rates steady \u2014 what the leadership change could mean for your money",
+        "Sen. Warren asks Trump if administration plans to raise Social Security retirement age"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 3.1,
-      "sources": "Yahoo(2), CNBC(1), MarketWatch(1)",
+      "count": 15,
+      "pct": 12.2,
+      "sources": "Yahoo(7), Bloomberg(4), CNBC(2), MarketWatch(2)",
       "sample_headlines": [
-        "UK forces board sanctioned Russian shadow fleet oil tanker",
-        "My plumber charged $160 to fix the cistern on my toilet \u2014 but created another problem. Do I pay again?",
-        "Oil executives send a blunt message to Americans on gas prices",
-        "Jim Cramer Returns To Diamondback Energy (FANG) As Oil Prices Touch $96"
+        "Oil tumbles on US-Iran deal framework: How one trader is playing the move",
+        "Oil prices fall about 5% as Iran deal is set to open Hormuz Strait",
+        "All eyes are now on the bond market as oil prices fall. Will the Fed hike rates?",
+        "It could take years for oil prices to return to $67 a barrel. Here\u2019s why.",
+        "Shippers and Oil Giants Seek Clarity on US-Iran Peace Deal"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 14,
+      "pct": 11.4,
+      "sources": "Bloomberg(4), Yahoo(4), CNBC(3), MarketWatch(2), FT(1)",
+      "sample_headlines": [
+        "Wall Street's fear gauge tumbles as traders bid up SpaceX shares",
+        "Oil tumbles on US-Iran deal framework: How one trader is playing the move",
+        "SpaceX IPO shines a light on the product set to disrupt Wall Street",
+        "The chip-stock rally is back in full force \u2014 thanks to two big geopolitical developments",
+        "Rocket Lab\u2019s stock rebounds, as one analyst says the SpaceX-fueled selloff was misguided"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 13,
+      "pct": 10.6,
+      "sources": "Yahoo(4), CNBC(3), FT(3), MarketWatch(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Nvidia plans to raise at least $20 billion in first debt sale since start of AI boom",
+        "Salesforce to buy AI customer service platform Fin for $3.6 billion to boost agentic offerings",
+        "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
+        "Even Nvidia is joining the AI borrowing spree, with a historic $20 billion bond deal",
+        "The chip-stock rally is back in full force \u2014 thanks to two big geopolitical developments"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Bloomberg(2), MarketWatch(1)",
+      "count": 10,
+      "pct": 8.1,
+      "sources": "Bloomberg(4), CNBC(3), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
-        "SpaceX shows investors still want moonshots. The Fed may test that theory this week.",
-        "Fed and BOE Stay Guarded After 100 Days of Iran War",
-        "Fed Chair Warsh Faces Challenging Debut"
+        "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
+        "Warsh's Fed is likely to hold rates steady \u2014 what the leadership change could mean for your money",
+        "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes",
+        "All eyes are now on the bond market as oil prices fall. Will the Fed hike rates?",
+        "Worst of US Inflation May Be Over If Iran Peace Deal Sticks"
       ]
     },
     {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "FT(1), Bloomberg(1)",
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "China tees up digital payments system to compete with dollar",
-        "Mongolia Reaffirms One China Policy at Meeting, China Says"
+        "SpaceX IPO Stress Tests Crypto\u2019s Bid to Reinvent Stocks",
+        "Tether USDT Briefly Overtakes Ethereum in Market Cap: A $187B Wake-Up Call",
+        "Japan Three Biggest Banks Unite to Launch Yen  Crypto Stablecoin by March 2027"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
       "pct": 1.6,
-      "sources": "CNBC(1), Yahoo(1)",
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "New student loan plan comes with higher bills for many. Tax planning can help cut your payments",
-        "CrowdStrike (CRWD): ARR Growth Shows Why Falcon Still Has Room to Expand Across Cybersecurity Budgets"
+        "Trump says France must scrap tech 'sales tax' or face 100% wine tariffs: NY Post",
+        "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Trump says France must scrap tech 'sales tax' or face 100% wine tariffs: NY Post"
       ]
     }
   ]
