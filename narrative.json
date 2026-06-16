@@ -1,101 +1,122 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 123,
-  "fetched_at": "2026-06-15T21:05:24.556449+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 130,
+  "fetched_at": "2026-06-16T21:03:35.253681+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 31,
-      "pct": 25.2,
-      "sources": "CNBC(12), Bloomberg(12), FT(5), Yahoo(2)",
+      "topic": "AI / Tech",
+      "count": 23,
+      "pct": 17.7,
+      "sources": "CNBC(7), Yahoo(6), Bloomberg(5), FT(3), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
-        "Vance says 'a lot' of Iran deal details to figure out, but U.S. has 'all the cards'",
-        "How the Strait of Hormuz reopening could unfold if the U.S.-Iran deal is implemented",
-        "Warsh's Fed is likely to hold rates steady \u2014 what the leadership change could mean for your money",
-        "Sen. Warren asks Trump if administration plans to raise Social Security retirement age"
+        "SpaceX rises 4% to leapfrog Amazon in market cap, closes short of Microsoft",
+        "'Godfather' of options sees SpaceX surpassing Nvidia, Tesla as early trades come in",
+        "The new oil? Inside the effort to turn AI computing power into a tradeable commodity",
+        "Prediction market traders speculate Anthropic will restore access quickly to AI model after Trump admin directed it to limit reach",
+        "SpaceX to acquire the AI coding startup Cursor for $60 billion"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 15,
-      "pct": 12.2,
-      "sources": "Yahoo(7), Bloomberg(4), CNBC(2), MarketWatch(2)",
+      "topic": "Iran / Middle East conflict",
+      "count": 22,
+      "pct": 16.9,
+      "sources": "Bloomberg(7), CNBC(5), FT(5), Yahoo(4), MarketWatch(1)",
       "sample_headlines": [
-        "Oil tumbles on US-Iran deal framework: How one trader is playing the move",
-        "Oil prices fall about 5% as Iran deal is set to open Hormuz Strait",
-        "All eyes are now on the bond market as oil prices fall. Will the Fed hike rates?",
-        "It could take years for oil prices to return to $67 a barrel. Here\u2019s why.",
-        "Shippers and Oil Giants Seek Clarity on US-Iran Peace Deal"
+        "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook",
+        "Trump signals he could send details of Iran deal to Congress",
+        "Kevin Warsh's Fed is not expected to make any change to rates for a while, according to CNBC Fed Survey",
+        "Brent falls below $80 per barrel on report U.S. will allow Iran to sell oil immediately",
+        "Trump turns his attention to Ukraine ahead of Iran deal: 'I\u2019m going to do whatever I can\u2019"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 11.4,
-      "sources": "Bloomberg(4), Yahoo(4), CNBC(3), MarketWatch(2), FT(1)",
+      "count": 11,
+      "pct": 8.5,
+      "sources": "Yahoo(6), Bloomberg(4), CNBC(1)",
       "sample_headlines": [
-        "Wall Street's fear gauge tumbles as traders bid up SpaceX shares",
-        "Oil tumbles on US-Iran deal framework: How one trader is playing the move",
-        "SpaceX IPO shines a light on the product set to disrupt Wall Street",
-        "The chip-stock rally is back in full force \u2014 thanks to two big geopolitical developments",
-        "Rocket Lab\u2019s stock rebounds, as one analyst says the SpaceX-fueled selloff was misguided"
+        "Odds that a proposed billionaire tax appears on California ballots plunge on prediction markets",
+        "T-Shirt Maker Gildan Plunges on Short Seller\u2019s Revenue Claim",
+        "Tech Stocks Halt S&P 500 Rally | Closing Bell",
+        "Nasdaq 100 Falls 2% as Chipmakers Halt Solid Run: Markets Wrap",
+        "SpaceX Overtakes Amazon in Value as Post-IPO Rally Reaches 49%"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 13,
-      "pct": 10.6,
-      "sources": "Yahoo(4), CNBC(3), FT(3), MarketWatch(2), Bloomberg(1)",
+      "topic": "Oil / Energy",
+      "count": 10,
+      "pct": 7.7,
+      "sources": "Bloomberg(4), CNBC(2), Yahoo(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Nvidia plans to raise at least $20 billion in first debt sale since start of AI boom",
-        "Salesforce to buy AI customer service platform Fin for $3.6 billion to boost agentic offerings",
-        "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
-        "Even Nvidia is joining the AI borrowing spree, with a historic $20 billion bond deal",
-        "The chip-stock rally is back in full force \u2014 thanks to two big geopolitical developments"
+        "The new oil? Inside the effort to turn AI computing power into a tradeable commodity",
+        "Brent falls below $80 per barrel on report U.S. will allow Iran to sell oil immediately",
+        "Global oil prices end below $80 for the first time since the Iran war began. Ships still aren\u2019t passing through Hormuz.",
+        "Oil sinks below $80 as traders bet Strait of Hormuz flows will return",
+        "Oil Falls to Three-Month Low as US-Iran Deal Set to Add Supply"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 8.1,
-      "sources": "Bloomberg(4), CNBC(3), Yahoo(2), MarketWatch(1)",
+      "count": 9,
+      "pct": 6.9,
+      "sources": "CNBC(4), Bloomberg(4), FT(1)",
       "sample_headlines": [
-        "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
-        "Warsh's Fed is likely to hold rates steady \u2014 what the leadership change could mean for your money",
-        "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes",
-        "All eyes are now on the bond market as oil prices fall. Will the Fed hike rates?",
-        "Worst of US Inflation May Be Over If Iran Peace Deal Sticks"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "SpaceX IPO Stress Tests Crypto\u2019s Bid to Reinvent Stocks",
-        "Tether USDT Briefly Overtakes Ethereum in Market Cap: A $187B Wake-Up Call",
-        "Japan Three Biggest Banks Unite to Launch Yen  Crypto Stablecoin by March 2027"
+        "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook",
+        "Kevin Warsh's Fed is not expected to make any change to rates for a while, according to CNBC Fed Survey",
+        "Treasury yields slide as Fed begins monetary policy meeting",
+        "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold",
+        "Economists bet on higher rates as Kevin Warsh takes reins at the Fed"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(2)",
+      "count": 5,
+      "pct": 3.8,
+      "sources": "CNBC(3), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump says France must scrap tech 'sales tax' or face 100% wine tariffs: NY Post",
-        "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes"
+        "Odds that a proposed billionaire tax appears on California ballots plunge on prediction markets",
+        "Self-driving tech supplier Mobileye targets U.S. robotaxi launch in 2027",
+        "Treasury yields slide as Fed begins monetary policy meeting",
+        "My child was given a summer cabin. Should I pay for the $10,000-a-year maintenance and taxes?",
+        "Bondholders Forced to Reckon With $4 Billion Tax Threat in Bitter Credit Feud"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.5,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Yum Brands sells Pizza Hut to private equity firm LongRange Capital and Yum China for $2.7 billion",
+        "Aluminum Rises as Traders Weigh Chinese Output, Mideast Supply"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.5,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Bitcoin and ethereum prices today, Monday, June 15, 2026: Prices rising after U.S., Iran agree to ceasefire deal",
+        "Bitcoin Price Will Be 'Much Higher By 2030,' Says Coinbase CEO Brian Armstrong \u2014 How High Can It Go?"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Daily Spotlight: Raising GDP Estimates"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Trump says France must scrap tech 'sales tax' or face 100% wine tariffs: NY Post"
+        "India's May trade gap narrows as exports rise; U.S. trade talks in focus"
       ]
     }
   ]
