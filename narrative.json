@@ -1,104 +1,90 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 130,
-  "fetched_at": "2026-06-16T21:03:35.253681+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 127,
+  "fetched_at": "2026-06-17T21:01:41.757339+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 23,
-      "pct": 17.7,
-      "sources": "CNBC(7), Yahoo(6), Bloomberg(5), FT(3), MarketWatch(1), Google News(1)",
-      "sample_headlines": [
-        "SpaceX rises 4% to leapfrog Amazon in market cap, closes short of Microsoft",
-        "'Godfather' of options sees SpaceX surpassing Nvidia, Tesla as early trades come in",
-        "The new oil? Inside the effort to turn AI computing power into a tradeable commodity",
-        "Prediction market traders speculate Anthropic will restore access quickly to AI model after Trump admin directed it to limit reach",
-        "SpaceX to acquire the AI coding startup Cursor for $60 billion"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 22,
-      "pct": 16.9,
-      "sources": "Bloomberg(7), CNBC(5), FT(5), Yahoo(4), MarketWatch(1)",
+      "count": 21,
+      "pct": 16.5,
+      "sources": "CNBC(8), Bloomberg(5), MarketWatch(3), FT(3), Yahoo(2)",
       "sample_headlines": [
-        "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook",
-        "Trump signals he could send details of Iran deal to Congress",
-        "Kevin Warsh's Fed is not expected to make any change to rates for a while, according to CNBC Fed Survey",
-        "Brent falls below $80 per barrel on report U.S. will allow Iran to sell oil immediately",
-        "Trump turns his attention to Ukraine ahead of Iran deal: 'I\u2019m going to do whatever I can\u2019"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 8.5,
-      "sources": "Yahoo(6), Bloomberg(4), CNBC(1)",
-      "sample_headlines": [
-        "Odds that a proposed billionaire tax appears on California ballots plunge on prediction markets",
-        "T-Shirt Maker Gildan Plunges on Short Seller\u2019s Revenue Claim",
-        "Tech Stocks Halt S&P 500 Rally | Closing Bell",
-        "Nasdaq 100 Falls 2% as Chipmakers Halt Solid Run: Markets Wrap",
-        "SpaceX Overtakes Amazon in Value as Post-IPO Rally Reaches 49%"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 7.7,
-      "sources": "Bloomberg(4), CNBC(2), Yahoo(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "The new oil? Inside the effort to turn AI computing power into a tradeable commodity",
-        "Brent falls below $80 per barrel on report U.S. will allow Iran to sell oil immediately",
-        "Global oil prices end below $80 for the first time since the Iran war began. Ships still aren\u2019t passing through Hormuz.",
-        "Oil sinks below $80 as traders bet Strait of Hormuz flows will return",
-        "Oil Falls to Three-Month Low as US-Iran Deal Set to Add Supply"
+        "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+        "Trump says he likes idea of blaming Vance if Iran deal doesn't work out",
+        "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
+        "Chairman Warsh abstains from giving rate forecast as several members signal a hike in 2026",
+        "Chairman Warsh drastically alters Fed rate statement. Here's what's changed"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 6.9,
-      "sources": "CNBC(4), Bloomberg(4), FT(1)",
+      "count": 19,
+      "pct": 15.0,
+      "sources": "Bloomberg(8), CNBC(6), MarketWatch(3), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook",
-        "Kevin Warsh's Fed is not expected to make any change to rates for a while, according to CNBC Fed Survey",
-        "Treasury yields slide as Fed begins monetary policy meeting",
-        "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold",
-        "Economists bet on higher rates as Kevin Warsh takes reins at the Fed"
+        "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+        "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
+        "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year",
+        "Chairman Warsh drastically alters Fed rate statement. Here's what's changed",
+        "Fed holds interest rates steady: Here's what that means for credit cards, savings rates, mortgages and car loans"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 3.8,
-      "sources": "CNBC(3), MarketWatch(1), Bloomberg(1)",
+      "topic": "Equities / Market moves",
+      "count": 13,
+      "pct": 10.2,
+      "sources": "Yahoo(6), CNBC(5), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Odds that a proposed billionaire tax appears on California ballots plunge on prediction markets",
-        "Self-driving tech supplier Mobileye targets U.S. robotaxi launch in 2027",
-        "Treasury yields slide as Fed begins monetary policy meeting",
-        "My child was given a summer cabin. Should I pay for the $10,000-a-year maintenance and taxes?",
-        "Bondholders Forced to Reckon With $4 Billion Tax Threat in Bitter Credit Feud"
+        "Fed holds rates steady, pares down statement to remove cutting bias",
+        "SpaceX posts first losing day as stock sinks 5%, losing momentum after a multiday rally",
+        "Strait of Hormuz threat level downgraded after Iran deal, says U.S.-led maritime security group",
+        "SpaceX surge is creating a unique hedging opportunity",
+        "CME Group's Terry Duffy to step down in 2027, CFO Lynne Fitzpatrick to become CEO"
       ]
     },
     {
-      "topic": "China",
+      "topic": "AI / Tech",
+      "count": 11,
+      "pct": 8.7,
+      "sources": "Yahoo(5), CNBC(4), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7",
+        "Allbirds continues AI pivot with name change and CEO hire, sending stock soaring",
+        "Amazon AI exec predicts first 'commercially useful' quantum computers in 5-7 years",
+        "Target, Walmart and Amazon among brands losing LGBTQ+ consumer spending, new survey says",
+        "To avoid backlash, tech giants must share their AI wealth before it\u2019s too late"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "From supply shock to oil glut: IEA flags scale of demand destruction caused by Iran war",
+        "Oil Ticks Higher as Traders Await Signing of US-Iran Deal",
+        "War Drains Oil Inventories to Critically Low Level at US Hub",
+        "Current price of oil as of June 16, 2026"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 2,
-      "pct": 1.5,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "pct": 1.6,
+      "sources": "FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Yum Brands sells Pizza Hut to private equity firm LongRange Capital and Yum China for $2.7 billion",
-        "Aluminum Rises as Traders Weigh Chinese Output, Mideast Supply"
+        "Trump to release Iran\u2019s frozen funds and ease sanctions when \u2018they behave\u2019",
+        "German auto lobby welcomes EU approval of US trade deal but tariffs still weigh"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
-      "pct": 1.5,
-      "sources": "Yahoo(2)",
+      "pct": 1.6,
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Monday, June 15, 2026: Prices rising after U.S., Iran agree to ceasefire deal",
-        "Bitcoin Price Will Be 'Much Higher By 2030,' Says Coinbase CEO Brian Armstrong \u2014 How High Can It Go?"
+        "'Passive' investors who dodged bitcoin are now forced to own SpaceX, which is three times more volatile",
+        "Bitcoin and ethereum prices today, Tuesday, June 16, 2026: Highest opening values in two weeks"
       ]
     },
     {
@@ -107,16 +93,16 @@
       "pct": 0.8,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Daily Spotlight: Raising GDP Estimates"
+        "Sparhawk Trucking seeks buyer, warns of mass layoffs"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "India's May trade gap narrows as exports rise; U.S. trade talks in focus"
+        "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year"
       ]
     }
   ]
