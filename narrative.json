@@ -1,108 +1,116 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 127,
-  "fetched_at": "2026-06-17T21:01:41.757339+00:00",
+  "total_headlines": 115,
+  "fetched_at": "2026-06-18T10:24:53.803966+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 21,
-      "pct": 16.5,
-      "sources": "CNBC(8), Bloomberg(5), MarketWatch(3), FT(3), Yahoo(2)",
+      "count": 27,
+      "pct": 23.5,
+      "sources": "Bloomberg(12), CNBC(9), FT(3), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
+        "Trump hits back at critics as Iran peace deal fuels debate over U.S. concessions",
         "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
-        "Trump says he likes idea of blaming Vance if Iran deal doesn't work out",
-        "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
-        "Chairman Warsh abstains from giving rate forecast as several members signal a hike in 2026",
-        "Chairman Warsh drastically alters Fed rate statement. Here's what's changed"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 19,
-      "pct": 15.0,
-      "sources": "Bloomberg(8), CNBC(6), MarketWatch(3), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
-        "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
-        "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year",
-        "Chairman Warsh drastically alters Fed rate statement. Here's what's changed",
-        "Fed holds interest rates steady: Here's what that means for credit cards, savings rates, mortgages and car loans"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 10.2,
-      "sources": "Yahoo(6), CNBC(5), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Fed holds rates steady, pares down statement to remove cutting bias",
-        "SpaceX posts first losing day as stock sinks 5%, losing momentum after a multiday rally",
-        "Strait of Hormuz threat level downgraded after Iran deal, says U.S.-led maritime security group",
-        "SpaceX surge is creating a unique hedging opportunity",
-        "CME Group's Terry Duffy to step down in 2027, CFO Lynne Fitzpatrick to become CEO"
+        "Hegseth warns NATO allies that some nations will 'fail' U.S. defense review",
+        "JetBlue to reduce Newark, LaGuardia footprint as it forges ahead in Fort Lauderdale",
+        "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "Yahoo(5), CNBC(4), FT(1), Bloomberg(1)",
+      "count": 15,
+      "pct": 13.0,
+      "sources": "CNBC(5), Yahoo(5), MarketWatch(3), Bloomberg(2)",
       "sample_headlines": [
-        "CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7",
+        "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
         "Allbirds continues AI pivot with name change and CEO hire, sending stock soaring",
-        "Amazon AI exec predicts first 'commercially useful' quantum computers in 5-7 years",
-        "Target, Walmart and Amazon among brands losing LGBTQ+ consumer spending, new survey says",
-        "To avoid backlash, tech giants must share their AI wealth before it\u2019s too late"
+        "Google Gemini co-lead Noam Shazeer leaves for OpenAI",
+        "CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7",
+        "Inside India newsletter: Anthropic curbs ignite AI debate in India \u2014 efforts 'too slow, way too small'"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 14,
+      "pct": 12.2,
+      "sources": "CNBC(7), Bloomberg(7)",
+      "sample_headlines": [
+        "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+        "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
+        "The market didn't like what it heard from the Fed and its new leader Kevin Warsh",
+        "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year",
+        "Chairman Warsh drastically alters Fed rate statement. Here's what's changed"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 14,
+      "pct": 12.2,
+      "sources": "CNBC(5), Bloomberg(5), Yahoo(3), MarketWatch(1)",
+      "sample_headlines": [
+        "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
+        "CME CEO Terrence Duffy says the exchange operator will sue CFTC over perpetual futures",
+        "SpaceX shares hold steady after three-day rally loses steam",
+        "Why Wall Street banks and foreign borrowers are rushing to tap China\u2019s cheap money",
+        "Fed holds rates steady, pares down statement to remove cutting bias"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 3.1,
-      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
+      "count": 8,
+      "pct": 7.0,
+      "sources": "Yahoo(4), Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "From supply shock to oil glut: IEA flags scale of demand destruction caused by Iran war",
-        "Oil Ticks Higher as Traders Await Signing of US-Iran Deal",
-        "War Drains Oil Inventories to Critically Low Level at US Hub",
-        "Current price of oil as of June 16, 2026"
+        "Oil falls as International Energy Agency forecasts supply glut next year after U.S.-Iran deal",
+        "Oil Falls as Iran Peace Deal Gets Tankers Moving Through Hormuz",
+        "US Stocks Bounce and Oil Slides on Iran Accord: Markets Wrap",
+        "US Gasoline Prices Fall Below $4 a Gallon as Iran Strain Eases",
+        "Oil prices tumble again on US-Iran deal; S&P 500 falls"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 5,
+      "pct": 4.3,
+      "sources": "FT(2), Bloomberg(2), CNBC(1)",
+      "sample_headlines": [
+        "Why Wall Street banks and foreign borrowers are rushing to tap China\u2019s cheap money",
+        "China\u2019s tribute system and the new world order",
+        "Chinese universities gain ground on UK and US in global rankings",
+        "Hong Kong to Launch China Bond Futures to Promote Yuan",
+        "China Stock Gauge Nears Bear Market on Weak Growth, Tech Slide"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "Yahoo(3), CNBC(1)",
+      "sample_headlines": [
+        "'Passive' investors who dodged bitcoin are now forced to own SpaceX, which is three times more volatile",
+        "The ETF Built for the Advisors Without a Bitcoin Plan",
+        "BlackRock unveils bold Bitcoin prediction",
+        "BlackRock Becomes First Mega Issuer to Launch Covered Call Bitcoin ETF"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 2,
-      "pct": 1.6,
+      "pct": 1.7,
       "sources": "FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump to release Iran\u2019s frozen funds and ease sanctions when \u2018they behave\u2019",
-        "German auto lobby welcomes EU approval of US trade deal but tariffs still weigh"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "'Passive' investors who dodged bitcoin are now forced to own SpaceX, which is three times more volatile",
-        "Bitcoin and ethereum prices today, Tuesday, June 16, 2026: Highest opening values in two weeks"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Sparhawk Trucking seeks buyer, warns of mass layoffs"
+        "US and Iran sign deal as Trump vows to release frozen funds and ease sanctions",
+        "Japan's exports rise on weak yen, AI boom, but price-led gains mask weak volumes"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year"
+        "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year",
+        "I inherited a $500,000 IRA. Can I reduce the tax burden by using it for my children\u2019s education?"
       ]
     }
   ]
