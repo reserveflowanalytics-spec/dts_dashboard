@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-06-16",
-  "computed_at": "2026-06-18T10:25:08Z",
-  "bias": "LONG",
-  "conviction": "low-medium",
-  "bias_reason": "Tech bullish but RS conviction not at high.",
-  "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
+  "as_of": "2026-06-17",
+  "computed_at": "2026-06-18T21:01:47Z",
+  "bias": "REDUCED",
+  "conviction": "low",
+  "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
+  "action": "Reduce SPY baseline to 30-50%. Hold cash buffer for next Tier-1 setup.",
   "signals": {
     "fiscal_regime": "Restrictive",
-    "tech_regime": "bullish",
-    "tech_close": 7519.25,
-    "tech_sma20": 7501.68,
+    "tech_regime": "bearish",
+    "tech_close": 7423.25,
+    "tech_sma20": 7500.26,
     "rs_conviction_level": "unknown",
-    "rs_conviction_label": "Moderate \u2014 6/11 pairs aligned with regime",
-    "rs_aligned_pairs": "6/11",
+    "rs_conviction_label": "Moderate \u2014 7/11 pairs aligned with regime",
+    "rs_aligned_pairs": "7/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -20,31 +20,36 @@
     {
       "pair": "IWM/SPY",
       "rationale": "Small cap vs large cap",
-      "roc_20d": 4.44
+      "roc_20d": 5.4
     },
     {
       "pair": "KRE/XLU",
       "rationale": "Regional banks vs utilities",
-      "roc_20d": 4.08
+      "roc_20d": 5.03
     },
     {
       "pair": "XLB/XLRE",
       "rationale": "Materials vs real estate",
-      "roc_20d": 1.84
+      "roc_20d": 6.0
     },
     {
       "pair": "XLI/XLP",
       "rationale": "Industrials vs staples",
-      "roc_20d": 5.71
+      "roc_20d": 9.5
     }
   ],
   "underweight_pairs": [
     {
       "pair": "HYG/TLT",
       "rationale": "Credit risk appetite vs duration safety",
-      "roc_20d": -2.34
+      "roc_20d": -3.26
+    },
+    {
+      "pair": "XLY/XLV",
+      "rationale": "Discretionary vs healthcare",
+      "roc_20d": -1.86
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
-  "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
+  "watch_downgrade": "Continued weakness in trend + RS -> further reduce or move to cash"
 }

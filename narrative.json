@@ -1,116 +1,121 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 115,
-  "fetched_at": "2026-06-18T10:24:53.803966+00:00",
+  "total_headlines": 123,
+  "fetched_at": "2026-06-18T21:01:29.307859+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 27,
-      "pct": 23.5,
-      "sources": "Bloomberg(12), CNBC(9), FT(3), Yahoo(2), MarketWatch(1)",
+      "count": 25,
+      "pct": 20.3,
+      "sources": "Bloomberg(9), CNBC(8), MarketWatch(4), FT(3), Yahoo(1)",
       "sample_headlines": [
-        "Trump hits back at critics as Iran peace deal fuels debate over U.S. concessions",
-        "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
-        "Hegseth warns NATO allies that some nations will 'fail' U.S. defense review",
-        "JetBlue to reduce Newark, LaGuardia footprint as it forges ahead in Fort Lauderdale",
-        "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 15,
-      "pct": 13.0,
-      "sources": "CNBC(5), Yahoo(5), MarketWatch(3), Bloomberg(2)",
-      "sample_headlines": [
-        "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
-        "Allbirds continues AI pivot with name change and CEO hire, sending stock soaring",
-        "Google Gemini co-lead Noam Shazeer leaves for OpenAI",
-        "CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7",
-        "Inside India newsletter: Anthropic curbs ignite AI debate in India \u2014 efforts 'too slow, way too small'"
+        "Vance says U.S. isn\u2019t giving Iran \u2018a cent\u2019 as he defends Trump peace deal",
+        "Markets are set for a much more hawkish Warsh Fed than expected",
+        "U.S. Navy ends blockade of Iran's ports and coastal areas",
+        "Trump DNI pick Pulte poised to get access to U.S. intelligence despite congressional bid to thwart",
+        "Three Saudi oil tankers carrying 6 million barrels cross Strait of Hormuz"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 14,
-      "pct": 12.2,
-      "sources": "CNBC(7), Bloomberg(7)",
+      "count": 20,
+      "pct": 16.3,
+      "sources": "CNBC(7), Bloomberg(7), Yahoo(6)",
       "sample_headlines": [
-        "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
-        "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
-        "The market didn't like what it heard from the Fed and its new leader Kevin Warsh",
-        "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year",
-        "Chairman Warsh drastically alters Fed rate statement. Here's what's changed"
+        "Markets are set for a much more hawkish Warsh Fed than expected",
+        "Trump administration temporarily cuts student loan interest rates for borrowers on autopay",
+        "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
+        "Kalshi traders see greater than 50% odds the Fed will hike rates this year",
+        "Analysis: Chairman Kevin Warsh\u2019s task forces are the key to understanding the new Fed"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 11,
+      "pct": 8.9,
+      "sources": "CNBC(5), Bloomberg(2), Yahoo(2), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Amazon investigating engineers who criticized AI data center expansion",
+        "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
+        "Wall Street recovers from Fed slump, and the next step for Amazon's AI chip ambitions",
+        "Intel gains 10% after Trump says company will partner with Apple on U.S. chip design",
+        "Godfather of AI blasts Musk's xAI as 'failure,' says labs are risking a 'big bubble explosion'"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 12.2,
-      "sources": "CNBC(5), Bloomberg(5), Yahoo(3), MarketWatch(1)",
+      "count": 11,
+      "pct": 8.9,
+      "sources": "Bloomberg(5), Yahoo(4), CNBC(1), Google News(1)",
       "sample_headlines": [
-        "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
-        "CME CEO Terrence Duffy says the exchange operator will sue CFTC over perpetual futures",
-        "SpaceX shares hold steady after three-day rally loses steam",
-        "Why Wall Street banks and foreign borrowers are rushing to tap China\u2019s cheap money",
-        "Fed holds rates steady, pares down statement to remove cutting bias"
+        "Wall Street recovers from Fed slump, and the next step for Amazon's AI chip ambitions",
+        "US Stock Market Today: S&P 500 Futures Slip As Factory Data Signals Cooling Economy - Yahoo Finance",
+        "July Fed Rate-Hike Wagers Drive Bond Futures Volume Surge",
+        "The Crypto-Treasury Dream Unravels After a 90% Stock Plunge",
+        "Dollar Sees \u2018Bullish Break\u2019 as Fed Rate-Hike Bets Fuel Rally"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 8,
-      "pct": 7.0,
-      "sources": "Yahoo(4), Bloomberg(3), CNBC(1)",
+      "count": 7,
+      "pct": 5.7,
+      "sources": "CNBC(3), Bloomberg(3), MarketWatch(1)",
       "sample_headlines": [
-        "Oil falls as International Energy Agency forecasts supply glut next year after U.S.-Iran deal",
-        "Oil Falls as Iran Peace Deal Gets Tankers Moving Through Hormuz",
-        "US Stocks Bounce and Oil Slides on Iran Accord: Markets Wrap",
-        "US Gasoline Prices Fall Below $4 a Gallon as Iran Strain Eases",
-        "Oil prices tumble again on US-Iran deal; S&P 500 falls"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 5,
-      "pct": 4.3,
-      "sources": "FT(2), Bloomberg(2), CNBC(1)",
-      "sample_headlines": [
-        "Why Wall Street banks and foreign borrowers are rushing to tap China\u2019s cheap money",
-        "China\u2019s tribute system and the new world order",
-        "Chinese universities gain ground on UK and US in global rankings",
-        "Hong Kong to Launch China Bond Futures to Promote Yuan",
-        "China Stock Gauge Nears Bear Market on Weak Growth, Tech Slide"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "Yahoo(3), CNBC(1)",
-      "sample_headlines": [
-        "'Passive' investors who dodged bitcoin are now forced to own SpaceX, which is three times more volatile",
-        "The ETF Built for the Advisors Without a Bitcoin Plan",
-        "BlackRock unveils bold Bitcoin prediction",
-        "BlackRock Becomes First Mega Issuer to Launch Covered Call Bitcoin ETF"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "US and Iran sign deal as Trump vows to release frozen funds and ease sanctions",
-        "Japan's exports rise on weak yen, AI boom, but price-led gains mask weak volumes"
+        "Three Saudi oil tankers carrying 6 million barrels cross Strait of Hormuz",
+        "Gas prices fall below $4 per gallon as oil supply fears ease after Iran deal",
+        "OPEC chief dismisses IEA supply glut forecast as 'critical' Strait of Hormuz reopens",
+        "The Iran oil shock taught traders these key lessons about demand and China",
+        "Bank of England Holds Rates in 7-2 Vote as Oil Outlook Eases"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year",
-        "I inherited a $500,000 IRA. Can I reduce the tax burden by using it for my children\u2019s education?"
+        "California\u2019s counting on an IPO tax windfall. Several factors are complicating the equation",
+        "The Crypto-Treasury Dream Unravels After a 90% Stock Plunge",
+        "Newsom Rushes to Sink Billionaire Tax Before Deadline",
+        "Kenya to Raise $763 Million After Lawmakers Tone Down Tax Plan"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "The Iran oil shock taught traders these key lessons about demand and China",
+        "China\u2019s tribute system and the new world order"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Bloomberg(2)",
+      "sample_headlines": [
+        "Bitcoin Falls Back Toward $60,000 on Strategy Shares, Rate Fears",
+        "The Crypto-Treasury Dream Unravels After a 90% Stock Plunge"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "Thousands of Public-School Staff Across US Face Layoff Warnings"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "Seth Klarman on the Importance of Venture Capital"
       ]
     }
   ]
