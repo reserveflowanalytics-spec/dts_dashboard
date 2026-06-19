@@ -1,121 +1,110 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 123,
-  "fetched_at": "2026-06-18T21:01:29.307859+00:00",
+  "total_headlines": 127,
+  "fetched_at": "2026-06-19T21:01:30.224995+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 25,
-      "pct": 20.3,
-      "sources": "Bloomberg(9), CNBC(8), MarketWatch(4), FT(3), Yahoo(1)",
+      "count": 29,
+      "pct": 22.8,
+      "sources": "CNBC(10), FT(5), Bloomberg(5), MarketWatch(4), Yahoo(4), Google News(1)",
       "sample_headlines": [
-        "Vance says U.S. isn\u2019t giving Iran \u2018a cent\u2019 as he defends Trump peace deal",
-        "Markets are set for a much more hawkish Warsh Fed than expected",
-        "U.S. Navy ends blockade of Iran's ports and coastal areas",
+        "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
+        "DOJ rebuffs judge's request to put in writing it won't move forward with 'anti-weaponization' fund",
         "Trump DNI pick Pulte poised to get access to U.S. intelligence despite congressional bid to thwart",
-        "Three Saudi oil tankers carrying 6 million barrels cross Strait of Hormuz"
+        "Trump claims Iran deal is 'unconditional surrender,' says his power has 'no limits': Axios",
+        "Russia threatens escalation after Ukraine hits Moscow with largest-ever drone attack"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 20,
-      "pct": 16.3,
-      "sources": "CNBC(7), Bloomberg(7), Yahoo(6)",
+      "count": 18,
+      "pct": 14.2,
+      "sources": "Yahoo(5), CNBC(4), Google News(4), MarketWatch(3), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
+        "Why Japan's $70 billion-plus intervention and a rate hike didn't prop up the yen more",
+        "Japan core inflation holds steady in May, matching expectations despite energy price concerns",
         "Markets are set for a much more hawkish Warsh Fed than expected",
-        "Trump administration temporarily cuts student loan interest rates for borrowers on autopay",
-        "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
-        "Kalshi traders see greater than 50% odds the Fed will hike rates this year",
-        "Analysis: Chairman Kevin Warsh\u2019s task forces are the key to understanding the new Fed"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 11,
-      "pct": 8.9,
-      "sources": "CNBC(5), Bloomberg(2), Yahoo(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Amazon investigating engineers who criticized AI data center expansion",
-        "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
-        "Wall Street recovers from Fed slump, and the next step for Amazon's AI chip ambitions",
-        "Intel gains 10% after Trump says company will partner with Apple on U.S. chip design",
-        "Godfather of AI blasts Musk's xAI as 'failure,' says labs are risking a 'big bubble explosion'"
+        "Warsh\u2019s new task forces give the Fed wiggle room to put off changing rates until December"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 11,
-      "pct": 8.9,
-      "sources": "Bloomberg(5), Yahoo(4), CNBC(1), Google News(1)",
+      "pct": 8.7,
+      "sources": "Google News(5), Yahoo(3), CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Wall Street recovers from Fed slump, and the next step for Amazon's AI chip ambitions",
-        "US Stock Market Today: S&P 500 Futures Slip As Factory Data Signals Cooling Economy - Yahoo Finance",
-        "July Fed Rate-Hike Wagers Drive Bond Futures Volume Surge",
-        "The Crypto-Treasury Dream Unravels After a 90% Stock Plunge",
-        "Dollar Sees \u2018Bullish Break\u2019 as Fed Rate-Hike Bets Fuel Rally"
+        "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
+        "Is the stock market closed today for Juneteenth? Will the post office deliver mail?",
+        "Stock Market News, June 18, 2026: U.S. Stocks Close Week on a Strong Note - WSJ",
+        "The stock market's next leg higher may not come from AI: Chart of the Day - Yahoo Finance",
+        "S&P 500 closes higher, Nasdaq climbs nearly 2% as chips fuel comeback from Fed sell-off: Live updates - CNBC"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 7,
-      "pct": 5.7,
-      "sources": "CNBC(3), Bloomberg(3), MarketWatch(1)",
+      "pct": 5.5,
+      "sources": "CNBC(2), Bloomberg(2), MarketWatch(1), Google News(1), Yahoo(1)",
       "sample_headlines": [
-        "Three Saudi oil tankers carrying 6 million barrels cross Strait of Hormuz",
-        "Gas prices fall below $4 per gallon as oil supply fears ease after Iran deal",
-        "OPEC chief dismisses IEA supply glut forecast as 'critical' Strait of Hormuz reopens",
-        "The Iran oil shock taught traders these key lessons about demand and China",
-        "Bank of England Holds Rates in 7-2 Vote as Oil Outlook Eases"
+        "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
+        "Japan core inflation holds steady in May, matching expectations despite energy price concerns",
+        "Oil prices face fresh wave of volatility amid conflicting reports about Strait of Hormuz reopening and ongoing regional strife",
+        "Oil prices are falling and stocks are up. Traders worry they\u2019ve gone too far - CNN",
+        "Oil Gains as Iran War Negotiations Falter, Tanker Movements Slow"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "Bloomberg(3), CNBC(1)",
+      "topic": "AI / Tech",
+      "count": 7,
+      "pct": 5.5,
+      "sources": "CNBC(3), Yahoo(3), Google News(1)",
       "sample_headlines": [
-        "California\u2019s counting on an IPO tax windfall. Several factors are complicating the equation",
-        "The Crypto-Treasury Dream Unravels After a 90% Stock Plunge",
-        "Newsom Rushes to Sink Billionaire Tax Before Deadline",
-        "Kenya to Raise $763 Million After Lawmakers Tone Down Tax Plan"
+        "Memory crisis hits such extremes that 'even Apple can't be safe'",
+        "Bob Iger reflects on 10 years of Shanghai Disneyland as it defies the Chinese pullback",
+        "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
+        "S&P 500 closes higher, Nasdaq climbs nearly 2% as chips fuel comeback from Fed sell-off: Live updates - CNBC",
+        "NVIDIA CEO Jensen Huang on AI Stock Dips: \u201cEverybody Should Be Very Excited to Buy Stock at a Cheaper Price\u201d \u2014 These Stocks are on My Radar After a Worrisome Wednesday"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "U.S. opens tariff probe targeting Germany\u2019s drug pricing policies",
+        "Canada Imposes Temporary 10% Tariff on Canned Vegetables",
+        "India\u2019s Energy Import Bill Jumps 82% Due to High Oil Prices"
       ]
     },
     {
       "topic": "China",
       "count": 2,
       "pct": 1.6,
-      "sources": "MarketWatch(1), FT(1)",
+      "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "The Iran oil shock taught traders these key lessons about demand and China",
-        "China\u2019s tribute system and the new world order"
+        "Bob Iger reflects on 10 years of Shanghai Disneyland as it defies the Chinese pullback",
+        "How China\u2019s economic comeback hit a wall"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Bloomberg(2)",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin Falls Back Toward $60,000 on Strategy Shares, Rate Fears",
-        "The Crypto-Treasury Dream Unravels After a 90% Stock Plunge"
+        "Bitcoin and ethereum prices today, Thursday, June 18, 2026: Prices sliding despite Iran peace deal"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Thousands of Public-School Staff Across US Face Layoff Warnings"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "Seth Klarman on the Importance of Venture Capital"
+        "HMRC inheritance tax investigations reach six\u2011year high \u2013 report"
       ]
     }
   ]
