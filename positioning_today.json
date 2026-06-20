@@ -1,15 +1,15 @@
 {
   "as_of": "2026-06-17",
-  "computed_at": "2026-06-19T21:01:47Z",
-  "bias": "REDUCED",
-  "conviction": "low",
-  "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
-  "action": "Reduce SPY baseline to 30-50%. Hold cash buffer for next Tier-1 setup.",
+  "computed_at": "2026-06-20T21:02:10Z",
+  "bias": "LONG",
+  "conviction": "low-medium",
+  "bias_reason": "Tech bullish but RS conviction not at high.",
+  "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
   "signals": {
     "fiscal_regime": "Restrictive",
-    "tech_regime": "bearish",
-    "tech_close": 7423.25,
-    "tech_sma20": 7500.26,
+    "tech_regime": "bullish",
+    "tech_close": 7556.25,
+    "tech_sma20": 7504.81,
     "rs_conviction_level": "unknown",
     "rs_conviction_label": "Moderate \u2014 7/11 pairs aligned with regime",
     "rs_aligned_pairs": "7/11",
@@ -51,5 +51,5 @@
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
-  "watch_downgrade": "Continued weakness in trend + RS -> further reduce or move to cash"
+  "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
 }

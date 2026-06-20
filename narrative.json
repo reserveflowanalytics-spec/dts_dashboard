@@ -1,110 +1,117 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 127,
-  "fetched_at": "2026-06-19T21:01:30.224995+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 130,
+  "fetched_at": "2026-06-20T21:01:42.842959+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 29,
-      "pct": 22.8,
-      "sources": "CNBC(10), FT(5), Bloomberg(5), MarketWatch(4), Yahoo(4), Google News(1)",
+      "count": 17,
+      "pct": 13.1,
+      "sources": "Bloomberg(10), CNBC(5), FT(2)",
       "sample_headlines": [
-        "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
+        "Iran reportedly closes Strait of Hormuz again, casting shadow over nuclear talks",
         "DOJ rebuffs judge's request to put in writing it won't move forward with 'anti-weaponization' fund",
-        "Trump DNI pick Pulte poised to get access to U.S. intelligence despite congressional bid to thwart",
-        "Trump claims Iran deal is 'unconditional surrender,' says his power has 'no limits': Axios",
-        "Russia threatens escalation after Ukraine hits Moscow with largest-ever drone attack"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 18,
-      "pct": 14.2,
-      "sources": "Yahoo(5), CNBC(4), Google News(4), MarketWatch(3), FT(1), Bloomberg(1)",
-      "sample_headlines": [
         "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
-        "Why Japan's $70 billion-plus intervention and a rate hike didn't prop up the yen more",
-        "Japan core inflation holds steady in May, matching expectations despite energy price concerns",
-        "Markets are set for a much more hawkish Warsh Fed than expected",
-        "Warsh\u2019s new task forces give the Fed wiggle room to put off changing rates until December"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "Google News(5), Yahoo(3), CNBC(1), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
-        "Is the stock market closed today for Juneteenth? Will the post office deliver mail?",
-        "Stock Market News, June 18, 2026: U.S. Stocks Close Week on a Strong Note - WSJ",
-        "The stock market's next leg higher may not come from AI: Chart of the Day - Yahoo Finance",
-        "S&P 500 closes higher, Nasdaq climbs nearly 2% as chips fuel comeback from Fed sell-off: Live updates - CNBC"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "CNBC(2), Bloomberg(2), MarketWatch(1), Google News(1), Yahoo(1)",
-      "sample_headlines": [
-        "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
-        "Japan core inflation holds steady in May, matching expectations despite energy price concerns",
-        "Oil prices face fresh wave of volatility amid conflicting reports about Strait of Hormuz reopening and ongoing regional strife",
-        "Oil prices are falling and stocks are up. Traders worry they\u2019ve gone too far - CNN",
-        "Oil Gains as Iran War Negotiations Falter, Tanker Movements Slow"
+        "Russia threatens escalation after Ukraine hits Moscow with largest-ever drone attack",
+        "U.S.-Iran deal in photos: ships in the Strait of Hormuz, daily life in Tehran"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 7,
-      "pct": 5.5,
-      "sources": "CNBC(3), Yahoo(3), Google News(1)",
+      "count": 14,
+      "pct": 10.8,
+      "sources": "Yahoo(7), CNBC(4), Bloomberg(2), FT(1)",
       "sample_headlines": [
+        "AI buildout gives tech investors new reasons to watch bond market",
         "Memory crisis hits such extremes that 'even Apple can't be safe'",
+        "Massive bonuses for South Korea's chip workers puts central bank on inflation alert",
         "Bob Iger reflects on 10 years of Shanghai Disneyland as it defies the Chinese pullback",
-        "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
-        "S&P 500 closes higher, Nasdaq climbs nearly 2% as chips fuel comeback from Fed sell-off: Live updates - CNBC",
-        "NVIDIA CEO Jensen Huang on AI Stock Dips: \u201cEverybody Should Be Very Excited to Buy Stock at a Cheaper Price\u201d \u2014 These Stocks are on My Radar After a Worrisome Wednesday"
+        "Did Anthropic talk its way into an AI export ban?"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 9,
+      "pct": 6.9,
+      "sources": "CNBC(3), Bloomberg(3), Yahoo(3)",
+      "sample_headlines": [
+        "Massive bonuses for South Korea's chip workers puts central bank on inflation alert",
+        "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
+        "Why Japan's $70 billion-plus intervention and a rate hike didn't prop up the yen more",
+        "Fed\u2019s Favorite Gauge Is Seen Showing Faster Inflation",
+        "South Africa\u2019s Kganyago Warns Inflation Expectations Are Rising"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 5.4,
+      "sources": "CNBC(2), Bloomberg(2), Google News(1), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "Iran reportedly closes Strait of Hormuz again, casting shadow over nuclear talks",
+        "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
+        "Finance Minister States Government Prioritizes Long-Term Economic Interests Over Short-Term Stock Market Fluctuations - Ratopati",
+        "The window for peace in Ukraine won\u2019t be open forever",
+        "Rep. Warnock: Wall Street vs Main Street"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "pct": 2.3,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
         "U.S. opens tariff probe targeting Germany\u2019s drug pricing policies",
-        "Canada Imposes Temporary 10% Tariff on Canned Vegetables",
-        "India\u2019s Energy Import Bill Jumps 82% Due to High Oil Prices"
+        "Did Anthropic talk its way into an AI export ban?",
+        "Iran Sanctions Losing Efficacy"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.3,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "The budget airline model in the U.S. is running out of runway",
+        "You\u2019re going to pay tax on RMDs \u2014 there\u2019s no way around it. Or is there?",
+        "Burnham May Yet Rewrite UK Fiscal Playbook If He Becomes PM"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 2,
+      "pct": 1.5,
+      "sources": "Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Iraq Tells Oil Fields to Start Lifting Output After US-Iran Deal",
+        "Energy Infrastructure Fund Delivers 19% Gains While Paying 2.8% Yield To Income Hunters"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "Europe\u2019s Stocks Are Back in the Lead as Stagflation Risks Ease"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), FT(1)",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Bob Iger reflects on 10 years of Shanghai Disneyland as it defies the Chinese pullback",
-        "How China\u2019s economic comeback hit a wall"
+        "Bob Iger reflects on 10 years of Shanghai Disneyland as it defies the Chinese pullback"
       ]
     },
     {
       "topic": "Crypto",
       "count": 1,
       "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Thursday, June 18, 2026: Prices sliding despite Iran peace deal"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "HMRC inheritance tax investigations reach six\u2011year high \u2013 report"
+        "Bitcoin's future as revolutionary as the smartphone, according to CoinDesk"
       ]
     }
   ]
