@@ -1,117 +1,112 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 130,
-  "fetched_at": "2026-06-20T21:01:42.842959+00:00",
+  "total_headlines": 115,
+  "fetched_at": "2026-06-21T21:01:23.244309+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
       "count": 17,
-      "pct": 13.1,
-      "sources": "Bloomberg(10), CNBC(5), FT(2)",
+      "pct": 14.8,
+      "sources": "Bloomberg(10), FT(3), CNBC(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Iran reportedly closes Strait of Hormuz again, casting shadow over nuclear talks",
+        "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
         "DOJ rebuffs judge's request to put in writing it won't move forward with 'anti-weaponization' fund",
-        "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
-        "Russia threatens escalation after Ukraine hits Moscow with largest-ever drone attack",
-        "U.S.-Iran deal in photos: ships in the Strait of Hormuz, daily life in Tehran"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 14,
-      "pct": 10.8,
-      "sources": "Yahoo(7), CNBC(4), Bloomberg(2), FT(1)",
-      "sample_headlines": [
-        "AI buildout gives tech investors new reasons to watch bond market",
-        "Memory crisis hits such extremes that 'even Apple can't be safe'",
-        "Massive bonuses for South Korea's chip workers puts central bank on inflation alert",
-        "Bob Iger reflects on 10 years of Shanghai Disneyland as it defies the Chinese pullback",
-        "Did Anthropic talk its way into an AI export ban?"
+        "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
+        "US and Iran hold crunch talks in Switzerland",
+        "Wars trigger $12bn venture capital rush into defence tech"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 6.9,
-      "sources": "CNBC(3), Bloomberg(3), Yahoo(3)",
+      "count": 14,
+      "pct": 12.2,
+      "sources": "Yahoo(7), CNBC(2), FT(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
+        "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
         "Massive bonuses for South Korea's chip workers puts central bank on inflation alert",
-        "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
-        "Why Japan's $70 billion-plus intervention and a rate hike didn't prop up the yen more",
-        "Fed\u2019s Favorite Gauge Is Seen Showing Faster Inflation",
-        "South Africa\u2019s Kganyago Warns Inflation Expectations Are Rising"
+        "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
+        "Warsh\u2019s push to axe Fed guidance may lift US borrowing costs, investors warn",
+        "Philippines fears China may move to seize full control of disputed atoll"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 5.4,
-      "sources": "CNBC(2), Bloomberg(2), Google News(1), FT(1), Yahoo(1)",
+      "count": 9,
+      "pct": 7.8,
+      "sources": "Yahoo(4), Bloomberg(3), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Iran reportedly closes Strait of Hormuz again, casting shadow over nuclear talks",
-        "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
-        "Finance Minister States Government Prioritizes Long-Term Economic Interests Over Short-Term Stock Market Fluctuations - Ratopati",
-        "The window for peace in Ukraine won\u2019t be open forever",
+        "Top Wall Street analysts like these 3 dividend stocks for solid returns",
+        "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
+        "UK's Starmer Faces Growing Pressure to Step Down",
+        "Soaring Profits in EM Build the Case for a Raging Bull Market",
         "Rep. Warnock: Wall Street vs Main Street"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 8,
+      "pct": 7.0,
+      "sources": "CNBC(4), Yahoo(4)",
+      "sample_headlines": [
+        "No one wants AI data centers on Earth. Do they make sense in space?",
+        "AI buildout gives tech investors new reasons to watch bond market",
+        "The AI trade has left the hyperscalers in the dust. What will it take for that to change?",
+        "Massive bonuses for South Korea's chip workers puts central bank on inflation alert",
+        "Top Value Investor Says Adobe Stock Is \u2018Very Compelling\u2019 Despite AI Threat"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 7,
+      "pct": 6.1,
+      "sources": "Bloomberg(5), Yahoo(2)",
+      "sample_headlines": [
+        "Bond Traders Burned by Fed\u2019s Pivot Look to Prices Gauge, Oil",
+        "Esper: Hezbollah is 'Spoiler' for US-Iran Deal",
+        "Oil Keeps Flowing Through Hormuz Despite Iran Saying It\u2019s Shut",
+        "Oil Stockpiles Near Danger Zone",
+        "Oil Glut Bets Are Back in Play as Crude Sinks After US-Iran Deal"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "pct": 2.6,
+      "sources": "Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "U.S. opens tariff probe targeting Germany\u2019s drug pricing policies",
-        "Did Anthropic talk its way into an AI export ban?",
-        "Iran Sanctions Losing Efficacy"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "The budget airline model in the U.S. is running out of runway",
-        "You\u2019re going to pay tax on RMDs \u2014 there\u2019s no way around it. Or is there?",
-        "Burnham May Yet Rewrite UK Fiscal Playbook If He Becomes PM"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 1.5,
-      "sources": "Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Iraq Tells Oil Fields to Start Lifting Output After US-Iran Deal",
-        "Energy Infrastructure Fund Delivers 19% Gains While Paying 2.8% Yield To Income Hunters"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "Europe\u2019s Stocks Are Back in the Lead as Stagflation Risks Ease"
+        "Guinea\u2019s President Doumbouya Announces Ban on Raw Gold Exports",
+        "Iran Sanctions Losing Efficacy",
+        "Intel Is Stealing the Foundry Spotlight. Is TSMC Still the Most Important Company in Chips?"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Bob Iger reflects on 10 years of Shanghai Disneyland as it defies the Chinese pullback"
+        "Philippines fears China may move to seize full control of disputed atoll",
+        "Aluminum\u2019s War Shock Blunted by Dark Transits and Chinese Supply"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(2)",
       "sample_headlines": [
+        "Republicans buy crypto more than Democrats, data shows \u2014 what's driving the divide",
         "Bitcoin's future as revolutionary as the smartphone, according to CoinDesk"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "The budget airline model in the U.S. is running out of runway",
+        "I\u2019m spending $170,000 to upgrade my home for my aging parents. Can I get tax breaks?"
       ]
     }
   ]
