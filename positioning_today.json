@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-06-17",
-  "computed_at": "2026-06-21T21:01:36Z",
+  "as_of": "2026-06-18",
+  "computed_at": "2026-06-22T21:01:40Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -20,34 +20,29 @@
     {
       "pair": "IWM/SPY",
       "rationale": "Small cap vs large cap",
-      "roc_20d": 5.4
+      "roc_20d": 4.82
     },
     {
       "pair": "KRE/XLU",
       "rationale": "Regional banks vs utilities",
-      "roc_20d": 5.03
+      "roc_20d": 3.11
     },
     {
       "pair": "XLB/XLRE",
       "rationale": "Materials vs real estate",
-      "roc_20d": 6.0
+      "roc_20d": 5.56
     },
     {
       "pair": "XLI/XLP",
       "rationale": "Industrials vs staples",
-      "roc_20d": 9.5
+      "roc_20d": 8.79
     }
   ],
   "underweight_pairs": [
     {
       "pair": "HYG/TLT",
       "rationale": "Credit risk appetite vs duration safety",
-      "roc_20d": -3.26
-    },
-    {
-      "pair": "XLY/XLV",
-      "rationale": "Discretionary vs healthcare",
-      "roc_20d": -1.86
+      "roc_20d": -2.98
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
