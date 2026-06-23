@@ -1,111 +1,119 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 132,
-  "fetched_at": "2026-06-22T21:01:20.747947+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 130,
+  "fetched_at": "2026-06-23T21:02:49.967628+00:00",
   "topics": [
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 24,
-      "pct": 18.2,
-      "sources": "Bloomberg(8), CNBC(6), FT(5), Yahoo(4), MarketWatch(1)",
-      "sample_headlines": [
-        "Treasury Department authorizes Iranian oil sales through August",
-        "Vance hails 'great progress' in U.S.-Iran talks despite 'threatening' and 'whining'",
-        "Companies are demanding states cut red tape. Data center-wary voters may think differently",
-        "'Reward for failure': Investor support for Target Chair Brian Cornell falls to lowest level ever",
-        "Shipping stalls in Strait of Hormuz after Iran declares key waterway closed again"
-      ]
-    },
     {
       "topic": "AI / Tech",
       "count": 17,
-      "pct": 12.9,
-      "sources": "CNBC(6), Yahoo(5), MarketWatch(3), FT(2), Bloomberg(1)",
+      "pct": 13.1,
+      "sources": "CNBC(8), Yahoo(4), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Alphabet paces for worst day in a year on AI concerns after high-profile exits",
-        "Nvidia's stock struggles as Kalshi traders bet chip prices are coming down",
-        "Three key AI stocks to watch this week with traders expecting giant moves",
-        "Meta's WhatsApp head to step down, will be replaced by Indian fintech founder Kunal Shah",
-        "Amazon Prime Day arrives earlier this year. Here's why Wall Street is watching closely"
+        "Cerebras reports 92% revenue growth in chipmaker's first earnings report since IPO",
+        "Traders are loving this cheap way to make big bets against chip stocks",
+        "Meta announces new smart glasses starting at $299, as Zuckerberg keeps pushing wearables",
+        "Meta is building a prediction markets app. These stocks fell in response",
+        "Oracle sheds 21,000 roles over the past year amid wave of AI layoffs from tech giants"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 7.6,
-      "sources": "CNBC(4), Bloomberg(4), FT(1), Yahoo(1)",
+      "count": 17,
+      "pct": 13.1,
+      "sources": "Bloomberg(7), Yahoo(4), MarketWatch(3), CNBC(2), FT(1)",
       "sample_headlines": [
-        "SpaceX stock tanks 16%, extending slump following post-IPO rally",
-        "Nvidia's stock struggles as Kalshi traders bet chip prices are coming down",
-        "Meta's WhatsApp head to step down, will be replaced by Indian fintech founder Kunal Shah",
-        "Amazon Prime Day arrives earlier this year. Here's why Wall Street is watching closely",
-        "The revolving door of Downing Street"
+        "Factory job cuts in June neared financial crisis and Covid levels, S&P says",
+        "Gold and silver tumble as rate-hike fears hit precious metals",
+        "The \u2018Magnificent Seven\u2019 correction may actually be a sign of a healthy stock market",
+        "Are falling tech stocks the start of an overdue selloff \u2014 or a well-deserved pause?",
+        "Everyday investors fueled the SpaceX trading frenzy. Now they face a bear market."
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 14,
+      "pct": 10.8,
+      "sources": "CNBC(5), Bloomberg(4), MarketWatch(2), FT(2), Yahoo(1)",
+      "sample_headlines": [
+        "Senate backs Iran war powers resolution as GOP pressure grows on Trump's deal to end war",
+        "Inside Kevin Warsh's selection process for the next Atlanta Fed president",
+        "Strait of Hormuz evacuation plan to begin for ships stranded in Persian Gulf, maritime organization says",
+        "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
+        "Sens. Warren, Kelly press Trump administration on effects of tariffs on manufacturing"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 9,
+      "pct": 6.9,
+      "sources": "Bloomberg(3), Yahoo(3), CNBC(1), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
+        "Oil tankers are being lured back into the Strait of Hormuz by big payouts",
+        "How Citadel built an energy empire from Enron\u2019s ashes",
+        "Oil Eases While Tankers Openly Enter Hormuz After Peace Deal",
+        "We Can't Use The Strategic Petroleum Reserve For Political Purposes Says Mike Sommers"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 9,
-      "pct": 6.8,
-      "sources": "Bloomberg(4), Yahoo(3), CNBC(2)",
+      "pct": 6.9,
+      "sources": "CNBC(4), Bloomberg(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Alan Greenspan, former chairman of the Fed, dies at age 100",
-        "Shipping stalls in Strait of Hormuz after Iran declares key waterway closed again",
-        "Mr. Fed Pres.: Warsh Every Bit as Nuanced as Greenspan",
-        "Fmr. Fed Governor Meyer on Working With Greenspan, Warsh",
-        "Greenspan 'Pioneered' Fed Communications, Says Betsy Duke"
+        "FedEx posts strong earnings results in last quarter with freight business",
+        "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
+        "Inside Kevin Warsh's selection process for the next Atlanta Fed president",
+        "SpaceX closes nearly 1% higher, snapping three-day losing streak",
+        "Stock investors expect the Fed to save them. But no \u2018Warsh put\u2019 is coming."
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.3,
-      "sources": "CNBC(3), Bloomberg(3), Yahoo(1)",
-      "sample_headlines": [
-        "Treasury Department authorizes Iranian oil sales through August",
-        "Chevron to fuel massive Microsoft data center in Texas using natural gas",
-        "Oil prices fall after U.S. authorizes Iranian crude sales",
-        "Emerging-Market Stocks Mark Fresh High as US-Iran Talks Progress, Oil Falls",
-        "Iran Oil Waiver Offers Lifeline to Tehran as Talks Proceed"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
+      "topic": "Trade / Tariffs",
       "count": 3,
       "pct": 2.3,
-      "sources": "CNBC(3)",
+      "sources": "CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Treasury Department authorizes Iranian oil sales through August",
-        "Childcare tax breaks can save families and businesses money \u2014 but few use them, congressional report finds",
-        "2-year Treasury note yield hits highest since February 2025"
+        "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
+        "Sens. Warren, Kelly press Trump administration on effects of tariffs on manufacturing",
+        "Alan Greenspan\u2019s most important achievement is often overlooked"
       ]
     },
     {
       "topic": "China",
       "count": 2,
       "pct": 1.5,
-      "sources": "CNBC(1), Yahoo(1)",
+      "sources": "FT(2)",
       "sample_headlines": [
-        "China imposes trade curbs on dozens of U.S. firms in retaliation for Pentagon blacklist",
-        "China\u2019s Auto industry is Unlikely to Return to \u2018golden era,\u2019 NIO Inc. (NIO) CEO Says"
+        "China and the US, accidental climate saviours of the world",
+        "Alibaba sues Pentagon over inclusion on Chinese military blacklist"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Oracle sheds 21,000 roles over the past year amid wave of AI layoffs from tech giants"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 1.5,
-      "sources": "Bloomberg(1), Yahoo(1)",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Michael Saylor\u2019s Strategy Buys $34.9 Million of Bitcoin Using Common Stock",
-        "Ex-Trump advisor makes bold 5-point case for Bitcoin"
+        "Ex-Trump advisor makes bold case for Bitcoin"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
       "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Oil Falls After US-Iran Deal Progress, Sanctions Waiver"
+        "Ether-Linked Nonprofit Cuts Budget 40% In \u2018Challenging Era\u2019"
       ]
     }
   ]
