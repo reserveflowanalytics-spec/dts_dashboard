@@ -1,119 +1,114 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 130,
-  "fetched_at": "2026-06-23T21:02:49.967628+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 122,
+  "fetched_at": "2026-06-24T21:01:32.176209+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 17,
-      "pct": 13.1,
-      "sources": "CNBC(8), Yahoo(4), MarketWatch(2), Bloomberg(2), FT(1)",
+      "count": 21,
+      "pct": 17.2,
+      "sources": "Yahoo(9), CNBC(6), Bloomberg(5), MarketWatch(1)",
       "sample_headlines": [
-        "Cerebras reports 92% revenue growth in chipmaker's first earnings report since IPO",
-        "Traders are loving this cheap way to make big bets against chip stocks",
-        "Meta announces new smart glasses starting at $299, as Zuckerberg keeps pushing wearables",
-        "Meta is building a prediction markets app. These stocks fell in response",
-        "Oracle sheds 21,000 roles over the past year amid wave of AI layoffs from tech giants"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 17,
-      "pct": 13.1,
-      "sources": "Bloomberg(7), Yahoo(4), MarketWatch(3), CNBC(2), FT(1)",
-      "sample_headlines": [
-        "Factory job cuts in June neared financial crisis and Covid levels, S&P says",
-        "Gold and silver tumble as rate-hike fears hit precious metals",
-        "The \u2018Magnificent Seven\u2019 correction may actually be a sign of a healthy stock market",
-        "Are falling tech stocks the start of an overdue selloff \u2014 or a well-deserved pause?",
-        "Everyday investors fueled the SpaceX trading frenzy. Now they face a bear market."
+        "Qualcomm stock pops 15% after chipmaker almost doubles projection for 2029 non-handset revenue",
+        "Traders are getting worried the chip stock bull market is cracking. How to protect yourself",
+        "Nvidia's Huang calls black market data centers made of smuggled parts a 'dead end'",
+        "Amazon's Zoox unveils redesigned robotaxi ahead of upcoming expansion",
+        "OpenAI unveils first chip as part of Broadcom deal in effort to 'build the full stack'"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 14,
-      "pct": 10.8,
-      "sources": "CNBC(5), Bloomberg(4), MarketWatch(2), FT(2), Yahoo(1)",
+      "count": 11,
+      "pct": 9.0,
+      "sources": "CNBC(5), MarketWatch(3), Bloomberg(3)",
       "sample_headlines": [
-        "Senate backs Iran war powers resolution as GOP pressure grows on Trump's deal to end war",
-        "Inside Kevin Warsh's selection process for the next Atlanta Fed president",
-        "Strait of Hormuz evacuation plan to begin for ships stranded in Persian Gulf, maritime organization says",
-        "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
-        "Sens. Warren, Kelly press Trump administration on effects of tariffs on manufacturing"
+        "White House requests $87.6 billion supplemental spending for Iran war, farm aid",
+        "Energy secretary says U.S. has ended Iran's ability to close Strait of Hormuz",
+        "U.S. crude oil briefly dips below $70 as tankers transit Strait of Hormuz",
+        "Trump claims Iran has assured U.S. there won't be tolls on the Strait of Hormuz",
+        "U.S. Treasury will oversee frozen Iranian funds when they're released, Bessent says"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 6.9,
-      "sources": "Bloomberg(3), Yahoo(3), CNBC(1), MarketWatch(1), FT(1)",
+      "topic": "Equities / Market moves",
+      "count": 11,
+      "pct": 9.0,
+      "sources": "Yahoo(6), CNBC(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
-        "Oil tankers are being lured back into the Strait of Hormuz by big payouts",
-        "How Citadel built an energy empire from Enron\u2019s ashes",
-        "Oil Eases While Tankers Openly Enter Hormuz After Peace Deal",
-        "We Can't Use The Strategic Petroleum Reserve For Political Purposes Says Mike Sommers"
+        "Traders are getting worried the chip stock bull market is cracking. How to protect yourself",
+        "Tech stocks struggle to rebound after global AI sell-off batters chip names",
+        "Everyone on Wall Street now believes in buying the dip. That is exactly why you should worry.",
+        "Alphabet\u2019s Dow Debut Shows Index Headache in Tech-Driven Economy",
+        "Gold Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 6.9,
-      "sources": "CNBC(4), Bloomberg(3), MarketWatch(1), FT(1)",
+      "count": 10,
+      "pct": 8.2,
+      "sources": "Yahoo(4), CNBC(2), Bloomberg(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "FedEx posts strong earnings results in last quarter with freight business",
-        "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
-        "Inside Kevin Warsh's selection process for the next Atlanta Fed president",
-        "SpaceX closes nearly 1% higher, snapping three-day losing streak",
-        "Stock investors expect the Fed to save them. But no \u2018Warsh put\u2019 is coming."
+        "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
+        "Federal student loans have a new interest rate discount \u2014 here's who qualifies",
+        "These hidden PCE triggers could force a Fed rate hike \u2014 and shock the market",
+        "US banks would lose $700bn in economic crash, Fed stress tests find",
+        "Basis Trade Fuels Hedge Funds\u2019 US Bond Exposure: Fed Report"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(2), MarketWatch(1)",
+      "topic": "Oil / Energy",
+      "count": 8,
+      "pct": 6.6,
+      "sources": "CNBC(3), Bloomberg(3), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
-        "Sens. Warren, Kelly press Trump administration on effects of tariffs on manufacturing",
-        "Alan Greenspan\u2019s most important achievement is often overlooked"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.5,
-      "sources": "FT(2)",
-      "sample_headlines": [
-        "China and the US, accidental climate saviours of the world",
-        "Alibaba sues Pentagon over inclusion on Chinese military blacklist"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Oracle sheds 21,000 roles over the past year amid wave of AI layoffs from tech giants"
+        "Energy secretary says U.S. has ended Iran's ability to close Strait of Hormuz",
+        "Why energy could be a great place to invest even with oil prices retreating \u2014 5 stocks to buy",
+        "U.S. crude oil briefly dips below $70 as tankers transit Strait of Hormuz",
+        "Oil prices fall back to preconflict levels, but Trump\u2019s comments on Iran show that supply risks remain",
+        "Oil Erases Wartime Gains as More Tankers Transit Hormuz"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "count": 6,
+      "pct": 4.9,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Ex-Trump advisor makes bold case for Bitcoin"
+        "Bitcoin falls back under $60,000, hitting its lowest level since October 2024",
+        "Gold, silver and bitcoin are getting rocked, and angry investors can blame Kevin Warsh",
+        "Bitcoin hits 20-month low as market sentiment sours",
+        "Bitcoin Breaks Below $60,000 Again as Biggest Crypto Buyers Balk",
+        "Bitcoin\u2019s Retreating Retail Army Exposes Fresh Fragility"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "CNBC(3)",
+      "sample_headlines": [
+        "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
+        "Amazon's Zoox unveils redesigned robotaxi ahead of upcoming expansion",
+        "U.S. Treasury will oversee frozen Iranian funds when they're released, Bessent says"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that",
+        "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "Ether-Linked Nonprofit Cuts Budget 40% In \u2018Challenging Era\u2019"
+        "Trump looked set to tout new housing legislation. Instead he said it\u2019s \u2018of minor importance\u2019 and nixed a signing ceremony."
       ]
     }
   ]
