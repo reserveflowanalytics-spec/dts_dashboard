@@ -1,105 +1,81 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 122,
-  "fetched_at": "2026-06-24T21:01:32.176209+00:00",
+  "total_headlines": 131,
+  "fetched_at": "2026-06-25T21:01:21.635762+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 21,
-      "pct": 17.2,
-      "sources": "Yahoo(9), CNBC(6), Bloomberg(5), MarketWatch(1)",
+      "count": 24,
+      "pct": 18.3,
+      "sources": "Yahoo(7), Bloomberg(6), CNBC(5), MarketWatch(4), FT(2)",
       "sample_headlines": [
-        "Qualcomm stock pops 15% after chipmaker almost doubles projection for 2029 non-handset revenue",
-        "Traders are getting worried the chip stock bull market is cracking. How to protect yourself",
-        "Nvidia's Huang calls black market data centers made of smuggled parts a 'dead end'",
-        "Amazon's Zoox unveils redesigned robotaxi ahead of upcoming expansion",
-        "OpenAI unveils first chip as part of Broadcom deal in effort to 'build the full stack'"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 9.0,
-      "sources": "CNBC(5), MarketWatch(3), Bloomberg(3)",
-      "sample_headlines": [
-        "White House requests $87.6 billion supplemental spending for Iran war, farm aid",
-        "Energy secretary says U.S. has ended Iran's ability to close Strait of Hormuz",
-        "U.S. crude oil briefly dips below $70 as tankers transit Strait of Hormuz",
-        "Trump claims Iran has assured U.S. there won't be tolls on the Strait of Hormuz",
-        "U.S. Treasury will oversee frozen Iranian funds when they're released, Bessent says"
+        "Microsoft lifts price of Xbox consoles due to soaring component costs",
+        "Apple stock gets slammed on bigger Mac, iPad price hikes. Why it can weather the storm",
+        "Anthropic's latest hiring spree reveals where it's building AI data centers next",
+        "Gold hovers around $4,000, silver holds below $60 \u2014 has the shimmer worn off the precious metal rally?",
+        "Micron is tech's new margin king as memory crisis pushes company past Nvidia and Meta"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 9.0,
-      "sources": "Yahoo(6), CNBC(2), Bloomberg(2), MarketWatch(1)",
+      "count": 18,
+      "pct": 13.7,
+      "sources": "Yahoo(10), CNBC(3), Bloomberg(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Traders are getting worried the chip stock bull market is cracking. How to protect yourself",
-        "Tech stocks struggle to rebound after global AI sell-off batters chip names",
-        "Everyone on Wall Street now believes in buying the dip. That is exactly why you should worry.",
-        "Alphabet\u2019s Dow Debut Shows Index Headache in Tech-Driven Economy",
-        "Gold Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt"
+        "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
+        "Wendy's turns lower as meme rally fails to extend to a second day",
+        "Gold hovers around $4,000, silver holds below $60 \u2014 has the shimmer worn off the precious metal rally?",
+        "Microsoft\u2019s stock is suffering a historic June rout as investors balk at heavy spending",
+        "Micron shares jump as blockbuster results spark Wall Street tech shake-up"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 8.2,
-      "sources": "Yahoo(4), CNBC(2), Bloomberg(2), MarketWatch(1), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 15,
+      "pct": 11.5,
+      "sources": "Bloomberg(4), CNBC(3), FT(3), Yahoo(3), MarketWatch(2)",
       "sample_headlines": [
-        "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
-        "Federal student loans have a new interest rate discount \u2014 here's who qualifies",
-        "These hidden PCE triggers could force a Fed rate hike \u2014 and shock the market",
-        "US banks would lose $700bn in economic crash, Fed stress tests find",
-        "Basis Trade Fuels Hedge Funds\u2019 US Bond Exposure: Fed Report"
+        "Iran behind attack on cargo vessel near Oman in Strait of Hormuz, U.S. official tells MS NOW",
+        "Iran warns ships it's 'unacceptable and dangerous' to transit the Strait of Hormuz without their approval",
+        "Iran's neighbor, U.S. ally: What Pakistan gains from being a peacemaker",
+        "\u2018Supergirl\u2019 is tracking toward a soft debut. It\u2019s a reality check for the DC Studios reboot.",
+        "Iran tightens its grip on Strait of Hormuz, sending oil prices higher"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 8,
-      "pct": 6.6,
-      "sources": "CNBC(3), Bloomberg(3), MarketWatch(1), Yahoo(1)",
+      "pct": 6.1,
+      "sources": "Bloomberg(3), CNBC(2), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
-        "Energy secretary says U.S. has ended Iran's ability to close Strait of Hormuz",
-        "Why energy could be a great place to invest even with oil prices retreating \u2014 5 stocks to buy",
-        "U.S. crude oil briefly dips below $70 as tankers transit Strait of Hormuz",
-        "Oil prices fall back to preconflict levels, but Trump\u2019s comments on Iran show that supply risks remain",
-        "Oil Erases Wartime Gains as More Tankers Transit Hormuz"
+        "Chevron says no quick fix for gas prices as Trump takes on Big Oil: \u2018It\u2019s going to take time\u2019",
+        "Iraq piles pressure on OPEC over quota dispute after UAE exit",
+        "Iran tightens its grip on Strait of Hormuz, sending oil prices higher",
+        "US Airline Stocks Erase Pandemic Losses as Oil Prices Ease",
+        "Ship Struck in Hormuz as Oil Supertankers Turn Back Again"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 5,
+      "pct": 3.8,
+      "sources": "CNBC(3), Bloomberg(2)",
+      "sample_headlines": [
+        "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
+        "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
+        "Core inflation rate hit 3.4% in May, highest since October 2023, Fed\u2019s preferred gauge shows",
+        "Bond Traders Trim Fed Rate-Hike Bets After Benign Inflation Data",
+        "We Have Seen Peak Inflation: Stuart Paul"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 6,
-      "pct": 4.9,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "Bitcoin falls back under $60,000, hitting its lowest level since October 2024",
-        "Gold, silver and bitcoin are getting rocked, and angry investors can blame Kevin Warsh",
-        "Bitcoin hits 20-month low as market sentiment sours",
-        "Bitcoin Breaks Below $60,000 Again as Biggest Crypto Buyers Balk",
-        "Bitcoin\u2019s Retreating Retail Army Exposes Fresh Fragility"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(3)",
-      "sample_headlines": [
-        "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
-        "Amazon's Zoox unveils redesigned robotaxi ahead of upcoming expansion",
-        "U.S. Treasury will oversee frozen Iranian funds when they're released, Bessent says"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
       "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(2)",
+      "pct": 1.5,
+      "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that",
-        "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year"
+        "Bitcoin is having a tough year. Traders are betting it's going to get worse",
+        "Cathie Wood\u2019s bet on football group turned crypto hoarder backfires"
       ]
     },
     {
@@ -108,7 +84,7 @@
       "pct": 0.8,
       "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "Trump looked set to tout new housing legislation. Instead he said it\u2019s \u2018of minor importance\u2019 and nixed a signing ceremony."
+        "Micron has suddenly become one of the world\u2019s most important stocks"
       ]
     }
   ]
