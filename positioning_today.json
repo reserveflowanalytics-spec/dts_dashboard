@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-06-24",
-  "computed_at": "2026-06-25T21:01:38Z",
+  "as_of": "2026-06-25",
+  "computed_at": "2026-06-26T21:01:33Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -8,8 +8,8 @@
   "signals": {
     "fiscal_regime": "Supportive",
     "tech_regime": "bearish",
-    "tech_close": 7428.25,
-    "tech_sma20": 7495.25,
+    "tech_close": 7428.5,
+    "tech_sma20": 7489.68,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 2/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "2/11",
@@ -21,12 +21,12 @@
     {
       "pair": "GLD/SPY",
       "rationale": "Hard asset vs equity",
-      "roc_20d": -9.75
+      "roc_20d": -7.8
     },
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": -5.06
+      "roc_20d": -6.5
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
