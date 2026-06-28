@@ -1,115 +1,110 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 123,
-  "fetched_at": "2026-06-27T21:01:22.891668+00:00",
+  "total_headlines": 126,
+  "fetched_at": "2026-06-28T21:01:05.094638+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 16.3,
-      "sources": "Yahoo(9), CNBC(8), Bloomberg(2), FT(1)",
+      "count": 22,
+      "pct": 17.5,
+      "sources": "Yahoo(11), CNBC(3), FT(3), Bloomberg(3), MarketWatch(2)",
       "sample_headlines": [
         "The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players",
         "How GE Vernova builds the massive gas turbines powering the AI data center boom",
-        "The AI trade cooled and oil sank. A closer look at Wall Street's volatile week",
         "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies",
-        "OpenAI hasn't held pre-IPO investor meetings or set timeline yet, sources say"
+        "Your health insurer shouldn\u2019t decide your treatment plan. That\u2019s what your doctor \u2014 and AI \u2014 should be doing.",
+        "Micron is about to be more profitable than any U.S. company except Nvidia and Google"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 6.5,
-      "sources": "CNBC(4), Bloomberg(2), FT(1), Yahoo(1)",
+      "count": 11,
+      "pct": 8.7,
+      "sources": "Bloomberg(5), CNBC(3), FT(2), Yahoo(1)",
       "sample_headlines": [
-        "Tanker struck in Strait of Hormuz as U.S.-Iran tensions escalate",
+        "Iran talks on hold after fighting breaks out and Trump once again threatens annihilation",
+        "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
         "From concerts to train rides, bots are winning the ticket wars \u2014 but they're only part of the problem",
-        "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4%",
-        "Rubio says Israel, Lebanon reach framework agreement aimed at 'lasting peace and security'",
-        "Utility boss warns US faces blackouts due to power supply shortfall"
+        "AI \u2018exuberance\u2019 risks ending in lengthy investment bust, BIS warns",
+        "US and Iran exchange strikes as ceasefire falters"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 11,
+      "pct": 8.7,
+      "sources": "Yahoo(6), Bloomberg(3), CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Trading in these two ETFs suggests inflation fears are overblown",
+        "\u2018I\u2019ll happily wait\u2019: Does delaying Social Security make sense for high earners like me?",
+        "Private Credit Quietly Backs the Craze Propping Up US Consumers",
+        "Hawkish Fed Throws Down Challenge for Emerging-Market Bond Rally",
+        "ECB\u2019s Schnabel Sees Upside Inflation Risks Despite Peace Deal"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 5.7,
-      "sources": "Yahoo(3), CNBC(2), FT(1), Bloomberg(1)",
+      "count": 10,
+      "pct": 7.9,
+      "sources": "Yahoo(4), CNBC(3), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
+        "Top Wall Street analysts are bullish on these 3 stocks for strong long-term growth potential",
         "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
-        "The AI trade cooled and oil sank. A closer look at Wall Street's volatile week",
-        "New York\u2019s socialist insurgency raises alarm among anxious Democrats",
-        "Wall Street Week | USMCA: Can North America\u2019s Trade Deal Survive?",
-        "Should Investors Buy Infleqtion to Ride the Quantum Computing Rally?"
+        "Here are 3 big things we're watching in the stock market in the week ahead",
+        "I had gallbladder surgery. After I got home, the hospital asked me for a financial donation. Is this ethical?",
+        "Leverage That Fueled US Stock Rally Becomes a Growing Concern"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 6,
-      "pct": 4.9,
-      "sources": "CNBC(2), Bloomberg(2), FT(1), Yahoo(1)",
+      "pct": 4.8,
+      "sources": "Bloomberg(3), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "The AI trade cooled and oil sank. A closer look at Wall Street's volatile week",
-        "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
-        "Baltic states urge EU to speed up ban on Russian oil imports",
+        "Aramco helicopter crashes at Saudi port",
+        "Aramco Helicopter Crash in Ras Tanura Kills All 14 on Board",
+        "Why the US Needs its Neighbors for Energy",
         "Sen. Armstrong: Permitting Is Key to Lower Energy Costs",
-        "AI\u2019s Energy Crunch Has Investors Searching for Next IPO Winners"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 4.1,
-      "sources": "CNBC(3), Bloomberg(2)",
-      "sample_headlines": [
-        "Trading in these two ETFs suggests inflation fears are overblown",
-        "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4%",
-        "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
-        "ECB\u2019s Schnabel Sees Upside Inflation Risks Despite Peace Deal",
-        "Brutal Heat Wave Scorches Europe, Raising Climate Inflation Concerns"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 5,
-      "pct": 4.1,
-      "sources": "Bloomberg(2), CNBC(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "Trump threatens 100% tariffs on countries putting 'Digital Services Tax on American Companies'",
-        "Baltic states urge EU to speed up ban on Russian oil imports",
-        "Why Krugman Thinks We Need Chinese Auto Tariffs",
-        "Wall Street Week | USMCA: Can North America\u2019s Trade Deal Survive?",
-        "Energy Transfer (ET) Announces Expansion of the Nederland NGL Export Terminal"
+        "Constellation Energy (CEG) and Walmart Announce Long-Term Nuclear Power Purchase Agreement"
       ]
     },
     {
       "topic": "China",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "FT(2), CNBC(1), Bloomberg(1)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), CNBC(1)",
       "sample_headlines": [
-        "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back",
-        "Apple seeks to buy memory chips from blacklisted Chinese company",
-        "German carmakers embark on historic job cuts as Chinese rivals flood market",
-        "Why Krugman Thinks We Need Chinese Auto Tariffs"
+        "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
+        "China surpassing Europe in Drug Innovation and Development, Pfizer Inc. (PFE) Executive says",
+        "ASML Holding N.V. (ASML) Denies Selling EUV Chipmaking Tool to China Following Report of US Concern"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
       "pct": 1.6,
-      "sources": "CNBC(2)",
+      "sources": "Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Gavin Newsom calls for national billionaires tax: 'It's time for an economic reset'",
-        "Trump threatens 100% tariffs on countries putting 'Digital Services Tax on American Companies'"
+        "Sydney Home Auction Activity Weakens as Costs, Tax Changes Weigh",
+        "Which Is the Better Intermediate-Term Bond ETF, Vanguard's VCIT or iShares' Treasury-Focused IEI?"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "I Wouldn't Bet Against This Financial Stock in a Recession."
       ]
     },
     {
       "topic": "Crypto",
       "count": 1,
       "pct": 0.8,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Billionaire investor Jeremy Grantham says bitcoin will 'dwindle away with a whimper'"
+        "XRP vs Ethereum: Which Is the Better Dip to Buy Right Now?"
       ]
     }
   ]
