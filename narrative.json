@@ -1,110 +1,114 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 126,
-  "fetched_at": "2026-06-28T21:01:05.094638+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 124,
+  "fetched_at": "2026-06-29T21:01:47.308613+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 22,
-      "pct": 17.5,
-      "sources": "Yahoo(11), CNBC(3), FT(3), Bloomberg(3), MarketWatch(2)",
-      "sample_headlines": [
-        "The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players",
-        "How GE Vernova builds the massive gas turbines powering the AI data center boom",
-        "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies",
-        "Your health insurer shouldn\u2019t decide your treatment plan. That\u2019s what your doctor \u2014 and AI \u2014 should be doing.",
-        "Micron is about to be more profitable than any U.S. company except Nvidia and Google"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "Bloomberg(5), CNBC(3), FT(2), Yahoo(1)",
+      "count": 14,
+      "pct": 11.3,
+      "sources": "CNBC(4), Bloomberg(4), Yahoo(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Iran talks on hold after fighting breaks out and Trump once again threatens annihilation",
-        "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
-        "From concerts to train rides, bots are winning the ticket wars \u2014 but they're only part of the problem",
-        "AI \u2018exuberance\u2019 risks ending in lengthy investment bust, BIS warns",
-        "US and Iran exchange strikes as ceasefire falters"
+        "Oil prices near pre-war levels  \u2014  but persistent supply risks could spark a rebound, analysts warn",
+        "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again",
+        "Trump says U.S. and Iran to hold fresh talks in Qatar on Tuesday following weekend clashes",
+        "Op-ed: If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
+        "This rare, widening gap between Big Tech and semiconductor stocks is flashing a warning for the broader market"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "Yahoo(6), Bloomberg(3), CNBC(1), MarketWatch(1)",
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 11.3,
+      "sources": "Yahoo(7), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Trading in these two ETFs suggests inflation fears are overblown",
-        "\u2018I\u2019ll happily wait\u2019: Does delaying Social Security make sense for high earners like me?",
-        "Private Credit Quietly Backs the Craze Propping Up US Consumers",
-        "Hawkish Fed Throws Down Challenge for Emerging-Market Bond Rally",
-        "ECB\u2019s Schnabel Sees Upside Inflation Risks Despite Peace Deal"
+        "Salesforce is on an AI buying spree, but Wall Street still has its doubts",
+        "The AI boom is colliding with a new threat: Severe weather",
+        "This rare, widening gap between Big Tech and semiconductor stocks is flashing a warning for the broader market",
+        "Supermicro Taiwan offices raided in chip smuggling probe",
+        "Nasdaq 100 Jumps More Than 2% as Dip Buyers Lift Tech Stocks"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 7.9,
-      "sources": "Yahoo(4), CNBC(3), Bloomberg(2), MarketWatch(1)",
+      "count": 14,
+      "pct": 11.3,
+      "sources": "CNBC(5), Bloomberg(5), MarketWatch(3), Yahoo(1)",
       "sample_headlines": [
-        "Top Wall Street analysts are bullish on these 3 stocks for strong long-term growth potential",
-        "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
-        "Here are 3 big things we're watching in the stock market in the week ahead",
-        "I had gallbladder surgery. After I got home, the hospital asked me for a financial donation. Is this ethical?",
-        "Leverage That Fueled US Stock Rally Becomes a Growing Concern"
+        "SpaceX bulls are back betting on huge, fast gains as Rocket Lab surges",
+        "Micron's monster post-earnings rally is almost gone. Traders divided on where it goes next",
+        "Trump laments 'tremendous loss' on mail-in ballots at Supreme Court, doubles down on voter-ID bill",
+        "Kalshi traders expect this week's jobs report will disappoint Wall Street outlook",
+        "Salesforce is on an AI buying spree, but Wall Street still has its doubts"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 13,
+      "pct": 10.5,
+      "sources": "Bloomberg(4), MarketWatch(3), Yahoo(3), FT(2), CNBC(1)",
+      "sample_headlines": [
+        "Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now",
+        "Value stocks beat growth when inflation is high. Here are 13 stocks top newsletters are betting on now.",
+        "Laser weapons aren\u2019t science fiction anymore \u2014 and they are flipping the math on defense stocks",
+        "Inflation fears are overblown. What the rate-hike camp gets wrong about the stock market.",
+        "Supreme Court blocks Trump from sacking Fed governor Cook"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 4.8,
-      "sources": "Bloomberg(3), Yahoo(2), FT(1)",
+      "count": 7,
+      "pct": 5.6,
+      "sources": "CNBC(3), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Aramco helicopter crashes at Saudi port",
-        "Aramco Helicopter Crash in Ras Tanura Kills All 14 on Board",
-        "Why the US Needs its Neighbors for Energy",
-        "Sen. Armstrong: Permitting Is Key to Lower Energy Costs",
-        "Constellation Energy (CEG) and Walmart Announce Long-Term Nuclear Power Purchase Agreement"
+        "Oil prices near pre-war levels  \u2014  but persistent supply risks could spark a rebound, analysts warn",
+        "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again",
+        "Putin\u2019s fuel shortage admission signals growing strain on Russia\u2019s energy infrastructure",
+        "JPMorgan Struggles to Find Demand for Oil Driller\u2019s 15% Loan",
+        "Oil Rises as US and Iran Halt Attacks, But Hormuz Traffic Slows"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(2), FT(1)",
+      "sample_headlines": [
+        "China's economy picks up in June on rebounding U.S. exports, analysts say",
+        "China widens Japan export curbs, targeting drone makers, nuclear firms and defense institutes",
+        "Maersk raises profit guidance as new US tariffs fuel demand"
       ]
     },
     {
       "topic": "China",
       "count": 3,
       "pct": 2.4,
-      "sources": "Yahoo(2), CNBC(1)",
+      "sources": "CNBC(3)",
       "sample_headlines": [
-        "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
-        "China surpassing Europe in Drug Innovation and Development, Pfizer Inc. (PFE) Executive says",
-        "ASML Holding N.V. (ASML) Denies Selling EUV Chipmaking Tool to China Following Report of US Concern"
+        "Op-ed: If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
+        "China's economy picks up in June on rebounding U.S. exports, analysts say",
+        "China widens Japan export curbs, targeting drone makers, nuclear firms and defense institutes"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Bloomberg(2), MarketWatch(1)",
+      "sample_headlines": [
+        "Bye-bye, \u2018HODL\u2019: Strategy now has a plan to sell bitcoin to raise cash and buy its stock",
+        "Strategy Says It May Sell Up to $1.25 Billion of Bitcoin",
+        "Tokenization Diversifies Away from Crypto: Bui"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
       "pct": 1.6,
-      "sources": "Bloomberg(1), Yahoo(1)",
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Sydney Home Auction Activity Weakens as Costs, Tax Changes Weigh",
-        "Which Is the Better Intermediate-Term Bond ETF, Vanguard's VCIT or iShares' Treasury-Focused IEI?"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "I Wouldn't Bet Against This Financial Stock in a Recession."
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "XRP vs Ethereum: Which Is the Better Dip to Buy Right Now?"
+        "IRS says Trump Account contributions will not trigger annual gift tax reporting requirements",
+        "Georgia, Wyoming and Nevada beat Florida and Texas as the 3 best states for retirement taxes in 2026"
       ]
     }
   ]
