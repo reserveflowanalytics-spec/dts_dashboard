@@ -1,114 +1,130 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 124,
-  "fetched_at": "2026-06-29T21:01:47.308613+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 129,
+  "fetched_at": "2026-06-30T21:02:24.102648+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 14,
-      "pct": 11.3,
-      "sources": "CNBC(4), Bloomberg(4), Yahoo(3), FT(2), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 24,
+      "pct": 18.6,
+      "sources": "Yahoo(9), CNBC(6), Bloomberg(6), MarketWatch(3)",
       "sample_headlines": [
-        "Oil prices near pre-war levels  \u2014  but persistent supply risks could spark a rebound, analysts warn",
-        "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again",
-        "Trump says U.S. and Iran to hold fresh talks in Qatar on Tuesday following weekend clashes",
-        "Op-ed: If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
-        "This rare, widening gap between Big Tech and semiconductor stocks is flashing a warning for the broader market"
+        "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+        "Michael Burry says he's shorting Caterpillar for the first time after it nearly doubled in the AI-driven rally of 2026",
+        "Wall Street says sell Goldman, buy Capital One. Here's where we stand",
+        "Supreme Court strikes down limits on political parties' campaign spending, in win for GOP",
+        "Trump administration's AI crackdown opens door for China to close gap"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 11.3,
-      "sources": "Yahoo(7), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
+      "count": 22,
+      "pct": 17.1,
+      "sources": "Yahoo(10), CNBC(7), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Salesforce is on an AI buying spree, but Wall Street still has its doubts",
-        "The AI boom is colliding with a new threat: Severe weather",
-        "This rare, widening gap between Big Tech and semiconductor stocks is flashing a warning for the broader market",
-        "Supermicro Taiwan offices raided in chip smuggling probe",
-        "Nasdaq 100 Jumps More Than 2% as Dip Buyers Lift Tech Stocks"
+        "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+        "Palo Alto, CrowdStrike both have best quarter ever as AI threats bolster cyber demand",
+        "Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare",
+        "AWS puts $1 billion into new AI unit to embed engineers with customers, joining growing wave",
+        "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 11.3,
-      "sources": "CNBC(5), Bloomberg(5), MarketWatch(3), Yahoo(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 13,
+      "pct": 10.1,
+      "sources": "Bloomberg(6), CNBC(4), Yahoo(3)",
       "sample_headlines": [
-        "SpaceX bulls are back betting on huge, fast gains as Rocket Lab surges",
-        "Micron's monster post-earnings rally is almost gone. Traders divided on where it goes next",
-        "Trump laments 'tremendous loss' on mail-in ballots at Supreme Court, doubles down on voter-ID bill",
-        "Kalshi traders expect this week's jobs report will disappoint Wall Street outlook",
-        "Salesforce is on an AI buying spree, but Wall Street still has its doubts"
+        "Palo Alto, CrowdStrike both have best quarter ever as AI threats bolster cyber demand",
+        "Trump's massive defense budget, depleted war machine, spark U.S. state battle for business and jobs",
+        "Supreme Court strikes down limits on political parties' campaign spending, in win for GOP",
+        "Brent posts biggest monthly decline since March 2020 as traders monitor U.S.-Iran talks",
+        "Gold Holds Above $4,000 as Traders Eye Fed Outlook, Iran Talks"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 13,
-      "pct": 10.5,
-      "sources": "Bloomberg(4), MarketWatch(3), Yahoo(3), FT(2), CNBC(1)",
+      "count": 8,
+      "pct": 6.2,
+      "sources": "Bloomberg(5), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now",
-        "Value stocks beat growth when inflation is high. Here are 13 stocks top newsletters are betting on now.",
-        "Laser weapons aren\u2019t science fiction anymore \u2014 and they are flipping the math on defense stocks",
-        "Inflation fears are overblown. What the rate-hike camp gets wrong about the stock market.",
-        "Supreme Court blocks Trump from sacking Fed governor Cook"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.6,
-      "sources": "CNBC(3), Bloomberg(2), Yahoo(2)",
-      "sample_headlines": [
-        "Oil prices near pre-war levels  \u2014  but persistent supply risks could spark a rebound, analysts warn",
-        "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again",
-        "Putin\u2019s fuel shortage admission signals growing strain on Russia\u2019s energy infrastructure",
-        "JPMorgan Struggles to Find Demand for Oil Driller\u2019s 15% Loan",
-        "Oil Rises as US and Iran Halt Attacks, But Hormuz Traffic Slows"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(2), FT(1)",
-      "sample_headlines": [
-        "China's economy picks up in June on rebounding U.S. exports, analysts say",
-        "China widens Japan export curbs, targeting drone makers, nuclear firms and defense institutes",
-        "Maersk raises profit guidance as new US tariffs fuel demand"
+        "Big egg producers settle price inflation probe with DOJ for 53 million eggs \u2014 and $3.3M",
+        "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
+        "Here\u2019s what\u2019s next for the Fed\u2019s Lisa Cook after her victory at the Supreme Court",
+        "Gold Holds Above $4,000 as Traders Eye Fed Outlook, Iran Talks",
+        "Rising Inflation Is Squeezing the South"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(3)",
+      "count": 7,
+      "pct": 5.4,
+      "sources": "Bloomberg(3), CNBC(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Op-ed: If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
-        "China's economy picks up in June on rebounding U.S. exports, analysts say",
-        "China widens Japan export curbs, targeting drone makers, nuclear firms and defense institutes"
+        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
+        "Trump administration's AI crackdown opens door for China to close gap",
+        "World Bank to phase out China lending",
+        "Tungsten Can Deter China\u2019s Military Dominance",
+        "China Opportunity: Where Global Capital Moves Next"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 6,
+      "pct": 4.7,
+      "sources": "Bloomberg(5), CNBC(1)",
+      "sample_headlines": [
+        "Brent posts biggest monthly decline since March 2020 as traders monitor U.S.-Iran talks",
+        "Oil Falls as Traders Weigh Middle East Return, Supply Glut Risks",
+        "ECB\u2019s Dolenc Sees No Urgency to Hike If Energy Markets Stay Calm",
+        "Sable Sinks 55% as Oil Driller Struggles to Repay Exxon Loan",
+        "ECB\u2019s Rehn Says Energy Shock Has Been \u2018Clearly Stagflationary\u2019"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 5,
+      "pct": 3.9,
+      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
+        "Record beef imports are flooding the U.S. \u2014 so why is your Fourth of July BBQ so expensive?",
+        "Trump Tariff Defeat Is Market Tailwind \u2018No One Is Talking About\u2019",
+        "US Sanctions Mexican Companies for Cartel-Linked Fuel Smuggling",
+        "Nike to Report With China, Tariff Refunds in Focus"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Bloomberg(2), MarketWatch(1)",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Bye-bye, \u2018HODL\u2019: Strategy now has a plan to sell bitcoin to raise cash and buy its stock",
-        "Strategy Says It May Sell Up to $1.25 Billion of Bitcoin",
-        "Tokenization Diversifies Away from Crypto: Bui"
+        "Trump's annual financial disclosure released, reveals crypto earnings",
+        "Bitcoin Slides Below $60,000 as Strategy Selloff Refuels Anxiety",
+        "MicroStrategy Stops Just Hoarding Bitcoin \u2014 Now It Will Manage It Like Smart Money",
+        "Saylor Readies For Shoot Out With MSTR Bears: Will Strategy Drop Another BTC Buy?"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Yahoo(1)",
+      "count": 4,
+      "pct": 3.1,
+      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "IRS says Trump Account contributions will not trigger annual gift tax reporting requirements",
-        "Georgia, Wyoming and Nevada beat Florida and Texas as the 3 best states for retirement taxes in 2026"
+        "Trump's massive defense budget, depleted war machine, spark U.S. state battle for business and jobs",
+        "Waymo and Uber end robotaxi pilot in Phoenix",
+        "Treasury Market\u2019s June Rally Bails Out Quarter and First Half",
+        "I'm 59 With $1.3 Million and Ready to Quit. One Expense Nobody Budgets For Almost Stopped Me"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "ECB\u2019s Rehn Says Energy Shock Has Been \u2018Clearly Stagflationary\u2019"
       ]
     }
   ]

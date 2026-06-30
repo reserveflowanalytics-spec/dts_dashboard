@@ -1,15 +1,15 @@
 {
-  "as_of": "2026-06-26",
-  "computed_at": "2026-06-29T21:02:04Z",
-  "bias": "REDUCED",
-  "conviction": "low",
-  "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
-  "action": "Reduce SPY baseline to 30-50%. Hold cash buffer for next Tier-1 setup.",
+  "as_of": "2026-06-29",
+  "computed_at": "2026-06-30T21:02:44Z",
+  "bias": "LONG",
+  "conviction": "low-medium",
+  "bias_reason": "Tech bullish but RS conviction not at high.",
+  "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
   "signals": {
     "fiscal_regime": "Supportive",
-    "tech_regime": "bearish",
-    "tech_close": 7380.25,
-    "tech_sma20": 7479.59,
+    "tech_regime": "bullish",
+    "tech_close": 7497.0,
+    "tech_sma20": 7474.69,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "3/11",
@@ -21,19 +21,19 @@
     {
       "pair": "GLD/SPY",
       "rationale": "Hard asset vs equity",
-      "roc_20d": -6.54
+      "roc_20d": -10.02
     },
     {
       "pair": "XLB/XLRE",
       "rationale": "Materials vs real estate",
-      "roc_20d": -1.87
+      "roc_20d": -3.49
     },
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": -7.07
+      "roc_20d": -5.25
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
-  "watch_downgrade": "Continued weakness in trend + RS -> further reduce or move to cash"
+  "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
 }
