@@ -1,94 +1,120 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 130,
-  "fetched_at": "2026-07-01T21:01:11.244257+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 124,
+  "fetched_at": "2026-07-02T21:05:31.910383+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 11.5,
-      "sources": "Yahoo(6), CNBC(5), MarketWatch(2), FT(1), Bloomberg(1)",
+      "count": 20,
+      "pct": 16.1,
+      "sources": "CNBC(9), Yahoo(8), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Chip stocks that notched record rallies in second quarter start Q3 with a dud",
-        "Employers who laid off workers citing AI are already starting to regret it",
-        "Palantir's Karp bashes OpenAI, Anthropic token model: 'Something has gone completely wrong'",
-        "Meta pops 9% as company makes cloud push to sell excess AI compute power capacity",
-        "Meta's plan to launch a cloud business eases the biggest overhang on the stock"
+        "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+        "Tesla stock sinks 7% despite strong deliveries report, posting worst day in nearly a year",
+        "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
+        "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
+        "Meta\u2019s push into cloud computing means Wall Street has to prepare for lower margins"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 10.8,
-      "sources": "Bloomberg(5), Yahoo(4), MarketWatch(3), CNBC(1), FT(1)",
+      "count": 16,
+      "pct": 12.9,
+      "sources": "Yahoo(9), Bloomberg(4), CNBC(3)",
       "sample_headlines": [
-        "Bulls are betting big on this global ETF that's deep in a bear market",
-        "Is Meta \u2018giving up\u2019 on cutting-edge AI? Wall Street is divided over potential cloud pivot.",
-        "CoreWeave, Nebius shares tumble as Meta stands to become a fresh threat in the cloud",
-        "Stock-market bulls need Kevin Warsh on their side to keep winning, says Wall Street veteran Bob Doll",
-        "KNDS puts its plans for a stock market listing on hold"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 12,
-      "pct": 9.2,
-      "sources": "Bloomberg(5), Yahoo(3), FT(2), CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "Oil prices fall after Trump says U.S.-Iran talks in Qatar are going well",
-        "Stock-market bulls need Kevin Warsh on their side to keep winning, says Wall Street veteran Bob Doll",
-        "FedEx strikes $1.4bn deal to sell logistics unit to CMA CGM",
-        "Kevin Warsh vows \u2018no changes\u2019 to Fed independence",
-        "Most Stocks Rise as Warsh Says Price Risks Fading: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.4,
-      "sources": "Bloomberg(3), CNBC(2), Yahoo(2)",
-      "sample_headlines": [
-        "Inflation peaked in May as energy prices fell in June, Kalshi traders think",
-        "Oil prices fall after Trump says U.S.-Iran talks in Qatar are going well",
-        "Oil Falls on Growing Signs of Oversupply, Progress in Iran Talks",
-        "Shell Shuffles Energy Trading Bosses as David Wells Retires",
-        "ECB Views Splinter on Next Rate Move as Inflation Sinks With Oil"
+        "Rivian raises 2026 delivery outlook while Lucid misses Wall Street expectations for second quarter",
+        "Meta\u2019s push into cloud computing means Wall Street has to prepare for lower margins",
+        "Stock market gains minted nearly 1 million new millionaires in 2025, new UBS report says",
+        "Dow Average Hits Peak as Jobs Ease Fed-Hike Worry: Markets Wrap",
+        "Wall Street Bets Rallying Markets Will Absorb Every Market Blow"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 7,
-      "pct": 5.4,
-      "sources": "FT(3), Bloomberg(3), CNBC(1)",
+      "pct": 5.6,
+      "sources": "Bloomberg(5), CNBC(1), FT(1)",
       "sample_headlines": [
-        "Inflation peaked in May as energy prices fell in June, Kalshi traders think",
-        "FedEx strikes $1.4bn deal to sell logistics unit to CMA CGM",
-        "Kevin Warsh vows \u2018no changes\u2019 to Fed independence",
-        "Eurozone inflation falls more than expected to 2.8% in June",
-        "Gold Rises as Traders Weigh Fed Rate Path After Warsh Remarks"
+        "Married Americans tend to be wealthier and happier. Gen Z is forgoing the institution anyway",
+        "Spotify deletes streams of chart-topping song after suspicious Kalshi bets",
+        "Dow Average Hits Peak as Jobs Ease Fed-Hike Worry: Markets Wrap",
+        "Kochugovindan: Expect Fed to Hold Rates For Rest of 2026",
+        "Gold Jumps After Soft US Job Numbers Ease Fed Rate Hike Fears"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.1,
-      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 6,
+      "pct": 4.8,
+      "sources": "Bloomberg(3), Yahoo(3)",
       "sample_headlines": [
-        "Bitcoin's summer swoon creates unique trade in Strategy",
-        "Trump's annual financial disclosure shows more than $580M in crypto-related income",
-        "Trump Reports at Least $1.4 Billion in 2025 Crypto Earnings",
-        "Ripple CEO Is 'Bullish On Bitcoin', But Michael Saylor's Leveraged Bet Hurts Sentiment"
+        "Saudi Oil Flows Hit 90% of Pre-War Rate as Ships Exit Hormuz",
+        "Refiner Profits Are Soaring in Sign of Lingering Hormuz Snarls",
+        "Iran\u2019s Floating Oil Hoard Swells",
+        "An Investment Perspective on Take-Two Interactive Software (TTWO) Amid Market Speculation",
+        "Goldman Sachs Thinks Travel & Leisure (TNL) Is A Top Travel Stocks To Buy Amid Iran Peace Deal, Here\u2019s Why"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 4.0,
+      "sources": "Bloomberg(5)",
+      "sample_headlines": [
+        "Oil Fluctuates as Crude Flows Surge Through Persian Gulf",
+        "Carney Keeps North BC Tanker Ban, Signaling Alberta\u2019s Pipeline Will Go South",
+        "Saudi Oil Flows Hit 90% of Pre-War Rate as Ships Exit Hormuz",
+        "Treasuries Rally as Jobs Data, Oil Prices Upend Fed Hike Outlook",
+        "Iran\u2019s Floating Oil Hoard Swells"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.3,
-      "sources": "CNBC(2), FT(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "U.S. auto industry faces increased uncertainty without extension of USMCA trade deal",
-        "Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5",
-        "US opts not to renew Trump\u2019s trade deal with Mexico and Canada"
+        "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+        "Ford CEO wants level playing field with Toyota, GM imports as USMCA trade talks reopen"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say",
+        "Need To Make Sure The US Is The Leader in AI, Not China Says Rep. Smith"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Wall Street and Crypto Agree on One Chip Stock, and It Is Not Nvidia",
+        "Bitcoin and ethereum prices today, Wednesday, July 1: Bitcoin's worst month since June '22"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Treasury says Trump Account investment options will include State Street, BlackRock and Vanguard ETFs",
+        "\u2018Taylor Swift Tax\u2019 Stirs Bad Blood With Rhode Island Homeowners"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%"
       ]
     }
   ]
