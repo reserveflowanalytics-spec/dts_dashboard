@@ -1,111 +1,106 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 124,
-  "fetched_at": "2026-07-02T21:05:31.910383+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 121,
+  "fetched_at": "2026-07-03T21:01:41.981192+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 16.1,
-      "sources": "CNBC(9), Yahoo(8), FT(2), MarketWatch(1)",
+      "count": 18,
+      "pct": 14.9,
+      "sources": "Yahoo(8), CNBC(6), Bloomberg(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
+        "Don't throw away your shot to speak to an AI Alexander Hamilton at Boston's new finance museum",
+        "AI is outpacing the rules, Europe\u2019s top bankers and regulators warn",
+        "Amazon has deployed enough satellites to launch Leo service later this year",
         "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
-        "Tesla stock sinks 7% despite strong deliveries report, posting worst day in nearly a year",
-        "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
-        "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
-        "Meta\u2019s push into cloud computing means Wall Street has to prepare for lower margins"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 12.9,
-      "sources": "Yahoo(9), Bloomberg(4), CNBC(3)",
-      "sample_headlines": [
-        "Rivian raises 2026 delivery outlook while Lucid misses Wall Street expectations for second quarter",
-        "Meta\u2019s push into cloud computing means Wall Street has to prepare for lower margins",
-        "Stock market gains minted nearly 1 million new millionaires in 2025, new UBS report says",
-        "Dow Average Hits Peak as Jobs Ease Fed-Hike Worry: Markets Wrap",
-        "Wall Street Bets Rallying Markets Will Absorb Every Market Blow"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.6,
-      "sources": "Bloomberg(5), CNBC(1), FT(1)",
-      "sample_headlines": [
-        "Married Americans tend to be wealthier and happier. Gen Z is forgoing the institution anyway",
-        "Spotify deletes streams of chart-topping song after suspicious Kalshi bets",
-        "Dow Average Hits Peak as Jobs Ease Fed-Hike Worry: Markets Wrap",
-        "Kochugovindan: Expect Fed to Hold Rates For Rest of 2026",
-        "Gold Jumps After Soft US Job Numbers Ease Fed Rate Hike Fears"
+        "Nvidia offers start-up customers chance to swap compute power for revenue share"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 4.8,
-      "sources": "Bloomberg(3), Yahoo(3)",
+      "count": 10,
+      "pct": 8.3,
+      "sources": "CNBC(3), Bloomberg(3), FT(2), Yahoo(2)",
       "sample_headlines": [
-        "Saudi Oil Flows Hit 90% of Pre-War Rate as Ships Exit Hormuz",
-        "Refiner Profits Are Soaring in Sign of Lingering Hormuz Snarls",
-        "Iran\u2019s Floating Oil Hoard Swells",
-        "An Investment Perspective on Take-Two Interactive Software (TTWO) Amid Market Speculation",
-        "Goldman Sachs Thinks Travel & Leisure (TNL) Is A Top Travel Stocks To Buy Amid Iran Peace Deal, Here\u2019s Why"
+        "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a \u2018blind spot\u2019 for markets",
+        "American Express and Chase move luxury lounge wars beyond the airport",
+        "AI is outpacing the rules, Europe\u2019s top bankers and regulators warn",
+        "Iran begins mourning for Khamenei under tight security",
+        "Romanians sentenced in London for Iran-directed attack on journalist"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 8,
+      "pct": 6.6,
+      "sources": "Yahoo(4), Bloomberg(2), CNBC(1), FT(1)",
+      "sample_headlines": [
+        "The hunt for AI's next winners defined the stock market's holiday-shortened week",
+        "\u2018It\u2019s whack-a-mole\u2019: how Europe\u2019s smart border melted down",
+        "European Stocks Rally to Cap Best Week Since May: Markets Wrap",
+        "OPEC Output Surged in June as Hormuz Flows Jumped, Survey Shows",
+        "Palantir, Chevron upgraded: Wall Street's top analyst calls"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.0,
-      "sources": "Bloomberg(5)",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "Bloomberg(4), Yahoo(2)",
       "sample_headlines": [
-        "Oil Fluctuates as Crude Flows Surge Through Persian Gulf",
-        "Carney Keeps North BC Tanker Ban, Signaling Alberta\u2019s Pipeline Will Go South",
-        "Saudi Oil Flows Hit 90% of Pre-War Rate as Ships Exit Hormuz",
-        "Treasuries Rally as Jobs Data, Oil Prices Upend Fed Hike Outlook",
-        "Iran\u2019s Floating Oil Hoard Swells"
+        "Toronto Stocks Enjoy Broad Gains After New Pipeline Proposal",
+        "Oil Is Little Changed as Persian Gulf Flows Near Pre-War Levels",
+        "OPEC Output Surged in June as Hormuz Flows Jumped, Survey Shows",
+        "What Natural Gas\u2019s Ascendancy Says About the US",
+        "Oil Price Rally Boosted Permian Resources (PR) in Q1"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "CNBC(3), Bloomberg(3)",
+      "sample_headlines": [
+        "Feds seek lower prison term for $100 million New Jersey deli fraudster \u2014 but some reasons why are hidden",
+        "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets",
+        "Married Americans tend to be wealthier and happier. Gen Z is forgoing the institution anyway",
+        "Canada, Philippines Agree to Sign Trade Deal This Year, Grow Defense Ties",
+        "Gold Heads for First Weekly Gain Since May on Easing Fed Outlook"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "Yahoo(6)",
+      "sample_headlines": [
+        "Goliath Ventures CEO Pleads Guilty In Crypto Ponzi Scheme",
+        "Here\u2019s How Trump Made Over $1.4 Billion On Crypto Last Year, While Bitcoin Went Nowhere",
+        "Robinhood Markets Launches Public Blockchain",
+        "Cantor Fitzgerald Says Crypto Winter Is Near An End",
+        "Changpeng Zhao Forecasts Bitcoin\u2019s Price Will Reach $1 Million"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(2)",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
         "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
-        "Ford CEO wants level playing field with Toyota, GM imports as USMCA trade talks reopen"
+        "Record beef imports are flooding the U.S. \u2014 so why is your Fourth of July BBQ so expensive?",
+        "Canada, Philippines Agree to Sign Trade Deal This Year, Grow Defense Ties",
+        "Mamoon Hamid on the Importance of Identifying Potential"
       ]
     },
     {
       "topic": "China",
       "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "pct": 1.7,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say",
-        "Need To Make Sure The US Is The Leader in AI, Not China Says Rep. Smith"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "Yahoo(2)",
-      "sample_headlines": [
-        "Wall Street and Crypto Agree on One Chip Stock, and It Is Not Nvidia",
-        "Bitcoin and ethereum prices today, Wednesday, July 1: Bitcoin's worst month since June '22"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Treasury says Trump Account investment options will include State Street, BlackRock and Vanguard ETFs",
-        "\u2018Taylor Swift Tax\u2019 Stirs Bad Blood With Rhode Island Homeowners"
+        "Buddhism: China's New Soft Power Front",
+        "China\u2019s State Iron Ore Buyer Extends Restrictions on Fortescue"
       ]
     },
     {
@@ -115,6 +110,15 @@
       "sources": "CNBC(1)",
       "sample_headlines": [
         "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "\u2018I claimed Social Security at 62\u2019: At 76, I\u2019m working at Walmart. Why do I still owe payroll taxes?"
       ]
     }
   ]
