@@ -1,124 +1,99 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 121,
-  "fetched_at": "2026-07-03T21:01:41.981192+00:00",
+  "total_headlines": 118,
+  "fetched_at": "2026-07-04T21:01:13.328690+00:00",
   "topics": [
-    {
-      "topic": "AI / Tech",
-      "count": 18,
-      "pct": 14.9,
-      "sources": "Yahoo(8), CNBC(6), Bloomberg(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Don't throw away your shot to speak to an AI Alexander Hamilton at Boston's new finance museum",
-        "AI is outpacing the rules, Europe\u2019s top bankers and regulators warn",
-        "Amazon has deployed enough satellites to launch Leo service later this year",
-        "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
-        "Nvidia offers start-up customers chance to swap compute power for revenue share"
-      ]
-    },
     {
       "topic": "Iran / Middle East conflict",
       "count": 10,
-      "pct": 8.3,
-      "sources": "CNBC(3), Bloomberg(3), FT(2), Yahoo(2)",
+      "pct": 8.5,
+      "sources": "CNBC(4), FT(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
+        "Iran begins six-day funeral for Ayatollah Khamenei nearly four months after his death",
         "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a \u2018blind spot\u2019 for markets",
         "American Express and Chase move luxury lounge wars beyond the airport",
         "AI is outpacing the rules, Europe\u2019s top bankers and regulators warn",
-        "Iran begins mourning for Khamenei under tight security",
-        "Romanians sentenced in London for Iran-directed attack on journalist"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 6.6,
-      "sources": "Yahoo(4), Bloomberg(2), CNBC(1), FT(1)",
-      "sample_headlines": [
-        "The hunt for AI's next winners defined the stock market's holiday-shortened week",
-        "\u2018It\u2019s whack-a-mole\u2019: how Europe\u2019s smart border melted down",
-        "European Stocks Rally to Cap Best Week Since May: Markets Wrap",
-        "OPEC Output Surged in June as Hormuz Flows Jumped, Survey Shows",
-        "Palantir, Chevron upgraded: Wall Street's top analyst calls"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.0,
-      "sources": "Bloomberg(4), Yahoo(2)",
-      "sample_headlines": [
-        "Toronto Stocks Enjoy Broad Gains After New Pipeline Proposal",
-        "Oil Is Little Changed as Persian Gulf Flows Near Pre-War Levels",
-        "OPEC Output Surged in June as Hormuz Flows Jumped, Survey Shows",
-        "What Natural Gas\u2019s Ascendancy Says About the US",
-        "Oil Price Rally Boosted Permian Resources (PR) in Q1"
+        "Trump uses Mount Rushmore speech to warn of \u2018communist menace\u2019 in US"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 5.0,
-      "sources": "CNBC(3), Bloomberg(3)",
+      "count": 8,
+      "pct": 6.8,
+      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Feds seek lower prison term for $100 million New Jersey deli fraudster \u2014 but some reasons why are hidden",
+        "Feds seek lower prison term for $100M New Jersey deli fraudster \u2014 but some reasons why are hidden",
         "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets",
-        "Married Americans tend to be wealthier and happier. Gen Z is forgoing the institution anyway",
-        "Canada, Philippines Agree to Sign Trade Deal This Year, Grow Defense Ties",
-        "Gold Heads for First Weekly Gain Since May on Easing Fed Outlook"
+        "Why June\u2019s jobs and inflation data are bullish for bonds",
+        "Insurers shifted roof-replacement costs onto homeowners thanks to a new federal rule \u2014 just in time for hail and hurricane season",
+        "Brazil\u2019s Durigan Says Credit Lines Won\u2019t Affect Monetary Policy"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "CNBC(4), Yahoo(2), Bloomberg(1)",
+      "sample_headlines": [
+        "From Macron to Modi, governments are rolling out the red carpet for AI giants",
+        "Don't throw away your shot to speak to an AI Alexander Hamilton at Boston's new finance museum",
+        "AI is outpacing the rules, Europe\u2019s top bankers and regulators warn",
+        "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+        "AI Teddy Roosevelt Greets Library Visitors"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "Yahoo(5), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "The hunt for AI's next winners defined the stock market's holiday-shortened week",
+        "Tankers U-Turn in Hormuz, With Some Taking Iran Route Instead",
+        "Here\u2019s Why Analysts Are Still Bullish On Alcoa Corp (AA) Stock Despite The Selloff",
+        "Wall Street Is Losing Confidence In PVH Corp (PVH), Is The Stock A Buy?",
+        "Wall Street Pessimism Has Made Universal Health Services (UHS) Stock A Top Extreme Value Stock To Buy Now"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "Bloomberg(4)",
+      "sample_headlines": [
+        "Oil\u2019s Supply Wave, Tumbling Prices Rekindle Fears of Global Glut",
+        "Modi Says India Will Keep Expanding Oil Refining Capacity",
+        "Total CEO Sees Mideast Producers Desperate to Sell Oil Stocks",
+        "Oil Terminal in Russia\u2019s St. Petersburg Comes Under Attack"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 6,
-      "pct": 5.0,
-      "sources": "Yahoo(6)",
-      "sample_headlines": [
-        "Goliath Ventures CEO Pleads Guilty In Crypto Ponzi Scheme",
-        "Here\u2019s How Trump Made Over $1.4 Billion On Crypto Last Year, While Bitcoin Went Nowhere",
-        "Robinhood Markets Launches Public Blockchain",
-        "Cantor Fitzgerald Says Crypto Winter Is Near An End",
-        "Changpeng Zhao Forecasts Bitcoin\u2019s Price Will Reach $1 Million"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
-        "Record beef imports are flooding the U.S. \u2014 so why is your Fourth of July BBQ so expensive?",
-        "Canada, Philippines Agree to Sign Trade Deal This Year, Grow Defense Ties",
-        "Mamoon Hamid on the Importance of Identifying Potential"
-      ]
-    },
-    {
-      "topic": "China",
       "count": 2,
       "pct": 1.7,
-      "sources": "Bloomberg(2)",
+      "sources": "Yahoo(2)",
       "sample_headlines": [
-        "Buddhism: China's New Soft Power Front",
-        "China\u2019s State Iron Ore Buyer Extends Restrictions on Fortescue"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%"
+        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
+        "Ross Gerber Says Trump's $1 Billion Crypto Windfall Is Why 'Bitcoin Went Down and Isn't Going Anywhere'"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Where can I invest my kid\u2019s \u2018Trump account\u2019 money? The Treasury Department just answered that question.",
+        "Putin Signs Tax Amendments Aiming to Boost Domestic Fuel Supply"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.8,
-      "sources": "MarketWatch(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "\u2018I claimed Social Security at 62\u2019: At 76, I\u2019m working at Walmart. Why do I still owe payroll taxes?"
+        "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound"
       ]
     }
   ]
