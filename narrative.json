@@ -1,99 +1,110 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 118,
-  "fetched_at": "2026-07-04T21:01:13.328690+00:00",
+  "total_headlines": 111,
+  "fetched_at": "2026-07-05T21:01:23.958811+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 8.5,
-      "sources": "CNBC(4), FT(2), Bloomberg(2), Yahoo(2)",
-      "sample_headlines": [
-        "Iran begins six-day funeral for Ayatollah Khamenei nearly four months after his death",
-        "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a \u2018blind spot\u2019 for markets",
-        "American Express and Chase move luxury lounge wars beyond the airport",
-        "AI is outpacing the rules, Europe\u2019s top bankers and regulators warn",
-        "Trump uses Mount Rushmore speech to warn of \u2018communist menace\u2019 in US"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.8,
-      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), Yahoo(2)",
-      "sample_headlines": [
-        "Feds seek lower prison term for $100M New Jersey deli fraudster \u2014 but some reasons why are hidden",
-        "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets",
-        "Why June\u2019s jobs and inflation data are bullish for bonds",
-        "Insurers shifted roof-replacement costs onto homeowners thanks to a new federal rule \u2014 just in time for hail and hurricane season",
-        "Brazil\u2019s Durigan Says Credit Lines Won\u2019t Affect Monetary Policy"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 7,
-      "pct": 5.9,
-      "sources": "CNBC(4), Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "From Macron to Modi, governments are rolling out the red carpet for AI giants",
-        "Don't throw away your shot to speak to an AI Alexander Hamilton at Boston's new finance museum",
-        "AI is outpacing the rules, Europe\u2019s top bankers and regulators warn",
-        "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
-        "AI Teddy Roosevelt Greets Library Visitors"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 5.9,
-      "sources": "Yahoo(5), CNBC(1), Bloomberg(1)",
+      "count": 13,
+      "pct": 11.7,
+      "sources": "Yahoo(9), CNBC(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "The hunt for AI's next winners defined the stock market's holiday-shortened week",
-        "Tankers U-Turn in Hormuz, With Some Taking Iran Route Instead",
-        "Here\u2019s Why Analysts Are Still Bullish On Alcoa Corp (AA) Stock Despite The Selloff",
-        "Wall Street Is Losing Confidence In PVH Corp (PVH), Is The Stock A Buy?",
-        "Wall Street Pessimism Has Made Universal Health Services (UHS) Stock A Top Extreme Value Stock To Buy Now"
+        "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
+        "Here are the 3 big things we're watching in the stock market this week",
+        "Why the stock market\u2019s red-hot momentum trade might be headed for a violent unwind this month",
+        "Oil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-Turns",
+        "Dow Jones Futures: Expect Market Fireworks; Apple, SpaceX, Sandisk, Robinhood In Focus"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 3.4,
-      "sources": "Bloomberg(4)",
+      "count": 10,
+      "pct": 9.0,
+      "sources": "Yahoo(4), Bloomberg(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Oil\u2019s Supply Wave, Tumbling Prices Rekindle Fears of Global Glut",
-        "Modi Says India Will Keep Expanding Oil Refining Capacity",
-        "Total CEO Sees Mideast Producers Desperate to Sell Oil Stocks",
-        "Oil Terminal in Russia\u2019s St. Petersburg Comes Under Attack"
+        "OPEC+ raises output levels again despite tumbling crude prices",
+        "Rich nations must unleash land, labour, energy and capital",
+        "Ukraine striking Russian energy infrastructure at unprecedented rate",
+        "Oil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-Turns",
+        "OPEC+ Ratifies Planned Oil Quota Hike as Gulf Flows Rebound"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 9,
+      "pct": 8.1,
+      "sources": "Bloomberg(4), FT(3), Yahoo(2)",
+      "sample_headlines": [
+        "US voters say Trump\u2019s Iran war not worth the cost \u2014 FT poll",
+        "Fifa reverses suspension of star US striker after call from Trump",
+        "Netanyahu government defies Israel\u2019s top court over TV regulation",
+        "The Supertanker Tycoon Making Millions on Hormuz Shuttle Runs",
+        "Oil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-Turns"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 8,
+      "pct": 7.2,
+      "sources": "Yahoo(5), Bloomberg(2), CNBC(1)",
+      "sample_headlines": [
+        "From Macron to Modi, governments are rolling out the red carpet for AI giants",
+        "SK Hynix Seeks Access to AI Investors in $29 Billion US Listing",
+        "Investors Looking for Shelter From AI Storm Are Turning to India",
+        "Dow Jones Futures: Expect Market Fireworks; Apple, SpaceX, Sandisk, Robinhood In Focus",
+        "Rate hike readjustment and AI hardware momentum: What to watch this week"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 7,
+      "pct": 6.3,
+      "sources": "Yahoo(4), CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Feds seek lower prison term for $100M New Jersey deli fraudster \u2014 but some reasons why are hidden",
+        "Why June\u2019s jobs and inflation data are bullish for bonds",
+        "EasyJet Agrees to Castlelake\u2019s Latest Bid Topping \u00a35 Billion",
+        "Rate hike readjustment and AI hardware momentum: What to watch this week",
+        "Mortgage and refinance interest rates today, Sunday, July 5: Rates way up since last week"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "Yahoo(2)",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "Yahoo(3)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
-        "Ross Gerber Says Trump's $1 Billion Crypto Windfall Is Why 'Bitcoin Went Down and Isn't Going Anywhere'"
+        "Bitcoin Options Turn Call-Heavy Before July 8 FOMC Minutes: Will BTC Break $63,000?",
+        "Ethereum Lost 22% in 1 Month. Here's Why It Could Still Get Worse",
+        "Peter Brandt Eyes Selling Bitcoin to Invest in Gold, and Here is Why"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "China",
       "count": 2,
-      "pct": 1.7,
-      "sources": "MarketWatch(1), Bloomberg(1)",
+      "pct": 1.8,
+      "sources": "Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Where can I invest my kid\u2019s \u2018Trump account\u2019 money? The Treasury Department just answered that question.",
-        "Putin Signs Tax Amendments Aiming to Boost Domestic Fuel Supply"
+        "Wang Yi Says China Welcomes Stronger European Business Relations",
+        "Abbisko, AstraZeneca Team Up on Lung Cancer Drug Combo After China Trial Clearance"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "pct": 0.9,
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound"
+        "The Europeanisation of Nato is ever more important"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "A bigger tax hit to save in interest \u2014 why raiding your 401(k) to pay off credit cards can backfire badly"
       ]
     }
   ]

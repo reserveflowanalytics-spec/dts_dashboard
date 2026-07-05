@@ -1,25 +1,25 @@
 {
-  "generated": "2026-07-04",
+  "generated": "2026-07-05",
   "regime": "Neutral",
   "fiscal_momentum": 28820.0,
   "tga_trend": "Drawing",
   "etf_prices": {
-    "XLY": 117.12,
-    "HYG": 79.71,
     "SPY": 744.78,
-    "XLK": 180.59,
+    "XLE": 53.22,
     "XLV": 163.74,
-    "GLD": 378.13,
+    "XLK": 180.59,
+    "XLU": 45.76,
+    "XLF": 55.62,
     "XLP": 84.99,
+    "XLI": 183.91,
+    "HYG": 79.71,
+    "GLD": 378.13,
     "TLT": 85.51,
+    "KRE": 75.02,
     "IWM": 297.58,
     "XLB": 52.01,
     "XLRE": 44.68,
-    "KRE": 75.02,
-    "XLI": 183.91,
-    "XLU": 45.76,
-    "XLE": 53.22,
-    "XLF": 55.62
+    "XLY": 117.12
   },
   "pairs": [
     {
