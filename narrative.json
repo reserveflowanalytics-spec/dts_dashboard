@@ -1,110 +1,111 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 111,
-  "fetched_at": "2026-07-05T21:01:23.958811+00:00",
+  "total_headlines": 125,
+  "fetched_at": "2026-07-06T21:02:12.367143+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 11.7,
-      "sources": "Yahoo(9), CNBC(2), MarketWatch(1), Bloomberg(1)",
+      "topic": "AI / Tech",
+      "count": 18,
+      "pct": 14.4,
+      "sources": "CNBC(5), Bloomberg(5), Yahoo(4), FT(3), MarketWatch(1)",
       "sample_headlines": [
-        "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
-        "Here are the 3 big things we're watching in the stock market this week",
-        "Why the stock market\u2019s red-hot momentum trade might be headed for a violent unwind this month",
-        "Oil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-Turns",
-        "Dow Jones Futures: Expect Market Fireworks; Apple, SpaceX, Sandisk, Robinhood In Focus"
+        "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
+        "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
+        "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
+        "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
+        "Meta\u2019s woes deepen in India as child abuse ads on Instagram draw government ire"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 9.0,
-      "sources": "Yahoo(4), Bloomberg(3), FT(2), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 11,
+      "pct": 8.8,
+      "sources": "Yahoo(4), CNBC(3), Bloomberg(3), MarketWatch(1)",
       "sample_headlines": [
-        "OPEC+ raises output levels again despite tumbling crude prices",
-        "Rich nations must unleash land, labour, energy and capital",
-        "Ukraine striking Russian energy infrastructure at unprecedented rate",
-        "Oil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-Turns",
-        "OPEC+ Ratifies Planned Oil Quota Hike as Gulf Flows Rebound"
+        "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
+        "Here's how SpaceX's Nasdaq-100 inclusion might affect options pricing",
+        "Student loan servicers begin 90-day countdown for borrowers to leave SAVE plan",
+        "Silver has plunged 50% from its January peak to $60. Why it could hit $130 next year.",
+        "Tech Stocks Extend Rally Ahead of Samsung Earnings, SK Hynix IPO"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 9,
-      "pct": 8.1,
-      "sources": "Bloomberg(4), FT(3), Yahoo(2)",
-      "sample_headlines": [
-        "US voters say Trump\u2019s Iran war not worth the cost \u2014 FT poll",
-        "Fifa reverses suspension of star US striker after call from Trump",
-        "Netanyahu government defies Israel\u2019s top court over TV regulation",
-        "The Supertanker Tycoon Making Millions on Hormuz Shuttle Runs",
-        "Oil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-Turns"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
       "count": 8,
-      "pct": 7.2,
-      "sources": "Yahoo(5), Bloomberg(2), CNBC(1)",
+      "pct": 6.4,
+      "sources": "CNBC(4), FT(3), Bloomberg(1)",
       "sample_headlines": [
-        "From Macron to Modi, governments are rolling out the red carpet for AI giants",
-        "SK Hynix Seeks Access to AI Investors in $29 Billion US Listing",
-        "Investors Looking for Shelter From AI Storm Are Turning to India",
-        "Dow Jones Futures: Expect Market Fireworks; Apple, SpaceX, Sandisk, Robinhood In Focus",
-        "Rate hike readjustment and AI hardware momentum: What to watch this week"
+        "Platner Senate campaign taking 'time to reflect' on path forward after sexual assault allegation",
+        "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
+        "'Electronic warfare is a tech phenomenon': Why the market is rethinking defense valuations",
+        "Why Iran may find it difficult to clear its oil inventories even after sanctions relief",
+        "Zelenskyy says \u2018battle in the sky\u2019 will decide outcome of war with Russia"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 6.3,
-      "sources": "Yahoo(4), CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 4.8,
+      "sources": "Bloomberg(3), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "Feds seek lower prison term for $100M New Jersey deli fraudster \u2014 but some reasons why are hidden",
-        "Why June\u2019s jobs and inflation data are bullish for bonds",
-        "EasyJet Agrees to Castlelake\u2019s Latest Bid Topping \u00a35 Billion",
-        "Rate hike readjustment and AI hardware momentum: What to watch this week",
-        "Mortgage and refinance interest rates today, Sunday, July 5: Rates way up since last week"
+        "Top Fed official backs Kevin Warsh\u2019s rethink of forward guidance",
+        "Traders Are Most Positive on Dollar Since 2015 as Fed Hike Looms",
+        "Gold Falls as Traders Assess Fed Rate Outlook Ahead of Minutes",
+        "I Don't Expect The Fed To Hike In July Says Lavorgna",
+        "80% of retirees are sitting on their nest eggs too long \u2014 and a new $6,000 tax break is slipping away"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 4.0,
+      "sources": "Bloomberg(3), CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "Why Iran may find it difficult to clear its oil inventories even after sanctions relief",
+        "Oil Slides to Fresh Five-Month Low as Oversupply Signals Mount",
+        "Saudis Slash Main Oil Price to Rare Discount",
+        "Ontario, Alberta Pitch Cross-Canada Oil Pipeline to Ease US Reliance",
+        "Morgan Stanley Keeps Overweight Rating on Chord Energy (CHRD)"
       ]
     },
     {
       "topic": "Crypto",
       "count": 3,
-      "pct": 2.7,
-      "sources": "Yahoo(3)",
+      "pct": 2.4,
+      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin Options Turn Call-Heavy Before July 8 FOMC Minutes: Will BTC Break $63,000?",
-        "Ethereum Lost 22% in 1 Month. Here's Why It Could Still Get Worse",
-        "Peter Brandt Eyes Selling Bitcoin to Invest in Gold, and Here is Why"
+        "Strategy is losing a lot of money on bitcoin. Here\u2019s why it\u2019s selling anyway.",
+        "Trump Bitcoin Reserve Faces Hurdles as Departments Seek Control",
+        "Bitcoin Is Now in Bear Market Territory. But Here are 3 Catalysts That Could Lead to a Recovery."
       ]
     },
     {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "Bloomberg(1), Yahoo(1)",
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(1), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Wang Yi Says China Welcomes Stronger European Business Relations",
-        "Abbisko, AstraZeneca Team Up on Lung Cancer Drug Combo After China Trial Clearance"
+        "EasyJet shares soar 10% as budget airline agrees to $7.3 billion Castlelake takeover",
+        "How parents can take advantage of the \u2018best summer-camp tax break in years\u2019",
+        "80% of retirees are sitting on their nest eggs too long \u2014 and a new $6,000 tax break is slipping away"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
-      "pct": 0.9,
-      "sources": "FT(1)",
+      "pct": 0.8,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "The Europeanisation of Nato is ever more important"
+        "Why Iran may find it difficult to clear its oil inventories even after sanctions relief"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "China",
       "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "pct": 0.8,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "A bigger tax hit to save in interest \u2014 why raiding your 401(k) to pay off credit cards can backfire badly"
+        "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation"
       ]
     }
   ]
