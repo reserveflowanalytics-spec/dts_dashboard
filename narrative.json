@@ -1,111 +1,105 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 125,
-  "fetched_at": "2026-07-06T21:02:12.367143+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 120,
+  "fetched_at": "2026-07-07T21:01:41.557380+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 18,
-      "pct": 14.4,
-      "sources": "CNBC(5), Bloomberg(5), Yahoo(4), FT(3), MarketWatch(1)",
+      "count": 26,
+      "pct": 21.7,
+      "sources": "CNBC(10), Bloomberg(7), Yahoo(5), MarketWatch(3), FT(1)",
       "sample_headlines": [
-        "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
-        "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
-        "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
-        "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
-        "Meta\u2019s woes deepen in India as child abuse ads on Instagram draw government ire"
+        "Meta enters AI image model race in bid to court advertisers and subscribers",
+        "As chip sector takes it on the chin, traders bet on a big Nvidia rally",
+        "Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.",
+        "Chip stocks sell off after Samsung earnings fall short of high AI bar",
+        "The implications of Amazon's $25B bond sale, and Microsoft's evolving AI model strategy"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 11,
-      "pct": 8.8,
-      "sources": "Yahoo(4), CNBC(3), Bloomberg(3), MarketWatch(1)",
+      "pct": 9.2,
+      "sources": "Yahoo(6), Bloomberg(3), CNBC(2)",
       "sample_headlines": [
-        "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
-        "Here's how SpaceX's Nasdaq-100 inclusion might affect options pricing",
-        "Student loan servicers begin 90-day countdown for borrowers to leave SAVE plan",
-        "Silver has plunged 50% from its January peak to $60. Why it could hit $130 next year.",
-        "Tech Stocks Extend Rally Ahead of Samsung Earnings, SK Hynix IPO"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 6.4,
-      "sources": "CNBC(4), FT(3), Bloomberg(1)",
-      "sample_headlines": [
-        "Platner Senate campaign taking 'time to reflect' on path forward after sexual assault allegation",
-        "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
-        "'Electronic warfare is a tech phenomenon': Why the market is rethinking defense valuations",
-        "Why Iran may find it difficult to clear its oil inventories even after sanctions relief",
-        "Zelenskyy says \u2018battle in the sky\u2019 will decide outcome of war with Russia"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.8,
-      "sources": "Bloomberg(3), Yahoo(2), FT(1)",
-      "sample_headlines": [
-        "Top Fed official backs Kevin Warsh\u2019s rethink of forward guidance",
-        "Traders Are Most Positive on Dollar Since 2015 as Fed Hike Looms",
-        "Gold Falls as Traders Assess Fed Rate Outlook Ahead of Minutes",
-        "I Don't Expect The Fed To Hike In July Says Lavorgna",
-        "80% of retirees are sitting on their nest eggs too long \u2014 and a new $6,000 tax break is slipping away"
+        "As chip sector takes it on the chin, traders bet on a big Nvidia rally",
+        "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
+        "Tech Rout Deepens as Chipmakers Fall; SpaceX Gets Bullish Calls",
+        "Trump's Been Successful in Talking Down The 'Oil Markets' Says Kloza",
+        "Samsung\u2019s Record Profit Fails to Impress After AI Chip Rally"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.0,
-      "sources": "Bloomberg(3), CNBC(1), Yahoo(1)",
+      "count": 10,
+      "pct": 8.3,
+      "sources": "Bloomberg(7), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Why Iran may find it difficult to clear its oil inventories even after sanctions relief",
-        "Oil Slides to Fresh Five-Month Low as Oversupply Signals Mount",
-        "Saudis Slash Main Oil Price to Rare Discount",
-        "Ontario, Alberta Pitch Cross-Canada Oil Pipeline to Ease US Reliance",
-        "Morgan Stanley Keeps Overweight Rating on Chord Energy (CHRD)"
+        "U.S. revokes Iran oil sales authorization after tanker attacks",
+        "Why oil investors fear the next toll fight could be the Strait of Malacca",
+        "Oil prices rise as the U.S. cancels Iran\u2019s license to sell oil",
+        "US Revokes Waiver Allowing Iran Oil Sales After Attacks",
+        "Chip Stocks Sink After Blistering Run as Oil Jumps: Markets Wrap"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 7,
+      "pct": 5.8,
+      "sources": "Bloomberg(3), MarketWatch(2), Yahoo(2)",
+      "sample_headlines": [
+        "Wednesday\u2019s Fed minutes will be revealing \u2014 but not in the way investors hope",
+        "Bond traders are watching this tracker to figure out the real odds of Fed rate hikes",
+        "Traders Hedge for Less Hawkish Fed as Hikes Remain Priced In",
+        "Gold Slumps as Traders Weigh Fed Rate Path After Iran Oil Waiver",
+        "Fed Proposes Changes to Anti-Money Laundering Rules for Banks"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 6,
+      "pct": 5.0,
+      "sources": "Bloomberg(4), CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "U.S. revokes Iran oil sales authorization after tanker attacks",
+        "Oil prices rise as the U.S. cancels Iran\u2019s license to sell oil",
+        "US Revokes Waiver Allowing Iran Oil Sales After Attacks",
+        "Oil Jumps After Ship Strikes Spur US to Revoke Iran Sales Waiver",
+        "Gold Slumps as Traders Weigh Fed Rate Path After Iran Oil Waiver"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 4,
+      "pct": 3.3,
+      "sources": "Yahoo(4)",
       "sample_headlines": [
-        "Strategy is losing a lot of money on bitcoin. Here\u2019s why it\u2019s selling anyway.",
-        "Trump Bitcoin Reserve Faces Hurdles as Departments Seek Control",
-        "Bitcoin Is Now in Bear Market Territory. But Here are 3 Catalysts That Could Lead to a Recovery."
+        "Bitcoin and ethereum prices today, Monday, July 6, 2026: Prices falling after last week's rebound",
+        "Bitcoin and ethereum prices today, Tuesday, July 7, 2026: Another strong opening for BTC and ETH prices",
+        "MicroStrategy Sold 7x More Bitcoin Than Reports Suggested",
+        "Is crypto mining still profitable in 2026?"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "CNBC(3)",
+      "sample_headlines": [
+        "Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.",
+        "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
+        "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), MarketWatch(1), Yahoo(1)",
+      "pct": 2.5,
+      "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
-        "EasyJet shares soar 10% as budget airline agrees to $7.3 billion Castlelake takeover",
-        "How parents can take advantage of the \u2018best summer-camp tax break in years\u2019",
-        "80% of retirees are sitting on their nest eggs too long \u2014 and a new $6,000 tax break is slipping away"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Why Iran may find it difficult to clear its oil inventories even after sanctions relief"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation"
+        "Supreme Court's Kagan, Barrett to testify to House for budget request, a first since 2019",
+        "US Debt, Global Fiscal Ratios Still Concerning, Says Citi's DeQuadros",
+        "Brazil Treasury Has Patience and Cash to Ease Local Bond Stress"
       ]
     }
   ]
