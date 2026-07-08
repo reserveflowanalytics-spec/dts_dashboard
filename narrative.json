@@ -1,105 +1,110 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 120,
-  "fetched_at": "2026-07-07T21:01:41.557380+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 122,
+  "fetched_at": "2026-07-08T21:01:38.491649+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 26,
-      "pct": 21.7,
-      "sources": "CNBC(10), Bloomberg(7), Yahoo(5), MarketWatch(3), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 28,
+      "pct": 23.0,
+      "sources": "Bloomberg(10), CNBC(5), FT(5), Yahoo(5), MarketWatch(3)",
       "sample_headlines": [
-        "Meta enters AI image model race in bid to court advertisers and subscribers",
-        "As chip sector takes it on the chin, traders bet on a big Nvidia rally",
-        "Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.",
-        "Chip stocks sell off after Samsung earnings fall short of high AI bar",
-        "The implications of Amazon's $25B bond sale, and Microsoft's evolving AI model strategy"
+        "U.S. military launches new Iran strikes as Trump says 'not sure' he wants deal",
+        "Oil prices jump more than 4% after Trump threatens to bomb Iran and reimpose naval blockade",
+        "Used EVs keep getting more expensive amid Iran war, high gas prices",
+        "China warns about AI risks with Anthropic's Claude Code",
+        "Strait of Hormuz traffic won't return to normal until 2027 after latest setback, Kalshi traders predict"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 9.2,
-      "sources": "Yahoo(6), Bloomberg(3), CNBC(2)",
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 11.5,
+      "sources": "CNBC(6), Yahoo(5), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "As chip sector takes it on the chin, traders bet on a big Nvidia rally",
-        "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
-        "Tech Rout Deepens as Chipmakers Fall; SpaceX Gets Bullish Calls",
-        "Trump's Been Successful in Talking Down The 'Oil Markets' Says Kloza",
-        "Samsung\u2019s Record Profit Fails to Impress After AI Chip Rally"
+        "Meta is building its first big Canadian data center as AI expansion crosses the border",
+        "Few bright spots in Wednesday's tough market \u2014 why Nvidia stock is one of them",
+        "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
+        "OpenAI to publicly release GPT-5.6, rolls out conversational AI models",
+        "China warns about AI risks with Anthropic's Claude Code"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 8.3,
-      "sources": "Bloomberg(7), CNBC(2), MarketWatch(1)",
+      "count": 12,
+      "pct": 9.8,
+      "sources": "Bloomberg(7), MarketWatch(3), CNBC(2)",
       "sample_headlines": [
-        "U.S. revokes Iran oil sales authorization after tanker attacks",
-        "Why oil investors fear the next toll fight could be the Strait of Malacca",
-        "Oil prices rise as the U.S. cancels Iran\u2019s license to sell oil",
-        "US Revokes Waiver Allowing Iran Oil Sales After Attacks",
-        "Chip Stocks Sink After Blistering Run as Oil Jumps: Markets Wrap"
+        "Oil prices jump more than 4% after Trump threatens to bomb Iran and reimpose naval blockade",
+        "Used EVs keep getting more expensive amid Iran war, high gas prices",
+        "The Strait of Hormuz is back under \u2018full-conflict conditions\u2019 \u2014 and energy markets are scrambling",
+        "Oil ends at its highest price in over two weeks as flare-up in U.S.-Iran hostilities suggests end to cease-fire",
+        "Higher gas prices aren\u2019t the only way rising tensions with Iran will hit home"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 10,
+      "pct": 8.2,
+      "sources": "Yahoo(4), Bloomberg(3), CNBC(2), Google News(1)",
+      "sample_headlines": [
+        "SpaceX stock closes below debut price at $148 in two-day slide after Nasdaq-100 inclusion",
+        "Trump doubles down on push for control over Greenland as Denmark vows to defend it",
+        "Europe\u2019s economy is a mess. Its stock markets are a steal - The Economist",
+        "Stocks Fall as US-Iran Jitters Spur Rally in Oil: Markets Wrap",
+        "Treasury Two-Year Yield Near 2026 High in Global Bond Selloff"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.8,
-      "sources": "Bloomberg(3), MarketWatch(2), Yahoo(2)",
-      "sample_headlines": [
-        "Wednesday\u2019s Fed minutes will be revealing \u2014 but not in the way investors hope",
-        "Bond traders are watching this tracker to figure out the real odds of Fed rate hikes",
-        "Traders Hedge for Less Hawkish Fed as Hikes Remain Priced In",
-        "Gold Slumps as Traders Weigh Fed Rate Path After Iran Oil Waiver",
-        "Fed Proposes Changes to Anti-Money Laundering Rules for Banks"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
       "count": 6,
-      "pct": 5.0,
-      "sources": "Bloomberg(4), CNBC(1), MarketWatch(1)",
+      "pct": 4.9,
+      "sources": "CNBC(3), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "U.S. revokes Iran oil sales authorization after tanker attacks",
-        "Oil prices rise as the U.S. cancels Iran\u2019s license to sell oil",
-        "US Revokes Waiver Allowing Iran Oil Sales After Attacks",
-        "Oil Jumps After Ship Strikes Spur US to Revoke Iran Sales Waiver",
-        "Gold Slumps as Traders Weigh Fed Rate Path After Iran Oil Waiver"
+        "Fed officials were split on direction of interest rates at last meeting, minutes show",
+        "Fed meeting minutes to show 'family fight' over rates. The squabble could drag on for a while",
+        "The American Dream is missing one key ingredient, says Harvard happiness expert: Without it, 'life is pretty grim'",
+        "Some Fed officials saw need for future rate rises to contain inflation",
+        "Mortgage & refinance interest rates today, Tuesday, July 7: Rates moving lower"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "Yahoo(4)",
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Monday, July 6, 2026: Prices falling after last week's rebound",
-        "Bitcoin and ethereum prices today, Tuesday, July 7, 2026: Another strong opening for BTC and ETH prices",
-        "MicroStrategy Sold 7x More Bitcoin Than Reports Suggested",
-        "Is crypto mining still profitable in 2026?"
+        "Record-High US Fuel Exports Are Straining Domestic Stockpiles",
+        "Russia Bans Diesel Exports After Ukraine\u2019s Refinery Attacks"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(3)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.",
-        "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
-        "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge"
+        "China warns about AI risks with Anthropic's Claude Code",
+        "China Adds to US Soy Buying With Largest Daily Deal Since 2025"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "Bloomberg(2), CNBC(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Supreme Court's Kagan, Barrett to testify to House for budget request, a first since 2019",
-        "US Debt, Global Fiscal Ratios Still Concerning, Says Citi's DeQuadros",
-        "Brazil Treasury Has Patience and Cash to Ease Local Bond Stress"
+        "\u2018I\u2019d hate to end up with an unexpected tax bill\u2019: I\u2019m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+        "Treasury Two-Year Yield Near 2026 High in Global Bond Selloff"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Is crypto mining still profitable in 2026?"
       ]
     }
   ]
