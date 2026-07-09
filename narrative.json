@@ -1,110 +1,113 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 122,
-  "fetched_at": "2026-07-08T21:01:38.491649+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 130,
+  "fetched_at": "2026-07-09T21:01:33.743148+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 28,
-      "pct": 23.0,
-      "sources": "Bloomberg(10), CNBC(5), FT(5), Yahoo(5), MarketWatch(3)",
-      "sample_headlines": [
-        "U.S. military launches new Iran strikes as Trump says 'not sure' he wants deal",
-        "Oil prices jump more than 4% after Trump threatens to bomb Iran and reimpose naval blockade",
-        "Used EVs keep getting more expensive amid Iran war, high gas prices",
-        "China warns about AI risks with Anthropic's Claude Code",
-        "Strait of Hormuz traffic won't return to normal until 2027 after latest setback, Kalshi traders predict"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 11.5,
-      "sources": "CNBC(6), Yahoo(5), MarketWatch(2), FT(1)",
+      "count": 18,
+      "pct": 13.8,
+      "sources": "Bloomberg(5), Yahoo(5), CNBC(4), MarketWatch(3), FT(1)",
       "sample_headlines": [
-        "Meta is building its first big Canadian data center as AI expansion crosses the border",
-        "Few bright spots in Wednesday's tough market \u2014 why Nvidia stock is one of them",
-        "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
-        "OpenAI to publicly release GPT-5.6, rolls out conversational AI models",
-        "China warns about AI risks with Anthropic's Claude Code"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 12,
-      "pct": 9.8,
-      "sources": "Bloomberg(7), MarketWatch(3), CNBC(2)",
-      "sample_headlines": [
-        "Oil prices jump more than 4% after Trump threatens to bomb Iran and reimpose naval blockade",
-        "Used EVs keep getting more expensive amid Iran war, high gas prices",
-        "The Strait of Hormuz is back under \u2018full-conflict conditions\u2019 \u2014 and energy markets are scrambling",
-        "Oil ends at its highest price in over two weeks as flare-up in U.S.-Iran hostilities suggests end to cease-fire",
-        "Higher gas prices aren\u2019t the only way rising tensions with Iran will hit home"
+        "These 10 states are best positioned to land AI data center deals despite rising public opposition",
+        "Meta jumps into AI coding market in effort to chase Anthropic and OpenAI",
+        "Palo Alto CEO Arora says AI pricing needs to fall 90% as token costs skyrocket",
+        "What AI companies want for the millions they're spending on elections",
+        "Meta\u2019s stock rebounds as agentic AI coding and custom chips ease spending fears"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 8.2,
-      "sources": "Yahoo(4), Bloomberg(3), CNBC(2), Google News(1)",
+      "count": 17,
+      "pct": 13.1,
+      "sources": "Yahoo(7), Bloomberg(6), FT(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "SpaceX stock closes below debut price at $148 in two-day slide after Nasdaq-100 inclusion",
-        "Trump doubles down on push for control over Greenland as Denmark vows to defend it",
-        "Europe\u2019s economy is a mess. Its stock markets are a steal - The Economist",
-        "Stocks Fall as US-Iran Jitters Spur Rally in Oil: Markets Wrap",
-        "Treasury Two-Year Yield Near 2026 High in Global Bond Selloff"
+        "A huge trade just happened on the Nasdaq 100. Bulls are taking notice",
+        "Meet the new group of stocks powering the S&P 500 higher",
+        "US strikes Iranian railway bridges on route to city of Khamenei\u2019s burial",
+        "Wall Street\u2019s boutiques bet on star bankers. Now they\u2019re stuck with the bill",
+        "Magnificent Seven\u2019s Weakness Is Starting to Become a Problem for Wall Street"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 16,
+      "pct": 12.3,
+      "sources": "CNBC(5), FT(5), Bloomberg(5), Yahoo(1)",
+      "sample_headlines": [
+        "Kevin Warsh names members of his Federal Reserve task forces, including Marc Andreessen, Doug McMillon",
+        "Kalshi traders think gas prices will stay higher for longer as U.S.-Iran tensions heat back up",
+        "Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war",
+        "Tanker traffic through Strait of Hormuz slows after Iranian attacks trigger renewed fighting with U.S.",
+        "Trump says Iran called to make a deal after U.S. strikes; adds it's unclear if war is back on"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 15,
+      "pct": 11.5,
+      "sources": "Bloomberg(6), Yahoo(5), CNBC(3), FT(1)",
+      "sample_headlines": [
+        "Kalshi traders think gas prices will stay higher for longer as U.S.-Iran tensions heat back up",
+        "Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war",
+        "Clean power comeback? Don't count out renewable energy and this one stock in particular",
+        "Iran war windfall puts Big Oil on collision course with Trump",
+        "Chipmakers Boost Stocks as Oil Declines | Closing Bell"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 13,
+      "pct": 10.0,
+      "sources": "Yahoo(10), CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "PepsiCo earnings miss estimates as U.S. consumers tighten their budgets",
+        "Who wants to tax a billionaire?",
+        "Jersey City Shadowed by 15% Tax Hike as Boomtown Faces Reckoning",
+        "Why JPMorgan\u2019s (JPM) Dividend Hike and $50 Billion Buyback Make It a Strong Capital-Return Tax Case",
+        "Why General Mills\u2019 (GIS) Long Dividend Record Still Leaves Investors With Current-Year Taxable Income"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 4.9,
-      "sources": "CNBC(3), Yahoo(2), FT(1)",
+      "count": 8,
+      "pct": 6.2,
+      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Fed officials were split on direction of interest rates at last meeting, minutes show",
-        "Fed meeting minutes to show 'family fight' over rates. The squabble could drag on for a while",
-        "The American Dream is missing one key ingredient, says Harvard happiness expert: Without it, 'life is pretty grim'",
-        "Some Fed officials saw need for future rate rises to contain inflation",
-        "Mortgage & refinance interest rates today, Tuesday, July 7: Rates moving lower"
+        "Kevin Warsh names members of his Federal Reserve task forces, including Marc Andreessen, Doug McMillon",
+        "Kalshi traders see roughly 50% odds of a rate hike in 2026 as Fed is split on policy",
+        "Anthropic appoints former Fed Chair Ben Bernanke to its independent trust",
+        "A slower AI payoff risks tipping the economy into recession, Apollo says",
+        "Kevin Warsh names high-profile figures to help modernise the Fed"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 1.5,
+      "sources": "MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "A slower AI payoff risks tipping the economy into recession, Apollo says",
+        "France Seen Dodging Recession as Central Bank Lifts GDP Estimate"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 2,
-      "pct": 1.6,
-      "sources": "Bloomberg(2)",
+      "pct": 1.5,
+      "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "Record-High US Fuel Exports Are Straining Domestic Stockpiles",
-        "Russia Bans Diesel Exports After Ukraine\u2019s Refinery Attacks"
+        "Trump can halt trade with Spain using law behind scrapped tariffs: Greer",
+        "World faces growing diesel supply crunch as Russia cuts off exports"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "China warns about AI risks with Anthropic's Claude Code",
-        "China Adds to US Soy Buying With Largest Daily Deal Since 2025"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "\u2018I\u2019d hate to end up with an unexpected tax bill\u2019: I\u2019m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
-        "Treasury Two-Year Yield Near 2026 High in Global Bond Selloff"
-      ]
-    },
-    {
-      "topic": "Crypto",
       "count": 1,
       "pct": 0.8,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Is crypto mining still profitable in 2026?"
+        "China's Nexchip to raise $890 million in Hong Kong share sale"
       ]
     }
   ]
