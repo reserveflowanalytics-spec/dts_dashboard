@@ -1,104 +1,91 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 130,
-  "fetched_at": "2026-07-09T21:01:33.743148+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 123,
+  "fetched_at": "2026-07-10T21:07:23.599025+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 18,
-      "pct": 13.8,
-      "sources": "Bloomberg(5), Yahoo(5), CNBC(4), MarketWatch(3), FT(1)",
+      "count": 20,
+      "pct": 16.3,
+      "sources": "CNBC(7), Yahoo(7), FT(2), Bloomberg(2), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "These 10 states are best positioned to land AI data center deals despite rising public opposition",
-        "Meta jumps into AI coding market in effort to chase Anthropic and OpenAI",
-        "Palo Alto CEO Arora says AI pricing needs to fall 90% as token costs skyrocket",
-        "What AI companies want for the millions they're spending on elections",
-        "Meta\u2019s stock rebounds as agentic AI coding and custom chips ease spending fears"
+        "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+        "OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO",
+        "Traders fall back in love with Meta. Here's where bulls see it going",
+        "How Apple stock rode the AI rollercoaster to record highs in 1 chart",
+        "Meta's stock has best week since early 2024 as optimism builds around AI strategy"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 17,
-      "pct": 13.1,
-      "sources": "Yahoo(7), Bloomberg(6), FT(2), CNBC(1), MarketWatch(1)",
+      "count": 14,
+      "pct": 11.4,
+      "sources": "Bloomberg(4), CNBC(3), Google News(3), FT(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "A huge trade just happened on the Nasdaq 100. Bulls are taking notice",
-        "Meet the new group of stocks powering the S&P 500 higher",
-        "US strikes Iranian railway bridges on route to city of Khamenei\u2019s burial",
-        "Wall Street\u2019s boutiques bet on star bankers. Now they\u2019re stuck with the bill",
-        "Magnificent Seven\u2019s Weakness Is Starting to Become a Problem for Wall Street"
+        "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
+        "OpenAI exec Fidji Simo says she's stepping down due to chronic illness, will transition to advisor",
+        "Why the stock market and economy may seem out of sync",
+        "SK Hynix\u2019s stock scores double-digit pop in Nasdaq debut",
+        "Trump touts stock market as economic barometer - Finance & Commerce"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 16,
-      "pct": 12.3,
-      "sources": "CNBC(5), FT(5), Bloomberg(5), Yahoo(1)",
-      "sample_headlines": [
-        "Kevin Warsh names members of his Federal Reserve task forces, including Marc Andreessen, Doug McMillon",
-        "Kalshi traders think gas prices will stay higher for longer as U.S.-Iran tensions heat back up",
-        "Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war",
-        "Tanker traffic through Strait of Hormuz slows after Iranian attacks trigger renewed fighting with U.S.",
-        "Trump says Iran called to make a deal after U.S. strikes; adds it's unclear if war is back on"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 15,
-      "pct": 11.5,
-      "sources": "Bloomberg(6), Yahoo(5), CNBC(3), FT(1)",
-      "sample_headlines": [
-        "Kalshi traders think gas prices will stay higher for longer as U.S.-Iran tensions heat back up",
-        "Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war",
-        "Clean power comeback? Don't count out renewable energy and this one stock in particular",
-        "Iran war windfall puts Big Oil on collision course with Trump",
-        "Chipmakers Boost Stocks as Oil Declines | Closing Bell"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
       "count": 13,
-      "pct": 10.0,
-      "sources": "Yahoo(10), CNBC(1), FT(1), Bloomberg(1)",
+      "pct": 10.6,
+      "sources": "CNBC(4), Bloomberg(4), FT(3), Yahoo(2)",
       "sample_headlines": [
-        "PepsiCo earnings miss estimates as U.S. consumers tighten their budgets",
-        "Who wants to tax a billionaire?",
-        "Jersey City Shadowed by 15% Tax Hike as Boomtown Faces Reckoning",
-        "Why JPMorgan\u2019s (JPM) Dividend Hike and $50 Billion Buyback Make It a Strong Capital-Return Tax Case",
-        "Why General Mills\u2019 (GIS) Long Dividend Record Still Leaves Investors With Current-Year Taxable Income"
+        "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
+        "Trump says U.S. to continue talks with Iran despite scrapped ceasefire",
+        "How the U.S.-Iran deal set the stage for renewed fighting over the Strait of Hormuz",
+        "New Fed task force members share Chairman Kevin Warsh's embrace of AI",
+        "Trump says US has agreed to continue talks with Iran"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.2,
-      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1), FT(1), Yahoo(1)",
+      "count": 9,
+      "pct": 7.3,
+      "sources": "CNBC(4), MarketWatch(2), Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "Kevin Warsh names members of his Federal Reserve task forces, including Marc Andreessen, Doug McMillon",
-        "Kalshi traders see roughly 50% odds of a rate hike in 2026 as Fed is split on policy",
-        "Anthropic appoints former Fed Chair Ben Bernanke to its independent trust",
-        "A slower AI payoff risks tipping the economy into recession, Apollo says",
-        "Kevin Warsh names high-profile figures to help modernise the Fed"
+        "These are America's 10 most expensive states for 2026, where inflation is punishing residents",
+        "These are America's 10 cheapest states for 2026, where you can still beat inflation",
+        "OpenAI exec Fidji Simo says she's stepping down due to chronic illness, will transition to advisor",
+        "New Fed task force members share Chairman Kevin Warsh's embrace of AI",
+        "Where to put cash right now: Should you lock in at 4% \u2014 or wait for the next Fed rate decision?"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 2,
-      "pct": 1.5,
-      "sources": "MarketWatch(1), Bloomberg(1)",
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "A slower AI payoff risks tipping the economy into recession, Apollo says",
-        "France Seen Dodging Recession as Central Bank Lifts GDP Estimate"
+        "Oil Eases as US, Iran Continue Talks After Renewed Fighting",
+        "Aluminum Declines as EGA Restarts Key Alumina Refinery in UAE",
+        "Eversource Energy's Quarterly Earnings Preview: What You Need to Know"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.5,
-      "sources": "CNBC(1), FT(1)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump can halt trade with Spain using law behind scrapped tariffs: Greer",
-        "World faces growing diesel supply crunch as Russia cuts off exports"
+        "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
+        "US senators strike deal with White House to tighten Russia sanctions",
+        "Wheat Soars as Ukraine Attacks on Russia Seen as Export Risk"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(2), Yahoo(1)",
+      "sample_headlines": [
+        "Senate Democrats want hearings on Trump\u2019s crypto holdings and foreign investors",
+        "Kraken is rebuilding its app around agentic trading as crypto exchanges evolve beyond crypto",
+        "If you invested $10,000 in Bitcoin, Trump meme coin, and gold when Trump took office, here's what you'd have today"
       ]
     },
     {
@@ -107,7 +94,16 @@
       "pct": 0.8,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "China's Nexchip to raise $890 million in Hong Kong share sale"
+        "The Data Center Business in China Is Rapidly Evolving. AMD Stock Could Be Set to Lose."
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Air taxi company Beta wraps first test flights in U.S. government's pilot program"
       ]
     }
   ]
