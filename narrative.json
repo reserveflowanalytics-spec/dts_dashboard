@@ -1,109 +1,121 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 123,
-  "fetched_at": "2026-07-10T21:07:23.599025+00:00",
+  "total_headlines": 118,
+  "fetched_at": "2026-07-11T21:01:43.490999+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 16.3,
-      "sources": "CNBC(7), Yahoo(7), FT(2), Bloomberg(2), MarketWatch(1), Google News(1)",
+      "count": 24,
+      "pct": 20.3,
+      "sources": "Yahoo(14), CNBC(7), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
         "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market",
         "OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO",
-        "Traders fall back in love with Meta. Here's where bulls see it going",
-        "How Apple stock rode the AI rollercoaster to record highs in 1 chart",
-        "Meta's stock has best week since early 2024 as optimism builds around AI strategy"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 11.4,
-      "sources": "Bloomberg(4), CNBC(3), Google News(3), FT(2), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
-        "OpenAI exec Fidji Simo says she's stepping down due to chronic illness, will transition to advisor",
-        "Why the stock market and economy may seem out of sync",
-        "SK Hynix\u2019s stock scores double-digit pop in Nasdaq debut",
-        "Trump touts stock market as economic barometer - Finance & Commerce"
+        "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
+        "The AI race is shifting from bigger models to cheaper, smarter systems"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 10.6,
-      "sources": "CNBC(4), Bloomberg(4), FT(3), Yahoo(2)",
+      "count": 12,
+      "pct": 10.2,
+      "sources": "Bloomberg(6), CNBC(3), Yahoo(2), FT(1)",
       "sample_headlines": [
+        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
         "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
-        "Trump says U.S. to continue talks with Iran despite scrapped ceasefire",
         "How the U.S.-Iran deal set the stage for renewed fighting over the Strait of Hormuz",
-        "New Fed task force members share Chairman Kevin Warsh's embrace of AI",
-        "Trump says US has agreed to continue talks with Iran"
+        "Europe\u2019s slow electrification is a \u2018major mistake\u2019, warns IEA chief",
+        "Warsh and US Inflation Will Set Tone for July Fed Decision"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.3,
-      "sources": "CNBC(4), MarketWatch(2), Yahoo(2), Bloomberg(1)",
+      "topic": "Equities / Market moves",
+      "count": 8,
+      "pct": 6.8,
+      "sources": "CNBC(3), Google News(2), MarketWatch(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "These are America's 10 most expensive states for 2026, where inflation is punishing residents",
-        "These are America's 10 cheapest states for 2026, where you can still beat inflation",
-        "OpenAI exec Fidji Simo says she's stepping down due to chronic illness, will transition to advisor",
-        "New Fed task force members share Chairman Kevin Warsh's embrace of AI",
-        "Where to put cash right now: Should you lock in at 4% \u2014 or wait for the next Fed rate decision?"
+        "Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half",
+        "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
+        "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
+        "Stocks rally when Congress goes on summer break. Here\u2019s why.",
+        "Why the stock market and economy may seem out of sync - CNBC"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Bloomberg(2), Yahoo(1)",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "Bloomberg(3), CNBC(2), Yahoo(2)",
       "sample_headlines": [
-        "Oil Eases as US, Iran Continue Talks After Renewed Fighting",
-        "Aluminum Declines as EGA Restarts Key Alumina Refinery in UAE",
-        "Eversource Energy's Quarterly Earnings Preview: What You Need to Know"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
-        "US senators strike deal with White House to tighten Russia sanctions",
-        "Wheat Soars as Ukraine Attacks on Russia Seen as Export Risk"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(2), Yahoo(1)",
-      "sample_headlines": [
-        "Senate Democrats want hearings on Trump\u2019s crypto holdings and foreign investors",
-        "Kraken is rebuilding its app around agentic trading as crypto exchanges evolve beyond crypto",
-        "If you invested $10,000 in Bitcoin, Trump meme coin, and gold when Trump took office, here's what you'd have today"
+        "AstraZeneca's trial flop raises a bigger question: Is its pipeline premium becoming more vulnerable?",
+        "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
+        "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
+        "Eni\u2019s Descalzi Says Energy Crisis May Worsen in Short Term: Sole",
+        "Nuclear Energy Services Firm Holtec Joins Sector\u2019s IPO Rush"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "The Data Center Business in China Is Rapidly Evolving. AMD Stock Could Be Set to Lose."
+        "While Musk's Neuralink drills into skulls, China's BrainCo bets the future of brain tech is wearable",
+        "China Tells Refiners to Keep Fuel Output High as Iran War Drags",
+        "China Power Load Hits Early Record as Data, EV Demand Rises",
+        "Xi Says China\u2019s Backing for Kim and North Korea Won\u2019t Change"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "CNBC(2), Yahoo(2)",
+      "sample_headlines": [
+        "Senate Democrats want hearings on Trump\u2019s crypto holdings and foreign investors",
+        "Kraken is rebuilding its app around agentic trading as crypto exchanges evolve beyond crypto",
+        "Bitcoin dropped 2% then rebounded after Trump said he's 'a big crypto guy' \u2014 here are experts takes on buying the dip",
+        "Oil Is Below $76. So Why Is Bitcoin Still Below $65,000?"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "CNBC(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
+        "Air taxi company Beta wraps first test flights in U.S. government's pilot program",
+        "Can the Tax System Keep Up with Trillionaires?"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
+        "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "Warsh and US Inflation Will Set Tone for July Fed Decision"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Air taxi company Beta wraps first test flights in U.S. government's pilot program"
+        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market"
       ]
     }
   ]

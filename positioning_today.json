@@ -1,6 +1,6 @@
 {
   "as_of": "2026-07-09",
-  "computed_at": "2026-07-10T21:07:45Z",
+  "computed_at": "2026-07-11T21:02:00Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,8 +8,8 @@
   "signals": {
     "fiscal_regime": "Neutral",
     "tech_regime": "bullish",
-    "tech_close": 7590.75,
-    "tech_sma20": 7501.7,
+    "tech_close": 7620.75,
+    "tech_sma20": 7513.02,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 0/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "0/11",
