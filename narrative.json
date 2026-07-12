@@ -1,121 +1,111 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 118,
-  "fetched_at": "2026-07-11T21:01:43.490999+00:00",
+  "total_headlines": 123,
+  "fetched_at": "2026-07-12T21:01:29.430228+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 24,
+      "count": 25,
       "pct": 20.3,
-      "sources": "Yahoo(14), CNBC(7), MarketWatch(1), FT(1), Bloomberg(1)",
+      "sources": "Yahoo(13), CNBC(6), Bloomberg(4), MarketWatch(2)",
       "sample_headlines": [
+        "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit",
+        "Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds",
+        "\u2018Almost unlimited\u2019: Execs says AI demand remains strong even as enterprises move to \u2018valuemaxxing\u2019",
         "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market",
-        "OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO",
-        "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
-        "The AI race is shifting from bigger models to cheaper, smarter systems"
+        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 12,
-      "pct": 10.2,
-      "sources": "Bloomberg(6), CNBC(3), Yahoo(2), FT(1)",
+      "count": 17,
+      "pct": 13.8,
+      "sources": "Bloomberg(10), CNBC(3), FT(2), Yahoo(2)",
       "sample_headlines": [
+        "U.S. and Iran trade airstrikes again amid conflicting claims over Strait of Hormuz",
         "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
         "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
-        "How the U.S.-Iran deal set the stage for renewed fighting over the Strait of Hormuz",
-        "Europe\u2019s slow electrification is a \u2018major mistake\u2019, warns IEA chief",
-        "Warsh and US Inflation Will Set Tone for July Fed Decision"
+        "US launches new strikes on Iran in battle over Strait of Hormuz",
+        "Iran bets Trump will blink first"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 6.8,
-      "sources": "CNBC(3), Google News(2), MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 12,
+      "pct": 9.8,
+      "sources": "Yahoo(5), CNBC(4), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds",
+        "Top Wall Street analysts are confident about these 3 stocks for the long haul",
+        "Here are the 3 big things we're watching in the stock market this week",
         "Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half",
-        "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
-        "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
-        "Stocks rally when Congress goes on summer break. Here\u2019s why.",
-        "Why the stock market and economy may seem out of sync - CNBC"
+        "The stock-market rally now hinges more on AI than oil"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 7,
-      "pct": 5.9,
-      "sources": "Bloomberg(3), CNBC(2), Yahoo(2)",
+      "pct": 5.7,
+      "sources": "Yahoo(3), Bloomberg(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
         "AstraZeneca's trial flop raises a bigger question: Is its pipeline premium becoming more vulnerable?",
-        "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
-        "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
-        "Eni\u2019s Descalzi Says Energy Crisis May Worsen in Short Term: Sole",
-        "Nuclear Energy Services Firm Holtec Joins Sector\u2019s IPO Rush"
+        "The stock-market rally now hinges more on AI than oil",
+        "NZ Aims to Sign LNG Import Plant Deal Before November Election",
+        "Oil Market Prices In Hormuz Resilience",
+        "Ur-Energy (URG) Achieves Key Regulatory Milestone for Shirley Basin Project"
       ]
     },
     {
       "topic": "China",
       "count": 4,
-      "pct": 3.4,
-      "sources": "Bloomberg(3), CNBC(1)",
+      "pct": 3.3,
+      "sources": "Bloomberg(2), CNBC(1), FT(1)",
       "sample_headlines": [
         "While Musk's Neuralink drills into skulls, China's BrainCo bets the future of brain tech is wearable",
-        "China Tells Refiners to Keep Fuel Output High as Iran War Drags",
-        "China Power Load Hits Early Record as Data, EV Demand Rises",
-        "Xi Says China\u2019s Backing for Kim and North Korea Won\u2019t Change"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.4,
-      "sources": "CNBC(2), Yahoo(2)",
-      "sample_headlines": [
-        "Senate Democrats want hearings on Trump\u2019s crypto holdings and foreign investors",
-        "Kraken is rebuilding its app around agentic trading as crypto exchanges evolve beyond crypto",
-        "Bitcoin dropped 2% then rebounded after Trump said he's 'a big crypto guy' \u2014 here are experts takes on buying the dip",
-        "Oil Is Below $76. So Why Is Bitcoin Still Below $65,000?"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-        "Air taxi company Beta wraps first test flights in U.S. government's pilot program",
-        "Can the Tax System Keep Up with Trillionaires?"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-        "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision"
+        "China cracks down on top ratings for corporate bonds",
+        "Typhoon Bavi Weakens as Heavy Rain Spreads Across China",
+        "Modi Courts Pacific Partners as China, US Reshape Region"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "Warsh and US Inflation Will Set Tone for July Fed Decision"
+        "Warsh and US Inflation Will Set Tone for July Fed Decision",
+        "Mortgage and refinance interest rates today, Sunday, July 12, 2026: Mostly down from last week"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.4,
+      "sources": "CNBC(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
+        "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
+        "NZ Aims to Sign LNG Import Plant Deal Before November Election"
       ]
     },
     {
       "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(2)",
       "sample_headlines": [
+        "Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds",
         "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.6,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
+        "World Cup Bets on Prediction Markets May Get Tax Edge Over Gambling"
       ]
     }
   ]
