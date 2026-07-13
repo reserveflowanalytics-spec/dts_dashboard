@@ -1,101 +1,81 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 123,
-  "fetched_at": "2026-07-12T21:01:29.430228+00:00",
+  "total_headlines": 127,
+  "fetched_at": "2026-07-13T21:01:59.105225+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 25,
-      "pct": 20.3,
-      "sources": "Yahoo(13), CNBC(6), Bloomberg(4), MarketWatch(2)",
+      "count": 31,
+      "pct": 24.4,
+      "sources": "Yahoo(17), CNBC(7), Bloomberg(3), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit",
-        "Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds",
-        "\u2018Almost unlimited\u2019: Execs says AI demand remains strong even as enterprises move to \u2018valuemaxxing\u2019",
-        "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market"
+        "Chipotle is opening its first restaurant in Mexico",
+        "A toxic stew drags stocks lower as we look at what can get the AI trade back on track",
+        "Meta's Louisiana data center investment to reach $50 billion, aided by generous tax incentives",
+        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market",
+        "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 17,
-      "pct": 13.8,
-      "sources": "Bloomberg(10), CNBC(3), FT(2), Yahoo(2)",
+      "count": 21,
+      "pct": 16.5,
+      "sources": "Bloomberg(10), CNBC(4), FT(4), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
-        "U.S. and Iran trade airstrikes again amid conflicting claims over Strait of Hormuz",
-        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-        "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
-        "US launches new strikes on Iran in battle over Strait of Hormuz",
-        "Iran bets Trump will blink first"
+        "Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade",
+        "UN maritime agency opposes Hormuz transit fees after Trump demands protection money",
+        "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
+        "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility",
+        "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 9.8,
-      "sources": "Yahoo(5), CNBC(4), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 15,
+      "pct": 11.8,
+      "sources": "Bloomberg(7), Yahoo(6), CNBC(2)",
       "sample_headlines": [
-        "Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds",
-        "Top Wall Street analysts are confident about these 3 stocks for the long haul",
-        "Here are the 3 big things we're watching in the stock market this week",
-        "Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half",
-        "The stock-market rally now hinges more on AI than oil"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.7,
-      "sources": "Yahoo(3), Bloomberg(2), CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "AstraZeneca's trial flop raises a bigger question: Is its pipeline premium becoming more vulnerable?",
-        "The stock-market rally now hinges more on AI than oil",
-        "NZ Aims to Sign LNG Import Plant Deal Before November Election",
-        "Oil Market Prices In Hormuz Resilience",
-        "Ur-Energy (URG) Achieves Key Regulatory Milestone for Shirley Basin Project"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 4,
-      "pct": 3.3,
-      "sources": "Bloomberg(2), CNBC(1), FT(1)",
-      "sample_headlines": [
-        "While Musk's Neuralink drills into skulls, China's BrainCo bets the future of brain tech is wearable",
-        "China cracks down on top ratings for corporate bonds",
-        "Typhoon Bavi Weakens as Heavy Rain Spreads Across China",
-        "Modi Courts Pacific Partners as China, US Reshape Region"
+        "Kalshi launches 'Pro' product for users trading multiple markets at same time, perpetual futures",
+        "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
+        "Oil Surges as Trump Says US Wants 20% Charge for Hormuz Flows",
+        "US Stocks Fall as Iran Blockade Restarts; Oil Surges Above $80",
+        "Gold Drops Below $4,000 as Fed Rate Hike Bets Surge"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "Yahoo(2), Bloomberg(1)",
+      "count": 11,
+      "pct": 8.7,
+      "sources": "Bloomberg(5), Yahoo(3), CNBC(2), FT(1)",
       "sample_headlines": [
-        "Warsh and US Inflation Will Set Tone for July Fed Decision",
-        "Mortgage and refinance interest rates today, Sunday, July 12, 2026: Mostly down from last week"
+        "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
+        "A July rate hike from the Fed? The odds are rising",
+        "Top Fed official warns \u2018hot\u2019 inflation could trigger rate rise",
+        "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap",
+        "Gold Drops Below $4,000 as Fed Rate Hike Bets Surge"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "topic": "Oil / Energy",
+      "count": 6,
+      "pct": 4.7,
+      "sources": "Bloomberg(5), MarketWatch(1)",
       "sample_headlines": [
-        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-        "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
-        "NZ Aims to Sign LNG Import Plant Deal Before November Election"
+        "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade",
+        "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap",
+        "Oil Surges as Trump Says US Wants 20% Charge for Hormuz Flows",
+        "US Stocks Fall as Iran Blockade Restarts; Oil Surges Above $80",
+        "Canadian Oil Sands Firms Reach Carbon Capture Deal With Alberta"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "Crypto",
       "count": 2,
       "pct": 1.6,
-      "sources": "CNBC(2)",
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds",
-        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market"
+        "Trump calls for Congress to pass Clarity Act crypto bill to honor Lindsey Graham",
+        "Bitcoin and ethereum prices today, Monday, July 13, 2026: Strong price openings backtracking this morning"
       ]
     },
     {
@@ -104,8 +84,35 @@
       "pct": 1.6,
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-        "World Cup Bets on Prediction Markets May Get Tax Edge Over Gambling"
+        "Meta's Louisiana data center investment to reach $50 billion, aided by generous tax incentives",
+        "Stock Rally Drives Calpers to 14.8% Return in Fiscal 2026"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "Micron and other chip stocks feel the pain of imported volatility \u2014 blame SK Hynix"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Chinese EV makers are outpacing U.S. automakers in overseas investments"
       ]
     }
   ]
