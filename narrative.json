@@ -1,118 +1,105 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 127,
-  "fetched_at": "2026-07-13T21:01:59.105225+00:00",
+  "total_headlines": 93,
+  "fetched_at": "2026-07-14T21:02:47.830345+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 31,
-      "pct": 24.4,
-      "sources": "Yahoo(17), CNBC(7), Bloomberg(3), MarketWatch(2), FT(2)",
+      "count": 19,
+      "pct": 20.4,
+      "sources": "CNBC(10), Yahoo(7), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Chipotle is opening its first restaurant in Mexico",
-        "A toxic stew drags stocks lower as we look at what can get the AI trade back on track",
-        "Meta's Louisiana data center investment to reach $50 billion, aided by generous tax incentives",
-        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market",
-        "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit"
+        "The AI boom just found two new winners: Goldman Sachs and JPMorgan Chase",
+        "Employees sue Meta, alleging discrimination in using AI to make layoffs",
+        "New York becomes first U.S. state to impose AI data center ban",
+        "Zipline adds ex-Tesla, Uber, Waymo execs to make drone delivery mainstream across U.S.",
+        "Cybersecurity stocks rally on AI spending change comments from IBM's Krishna"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 21,
-      "pct": 16.5,
-      "sources": "Bloomberg(10), CNBC(4), FT(4), Yahoo(2), MarketWatch(1)",
+      "count": 13,
+      "pct": 14.0,
+      "sources": "CNBC(7), Yahoo(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade",
-        "UN maritime agency opposes Hormuz transit fees after Trump demands protection money",
-        "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
-        "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility",
-        "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade"
+        "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
+        "U.S. strikes Iran before Hormuz Strait blockade restarts",
+        "Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee",
+        "IBM stock craters 25%, the worst day on record, after company issues second-quarter earnings warning",
+        "Warren Buffett is accelerating his charitable donations with aim to give away Berkshire wealth by 2034"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 15,
-      "pct": 11.8,
-      "sources": "Bloomberg(7), Yahoo(6), CNBC(2)",
+      "count": 10,
+      "pct": 10.8,
+      "sources": "Yahoo(5), CNBC(3), FT(2)",
       "sample_headlines": [
-        "Kalshi launches 'Pro' product for users trading multiple markets at same time, perpetual futures",
-        "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
-        "Oil Surges as Trump Says US Wants 20% Charge for Hormuz Flows",
-        "US Stocks Fall as Iran Blockade Restarts; Oil Surges Above $80",
-        "Gold Drops Below $4,000 as Fed Rate Hike Bets Surge"
+        "Here\u2019s the inflation breakdown for June 2026 \u2014 in one chart",
+        "Lucid dismisses report that it is weighing filing for bankruptcy or going private after shares plunge",
+        "Cybersecurity stocks rally on AI spending change comments from IBM's Krishna",
+        "IBM shares plunge 25% as customers shift spending to AI",
+        "Wall Street banks smash records on stock trading boom"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 8.7,
-      "sources": "Bloomberg(5), Yahoo(3), CNBC(2), FT(1)",
+      "count": 8,
+      "pct": 8.6,
+      "sources": "Yahoo(4), CNBC(3), FT(1)",
       "sample_headlines": [
-        "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
-        "A July rate hike from the Fed? The odds are rising",
-        "Top Fed official warns \u2018hot\u2019 inflation could trigger rate rise",
-        "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap",
-        "Gold Drops Below $4,000 as Fed Rate Hike Bets Surge"
+        "Here\u2019s the inflation breakdown for June 2026 \u2014 in one chart",
+        "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
+        "Social Security cost-of-living adjustment estimate for 2027 falls as inflation cools",
+        "Ukraine targets Russian shipping in \u2018unprecedented\u2019 drone assault",
+        "India's inflation breaches target after more than a year, setting stage for rate hikes"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 4.7,
-      "sources": "Bloomberg(5), MarketWatch(1)",
+      "count": 3,
+      "pct": 3.2,
+      "sources": "CNBC(2), Yahoo(1)",
       "sample_headlines": [
-        "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade",
-        "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap",
-        "Oil Surges as Trump Says US Wants 20% Charge for Hormuz Flows",
-        "US Stocks Fall as Iran Blockade Restarts; Oil Surges Above $80",
-        "Canadian Oil Sands Firms Reach Carbon Capture Deal With Alberta"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "Trump calls for Congress to pass Clarity Act crypto bill to honor Lindsey Graham",
-        "Bitcoin and ethereum prices today, Monday, July 13, 2026: Strong price openings backtracking this morning"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Meta's Louisiana data center investment to reach $50 billion, aided by generous tax incentives",
-        "Stock Rally Drives Calpers to 14.8% Return in Fiscal 2026"
+        "Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee",
+        "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
+        "Wall Street closes lower as chip selloff and oil surge weigh on markets"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 1,
-      "pct": 0.8,
+      "pct": 1.1,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "MarketWatch(1)",
-      "sample_headlines": [
-        "Micron and other chip stocks feel the pain of imported volatility \u2014 blame SK Hynix"
+        "Employees sue Meta, alleging discrimination in using AI to make layoffs"
       ]
     },
     {
       "topic": "China",
       "count": 1,
-      "pct": 0.8,
+      "pct": 1.1,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Chinese EV makers are outpacing U.S. automakers in overseas investments"
+        "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 1.1,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Bitcoin and ethereum prices today, Monday, July 13, 2026: Strong price openings backtracking this morning"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 1.1,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people"
       ]
     }
   ]
