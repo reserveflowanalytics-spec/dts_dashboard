@@ -121,15 +121,16 @@ const monoFont  = {family:"'JetBrains Mono',monospace"};
 async function loadAll(){
   const j = async (u) => { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) throw new Error(u); return r.json(); };
   const t = async (u) => { try { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) return null; return r.text(); } catch(e) { return null; } };
-  const [viz, pos, sigTxt, sigRet, spx] = await Promise.all([
+  const [viz, pos, sigTxt, sigRet, spx, spellTest] = await Promise.all([
     j('viz_data.json'),
     j('positioning_today.json').catch(()=>null),
     t('signal_log.jsonl'),
     j('signal_returns.json').catch(()=>null),
     j('spx_series.json').catch(()=>null),
+    j('regime_spell_test_results.json').catch(()=>null),
   ]);
   const signalLog = (sigTxt||'').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l));
-  return { viz, pos, signalLog, signalReturns: sigRet, spx };
+  return { viz, pos, signalLog, signalReturns: sigRet, spx, spellTest };
 }
 
 function regimeStreak(log){
@@ -297,20 +298,28 @@ function renderDataSection(D){
 function renderTrackRecord(D){
   const el = document.getElementById('sec-track');
   const sum = D.signalReturns && D.signalReturns.summary;
-  const perf = sum ? sum.regime_performance : null;
   const tt = D.viz.timing_trades && D.viz.timing_trades.track_record;
-  const pct = v => v==null ? 'n/a' : v.toFixed(1)+'%';
+  const st = D.spellTest;
+  const lp = v => v==null ? 'n/a' : ((v>=0?'+':MINUS)+Math.abs(v*100).toFixed(2)+'%');
 
+  // spell-level table from the pre-registered 2006-2026 test
   let tableRows = '';
-  if(perf) for(const r of ['Supportive','Neutral','Restrictive']){
-    const p = perf[r]; if(!p) continue;
-    tableRows += `<tr><td style="color:${regimeColor(r)};font-weight:600">${r}
-      <span style="color:var(--mut);font-weight:400">(n=${p.count})</span></td>
-      <td class="mono">${pct(p.avg_spx_5d)}</td><td class="mono">${pct(p.avg_spx_10d)}</td>
-      <td class="mono">${pct(p.avg_spx_20d)}</td></tr>`;
+  let primary = null, hint5 = null, hint10 = null, exCovid = null;
+  if(st && st.spell && st.spell_ci){
+    for(const r of ['Supportive','Neutral','Restrictive']){
+      const s = st.spell[r] && st.spell[r]['20'];
+      const c = st.spell_ci[r] && st.spell_ci[r]['20'];
+      if(!s) continue;
+      const ci = c && c.lo!=null ? `[${lp(c.lo)}, ${lp(c.hi)}]` : 'n/a';
+      tableRows += `<tr><td style="color:${regimeColor(r)};font-weight:600">${r}
+        <span style="color:var(--mut);font-weight:400">(n=${s.n})</span></td>
+        <td class="mono">${lp(s.lift)}</td><td class="mono" style="font-size:10px">${ci}</td></tr>`;
+    }
+    primary = st.pvals && st.pvals["('spell', 20, 'S_R')"];
+    hint5 = st.pvals && st.pvals["('spell', 5, 'S_R')"];
+    hint10 = st.pvals && st.pvals["('spell', 10, 'S_R')"];
+    exCovid = st.robustness && st.robustness.ex_covid;
   }
-  const spread = perf && perf.Supportive && perf.Restrictive
-    ? (perf.Supportive.avg_spx_20d - perf.Restrictive.avg_spx_20d) : null;
 
   el.innerHTML = `
   <div class="sechdr"><span>Track Record</span><span class="n">III</span></div>
@@ -318,22 +327,28 @@ function renderTrackRecord(D){
     <div><div class="ttl" style="font-size:13px;font-weight:600">Fiscal regime vs S&amp;P 500</div>
       <div class="chartwrap" style="height:240px"><canvas id="ch-link"></canvas></div>
       <p class="caption">20-day average injection (left) against SPX (right).
-        Background bands mark the logged regime: green supportive, red restrictive.</p></div>
+        Background bands mark the logged regime: green supportive, red restrictive.
+        Descriptive, not predictive: see the test at right.</p></div>
     <div>
-      ${spread!=null?`<div class="bigstat"><div class="v mono" style="color:${spread>=0?C.grn:C.ox}">
-        ${(spread>=0?'+':MINUS)+Math.abs(spread).toFixed(1)}%</div>
-        <div class="k">Supportive minus restrictive &middot; avg 20d fwd SPX</div></div>`:''}
-      <table class="rf-table"><thead><tr><th>Regime</th><th>5d</th><th>10d</th><th>20d</th></tr></thead>
-      <tbody>${tableRows||'<tr><td colspan="4" style="font-style:italic">signal_returns.json unavailable</td></tr>'}</tbody></table>
-      <p class="caption">Average forward SPX return after each logged regime state.
-        ${sum?`${sum.total_signals} signals logged.`:''}
-        Association, not causation.</p>
-      ${tt?`<p class="caption" style="margin-top:10px">Timing system: ${tt.n_winners}/${tt.n_closed} closed trades
+      <div class="ttl" style="font-size:13px;font-weight:600">Does the regime time the market?</div>
+      ${primary?`<p class="caption" style="margin:4px 0 8px">Pre-registered test, 2006-2026, one observation
+        per regime spell, entry two sessions after the data date: Supportive minus Restrictive at 20 sessions
+        was <b class="mono">${lp(primary.obs)}</b> (permutation p = <span class="mono">${primary.p.toFixed(2)}</span>).
+        <b>No demonstrated timing value.</b> The regime describes the fiscal state; it is not a trade signal.</p>`:''}
+      <table class="rf-table"><thead><tr><th>Regime</th><th>20d lift</th><th>95% CI</th></tr></thead>
+      <tbody>${tableRows||'<tr><td colspan="3" style="font-style:italic">spell test results unavailable</td></tr>'}</tbody></table>
+      <p class="caption">Lift = average forward SPX log return after spell start minus the unconditional
+        baseline. Every interval spans zero.
+        ${hint5&&hint10?`Shorter horizons showed nominal positives (5d p = ${hint5.p.toFixed(2)},
+        10d p = ${hint10.p.toFixed(2)}) that fail multiple-testing correction and concentrate in 2020
+        ${exCovid?`(ex-COVID: ${lp(exCovid.obs)})`:''}; disclosed, not claimed.`:''}</p>
+      ${tt?`<p class="caption" style="margin-top:10px">Timing system (separate rules): ${tt.n_winners}/${tt.n_closed} closed trades
         positive, ${tt.mean_return_pct>=0?'+':''}${tt.mean_return_pct}% mean return, avg hold ${Math.round(tt.avg_days_held)} days.</p>`:''}
     </div>
   </div>
   <p class="prose" style="margin-top:12px">Every signal logged since ${sum?sum.date_range.first:'inception'},
-    graded against forward returns. <button class="ledgerlink" id="ledger-btn">Full ledger &rarr;</button></p>
+    reconstruction verified against the live log on 100/100 lived-forward days.
+    <button class="ledgerlink" id="ledger-btn">Full ledger &rarr;</button></p>
   <div id="ledger-wrap" hidden></div>`;
 
   // linkage chart from signal_log + spx_series
