@@ -56,7 +56,14 @@ body{background:#efe9df;font-family:'Source Serif 4',Georgia,serif;color:var(--i
 .flownode{fill:var(--panel);stroke:var(--ink);stroke-width:1.1}
 .flowtxt{font-size:10px;fill:var(--ink);font-family:'Source Serif 4',Georgia,serif}
 .flowamt{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600}
-/* TASK3-CSS */ /* TASK4-CSS */ /* TASK5-CSS */
+.chartblock{margin-bottom:6px}
+.chartblock .ttl{font-size:13px;font-weight:600;margin-bottom:2px}
+.chartwrap{position:relative;height:230px;background:var(--panel);border:1px solid var(--hair);padding:8px}
+.subtoggle{display:inline-flex;gap:0;margin:0 0 8px}
+.subtoggle button{font-family:'Source Serif 4',Georgia,serif;font-size:11px;padding:3px 12px;
+  background:var(--paper);border:1px solid var(--hair);color:var(--mut);cursor:pointer}
+.subtoggle button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+/* TASK4-CSS */ /* TASK5-CSS */
 </style>
 </head>
 <body>
@@ -178,7 +185,86 @@ function renderToday(D){
   <p class="caption">Flow of funds, last 20 sessions. Line weight scales with dollar size;
     the gap between spending and receipts is financed at right. Receipts here = taxes + tariffs.</p>`;
 }
-/* TASK3-JS */
+const charts = {};
+const AXIS = (title) => ({
+  x:{grid:{display:false},border:{color:C.hair},
+     ticks:{font:{...serifFont,size:10},color:C.mut,maxRotation:0,autoSkip:true,maxTicksLimit:9}},
+  y:{grid:{color:'#e9e2d4'},border:{display:false},
+     ticks:{font:{...monoFont,size:10},color:C.mut},
+     title:title?{display:true,text:title,color:C.mut,font:{...serifFont,size:10,style:'italic'}}:undefined}
+});
+const TOOLTIP = {backgroundColor:C.ink,titleColor:C.paper,bodyColor:C.paper,cornerRadius:2,
+  padding:10,titleFont:{...monoFont,size:11},bodyFont:{...monoFont,size:11},displayColors:false};
+
+function renderDataSection(D){
+  const el = document.getElementById('sec-data');
+  const rep = D.viz.report||{};
+  el.innerHTML = `
+  <div class="sechdr"><span>The Data</span><span class="n">II</span></div>
+  <div class="chartblock"><div class="ttl">Daily net fiscal flows</div>
+    <div class="chartwrap"><canvas id="ch-daily"></canvas></div>
+    <p class="caption">Core fiscal injection per session, last ${D.viz.daily.length} sessions, with 20-day average.</p>
+  </div>
+  <p class="prose">${md2b(rep.what_changed||'')}</p>
+  <div class="chartblock"><div class="ttl">Cumulative injection &middot; FY${D.viz.meta.fiscal_year} vs FY${D.viz.meta.fiscal_year-1}</div>
+    <div class="subtoggle"><button id="tg-cum" class="on">Cumulative</button><button id="tg-gap">YoY gap</button></div>
+    <div class="chartwrap"><canvas id="ch-cum"></canvas></div>
+  </div>
+  <p class="prose">${md2b(rep.base_case||'')}</p>`;
+
+  // daily bars + 20d line
+  const days = D.viz.daily;
+  const roll = days.map((_,i)=> i<19 ? null :
+    +(days.slice(i-19,i+1).reduce((s,d)=>s+d.cfi,0)/20).toFixed(2));
+  charts.daily = new Chart(document.getElementById('ch-daily'),{
+    data:{labels:days.map(d=>d.date.slice(5)),datasets:[
+      {type:'bar',data:days.map(d=>d.cfi),
+       backgroundColor:days.map(d=>d.cfi>=0?C.grn+'55':C.ox+'55'),
+       borderColor:days.map(d=>d.cfi>=0?C.grn:C.ox),borderWidth:{top:1}},
+      {type:'line',data:roll,borderColor:C.ink,borderWidth:1.5,pointRadius:0,tension:.3}]},
+    options:{animation:false,responsive:true,maintainAspectRatio:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+        label:c=>c.datasetIndex===0?('CFI '+fmtB(c.parsed.y)):('20d avg '+fmtB(c.parsed.y))}}},
+      scales:AXIS('$B / session')}
+  });
+
+  // cumulative vs prior year + gap toggle
+  const fy = String(D.viz.meta.fiscal_year), py = String(D.viz.meta.fiscal_year-1);
+  const cur = D.viz.cumulative[fy]||[], prv = D.viz.cumulative[py]||[];
+  const labels = (prv.length>=cur.length?prv:cur).map(m=>m.month);
+  const mk = (mode) => {
+    if(charts.cum) charts.cum.destroy();
+    const gap = cur.map((m,i)=> prv[i] ? +(m.cum_cfi-prv[i].cum_cfi).toFixed(1) : null);
+    charts.cum = new Chart(document.getElementById('ch-cum'),
+      mode==='gap' ? {
+        type:'bar',
+        data:{labels:labels.slice(0,cur.length),datasets:[{data:gap,
+          backgroundColor:gap.map(v=>v>=0?C.grn+'55':C.ox+'55'),
+          borderColor:gap.map(v=>v>=0?C.grn:C.ox),borderWidth:{top:1}}]},
+        options:{animation:false,responsive:true,maintainAspectRatio:false,
+          plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+            label:c=>'YoY gap '+fmtB(c.parsed.y)}}},scales:AXIS('$B vs prior FY')}
+      } : {
+        type:'line',
+        data:{labels,datasets:[
+          {label:'FY'+fy,data:cur.map(m=>m.cum_cfi),borderColor:C.ox,borderWidth:2,
+           pointRadius:0,tension:.25,fill:{target:'origin',above:C.ox+'12'}},
+          {label:'FY'+py,data:prv.map(m=>m.cum_cfi),borderColor:C.mut,borderWidth:1.3,
+           borderDash:[4,4],pointRadius:0,tension:.25}]},
+        options:{animation:false,responsive:true,maintainAspectRatio:false,
+          interaction:{mode:'index',intersect:false},
+          plugins:{legend:{display:true,labels:{font:{...serifFont,size:11},color:C.sec,
+            boxWidth:18,boxHeight:2}},tooltip:{...TOOLTIP,callbacks:{
+            label:c=>c.dataset.label+' '+fmtB(c.parsed.y)}}},
+          scales:AXIS('$B cumulative')}
+      });
+  };
+  mk('cum');
+  const bC=document.getElementById('tg-cum'), bG=document.getElementById('tg-gap');
+  bC.onclick=()=>{bC.classList.add('on');bG.classList.remove('on');mk('cum');};
+  bG.onclick=()=>{bG.classList.add('on');bC.classList.remove('on');mk('gap');};
+}
 /* TASK4-JS */
 /* TASK5-JS */
 
