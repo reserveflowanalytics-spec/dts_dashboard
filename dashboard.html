@@ -157,6 +157,9 @@ function renderToday(D){
   const spend20 = cfi20 + rec20;
   const iss20 = sum('bills')+sum('coupon');
   const tgaChg = d20[d20.length-1].tga - d20[0].tga;   // >0 build, <0 drawdown
+  // non-core residual so the identity closes exactly:
+  // tgaChg = rec20 + iss20 + other20 - spend20
+  const other20 = tgaChg - rec20 - iss20 + spend20;
   const w = v => Math.max(1.5, Math.min(9, Math.abs(v)/40)); // stroke width per $B
 
   el.innerHTML = `
@@ -178,31 +181,40 @@ function renderToday(D){
     <div class="stat"><div class="k">Regime streak</div>
       <div class="v mono">${streak} days</div></div>
   </div>
-  <svg viewBox="0 0 640 130" style="width:100%;display:block" role="img"
-       aria-label="Flow of funds over the last 20 sessions">
-    <rect class="flownode" x="8" y="46" width="110" height="40" rx="2"/>
-    <text class="flowtxt" x="63" y="63" text-anchor="middle">TREASURY</text>
-    <text class="flowamt" x="63" y="76" text-anchor="middle" fill="${C.ink}">spend $${spend20.toFixed(0)}B</text>
-    <rect class="flownode" x="262" y="46" width="116" height="40" rx="2"/>
-    <text class="flowtxt" x="320" y="63" text-anchor="middle">PRIVATE SECTOR</text>
-    <text class="flowamt" x="320" y="76" text-anchor="middle"
+  <svg viewBox="0 0 640 190" style="width:100%;display:block" role="img"
+       aria-label="Sources and uses of Treasury cash over the last 20 sessions">
+    <rect class="flownode" x="10" y="18" width="104" height="36" rx="2"/>
+    <text class="flowtxt" x="62" y="33" text-anchor="middle">TGA</text>
+    <text class="flowamt" x="62" y="46" text-anchor="middle" fill="${C.ink}">$${cards.tga_level.toFixed(0)}B held</text>
+    <rect class="flownode" x="218" y="76" width="118" height="44" rx="2"/>
+    <text class="flowtxt" x="277" y="94" text-anchor="middle">TREASURY</text>
+    <text class="flowamt" x="277" y="108" text-anchor="middle" fill="${C.ink}">spend $${spend20.toFixed(0)}B</text>
+    <rect class="flownode" x="514" y="76" width="118" height="44" rx="2"/>
+    <text class="flowtxt" x="573" y="94" text-anchor="middle">PRIVATE SECTOR</text>
+    <text class="flowamt" x="573" y="108" text-anchor="middle"
       fill="${cfi20>=0?C.grn:C.ox}">net ${fmtB(cfi20,0)}</text>
-    <rect class="flownode" x="516" y="8" width="112" height="34" rx="2"/>
-    <text class="flowtxt" x="572" y="23" text-anchor="middle">NET ISSUANCE</text>
-    <text class="flowamt" x="572" y="36" text-anchor="middle" fill="${C.ox}">$${Math.abs(iss20).toFixed(0)}B</text>
-    <rect class="flownode" x="516" y="90" width="112" height="34" rx="2"/>
-    <text class="flowtxt" x="572" y="105" text-anchor="middle">TGA ${tgaChg<0?'DRAWDOWN':'BUILD'}</text>
-    <text class="flowamt" x="572" y="118" text-anchor="middle" fill="${C.ox}">$${Math.abs(tgaChg).toFixed(0)}B</text>
-    <path class="flowpath" d="M118,58 L262,58" stroke="${C.grn}" fill="none" stroke-width="${w(spend20)}"/>
-    <path class="flowpath" d="M262,76 L118,76" stroke="${C.ox}" fill="none" stroke-width="${w(rec20)}"/>
-    <path class="flowpath" d="M516,25 C450,30 410,44 378,54" stroke="${C.mut}" fill="none" stroke-width="${w(iss20)}"/>
-    <path class="flowpath" d="${tgaChg<0?'M516,107 C450,102 410,88 378,80':'M378,80 C410,88 450,102 516,107'}"
-      stroke="${C.mut}" fill="none" stroke-width="${w(tgaChg)}"/>
-    <text class="flowamt" x="168" y="50" fill="${C.grn}">spending &rarr;</text>
-    <text class="flowamt" x="160" y="92" fill="${C.ox}">&larr; receipts $${rec20.toFixed(0)}B</text>
+    <rect class="flownode" x="10" y="138" width="104" height="36" rx="2"/>
+    <text class="flowtxt" x="62" y="153" text-anchor="middle">OTHER FLOWS</text>
+    <text class="flowamt" x="62" y="166" text-anchor="middle" fill="${C.mut}">net ${fmtB(other20,0)}</text>
+    <path class="flowpath" d="M336,86 L514,86" stroke="${C.grn}" fill="none" stroke-width="${w(spend20)}"/>
+    <text class="flowamt" x="378" y="74" fill="${C.grn}">spending $${spend20.toFixed(0)}B &rarr;</text>
+    <path class="flowpath" d="M514,104 L336,104" stroke="${C.ox}" fill="none" stroke-width="${w(rec20)}"/>
+    <text class="flowamt" x="378" y="122" fill="${C.ox}">&larr; receipts $${rec20.toFixed(0)}B</text>
+    <path class="flowpath" d="${iss20>=0?'M514,114 C450,148 400,148 336,114':'M336,114 C400,148 450,148 514,114'}"
+      stroke="${C.mut}" fill="none" stroke-width="${w(iss20)}"/>
+    <text class="flowamt" x="352" y="156" fill="${C.mut}">${iss20>=0
+      ?'&larr; issuance cash $'+iss20.toFixed(0)+'B (securities &rarr;)'
+      :'net paydown $'+Math.abs(iss20).toFixed(0)+'B &rarr;'}</text>
+    <path class="flowpath" d="${tgaChg<0?'M114,42 C168,46 196,62 224,76':'M224,76 C196,62 168,46 114,42'}"
+      stroke="${C.ox}" fill="none" stroke-width="${w(tgaChg)}"/>
+    <text class="flowamt" x="128" y="72" fill="${C.ox}">${tgaChg<0?'drawdown':'build'} $${Math.abs(tgaChg).toFixed(0)}B</text>
+    <path class="flowpath" d="${other20<0?'M224,116 C186,126 152,136 114,148':'M114,148 C152,136 186,126 224,116'}"
+      stroke="${C.mut}" fill="none" stroke-width="${Math.max(1,Math.min(6,Math.abs(other20)/60))}" stroke-opacity=".6"/>
   </svg>
-  <p class="caption">Flow of funds, last 20 sessions. Line weight scales with dollar size;
-    the gap between spending and receipts is financed at right. Receipts here = taxes + tariffs.</p>`;
+  <p class="caption">Sources and uses of Treasury cash, last 20 sessions. Spending and receipts are core (CFI)
+    flows; issuance is cash raised from the private sector in exchange for securities; "other flows" nets
+    everything the core measure excludes (refunds, GAS, interest, trust funds) so the arithmetic reconciles
+    exactly with the TGA change of ${fmtB(tgaChg,0)}. Line weight scales with dollar size.</p>`;
 }
 const charts = {};
 const AXIS = (title) => ({
@@ -222,7 +234,7 @@ function renderDataSection(D){
   <div class="sechdr"><span>The Data</span><span class="n">II</span></div>
   <div class="chartblock"><div class="ttl">Daily net fiscal flows</div>
     <div class="chartwrap"><canvas id="ch-daily"></canvas></div>
-    <p class="caption">Core fiscal injection per session, last ${D.viz.daily.length} sessions, with 20-day average.</p>
+    <p class="caption">Core fiscal injection per session, last ${D.viz.daily.length} sessions.</p>
   </div>
   <p class="prose">${md2b(rep.what_changed||'')}</p>
   <div class="chartblock"><div class="ttl">Cumulative injection &middot; FY${D.viz.meta.fiscal_year} vs FY${D.viz.meta.fiscal_year-1}</div>
@@ -231,20 +243,17 @@ function renderDataSection(D){
   </div>
   <p class="prose">${md2b(rep.base_case||'')}</p>`;
 
-  // daily bars + 20d line
+  // daily bars (20d trend lives in the stat row and the Track Record chart)
   const days = D.viz.daily;
-  const roll = days.map((_,i)=> i<19 ? null :
-    +(days.slice(i-19,i+1).reduce((s,d)=>s+d.cfi,0)/20).toFixed(2));
   charts.daily = new Chart(document.getElementById('ch-daily'),{
     data:{labels:days.map(d=>d.date.slice(5)),datasets:[
       {type:'bar',data:days.map(d=>d.cfi),
        backgroundColor:days.map(d=>d.cfi>=0?C.grn+'55':C.ox+'55'),
-       borderColor:days.map(d=>d.cfi>=0?C.grn:C.ox),borderWidth:{top:1}},
-      {type:'line',data:roll,borderColor:C.ink,borderWidth:1.5,pointRadius:0,tension:.3}]},
+       borderColor:days.map(d=>d.cfi>=0?C.grn:C.ox),borderWidth:{top:1}}]},
     options:{animation:false,responsive:true,maintainAspectRatio:false,
       interaction:{mode:'index',intersect:false},
       plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
-        label:c=>c.datasetIndex===0?('CFI '+fmtB(c.parsed.y)):('20d avg '+fmtB(c.parsed.y))}}},
+        label:c=>'CFI '+fmtB(c.parsed.y)}}},
       scales:AXIS('$B / session')}
   });
 

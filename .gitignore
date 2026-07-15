@@ -5,3 +5,4 @@ CLAUDE.md
 generate_*.py
 *.bak
 dashboard_data.json
+.superpowers/
