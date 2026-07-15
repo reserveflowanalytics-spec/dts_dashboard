@@ -36,7 +36,27 @@ body{background:#efe9df;font-family:'Source Serif 4',Georgia,serif;color:var(--i
   letter-spacing:1px;text-transform:uppercase}
 .foot a{color:var(--ox);text-decoration:none}
 @media(max-width:640px){.page{padding:24px 18px}.mast .name{font-size:24px}}
-/* TASK2-CSS */ /* TASK3-CSS */ /* TASK4-CSS */ /* TASK5-CSS */
+.bias-line{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+.bias-k{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ox);font-weight:600}
+.bias-v{font-size:34px;font-weight:700}
+.chip{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:3px 10px;
+  border:1px solid;position:relative;top:-5px}
+.stale{font-size:11px;font-style:italic;color:var(--ox);margin-bottom:8px}
+.lede{font-size:15px;line-height:1.65;color:#2e2a24;margin-bottom:16px}
+.statrow{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--hair);
+  border-bottom:1px solid var(--hair);margin-bottom:20px}
+.stat{padding:9px 10px;border-right:1px solid var(--hair)}
+.stat:last-child{border-right:none}
+.stat .k{font-size:8.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mut)}
+.stat .v{font-size:15px;font-weight:600;font-variant-numeric:tabular-nums;margin-top:2px}
+@media(max-width:640px){.statrow{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:none}}
+.flowpath{stroke-dasharray:6 8;animation:march 1.2s linear infinite}
+@keyframes march{to{stroke-dashoffset:-14}}
+@media(prefers-reduced-motion:reduce){.flowpath{animation:none}}
+.flownode{fill:var(--panel);stroke:var(--ink);stroke-width:1.1}
+.flowtxt{font-size:10px;fill:var(--ink);font-family:'Source Serif 4',Georgia,serif}
+.flowamt{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600}
+/* TASK3-CSS */ /* TASK4-CSS */ /* TASK5-CSS */
 </style>
 </head>
 <body>
@@ -86,7 +106,78 @@ async function loadAll(){
   return { viz, pos, signalLog, signalReturns: sigRet, spx };
 }
 
-/* TASK2-JS */
+function regimeStreak(log){
+  if(!log.length) return 0;
+  const r = log[log.length-1].regime; let n = 0;
+  for(let i=log.length-1;i>=0 && log[i].regime===r;i--) n++;
+  return n;
+}
+
+function renderToday(D){
+  const el = document.getElementById('sec-today');
+  const meta = D.viz.meta, cards = D.viz.cards, rep = D.viz.report || {};
+  const pos = D.pos;
+  const rc = regimeColor(meta.regime);
+  const biasTxt = pos ? pos.bias.charAt(0)+pos.bias.slice(1).toLowerCase() : meta.regime;
+  const conv = pos ? pos.conviction : '';
+  const stale = pos && pos.as_of < meta.latest;
+  const streak = regimeStreak(D.signalLog);
+  const tga5 = (rep.narrative && rep.narrative.tga_5d != null) ? rep.narrative.tga_5d : null;
+
+  // 20d flow sums for the map
+  const d20 = D.viz.daily.slice(-20);
+  const sum = k => d20.reduce((s,d)=>s+(d[k]||0),0);
+  const cfi20 = sum('cfi'), rec20 = sum('taxes')+sum('tariffs');
+  const spend20 = cfi20 + rec20;
+  const iss20 = sum('bills')+sum('coupon');
+  const tgaChg = d20[d20.length-1].tga - d20[0].tga;   // >0 build, <0 drawdown
+  const w = v => Math.max(1.5, Math.min(9, Math.abs(v)/40)); // stroke width per $B
+
+  el.innerHTML = `
+  <div class="bias-line">
+    <span class="bias-k">Today's Bias</span>
+    <span class="bias-v">${biasTxt}</span>
+    <span class="chip" style="color:${rc};border-color:${rc}">${meta.regime}</span>
+    ${conv?`<span class="mono" style="font-size:11px;color:var(--mut)">conviction: ${conv}</span>`:''}
+  </div>
+  ${stale?`<div class="stale">Positioning as of ${pos.as_of}; DTS data through ${meta.latest}.</div>`:''}
+  <p class="lede">${md2b((rep.executive_summary||'').split('. ').slice(0,3).join('. ')+'.')}</p>
+  <div class="statrow">
+    <div class="stat"><div class="k">CFI 20d avg</div>
+      <div class="v mono" style="color:${cards.avg_20d_cfi>=0?C.grn:C.ox}">${fmtB(cards.avg_20d_cfi)}/d</div></div>
+    <div class="stat"><div class="k">CFI 5d avg</div>
+      <div class="v mono" style="color:${cards.avg_5d_cfi>=0?C.grn:C.ox}">${fmtB(cards.avg_5d_cfi)}/d</div></div>
+    <div class="stat"><div class="k">TGA ${tga5!=null?'5d &Delta;':'level'}</div>
+      <div class="v mono">${tga5!=null?fmtB(tga5):'$'+cards.tga_level.toFixed(0)+'B'}</div></div>
+    <div class="stat"><div class="k">Regime streak</div>
+      <div class="v mono">${streak} days</div></div>
+  </div>
+  <svg viewBox="0 0 640 130" style="width:100%;display:block" role="img"
+       aria-label="Flow of funds over the last 20 sessions">
+    <rect class="flownode" x="8" y="46" width="110" height="40" rx="2"/>
+    <text class="flowtxt" x="63" y="63" text-anchor="middle">TREASURY</text>
+    <text class="flowamt" x="63" y="76" text-anchor="middle" fill="${C.ink}">spend $${spend20.toFixed(0)}B</text>
+    <rect class="flownode" x="262" y="46" width="116" height="40" rx="2"/>
+    <text class="flowtxt" x="320" y="63" text-anchor="middle">PRIVATE SECTOR</text>
+    <text class="flowamt" x="320" y="76" text-anchor="middle"
+      fill="${cfi20>=0?C.grn:C.ox}">net ${fmtB(cfi20,0)}</text>
+    <rect class="flownode" x="516" y="8" width="112" height="34" rx="2"/>
+    <text class="flowtxt" x="572" y="23" text-anchor="middle">NET ISSUANCE</text>
+    <text class="flowamt" x="572" y="36" text-anchor="middle" fill="${C.ox}">${fmtB(iss20,0)}</text>
+    <rect class="flownode" x="516" y="90" width="112" height="34" rx="2"/>
+    <text class="flowtxt" x="572" y="105" text-anchor="middle">TGA ${tgaChg<0?'DRAWDOWN':'BUILD'}</text>
+    <text class="flowamt" x="572" y="118" text-anchor="middle" fill="${C.ox}">${fmtB(Math.abs(tgaChg),0)}</text>
+    <path class="flowpath" d="M118,58 L262,58" stroke="${C.grn}" fill="none" stroke-width="${w(spend20)}"/>
+    <path class="flowpath" d="M262,76 L118,76" stroke="${C.ox}" fill="none" stroke-width="${w(rec20)}"/>
+    <path class="flowpath" d="M516,25 C450,30 410,44 378,54" stroke="${C.mut}" fill="none" stroke-width="${w(iss20)}"/>
+    <path class="flowpath" d="${tgaChg<0?'M516,107 C450,102 410,88 378,80':'M378,80 C410,88 450,102 516,107'}"
+      stroke="${C.mut}" fill="none" stroke-width="${w(tgaChg)}"/>
+    <text class="flowamt" x="168" y="50" fill="${C.grn}">spending &rarr;</text>
+    <text class="flowamt" x="160" y="92" fill="${C.ox}">&larr; receipts $${rec20.toFixed(0)}B</text>
+  </svg>
+  <p class="caption">Flow of funds, last 20 sessions. Line weight scales with dollar size;
+    the gap between spending and receipts is financed at right. Receipts here = taxes + tariffs.</p>`;
+}
 /* TASK3-JS */
 /* TASK4-JS */
 /* TASK5-JS */
