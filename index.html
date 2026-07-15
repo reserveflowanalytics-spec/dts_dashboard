@@ -1,512 +1,516 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Reserve Flow Analytics — Signal Tracker</title>
-<meta name="description" content="344+ daily macro signals generated from US Treasury fiscal flow data. Track record, methodology, and live regime."/>
-<link rel="stylesheet" href="rfa-design-system.css"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reserve Flow · Daily Treasury Flow Research</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-/* ── Page-specific styles ── */
-
-.hero{position:relative;padding:var(--sp-16) 0 var(--sp-10);text-align:center;overflow:hidden;background:radial-gradient(circle at 20% 80%,rgba(6,182,212,0.08),transparent 40%),radial-gradient(circle at 80% 20%,rgba(59,130,246,0.06),transparent 40%)}
-.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:0.4}
-.hero-cat{font-size:var(--text-xs);color:var(--accent);text-transform:uppercase;letter-spacing:3px;margin-bottom:var(--sp-3)}
-.hero h1{margin-bottom:var(--sp-3)}
-.hero-sub{font-size:var(--text-md);color:var(--text-secondary);max-width:640px;margin:0 auto var(--sp-6);line-height:1.7}
-.hero-stats{display:flex;gap:var(--sp-8);justify-content:center;flex-wrap:wrap}
-.hero-stat{text-align:center}
-.hero-stat-value{font-size:var(--text-3xl);font-weight:800;font-family:var(--font-mono);color:var(--accent)}
-.hero-stat-label{font-size:var(--text-xs);color:var(--text-secondary);text-transform:uppercase;letter-spacing:1px;margin-top:2px}
-
-/* Current regime banner */
-.regime-banner{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-6);margin-bottom:var(--sp-8);display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--sp-5);text-align:center}
-.regime-banner .rb-label{font-size:var(--text-xs);color:var(--text-secondary);text-transform:uppercase;letter-spacing:1px;margin-bottom:var(--sp-1)}
-.regime-banner .rb-value{font-size:var(--text-xl);font-weight:700;font-family:var(--font-mono)}
-@media(max-width:600px){.regime-banner{grid-template-columns:1fr}}
-
-/* Section styling */
-.section{margin-bottom:var(--sp-16)}
-.section-label{font-size:var(--text-xs);color:var(--accent);text-transform:uppercase;letter-spacing:3px;margin-bottom:var(--sp-2)}
-.section h2{margin-bottom:var(--sp-3)}
-.section-intro{font-size:var(--text-base);color:var(--text-secondary);line-height:1.7;max-width:720px;margin-bottom:var(--sp-6)}
-
-/* Pipeline steps */
-.pipeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--sp-4);margin-bottom:var(--sp-6)}
-.pipe-step{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);position:relative}
-.pipe-step::before{content:attr(data-step);position:absolute;top:var(--sp-3);right:var(--sp-4);font-size:var(--text-4xl);font-weight:800;font-family:var(--font-mono);color:rgba(6,182,212,0.1);line-height:1}
-.pipe-step h3{font-size:var(--text-base);font-weight:700;margin-bottom:var(--sp-2);color:var(--text-primary)}
-.pipe-step p{font-size:var(--text-sm);color:var(--text-secondary);line-height:1.6}
-
-/* Signal components */
-.components{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--sp-4);margin-bottom:var(--sp-6)}
-.comp{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5)}
-.comp-header{display:flex;align-items:center;gap:var(--sp-3);margin-bottom:var(--sp-3)}
-.comp-icon{width:36px;height:36px;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:var(--text-lg);font-weight:700;font-family:var(--font-mono);flex-shrink:0}
-.comp h3{font-size:var(--text-base);font-weight:600}
-.comp p{font-size:var(--text-sm);color:var(--text-secondary);line-height:1.6}
-.comp-source{font-size:var(--text-xs);color:var(--text-dim);margin-top:var(--sp-2);font-family:var(--font-mono)}
-
-/* Track record tables */
-.tr-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-5);margin-bottom:var(--sp-6)}
-@media(max-width:720px){.tr-grid{grid-template-columns:1fr}}
-.tr-card{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5)}
-.tr-card h3{font-size:var(--text-base);font-weight:600;margin-bottom:var(--sp-3)}
-.tr-table{width:100%;border-collapse:collapse;font-size:var(--text-sm)}
-.tr-table th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.5px}
-.tr-table th:not(:first-child){text-align:right}
-.tr-table td{padding:8px 6px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary)}
-.tr-table td:not(:first-child){text-align:right;font-family:var(--font-mono)}
-.tr-table tr:hover{background:rgba(255,255,255,0.02)}
-.hit-good{color:var(--green)}
-.hit-ok{color:var(--yellow)}
-.hit-bad{color:var(--red)}
-
-/* Composite chart */
-.chart-panel{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-6)}
-.chart-panel h3{font-size:var(--text-base);font-weight:600;margin-bottom:var(--sp-3)}
-.chart-wrap{height:300px;position:relative}
-
-/* Signal history */
-.sh-wrap{max-height:480px;overflow-y:auto;border-radius:var(--radius-md);border:1px solid var(--border)}
-.sh-table{width:100%;border-collapse:collapse;font-size:var(--text-sm);font-family:var(--font-mono)}
-.sh-table th{text-align:left;padding:8px 8px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.5px;position:sticky;top:0;background:var(--bg-surface);z-index:1}
-.sh-table td{padding:7px 8px;border-bottom:1px solid var(--border-subtle);color:var(--text-primary);white-space:nowrap}
-.sh-table tr:hover{background:rgba(255,255,255,0.02)}
-.badge{display:inline-block;padding:2px 8px;border-radius:var(--radius-xs);font-size:var(--text-xs);font-weight:600}
-.badge-sup{background:var(--green-bg);color:var(--green)}
-.badge-res{background:var(--red-bg);color:var(--red)}
-.badge-neu{background:var(--accent-bg);color:var(--accent)}
-.badge-bull{background:var(--green-bg);color:var(--green)}
-.badge-bear{background:var(--red-bg);color:var(--red)}
-
-/* Disclaimer */
-.disclaimer{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp-5);margin-bottom:var(--sp-8)}
-.disclaimer p{font-size:var(--text-sm);color:var(--text-dim);line-height:1.7}
-
-/* Footer */
-.footer{text-align:center;padding:var(--sp-8) 0;border-top:1px solid var(--border);font-size:var(--text-xs);color:var(--text-dim)}
-.footer a{color:var(--accent);text-decoration:none}
-.footer a:hover{text-decoration:underline}
-
-/* Loading */
-.loading{text-align:center;padding:var(--sp-10);color:var(--text-secondary)}
-
-/* ── Light theme overrides ── */
-[data-theme="light"] .hero{background:radial-gradient(circle at 20% 80%,rgba(8,145,178,0.06),transparent 40%),radial-gradient(circle at 80% 20%,rgba(37,99,235,0.04),transparent 40%)}
-[data-theme="light"] .hero::after{background:linear-gradient(90deg,transparent,var(--accent),transparent)}
-[data-theme="light"] .pipe-step::before{color:rgba(8,145,178,0.12)}
-[data-theme="light"] .tr-table tr:hover{background:rgba(0,0,0,0.02)}
-[data-theme="light"] .sh-table tr:hover{background:rgba(0,0,0,0.02)}
-[data-theme="light"] .comp-icon[style*="rgba(255,255,255"]{background:rgba(0,0,0,0.04) !important}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+:root{
+  --paper:#faf6ef; --panel:#f5f0e6; --hair:#d8d0c2; --ink:#1c1a17;
+  --sec:#4a453d; --mut:#6b6459; --ox:#8c2332; --grn:#3f6d4e;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#efe9df;font-family:'Source Serif 4',Georgia,serif;color:var(--ink);
+  -webkit-font-smoothing:antialiased;padding:28px 16px}
+.mono{font-family:'JetBrains Mono',monospace}
+.page{max-width:720px;margin:0 auto;background:var(--paper);border:1px solid var(--hair);
+  padding:36px 44px 30px}
+.mast{text-align:center;border-bottom:2.5px solid var(--ink);padding-bottom:13px}
+.mast .name{font-size:31px;font-weight:700;letter-spacing:.5px}
+.mast .tag{font-size:10px;color:var(--mut);letter-spacing:3px;text-transform:uppercase;margin-top:4px}
+.dateline{display:flex;justify-content:space-between;font-size:10px;color:var(--mut);
+  letter-spacing:1.5px;text-transform:uppercase;border-bottom:1px solid var(--hair);
+  padding:7px 2px;margin-bottom:26px}
+.sechdr{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ox);
+  font-weight:600;border-top:1px solid var(--ink);padding-top:8px;margin:32px 0 14px;
+  display:flex;justify-content:space-between}
+.sechdr .n{color:#b7ad9c}
+.caption{font-size:11px;font-style:italic;color:var(--mut);margin-top:6px}
+.prose{font-size:13.5px;line-height:1.68;color:#2e2a24;margin:10px 0 18px}
+.loading{padding:60px 0;text-align:center;font-style:italic;color:var(--mut)}
+.err{padding:40px;text-align:center;color:var(--ox)}
+.disclaimer{font-size:10px;line-height:1.6;color:var(--mut);font-style:italic;margin-top:10px}
+.foot{border-top:2.5px solid var(--ink);margin-top:30px;padding-top:10px;display:flex;
+  justify-content:space-between;flex-wrap:wrap;gap:6px;font-size:10px;color:var(--mut);
+  letter-spacing:1px;text-transform:uppercase}
+.foot a{color:var(--ox);text-decoration:none}
+@media(max-width:640px){.page{padding:24px 18px}.mast .name{font-size:24px}}
+.bias-line{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+.bias-k{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ox);font-weight:600}
+.bias-v{font-size:34px;font-weight:700}
+.chip{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:3px 10px;
+  border:1px solid;position:relative;top:-5px}
+.stale{font-size:11px;font-style:italic;color:var(--ox);margin-bottom:8px}
+.lede{font-size:15px;line-height:1.65;color:#2e2a24;margin-bottom:16px}
+.statrow{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--hair);
+  border-bottom:1px solid var(--hair);margin-bottom:20px}
+.stat{padding:9px 10px;border-right:1px solid var(--hair)}
+.stat:last-child{border-right:none}
+.stat .k{font-size:8.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mut)}
+.stat .v{font-size:15px;font-weight:600;font-variant-numeric:tabular-nums;margin-top:2px}
+@media(max-width:640px){.statrow{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:none}}
+.flowpath{stroke-dasharray:6 8;animation:march 1.2s linear infinite}
+@keyframes march{to{stroke-dashoffset:-14}}
+@media(prefers-reduced-motion:reduce){.flowpath{animation:none}}
+.flownode{fill:var(--panel);stroke:var(--ink);stroke-width:1.1}
+.flowtxt{font-size:10px;fill:var(--ink);font-family:'Source Serif 4',Georgia,serif}
+.flowamt{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600}
+.chartblock{margin-bottom:6px}
+.chartblock .ttl{font-size:13px;font-weight:600;margin-bottom:2px}
+.chartwrap{position:relative;height:230px;background:var(--panel);border:1px solid var(--hair);padding:8px}
+.subtoggle{display:inline-flex;gap:0;margin:0 0 8px}
+.subtoggle button{font-family:'Source Serif 4',Georgia,serif;font-size:11px;padding:3px 12px;
+  background:var(--paper);border:1px solid var(--hair);color:var(--mut);cursor:pointer}
+.subtoggle button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tr-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:18px;align-items:start}
+@media(max-width:640px){.tr-grid{grid-template-columns:1fr}}
+.bigstat{text-align:center;padding:10px 0 2px}
+.bigstat .v{font-size:30px;font-weight:700}
+.bigstat .k{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--mut);margin-top:2px}
+.rf-table{width:100%;border-collapse:collapse;font-size:11px;margin-top:8px}
+.rf-table th{text-align:right;font-size:8.5px;letter-spacing:1px;text-transform:uppercase;
+  color:var(--mut);border-bottom:1px solid var(--ink);padding:4px 6px;font-weight:600}
+.rf-table td{text-align:right;padding:4px 6px;border-bottom:1px solid var(--hair);
+  font-variant-numeric:tabular-nums}
+.rf-table th:first-child,.rf-table td:first-child{text-align:left}
+.ledgerlink{font-size:12px;font-style:italic;color:var(--ox);cursor:pointer;
+  background:none;border:none;font-family:inherit;padding:0}
+#ledger-wrap{max-height:340px;overflow-y:auto;border:1px solid var(--hair);margin-top:8px}
+details.uth{border:1px solid var(--hair);background:var(--panel);padding:10px 14px;margin-top:8px}
+details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--sec)}
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+@media(max-width:640px){.mini-grid{grid-template-columns:1fr}}
+.mini-grid .mt{font-size:11px;font-weight:600;margin-bottom:4px}
+.mini-wrap{position:relative;height:120px;background:var(--paper);border:1px solid var(--hair);padding:4px}
 </style>
 </head>
 <body>
-
-<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light mode">
-  <span id="theme-icon">&#9790;</span> <span id="theme-label">Dark</span>
-</button>
-
-<div class="hero">
-  <div class="container">
-    <div class="hero-cat">Reserve Flow Analytics</div>
-    <h1>Signal Tracker</h1>
-    <p class="hero-sub">Daily macro signals generated from US Treasury fiscal flow data, institutional positioning, and technical regime analysis. Every signal is logged, every call is tracked.</p>
-    <div class="hero-stats">
-      <div class="hero-stat"><div class="hero-stat-value" id="stat-total">--</div><div class="hero-stat-label">Signals Generated</div></div>
-      <div class="hero-stat"><div class="hero-stat-value" id="stat-days">--</div><div class="hero-stat-label">Trading Days Tracked</div></div>
-      <div class="hero-stat"><div class="hero-stat-value" id="stat-since">--</div><div class="hero-stat-label">Tracking Since</div></div>
-    </div>
+<div class="page">
+  <div class="mast">
+    <div class="name">Reserve Flow</div>
+    <div class="tag">Daily Treasury Flow Research</div>
   </div>
+  <div class="dateline">
+    <span id="dl-date">&nbsp;</span><span id="dl-issue">&nbsp;</span><span class="mono">DTS T+1</span>
+  </div>
+  <div class="loading" id="loader">Loading today's issue&hellip;</div>
+  <section id="sec-today" hidden></section>
+  <section id="sec-data" hidden></section>
+  <section id="sec-track" hidden></section>
+  <section id="sec-hood" hidden></section>
+  <div class="foot" id="foot" hidden>
+    <span>Source: US Treasury DTS</span>
+    <span>Reserve Flow Analytics</span>
+    <span><a href="https://reserveflowanalytics.substack.com" target="_blank" rel="noopener">Subscribe for the daily note &rarr;</a></span>
+  </div>
+  <p class="disclaimer">Analytical research, not investment advice. Past signal performance does not guarantee
+    future results. All figures are generated algorithmically from public data (US Treasury, CFTC, FINRA, FRED);
+    no proprietary market data is used. Position sizing, entry timing, and risk management are your responsibility.
+    Contact: <a href="mailto:reserveflowanalytics@gmail.com" style="color:var(--mut)">reserveflowanalytics@gmail.com</a></p>
 </div>
-
-<div class="container">
-
-  <!-- Current Regime -->
-  <div class="regime-banner" id="regime-banner">
-    <div><div class="rb-label">Fiscal Regime</div><div class="rb-value" id="rb-regime">--</div></div>
-    <div><div class="rb-label">Technical Regime</div><div class="rb-value" id="rb-tech">--</div></div>
-    <div><div class="rb-label">Composite Score</div><div class="rb-value" id="rb-composite">--</div></div>
-  </div>
-
-  <!-- What We Track -->
-  <div class="section">
-    <div class="section-label">Methodology</div>
-    <h2>What We Track</h2>
-    <p class="section-intro">Our signals are built from six independent data layers. Each measures a different dimension of liquidity, positioning, or market structure. The composite score combines them into a single daily reading.</p>
-
-    <div class="components">
-      <div class="comp">
-        <div class="comp-header">
-          <div class="comp-icon" style="background:var(--accent-bg);color:var(--accent)">F</div>
-          <h3>Fiscal Regime</h3>
-        </div>
-        <p>Net government spending vs. receipts. When the Treasury spends more than it collects, reserves flow into the private sector (supportive). When it collects more, reserves drain (restrictive).</p>
-        <div class="comp-source">Source: US Treasury Daily Treasury Statement</div>
-      </div>
-
-      <div class="comp">
-        <div class="comp-header">
-          <div class="comp-icon" style="background:var(--blue-bg);color:var(--blue)">T</div>
-          <h3>TGA Balance</h3>
-        </div>
-        <p>The Treasury General Account at the Fed. A rising TGA drains reserves from the banking system; a falling TGA adds them back. Direction and rate of change matter more than level.</p>
-        <div class="comp-source">Source: US Treasury Daily Treasury Statement</div>
-      </div>
-
-      <div class="comp">
-        <div class="comp-header">
-          <div class="comp-icon" style="background:var(--yellow-bg);color:var(--yellow)">C</div>
-          <h3>CFTC Positioning</h3>
-        </div>
-        <p>Commitment of Traders data across 5 contracts: S&P 500, 10-Year, 2-Year, USD, and VIX. Z-scores flag extreme positioning that historically precedes reversals.</p>
-        <div class="comp-source">Source: CFTC Traders in Financial Futures</div>
-      </div>
-
-      <div class="comp">
-        <div class="comp-header">
-          <div class="comp-icon" style="background:var(--green-bg);color:var(--green)">R</div>
-          <h3>Technical Regime</h3>
-        </div>
-        <p>SPX trend, breadth, and momentum indicators combined into a bullish/bearish regime classification. Provides the market structure context that fiscal flows operate within.</p>
-        <div class="comp-source">Source: FRED market data (SPX, yields, VIX, USD)</div>
-      </div>
-
-      <div class="comp">
-        <div class="comp-header">
-          <div class="comp-icon" style="background:var(--red-bg);color:var(--red)">M</div>
-          <h3>Margin Debt</h3>
-        </div>
-        <p>FINRA margin debt levels, momentum, and net balance. Extreme leverage readings historically cluster before drawdowns. Monthly data, z-scored for signal generation.</p>
-        <div class="comp-source">Source: FINRA margin statistics</div>
-      </div>
-
-      <div class="comp">
-        <div class="comp-header">
-          <div class="comp-icon" style="background:rgba(255,255,255,0.06);color:var(--text-primary)">S</div>
-          <h3>Composite Score</h3>
-        </div>
-        <p>Weighted combination of all layers into a single score from -100 (maximum caution) to +100 (maximum opportunity). Includes ETF sector tilt recommendations based on the regime.</p>
-        <div class="comp-source">Derived: weighted combination of all components</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- How Signals Are Generated -->
-  <div class="section">
-    <div class="section-label">Pipeline</div>
-    <h2>How Signals Are Generated</h2>
-    <p class="section-intro">The pipeline runs automatically every evening after the Treasury publishes the Daily Treasury Statement. No human discretion in signal generation; the rules are fixed.</p>
-
-    <div class="pipeline">
-      <div class="pipe-step" data-step="1">
-        <h3>Data Collection</h3>
-        <p>Treasury FiscalData API (3 endpoints), CFTC Socrata API (weekly), FINRA margin statistics (monthly), FRED market data (daily). All fetched automatically.</p>
-      </div>
-      <div class="pipe-step" data-step="2">
-        <h3>Analysis Engine</h3>
-        <p>1,800+ lines of deterministic Python code. Computes net fiscal injection, regime classification, z-scores, momentum, and cross-asset transmission maps. No ML, no black boxes.</p>
-      </div>
-      <div class="pipe-step" data-step="3">
-        <h3>Signal Logging</h3>
-        <p>Each day's reading is appended to an immutable log. Regime, momentum, TGA trend, COT z-scores, tech regime, margin signal, composite score. All timestamped.</p>
-      </div>
-      <div class="pipe-step" data-step="4">
-        <h3>Return Attribution</h3>
-        <p>Forward SPX returns (5, 10, 20 day) are computed against each logged signal. Hit rates are updated nightly. No cherry-picking; every signal is scored.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Track Record -->
-  <div class="section">
-    <div class="section-label">Performance</div>
-    <h2>Track Record</h2>
-    <p class="section-intro">Forward SPX returns measured at 5, 10, and 20 trading days after each signal. Hit rate = percentage of signals where the market moved in the predicted direction.</p>
-
-    <div class="tr-grid" id="track-record">
-      <div class="loading">Loading signal returns...</div>
-    </div>
-
-    <!-- Conditions gauge chart -->
-    <div class="chart-panel">
-      <h3>Market Conditions Gauge vs S&P 500</h3>
-      <p style="font-size:var(--text-sm);color:var(--text-secondary);margin-bottom:var(--sp-3);line-height:1.6">The gauge reads the macro environment, not market direction. <span style="color:var(--green)">Green</span> = conditions favor risk. <span style="color:var(--yellow)">Yellow</span> = neutral/mixed. <span style="color:var(--red)">Red</span> = conditions favor caution. When the gauge turns red before a drawdown, the system is working.</p>
-      <div class="chart-wrap" style="height:340px"><canvas id="compositeChart"></canvas></div>
-    </div>
-  </div>
-
-  <!-- Signal History -->
-  <div class="section">
-    <div class="section-label">Signal Log</div>
-    <h2>Recent Signals</h2>
-    <p class="section-intro">The last 60 trading days of logged signals. Every day the pipeline runs, one row is added. Full history available in the daily Substack briefing.</p>
-
-    <div class="sh-wrap">
-      <table class="sh-table" id="signal-table">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Regime</th>
-            <th>Momentum</th>
-            <th>TGA ($bn)</th>
-            <th>Tech</th>
-            <th>Composite</th>
-            <th>Top Overweight</th>
-          </tr>
-        </thead>
-        <tbody id="signal-body">
-          <tr><td colspan="7" class="loading">Loading signals...</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <!-- Disclaimer -->
-  <div class="disclaimer">
-    <p><strong>Disclaimer:</strong> This is an analytical research tool, not investment advice. Past signal performance does not guarantee future results. The fiscal flow framework provides a lens for understanding reserve mechanics and their transmission to financial markets. All signals are generated algorithmically from public data sources (US Treasury, CFTC, FINRA, FRED). No proprietary market data is used. Position sizing, entry timing, and risk management are your responsibility.</p>
-  </div>
-
-</div>
-
-<div class="footer">
-  <div class="container">
-    Reserve Flow Analytics &mdash; <a href="https://reserveflowanalytics.substack.com" target="_blank">Daily Briefing on Substack</a>
-    <br>&copy; 2026 Reserve Flow Analytics. All rights reserved. Contact: <a href="mailto:reserveflowanalytics@gmail.com">reserveflowanalytics@gmail.com</a>
-  </div>
-</div>
-
 <script>
-const F={
-  num(v,d=1){if(v==null)return'--';return typeof v==='number'?v.toFixed(d):v},
-  pct(v){if(v==null)return'--';return v.toFixed(1)+'%'},
-  hitClass(r){if(r==null)return'';return r>=60?'hit-good':r>=45?'hit-ok':'hit-bad'},
-  regimeBadge(r){if(!r)return'<span class="badge badge-neu">--</span>';const m={'Supportive':'badge-sup','Restrictive':'badge-res','Neutral':'badge-neu'};return`<span class="badge ${m[r]||'badge-neu'}">${r}</span>`},
-  techBadge(t){if(!t)return'<span class="badge badge-neu">--</span>';return`<span class="badge ${t==='bullish'?'badge-bull':'badge-bear'}">${t[0].toUpperCase()+t.slice(1)}</span>`},
-  date(d){const p=d.split('-');return p[1]+'/'+p[2]+'/'+p[0].slice(2)}
-};
+'use strict';
+const C = { paper:'#faf6ef', panel:'#f5f0e6', hair:'#d8d0c2', ink:'#1c1a17',
+            sec:'#4a453d', mut:'#6b6459', ox:'#8c2332', grn:'#3f6d4e' };
+const MINUS = '−';
+function fmtB(n, dp=1){ const s = n<0 ? MINUS : '+'; return s+'$'+Math.abs(n).toFixed(dp)+'B'; }
+function md2b(s){ return (s||'').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>'); }
+function regimeColor(r){ return r==='Supportive'?C.grn : r==='Restrictive'?C.ox : C.mut; }
+function longDate(iso){ return new Date(iso+'T12:00:00Z').toLocaleDateString('en-US',
+  {weekday:'long',year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }
+const serifFont = {family:"'Source Serif 4',Georgia,serif"};
+const monoFont  = {family:"'JetBrains Mono',monospace"};
 
-async function init(){
-  const [logRes,retRes,spxRes]=await Promise.all([
-    fetch('signal_log.jsonl').then(r=>r.text()).catch(()=>null),
-    fetch('signal_returns.json').then(r=>r.json()).catch(()=>null),
-    fetch('spx_series.json').then(r=>r.json()).catch(()=>null)
+async function loadAll(){
+  const j = async (u) => { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) throw new Error(u); return r.json(); };
+  const t = async (u) => { try { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) return null; return r.text(); } catch(e) { return null; } };
+  const [viz, pos, sigTxt, sigRet, spx, spellTest] = await Promise.all([
+    j('viz_data.json'),
+    j('positioning_today.json').catch(()=>null),
+    t('signal_log.jsonl'),
+    j('signal_returns.json').catch(()=>null),
+    j('spx_series.json').catch(()=>null),
+    j('regime_spell_test_results.json').catch(()=>null),
   ]);
-
-  // Parse signal log
-  let signals=[];
-  if(logRes){
-    signals=logRes.trim().split('\n').map(l=>{try{return JSON.parse(l)}catch{return null}}).filter(Boolean);
-  }
-
-  // Hero stats
-  document.getElementById('stat-total').textContent=signals.length;
-  if(signals.length){
-    const first=signals[0].date,last=signals[signals.length-1].date;
-    const d1=new Date(first),d2=new Date(last);
-    const days=Math.round((d2-d1)/(1000*60*60*24));
-    document.getElementById('stat-days').textContent=days;
-    document.getElementById('stat-since').textContent=F.date(first);
-  }
-
-  // Current regime banner
-  if(signals.length){
-    const latest=signals[signals.length-1];
-    const regEl=document.getElementById('rb-regime');
-    regEl.innerHTML=F.regimeBadge(latest.regime);
-    const techEl=document.getElementById('rb-tech');
-    techEl.innerHTML=F.techBadge(latest.tech_regime);
-    const compEl=document.getElementById('rb-composite');
-    if(latest.composite_score!=null){
-      const s=latest.composite_score;
-      compEl.textContent=F.num(s,1);
-      compEl.style.color=s>20?'var(--green)':s<-20?'var(--red)':'var(--yellow)';
-    }
-  }
-
-  // Track record
-  if(retRes&&retRes.summary){
-    renderTrackRecord(retRes.summary);
-  }
-
-  // Signal history table (last 60)
-  if(signals.length){
-    renderSignalTable(signals.slice(-60).reverse());
-  }
-
-  // Conditions gauge chart
-  if(signals.length){
-    renderCompositeChart(signals.filter(s=>s.composite_score!=null),spxRes);
-  }
+  const signalLog = (sigTxt||'').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l));
+  return { viz, pos, signalLog, signalReturns: sigRet, spx, spellTest };
 }
 
-function renderTrackRecord(S){
-  const container=document.getElementById('track-record');
-  let html='';
-
-  // Fiscal regime performance
-  html+=`<div class="tr-card"><h3>Fiscal Regime vs SPX Forward Returns</h3><table class="tr-table">
-    <thead><tr><th>Regime</th><th>Count</th><th>Avg 5d</th><th>Avg 10d</th><th>Avg 20d</th></tr></thead><tbody>`;
-  for(const[name,d] of Object.entries(S.regime_performance||{})){
-    html+=`<tr><td>${name}</td><td>${d.count}</td>
-      <td>${F.num(d.avg_spx_5d,2)}%</td>
-      <td>${F.num(d.avg_spx_10d,2)}%</td>
-      <td>${F.num(d.avg_spx_20d,2)}%</td></tr>`;
-  }
-  html+=`</tbody></table></div>`;
-
-  // Tech regime performance
-  html+=`<div class="tr-card"><h3>Technical Regime vs SPX Forward Returns</h3><table class="tr-table">
-    <thead><tr><th>Regime</th><th>Count</th><th>Avg 5d</th><th>Hit 10d</th><th>Hit 20d</th></tr></thead><tbody>`;
-  for(const[name,d] of Object.entries(S.tech_regime_performance||{})){
-    html+=`<tr><td style="text-transform:capitalize">${name}</td><td>${d.count}</td>
-      <td>${F.num(d.avg_spx_5d,2)}%</td>
-      <td class="${F.hitClass(d.hit_rate_10d?.rate)}">${F.pct(d.hit_rate_10d?.rate)}</td>
-      <td class="${F.hitClass(d.hit_rate_20d?.rate)}">${F.pct(d.hit_rate_20d?.rate)}</td></tr>`;
-  }
-  html+=`</tbody></table></div>`;
-
-  // Combined fiscal + tech
-  html+=`<div class="tr-card"><h3>Combined Fiscal + Technical</h3><table class="tr-table">
-    <thead><tr><th>Combination</th><th>Count</th><th>Avg 5d</th><th>Avg 10d</th><th>Avg 20d</th></tr></thead><tbody>`;
-  for(const[name,d] of Object.entries(S.combined_fiscal_tech||{})){
-    html+=`<tr><td>${name}</td><td>${d.count}</td>
-      <td>${F.num(d.avg_spx_5d,2)}%</td>
-      <td>${F.num(d.avg_spx_10d,2)}%</td>
-      <td>${F.num(d.avg_spx_20d,2)}%</td></tr>`;
-  }
-  html+=`</tbody></table></div>`;
-
-  // COT extremes
-  html+=`<div class="tr-card"><h3>COT Extreme Positioning Signals</h3><table class="tr-table">
-    <thead><tr><th>Signal</th><th>Count</th><th>Hit 5d</th><th>Hit 10d</th><th>Hit 20d</th></tr></thead><tbody>`;
-  for(const[key,d] of Object.entries(S.cot_performance||{})){
-    const label=key.replace(/_/g,' ').replace(/(\b\w)/g,c=>c.toUpperCase());
-    html+=`<tr><td>${label}</td><td>${d.count}</td>
-      <td class="${F.hitClass(d.hit_rate_5d?.rate)}">${F.pct(d.hit_rate_5d?.rate)}</td>
-      <td class="${F.hitClass(d.hit_rate_10d?.rate)}">${F.pct(d.hit_rate_10d?.rate)}</td>
-      <td class="${F.hitClass(d.hit_rate_20d?.rate)}">${F.pct(d.hit_rate_20d?.rate)}</td></tr>`;
-  }
-  html+=`</tbody></table></div>`;
-
-  container.innerHTML=html;
+function regimeStreak(log){
+  if(!log.length) return 0;
+  const r = log[log.length-1].regime; let n = 0;
+  for(let i=log.length-1;i>=0 && log[i].regime===r;i--) n++;
+  return n;
 }
 
-function renderSignalTable(signals){
-  const body=document.getElementById('signal-body');
-  body.innerHTML=signals.map(s=>`<tr>
-    <td>${s.date}</td>
-    <td>${F.regimeBadge(s.regime)}</td>
-    <td>${s.regime_momentum||'--'}</td>
-    <td>${F.num(s.tga_level,1)}</td>
-    <td>${F.techBadge(s.tech_regime)}</td>
-    <td style="color:${(s.composite_score||0)>20?'var(--green)':(s.composite_score||0)<-20?'var(--red)':'var(--yellow)'}">${F.num(s.composite_score,1)}</td>
-    <td style="font-family:var(--font-body);font-size:var(--text-xs)">${s.etf_top_overweight||'--'}</td>
-  </tr>`).join('');
+function renderToday(D){
+  const el = document.getElementById('sec-today');
+  const meta = D.viz.meta, cards = D.viz.cards, rep = D.viz.report || {};
+  const pos = D.pos;
+  const rc = regimeColor(meta.regime);
+  const biasTxt = pos ? pos.bias.charAt(0)+pos.bias.slice(1).toLowerCase() : meta.regime;
+  const conv = pos ? pos.conviction : '';
+  const stale = pos && pos.as_of < meta.latest;
+  const streak = regimeStreak(D.signalLog);
+  const tga5 = (D.viz.narrative && D.viz.narrative.tga_5d != null) ? D.viz.narrative.tga_5d : null;
+
+  // 20d flow sums for the map
+  const d20 = D.viz.daily.slice(-20);
+  const sum = k => d20.reduce((s,d)=>s+(d[k]||0),0);
+  const cfi20 = sum('cfi'), rec20 = sum('taxes')+sum('tariffs');
+  const spend20 = cfi20 + rec20;
+  const iss20 = sum('bills')+sum('coupon');
+  const tgaChg = d20[d20.length-1].tga - d20[0].tga;   // >0 build, <0 drawdown
+  // non-core residual so the identity closes exactly:
+  // tgaChg = rec20 + iss20 + other20 - spend20
+  const other20 = tgaChg - rec20 - iss20 + spend20;
+  const w = v => Math.max(1.5, Math.min(9, Math.abs(v)/40)); // stroke width per $B
+
+  el.innerHTML = `
+  <div class="bias-line">
+    <span class="bias-k">Today's Bias</span>
+    <span class="bias-v">${biasTxt}</span>
+    <span class="chip" style="color:${rc};border-color:${rc}">${meta.regime}</span>
+    ${conv?`<span class="mono" style="font-size:11px;color:var(--mut)">conviction: ${conv}</span>`:''}
+  </div>
+  ${stale?`<div class="stale">Positioning as of ${pos.as_of}; DTS data through ${meta.latest}.</div>`:''}
+  <p class="lede">${md2b((rep.executive_summary||'').split('. ').slice(0,3).join('. ')+'.')}</p>
+  <div class="statrow">
+    <div class="stat"><div class="k">CFI 20d avg</div>
+      <div class="v mono" style="color:${cards.avg_20d_cfi>=0?C.grn:C.ox}">${fmtB(cards.avg_20d_cfi)}/d</div></div>
+    <div class="stat"><div class="k">CFI 5d avg</div>
+      <div class="v mono" style="color:${cards.avg_5d_cfi>=0?C.grn:C.ox}">${fmtB(cards.avg_5d_cfi)}/d</div></div>
+    <div class="stat"><div class="k">TGA ${tga5!=null?'5d &Delta;':'level'}</div>
+      <div class="v mono">${tga5!=null?fmtB(tga5):'$'+cards.tga_level.toFixed(0)+'B'}</div></div>
+    <div class="stat"><div class="k">Regime streak</div>
+      <div class="v mono">${streak} days</div></div>
+  </div>
+  <svg viewBox="0 0 640 190" style="width:100%;display:block" role="img"
+       aria-label="Sources and uses of Treasury cash over the last 20 sessions">
+    <rect class="flownode" x="10" y="18" width="104" height="36" rx="2"/>
+    <text class="flowtxt" x="62" y="33" text-anchor="middle">TGA</text>
+    <text class="flowamt" x="62" y="46" text-anchor="middle" fill="${C.ink}">$${cards.tga_level.toFixed(0)}B held</text>
+    <rect class="flownode" x="218" y="76" width="118" height="44" rx="2"/>
+    <text class="flowtxt" x="277" y="94" text-anchor="middle">TREASURY</text>
+    <text class="flowamt" x="277" y="108" text-anchor="middle" fill="${C.ink}">spend $${spend20.toFixed(0)}B</text>
+    <rect class="flownode" x="514" y="76" width="118" height="44" rx="2"/>
+    <text class="flowtxt" x="573" y="94" text-anchor="middle">PRIVATE SECTOR</text>
+    <text class="flowamt" x="573" y="108" text-anchor="middle"
+      fill="${cfi20>=0?C.grn:C.ox}">net ${fmtB(cfi20,0)}</text>
+    <rect class="flownode" x="10" y="138" width="104" height="36" rx="2"/>
+    <text class="flowtxt" x="62" y="153" text-anchor="middle">OTHER FLOWS</text>
+    <text class="flowamt" x="62" y="166" text-anchor="middle" fill="${C.mut}">net ${fmtB(other20,0)}</text>
+    <path class="flowpath" d="M336,86 L514,86" stroke="${C.grn}" fill="none" stroke-width="${w(spend20)}"/>
+    <text class="flowamt" x="378" y="74" fill="${C.grn}">spending $${spend20.toFixed(0)}B &rarr;</text>
+    <path class="flowpath" d="M514,104 L336,104" stroke="${C.ox}" fill="none" stroke-width="${w(rec20)}"/>
+    <text class="flowamt" x="378" y="122" fill="${C.ox}">&larr; receipts $${rec20.toFixed(0)}B</text>
+    <path class="flowpath" d="${iss20>=0?'M514,114 C450,148 400,148 336,114':'M336,114 C400,148 450,148 514,114'}"
+      stroke="${C.mut}" fill="none" stroke-width="${w(iss20)}"/>
+    <text class="flowamt" x="352" y="156" fill="${C.mut}">${iss20>=0
+      ?'&larr; issuance cash $'+iss20.toFixed(0)+'B (securities &rarr;)'
+      :'net paydown $'+Math.abs(iss20).toFixed(0)+'B &rarr;'}</text>
+    <path class="flowpath" d="${tgaChg<0?'M114,42 C168,46 196,62 224,76':'M224,76 C196,62 168,46 114,42'}"
+      stroke="${C.ox}" fill="none" stroke-width="${w(tgaChg)}"/>
+    <text class="flowamt" x="128" y="72" fill="${C.ox}">${tgaChg<0?'drawdown':'build'} $${Math.abs(tgaChg).toFixed(0)}B</text>
+    <path class="flowpath" d="${other20<0?'M224,116 C186,126 152,136 114,148':'M114,148 C152,136 186,126 224,116'}"
+      stroke="${C.mut}" fill="none" stroke-width="${Math.max(1,Math.min(6,Math.abs(other20)/60))}" stroke-opacity=".6"/>
+  </svg>
+  <p class="caption">Sources and uses of Treasury cash, last 20 sessions. Spending and receipts are core (CFI)
+    flows; issuance is cash raised from the private sector in exchange for securities; "other flows" nets
+    everything the core measure excludes (refunds, GAS, interest, trust funds) so the arithmetic reconciles
+    exactly with the TGA change of ${fmtB(tgaChg,0)}. Line weight scales with dollar size.</p>`;
 }
+const charts = {};
+const AXIS = (title) => ({
+  x:{grid:{display:false},border:{color:C.hair},
+     ticks:{font:{...serifFont,size:10},color:C.mut,maxRotation:0,autoSkip:true,maxTicksLimit:9}},
+  y:{grid:{color:'#e9e2d4'},border:{display:false},
+     ticks:{font:{...monoFont,size:10},color:C.mut},
+     title:title?{display:true,text:title,color:C.mut,font:{...serifFont,size:10,style:'italic'}}:undefined}
+});
+const TOOLTIP = {backgroundColor:C.ink,titleColor:C.paper,bodyColor:C.paper,cornerRadius:2,
+  padding:10,titleFont:{...monoFont,size:11},bodyFont:{...monoFont,size:11},displayColors:false};
 
-function renderCompositeChart(signals,spxData){
-  const ctx=document.getElementById('compositeChart');
-  if(!ctx||!signals.length)return;
+function renderDataSection(D){
+  const el = document.getElementById('sec-data');
+  const rep = D.viz.report||{};
+  el.innerHTML = `
+  <div class="sechdr"><span>The Data</span><span class="n">II</span></div>
+  <div class="chartblock"><div class="ttl">Daily net fiscal flows</div>
+    <div class="chartwrap"><canvas id="ch-daily"></canvas></div>
+    <p class="caption">Core fiscal injection per session, last ${D.viz.daily.length} sessions.</p>
+  </div>
+  <p class="prose">${md2b(rep.what_changed||'')}</p>
+  <div class="chartblock"><div class="ttl">Cumulative injection &middot; FY${D.viz.meta.fiscal_year} vs FY${D.viz.meta.fiscal_year-1}</div>
+    <div class="subtoggle"><button id="tg-cum" class="on">Cumulative</button><button id="tg-gap">YoY gap</button></div>
+    <div class="chartwrap"><canvas id="ch-cum"></canvas></div>
+  </div>
+  <p class="prose">${md2b(rep.base_case||'')}</p>`;
 
-  const dates=signals.map(s=>s.date);
-  const scores=signals.map(s=>s.composite_score);
-  const colors=scores.map(s=>s>20?'rgba(16,185,129,0.7)':s<-20?'rgba(239,68,68,0.7)':'rgba(245,158,11,0.7)');
-
-  // Build SPX line aligned to signal dates
-  let spxPoints=[];
-  if(spxData){
-    spxPoints=dates.map(d=>spxData[d]!=null?spxData[d]:null);
-  }
-
-  const datasets=[{
-    type:'bar',
-    label:'Conditions Gauge',
-    data:scores,
-    backgroundColor:colors,
-    borderWidth:0,
-    borderRadius:2,
-    barPercentage:1,
-    categoryPercentage:0.9,
-    yAxisID:'y',
-    order:2
-  }];
-
-  if(spxPoints.some(v=>v!=null)){
-    datasets.push({
-      type:'line',
-      label:'S&P 500',
-      data:spxPoints,
-      borderColor:'rgba(59,130,246,0.8)',
-      borderWidth:2,
-      pointRadius:0,
-      pointHoverRadius:4,
-      tension:0.3,
-      spanGaps:true,
-      yAxisID:'y1',
-      order:1
-    });
-  }
-
-  new Chart(ctx,{
-    data:{labels:dates,datasets},
-    options:{
-      responsive:true,
-      maintainAspectRatio:false,
+  // daily bars (20d trend lives in the stat row and the Track Record chart)
+  const days = D.viz.daily;
+  charts.daily = new Chart(document.getElementById('ch-daily'),{
+    data:{labels:days.map(d=>d.date.slice(5)),datasets:[
+      {type:'bar',data:days.map(d=>d.cfi),
+       backgroundColor:days.map(d=>d.cfi>=0?C.grn+'55':C.ox+'55'),
+       borderColor:days.map(d=>d.cfi>=0?C.grn:C.ox),borderWidth:{top:1}}]},
+    options:{animation:false,responsive:true,maintainAspectRatio:false,
       interaction:{mode:'index',intersect:false},
-      plugins:{
-        legend:{display:true,labels:{color:'#94A3B8',font:{size:11,family:'Inter'},boxWidth:12,padding:16}},
-        tooltip:{
-          callbacks:{
-            title:items=>items[0].label,
-            label:item=>{
-              if(item.dataset.label==='S&P 500')return'SPX: '+item.raw.toFixed(0);
-              return'Gauge: '+item.raw.toFixed(1);
-            }
-          }
-        }
-      },
-      scales:{
-        x:{display:true,ticks:{maxTicksLimit:12,font:{size:10},color:'#555'},grid:{display:false}},
-        y:{display:true,position:'left',title:{display:true,text:'Conditions Gauge',color:'#555',font:{size:10}},
-          ticks:{font:{size:10,family:'JetBrains Mono'},color:'#555'},grid:{color:'rgba(255,255,255,0.04)'},
-          suggestedMin:-100,suggestedMax:100},
-        y1:{display:true,position:'right',title:{display:true,text:'S&P 500',color:'rgba(59,130,246,0.6)',font:{size:10}},
-          ticks:{font:{size:10,family:'JetBrains Mono'},color:'rgba(59,130,246,0.5)'},grid:{display:false}}
-      }
+      plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+        label:c=>'CFI '+fmtB(c.parsed.y)}}},
+      scales:AXIS('$B / session')}
+  });
+
+  // cumulative vs prior year + gap toggle
+  const fy = String(D.viz.meta.fiscal_year), py = String(D.viz.meta.fiscal_year-1);
+  const cur = D.viz.cumulative[fy]||[], prv = D.viz.cumulative[py]||[];
+  const labels = (prv.length>=cur.length?prv:cur).map(m=>m.month);
+  const mk = (mode) => {
+    if(charts.cum) charts.cum.destroy();
+    const gap = cur.map((m,i)=> prv[i] ? +(m.cum_cfi-prv[i].cum_cfi).toFixed(1) : null);
+    charts.cum = new Chart(document.getElementById('ch-cum'),
+      mode==='gap' ? {
+        type:'bar',
+        data:{labels:labels.slice(0,cur.length),datasets:[{data:gap,
+          backgroundColor:gap.map(v=>v>=0?C.grn+'55':C.ox+'55'),
+          borderColor:gap.map(v=>v>=0?C.grn:C.ox),borderWidth:{top:1}}]},
+        options:{animation:false,responsive:true,maintainAspectRatio:false,
+          plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+            label:c=>'YoY gap '+fmtB(c.parsed.y)}}},scales:AXIS('$B vs prior FY')}
+      } : {
+        type:'line',
+        data:{labels,datasets:[
+          {label:'FY'+fy,data:cur.map(m=>m.cum_cfi),borderColor:C.ox,borderWidth:2,
+           pointRadius:0,tension:.25,fill:{target:'origin',above:C.ox+'12'}},
+          {label:'FY'+py,data:prv.map(m=>m.cum_cfi),borderColor:C.mut,borderWidth:1.3,
+           borderDash:[4,4],pointRadius:0,tension:.25}]},
+        options:{animation:false,responsive:true,maintainAspectRatio:false,
+          interaction:{mode:'index',intersect:false},
+          plugins:{legend:{display:true,labels:{font:{...serifFont,size:11},color:C.sec,
+            boxWidth:18,boxHeight:2}},tooltip:{...TOOLTIP,callbacks:{
+            label:c=>c.dataset.label+' '+fmtB(c.parsed.y)}}},
+          scales:AXIS('$B cumulative')}
+      });
+  };
+  mk('cum');
+  const bC=document.getElementById('tg-cum'), bG=document.getElementById('tg-gap');
+  bC.onclick=()=>{bC.classList.add('on');bG.classList.remove('on');mk('cum');};
+  bG.onclick=()=>{bG.classList.add('on');bC.classList.remove('on');mk('gap');};
+}
+
+function renderTrackRecord(D){
+  const el = document.getElementById('sec-track');
+  const sum = D.signalReturns && D.signalReturns.summary;
+  const tt = D.viz.timing_trades && D.viz.timing_trades.track_record;
+  const st = D.spellTest;
+  const lp = v => v==null ? 'n/a' : ((v>=0?'+':MINUS)+Math.abs(v*100).toFixed(2)+'%');
+
+  // spell-level table from the pre-registered 2006-2026 test
+  let tableRows = '';
+  let primary = null, hint5 = null, hint10 = null, exCovid = null;
+  if(st && st.spell && st.spell_ci){
+    for(const r of ['Supportive','Neutral','Restrictive']){
+      const s = st.spell[r] && st.spell[r]['20'];
+      const c = st.spell_ci[r] && st.spell_ci[r]['20'];
+      if(!s) continue;
+      const ci = c && c.lo!=null ? `[${lp(c.lo)}, ${lp(c.hi)}]` : 'n/a';
+      tableRows += `<tr><td style="color:${regimeColor(r)};font-weight:600">${r}
+        <span style="color:var(--mut);font-weight:400">(n=${s.n})</span></td>
+        <td class="mono">${lp(s.lift)}</td><td class="mono" style="font-size:10px">${ci}</td></tr>`;
     }
+    primary = st.pvals && st.pvals["('spell', 20, 'S_R')"];
+    hint5 = st.pvals && st.pvals["('spell', 5, 'S_R')"];
+    hint10 = st.pvals && st.pvals["('spell', 10, 'S_R')"];
+    exCovid = st.robustness && st.robustness.ex_covid;
+  }
+
+  el.innerHTML = `
+  <div class="sechdr"><span>Track Record</span><span class="n">III</span></div>
+  <div class="tr-grid">
+    <div><div class="ttl" style="font-size:13px;font-weight:600">Fiscal regime vs S&amp;P 500</div>
+      <div class="chartwrap" style="height:240px"><canvas id="ch-link"></canvas></div>
+      <p class="caption">20-day average injection (left) against SPX (right).
+        Background bands mark the logged regime: green supportive, red restrictive.
+        Descriptive, not predictive: see the test at right.</p></div>
+    <div>
+      <div class="ttl" style="font-size:13px;font-weight:600">Does the regime time the market?</div>
+      ${primary?`<p class="caption" style="margin:4px 0 8px">Pre-registered test, 2006-2026, one observation
+        per regime spell, entry two sessions after the data date: Supportive minus Restrictive at 20 sessions
+        was <b class="mono">${lp(primary.obs)}</b> (permutation p = <span class="mono">${primary.p.toFixed(2)}</span>).
+        <b>No demonstrated timing value.</b> The regime describes the fiscal state; it is not a trade signal.</p>`:''}
+      <table class="rf-table"><thead><tr><th>Regime</th><th>20d lift</th><th>95% CI</th></tr></thead>
+      <tbody>${tableRows||'<tr><td colspan="3" style="font-style:italic">spell test results unavailable</td></tr>'}</tbody></table>
+      <p class="caption">Lift = average forward SPX log return after spell start minus the unconditional
+        baseline. Every interval spans zero.
+        ${hint5&&hint10?`Shorter horizons showed nominal positives (5d p = ${hint5.p.toFixed(2)},
+        10d p = ${hint10.p.toFixed(2)}) that fail multiple-testing correction and concentrate in 2020
+        ${exCovid?`(ex-COVID: ${lp(exCovid.obs)})`:''}; disclosed, not claimed.`:''}</p>
+      ${tt?`<p class="caption" style="margin-top:10px">Timing system (separate rules): ${tt.n_winners}/${tt.n_closed} closed trades
+        positive, ${tt.mean_return_pct>=0?'+':''}${tt.mean_return_pct}% mean return, avg hold ${Math.round(tt.avg_days_held)} days.</p>`:''}
+    </div>
+  </div>
+  <p class="prose" style="margin-top:12px">Every signal logged since ${sum?sum.date_range.first:'inception'},
+    reconstruction verified against the live log on 100/100 lived-forward days.
+    <button class="ledgerlink" id="ledger-btn">Full ledger &rarr;</button></p>
+  <div id="ledger-wrap" hidden></div>`;
+
+  // linkage chart from signal_log + spx_series
+  const log = D.signalLog, spx = D.spx||{};
+  const keys = Object.keys(spx).sort();
+  const near = d => { if(spx[d]!==undefined) return spx[d];
+    let lo=0,hi=keys.length-1,best=null;
+    while(lo<=hi){const m=(lo+hi)>>1; if(keys[m]<=d){best=keys[m];lo=m+1;}else hi=m-1;}
+    return best?spx[best]:null; };
+  const bands = {id:'bands',beforeDraw(ch){
+    const {ctx,chartArea:a,scales:{x}} = ch; if(!a) return;
+    log.forEach((e,i)=>{
+      if(e.regime==='Neutral') return;
+      const x0 = x.getPixelForValue(i-0.5), x1 = x.getPixelForValue(i+0.5);
+      ctx.fillStyle = e.regime==='Supportive' ? 'rgba(63,109,78,0.10)' : 'rgba(140,35,50,0.08)';
+      ctx.fillRect(x0, a.top, x1-x0, a.bottom-a.top);
+    });
+  }};
+  charts.link = new Chart(document.getElementById('ch-link'),{
+    type:'line',
+    data:{labels:log.map(e=>e.date),datasets:[
+      {data:log.map(e=>+(e.net_fiscal_injection_20d/1000).toFixed(2)),yAxisID:'y',
+       borderColor:C.ink,borderWidth:1.5,pointRadius:0,tension:.3},
+      {data:log.map(e=>near(e.date)),yAxisID:'y1',
+       borderColor:C.ox,borderWidth:1.5,pointRadius:0,tension:.2}]},
+    options:{animation:false,responsive:true,maintainAspectRatio:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+        label:c=>c.datasetIndex===0?('CFI 20d '+fmtB(c.parsed.y)+'/d'):('SPX '+c.parsed.y.toFixed(0))}}},
+      scales:{
+        x:{grid:{display:false},border:{color:C.hair},
+           ticks:{font:{...serifFont,size:10},color:C.mut,maxRotation:0,autoSkip:true,maxTicksLimit:8,
+             callback(v){const d=this.getLabelForValue(v);return d.slice(0,7);}}},
+        y:{position:'left',grid:{color:'#e9e2d4'},border:{display:false},
+           ticks:{font:{...monoFont,size:10},color:C.mut,callback:v=>v+'B/d'}},
+        y1:{position:'right',grid:{display:false},border:{display:false},
+           ticks:{font:{...monoFont,size:10},color:C.ox}}}},
+    plugins:[bands]
+  });
+
+  // ledger toggle: last 60 entries, newest first
+  document.getElementById('ledger-btn').onclick = () => {
+    const w = document.getElementById('ledger-wrap');
+    if(!w.hidden){ w.hidden = true; return; }
+    if(!w.innerHTML){
+      const rows = log.slice(-60).reverse().map(e=>`<tr>
+        <td class="mono">${e.date}</td>
+        <td style="color:${regimeColor(e.regime)};text-align:left">${e.regime}</td>
+        <td style="text-align:left">${e.regime_momentum||''}</td>
+        <td class="mono">$${(e.tga_level||0).toFixed(0)}B</td>
+        <td style="text-align:left">${e.tga_trend||''}</td>
+        <td style="text-align:left">${e.composite_label||''}</td></tr>`).join('');
+      w.innerHTML = `<table class="rf-table"><thead><tr><th style="text-align:left">Date</th>
+        <th style="text-align:left">Regime</th><th style="text-align:left">Momentum</th>
+        <th>TGA</th><th style="text-align:left">Trend</th><th style="text-align:left">Composite</th>
+        </tr></thead><tbody>${rows}</tbody></table>`;
+    }
+    w.hidden = false;
+  };
+}
+function setupUnderHood(D){
+  const el = document.getElementById('sec-hood');
+  el.innerHTML = `
+  <div class="sechdr"><span>Under the Hood</span><span class="n">IV</span></div>
+  <details class="uth" id="uth-comp">
+    <summary>Receipts &amp; spending composition &middot; taxes, transfers, interest, tariffs</summary>
+    <div class="mini-grid">
+      ${['taxes','hh','interest','tariffs'].map(k=>`<div>
+        <div class="mt">${{taxes:'Tax receipts',hh:'Household transfers',
+          interest:'Interest payments',tariffs:'Tariff receipts'}[k]}</div>
+        <div class="mini-wrap"><canvas id="mini-${k}"></canvas></div></div>`).join('')}
+    </div>
+    <p class="caption">Monthly totals, FY${D.viz.meta.fiscal_year} bars vs FY${D.viz.meta.fiscal_year-1} dashed.</p>
+  </details>
+  <details class="uth" id="uth-iss">
+    <summary>Issuance mix &middot; bills vs coupons, last 12 weeks</summary>
+    <div class="chartwrap" style="height:180px;margin-top:12px"><canvas id="ch-iss"></canvas></div>
+    <p class="caption">Net weekly settlement: positive = cash drained to fund issuance.</p>
+  </details>
+  <details class="uth" id="uth-about">
+    <summary>About the framework &middot; data, definitions, method</summary>
+    <div style="font-size:12.5px;line-height:1.65;color:var(--sec);margin-top:10px">
+      <p style="margin-bottom:8px">Every figure on this page is computed algorithmically from public data:
+      the US Treasury's Daily Treasury Statement (published the next business day), CFTC positioning,
+      FINRA margin data, and FRED. Core fiscal injection (CFI) is spending into the private sector minus
+      taxes and other core receipts; positive means the government added net financial assets that day.</p>
+      <p style="margin-bottom:8px">The regime label (Supportive / Neutral / Restrictive) describes the current
+      fiscal state from month-to-date flows, their year-over-year pace, and short-vs-medium momentum.
+      It is a description, not a prediction: our pre-registered 2006-2026 test found no reliable forward
+      SPX edge from the label alone, and the Track Record section reports that result rather than hiding it.
+      Where we do claim timing value (the trade signals), the claims come from separately tested rules
+      and every signal is logged the day it fires.</p>
+    </div>
+  </details>`;
+
+  const fy = String(D.viz.meta.fiscal_year), py = String(D.viz.meta.fiscal_year-1);
+  const cur = D.viz.cumulative[fy]||[], prv = D.viz.cumulative[py]||[];
+
+  document.getElementById('uth-comp').addEventListener('toggle', function once(ev){
+    if(!ev.target.open || charts.mini_taxes) return;
+    for(const k of ['taxes','hh','interest','tariffs']){
+      charts['mini_'+k] = new Chart(document.getElementById('mini-'+k),{
+        data:{labels:prv.map(m=>m.month),datasets:[
+          {type:'bar',data:cur.map(m=>m[k]),backgroundColor:C.grn+'44',
+           borderColor:C.grn,borderWidth:{top:1}},
+          {type:'line',data:prv.map(m=>m[k]),borderColor:C.mut,borderWidth:1.2,
+           borderDash:[4,4],pointRadius:0,tension:.25}]},
+        options:{animation:false,responsive:true,maintainAspectRatio:false,
+          plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+            label:c=>(c.datasetIndex===0?'FY'+fy+' ':'FY'+py+' ')+fmtB(c.parsed.y,0)}}},
+          scales:{x:{grid:{display:false},border:{color:C.hair},
+              ticks:{font:{...serifFont,size:8.5},color:C.mut}},
+            y:{grid:{display:false},border:{display:false},
+              ticks:{font:{...monoFont,size:8.5},color:C.mut,maxTicksLimit:4}}}}
+      });
+    }
+  });
+
+  document.getElementById('uth-iss').addEventListener('toggle', function(ev){
+    if(!ev.target.open || charts.iss) return;
+    const wk = D.viz.weekly||[];
+    charts.iss = new Chart(document.getElementById('ch-iss'),{
+      type:'bar',
+      data:{labels:wk.map(w=>w.week.replace('20','').replace('-W','w')),datasets:[
+        {label:'Bills',data:wk.map(w=>w.bills),backgroundColor:C.mut+'66',borderColor:C.mut,borderWidth:{top:1}},
+        {label:'Coupons',data:wk.map(w=>w.coupon),backgroundColor:C.ox+'55',borderColor:C.ox,borderWidth:{top:1}}]},
+      options:{animation:false,responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:true,labels:{font:{...serifFont,size:11},color:C.sec,boxWidth:12}},
+          tooltip:{...TOOLTIP,callbacks:{label:c=>c.dataset.label+' '+fmtB(c.parsed.y)}}},
+        scales:{x:{stacked:true,grid:{display:false},border:{color:C.hair},
+            ticks:{font:{...monoFont,size:9},color:C.mut}},
+          y:{stacked:true,grid:{color:'#e9e2d4'},border:{display:false},
+            ticks:{font:{...monoFont,size:10},color:C.mut}}}}
+    });
   });
 }
 
-init().catch(e=>console.error('Init failed:',e));
-
-// Theme toggle (shared with dashboard.html)
-function toggleTheme(){
-  const html=document.documentElement;
-  const isLight=html.getAttribute('data-theme')==='light';
-  if(isLight){
-    html.removeAttribute('data-theme');
-    document.getElementById('theme-icon').innerHTML='&#9790;';
-    document.getElementById('theme-label').textContent='Dark';
-    localStorage.setItem('rfa-theme','dark');
-  }else{
-    html.setAttribute('data-theme','light');
-    document.getElementById('theme-icon').innerHTML='&#9788;';
-    document.getElementById('theme-label').textContent='Light';
-    localStorage.setItem('rfa-theme','light');
-  }
+async function main(){
+  let D;
+  try { D = await loadAll(); }
+  catch(e){ document.getElementById('loader').outerHTML =
+    '<div class="err">Could not load dashboard data ('+e.message+'). Serve this directory over HTTP.</div>'; return; }
+  window.DATA = D;
+  document.getElementById('dl-date').textContent = longDate(D.viz.meta.latest);
+  document.getElementById('dl-issue').textContent = 'Issue No. '+D.signalLog.length;
+  document.getElementById('loader').hidden = true;
+  ['sec-today','sec-data','sec-track','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
+  if(typeof Chart==='undefined'){ document.getElementById('sec-data').innerHTML =
+    '<p class="caption">Charts unavailable (Chart.js failed to load). Data sections are text-only until reload.</p>'; }
+  try {
+    if(typeof renderToday==='function') renderToday(D);
+    if(typeof Chart!=='undefined' && typeof renderDataSection==='function') renderDataSection(D);
+    if(typeof Chart!=='undefined' && typeof renderTrackRecord==='function') renderTrackRecord(D);
+    if(typeof Chart!=='undefined' && typeof setupUnderHood==='function') setupUnderHood(D);
+  } catch(e) { console.error('render failure', e); }
 }
-(function(){
-  var saved=localStorage.getItem('rfa-theme');
-  if(saved!=='dark'){
-    document.documentElement.setAttribute('data-theme','light');
-    var icon=document.getElementById('theme-icon');
-    var label=document.getElementById('theme-label');
-    if(icon)icon.innerHTML='&#9788;';
-    if(label)label.textContent='Light';
-  }
-})();
+main();
 </script>
 </body>
 </html>
