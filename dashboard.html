@@ -189,10 +189,10 @@ function renderToday(D){
       fill="${cfi20>=0?C.grn:C.ox}">net ${fmtB(cfi20,0)}</text>
     <rect class="flownode" x="516" y="8" width="112" height="34" rx="2"/>
     <text class="flowtxt" x="572" y="23" text-anchor="middle">NET ISSUANCE</text>
-    <text class="flowamt" x="572" y="36" text-anchor="middle" fill="${C.ox}">${fmtB(iss20,0)}</text>
+    <text class="flowamt" x="572" y="36" text-anchor="middle" fill="${C.ox}">$${Math.abs(iss20).toFixed(0)}B</text>
     <rect class="flownode" x="516" y="90" width="112" height="34" rx="2"/>
     <text class="flowtxt" x="572" y="105" text-anchor="middle">TGA ${tgaChg<0?'DRAWDOWN':'BUILD'}</text>
-    <text class="flowamt" x="572" y="118" text-anchor="middle" fill="${C.ox}">${fmtB(Math.abs(tgaChg),0)}</text>
+    <text class="flowamt" x="572" y="118" text-anchor="middle" fill="${C.ox}">$${Math.abs(tgaChg).toFixed(0)}B</text>
     <path class="flowpath" d="M118,58 L262,58" stroke="${C.grn}" fill="none" stroke-width="${w(spend20)}"/>
     <path class="flowpath" d="M262,76 L118,76" stroke="${C.ox}" fill="none" stroke-width="${w(rec20)}"/>
     <path class="flowpath" d="M516,25 C450,30 410,44 378,54" stroke="${C.mut}" fill="none" stroke-width="${w(iss20)}"/>
@@ -457,10 +457,14 @@ async function main(){
   document.getElementById('dl-issue').textContent = 'Issue No. '+D.signalLog.length;
   document.getElementById('loader').hidden = true;
   ['sec-today','sec-data','sec-track','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
-  if(typeof renderToday==='function') renderToday(D);
-  if(typeof renderDataSection==='function') renderDataSection(D);
-  if(typeof renderTrackRecord==='function') renderTrackRecord(D);
-  if(typeof setupUnderHood==='function') setupUnderHood(D);
+  if(typeof Chart==='undefined'){ document.getElementById('sec-data').innerHTML =
+    '<p class="caption">Charts unavailable (Chart.js failed to load). Data sections are text-only until reload.</p>'; }
+  try {
+    if(typeof renderToday==='function') renderToday(D);
+    if(typeof Chart!=='undefined' && typeof renderDataSection==='function') renderDataSection(D);
+    if(typeof Chart!=='undefined' && typeof renderTrackRecord==='function') renderTrackRecord(D);
+    if(typeof Chart!=='undefined' && typeof setupUnderHood==='function') setupUnderHood(D);
+  } catch(e) { console.error('render failure', e); }
 }
 main();
 </script>
