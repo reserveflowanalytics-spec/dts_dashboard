@@ -77,7 +77,12 @@ body{background:#efe9df;font-family:'Source Serif 4',Georgia,serif;color:var(--i
 .ledgerlink{font-size:12px;font-style:italic;color:var(--ox);cursor:pointer;
   background:none;border:none;font-family:inherit;padding:0}
 #ledger-wrap{max-height:340px;overflow-y:auto;border:1px solid var(--hair);margin-top:8px}
-/* TASK5-CSS */
+details.uth{border:1px solid var(--hair);background:var(--panel);padding:10px 14px;margin-top:8px}
+details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--sec)}
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+@media(max-width:640px){.mini-grid{grid-template-columns:1fr}}
+.mini-grid .mt{font-size:11px;font-weight:600;margin-bottom:4px}
+.mini-wrap{position:relative;height:120px;background:var(--paper);border:1px solid var(--hair);padding:4px}
 </style>
 </head>
 <body>
@@ -380,7 +385,67 @@ function renderTrackRecord(D){
     w.hidden = false;
   };
 }
-/* TASK5-JS */
+function setupUnderHood(D){
+  const el = document.getElementById('sec-hood');
+  el.innerHTML = `
+  <div class="sechdr"><span>Under the Hood</span><span class="n">IV</span></div>
+  <details class="uth" id="uth-comp">
+    <summary>Receipts &amp; spending composition &middot; taxes, transfers, interest, tariffs</summary>
+    <div class="mini-grid">
+      ${['taxes','hh','interest','tariffs'].map(k=>`<div>
+        <div class="mt">${{taxes:'Tax receipts',hh:'Household transfers',
+          interest:'Interest payments',tariffs:'Tariff receipts'}[k]}</div>
+        <div class="mini-wrap"><canvas id="mini-${k}"></canvas></div></div>`).join('')}
+    </div>
+    <p class="caption">Monthly totals, FY${D.viz.meta.fiscal_year} bars vs FY${D.viz.meta.fiscal_year-1} dashed.</p>
+  </details>
+  <details class="uth" id="uth-iss">
+    <summary>Issuance mix &middot; bills vs coupons, last 12 weeks</summary>
+    <div class="chartwrap" style="height:180px;margin-top:12px"><canvas id="ch-iss"></canvas></div>
+    <p class="caption">Net weekly settlement: positive = cash drained to fund issuance.</p>
+  </details>`;
+
+  const fy = String(D.viz.meta.fiscal_year), py = String(D.viz.meta.fiscal_year-1);
+  const cur = D.viz.cumulative[fy]||[], prv = D.viz.cumulative[py]||[];
+
+  document.getElementById('uth-comp').addEventListener('toggle', function once(ev){
+    if(!ev.target.open || charts.mini_taxes) return;
+    for(const k of ['taxes','hh','interest','tariffs']){
+      charts['mini_'+k] = new Chart(document.getElementById('mini-'+k),{
+        data:{labels:prv.map(m=>m.month),datasets:[
+          {type:'bar',data:cur.map(m=>m[k]),backgroundColor:C.grn+'44',
+           borderColor:C.grn,borderWidth:{top:1}},
+          {type:'line',data:prv.map(m=>m[k]),borderColor:C.mut,borderWidth:1.2,
+           borderDash:[4,4],pointRadius:0,tension:.25}]},
+        options:{animation:false,responsive:true,maintainAspectRatio:false,
+          plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+            label:c=>(c.datasetIndex===0?'FY'+fy+' ':'FY'+py+' ')+fmtB(c.parsed.y,0)}}},
+          scales:{x:{grid:{display:false},border:{color:C.hair},
+              ticks:{font:{...serifFont,size:8.5},color:C.mut}},
+            y:{grid:{display:false},border:{display:false},
+              ticks:{font:{...monoFont,size:8.5},color:C.mut,maxTicksLimit:4}}}}
+      });
+    }
+  });
+
+  document.getElementById('uth-iss').addEventListener('toggle', function(ev){
+    if(!ev.target.open || charts.iss) return;
+    const wk = D.viz.weekly||[];
+    charts.iss = new Chart(document.getElementById('ch-iss'),{
+      type:'bar',
+      data:{labels:wk.map(w=>w.week.replace('20','').replace('-W','w')),datasets:[
+        {label:'Bills',data:wk.map(w=>w.bills),backgroundColor:C.mut+'66',borderColor:C.mut,borderWidth:{top:1}},
+        {label:'Coupons',data:wk.map(w=>w.coupon),backgroundColor:C.ox+'55',borderColor:C.ox,borderWidth:{top:1}}]},
+      options:{animation:false,responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:true,labels:{font:{...serifFont,size:11},color:C.sec,boxWidth:12}},
+          tooltip:{...TOOLTIP,callbacks:{label:c=>c.dataset.label+' '+fmtB(c.parsed.y)}}},
+        scales:{x:{stacked:true,grid:{display:false},border:{color:C.hair},
+            ticks:{font:{...monoFont,size:9},color:C.mut}},
+          y:{stacked:true,grid:{color:'#e9e2d4'},border:{display:false},
+            ticks:{font:{...monoFont,size:10},color:C.mut}}}}
+    });
+  });
+}
 
 async function main(){
   let D;
