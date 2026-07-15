@@ -122,7 +122,7 @@ function renderToday(D){
   const conv = pos ? pos.conviction : '';
   const stale = pos && pos.as_of < meta.latest;
   const streak = regimeStreak(D.signalLog);
-  const tga5 = (rep.narrative && rep.narrative.tga_5d != null) ? rep.narrative.tga_5d : null;
+  const tga5 = (D.viz.narrative && D.viz.narrative.tga_5d != null) ? D.viz.narrative.tga_5d : null;
 
   // 20d flow sums for the map
   const d20 = D.viz.daily.slice(-20);
