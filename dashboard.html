@@ -312,7 +312,7 @@ function renderTrackRecord(D){
       <table class="rf-table"><thead><tr><th>Regime</th><th>5d</th><th>10d</th><th>20d</th></tr></thead>
       <tbody>${tableRows||'<tr><td colspan="4" style="font-style:italic">signal_returns.json unavailable</td></tr>'}</tbody></table>
       <p class="caption">Average forward SPX return after each logged regime state.
-        ${sum?`${sum.scored_signals} of ${sum.total_signals} signals scored.`:''}
+        ${sum?`${sum.total_signals} signals logged.`:''}
         Association, not causation.</p>
       ${tt?`<p class="caption" style="margin-top:10px">Timing system: ${tt.n_winners}/${tt.n_closed} closed trades
         positive, ${tt.mean_return_pct>=0?'+':''}${tt.mean_return_pct}% mean return, avg hold ${Math.round(tt.avg_days_held)} days.</p>`:''}
