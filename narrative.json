@@ -1,105 +1,98 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 93,
-  "fetched_at": "2026-07-14T21:02:47.830345+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 88,
+  "fetched_at": "2026-07-15T21:01:17.881792+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 19,
-      "pct": 20.4,
-      "sources": "CNBC(10), Yahoo(7), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "The AI boom just found two new winners: Goldman Sachs and JPMorgan Chase",
-        "Employees sue Meta, alleging discrimination in using AI to make layoffs",
-        "New York becomes first U.S. state to impose AI data center ban",
-        "Zipline adds ex-Tesla, Uber, Waymo execs to make drone delivery mainstream across U.S.",
-        "Cybersecurity stocks rally on AI spending change comments from IBM's Krishna"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 14.0,
-      "sources": "CNBC(7), Yahoo(3), FT(2), MarketWatch(1)",
+      "count": 14,
+      "pct": 15.9,
+      "sources": "CNBC(8), Yahoo(4), FT(2)",
       "sample_headlines": [
-        "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
-        "U.S. strikes Iran before Hormuz Strait blockade restarts",
-        "Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee",
-        "IBM stock craters 25%, the worst day on record, after company issues second-quarter earnings warning",
-        "Warren Buffett is accelerating his charitable donations with aim to give away Berkshire wealth by 2034"
+        "Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence",
+        "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
+        "Warren Buffett on the market today: 'It's tough to find values when everybody is preferring gambling'",
+        "Warren Buffett tells CNBC he initiated Berkshire Hathaway's investment in Alphabet",
+        "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 10.8,
-      "sources": "Yahoo(5), CNBC(3), FT(2)",
+      "topic": "AI / Tech",
+      "count": 12,
+      "pct": 13.6,
+      "sources": "Yahoo(5), CNBC(4), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Here\u2019s the inflation breakdown for June 2026 \u2014 in one chart",
-        "Lucid dismisses report that it is weighing filing for bankruptcy or going private after shares plunge",
-        "Cybersecurity stocks rally on AI spending change comments from IBM's Krishna",
-        "IBM shares plunge 25% as customers shift spending to AI",
-        "Wall Street banks smash records on stock trading boom"
+        "Trump blasts New York AI data center moratorium, says state should change policy 'immediately'",
+        "Amazon senior cloud executive departs after 18 years",
+        "Alibaba\u2019s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
+        "ASML shares fall after hiking sales forecast for second time this year on strong AI chip demand",
+        "AI is killing the cover letter \u2014 but here\u2019s when it still pays to send one"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 8,
-      "pct": 8.6,
-      "sources": "Yahoo(4), CNBC(3), FT(1)",
+      "pct": 9.1,
+      "sources": "CNBC(4), Yahoo(3), MarketWatch(1)",
       "sample_headlines": [
-        "Here\u2019s the inflation breakdown for June 2026 \u2014 in one chart",
-        "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
-        "Social Security cost-of-living adjustment estimate for 2027 falls as inflation cools",
-        "Ukraine targets Russian shipping in \u2018unprecedented\u2019 drone assault",
-        "India's inflation breaches target after more than a year, setting stage for rate hikes"
+        "Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence",
+        "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
+        "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates",
+        "Hassett sees no 'excuse' to raise rates, says Warsh will push Fed to 'right answer'",
+        "Food banks, affordable-housing providers scramble as inflation hammers low-income Americans"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 8.0,
+      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), FT(1)",
+      "sample_headlines": [
+        "DTCC, Wall Street\u2019s post-trade powerhouse, tests tokenized markets with industry heavy hitters",
+        "Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%",
+        "BlackRock has best-ever start to a year as investment flows double and profits surge",
+        "What the launch of SK Hynix leveraged ETFs tells us about the hottest trade on Wall Street",
+        "SpaceX sell-off wipes $1tn from Musk\u2019s rocket group"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 3.2,
-      "sources": "CNBC(2), Yahoo(1)",
+      "count": 5,
+      "pct": 5.7,
+      "sources": "Yahoo(2), CNBC(1), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee",
-        "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-        "Wall Street closes lower as chip selloff and oil surge weigh on markets"
+        "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
+        "The U.S. oil reserve is at a 40-year low \u2014 but the government says there\u2019s still plenty of breathing room",
+        "Oil traders warn market is close to running on empty as Hormuz shuts again",
+        "Oil soars 3.2% as Trump swears the US is 'taking over' the Strait of Hormuz. Protect your riches before the shock hits",
+        "June CPI breakdown: Gas prices fell, but grocery bills kept climbing"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 1.1,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Employees sue Meta, alleging discrimination in using AI to make layoffs"
+        "Apple's lawsuit shows the importance of AI devices for the iPhone maker's future: Analyst"
       ]
     },
     {
       "topic": "China",
       "count": 1,
       "pct": 1.1,
-      "sources": "CNBC(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Bitcoin and ethereum prices today, Monday, July 13, 2026: Strong price openings backtracking this morning"
+        "Mira Murati\u2019s Thinking Machines draws from Chinese rivals in debut AI model"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 1.1,
-      "sources": "CNBC(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people"
+        "Billionaires who fled California wealth tax risk intrusive residency audit"
       ]
     }
   ]
