@@ -1,98 +1,114 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 88,
-  "fetched_at": "2026-07-15T21:01:17.881792+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 116,
+  "fetched_at": "2026-07-16T21:01:52.811363+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 14,
-      "pct": 15.9,
-      "sources": "CNBC(8), Yahoo(4), FT(2)",
+      "topic": "AI / Tech",
+      "count": 22,
+      "pct": 19.0,
+      "sources": "Yahoo(12), CNBC(3), FT(3), MarketWatch(2), Bloomberg(2)",
       "sample_headlines": [
-        "Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence",
-        "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
-        "Warren Buffett on the market today: 'It's tough to find values when everybody is preferring gambling'",
-        "Warren Buffett tells CNBC he initiated Berkshire Hathaway's investment in Alphabet",
-        "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates"
+        "Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed",
+        "Nvidia unveils new AI model and expands Japan\u2019s physical AI ecosystem",
+        "Nvidia-backed Fireworks hits $17.5 billion valuation as companies pursue cheaper AI models",
+        "He backed Tesla and SpaceX before anyone else \u2014 here is the \u2018impossible\u2019 bet he is making now",
+        "Is SpaceX\u2019s stock a bust because it fell below $135? Look what happened after Meta\u2019s IPO."
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 12,
-      "pct": 13.6,
-      "sources": "Yahoo(5), CNBC(4), FT(2), MarketWatch(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 17,
+      "pct": 14.7,
+      "sources": "CNBC(6), Bloomberg(4), Yahoo(4), FT(3)",
       "sample_headlines": [
-        "Trump blasts New York AI data center moratorium, says state should change policy 'immediately'",
-        "Amazon senior cloud executive departs after 18 years",
-        "Alibaba\u2019s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
-        "ASML shares fall after hiking sales forecast for second time this year on strong AI chip demand",
-        "AI is killing the cover letter \u2014 but here\u2019s when it still pays to send one"
+        "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports",
+        "Sen. Warren says Trump's CFPB overhaul has cost Americans $26.5 billion",
+        "Iran warns U.S. of Hormuz \u2018red line,\u2019 says it will retaliate if Trump carries out threats",
+        "Banking Committee's Sen. Rounds liked Warsh's 'tone' in first testimony as Fed chairman",
+        "Analysis: Fed Chairman Warsh faces an inflation credibility test after Congress hearings"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 10,
+      "pct": 8.6,
+      "sources": "FT(3), Bloomberg(3), CNBC(2), Yahoo(2)",
+      "sample_headlines": [
+        "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports",
+        "The best energy stocks right now as two major conflicts keep oil prices elevated",
+        "Zelenskyy government plunged into turmoil after defence minister fired",
+        "Chevron and Iraq seek to bypass Strait of Hormuz with Syria pipeline",
+        "Energy IPOs surge as investors hunt for ways to play AI boom"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 10,
+      "pct": 8.6,
+      "sources": "Yahoo(4), CNBC(2), MarketWatch(2), FT(2)",
+      "sample_headlines": [
+        "Trump Media launches paid data service to help Wall Street track Trump\u2019s posts",
+        "'Not a junk rally:' How to trade the strongest small-cap stock market in three decades",
+        "Netflix is getting stingier about its viewing data, and Wall Street isn\u2019t happy",
+        "The U.S. stock market is looking like a rubber band ready to snap",
+        "Zelenskyy government plunged into turmoil after defence minister fired"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 8,
-      "pct": 9.1,
-      "sources": "CNBC(4), Yahoo(3), MarketWatch(1)",
+      "pct": 6.9,
+      "sources": "CNBC(3), Bloomberg(3), Yahoo(2)",
       "sample_headlines": [
-        "Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence",
-        "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
-        "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates",
-        "Hassett sees no 'excuse' to raise rates, says Warsh will push Fed to 'right answer'",
-        "Food banks, affordable-housing providers scramble as inflation hammers low-income Americans"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 8.0,
-      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), FT(1)",
-      "sample_headlines": [
-        "DTCC, Wall Street\u2019s post-trade powerhouse, tests tokenized markets with industry heavy hitters",
-        "Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%",
-        "BlackRock has best-ever start to a year as investment flows double and profits surge",
-        "What the launch of SK Hynix leveraged ETFs tells us about the hottest trade on Wall Street",
-        "SpaceX sell-off wipes $1tn from Musk\u2019s rocket group"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 5.7,
-      "sources": "Yahoo(2), CNBC(1), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
-        "The U.S. oil reserve is at a 40-year low \u2014 but the government says there\u2019s still plenty of breathing room",
-        "Oil traders warn market is close to running on empty as Hormuz shuts again",
-        "Oil soars 3.2% as Trump swears the US is 'taking over' the Strait of Hormuz. Protect your riches before the shock hits",
-        "June CPI breakdown: Gas prices fell, but grocery bills kept climbing"
+        "Dallas Fed President Logan calls for 'modestly' higher interest rates",
+        "Banking Committee's Sen. Rounds liked Warsh's 'tone' in first testimony as Fed chairman",
+        "Analysis: Fed Chairman Warsh faces an inflation credibility test after Congress hearings",
+        "Gold Falls as US-Iran Hostilities Rekindles Fed Hike Bets",
+        "Bond Traders Bail on Fed Hike Bets on Softer Inflation Path"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "Yahoo(1)",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "CNBC(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Apple's lawsuit shows the importance of AI devices for the iPhone maker's future: Analyst"
+        "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports",
+        "U.S. slaps 25% tariff on most Brazilian goods over 'unfair trade practices'",
+        "Micron has turned into \u2018the most important stock in the market.\u2019 So is it time to worry?",
+        "India-UK trade pact takes effect, cutting tariffs and boosting services trade"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "FT(1)",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "FT(2), Bloomberg(1)",
       "sample_headlines": [
-        "Mira Murati\u2019s Thinking Machines draws from Chinese rivals in debut AI model"
+        "Chinese AI start-up Moonshot to launch model challenging Anthropic\u2019s lead",
+        "US lawmakers urge Trump administration to ban Chinese memory chips",
+        "China Beef Curbs Start Rippling Across Brazil Meat Industry"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Bitcoin and ethereum prices today, Wednesday, July 15, 2026: Prices surge after softer inflation report",
+        "BlackRock's Crypto Assets Declined 39% In Second Quarter"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "FT(1)",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "Billionaires who fled California wealth tax risk intrusive residency audit"
+        "IRS tax liens can be a 'kiss of death,' consumer advocate says \u2014 and they're on the rise",
+        "A wealth tax in America? Not if Silicon Valley\u2019s billionaires have their way"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-14",
-  "computed_at": "2026-07-15T21:01:37Z",
+  "as_of": "2026-07-15",
+  "computed_at": "2026-07-16T21:02:11Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,29 +8,24 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
-    "tech_close": 7563.25,
-    "tech_sma20": 7519.51,
+    "tech_close": 7617.0,
+    "tech_sma20": 7525.68,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "3/11",
+    "rs_conviction_label": "Low \u2014 only 2/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "2/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
   "overweight_pairs": [
     {
-      "pair": "XLI/XLP",
-      "rationale": "Industrials vs staples",
-      "roc_20d": 4.9
+      "pair": "KRE/XLU",
+      "rationale": "Regional banks vs utilities",
+      "roc_20d": 3.75
     },
     {
       "pair": "XLF/XLU",
       "rationale": "Financials vs utilities",
-      "roc_20d": 2.36
-    },
-    {
-      "pair": "XLY/XLP",
-      "rationale": "Consumer discretionary vs staples",
-      "roc_20d": 1.76
+      "roc_20d": 4.18
     }
   ],
   "underweight_pairs": [],
