@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-15",
-  "computed_at": "2026-07-16T21:02:11Z",
+  "as_of": "2026-07-16",
+  "computed_at": "2026-07-17T21:02:03Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,8 +8,8 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
-    "tech_close": 7617.0,
-    "tech_sma20": 7525.68,
+    "tech_close": 7577.0,
+    "tech_sma20": 7533.36,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 2/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "2/11",
@@ -20,15 +20,16 @@
     {
       "pair": "KRE/XLU",
       "rationale": "Regional banks vs utilities",
-      "roc_20d": 3.75
-    },
-    {
-      "pair": "XLF/XLU",
-      "rationale": "Financials vs utilities",
-      "roc_20d": 4.18
+      "roc_20d": 6.46
     }
   ],
-  "underweight_pairs": [],
+  "underweight_pairs": [
+    {
+      "pair": "XLY/XLV",
+      "rationale": "Discretionary vs healthcare",
+      "roc_20d": -6.59
+    }
+  ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
   "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
 }
