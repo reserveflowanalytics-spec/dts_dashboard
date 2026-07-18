@@ -1,121 +1,114 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 107,
-  "fetched_at": "2026-07-17T21:01:45.286951+00:00",
+  "total_headlines": 98,
+  "fetched_at": "2026-07-18T21:01:36.212044+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 26,
-      "pct": 24.3,
-      "sources": "CNBC(9), Bloomberg(6), Yahoo(6), FT(4), MarketWatch(1)",
+      "count": 15,
+      "pct": 15.3,
+      "sources": "CNBC(6), Yahoo(6), Bloomberg(2), FT(1)",
       "sample_headlines": [
+        "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say",
+        "The AI rotation stole the spotlight from a strong start to earnings season",
+        "Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction",
         "Chinese AI has leveled up, and brought renewed focus on the open weight model shift",
-        "Anthropic in early talks with Meta to acquire compute power",
-        "Amazon's Zoox issues software recall after robotaxi drove into heavy smoke",
-        "Apple, Nvidia vie for title of world's most valuable company",
-        "Meta's latest move in the AI talent war \u2014 plus Cramer's 4 quick hits on the market"
+        "Anthropic in early talks with Meta to acquire compute power"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 12.1,
-      "sources": "CNBC(9), Yahoo(3), FT(1)",
+      "count": 11,
+      "pct": 11.2,
+      "sources": "CNBC(5), Yahoo(4), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says",
-        "Iraq and Syria sign agreement to restore oil pipeline that would provide alternative to Strait of Hormuz",
-        "Amazon's Zoox issues software recall after robotaxi drove into heavy smoke",
-        "Meta's latest move in the AI talent war \u2014 plus Cramer's 4 quick hits on the market",
-        "Iran says civilian infrastructure hit by latest U.S. strikes, expands attacks to Syria, Bahrain"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 13,
-      "pct": 12.1,
-      "sources": "CNBC(6), Bloomberg(6), FT(1)",
-      "sample_headlines": [
-        "Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says",
-        "Iraq and Syria sign agreement to restore oil pipeline that would provide alternative to Strait of Hormuz",
-        "World\u2019s largest olive oil company says market has 'definitively' entered new phase",
-        "ConocoPhillips to buy 42% stake in Iraqi unit from BP as U.S. seeks to weaken Iran's energy hold",
-        "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports"
+        "Iran supreme leader vows 'unforgettable lessons in store' for U.S. after calling off interim peace agreement",
+        "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
+        "Analysis: Fed Chairman Warsh faces an inflation credibility test after Congress hearings",
+        "Two unexpected revelations in Warren Buffett's CNBC interview",
+        "Amazon's Zoox issues software recall after robotaxi drove into heavy smoke"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 9.3,
-      "sources": "Yahoo(4), CNBC(3), Bloomberg(2), MarketWatch(1)",
+      "count": 11,
+      "pct": 11.2,
+      "sources": "CNBC(3), Bloomberg(3), Yahoo(3), FT(2)",
       "sample_headlines": [
+        "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
         "SpaceX stock has cratered nearly 23% since the company joined the Nasdaq-100",
         "Retail and Wall Street are underwater on SpaceX \u2014 but not going down without a fight",
-        "Trump doubles down on 2020 election claims in national address, alleging China meddling",
-        "Chip stocks have entered a bear market. A BofA analyst says not to panic.",
-        "Chip Stocks Slide Into Bear Market in AI Unwind: Markets Wrap"
+        "My journey down the rabbit hole at the Conspiracy World Cup",
+        "Asia AI bets power record equities run for Wall Street banks"
       ]
     },
     {
       "topic": "China",
-      "count": 5,
-      "pct": 4.7,
-      "sources": "CNBC(4), Yahoo(1)",
+      "count": 7,
+      "pct": 7.1,
+      "sources": "Bloomberg(5), CNBC(2)",
       "sample_headlines": [
         "Inside the Chinese fraud rings stealing billions from banks and retailers",
         "Chinese AI has leveled up, and brought renewed focus on the open weight model shift",
-        "Trump doubles down on 2020 election claims in national address, alleging China meddling",
-        "Xi pitches China as AI partner to developing world, warns against risks and security overreach",
-        "CXMT'S $8.6 billion Shanghai IPO draws less frenzied demand amid China tech selloff"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "Bloomberg(2), Yahoo(1)",
-      "sample_headlines": [
-        "Gold Trims Weekly Drop on Dip-Buying Despite Rate Hike Odds",
-        "Treasuries Post Weekly Advance as Inflation Optimism Prevails",
-        "Mortgage and refinance interest rates today, Thursday, July 16, 2026: Rates on the rise"
+        "China Seeks Stable, Transparent Mineral Rules From Indonesia",
+        "Hungary Crackdown on $20 Billion EV Sector Puts China on Notice",
+        "China Urges Better Cooperation With Kyrgyzstan on Green Minerals"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "CNBC(2), Yahoo(1)",
+      "count": 7,
+      "pct": 7.1,
+      "sources": "CNBC(4), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
         "California's billionaire tax: What's at risk for the biggest state economy in America",
+        "How are prediction markets taxed? The IRS hasn\u2019t provided guidance yet",
+        "Scam victims can owe taxes on stolen money. A bill in Congress could offer relief",
         "Amazon's Zoox issues software recall after robotaxi drove into heavy smoke",
-        "How to budget on an irregular or unpredictable income"
+        "My relative inherited money in her 80s. Will it affect her Social Security taxes or Medicare premiums?"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 5,
+      "pct": 5.1,
+      "sources": "CNBC(3), Yahoo(2)",
+      "sample_headlines": [
+        "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
+        "Analysis: Fed Chairman Warsh faces an inflation credibility test after Congress hearings",
+        "I left the U.S. for Trinidad and Tobago: My family of 4 spends about $3,000 a month\u2014and we've never been happier",
+        "Mortgage and refinance interest rates today, Saturday, July 18, 2026: Rates lower to start the weekend"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.9,
-      "sources": "CNBC(2)",
+      "count": 4,
+      "pct": 4.1,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
         "Trump rips Canada as wildfire smoke spreads, says U.S. will add pollution cost to tariffs",
-        "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports"
+        "\u2018Respect is important\u2019: If my financial adviser said, \u2018Hey,\u2019 my wife and I would walk out. Where do you draw the line?",
+        "Not Done Yet Refunding Tariffs or Realizing AI\u2019s Promise",
+        "China Solar Cell Exports Extend Decline in June"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "topic": "Oil / Energy",
+      "count": 2,
+      "pct": 2.0,
+      "sources": "Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "26 Meta employees sue, claiming AI flagged workers on medical and pregnancy leave for layoffs"
+        "Kuwait Energy Infrastructure Hit During Intense Iran Attacks",
+        "Oil and Gas Employment Hits a 2026 Low Even as Production Sets Records"
       ]
     },
     {
       "topic": "Crypto",
       "count": 1,
-      "pct": 0.9,
+      "pct": 1.0,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Thursday, July 16, 2026: Prices rise, ethereum becomes 'increasingly compelling'"
+        "Bitcoin and ethereum prices today, Friday, July 17, 2026: Prices ease as conflict in Iran escalates"
       ]
     }
   ]
