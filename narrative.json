@@ -1,95 +1,80 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 98,
-  "fetched_at": "2026-07-18T21:01:36.212044+00:00",
+  "total_headlines": 102,
+  "fetched_at": "2026-07-19T21:01:19.745712+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 15.3,
-      "sources": "CNBC(6), Yahoo(6), Bloomberg(2), FT(1)",
+      "count": 16,
+      "pct": 15.7,
+      "sources": "Yahoo(12), CNBC(3), MarketWatch(1)",
       "sample_headlines": [
-        "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say",
+        "AI may make you 'boring' at work, Columbia Business School professor says: How it can hurt your career",
         "The AI rotation stole the spotlight from a strong start to earnings season",
-        "Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction",
-        "Chinese AI has leveled up, and brought renewed focus on the open weight model shift",
-        "Anthropic in early talks with Meta to acquire compute power"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 11.2,
-      "sources": "CNBC(5), Yahoo(4), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Iran supreme leader vows 'unforgettable lessons in store' for U.S. after calling off interim peace agreement",
-        "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
-        "Analysis: Fed Chairman Warsh faces an inflation credibility test after Congress hearings",
-        "Two unexpected revelations in Warren Buffett's CNBC interview",
-        "Amazon's Zoox issues software recall after robotaxi drove into heavy smoke"
+        "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say",
+        "Can the \u2018Magnificent Seven\u2019 save a stock market that might be doomed without them?",
+        "Alphabet's Gemini 3.5 Pro Is Late and the Stock Is Slipping. Is the AI Leader Falling Behind?"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 11.2,
-      "sources": "CNBC(3), Bloomberg(3), Yahoo(3), FT(2)",
+      "count": 14,
+      "pct": 13.7,
+      "sources": "Yahoo(9), CNBC(2), FT(2), MarketWatch(1)",
       "sample_headlines": [
+        "Top Wall Street analysts suggest these 3 dividend stocks for steady income",
         "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
-        "SpaceX stock has cratered nearly 23% since the company joined the Nasdaq-100",
-        "Retail and Wall Street are underwater on SpaceX \u2014 but not going down without a fight",
-        "My journey down the rabbit hole at the Conspiracy World Cup",
-        "Asia AI bets power record equities run for Wall Street banks"
+        "Can the \u2018Magnificent Seven\u2019 save a stock market that might be doomed without them?",
+        "The art of knowing when to step down",
+        "Andy Burnham plans beefed-up control centre in Downing Street"
       ]
     },
     {
-      "topic": "China",
-      "count": 7,
-      "pct": 7.1,
-      "sources": "Bloomberg(5), CNBC(2)",
+      "topic": "Iran / Middle East conflict",
+      "count": 13,
+      "pct": 12.7,
+      "sources": "Yahoo(7), CNBC(3), Bloomberg(3)",
       "sample_headlines": [
-        "Inside the Chinese fraud rings stealing billions from banks and retailers",
-        "Chinese AI has leveled up, and brought renewed focus on the open weight model shift",
-        "China Seeks Stable, Transparent Mineral Rules From Indonesia",
-        "Hungary Crackdown on $20 Billion EV Sector Puts China on Notice",
-        "China Urges Better Cooperation With Kyrgyzstan on Green Minerals"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 7,
-      "pct": 7.1,
-      "sources": "CNBC(4), Yahoo(2), MarketWatch(1)",
-      "sample_headlines": [
-        "California's billionaire tax: What's at risk for the biggest state economy in America",
-        "How are prediction markets taxed? The IRS hasn\u2019t provided guidance yet",
-        "Scam victims can owe taxes on stolen money. A bill in Congress could offer relief",
-        "Amazon's Zoox issues software recall after robotaxi drove into heavy smoke",
-        "My relative inherited money in her 80s. Will it affect her Social Security taxes or Medicare premiums?"
+        "U.S. death toll rises again as Iran war escalates over the weekend",
+        "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
+        "Two unexpected revelations in Warren Buffett's CNBC interview",
+        "Iran Conflict Escalates as US Announces Third Troop Death",
+        "Bond Traders Take Warsh at Word, See Inflation Fight Continuing"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 5.1,
-      "sources": "CNBC(3), Yahoo(2)",
+      "count": 8,
+      "pct": 7.8,
+      "sources": "Yahoo(5), CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
         "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
-        "Analysis: Fed Chairman Warsh faces an inflation credibility test after Congress hearings",
-        "I left the U.S. for Trinidad and Tobago: My family of 4 spends about $3,000 a month\u2014and we've never been happier",
-        "Mortgage and refinance interest rates today, Saturday, July 18, 2026: Rates lower to start the weekend"
+        "Andy Burnham plans beefed-up control centre in Downing Street",
+        "Bond Traders Take Warsh at Word, See Inflation Fight Continuing",
+        "Alphabet's Gemini 3.5 Pro Is Late and the Stock Is Slipping. Is the AI Leader Falling Behind?",
+        "Mortgage and refinance interest rates today, Sunday, July 19, 2026: Rates moved higher last week as Iranian conflict escalated"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 4.1,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
+      "count": 3,
+      "pct": 2.9,
+      "sources": "CNBC(1), MarketWatch(1), FT(1)",
       "sample_headlines": [
         "Trump rips Canada as wildfire smoke spreads, says U.S. will add pollution cost to tariffs",
         "\u2018Respect is important\u2019: If my financial adviser said, \u2018Hey,\u2019 my wife and I would walk out. Where do you draw the line?",
-        "Not Done Yet Refunding Tariffs or Realizing AI\u2019s Promise",
-        "China Solar Cell Exports Extend Decline in June"
+        "EU faces crumbling support for new Russia sanctions"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.9,
+      "sources": "CNBC(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Scam victims can owe taxes on stolen money. A bill in Congress could offer relief",
+        "How are prediction markets taxed? The IRS hasn\u2019t provided guidance yet",
+        "Singapore Eyes Hedge Fund Tax Cuts to Boost Hub Role: FT"
       ]
     },
     {
@@ -98,17 +83,18 @@
       "pct": 2.0,
       "sources": "Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Kuwait Energy Infrastructure Hit During Intense Iran Attacks",
-        "Oil and Gas Employment Hits a 2026 Low Even as Production Sets Records"
+        "Caspian Pipeline Consortium Halts Loadings on Drone Strike",
+        "This Boring Pipeline Dividend MLP Returned 2X the QQQ\u2019s Gains"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 1,
-      "pct": 1.0,
-      "sources": "Yahoo(1)",
+      "count": 2,
+      "pct": 2.0,
+      "sources": "FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Friday, July 17, 2026: Prices ease as conflict in Iran escalates"
+        "US day traders flock to \u2018the most dangerous product in crypto\u2019",
+        "MicroStrategy CEO: Wall Street\u2019s Biggest Banks are Locked in a Tight Bitcoin Race"
       ]
     }
   ]
