@@ -1,100 +1,121 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 102,
-  "fetched_at": "2026-07-19T21:01:19.745712+00:00",
+  "total_headlines": 117,
+  "fetched_at": "2026-07-20T21:03:17.381246+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 16,
-      "pct": 15.7,
-      "sources": "Yahoo(12), CNBC(3), MarketWatch(1)",
+      "count": 19,
+      "pct": 16.2,
+      "sources": "CNBC(7), Yahoo(7), MarketWatch(4), Bloomberg(1)",
       "sample_headlines": [
-        "AI may make you 'boring' at work, Columbia Business School professor says: How it can hurt your career",
-        "The AI rotation stole the spotlight from a strong start to earnings season",
-        "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say",
-        "Can the \u2018Magnificent Seven\u2019 save a stock market that might be doomed without them?",
-        "Alphabet's Gemini 3.5 Pro Is Late and the Stock Is Slipping. Is the AI Leader Falling Behind?"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 13.7,
-      "sources": "Yahoo(9), CNBC(2), FT(2), MarketWatch(1)",
-      "sample_headlines": [
-        "Top Wall Street analysts suggest these 3 dividend stocks for steady income",
-        "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
-        "Can the \u2018Magnificent Seven\u2019 save a stock market that might be doomed without them?",
-        "The art of knowing when to step down",
-        "Andy Burnham plans beefed-up control centre in Downing Street"
+        "Trump administration's head of AI safety agency resigns after 3 months on job",
+        "The bar for Tesla earnings is sky-high. Here's why and how options traders can capitalize",
+        "AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer",
+        "Alphabet stock pops on report it's developing a more efficient AI chip",
+        "2 things capping Monday's market \u2014 plus, Alphabet's new AI chip roadmap"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 12.7,
-      "sources": "Yahoo(7), CNBC(3), Bloomberg(3)",
+      "count": 18,
+      "pct": 15.4,
+      "sources": "CNBC(6), FT(5), Yahoo(4), Bloomberg(3)",
       "sample_headlines": [
-        "U.S. death toll rises again as Iran war escalates over the weekend",
-        "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
-        "Two unexpected revelations in Warren Buffett's CNBC interview",
-        "Iran Conflict Escalates as US Announces Third Troop Death",
-        "Bond Traders Take Warsh at Word, See Inflation Fight Continuing"
+        "Oil prices rise after Trump says Iran will pay for killing U.S. service members",
+        "Paramount and Warner Bros. merger hit with temporary restraining order",
+        "What to know about testosterone replacement therapy as the U.S. military plans to test troops",
+        "Archer stock rips 20% higher as company unveils military craft with Anduril",
+        "Voters wary of government ownership in companies as Trump administration takes equity stakes"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 7.7,
+      "sources": "MarketWatch(3), Yahoo(3), CNBC(2), Bloomberg(1)",
+      "sample_headlines": [
+        "China's car market heads for worst year since 2021 as sales plunge 20%",
+        "'Give me my money back': South Korean traders' leveraged SK Hynix, Samsung bets unravel after sell-off",
+        "Wall Street\u2019s AI divide: Inside the bull and bear cases for what comes next for the stock market",
+        "Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.",
+        "SpaceX slides further down the ranks of large companies as it\u2019s overtaken by Meta"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 7,
+      "pct": 6.0,
+      "sources": "Bloomberg(5), CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "Oil prices rise after Trump says Iran will pay for killing U.S. service members",
+        "Latest Oil Market News and Analysis for July 20",
+        "Stocks, Bonds Fall as US-Iran Risks Whipsaw Oil: Markets Wrap",
+        "Canada Financials Stocks Close In on Top Spot as Energy Momentum Fades",
+        "Lionheart (CUB) Nears $400 Million Deal for Venezuela Oil Stake"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 7.8,
-      "sources": "Yahoo(5), CNBC(1), FT(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 5.1,
+      "sources": "FT(2), Bloomberg(2), CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
-        "Andy Burnham plans beefed-up control centre in Downing Street",
-        "Bond Traders Take Warsh at Word, See Inflation Fight Continuing",
-        "Alphabet's Gemini 3.5 Pro Is Late and the Stock Is Slipping. Is the AI Leader Falling Behind?",
-        "Mortgage and refinance interest rates today, Sunday, July 19, 2026: Rates moved higher last week as Iranian conflict escalated"
+        "2 things capping Monday's market \u2014 plus, Alphabet's new AI chip roadmap",
+        "Warsh\u2019s quiet revolution at the Fed",
+        "Trump is slipping into an Iran quagmire",
+        "DoubleLine Says Higher Bond Yields to Help Fed Keep Rates Steady",
+        "Money Funds Keep Cash Closer as Fed Leaves Markets Guessing"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "China",
       "count": 3,
-      "pct": 2.9,
-      "sources": "CNBC(1), MarketWatch(1), FT(1)",
+      "pct": 2.6,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump rips Canada as wildfire smoke spreads, says U.S. will add pollution cost to tariffs",
-        "\u2018Respect is important\u2019: If my financial adviser said, \u2018Hey,\u2019 my wife and I would walk out. Where do you draw the line?",
-        "EU faces crumbling support for new Russia sanctions"
+        "China's car market heads for worst year since 2021 as sales plunge 20%",
+        "Angola Signs $900 Million Port Deals With Chinese Firms",
+        "Apple Intelligence Just Got the Green Light in China. What That Means for AAPL Stock."
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 3,
-      "pct": 2.9,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "pct": 2.6,
+      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Scam victims can owe taxes on stolen money. A bill in Congress could offer relief",
-        "How are prediction markets taxed? The IRS hasn\u2019t provided guidance yet",
-        "Singapore Eyes Hedge Fund Tax Cuts to Boost Hub Role: FT"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 2.0,
-      "sources": "Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Caspian Pipeline Consortium Halts Loadings on Drone Strike",
-        "This Boring Pipeline Dividend MLP Returned 2X the QQQ\u2019s Gains"
+        "We have $8 million in traditional IRAs. Should we tap them to buy a house \u2014 and take the tax hit?",
+        "Gilts Rattled on Andy Burnham\u2019s First Day as Fiscal Fears Return",
+        "Gen Z is breaking our biggest social taboo by sharing their salaries online \u2014 but 'loud budgeting' can cost everyone"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
-      "pct": 2.0,
-      "sources": "FT(1), Yahoo(1)",
+      "pct": 1.7,
+      "sources": "Yahoo(2)",
       "sample_headlines": [
-        "US day traders flock to \u2018the most dangerous product in crypto\u2019",
-        "MicroStrategy CEO: Wall Street\u2019s Biggest Banks are Locked in a Tight Bitcoin Race"
+        "Larry Fink Says Bitcoin Has 'More Stability' at Current Levels: BlackRock CEO 'Very Bullish on the Markets'",
+        "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Netflix's growth slowdown exposes a classic shareholder trap: Chart of the Day"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination"
       ]
     }
   ]
