@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-17",
-  "computed_at": "2026-07-20T21:03:33Z",
+  "as_of": "2026-07-20",
+  "computed_at": "2026-07-21T21:01:53Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -8,11 +8,11 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bearish",
-    "tech_close": 7497.0,
-    "tech_sma20": 7530.4,
-    "rs_conviction_level": "unknown",
-    "rs_conviction_label": "Moderate \u2014 5/11 pairs aligned with regime",
-    "rs_aligned_pairs": "5/11",
+    "tech_close": 7486.0,
+    "tech_sma20": 7527.69,
+    "rs_conviction_level": "low",
+    "rs_conviction_label": "Low \u2014 only 4/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "4/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -20,29 +20,24 @@
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": 12.31
+      "roc_20d": 18.11
     },
     {
       "pair": "KRE/XLU",
       "rationale": "Regional banks vs utilities",
-      "roc_20d": 6.04
-    },
-    {
-      "pair": "XLI/GLD",
-      "rationale": "Industrial activity vs hard asset",
-      "roc_20d": 5.63
+      "roc_20d": 5.33
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLY/XLV",
       "rationale": "Discretionary vs healthcare",
-      "roc_20d": -6.71
+      "roc_20d": -8.45
     },
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": -2.3
+      "roc_20d": -4.45
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
