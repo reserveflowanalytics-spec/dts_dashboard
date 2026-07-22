@@ -1,114 +1,114 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 115,
-  "fetched_at": "2026-07-21T21:01:32.094525+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 110,
+  "fetched_at": "2026-07-22T21:02:47.955797+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 18,
-      "pct": 15.7,
-      "sources": "FT(8), Yahoo(4), CNBC(3), MarketWatch(2), Bloomberg(1)",
+      "topic": "AI / Tech",
+      "count": 20,
+      "pct": 18.2,
+      "sources": "CNBC(8), Yahoo(7), FT(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Bets against SpaceX grow to 32% of float as Elon Musk warns short sellers won't survive",
-        "U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire",
-        "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
-        "Why Paramount could win if it loses the Warner Bros. Discovery deal",
-        "Pro stock pickers cannot beat simple math \u2014 war in the Middle East is proving it"
+        "Tesla misses on earnings, as free cash flow turns negative and margins slide",
+        "OpenAI cyber models broke out of training environment to hack Hugging Face",
+        "Amazon cuts some jobs in its artificial general intelligence unit",
+        "Ex-Google recruiter: Ask this 'insightful' question in an interview and I'll want to hire you 'on the spot'",
+        "Reddit stock sinks on report it may not renew Google AI content deal"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 13,
+      "pct": 11.8,
+      "sources": "CNBC(4), FT(3), MarketWatch(2), Bloomberg(2), Yahoo(2)",
+      "sample_headlines": [
+        "IBM lowers full-year forecast after earnings warning",
+        "Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says",
+        "Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb",
+        "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
+        "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 13.9,
-      "sources": "Yahoo(7), CNBC(4), MarketWatch(3), Bloomberg(2)",
+      "count": 12,
+      "pct": 10.9,
+      "sources": "Yahoo(5), Bloomberg(3), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "Super Micro surges 15% on new order and margin disclosure after SpaceX announcement",
-        "Wall Street is selling more rental homes, as buying ban takes effect",
-        "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
-        "Nebius stock surges nearly 19% as Nvidia discloses significant stake in neocloud",
-        "Why energy stocks still look so cheap, even after their big rally this month"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 14,
-      "pct": 12.2,
-      "sources": "CNBC(8), MarketWatch(2), Bloomberg(2), Yahoo(2)",
-      "sample_headlines": [
-        "Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models",
-        "Tesla shares poised for biggest earnings move in a year",
-        "Google expands Gemini lineup with cheaper models and new Mythos rival",
-        "BlackRock, Carhartt, Ford and Google launch skilled trades workforce initiative",
-        "Bessent says U.S. could sanction China over AI model 'theft'"
+        "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
+        "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
+        "Google burned through nearly $6bn in cash last quarter as AI spending surged",
+        "Tesla profits plunge as discounts on EV models weigh on results",
+        "Wall Street Won\u2019t Give Up on Strategy, Sees 170% Upside"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "Yahoo(3), MarketWatch(2), Bloomberg(2)",
+      "count": 10,
+      "pct": 9.1,
+      "sources": "Bloomberg(4), FT(2), Yahoo(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Why energy stocks still look so cheap, even after their big rally this month",
-        "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
-        "US Yields Hit Two-Month High as Oil Sparks Inflation Risk",
-        "Latest Oil Market News and Analysis for July 21",
-        "NexGen Energy Ltd. (NXE) Fell Due to Risk-Off Sentiment in the Commodity Market"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 6,
-      "pct": 5.2,
-      "sources": "CNBC(2), FT(2), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Jamie Dimon says markets underestimate risks and he wouldn't buy stocks or Treasurys at current prices",
-        "Property taxes are poised for major midterm elections ballot battles across many U.S. states",
-        "We have $8 million in traditional IRAs. Should we tap them to buy a house \u2014 and take the tax hit?",
-        "Burnham backs away from costly increase to income tax allowance",
-        "US Treasury sends warning to hedge funds over \u2018tax alpha\u2019 strategies"
+        "Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb",
+        "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
+        "European gas prices approach Iran war highs as traders fret over winter supplies",
+        "The US has collected about $13bn of Venezuela\u2019s oil money. Where is it?",
+        "S&P 500 Slumps for Fourth Time in Five Days as Oil Prices Jump"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "Bloomberg(2), CNBC(1), Yahoo(1)",
+      "count": 7,
+      "pct": 6.4,
+      "sources": "CNBC(2), MarketWatch(2), Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire",
-        "US Yields Hit Two-Month High as Oil Sparks Inflation Risk",
-        "Gold and Silver Rise on Dip-Buying as Traders Weigh Fed Strategy",
-        "The Fed's Benchmark Rate Has Sat at 3.5%\u20133.75% Since December. Here's What Could Change for Bond ETFs Later This Year."
+        "Senate crypto bill would ban federal officials \u2014 including presidents \u2014 from issuing digital assets",
+        "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
+        "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
+        "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
+        "Yen Rebound Ebbs After Brief Rally on Outlook for BOJ Rate Hikes"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "count": 4,
+      "pct": 3.6,
+      "sources": "Yahoo(3), CNBC(1)",
       "sample_headlines": [
-        "Time for a crypto comeback? Traders bet that this stock will lead the way",
-        "Bitcoin Rallies After Bessent Says Clarity Act at \u20181-Yard Line\u2019",
-        "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict"
+        "Senate crypto bill would ban federal officials \u2014 including presidents \u2014 from issuing digital assets",
+        "Popular crypto firm files for Chapter 11 after token collapse",
+        "T. Rowe Research Charts a Disciplined Path for Crypto",
+        "Bitcoin and ethereum prices today, Tuesday, July 21, 2026: Crypto prices rise as investors' risk appetite returns"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "White House teases new trade action 'soon' as it works to re-create global tariff regime",
-        "Canadian Stocks Climb as Gold Surge Offsets Trump Tariff Threat"
+        "Sen. Wyden introduces bill to curb Trump's tariff powers",
+        "Trump's generic drug tariffs: What they could mean for medicine prices, manufacturers and supply",
+        "Brazil Unveils New Relief for Companies Hit by US Tariffs"
       ]
     },
     {
       "topic": "China",
       "count": 2,
-      "pct": 1.7,
+      "pct": 1.8,
       "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "Bessent says U.S. could sanction China over AI model 'theft'",
-        "Why the world trusts China more than America"
+        "Senate panel advances China auto bill that could bar Mercedes-Benz from U.S.",
+        "Mercedes risks US sales ban under Senate China bill"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "MarketWatch(2)",
+      "sample_headlines": [
+        "The Treasury market touches a worrying milestone not seen since 2007",
+        "We have $8 million in traditional IRAs. Should we tap them to buy a house \u2014 and take the tax hit?"
       ]
     }
   ]
