@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-07-21",
-  "computed_at": "2026-07-22T21:03:04Z",
-  "bias": "LONG",
-  "conviction": "low-medium",
-  "bias_reason": "Tech bullish but RS conviction not at high.",
-  "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
+  "as_of": "2026-07-22",
+  "computed_at": "2026-07-23T21:02:34Z",
+  "bias": "REDUCED",
+  "conviction": "low",
+  "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
+  "action": "Reduce SPY baseline to 30-50%. Hold cash buffer for next Tier-1 setup.",
   "signals": {
     "fiscal_regime": "Restrictive",
-    "tech_regime": "bullish",
-    "tech_close": 7545.75,
-    "tech_sma20": 7533.24,
+    "tech_regime": "bearish",
+    "tech_close": 7536.5,
+    "tech_sma20": 7538.65,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 4/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "4/11",
+    "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "3/11",
     "tier1_open": false,
     "macro_confluence": "1/3"
   },
@@ -20,26 +20,21 @@
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": 15.02
-    },
-    {
-      "pair": "KRE/XLU",
-      "rationale": "Regional banks vs utilities",
-      "roc_20d": 5.07
+      "roc_20d": 11.07
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLY/XLV",
       "rationale": "Discretionary vs healthcare",
-      "roc_20d": -6.42
+      "roc_20d": -4.33
     },
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": -2.3
+      "roc_20d": -0.56
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
-  "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
+  "watch_downgrade": "Continued weakness in trend + RS -> further reduce or move to cash"
 }
