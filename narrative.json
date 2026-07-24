@@ -1,100 +1,117 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 110,
-  "fetched_at": "2026-07-23T21:01:55.354380+00:00",
+  "total_headlines": 114,
+  "fetched_at": "2026-07-24T21:01:35.762620+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 25,
-      "pct": 22.7,
-      "sources": "CNBC(9), Yahoo(8), Bloomberg(5), FT(2), MarketWatch(1)",
+      "count": 30,
+      "pct": 26.3,
+      "sources": "CNBC(12), Yahoo(10), Bloomberg(4), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "Intel's stock jumps 11% as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
-        "OpenAI's Hugging Face hack triggers 'AI Kill Switch' bill in Congress",
-        "Amazon and Microsoft pivot cloud gaming strategies to target different players",
-        "Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge",
-        "IBM's Krishna tries to reassure investors that AI won't disrupt company's software unit"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 20,
-      "pct": 18.2,
-      "sources": "CNBC(7), Yahoo(7), Bloomberg(3), MarketWatch(2), FT(1)",
-      "sample_headlines": [
-        "Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge",
-        "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-        "As the S&P 500 sells off, traders eye key 'risk pivot' level",
-        "Wall Street stumbles as oil surges, and Lilly takes a new path on next-gen obesity drug",
-        "Albertsons stock plunges as it says weaker grocery spending will cut into sales and earnings"
+        "Trump defends DOJ subpoenas of NY Times reporters; Google also was targeted",
+        "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
+        "Bond market anxiety is growing over AI capex budgets",
+        "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
+        "Trader who successfully shorted Tesla into earnings now sets sights on this high flyer"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 17,
-      "pct": 15.5,
-      "sources": "CNBC(6), Bloomberg(5), FT(3), Yahoo(2), MarketWatch(1)",
+      "count": 20,
+      "pct": 17.5,
+      "sources": "Bloomberg(9), CNBC(6), Yahoo(3), MarketWatch(2)",
       "sample_headlines": [
-        "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-        "Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia",
-        "Wall Street stumbles as oil surges, and Lilly takes a new path on next-gen obesity drug",
-        "Brent crude tops $100 a barrel. How the next stop could be $120",
-        "Trump says U.S. will hold Iran responsible for Houthi attacks after oil tankers targeted in Red Sea"
+        "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
+        "Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing",
+        "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks",
+        "Russian attack cuts power to around 150,000 in Ukraine\u2019s north as Kyiv hits missile, oil facilities",
+        "Why Costco keeps gas prices so low\u2014it's 'straight out of the retail playbook,' expert says"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 9.1,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(2), FT(1)",
+      "count": 17,
+      "pct": 14.9,
+      "sources": "CNBC(10), Yahoo(3), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "Congress splits on war powers resolutions to force Trump to abandon Iran war",
-        "IBM's Krishna tries to reassure investors that AI won't disrupt company's software unit",
-        "Trump says U.S. will hold Iran responsible for Houthi attacks after oil tankers targeted in Red Sea",
-        "Lockheed Martin\u2019s stock skyrockets as push to build more missiles faster pays off",
-        "Global oil tops $100, settles at 2-month high after Houthis strike Saudi tankers and Trump threatens \u2018military punishment\u2019 on Iran"
+        "Trump considers \u2018massive attack\u2019 on Iran; Pakistan reportedly seeks to restart stalled peace talks",
+        "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
+        "Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing",
+        "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
+        "Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 15,
+      "pct": 13.2,
+      "sources": "Bloomberg(6), Yahoo(5), CNBC(3), MarketWatch(1)",
+      "sample_headlines": [
+        "1 hyperscaler megacap down, 3 to go. Alphabet raises the stakes on AI spending",
+        "Amazon cracks down on use of AI images by sellers after New York law",
+        "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
+        "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
+        "S&P 500 Churns as Oil Decline Offsets Chip Selloff: Markets Wrap"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 8.2,
-      "sources": "Bloomberg(4), CNBC(2), MarketWatch(2), Yahoo(1)",
+      "count": 6,
+      "pct": 5.3,
+      "sources": "Yahoo(3), CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-        "Traders see September rate hike as European Central Bank mulls energy price spike",
-        "Japan\u2019s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.",
-        "A \u2018generational buying opportunity\u2019 guarantees inflation plus 3% a year, says this hedge-fund manager",
-        "Dollar Rises as Intensifying Iran War Lifts Rate Hike Bets"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
-        "China Tankers Pass Red Sea Chokepoint Despite Houthi Threat"
+        "Why bond investors are pushing up some of your interest rates",
+        "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks",
+        "Global Bonds Are Reeling as Oil Surge Rekindles Inflation Threat",
+        "Homeowners Hold Much Greater Wealth Than Renters at Every Age, Federal Reserve Finds",
+        "FedEx unveils 2026 peak season fees, higher home delivery prices loom"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 5.3,
+      "sources": "CNBC(2), Yahoo(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "A tax break for preserving land has drawn IRS scrutiny. Here\u2019s when it still makes sense",
-        "US Treasury Yields Rise to 2026 Highs With Oil Sparking Fed Bets"
+        "Bond market anxiety is growing over AI capex budgets",
+        "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks",
+        "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
+        "Waymo explores split with Uber as robotaxi tensions deepen",
+        "NBA champ Kyle Kuzma calls out rich athletes who say $40M is nothing after taxes: \u2018Nobody told you to live like a king.\u2019"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "CNBC(2), FT(2)",
+      "sample_headlines": [
+        "Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing",
+        "How a Chinese AI model stopped OpenAI\u2019s \u2018unprecedented\u2019 cyber attack",
+        "Yang Zhilin, the rock star founder behind China\u2019s Moonshot AI",
+        "Nvidia and Palantir urge US not to ban \u2018open\u2019 AI models after China scare"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says"
+        "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+        "Trump's new global tariff draws rebukes from trade partners over forced labor justification",
+        "Wall Street Bulls Are Staring Down $100 Oil, Tariffs, AI Angst"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Crypto ETFs: A More Selective Market Emerges",
+        "Bitcoin and ethereum prices today, Thursday, July 23: Prices mixed as analysts debate crypto bottom"
       ]
     }
   ]
