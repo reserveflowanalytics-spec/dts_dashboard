@@ -1,6 +1,6 @@
 {
   "as_of": "2026-07-23",
-  "computed_at": "2026-07-24T21:01:55Z",
+  "computed_at": "2026-07-25T21:02:54Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -8,8 +8,8 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bearish",
-    "tech_close": 7444.0,
-    "tech_sma20": 7539.43,
+    "tech_close": 7447.75,
+    "tech_sma20": 7542.8,
     "rs_conviction_level": "unknown",
     "rs_conviction_label": "Moderate \u2014 5/11 pairs aligned with regime",
     "rs_aligned_pairs": "5/11",
