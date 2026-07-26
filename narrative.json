@@ -1,112 +1,113 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 96,
-  "fetched_at": "2026-07-25T21:02:33.609381+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 98,
+  "fetched_at": "2026-07-26T21:04:17.836437+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 20.8,
-      "sources": "CNBC(8), Yahoo(8), Bloomberg(2), MarketWatch(1), FT(1)",
+      "count": 13,
+      "pct": 13.3,
+      "sources": "Yahoo(7), CNBC(5), Bloomberg(1)",
       "sample_headlines": [
+        "Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks",
+        "How AI wealth could be distributed to all Americans",
         "Analysis: A powerful new coalition of AI skeptics is coalescing right in Trump's blind spot",
         "Nvidia locks down memory supply from SK Hynix as part of $500 billion AI deal",
-        "Trump defends DOJ subpoenas of NY Times reporters; Google also was targeted",
-        "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
-        "Bond market anxiety is growing over AI capex budgets"
+        "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 12.5,
-      "sources": "Bloomberg(4), Yahoo(3), MarketWatch(2), FT(2), CNBC(1)",
+      "count": 13,
+      "pct": 13.3,
+      "sources": "Yahoo(7), CNBC(5), MarketWatch(1)",
       "sample_headlines": [
-        "Nvidia locks down memory supply from SK Hynix as part of $500 billion AI deal",
-        "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
-        "Think this stock market is in a bubble? These earnings numbers say otherwise.",
-        "Investors increase bets on Federal Reserve rate rise after oil price surge",
-        "Why this philosopher turned down Anthropic"
+        "Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks",
+        "Top Wall Street analysts back these 3 stocks for their long-term growth potential",
+        "For Gen X investors, dotcom bubble haunts stock market portfolios closing in on retirement",
+        "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "Nvidia locks down memory supply from SK Hynix as part of $500 billion AI deal"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 11.5,
-      "sources": "CNBC(6), Bloomberg(3), FT(1), Yahoo(1)",
+      "count": 10,
+      "pct": 10.2,
+      "sources": "FT(4), Yahoo(4), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Saudi military strikes Houthi targets in Yemen after Iran-backed militia attacked Red Sea shipping",
-        "Trump considers \u2018massive attack\u2019 on Iran; Pakistan reportedly seeks to restart stalled peace talks",
-        "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
-        "Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing",
-        "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models"
+        "Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'",
+        "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+        "US pauses Iran strikes as Oman pursues Hormuz transit deal",
+        "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+        "Defence giants provide record backing for military start-ups"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 11.5,
-      "sources": "Yahoo(7), CNBC(2), FT(2)",
+      "count": 8,
+      "pct": 8.2,
+      "sources": "Yahoo(5), CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Saudi military strikes Houthi targets in Yemen after Iran-backed militia attacked Red Sea shipping",
         "Why bond investors are pushing up some of your interest rates",
-        "Investors increase bets on Federal Reserve rate rise after oil price surge",
-        "Dropping quarterly company reports in US may not be a bad thing",
-        "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 9.4,
-      "sources": "CNBC(3), Bloomberg(3), MarketWatch(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "Finland\u2019s radical answer to renewable energy\u2019s biggest headache: The world\u2019s largest sand battery",
-        "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
-        "Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing",
-        "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
-        "Investors increase bets on Federal Reserve rate rise after oil price surge"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 3.1,
-      "sources": "CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
-        "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
-        "Austin\u2019s Mayor Tackles Housing Affordability, and Canada Faces New Tariffs"
+        "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+        "Bond Traders on Edge as Risks of Fed Rate Hike This Week Mount",
+        "Dow Jones Futures: U.S., Iran Seek Deal; Apple Leads Earnings Wave, Fed Meeting Ahead",
+        "Stock Market Week Ahead: Mag 7 And The Fed \u2014 But It's All About The Cash"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 3.1,
-      "sources": "CNBC(2), Yahoo(1)",
+      "count": 6,
+      "pct": 6.1,
+      "sources": "CNBC(2), MarketWatch(2), Yahoo(2)",
       "sample_headlines": [
+        "Some high-earning investors will soon owe taxes on years of deferred capital gains",
         "Buffett favors an estate tax, but like virtually all billionaires, he won't be paying it",
-        "Bond market anxiety is growing over AI capex budgets",
-        "Bitcoin and ethereum prices today, Friday, July 24, 2026: Crypto prices retreat on higher U.S. Treasury yields"
+        "We have $8 million in traditional IRAs. Should we tap them to buy a house \u2014 and take the tax hit?",
+        "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+        "The Covered Call Tax Trap: These 3 ETFs Pay Around 12 Percent and Legally Shield Most of It From the IRS"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 2.1,
-      "sources": "CNBC(1), Yahoo(1)",
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 5.1,
+      "sources": "Yahoo(2), CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Does crypto make your portfolio less risky? Only if you do it right, experts say",
-        "Bitcoin and ethereum prices today, Friday, July 24, 2026: Crypto prices retreat on higher U.S. Treasury yields"
+        "Finland\u2019s radical answer to renewable energy\u2019s biggest headache: The world\u2019s largest sand battery",
+        "China pours funding into green energy deals as Iran war hits oil demand",
+        "Iraq to Sign Agreement with Syria on Building of Oil Pipelines",
+        "Argentina\u2019s Oil Production Soars as Vaca Muerta Breaks New Records",
+        "Oil Market's Glut Narrative Just Blew Up"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 2.0,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
+        "Australian Prime Minister Albanese to Press Trump on New Tariffs"
       ]
     },
     {
       "topic": "China",
+      "count": 2,
+      "pct": 2.0,
+      "sources": "FT(2)",
+      "sample_headlines": [
+        "China pours funding into green energy deals as Iran war hits oil demand",
+        "How China exploits EU divisions over trade"
+      ]
+    },
+    {
+      "topic": "Crypto",
       "count": 1,
       "pct": 1.0,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing"
+        "Does crypto make your portfolio less risky? Only if you do it right, experts say"
       ]
     }
   ]
