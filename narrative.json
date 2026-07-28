@@ -1,103 +1,104 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 114,
-  "fetched_at": "2026-07-27T21:02:51.570584+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 118,
+  "fetched_at": "2026-07-28T21:03:34.260400+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 20,
-      "pct": 17.5,
-      "sources": "CNBC(7), Yahoo(7), FT(3), Bloomberg(2), MarketWatch(1)",
-      "sample_headlines": [
-        "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles",
-        "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chairman Kevin Warsh will say this week",
-        "Trump backs 'fantastic' Warsh while calling for lower rates and citing 'bad intentions' of other Fed officials",
-        "Oil prices slide, Brent crude below $90 as pause to U.S.-Iran hostilities appears to hold",
-        "Netanyahu, Zelenskyy come to DC for Graham's funeral, meetings with Trump amid wars"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 18,
-      "pct": 15.8,
-      "sources": "CNBC(6), Yahoo(5), Bloomberg(3), MarketWatch(2), FT(2)",
+      "count": 26,
+      "pct": 22.0,
+      "sources": "CNBC(8), Yahoo(7), Bloomberg(5), MarketWatch(3), FT(3)",
       "sample_headlines": [
-        "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
-        "Nvidia and OpenAI in talks for up to $250 billion dollar backstop to fund AI infrastructure plans",
-        "Nvidia's potential $250B backstop for OpenAI is another strike against the AI trade",
-        "Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network",
-        "Chipmaker CXMT\u2019s 466% market debut surge makes it the most valuable China-listed company"
+        "Apple plans to lease iPhones for $17.99 a month through partnership with Klarna",
+        "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
+        "Visa is cutting 7% of employees in efficiency push as AI reshapes work",
+        "The future of Wall Street is here as startups and brokers build AI agents to trade 24/7",
+        "Meta likely to highlight smart glasses, avoid social media policy on upcoming earnings call, Kalshi traders say"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 10.5,
-      "sources": "Bloomberg(5), CNBC(3), Yahoo(3), FT(1)",
+      "count": 17,
+      "pct": 14.4,
+      "sources": "Bloomberg(6), Yahoo(5), CNBC(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
-        "CME launches single stock futures enabling investors to trade SpaceX, Micron and others 23 hours a day",
-        "Chipmaker CXMT\u2019s 466% market debut surge makes it the most valuable China-listed company",
-        "Oil price tumbles as Iran and US pause strikes over Strait of Hormuz",
-        "JPMorgan Sees S&P 500 Set to Rally as a Buy Signal Flashes"
+        "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
+        "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
+        "The future of Wall Street is here as startups and brokers build AI agents to trade 24/7",
+        "Nasdaq-100 is on the edge of correction territory as semiconductor stocks take another beating",
+        "Chip stocks tumble as AI sell-off deepens"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 7.9,
-      "sources": "CNBC(4), Bloomberg(4), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 14,
+      "pct": 11.9,
+      "sources": "CNBC(4), Bloomberg(4), FT(3), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
-        "Trump says U.S. has sold more than $13 billion of Venezuela oil since Maduro's capture",
-        "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chairman Kevin Warsh will say this week",
-        "Oil prices slide, Brent crude below $90 as pause to U.S.-Iran hostilities appears to hold",
-        "Finland\u2019s radical answer to renewable energy\u2019s biggest headache: The world\u2019s largest sand battery",
-        "Oil price tumbles as Iran and US pause strikes over Strait of Hormuz"
+        "Blurred front lines: Trump meets Zelenskyy as Ukraine, Iran wars collide",
+        "Iran hosts Hormuz calls with Saudi Arabia, Oman as Trump hails \u2018good talks\u2019",
+        "Analysis: Kevin Warsh has three reasons to hold off on a Fed rate hike this week",
+        "SpaceX stock-purchasing by Congress members fuels conflict concerns",
+        "Global oil prices settle at a 2-week low, as Trump meets with Netanyahu to discuss Iran war"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "CNBC(4), MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 12,
+      "pct": 10.2,
+      "sources": "Bloomberg(5), CNBC(3), MarketWatch(2), Yahoo(2)",
       "sample_headlines": [
-        "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chairman Kevin Warsh will say this week",
-        "Trump backs 'fantastic' Warsh while calling for lower rates and citing 'bad intentions' of other Fed officials",
+        "Shein says it's under investigation by the Federal Trade Commission as it prepares for Hong Kong IPO",
+        "Analysis: Kevin Warsh has three reasons to hold off on a Fed rate hike this week",
         "Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network",
-        "Federal Reserve is likely to hold interest rates steady. Here's what that means for consumers",
-        "\u2018I know what he wants to do,\u2019 Trump says of Fed\u2019s Warsh, as president presses for rate cuts"
+        "The Fed isn\u2019t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
+        "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win."
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "Bloomberg(3), CNBC(2), MarketWatch(2)",
+      "sample_headlines": [
+        "U.S. Strategic Petroleum Reserve faces stress as emergency releases strain old infrastructure",
+        "Trump says U.S. has sold more than $13 billion of Venezuela oil since Maduro's capture",
+        "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
+        "Global oil prices settle at a 2-week low, as Trump meets with Netanyahu to discuss Iran war",
+        "Emerging Currencies Traded Mixed Amid Oil Plunge, Fed Bets"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 4,
-      "pct": 3.5,
-      "sources": "CNBC(1), FT(1), Bloomberg(1), Yahoo(1)",
+      "pct": 3.4,
+      "sources": "CNBC(3), Yahoo(1)",
       "sample_headlines": [
-        "Why Trump's new tariff blitz is very different this time around",
-        "Donald Trump rebuilds his tariff wall",
-        "Tyson, JBS Shares Surge as US Reopens Mexico Cattle Imports After Screwworm Ban",
-        "Shein flags tariff hits after posting quarterly loss ahead of Hong Kong IPO"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "Chipmaker CXMT\u2019s 466% market debut surge makes it the most valuable China-listed company",
-        "Micron and other chip stocks fall as China steals the spotlight"
+        "Senate to set up key vote on Russia sanctions",
+        "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
+        "New Republican ads slam Democrats opposed to Trump's tariffs",
+        "New tariff \u2018textile mechanism\u2019 clause to disadvantage US textile makers"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "Yahoo(2), CNBC(1)",
+      "sample_headlines": [
+        "Lawmakers renew push to axe a lucrative tax loophole for crypto investors",
+        "World's most profitable airline now accepts crypto payments for flights",
+        "Bitcoin and ethereum prices today, Monday, July 27, 2026: Can positive price trends hold this week?"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 1.8,
+      "pct": 1.7,
       "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
-        "Bitcoin and ethereum prices today, Monday, July 27, 2026: Can positive price trends hold this week?"
+        "Lawmakers renew push to axe a lucrative tax loophole for crypto investors",
+        "$25 billion in World Cup prediction market bets and the IRS still hasn't said how winnings are taxed"
       ]
     }
   ]
