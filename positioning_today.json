@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-27",
-  "computed_at": "2026-07-28T21:03:51Z",
+  "as_of": "2026-07-28",
+  "computed_at": "2026-07-29T21:02:31Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -8,11 +8,11 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bearish",
-    "tech_close": 7449.25,
-    "tech_sma20": 7540.41,
+    "tech_close": 7466.0,
+    "tech_sma20": 7536.48,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "3/11",
+    "rs_conviction_label": "Low \u2014 only 4/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "4/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -20,19 +20,24 @@
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": 12.63
+      "roc_20d": 16.44
+    },
+    {
+      "pair": "XLB/XLRE",
+      "rationale": "Materials vs real estate",
+      "roc_20d": 0.87
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLY/XLV",
       "rationale": "Discretionary vs healthcare",
-      "roc_20d": -6.86
+      "roc_20d": -7.71
     },
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": -3.84
+      "roc_20d": -6.93
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
