@@ -1,100 +1,108 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 114,
-  "fetched_at": "2026-07-29T21:01:54.864963+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 118,
+  "fetched_at": "2026-07-30T21:03:02.466934+00:00",
   "topics": [
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 16,
-      "pct": 14.0,
-      "sources": "Bloomberg(7), CNBC(4), MarketWatch(2), FT(2), Yahoo(1)",
-      "sample_headlines": [
-        "Divided Fed holds interest rates steady, but three members voted to hike",
-        "Jeffrey Gundlach says the bond market is telling Warsh the Fed has to start acting on inflation",
-        "Here are the five big takeaways from this week's Fed meeting",
-        "Fed keeps rates steady. The big question now: What will Microsoft and Meta say on AI capex?",
-        "Do-nothing Fed? Maybe not. Now Wall Street zeros in on rate hike in September."
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 12.3,
-      "sources": "CNBC(9), FT(3), Yahoo(2)",
+      "count": 26,
+      "pct": 22.0,
+      "sources": "CNBC(11), MarketWatch(4), FT(4), Yahoo(4), Bloomberg(3)",
       "sample_headlines": [
-        "Meta's stock drops on light revenue guidance, dwindling free cash flow",
-        "Microsoft beats Q4 cloud expectations as full-year Azure revenue tops $100 billion",
-        "Qualcomm to raise prices during memory crunch as chipmaker issues light earnings guidance",
-        "Chipotle hikes same-store sales forecast as diners return for burrito bowls",
-        "Sam Altman to meet with White House's Wiles this week ahead of AI framework deadline"
+        "Amazon stock soars 9% on 'booming' cloud growth, revenue beat",
+        "AI investor Leopold Aschenbrenner forced to unwind all public stock positions after steep losses, sources say",
+        "China\u2019s open-weight model lead exposes America\u2019s AI blind spot",
+        "Apple and Amazon report after the bell. Here's what the options market is saying",
+        "OpenAI cuts prices for two of its GPT-5.6 AI models as companies grow sensitive to costs"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 12,
-      "pct": 10.5,
-      "sources": "CNBC(5), Bloomberg(4), FT(3)",
+      "count": 13,
+      "pct": 11.0,
+      "sources": "CNBC(4), MarketWatch(3), FT(3), Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "Trump says U.S. will give Iran a 'beating' after surprise attack",
-        "Jeffrey Gundlach says the bond market is telling Warsh the Fed has to start acting on inflation",
-        "Brent oil jumps back above $90 after Trump threatens to hit Iran hard",
-        "Warren, Schiff urge SEC to probe Trump Media's paid service giving faster access to Trump's posts",
-        "Warren probes Pentagon program to hire highly paid private sector workers"
+        "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
+        "Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged",
+        "How NBCUniversal's deal with YouTube could jump-start the next chapter of the streaming wars",
+        "Iran says it will 'punish the aggressor today' after 'heavy wave' of U.S. strikes",
+        "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 8.8,
-      "sources": "Bloomberg(3), Yahoo(3), MarketWatch(2), CNBC(1), FT(1)",
+      "count": 13,
+      "pct": 11.0,
+      "sources": "MarketWatch(3), Bloomberg(3), Google News(2), FT(2), Yahoo(2), CNBC(1)",
       "sample_headlines": [
-        "Carvana stock falls 15% as auto retailer's 2026 earnings guidance misses Wall Street's expectations",
-        "Do-nothing Fed? Maybe not. Now Wall Street zeros in on rate hike in September.",
-        "Ford\u2019s big-truck bet is paying off \u2014 and Wall Street is taking notice",
-        "Oil prices surge after Trump says Iran will \u2018get a beating\u2019 for missile attack",
-        "Stocks Fall as 30-Year Bond Yields Surge After Fed: Markets Wrap"
+        "AMD and Micron surge, Lam Research climbs 17% as chip stocks rip higher",
+        "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade",
+        "Meta\u2019s stock falls hard. Here\u2019s why the company is in Wall Street\u2019s doghouse.",
+        "Warsh\u2019s Wall Street cred takes a hit as investors doubt the Fed chair\u2019s inflation-fighting resolve",
+        "Stock Market Investors Just Got Bad News About President Trump's Economy. It Hints at a Big Move in the S&P 500 and Nasdaq. - Yahoo Finance"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 8,
+      "pct": 6.8,
+      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged",
+        "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
+        "Warsh\u2019s Wall Street cred takes a hit as investors doubt the Fed chair\u2019s inflation-fighting resolve",
+        "Warsh\u2019s stripped-back Fed communication \u2018already backfiring\u2019, say investors",
+        "Gold Advances as Traders Weigh Fed Rate Path After Latest Hold"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 6,
-      "pct": 5.3,
-      "sources": "CNBC(2), FT(2), Bloomberg(1), Yahoo(1)",
+      "pct": 5.1,
+      "sources": "Yahoo(3), CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Brent oil jumps back above $90 after Trump threatens to hit Iran hard",
-        "FIFA is embroiled in a $20 billion World Cup controversy. Here's what's going on",
-        "Oil prices surge after Trump says Iran will \u2018get a beating\u2019 for missile attack",
-        "US oil inventories fall to \u2018precariously low\u2019 level as Iran war disrupts supply",
-        "Latest Oil Market News and Analysis for July 29"
+        "The oil majors are about to report booming profits. These smaller stocks may be better buys",
+        "Egypt says drone hit two ships at Mediterranean port as attacks on energy infrastructure widen",
+        "Latest Oil Market News and Analysis for July 30",
+        "Dow Jones Futures Fall, Oil Jumps On Iran News; Seagate, SK Hynix, KLA, Bloom Energy Are AI Earnings Movers",
+        "FirstEnergy Corp. Q2 2026 Earnings Call Summary"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Trade / Tariffs",
       "count": 2,
-      "pct": 1.8,
-      "sources": "Yahoo(2)",
+      "pct": 1.7,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "World's most profitable airline now accepts crypto payments for flights",
-        "MSTR, CRCL, and COIN Forecasts \u2013 Crypto Stocks Drift Softly Ahead of Thursday Earnings"
+        "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
+        "Weak Yen Offers Toyota an Earnings Respite From Tariffs, War"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "Bloomberg(1), Yahoo(1)",
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Apollo's Slok Says Warsh Silence Fuels Treasury Selloff",
-        "Secretary Bessent cracks down on non-profit tax loopholes"
+        "Apple defies smartphone downturn with strong iPhone sales"
       ]
     },
     {
       "topic": "China",
       "count": 1,
-      "pct": 0.9,
+      "pct": 0.8,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Nike was once China's sneaker king. Here's why its sales have fallen 30%"
+        "China\u2019s open-weight model lead exposes America\u2019s AI blind spot"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "My financial adviser says I don\u2019t need a tax-efficient withdrawal plan for my $2.3 million portfolio. Is that madness?"
       ]
     }
   ]
