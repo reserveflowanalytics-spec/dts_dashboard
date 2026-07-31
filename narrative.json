@@ -1,71 +1,95 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 118,
-  "fetched_at": "2026-07-30T21:03:02.466934+00:00",
+  "total_headlines": 119,
+  "fetched_at": "2026-07-31T21:09:21.394071+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 26,
-      "pct": 22.0,
-      "sources": "CNBC(11), MarketWatch(4), FT(4), Yahoo(4), Bloomberg(3)",
+      "count": 31,
+      "pct": 26.1,
+      "sources": "CNBC(10), Yahoo(9), Bloomberg(5), MarketWatch(4), FT(3)",
       "sample_headlines": [
-        "Amazon stock soars 9% on 'booming' cloud growth, revenue beat",
-        "AI investor Leopold Aschenbrenner forced to unwind all public stock positions after steep losses, sources say",
-        "China\u2019s open-weight model lead exposes America\u2019s AI blind spot",
-        "Apple and Amazon report after the bell. Here's what the options market is saying",
-        "OpenAI cuts prices for two of its GPT-5.6 AI models as companies grow sensitive to costs"
+        "How Leopold Aschenbrenner built a $45 billion AI hedge fund \u2014 and lost most of it in days",
+        "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
+        "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
+        "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
+        "Microsoft shares are surging. Here\u2019s how to still make money, says Mike Khouw"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 11.0,
-      "sources": "CNBC(4), MarketWatch(3), FT(3), Bloomberg(2), Yahoo(1)",
+      "count": 14,
+      "pct": 11.8,
+      "sources": "CNBC(7), MarketWatch(3), Bloomberg(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
-        "Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged",
-        "How NBCUniversal's deal with YouTube could jump-start the next chapter of the streaming wars",
-        "Iran says it will 'punish the aggressor today' after 'heavy wave' of U.S. strikes",
-        "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade"
+        "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
+        "Trump says U.S. has 'not agreed to' grant Ukraine Patriot missile licenses",
+        "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
+        "Exxon and Chevron profits surge on rising oil prices due to Iran war",
+        "Iran targets strategic U.S. assets in Kuwait, Bahrain after Egypt drone attack"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 11.0,
-      "sources": "MarketWatch(3), Bloomberg(3), Google News(2), FT(2), Yahoo(2), CNBC(1)",
+      "count": 14,
+      "pct": 11.8,
+      "sources": "Yahoo(6), Bloomberg(5), CNBC(2), FT(1)",
       "sample_headlines": [
-        "AMD and Micron surge, Lam Research climbs 17% as chip stocks rip higher",
-        "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade",
-        "Meta\u2019s stock falls hard. Here\u2019s why the company is in Wall Street\u2019s doghouse.",
-        "Warsh\u2019s Wall Street cred takes a hit as investors doubt the Fed chair\u2019s inflation-fighting resolve",
-        "Stock Market Investors Just Got Bad News About President Trump's Economy. It Hints at a Big Move in the S&P 500 and Nasdaq. - Yahoo Finance"
+        "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
+        "Exxon and Chevron profits surge on rising oil prices due to Iran war",
+        "Leopold Aschenbrenner vows to \u2018fight another day\u2019 after fund plunges 67% in July",
+        "Biggest Wall Street Rotation Since 2020 Shows AI Crowding Risks",
+        "Reddit Suffers Record Stock Rout on Dearth of New AI Deals"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 6.8,
-      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1), FT(1), Yahoo(1)",
+      "count": 10,
+      "pct": 8.4,
+      "sources": "CNBC(4), Yahoo(4), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged",
-        "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
-        "Warsh\u2019s Wall Street cred takes a hit as investors doubt the Fed chair\u2019s inflation-fighting resolve",
-        "Warsh\u2019s stripped-back Fed communication \u2018already backfiring\u2019, say investors",
-        "Gold Advances as Traders Weigh Fed Rate Path After Latest Hold"
+        "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
+        "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
+        "Investors may want to focus on front end of yield curve \u2014 as Street anticipates next Fed meetings",
+        "Fed officials who voted to hike rates say action is needed now against inflation",
+        "Warsh\u2019s Fed is failing to stick to its own principles for good monetary policy"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.1,
-      "sources": "Yahoo(3), CNBC(2), Bloomberg(1)",
+      "count": 7,
+      "pct": 5.9,
+      "sources": "CNBC(3), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "The oil majors are about to report booming profits. These smaller stocks may be better buys",
-        "Egypt says drone hit two ships at Mediterranean port as attacks on energy infrastructure widen",
-        "Latest Oil Market News and Analysis for July 30",
-        "Dow Jones Futures Fall, Oil Jumps On Iran News; Seagate, SK Hynix, KLA, Bloom Energy Are AI Earnings Movers",
-        "FirstEnergy Corp. Q2 2026 Earnings Call Summary"
+        "Exxon and Chevron profits surge on rising oil prices due to Iran war",
+        "Novo Nordisk shares dive after heart medicine fails trial, dealing another blow to its  pipeline",
+        "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
+        "Latest Oil Market News and Analysis for July 31",
+        "US Says Not Involved in Redirecting Pakistan-Bound LNG Tanker"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "Yahoo(4)",
+      "sample_headlines": [
+        "Robinhood\u2019s Crypto Trading Revenue Plunges 38%",
+        "Bitcoin and ethereum prices today, Thursday, July 30, 2026: Prices rise after Fed leaves rates unchanged",
+        "Bitcoin ETFs On Pace For Smallest Monthly Inflows Ever",
+        "A Quarter Of Canadians Now Own Crypto"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "Yahoo(2), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "US Treasury warns banks it may intervene in yen",
+        "BlackRock\u2019s \u2018Widow Maker\u2019 Treasury ETF Slides to 2004 Low",
+        "World Cup Cross-Border Acceleration and AI Workforce Pivot Anchor Visa\u2019s Fiscal Q3 Beat",
+        "ICE to acquire MarketAxess in $6 billion bond trading deal"
       ]
     },
     {
@@ -74,35 +98,27 @@
       "pct": 1.7,
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
-        "Weak Yen Offers Toyota an Earnings Respite From Tariffs, War"
+        "Amazon says it got $600 million in Trump tariff refunds and will pass return along to some customers",
+        "Trucking Stocks Fall on Legal Risk in Worst Month Since Tariffs"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "U.S. lawmakers request information from DoorDash on use of Chinese AI models",
+        "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role."
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.8,
-      "sources": "FT(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Apple defies smartphone downturn with strong iPhone sales"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "China\u2019s open-weight model lead exposes America\u2019s AI blind spot"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "MarketWatch(1)",
-      "sample_headlines": [
-        "My financial adviser says I don\u2019t need a tax-efficient withdrawal plan for my $2.3 million portfolio. Is that madness?"
+        "The Coca-Cola Company: Volume Scale Beats CPG Stagflation as FIFA Activation Drives Guidance Upgrade"
       ]
     }
   ]
