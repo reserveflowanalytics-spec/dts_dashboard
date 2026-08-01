@@ -1,124 +1,87 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 119,
-  "fetched_at": "2026-07-31T21:09:21.394071+00:00",
+  "total_headlines": 89,
+  "fetched_at": "2026-08-01T21:01:31.331052+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 31,
-      "pct": 26.1,
-      "sources": "CNBC(10), Yahoo(9), Bloomberg(5), MarketWatch(4), FT(3)",
+      "count": 16,
+      "pct": 18.0,
+      "sources": "CNBC(8), Yahoo(6), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners",
+        "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
         "How Leopold Aschenbrenner built a $45 billion AI hedge fund \u2014 and lost most of it in days",
-        "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
-        "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
-        "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
-        "Microsoft shares are surging. Here\u2019s how to still make money, says Mike Khouw"
+        "Trump's AI executive order nears key deadline as regulation debate intensifies",
+        "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 14,
-      "pct": 11.8,
-      "sources": "CNBC(7), MarketWatch(3), Bloomberg(2), FT(1), Yahoo(1)",
+      "count": 15,
+      "pct": 16.9,
+      "sources": "CNBC(5), Bloomberg(5), FT(4), Yahoo(1)",
       "sample_headlines": [
+        "Tankers near Oman come under fire as Iran threatens to choke off shipping routes",
+        "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
+        "Iran's overlapping power centers make ending the war more complicated",
         "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
-        "Trump says U.S. has 'not agreed to' grant Ukraine Patriot missile licenses",
-        "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
-        "Exxon and Chevron profits surge on rising oil prices due to Iran war",
-        "Iran targets strategic U.S. assets in Kuwait, Bahrain after Egypt drone attack"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 11.8,
-      "sources": "Yahoo(6), Bloomberg(5), CNBC(2), FT(1)",
-      "sample_headlines": [
-        "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
-        "Exxon and Chevron profits surge on rising oil prices due to Iran war",
-        "Leopold Aschenbrenner vows to \u2018fight another day\u2019 after fund plunges 67% in July",
-        "Biggest Wall Street Rotation Since 2020 Shows AI Crowding Risks",
-        "Reddit Suffers Record Stock Rout on Dearth of New AI Deals"
+        "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 10,
-      "pct": 8.4,
-      "sources": "CNBC(4), Yahoo(4), MarketWatch(1), Bloomberg(1)",
+      "pct": 11.2,
+      "sources": "CNBC(6), Bloomberg(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
-        "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
+        "Tankers near Oman come under fire as Iran threatens to choke off shipping routes",
         "Investors may want to focus on front end of yield curve \u2014 as Street anticipates next Fed meetings",
-        "Fed officials who voted to hike rates say action is needed now against inflation",
-        "Warsh\u2019s Fed is failing to stick to its own principles for good monetary policy"
+        "Iran's overlapping power centers make ending the war more complicated",
+        "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
+        "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 5,
+      "pct": 5.6,
+      "sources": "CNBC(2), FT(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Tankers near Oman come under fire as Iran threatens to choke off shipping routes",
+        "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
+        "Bond sell-off sent warning on Fed\u2019s credibility, says top central bank official",
+        "Citadel\u2019s swoop on Situational Awareness helped stem a $3tn AI rout",
+        "Warsh\u2019s Silent Treatment Has S&P Traders Bracing for Wild Swings"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 5.9,
-      "sources": "CNBC(3), Bloomberg(2), Yahoo(2)",
+      "count": 2,
+      "pct": 2.2,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Exxon and Chevron profits surge on rising oil prices due to Iran war",
-        "Novo Nordisk shares dive after heart medicine fails trial, dealing another blow to its  pipeline",
-        "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
-        "Latest Oil Market News and Analysis for July 31",
-        "US Says Not Involved in Redirecting Pakistan-Bound LNG Tanker"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.4,
-      "sources": "Yahoo(4)",
-      "sample_headlines": [
-        "Robinhood\u2019s Crypto Trading Revenue Plunges 38%",
-        "Bitcoin and ethereum prices today, Thursday, July 30, 2026: Prices rise after Fed leaves rates unchanged",
-        "Bitcoin ETFs On Pace For Smallest Monthly Inflows Ever",
-        "A Quarter Of Canadians Now Own Crypto"
+        "Tanker Carrying Qatari LNG Struck While Transiting Hormuz",
+        "Turkey Said to Extend Iraq Oil Pipeline Deal by One Year"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.4,
-      "sources": "Yahoo(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "US Treasury warns banks it may intervene in yen",
-        "BlackRock\u2019s \u2018Widow Maker\u2019 Treasury ETF Slides to 2004 Low",
-        "World Cup Cross-Border Acceleration and AI Workforce Pivot Anchor Visa\u2019s Fiscal Q3 Beat",
-        "ICE to acquire MarketAxess in $6 billion bond trading deal"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
       "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "pct": 2.2,
+      "sources": "MarketWatch(2)",
       "sample_headlines": [
-        "Amazon says it got $600 million in Trump tariff refunds and will pass return along to some customers",
-        "Trucking Stocks Fall on Legal Risk in Worst Month Since Tariffs"
+        "Let\u2019s elect candidates who will make the wealthy pay taxes",
+        "My financial adviser says I don\u2019t need a tax-efficient withdrawal plan for my $2.3 million portfolio. Is that madness?"
       ]
     },
     {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "U.S. lawmakers request information from DoorDash on use of Chinese AI models",
-        "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role."
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
+      "topic": "Crypto",
       "count": 1,
-      "pct": 0.8,
+      "pct": 1.1,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "The Coca-Cola Company: Volume Scale Beats CPG Stagflation as FIFA Activation Drives Guidance Upgrade"
+        "Bitcoin and ethereum prices today, Friday, July 31, 2026: Crypto prices back off this morning"
       ]
     }
   ]
