@@ -1,78 +1,76 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 89,
-  "fetched_at": "2026-08-01T21:01:31.331052+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 93,
+  "fetched_at": "2026-08-02T21:03:24.611050+00:00",
   "topics": [
-    {
-      "topic": "AI / Tech",
-      "count": 16,
-      "pct": 18.0,
-      "sources": "CNBC(8), Yahoo(6), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners",
-        "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-        "How Leopold Aschenbrenner built a $45 billion AI hedge fund \u2014 and lost most of it in days",
-        "Trump's AI executive order nears key deadline as regulation debate intensifies",
-        "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks"
-      ]
-    },
     {
       "topic": "Iran / Middle East conflict",
       "count": 15,
-      "pct": 16.9,
-      "sources": "CNBC(5), Bloomberg(5), FT(4), Yahoo(1)",
+      "pct": 16.1,
+      "sources": "Bloomberg(4), CNBC(3), MarketWatch(3), Yahoo(3), FT(2)",
       "sample_headlines": [
-        "Tankers near Oman come under fire as Iran threatens to choke off shipping routes",
+        "Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal'",
+        "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
         "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-        "Iran's overlapping power centers make ending the war more complicated",
-        "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
-        "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike"
+        "We\u2019re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
+        "If Social Security\u2019s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned."
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 11.2,
-      "sources": "CNBC(6), Bloomberg(2), FT(1), Yahoo(1)",
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 15.1,
+      "sources": "Yahoo(5), CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Tankers near Oman come under fire as Iran threatens to choke off shipping routes",
-        "Investors may want to focus on front end of yield curve \u2014 as Street anticipates next Fed meetings",
-        "Iran's overlapping power centers make ending the war more complicated",
-        "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
-        "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike"
+        "As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners",
+        "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy",
+        "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
+        "Trump's AI executive order nears key deadline as regulation debate intensifies",
+        "S&P 500 profit growth is getting even wilder as Amazon makes its mark"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 5,
-      "pct": 5.6,
-      "sources": "CNBC(2), FT(2), Bloomberg(1)",
+      "count": 12,
+      "pct": 12.9,
+      "sources": "MarketWatch(4), Yahoo(4), CNBC(3), Bloomberg(1)",
       "sample_headlines": [
-        "Tankers near Oman come under fire as Iran threatens to choke off shipping routes",
-        "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
-        "Bond sell-off sent warning on Fed\u2019s credibility, says top central bank official",
-        "Citadel\u2019s swoop on Situational Awareness helped stem a $3tn AI rout",
-        "Warsh\u2019s Silent Treatment Has S&P Traders Bracing for Wild Swings"
+        "Top Wall Street analysts are bullish on these 3 dividend stocks for passive income",
+        "Here are the 2 big things we're watching in the stock market in the week ahead",
+        "Why people are dropping out of the workforce and not looking for new jobs: 'The market wore me down'",
+        "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
+        "\u2018We have always been civil\u2019: My sister refuses to replace me as executor. Can I step down before she dies?"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 7,
+      "pct": 7.5,
+      "sources": "CNBC(2), Yahoo(2), MarketWatch(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "States expand student loan options as new federal borrowing caps take effect \u2014 but they come with trade-offs",
+        "Why people are dropping out of the workforce and not looking for new jobs: 'The market wore me down'",
+        "Investors are rotating into financial stocks. The Fed\u2019s next move could determine how far the rally runs.",
+        "Iran says deal with Oman to manage shipping through Hormuz is close",
+        "Bond Traders Flying Blind on Fed See Risk Yields Spiral Higher"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 2.2,
-      "sources": "Bloomberg(2)",
+      "count": 1,
+      "pct": 1.1,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Tanker Carrying Qatari LNG Struck While Transiting Hormuz",
-        "Turkey Said to Extend Iraq Oil Pipeline Deal by One Year"
+        "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 2.2,
-      "sources": "MarketWatch(2)",
+      "topic": "China",
+      "count": 1,
+      "pct": 1.1,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Let\u2019s elect candidates who will make the wealthy pay taxes",
-        "My financial adviser says I don\u2019t need a tax-efficient withdrawal plan for my $2.3 million portfolio. Is that madness?"
+        "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy"
       ]
     },
     {
@@ -81,7 +79,16 @@
       "pct": 1.1,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Friday, July 31, 2026: Crypto prices back off this morning"
+        "Michael Saylor Says Strategy's Next $1 Trillion Opportunity Isn't Bitcoin"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 1.1,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "How Apple\u2019s cheap MacBook Neo sparked a war in budget laptops"
       ]
     }
   ]
