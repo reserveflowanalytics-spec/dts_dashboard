@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-07-30",
-  "computed_at": "2026-08-02T21:03:36Z",
+  "as_of": "2026-07-31",
+  "computed_at": "2026-08-03T21:03:30Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
   "action": "Reduce SPY baseline to 30-50%. Hold cash buffer for next Tier-1 setup.",
   "signals": {
-    "fiscal_regime": "Restrictive",
+    "fiscal_regime": "Supportive",
     "tech_regime": "bearish",
     "tech_close": 7520.0,
     "tech_sma20": 7522.36,
@@ -18,31 +18,26 @@
   },
   "overweight_pairs": [
     {
-      "pair": "GLD/SPY",
-      "rationale": "Hard asset vs equity",
-      "roc_20d": 2.33
-    },
-    {
-      "pair": "XLE/XLK",
-      "rationale": "Energy vs tech",
-      "roc_20d": 17.93
-    },
-    {
-      "pair": "XLF/XLU",
-      "rationale": "Financials vs utilities",
-      "roc_20d": 4.31
+      "pair": "HYG/TLT",
+      "rationale": "Credit risk appetite vs duration safety",
+      "roc_20d": 3.66
     }
   ],
   "underweight_pairs": [
     {
-      "pair": "XLY/XLV",
-      "rationale": "Discretionary vs healthcare",
-      "roc_20d": -7.14
+      "pair": "GLD/SPY",
+      "rationale": "Hard asset vs equity",
+      "roc_20d": -2.04
     },
     {
-      "pair": "XLY/XLP",
-      "rationale": "Consumer discretionary vs staples",
-      "roc_20d": -7.24
+      "pair": "XLB/XLRE",
+      "rationale": "Materials vs real estate",
+      "roc_20d": -3.88
+    },
+    {
+      "pair": "IWM/SPY",
+      "rationale": "Small cap vs large cap",
+      "roc_20d": -2.44
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",

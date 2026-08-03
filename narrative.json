@@ -1,94 +1,114 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 93,
-  "fetched_at": "2026-08-02T21:03:24.611050+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 118,
+  "fetched_at": "2026-08-03T21:03:14.732266+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 15,
-      "pct": 16.1,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(3), Yahoo(3), FT(2)",
+      "topic": "AI / Tech",
+      "count": 21,
+      "pct": 17.8,
+      "sources": "Yahoo(10), CNBC(5), MarketWatch(2), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal'",
-        "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
-        "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-        "We\u2019re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
-        "If Social Security\u2019s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned."
+        "Hugging Face CEO says China is winning the AI race and dominating on open models",
+        "Amazon tops $3 trillion market cap as stock continues post-earnings surge",
+        "Can Palantir pull off a Microsoft-style comeback? Here's what options say",
+        "White House to host AI companies Tuesday to review new model-testing framework",
+        "ChatGPT dominates early AI spending in Congress as lawmakers weigh regulation"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 14,
-      "pct": 15.1,
-      "sources": "Yahoo(5), CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 18,
+      "pct": 15.3,
+      "sources": "Bloomberg(7), CNBC(6), Yahoo(4), FT(1)",
       "sample_headlines": [
-        "As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners",
-        "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy",
-        "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-        "Trump's AI executive order nears key deadline as regulation debate intensifies",
-        "S&P 500 profit growth is getting even wilder as Amazon makes its mark"
+        "Trump insists Iran talks are underway despite Tehran's 'duplicitous' denials",
+        "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
+        "California's diesel prices have jumped since the Iran war started, with ripple effects across the country",
+        "Kalshi traders are not expecting a U.S. and Iran nuclear deal soon",
+        "Senate appears ready to advance Todd Blanche for attorney general after Cornyn strikes deal"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 12.9,
-      "sources": "MarketWatch(4), Yahoo(4), CNBC(3), Bloomberg(1)",
+      "count": 18,
+      "pct": 15.3,
+      "sources": "Yahoo(9), CNBC(4), MarketWatch(3), Google News(1), Bloomberg(1)",
       "sample_headlines": [
-        "Top Wall Street analysts are bullish on these 3 dividend stocks for passive income",
-        "Here are the 2 big things we're watching in the stock market in the week ahead",
-        "Why people are dropping out of the workforce and not looking for new jobs: 'The market wore me down'",
-        "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
-        "\u2018We have always been civil\u2019: My sister refuses to replace me as executor. Can I step down before she dies?"
+        "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
+        "Amazon tops $3 trillion market cap as stock continues post-earnings surge",
+        "Oil prices tumble after Trump calls off attack on Iran",
+        "Visa to buy cybersecurity firm BioCatch for $2.4 billion amid surge in AI-powered scams",
+        "This indicator is giving the bull market another lease on life"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 7.5,
-      "sources": "CNBC(2), Yahoo(2), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 5.1,
+      "sources": "Yahoo(3), Bloomberg(2), CNBC(1)",
       "sample_headlines": [
-        "States expand student loan options as new federal borrowing caps take effect \u2014 but they come with trade-offs",
-        "Why people are dropping out of the workforce and not looking for new jobs: 'The market wore me down'",
-        "Investors are rotating into financial stocks. The Fed\u2019s next move could determine how far the rally runs.",
-        "Iran says deal with Oman to manage shipping through Hormuz is close",
-        "Bond Traders Flying Blind on Fed See Risk Yields Spiral Higher"
+        "Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure",
+        "Gold Wavers as Traders Weigh Fed Rate Outlook, US-Iran Talks",
+        "Japan\u2019s Use of Fed Tool Could Test Yen Resolve, Evercore Says",
+        "The magic number for retirement might be closer than you think \u2014 if you reach this \u2018tipping point.\u2019 Are you there yet?",
+        "Investors are rotating into financial stocks. The Fed\u2019s next move could determine how far the rally runs."
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "CNBC(1)",
+      "count": 5,
+      "pct": 4.2,
+      "sources": "CNBC(2), Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier"
+        "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
+        "Oil prices tumble after Trump calls off attack on Iran",
+        "Treasuries Climb to Start Week on Oil, Bessent\u2019s Yen Pledge",
+        "Oil Slips as Trump Says Iran, US in Talks Over Hormuz Reopening",
+        "Analyst Report: Valero Energy Corp"
       ]
     },
     {
-      "topic": "China",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "CNBC(1)",
+      "topic": "Trade / Tariffs",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Michael Saylor Says Strategy's Next $1 Trillion Opportunity Isn't Bitcoin"
+        "Twenty five states sue Trump administration over latest global tariffs",
+        "Traders in the world\u2019s most important financial market are bracing for a wild stretch ahead",
+        "Iran War Risk Still Important in Background, Says Torsten Slok",
+        "The tech stock dumpster fire should remind you of this important investing lesson"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "MarketWatch(1)",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "Yahoo(2), CNBC(1)",
       "sample_headlines": [
-        "How Apple\u2019s cheap MacBook Neo sparked a war in budget laptops"
+        "More tech millionaires are using donor-advised funds for tax savings and giving",
+        "More of the uber rich are turning to this \u2018slam dunk\u2019 method of avoiding taxes that\u2019s perfectly legal",
+        "55% of Americans say their finances are getting worse \u2014 here's how to budget when your income changes every month"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "Hugging Face CEO says China is winning the AI race and dominating on open models",
+        "Xi Jinping warns world is \u2018crumbling into disarray\u2019 as 'dangerous' U.S. blockade hits markets. Protect your nest egg now"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Trump Family-Linked Bitcoin Miner Posts Second-Quarter Loss",
+        "Billionaire Ray Dalio reveals exact Bitcoin allocation"
       ]
     }
   ]
