@@ -105,3 +105,4 @@
 {"as_of":"2026-07-30","computed_at":"2026-08-01T21:01:51Z","bias":"REDUCED","conviction":"low","tier1_open":false,"fiscal_regime":"Restrictive","tech_regime":"bearish","rs_conviction":"unknown"}
 {"as_of":"2026-07-30","computed_at":"2026-08-02T21:03:36Z","bias":"REDUCED","conviction":"low","tier1_open":false,"fiscal_regime":"Restrictive","tech_regime":"bearish","rs_conviction":"unknown"}
 {"as_of":"2026-07-31","computed_at":"2026-08-03T21:03:30Z","bias":"REDUCED","conviction":"low","tier1_open":false,"fiscal_regime":"Supportive","tech_regime":"bearish","rs_conviction":"unknown"}
+{"as_of":"2026-08-03","computed_at":"2026-08-04T21:33:22Z","bias":"LONG","conviction":"low-medium","tier1_open":false,"fiscal_regime":"Restrictive","tech_regime":"bullish","rs_conviction":"low"}
