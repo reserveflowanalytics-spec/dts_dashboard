@@ -1,100 +1,111 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 111,
-  "fetched_at": "2026-08-04T21:33:07.776032+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 118,
+  "fetched_at": "2026-08-05T21:03:47.882719+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 17,
-      "pct": 15.3,
-      "sources": "Yahoo(6), FT(4), Bloomberg(4), CNBC(3)",
+      "count": 13,
+      "pct": 11.0,
+      "sources": "FT(6), CNBC(4), Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "Bessent says there may be deal Tuesday or Wednesday to open Strait of Hormuz with 'freedom of movement'",
-        "Pinterest shares fall on lukewarm sales guidance",
-        "Oil prices tumble after Bessent says Strait of Hormuz deal may come this week",
-        "The Democrats\u2019 civil war over Israel is getting worse",
-        "US stocks jump after Bessent says deal to reopen Hormuz is imminent"
+        "Iran, Oman say Strait of Hormuz talks in final stages, as Trump again teases a deal being close",
+        "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
+        "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says",
+        "Ken Griffin's Citadel posts best month in years after scooping up Situational Awareness stocks",
+        "Trump trapped between escalation and an Iran deal on Tehran\u2019s terms"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 12.6,
-      "sources": "CNBC(5), MarketWatch(3), Yahoo(3), Bloomberg(2), FT(1)",
+      "count": 13,
+      "pct": 11.0,
+      "sources": "CNBC(6), FT(3), MarketWatch(2), Bloomberg(2)",
       "sample_headlines": [
-        "Michael Burry bets against rally: 'We are near a major top, and possible a 1987-type fall'",
-        "The stock market soars. 5 reasons behind the big surge Tuesday",
-        "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
-        "Oil prices tumble after Bessent says Strait of Hormuz deal may come this week",
-        "Someone on Wall Street thinks SpaceX could triple this week"
+        "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
+        "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
+        "How Disney parks are bucking a travel slowdown",
+        "Wall Street's 'fear gauge' is doing something unusual as stocks hit record highs",
+        "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 9,
-      "pct": 8.1,
-      "sources": "CNBC(5), Yahoo(4)",
+      "count": 12,
+      "pct": 10.2,
+      "sources": "CNBC(5), Yahoo(4), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Chipotle stock falls on potential link to salmonella outbreak in Minnesota",
-        "How the 'Baby iPhone' and an Apple supplier leak explain China's recent supply chain moves",
-        "Jeff Bezos just filed to sell $4 billion in Amazon. The shares are falling",
-        "New Jersey sues Amazon on antitrust grounds, alleging it unlawfully wielded its power over delivery contractors",
-        "AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.4,
-      "sources": "Bloomberg(3), CNBC(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "Oil prices tumble after Bessent says Strait of Hormuz deal may come this week",
-        "Russia expands shadow LNG fleet to beat EU crackdown",
-        "Most Emerging-Market FX Gains as Oil Dips Below $80 Per Barrel",
-        "Latest Oil Market News and Analysis for Aug. 4",
-        "Treasuries Rise as Falling Oil Prices Ease Pressure on Fed"
+        "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
+        "Lisa Su brushes off Musk's Nvidia commitment as AMD stock sinks after earnings",
+        "SpaceX stock falls 13% as AI spending surge rattles investors and massive share unlock looms",
+        "SpaceX moon crash is a perfect metaphor for rocket maker\u2019s share price, analysts say",
+        "Manager of DRAM memory chip stock trade blockbuster ETF is back with new AI thematic bet"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 6,
-      "pct": 5.4,
-      "sources": "Bloomberg(2), Yahoo(2), CNBC(1), MarketWatch(1)",
+      "pct": 5.1,
+      "sources": "CNBC(3), FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Philadelphia Fed President Paulson content with rates at current level, but keeping an open mind",
-        "So what\u2019s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn\u2019t ask.",
-        "Gold Gains With US-Iran Deal Hopes and Fed Outlook in Focus",
-        "Treasuries Rise as Falling Oil Prices Ease Pressure on Fed",
-        "Cotton Slipping Back on Monday Morning"
+        "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
+        "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
+        "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
+        "Iran says it has reached agreement with Oman on Hormuz shipping route",
+        "Stocks Edge Lower as Rate Hike Rumbles Offset Nvidia\u2019s Rally"
       ]
     },
     {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), FT(1)",
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 4.2,
+      "sources": "Yahoo(4), Bloomberg(1)",
       "sample_headlines": [
-        "How the 'Baby iPhone' and an Apple supplier leak explain China's recent supply chain moves",
-        "US cannot \u2018stay isolated\u2019 from Chinese EV competition, warns Lucid CEO"
+        "Latest Oil Market News and Analysis for Aug. 5",
+        "Kosmos Energy Ltd. Q2 2026 Earnings Call Summary",
+        "Gulfport Energy Corporation Q2 2026 Earnings Call Summary",
+        "Atlas Energy Solutions Inc. Q2 2026 Earnings Call Summary",
+        "Diamondback Energy, Inc. Q2 2026 Earnings Call Summary"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "CNBC(2), Bloomberg(2)",
+      "sample_headlines": [
+        "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
+        "Trump admin refunds $100 billion in 'liberation day' tariffs",
+        "Avocado Imports at Risk as US Halts Government Work in Michoac\u00e1n",
+        "EU Audit Offers Brazil\u2019s Poultry Exports a Path Around Ban"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
-      "pct": 1.8,
+      "pct": 1.7,
       "sources": "Yahoo(2)",
       "sample_headlines": [
         "If you invested $1,000 in gold, Bitcoin and $TRUMP on Inauguration Day, here is what each is worth today",
-        "Bitcoin and ethereum prices today, Monday, August 3, 2026: Prices pulling back this morning despite de-escalation with Iran"
+        "Morning Minute: Saylor Sells Bitcoin Again"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "How Disney parks are bucking a travel slowdown"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "pct": 0.8,
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "Tyson Foods cuts fiscal 2026 profit forecast on beef losses"
+        "Taxes are on the ballot this fall, as Republicans and Democrats grow further apart on whether to cut or raise them"
       ]
     }
   ]
