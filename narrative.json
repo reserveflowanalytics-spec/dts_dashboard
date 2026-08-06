@@ -1,111 +1,78 @@
 {
   "dominant": "No clear dominant narrative",
   "total_headlines": 118,
-  "fetched_at": "2026-08-05T21:03:47.882719+00:00",
+  "fetched_at": "2026-08-06T21:02:22.551696+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 11.0,
-      "sources": "FT(6), CNBC(4), Yahoo(2), Bloomberg(1)",
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 11.9,
+      "sources": "CNBC(7), MarketWatch(3), FT(2), Yahoo(2)",
       "sample_headlines": [
-        "Iran, Oman say Strait of Hormuz talks in final stages, as Trump again teases a deal being close",
-        "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-        "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says",
-        "Ken Griffin's Citadel posts best month in years after scooping up Situational Awareness stocks",
-        "Trump trapped between escalation and an Iran deal on Tehran\u2019s terms"
+        "Copper jumps to its highest level ever. What the metal is telling us",
+        "Grindr's AI spend is paying off and its pricey new tier has had some surprises, CEO says",
+        "AMD buys chip startup that hardwires AI models into its silicon",
+        "Savers Value Village thrift store launches new AI tool to price items",
+        "SpaceX ramps up Tesla Megapack purchases in Q2 to power its AI data centers"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 11.0,
-      "sources": "CNBC(6), FT(3), MarketWatch(2), Bloomberg(2)",
+      "count": 9,
+      "pct": 7.6,
+      "sources": "MarketWatch(4), CNBC(2), Google News(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
-        "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
-        "How Disney parks are bucking a travel slowdown",
-        "Wall Street's 'fear gauge' is doing something unusual as stocks hit record highs",
-        "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says"
+        "United Wholesale Mortgage plunges 35% after suspending dividend and raising capital",
+        "Traders on Kalshi now think it's likely that the S&P 500 will hit 8,000 in 2026",
+        "Honeywell Aerospace lands in Wall Street\u2019s \u2018penalty box\u2019 after gloomy guidance triggers 23% stock selloff",
+        "The last time value stocks beat growth by this much was 2022 \u2014 the year of the last major bear market",
+        "Micron\u2019s stock claws back to buck the memory-chip selloff"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 12,
-      "pct": 10.2,
-      "sources": "CNBC(5), Yahoo(4), MarketWatch(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
-        "Lisa Su brushes off Musk's Nvidia commitment as AMD stock sinks after earnings",
-        "SpaceX stock falls 13% as AI spending surge rattles investors and massive share unlock looms",
-        "SpaceX moon crash is a perfect metaphor for rocket maker\u2019s share price, analysts say",
-        "Manager of DRAM memory chip stock trade blockbuster ETF is back with new AI thematic bet"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
+      "topic": "Iran / Middle East conflict",
       "count": 6,
       "pct": 5.1,
-      "sources": "CNBC(3), FT(1), Bloomberg(1), Yahoo(1)",
+      "sources": "CNBC(3), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-        "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-        "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
-        "Iran says it has reached agreement with Oman on Hormuz shipping route",
-        "Stocks Edge Lower as Rate Hike Rumbles Offset Nvidia\u2019s Rally"
+        "Iran's Hormuz Strait plan reportedly blocks U.S., Israeli ships; U.S. rejects any 'impediments'",
+        "Analysis: Trump treats Fed Chairman Kevin Warsh as an ally. That creates economic risks",
+        "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
+        "AppLovin\u2019s AI stumbles send the stock sliding toward its worst day in over a year",
+        "Kevin Warsh to stick with lean Fed messaging despite market backlash"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.2,
-      "sources": "Yahoo(4), Bloomberg(1)",
+      "count": 6,
+      "pct": 5.1,
+      "sources": "Bloomberg(4), CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Latest Oil Market News and Analysis for Aug. 5",
-        "Kosmos Energy Ltd. Q2 2026 Earnings Call Summary",
-        "Gulfport Energy Corporation Q2 2026 Earnings Call Summary",
-        "Atlas Energy Solutions Inc. Q2 2026 Earnings Call Summary",
-        "Diamondback Energy, Inc. Q2 2026 Earnings Call Summary"
+        "Gas prices could remain high this fall even if crude prices stabilize. Here's why",
+        "Stocks Fall as US-Iran Worries Spur Rally in\u00a0Oil: Markets Wrap",
+        "Latest Oil Market News and Analysis for Aug. 6",
+        "Dollar Heads for Best Day in Two Weeks as Oil Prices Advance",
+        "SAT Schism Roils University of California System"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.4,
-      "sources": "CNBC(2), Bloomberg(2)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 3,
+      "pct": 2.5,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
-        "Trump admin refunds $100 billion in 'liberation day' tariffs",
-        "Avocado Imports at Risk as US Halts Government Work in Michoac\u00e1n",
-        "EU Audit Offers Brazil\u2019s Poultry Exports a Path Around Ban"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "Yahoo(2)",
-      "sample_headlines": [
-        "If you invested $1,000 in gold, Bitcoin and $TRUMP on Inauguration Day, here is what each is worth today",
-        "Morning Minute: Saylor Sells Bitcoin Again"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "How Disney parks are bucking a travel slowdown"
+        "Analysis: Trump treats Fed Chairman Kevin Warsh as an ally. That creates economic risks",
+        "Kevin Warsh to stick with lean Fed messaging despite market backlash",
+        "Expect Hikes If Inflation Climbs: Aronov"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 0.8,
-      "sources": "MarketWatch(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Taxes are on the ballot this fall, as Republicans and Democrats grow further apart on whether to cut or raise them"
+        "Treasury Decides Not to Increase Long-Term Bond Issuance Anytime Soon"
       ]
     }
   ]
