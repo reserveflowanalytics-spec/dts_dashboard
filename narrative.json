@@ -1,78 +1,122 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 118,
-  "fetched_at": "2026-08-06T21:02:22.551696+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 113,
+  "fetched_at": "2026-08-07T21:12:01.247180+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 11.9,
-      "sources": "CNBC(7), MarketWatch(3), FT(2), Yahoo(2)",
+      "count": 18,
+      "pct": 15.9,
+      "sources": "CNBC(7), Yahoo(7), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "Copper jumps to its highest level ever. What the metal is telling us",
-        "Grindr's AI spend is paying off and its pricey new tier has had some surprises, CEO says",
-        "AMD buys chip startup that hardwires AI models into its silicon",
-        "Savers Value Village thrift store launches new AI tool to price items",
-        "SpaceX ramps up Tesla Megapack purchases in Q2 to power its AI data centers"
+        "Chesky says Airbnb will spend \u2018a lot more\u2019 on AI as earnings beat and stock surges 15%",
+        "Gold bugs spend $180 million betting all's clear for metal as bond yields stall",
+        "The unwind of Situational Awareness isn't the only reason the AI trade is back",
+        "Crypto\u2019s infrastructure era arrives, with AI agents poised to reshape demand",
+        "SK Hynix to invest $38 billion building new memory chip plants as demand soars"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 7.6,
-      "sources": "MarketWatch(4), CNBC(2), Google News(1), Bloomberg(1), Yahoo(1)",
+      "count": 14,
+      "pct": 12.4,
+      "sources": "Yahoo(6), Bloomberg(5), CNBC(1), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "United Wholesale Mortgage plunges 35% after suspending dividend and raising capital",
-        "Traders on Kalshi now think it's likely that the S&P 500 will hit 8,000 in 2026",
-        "Honeywell Aerospace lands in Wall Street\u2019s \u2018penalty box\u2019 after gloomy guidance triggers 23% stock selloff",
-        "The last time value stocks beat growth by this much was 2022 \u2014 the year of the last major bear market",
-        "Micron\u2019s stock claws back to buck the memory-chip selloff"
+        "Chesky says Airbnb will spend \u2018a lot more\u2019 on AI as earnings beat and stock surges 15%",
+        "Two reasons why Nvidia\u2019s stock saw its biggest weekly surge in more than a year",
+        "Finance minister voices confidence in economy, vows efforts to stabilize stock market - The Korea Times",
+        "S&P 500 Has Best Week Since April After Jobs Data: Markets Wrap",
+        "SpaceX Nears IPO Price Again After Staging $327 Billion Rally"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 10,
+      "pct": 8.8,
+      "sources": "CNBC(5), MarketWatch(2), FT(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump revives effort to fire Fed's Lisa Cook",
+        "Gold bugs spend $180 million betting all's clear for metal as bond yields stall",
+        "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
+        "Whatnot valued at $20 billion as live shopping continues to boom",
+        "Analysis: Trump treats Fed Chairman Kevin Warsh as an ally. That creates economic risks"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 5.1,
-      "sources": "CNBC(3), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 7,
+      "pct": 6.2,
+      "sources": "CNBC(5), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Iran's Hormuz Strait plan reportedly blocks U.S., Israeli ships; U.S. rejects any 'impediments'",
-        "Analysis: Trump treats Fed Chairman Kevin Warsh as an ally. That creates economic risks",
-        "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
-        "AppLovin\u2019s AI stumbles send the stock sliding toward its worst day in over a year",
-        "Kevin Warsh to stick with lean Fed messaging despite market backlash"
+        "Trump teased an Iran deal that didn't come, but markets soared. Here\u2019s why it keeps happening",
+        "\u2018SaaSpocalypse\u2019 debate intensifies as software stocks swing wildly",
+        "The unwind of Situational Awareness isn't the only reason the AI trade is back",
+        "Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill",
+        "Analysis: Trump treats Fed Chairman Kevin Warsh as an ally. That creates economic risks"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 6,
-      "pct": 5.1,
-      "sources": "Bloomberg(4), CNBC(1), Yahoo(1)",
+      "pct": 5.3,
+      "sources": "CNBC(2), FT(2), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Gas prices could remain high this fall even if crude prices stabilize. Here's why",
-        "Stocks Fall as US-Iran Worries Spur Rally in\u00a0Oil: Markets Wrap",
-        "Latest Oil Market News and Analysis for Aug. 6",
-        "Dollar Heads for Best Day in Two Weeks as Oil Prices Advance",
-        "SAT Schism Roils University of California System"
+        "Top Democrat proposes killing tax breaks for overseas oil production",
+        "Rockstar Energy founder builds Celsius stake, wants to take over as CEO",
+        "Iran\u2019s oil exports stall and Kharg Island idles under US blockade",
+        "Gulf\u2019s \u2018Little Sparta\u2019 takes on the oil world",
+        "Latest Oil Market News and Analysis for Aug. 7"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
+      "topic": "China",
       "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "pct": 2.7,
+      "sources": "CNBC(2), Yahoo(1)",
       "sample_headlines": [
-        "Analysis: Trump treats Fed Chairman Kevin Warsh as an ally. That creates economic risks",
-        "Kevin Warsh to stick with lean Fed messaging despite market backlash",
-        "Expect Hikes If Inflation Climbs: Aronov"
+        "Volkswagen controlling families call for faster overhaul to fend off Chinese rivals",
+        "China is gaining ground in AI. But the U.S. still has a major advantage",
+        "DeepSeek invests $20.8 million in Unitree's Shanghai IPO"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "Yahoo(1)",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Treasury Decides Not to Increase Long-Term Bond Issuance Anytime Soon"
+        "Top Democrat proposes killing tax breaks for overseas oil production",
+        "Private equity is circling budget airlines after Apollo's EasyJet deal \u2014 and this carrier could be next",
+        "NYC Deputy Mayor on Jobs, Taxes, Grocery Stores"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "Falling long-term unemployment isn't good news, economists say \u2014 what it means for jobseekers",
+        "Badger Meter\u2019s (BMI) Revenue Contraction Signals Demand Air Pocket"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), FT(1)",
+      "sample_headlines": [
+        "Russia sanctions bill honoring Lindsey Graham breezes through Senate, heads to House",
+        "Iran\u2019s oil exports stall and Kharg Island idles under US blockade"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Crypto\u2019s infrastructure era arrives, with AI agents poised to reshape demand"
       ]
     }
   ]
