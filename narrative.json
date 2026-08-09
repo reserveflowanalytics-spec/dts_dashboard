@@ -1,122 +1,110 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 100,
-  "fetched_at": "2026-08-08T21:04:25.327511+00:00",
+  "total_headlines": 107,
+  "fetched_at": "2026-08-09T21:02:36.147436+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 13.0,
-      "sources": "Yahoo(6), CNBC(5), Bloomberg(2)",
+      "count": 14,
+      "pct": 13.1,
+      "sources": "Yahoo(10), FT(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
-        "Here\u2019s how we played the massive rebound in AI stocks this week",
-        "Chesky says Airbnb will spend \u2018a lot more\u2019 on AI as earnings beat and stock surges 15%",
-        "Gold bugs spend $180 million betting all's clear for metal as bond yields stall",
-        "Crypto\u2019s infrastructure era arrives, with AI agents poised to reshape demand"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 11.0,
-      "sources": "Bloomberg(4), CNBC(3), Yahoo(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike",
-        "Inside the startup drone maker powering Ukraine's deep-strike campaign",
-        "\u2018SaaSpocalypse\u2019 debate intensifies as software stocks swing wildly",
-        "I\u2019m an unemployed software developer who is skeptical of AI. Can I still find a job in tech?",
-        "Tehran says US must \u2018rectify its behaviour\u2019 before Iran reopens strait"
+        "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
+        "Could AI create a \u2018permanent underclass\u2019?",
+        "Organised crime suspect Daniel Kinahan extradited from Dubai to Ireland",
+        "China Bets on AI Stocks as It Races Against US for Chip, Tech Dominance",
+        "Bank of America spots new curveball for Magnificent Seven stocks"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 9.0,
-      "sources": "Yahoo(4), CNBC(3), FT(1), Bloomberg(1)",
+      "count": 12,
+      "pct": 11.2,
+      "sources": "CNBC(4), Bloomberg(4), MarketWatch(2), FT(1), Yahoo(1)",
       "sample_headlines": [
+        "Top Wall Street analysts like these 3 stocks for their solid growth potential",
         "For retirees, staying in the stock market is critical. How much exposure is the make-or-break question",
+        "Here are the 2 big things we're watching in the stock market in the week ahead",
         "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
-        "Chesky says Airbnb will spend \u2018a lot more\u2019 on AI as earnings beat and stock surges 15%",
-        "Moonshot shake-up seeks to win Beijing nod for stock market debut",
-        "Ceuta Migrant Surge Exposes Morocco\u2019s Economic Strain"
+        "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise."
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 10,
+      "pct": 9.3,
+      "sources": "CNBC(4), Bloomberg(3), FT(2), Yahoo(1)",
+      "sample_headlines": [
+        "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
+        "Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery",
+        "Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike",
+        "Inside the startup drone maker powering Ukraine's deep-strike campaign",
+        "Trump is dismantling US guardrails, warn former security officials"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 6.0,
-      "sources": "CNBC(4), Yahoo(2)",
+      "count": 7,
+      "pct": 6.5,
+      "sources": "Bloomberg(4), Yahoo(2), CNBC(1)",
       "sample_headlines": [
         "Next big push in ETF industry? Why these risk assets are gaining traction as interest rate uncertainty persists",
-        "Trump revives effort to fire Fed's Lisa Cook",
-        "Gold bugs spend $180 million betting all's clear for metal as bond yields stall",
-        "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
-        "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend"
+        "DC Crime Crackdown Tests Federal Prosecutors",
+        "Inflation Data Keeps Fed Rate Hike in Play",
+        "Iran Talks Offer Little Relief for Hormuz Shipping",
+        "China\u2019s Inflation Cools as Iran War Oil Shock Starts to Ease"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 3.0,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "count": 4,
+      "pct": 3.7,
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Top Democrat proposes killing tax breaks for overseas oil production",
-        "Rockstar Energy founder builds Celsius stake, wants to take over as CEO",
-        "Kyiv Struck as Ukraine Targets Two Russian Oil Refineries"
+        "Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery",
+        "China\u2019s Inflation Cools as Iran War Oil Shock Starts to Ease",
+        "Trump Says Data Centers Could Be Bigger Than Oil, Urges States to Cut Taxes and Accelerate AI Growth: 'If I Were Governor...'",
+        "Ring Energy Q2 Earnings Call Highlights"
       ]
     },
     {
       "topic": "China",
       "count": 3,
-      "pct": 3.0,
-      "sources": "Bloomberg(2), FT(1)",
+      "pct": 2.8,
+      "sources": "Bloomberg(3)",
       "sample_headlines": [
-        "Moonshot shake-up seeks to win Beijing nod for stock market debut",
-        "China\u2019s AI Push Reshapes Its Economic Future",
-        "WuXi AppTec Gets Temporary Reprieve of Chinese Military Curb"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 3.0,
-      "sources": "CNBC(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "Crypto\u2019s infrastructure era arrives, with AI agents poised to reshape demand",
-        "Landmark crypto bill stalls in US Senate despite $225mn spending push",
-        "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report"
+        "China Bets on AI Stocks as It Races Against US for Chip, Tech Dominance",
+        "Typhoon Dolphin Makes Landfall in East China After Red Alert",
+        "China\u2019s Inflation Cools as Iran War Oil Shock Starts to Ease"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 3,
-      "pct": 3.0,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "pct": 2.8,
+      "sources": "MarketWatch(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Top Democrat proposes killing tax breaks for overseas oil production",
         "How can we minimize taxes in retirement with a $2.3 million nest egg \u2014 while buying homes in Florida and New England?",
-        "Burnham\u2019s Fiscal \u2018Flexibility\u2019 Could Backfire, Officials Fear"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 2,
-      "pct": 2.0,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Falling long-term unemployment isn't good news, economists say \u2014 what it means for jobseekers",
-        "Weak Jobs Data Masked by Falling Unemployment"
+        "France faces budget showdown as presidential election looms",
+        "Trump Says Data Centers Could Be Bigger Than Oil, Urges States to Cut Taxes and Accelerate AI Growth: 'If I Were Governor...'"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 2.0,
-      "sources": "CNBC(1), Yahoo(1)",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Russia sanctions bill honoring Lindsey Graham breezes through Senate, heads to House",
-        "Caterpillar tariffs send major signal on margins"
+        "Jim Cramer Just Reminded Everyone About the Most Important Aspect of Investing in SpaceX"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "USDC and USDT Now Own 84% of Crypto Card Spend as the Euro Retreats"
       ]
     }
   ]
