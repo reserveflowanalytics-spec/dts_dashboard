@@ -1,82 +1,95 @@
 {
   "dominant": "AI / Tech",
   "total_headlines": 116,
-  "fetched_at": "2026-08-10T19:18:08.794291+00:00",
+  "fetched_at": "2026-08-10T21:28:08.960611+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 18,
-      "pct": 15.5,
-      "sources": "CNBC(9), Yahoo(5), FT(3), Bloomberg(1)",
+      "count": 23,
+      "pct": 19.8,
+      "sources": "CNBC(8), Yahoo(6), MarketWatch(3), FT(3), Bloomberg(3)",
       "sample_headlines": [
-        "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
+        "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are \u2018investable asset\u2019",
         "OpenAI expands Daybreak cybersecurity initiative as AI agent threats evolve",
-        "Intel plans $15 billion stock offering as AI demand accelerates",
         "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
+        "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
         "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 16,
+      "pct": 13.8,
+      "sources": "CNBC(5), Bloomberg(5), Yahoo(3), FT(2), MarketWatch(1)",
+      "sample_headlines": [
+        "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
+        "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+        "Trump extends limited waiver of shipping law to keep oil flowing in U.S. amid Iran war",
+        "U.S. oil rises back above $82 as doubt grows Washington and Tehran will reach Hormuz deal",
+        "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 11,
+      "pct": 9.5,
+      "sources": "CNBC(4), Bloomberg(4), MarketWatch(1), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
+        "Trump extends limited waiver of shipping law to keep oil flowing in U.S. amid Iran war",
+        "Wednesday\u2019s crucial CPI report will show tamer inflation, according to prediction markets",
+        "Interest rates may stay higher for longer. What that means for consumers",
+        "Fed Chair Kevin Warsh promises 2% inflation, but skyrocketing U.S. debt makes that a pipe dream"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 11,
       "pct": 9.5,
-      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), Yahoo(2), FT(1)",
+      "sources": "Yahoo(5), CNBC(2), Bloomberg(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
-        "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
         "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
         "Australian rare earth miner surges after U.S. Department of Defense investment",
-        "2 charts showing just how insane the stock market\u2019s August \u2018crash-up\u2019 has been so far"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 8.6,
-      "sources": "Bloomberg(4), CNBC(2), FT(2), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
-        "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
-        "Archer strikes deal with Boeing in latest bid to transform aviation through AI",
-        "Ukrainian drone strike on oil-refining city in central Russia kills 13",
-        "Putin\u2019s war machine scours the home front for recruits"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.8,
-      "sources": "Bloomberg(3), Yahoo(3), CNBC(2), FT(1)",
-      "sample_headlines": [
-        "Wednesday\u2019s crucial CPI report will show tamer inflation, according to prediction markets",
-        "Interest rates may stay higher for longer. What that means for consumers",
-        "China bypasses shipping chokepoints with \u2018Ice Silk Road\u2019 through Arctic",
-        "Fed\u2019s Hammack Says \u2018Some Number\u2019 of Rate Hikes May Be Needed",
-        "Shipping Traffic Is Up Despite War in Iran, Says FreightWaves CEO"
+        "Microsoft\u2019s stock is charging back. Here\u2019s the case for it to rally another 30%.",
+        "Wall Street giants partner with Nvidia on $500bn AI financing deal",
+        "Stocks Churn as Hormuz Standoff Spurs Rally in Oil: Markets Wrap"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.2,
-      "sources": "Bloomberg(4), CNBC(1), FT(1)",
+      "count": 8,
+      "pct": 6.9,
+      "sources": "Bloomberg(4), CNBC(3), FT(1)",
       "sample_headlines": [
+        "Trump extends limited waiver of shipping law to keep oil flowing in U.S. amid Iran war",
         "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
+        "U.S. oil rises back above $82 as doubt grows Washington and Tehran will reach Hormuz deal",
         "Ukrainian drone strike on oil-refining city in central Russia kills 13",
-        "US Natural Gas Surges as Hotter Outlooks Trigger Short-Covering",
-        "Stocks Churn as Hormuz Standoff Spurs Rally in Oil: Markets Wrap",
-        "Latest Oil Market News and Analysis for Aug. 10"
+        "Oil Jumps as Markets Await Middle East Clarity | Closing Bell"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 5,
+      "pct": 4.3,
+      "sources": "Yahoo(3), Bloomberg(2)",
+      "sample_headlines": [
+        "ETFs Look Safer After Bitcoin Hack, Small Caps | ETF IQ 8/10/2026",
+        "Strategy Sells More Bitcoin, Stock to Bolster Cash Stockpile",
+        "IRS warns crypto investors of fake letters from fraudsters aimed at stealing wallet keys and passwords",
+        "Strategy (MSTR) vs BlackRock\u2019s IBIT: Which Bitcoin Bet Has Held Up Better in 2026?",
+        "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again"
+      ]
+    },
+    {
+      "topic": "China",
       "count": 3,
       "pct": 2.6,
-      "sources": "Yahoo(3)",
+      "sources": "FT(2), Yahoo(1)",
       "sample_headlines": [
-        "IRS warns crypto investors of fake letters from fraudsters aimed at stealing wallet keys and passwords",
-        "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
-        "Here's the 1 Crypto I'd Buy If I Could Pick Only One"
+        "Hong Kong\u2019s plan to clear rural villages for a new gateway to China",
+        "China bypasses shipping chokepoints with \u2018Ice Silk Road\u2019 through Arctic",
+        "Apple tests China's CXMT memory chips for iPhones and MacBooks, WSJ reports"
       ]
     },
     {
@@ -87,26 +100,6 @@
       "sample_headlines": [
         "Shein faces existential threat as tariffs hit low-price model, putting new focus on services",
         "Trump\u2019s $100 billion tariff refund going to big names despite Americans paying higher prices. Can you still get a cut?"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "FT(2)",
-      "sample_headlines": [
-        "Hong Kong\u2019s plan to clear rural villages for a new gateway to China",
-        "China bypasses shipping chokepoints with \u2018Ice Silk Road\u2019 through Arctic"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "Yahoo(2)",
-      "sample_headlines": [
-        "Powerball jackpot climbs to $905 million. What you\u2019d pocket after taxes, and what to do with the rest.",
-        "He Worked for Three Electrical Contractors and Paid Too Much Social Security Tax. The Refund Was Hiding on His 1040."
       ]
     }
   ]
