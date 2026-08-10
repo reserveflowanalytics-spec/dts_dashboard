@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-09T21:02:48Z",
+  "computed_at": "2026-08-10T19:18:21Z",
   "total_signals": 443,
   "scored_signals": 439,
   "summary": {
@@ -543,17 +543,17 @@
           "total": 28,
           "rate": 39.3
         },
-        "avg_ret_10d": 0.353,
+        "avg_ret_10d": 0.191,
         "hit_rate_10d": {
-          "hits": 10,
-          "total": 24,
-          "rate": 41.7
+          "hits": 11,
+          "total": 25,
+          "rate": 44.0
         },
-        "avg_ret_20d": -0.111,
+        "avg_ret_20d": -0.113,
         "hit_rate_20d": {
-          "hits": 6,
-          "total": 14,
-          "rate": 42.9
+          "hits": 7,
+          "total": 15,
+          "rate": 46.7
         }
       },
       "vix_elevated_short": {
@@ -581,11 +581,11 @@
       "vix_elevated_long": {
         "count": 30,
         "signal": "Elevated Long",
-        "avg_ret_5d": 0.52,
+        "avg_ret_5d": 0.46,
         "hit_rate_5d": {
-          "hits": 9,
-          "total": 26,
-          "rate": 34.6
+          "hits": 10,
+          "total": 27,
+          "rate": 37.0
         },
         "avg_ret_10d": 2.513,
         "hit_rate_10d": {
@@ -80473,9 +80473,9 @@
           "fwd_10d": 18.58,
           "fwd_10d_date": "2026-07-24",
           "ret_10d": 3.55,
-          "fwd_20d": null,
-          "fwd_20d_date": null,
-          "ret_20d": null
+          "fwd_20d": 14.9,
+          "fwd_20d_date": "2026-08-07",
+          "ret_20d": -0.13
         }
       },
       "regime_hits": {
@@ -80529,7 +80529,7 @@
         "vix": {
           "5d": "miss",
           "10d": "miss",
-          "20d": null
+          "20d": "hit"
         }
       },
       "combined": {
@@ -82410,9 +82410,9 @@
           "fwd_5d": 15.99,
           "fwd_5d_date": "2026-07-31",
           "ret_5d": -2.59,
-          "fwd_10d": null,
-          "fwd_10d_date": null,
-          "ret_10d": null,
+          "fwd_10d": 14.9,
+          "fwd_10d_date": "2026-08-07",
+          "ret_10d": -3.68,
           "fwd_20d": null,
           "fwd_20d_date": null,
           "ret_20d": null
@@ -82468,7 +82468,7 @@
         },
         "vix": {
           "5d": "hit",
-          "10d": null,
+          "10d": "hit",
           "20d": null
         }
       },
@@ -83377,9 +83377,9 @@
         "vix": {
           "base": 15.99,
           "base_date": "2026-07-31",
-          "fwd_5d": null,
-          "fwd_5d_date": null,
-          "ret_5d": null,
+          "fwd_5d": 14.9,
+          "fwd_5d_date": "2026-08-07",
+          "ret_5d": -1.09,
           "fwd_10d": null,
           "fwd_10d_date": null,
           "ret_10d": null,
@@ -83437,7 +83437,7 @@
           "20d": null
         },
         "vix": {
-          "5d": null,
+          "5d": "hit",
           "10d": null,
           "20d": null
         }

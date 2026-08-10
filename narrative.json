@@ -1,110 +1,112 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 107,
-  "fetched_at": "2026-08-09T21:02:36.147436+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 116,
+  "fetched_at": "2026-08-10T19:18:08.794291+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 13.1,
-      "sources": "Yahoo(10), FT(2), CNBC(1), Bloomberg(1)",
+      "count": 18,
+      "pct": 15.5,
+      "sources": "CNBC(9), Yahoo(5), FT(3), Bloomberg(1)",
       "sample_headlines": [
-        "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
-        "Could AI create a \u2018permanent underclass\u2019?",
-        "Organised crime suspect Daniel Kinahan extradited from Dubai to Ireland",
-        "China Bets on AI Stocks as It Races Against US for Chip, Tech Dominance",
-        "Bank of America spots new curveball for Magnificent Seven stocks"
+        "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
+        "OpenAI expands Daybreak cybersecurity initiative as AI agent threats evolve",
+        "Intel plans $15 billion stock offering as AI demand accelerates",
+        "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
+        "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 11.2,
-      "sources": "CNBC(4), Bloomberg(4), MarketWatch(2), FT(1), Yahoo(1)",
+      "count": 11,
+      "pct": 9.5,
+      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), Yahoo(2), FT(1)",
       "sample_headlines": [
-        "Top Wall Street analysts like these 3 stocks for their solid growth potential",
-        "For retirees, staying in the stock market is critical. How much exposure is the make-or-break question",
-        "Here are the 2 big things we're watching in the stock market in the week ahead",
-        "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
-        "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise."
+        "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
+        "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
+        "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
+        "Australian rare earth miner surges after U.S. Department of Defense investment",
+        "2 charts showing just how insane the stock market\u2019s August \u2018crash-up\u2019 has been so far"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 10,
-      "pct": 9.3,
-      "sources": "CNBC(4), Bloomberg(3), FT(2), Yahoo(1)",
+      "pct": 8.6,
+      "sources": "Bloomberg(4), CNBC(2), FT(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
-        "Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery",
-        "Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike",
-        "Inside the startup drone maker powering Ukraine's deep-strike campaign",
-        "Trump is dismantling US guardrails, warn former security officials"
+        "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+        "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
+        "Archer strikes deal with Boeing in latest bid to transform aviation through AI",
+        "Ukrainian drone strike on oil-refining city in central Russia kills 13",
+        "Putin\u2019s war machine scours the home front for recruits"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 6.5,
-      "sources": "Bloomberg(4), Yahoo(2), CNBC(1)",
+      "count": 9,
+      "pct": 7.8,
+      "sources": "Bloomberg(3), Yahoo(3), CNBC(2), FT(1)",
       "sample_headlines": [
-        "Next big push in ETF industry? Why these risk assets are gaining traction as interest rate uncertainty persists",
-        "DC Crime Crackdown Tests Federal Prosecutors",
-        "Inflation Data Keeps Fed Rate Hike in Play",
-        "Iran Talks Offer Little Relief for Hormuz Shipping",
-        "China\u2019s Inflation Cools as Iran War Oil Shock Starts to Ease"
+        "Wednesday\u2019s crucial CPI report will show tamer inflation, according to prediction markets",
+        "Interest rates may stay higher for longer. What that means for consumers",
+        "China bypasses shipping chokepoints with \u2018Ice Silk Road\u2019 through Arctic",
+        "Fed\u2019s Hammack Says \u2018Some Number\u2019 of Rate Hikes May Be Needed",
+        "Shipping Traffic Is Up Despite War in Iran, Says FreightWaves CEO"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 3.7,
-      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 5.2,
+      "sources": "Bloomberg(4), CNBC(1), FT(1)",
       "sample_headlines": [
-        "Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery",
-        "China\u2019s Inflation Cools as Iran War Oil Shock Starts to Ease",
-        "Trump Says Data Centers Could Be Bigger Than Oil, Urges States to Cut Taxes and Accelerate AI Growth: 'If I Were Governor...'",
-        "Ring Energy Q2 Earnings Call Highlights"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "Bloomberg(3)",
-      "sample_headlines": [
-        "China Bets on AI Stocks as It Races Against US for Chip, Tech Dominance",
-        "Typhoon Dolphin Makes Landfall in East China After Red Alert",
-        "China\u2019s Inflation Cools as Iran War Oil Shock Starts to Ease"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "MarketWatch(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "How can we minimize taxes in retirement with a $2.3 million nest egg \u2014 while buying homes in Florida and New England?",
-        "France faces budget showdown as presidential election looms",
-        "Trump Says Data Centers Could Be Bigger Than Oil, Urges States to Cut Taxes and Accelerate AI Growth: 'If I Were Governor...'"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Jim Cramer Just Reminded Everyone About the Most Important Aspect of Investing in SpaceX"
+        "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
+        "Ukrainian drone strike on oil-refining city in central Russia kills 13",
+        "US Natural Gas Surges as Hotter Outlooks Trigger Short-Covering",
+        "Stocks Churn as Hormuz Standoff Spurs Rally in Oil: Markets Wrap",
+        "Latest Oil Market News and Analysis for Aug. 10"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "Yahoo(3)",
       "sample_headlines": [
-        "USDC and USDT Now Own 84% of Crypto Card Spend as the Euro Retreats"
+        "IRS warns crypto investors of fake letters from fraudsters aimed at stealing wallet keys and passwords",
+        "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
+        "Here's the 1 Crypto I'd Buy If I Could Pick Only One"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "Shein faces existential threat as tariffs hit low-price model, putting new focus on services",
+        "Trump\u2019s $100 billion tariff refund going to big names despite Americans paying higher prices. Can you still get a cut?"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "FT(2)",
+      "sample_headlines": [
+        "Hong Kong\u2019s plan to clear rural villages for a new gateway to China",
+        "China bypasses shipping chokepoints with \u2018Ice Silk Road\u2019 through Arctic"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Powerball jackpot climbs to $905 million. What you\u2019d pocket after taxes, and what to do with the rest.",
+        "He Worked for Three Electrical Contractors and Paid Too Much Social Security Tax. The Refund Was Hiding on His 1040."
       ]
     }
   ]
