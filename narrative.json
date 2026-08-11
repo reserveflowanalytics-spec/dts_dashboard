@@ -1,113 +1,115 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 119,
-  "fetched_at": "2026-08-11T14:28:54.618209+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 114,
+  "fetched_at": "2026-08-11T21:02:35.219934+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 20,
-      "pct": 16.8,
-      "sources": "CNBC(7), Yahoo(6), Bloomberg(4), FT(2), MarketWatch(1)",
+      "topic": "AI / Tech",
+      "count": 15,
+      "pct": 13.2,
+      "sources": "CNBC(8), Yahoo(3), MarketWatch(2), Bloomberg(2)",
       "sample_headlines": [
-        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands",
-        "Zelenskyy warns Putin is preparing for escalation by bringing in North Korean military equipment",
-        "FIFA World Cup 'will never be as profitable' if Infantino is ousted, Trump warns amid global soccer revolt",
-        "Hotel giant says \u2018growing middle class\u2019 boosted hotel demand despite Middle East hit",
-        "Hormuz deadlock: Where oil prices could head next as prospects for an imminent deal fade"
+        "CoreWeave stock pops 12% as revenue doubles on accelerating AI infrastructure demand",
+        "AI computing power is becoming a tradable asset class as CME launches futures contracts",
+        "Riot Platforms strikes deal with Anthropic as bitcoin miners shift focus to AI infrastructure",
+        "Longtime OpenAI executive Brad Lightcap leaves as shake-up at AI lab continues",
+        "Manus to return as independent company after China forced Meta to unwind $2 billion deal"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 16,
-      "pct": 13.4,
-      "sources": "Yahoo(7), CNBC(6), MarketWatch(1), FT(1), Bloomberg(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 13,
+      "pct": 11.4,
+      "sources": "CNBC(7), FT(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates",
-        "OpenAI wraps $7 billion share sale ahead of potential IPO",
-        "OpenAI expands Daybreak cybersecurity initiative as AI agent threats evolve",
-        "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies",
-        "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic"
+        "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
+        "Riot Platforms strikes deal with Anthropic as bitcoin miners shift focus to AI infrastructure",
+        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands",
+        "Zelenskyy warns Putin is preparing for escalation by bringing in North Korean military equipment",
+        "Ukraine war sparked race for countries to build spy satellites, space-tech CEO says"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 15,
-      "pct": 12.6,
-      "sources": "Yahoo(7), Bloomberg(4), CNBC(2), MarketWatch(1), FT(1)",
+      "count": 13,
+      "pct": 11.4,
+      "sources": "Yahoo(6), CNBC(3), Bloomberg(3), FT(1)",
       "sample_headlines": [
+        "AI computing power is becoming a tradable asset class as CME launches futures contracts",
         "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
-        "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
-        "Wall Street thinks inflation is under control. Here\u2019s why investors shouldn\u2019t buy it.",
+        "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
         "Volatility tumbles as markets shrug off Middle East risks",
-        "CoreWeave\u2019s Forecast Is Key to Stopping Another Earnings Selloff"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 8.4,
-      "sources": "Bloomberg(6), CNBC(3), Google News(1)",
-      "sample_headlines": [
-        "Hormuz deadlock: Where oil prices could head next as prospects for an imminent deal fade",
-        "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
-        "U.S. oil price hovers around $82 as traders weigh conflicting signals on Strait of Hormuz deal",
-        "Financial Markets, Oil Prices, and Supply-Side Risks - Federal Reserve Bank of San Francisco",
-        "US Stocks Waver Near Record as Oil Retreats Ahead of Inflation"
+        "US Stocks End Down as Hormuz Deadlock Sends Oil Up Ahead of CPI"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.6,
-      "sources": "Bloomberg(4), CNBC(2), MarketWatch(1), Google News(1), Yahoo(1)",
+      "count": 12,
+      "pct": 10.5,
+      "sources": "Bloomberg(8), CNBC(3), Google News(1)",
       "sample_headlines": [
-        "Interest rates may stay higher for longer. What that means for consumers",
-        "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
-        "Wall Street thinks inflation is under control. Here\u2019s why investors shouldn\u2019t buy it.",
+        "Trump says NYC pied-\u00e0-terre tax 'must be stopped,' eyes federal block",
+        "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
+        "Credit card debt climbs to $1.26 trillion as \u2018K-shaped\u2019 divide persists, New York Fed research finds",
         "Financial Markets, Oil Prices, and Supply-Side Risks - Federal Reserve Bank of San Francisco",
-        "US Stocks Waver Near Record as Oil Retreats Ahead of Inflation"
+        "Trend-Chasing Funds\u2019 Big Bond Short Raises Stakes for CPI"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 6,
+      "pct": 5.3,
+      "sources": "Bloomberg(3), CNBC(1), Google News(1), Yahoo(1)",
+      "sample_headlines": [
+        "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
+        "Financial Markets, Oil Prices, and Supply-Side Risks - Federal Reserve Bank of San Francisco",
+        "US Stocks End Down as Hormuz Deadlock Sends Oil Up Ahead of CPI",
+        "S&P 500 Falls as Oil Climbs Before Inflation Data: Markets Wrap",
+        "Latest Oil Market News and Analysis for Aug. 11"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 5,
-      "pct": 4.2,
-      "sources": "Yahoo(4), CNBC(1)",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "Yahoo(3), CNBC(1)",
       "sample_headlines": [
-        "Trump Media posts $238 million second-quarter loss as crypto declines",
-        "Australia Cracks Down On Crypto ATMs",
-        "MoneyGram Expands Crypto-To-Cash Service",
-        "Trump Media Reports $361 Million Crypto Loss",
-        "Bitcoin and ethereum prices today, Tuesday, August 11, 2026: Opening prices fall back ahead of inflation reports this week"
+        "Riot Platforms strikes deal with Anthropic as bitcoin miners shift focus to AI infrastructure",
+        "Bitcoin News Today: BlackRock IBIT Drives Five-Day BTC ETF Inflow Streak",
+        "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
+        "Strategy Sells $109M in Bitcoin as Dollar Reserve Tops $4.6B"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.5,
-      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Parents could put pre-tax paycheck money into Trump Accounts, with employers matching, Treasury says",
-        "NYSE Parent ICE Kicks Off Bond Sale for MarketAxess Takeover",
-        "Powerball jackpot climbs to $975 million. What you'd pocket after taxes, and what to do with the rest."
+        "Trump says NYC pied-\u00e0-terre tax 'must be stopped,' eyes federal block",
+        "Parents could put pretax paycheck money into Trump Accounts, with employers matching, Treasury says",
+        "NYSE Parent ICE Raises $3.75 Billion for MarketAxess Takeover",
+        "A 26-year-old owes $45K in debt but insists on keeping an $800 monthly entertainment budget \u2014 Reddit didn't hold back"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "CNBC(1), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
+        "China tightens grip on Europe\u2019s car supply chain",
+        "Unitree's Shanghai IPO more than 8,000 times oversubscribed by retail investors"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
-      "pct": 0.8,
-      "sources": "Bloomberg(1)",
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Russia\u2019s Crude Oil Exports Tumble to Their\u00a0Lowest\u00a0Since May"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 0.8,
-      "sources": "FT(1)",
-      "sample_headlines": [
-        "China tightens grip on Europe\u2019s car supply chain"
+        "Kazakhstan Weighs New Routes as Drone Strikes Squeeze Black Sea Oil Exports"
       ]
     }
   ]
