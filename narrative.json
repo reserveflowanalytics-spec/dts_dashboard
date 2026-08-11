@@ -1,105 +1,113 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 116,
-  "fetched_at": "2026-08-10T21:28:08.960611+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 119,
+  "fetched_at": "2026-08-11T14:28:54.618209+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 23,
-      "pct": 19.8,
-      "sources": "CNBC(8), Yahoo(6), MarketWatch(3), FT(3), Bloomberg(3)",
-      "sample_headlines": [
-        "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are \u2018investable asset\u2019",
-        "OpenAI expands Daybreak cybersecurity initiative as AI agent threats evolve",
-        "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
-        "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
-        "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 16,
-      "pct": 13.8,
-      "sources": "CNBC(5), Bloomberg(5), Yahoo(3), FT(2), MarketWatch(1)",
+      "count": 20,
+      "pct": 16.8,
+      "sources": "CNBC(7), Yahoo(6), Bloomberg(4), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
-        "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
-        "Trump extends limited waiver of shipping law to keep oil flowing in U.S. amid Iran war",
-        "U.S. oil rises back above $82 as doubt grows Washington and Tehran will reach Hormuz deal",
-        "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat"
+        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands",
+        "Zelenskyy warns Putin is preparing for escalation by bringing in North Korean military equipment",
+        "FIFA World Cup 'will never be as profitable' if Infantino is ousted, Trump warns amid global soccer revolt",
+        "Hotel giant says \u2018growing middle class\u2019 boosted hotel demand despite Middle East hit",
+        "Hormuz deadlock: Where oil prices could head next as prospects for an imminent deal fade"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 9.5,
-      "sources": "CNBC(4), Bloomberg(4), MarketWatch(1), FT(1), Yahoo(1)",
+      "topic": "AI / Tech",
+      "count": 16,
+      "pct": 13.4,
+      "sources": "Yahoo(7), CNBC(6), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
-        "Trump extends limited waiver of shipping law to keep oil flowing in U.S. amid Iran war",
-        "Wednesday\u2019s crucial CPI report will show tamer inflation, according to prediction markets",
-        "Interest rates may stay higher for longer. What that means for consumers",
-        "Fed Chair Kevin Warsh promises 2% inflation, but skyrocketing U.S. debt makes that a pipe dream"
+        "Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates",
+        "OpenAI wraps $7 billion share sale ahead of potential IPO",
+        "OpenAI expands Daybreak cybersecurity initiative as AI agent threats evolve",
+        "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies",
+        "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 9.5,
-      "sources": "Yahoo(5), CNBC(2), Bloomberg(2), MarketWatch(1), FT(1)",
+      "count": 15,
+      "pct": 12.6,
+      "sources": "Yahoo(7), Bloomberg(4), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
+        "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
         "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
-        "Australian rare earth miner surges after U.S. Department of Defense investment",
-        "Microsoft\u2019s stock is charging back. Here\u2019s the case for it to rally another 30%.",
-        "Wall Street giants partner with Nvidia on $500bn AI financing deal",
-        "Stocks Churn as Hormuz Standoff Spurs Rally in Oil: Markets Wrap"
+        "Wall Street thinks inflation is under control. Here\u2019s why investors shouldn\u2019t buy it.",
+        "Volatility tumbles as markets shrug off Middle East risks",
+        "CoreWeave\u2019s Forecast Is Key to Stopping Another Earnings Selloff"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 8,
-      "pct": 6.9,
-      "sources": "Bloomberg(4), CNBC(3), FT(1)",
+      "count": 10,
+      "pct": 8.4,
+      "sources": "Bloomberg(6), CNBC(3), Google News(1)",
       "sample_headlines": [
-        "Trump extends limited waiver of shipping law to keep oil flowing in U.S. amid Iran war",
+        "Hormuz deadlock: Where oil prices could head next as prospects for an imminent deal fade",
         "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
-        "U.S. oil rises back above $82 as doubt grows Washington and Tehran will reach Hormuz deal",
-        "Ukrainian drone strike on oil-refining city in central Russia kills 13",
-        "Oil Jumps as Markets Await Middle East Clarity | Closing Bell"
+        "U.S. oil price hovers around $82 as traders weigh conflicting signals on Strait of Hormuz deal",
+        "Financial Markets, Oil Prices, and Supply-Side Risks - Federal Reserve Bank of San Francisco",
+        "US Stocks Waver Near Record as Oil Retreats Ahead of Inflation"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 9,
+      "pct": 7.6,
+      "sources": "Bloomberg(4), CNBC(2), MarketWatch(1), Google News(1), Yahoo(1)",
+      "sample_headlines": [
+        "Interest rates may stay higher for longer. What that means for consumers",
+        "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
+        "Wall Street thinks inflation is under control. Here\u2019s why investors shouldn\u2019t buy it.",
+        "Financial Markets, Oil Prices, and Supply-Side Risks - Federal Reserve Bank of San Francisco",
+        "US Stocks Waver Near Record as Oil Retreats Ahead of Inflation"
       ]
     },
     {
       "topic": "Crypto",
       "count": 5,
-      "pct": 4.3,
-      "sources": "Yahoo(3), Bloomberg(2)",
+      "pct": 4.2,
+      "sources": "Yahoo(4), CNBC(1)",
       "sample_headlines": [
-        "ETFs Look Safer After Bitcoin Hack, Small Caps | ETF IQ 8/10/2026",
-        "Strategy Sells More Bitcoin, Stock to Bolster Cash Stockpile",
-        "IRS warns crypto investors of fake letters from fraudsters aimed at stealing wallet keys and passwords",
-        "Strategy (MSTR) vs BlackRock\u2019s IBIT: Which Bitcoin Bet Has Held Up Better in 2026?",
-        "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again"
+        "Trump Media posts $238 million second-quarter loss as crypto declines",
+        "Australia Cracks Down On Crypto ATMs",
+        "MoneyGram Expands Crypto-To-Cash Service",
+        "Trump Media Reports $361 Million Crypto Loss",
+        "Bitcoin and ethereum prices today, Tuesday, August 11, 2026: Opening prices fall back ahead of inflation reports this week"
       ]
     },
     {
-      "topic": "China",
+      "topic": "Fiscal / Government spending",
       "count": 3,
-      "pct": 2.6,
-      "sources": "FT(2), Yahoo(1)",
+      "pct": 2.5,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Hong Kong\u2019s plan to clear rural villages for a new gateway to China",
-        "China bypasses shipping chokepoints with \u2018Ice Silk Road\u2019 through Arctic",
-        "Apple tests China's CXMT memory chips for iPhones and MacBooks, WSJ reports"
+        "Parents could put pre-tax paycheck money into Trump Accounts, with employers matching, Treasury says",
+        "NYSE Parent ICE Kicks Off Bond Sale for MarketAxess Takeover",
+        "Powerball jackpot climbs to $975 million. What you'd pocket after taxes, and what to do with the rest."
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), Yahoo(1)",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Shein faces existential threat as tariffs hit low-price model, putting new focus on services",
-        "Trump\u2019s $100 billion tariff refund going to big names despite Americans paying higher prices. Can you still get a cut?"
+        "Russia\u2019s Crude Oil Exports Tumble to Their\u00a0Lowest\u00a0Since May"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.8,
+      "sources": "FT(1)",
+      "sample_headlines": [
+        "China tightens grip on Europe\u2019s car supply chain"
       ]
     }
   ]
