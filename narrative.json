@@ -1,115 +1,103 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 114,
-  "fetched_at": "2026-08-11T21:02:35.219934+00:00",
+  "total_headlines": 116,
+  "fetched_at": "2026-08-12T21:02:47.932722+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 15,
-      "pct": 13.2,
-      "sources": "CNBC(8), Yahoo(3), MarketWatch(2), Bloomberg(2)",
-      "sample_headlines": [
-        "CoreWeave stock pops 12% as revenue doubles on accelerating AI infrastructure demand",
-        "AI computing power is becoming a tradable asset class as CME launches futures contracts",
-        "Riot Platforms strikes deal with Anthropic as bitcoin miners shift focus to AI infrastructure",
-        "Longtime OpenAI executive Brad Lightcap leaves as shake-up at AI lab continues",
-        "Manus to return as independent company after China forced Meta to unwind $2 billion deal"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 11.4,
-      "sources": "CNBC(7), FT(2), Bloomberg(2), Yahoo(2)",
-      "sample_headlines": [
-        "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
-        "Riot Platforms strikes deal with Anthropic as bitcoin miners shift focus to AI infrastructure",
-        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands",
-        "Zelenskyy warns Putin is preparing for escalation by bringing in North Korean military equipment",
-        "Ukraine war sparked race for countries to build spy satellites, space-tech CEO says"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 11.4,
-      "sources": "Yahoo(6), CNBC(3), Bloomberg(3), FT(1)",
+      "count": 15,
+      "pct": 12.9,
+      "sources": "CNBC(6), Yahoo(4), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "AI computing power is becoming a tradable asset class as CME launches futures contracts",
-        "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
-        "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
-        "Volatility tumbles as markets shrug off Middle East risks",
-        "US Stocks End Down as Hormuz Deadlock Sends Oil Up Ahead of CPI"
+        "U.S. budget deficit surged in July to highest level since March 2021",
+        "Cerebras stock plunges 14% after second earnings report following IPO",
+        "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
+        "Here's the inflation breakdown for July 2026 \u2014 in one chart",
+        "Small investors became a major stock market force. Now, they risk getting pushed back into the dark"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 12,
-      "pct": 10.5,
-      "sources": "Bloomberg(8), CNBC(3), Google News(1)",
+      "count": 11,
+      "pct": 9.5,
+      "sources": "Bloomberg(4), CNBC(3), FT(2), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump says NYC pied-\u00e0-terre tax 'must be stopped,' eyes federal block",
-        "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
-        "Credit card debt climbs to $1.26 trillion as \u2018K-shaped\u2019 divide persists, New York Fed research finds",
-        "Financial Markets, Oil Prices, and Supply-Side Risks - Federal Reserve Bank of San Francisco",
-        "Trend-Chasing Funds\u2019 Big Bond Short Raises Stakes for CPI"
+        "How the market is trading gold as Fed rate hike and inflation odds shift",
+        "Here's the inflation breakdown for July 2026 \u2014 in one chart",
+        "AI\u2019s costly build-out complicates the Fed\u2019s inflation fight",
+        "Rich Americans are propping up the travel economy as airfares soar 25% higher than last year",
+        "Poorer Americans are struggling to make \u2018ends meet\u2019, top Fed official says"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.3,
-      "sources": "Bloomberg(3), CNBC(1), Google News(1), Yahoo(1)",
+      "topic": "AI / Tech",
+      "count": 10,
+      "pct": 8.6,
+      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
-        "Financial Markets, Oil Prices, and Supply-Side Risks - Federal Reserve Bank of San Francisco",
-        "US Stocks End Down as Hormuz Deadlock Sends Oil Up Ahead of CPI",
-        "S&P 500 Falls as Oil Climbs Before Inflation Data: Markets Wrap",
-        "Latest Oil Market News and Analysis for Aug. 11"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "Yahoo(3), CNBC(1)",
-      "sample_headlines": [
-        "Riot Platforms strikes deal with Anthropic as bitcoin miners shift focus to AI infrastructure",
-        "Bitcoin News Today: BlackRock IBIT Drives Five-Day BTC ETF Inflow Streak",
-        "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
-        "Strategy Sells $109M in Bitcoin as Dollar Reserve Tops $4.6B"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Trump says NYC pied-\u00e0-terre tax 'must be stopped,' eyes federal block",
-        "Parents could put pretax paycheck money into Trump Accounts, with employers matching, Treasury says",
-        "NYSE Parent ICE Raises $3.75 Billion for MarketAxess Takeover",
-        "A 26-year-old owes $45K in debt but insists on keeping an $800 monthly entertainment budget \u2014 Reddit didn't hold back"
+        "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
+        "Google\u2019s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
+        "Amazon shares appear stuck in a rut. Trader Mike Khouw is betting things will stay that way",
+        "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
+        "Investors are chasing the latest rally in gold as the yellow metal hits strongest level in 2 months"
       ]
     },
     {
       "topic": "China",
+      "count": 5,
+      "pct": 4.3,
+      "sources": "CNBC(3), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "EVs dominate China\u2019s car market: 5 takeaways from the country's latest auto sales data",
+        "China\u2019s answer to Boeing and Airbus makes first international flight \u2014 could COMAC challenge the aviation duopoly?",
+        "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
+        "Now China wants to become the shop floor for the Muslim world",
+        "China is winning the race for the Ice Silk Road"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "CNBC(2), Yahoo(2)",
+      "sample_headlines": [
+        "Strait of Hormuz ship traffic near three-month low as U.S.-Iran deal in doubt",
+        "'Tougher times ahead': Don't expect blowout returns to continue, CEO of $2.3 trillion fund warns after record first half",
+        "Jamie Dimon Has a Warning for Investors: Inflation May Not Be Coming Down",
+        "Immunic advances MS drug toward key Phase 3 data, expects results by year-end"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Saudi Arabia ramps up oil exports through Mediterranean pipeline to avoid attacks in Red Sea",
+        "Latest Oil Market News and Analysis for Aug. 12",
+        "Hallador Energy Company Q2 2026 Earnings Call Summary",
+        "HighPeak Energy, Inc. Q2 2026 Earnings Call Summary"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
       "count": 3,
       "pct": 2.6,
-      "sources": "CNBC(1), FT(1), Yahoo(1)",
+      "sources": "CNBC(2), Yahoo(1)",
       "sample_headlines": [
-        "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
-        "China tightens grip on Europe\u2019s car supply chain",
-        "Unitree's Shanghai IPO more than 8,000 times oversubscribed by retail investors"
+        "U.S. budget deficit surged in July to highest level since March 2021",
+        "Trump officials float cut to capital gains tax on home sales. What it could mean for homeowners",
+        "Aramark beats fiscal Q3 estimates as revenue growth accelerates"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Kazakhstan Weighs New Routes as Drone Strikes Squeeze Black Sea Oil Exports"
+        "Saudi Arabia ramps up oil exports through Mediterranean pipeline to avoid attacks in Red Sea",
+        "Colombia Coffee Exports Partially Resume After Quake"
       ]
     }
   ]
