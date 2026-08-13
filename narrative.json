@@ -1,103 +1,111 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 116,
-  "fetched_at": "2026-08-12T21:02:47.932722+00:00",
+  "total_headlines": 114,
+  "fetched_at": "2026-08-13T21:02:13.908658+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 15,
-      "pct": 12.9,
-      "sources": "CNBC(6), Yahoo(4), MarketWatch(2), Bloomberg(2), FT(1)",
+      "topic": "AI / Tech",
+      "count": 13,
+      "pct": 11.4,
+      "sources": "Yahoo(4), CNBC(3), Bloomberg(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "U.S. budget deficit surged in July to highest level since March 2021",
-        "Cerebras stock plunges 14% after second earnings report following IPO",
-        "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
-        "Here's the inflation breakdown for July 2026 \u2014 in one chart",
-        "Small investors became a major stock market force. Now, they risk getting pushed back into the dark"
+        "Apple's Tim Cook joined by Howard Lutnick in opening Houston manufacturing plant",
+        "'Big Short' investor Steve Eisman sees an Achilles' heel in the AI boom",
+        "This Chinese firm has topped Micron and Kioxia in shipments of crucial NAND memory chips",
+        "These nontech stocks can ride the AI build-out for years",
+        "AI has opened up big holes in cyber security"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 11,
+      "pct": 9.6,
+      "sources": "CNBC(8), Yahoo(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Apple's Tim Cook joined by Howard Lutnick in opening Houston manufacturing plant",
+        "Trump-linked oil venture delays Greenland drilling plans after government warning",
+        "Iran looks to ramp up economic alliance with BRICS nations as war with U.S. drags on",
+        "Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day",
+        "The Iran war risks bringing the G7's fastest-growing economy to a halt"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 11,
-      "pct": 9.5,
-      "sources": "Bloomberg(4), CNBC(3), FT(2), MarketWatch(1), Yahoo(1)",
+      "pct": 9.6,
+      "sources": "Yahoo(4), CNBC(3), Bloomberg(3), MarketWatch(1)",
       "sample_headlines": [
-        "How the market is trading gold as Fed rate hike and inflation odds shift",
-        "Here's the inflation breakdown for July 2026 \u2014 in one chart",
-        "AI\u2019s costly build-out complicates the Fed\u2019s inflation fight",
-        "Rich Americans are propping up the travel economy as airfares soar 25% higher than last year",
-        "Poorer Americans are struggling to make \u2018ends meet\u2019, top Fed official says"
+        "New federal rules could end mortgage escrow interest for some homeowners. States are suing to block them",
+        "Easing inflation pressures, Cerebras earnings, falling Hormuz traffic and more in Morning Squawk",
+        "Shipping giants warn ports and trucks could hold up deliveries and push up prices",
+        "Rich Americans are propping up the travel economy as airfares soar 25% from a year ago",
+        "S&P 500 Hits Record as Inflation Cools | Closing Bell"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 10,
-      "pct": 8.6,
-      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), Yahoo(2)",
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 6.1,
+      "sources": "Bloomberg(3), MarketWatch(2), CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
-        "Google\u2019s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
-        "Amazon shares appear stuck in a rut. Trader Mike Khouw is betting things will stay that way",
-        "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
-        "Investors are chasing the latest rally in gold as the yellow metal hits strongest level in 2 months"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 5,
-      "pct": 4.3,
-      "sources": "CNBC(3), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "EVs dominate China\u2019s car market: 5 takeaways from the country's latest auto sales data",
-        "China\u2019s answer to Boeing and Airbus makes first international flight \u2014 could COMAC challenge the aviation duopoly?",
-        "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
-        "Now China wants to become the shop floor for the Muslim world",
-        "China is winning the race for the Ice Silk Road"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 4,
-      "pct": 3.4,
-      "sources": "CNBC(2), Yahoo(2)",
-      "sample_headlines": [
-        "Strait of Hormuz ship traffic near three-month low as U.S.-Iran deal in doubt",
-        "'Tougher times ahead': Don't expect blowout returns to continue, CEO of $2.3 trillion fund warns after record first half",
-        "Jamie Dimon Has a Warning for Investors: Inflation May Not Be Coming Down",
-        "Immunic advances MS drug toward key Phase 3 data, expects results by year-end"
+        "These charts show why stocks keep rallying. Profit margins are the highest on record",
+        "Sandisk\u2019s stock is flying higher. Here are the new targets that are exciting Wall Street.",
+        "Why September is the worst month of the year for the stock market",
+        "S&P 500 Hits Record as Inflation Cools | Closing Bell",
+        "S&P 500 Hits All-Time High on Inflation Cooldown: Markets Wrap"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 4,
-      "pct": 3.4,
-      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "pct": 3.5,
+      "sources": "CNBC(3), Yahoo(1)",
       "sample_headlines": [
-        "Saudi Arabia ramps up oil exports through Mediterranean pipeline to avoid attacks in Red Sea",
-        "Latest Oil Market News and Analysis for Aug. 12",
-        "Hallador Energy Company Q2 2026 Earnings Call Summary",
-        "HighPeak Energy, Inc. Q2 2026 Earnings Call Summary"
+        "Trump-linked oil venture delays Greenland drilling plans after government warning",
+        "Top energy plays for the rest of the year... including a 'behind-the-meter' power play",
+        "Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day",
+        "Meren Energy raises 2026 guidance after strong first-half performance"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 3,
       "pct": 2.6,
-      "sources": "CNBC(2), Yahoo(1)",
+      "sources": "FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "U.S. budget deficit surged in July to highest level since March 2021",
-        "Trump officials float cut to capital gains tax on home sales. What it could mean for homeowners",
-        "Aramark beats fiscal Q3 estimates as revenue growth accelerates"
+        "Trump\u2019s DoJ to target taxpayer theft after retreat on white-collar crime",
+        "NYC Pied-a-Terre Tax Can Proceed for Now, Appeals Court Says",
+        "Stereotaxis, Inc. Q2 2026 Earnings Call Summary"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 2,
-      "pct": 1.7,
+      "pct": 1.8,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day",
+        "Ukraine attacks Russian grain export terminals in Black Sea, prompting warning about food markets"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.8,
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Saudi Arabia ramps up oil exports through Mediterranean pipeline to avoid attacks in Red Sea",
-        "Colombia Coffee Exports Partially Resume After Quake"
+        "This Chinese firm has topped Micron and Kioxia in shipments of crucial NAND memory chips",
+        "US, China Gap on Critical Minerals 'Won't Change Overnight,' Say REalloys CEO"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "Nearly 14,000 crypto holders face security risk after data breach",
+        "US Inflation Holds at 3.4%: Will Bitcoin Dodge a September Fed Hike?"
       ]
     }
   ]
