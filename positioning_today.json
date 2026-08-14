@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-12",
-  "computed_at": "2026-08-13T21:02:42Z",
+  "as_of": "2026-08-13",
+  "computed_at": "2026-08-14T21:02:31Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,8 +8,8 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bullish",
-    "tech_close": 7769.5,
-    "tech_sma20": 7587.16,
+    "tech_close": 7823.25,
+    "tech_sma20": 7599.48,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 1/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "1/11",
@@ -18,9 +18,9 @@
   },
   "overweight_pairs": [
     {
-      "pair": "XLI/XLP",
-      "rationale": "Industrials vs staples",
-      "roc_20d": 1.28
+      "pair": "XLB/XLRE",
+      "rationale": "Materials vs real estate",
+      "roc_20d": 2.3
     }
   ],
   "underweight_pairs": [],
