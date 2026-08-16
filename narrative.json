@@ -1,118 +1,111 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 112,
-  "fetched_at": "2026-08-15T21:01:23.463247+00:00",
+  "total_headlines": 111,
+  "fetched_at": "2026-08-16T21:01:35.864030+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 13.4,
-      "sources": "Yahoo(6), CNBC(4), Bloomberg(3), FT(2)",
+      "count": 13,
+      "pct": 11.7,
+      "sources": "Yahoo(8), CNBC(3), Bloomberg(2)",
       "sample_headlines": [
-        "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
         "I drove Tesla FSD, Rivian Autonomy+ \u2018hands-free\u2019 driving systems. Here\u2019s how they compare",
+        "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
         "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
-        "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
-        "OpenAI upheaval mounts as Sam Altman readies IPO push"
+        "Bloomberg This Weekend | Meta on Trial, the Race To Replace Gov. DeSantis, and Pet Longevity",
+        "AI Perfection Fuels a Return to Looking Human"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 11,
-      "pct": 9.8,
-      "sources": "Bloomberg(4), Yahoo(3), CNBC(2), FT(2)",
+      "pct": 9.9,
+      "sources": "Bloomberg(4), Yahoo(4), FT(2), CNBC(1)",
       "sample_headlines": [
-        "Iran rebuffs Trump's claim over Strait of Hormuz amid report of another ship being struck",
         "How long will software-defined cars last? The auto industry doesn't know yet",
-        "US aircraft carrier furore is emblem of growing disquiet over Iran war",
-        "Israeli strikes kill 11 in Lebanon two months into truce",
-        "Bally\u2019s Warns of Debt Covenant Breach Risk as It Seeks New Funds"
+        "Far-right Israeli minister advocates killing \u201830 to 40\u2019 Gazans each night",
+        "Jamie Dimon warns UK chancellor against higher bank taxes",
+        "Iran Pressure Campaign Lacks Clear Off Ramp",
+        "Iran MOU Expires With Diplomacy Still in Play"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 10,
-      "pct": 8.9,
-      "sources": "Yahoo(4), CNBC(2), MarketWatch(2), Bloomberg(2)",
+      "pct": 9.0,
+      "sources": "Yahoo(5), MarketWatch(2), Bloomberg(2), CNBC(1)",
       "sample_headlines": [
         "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
-        "Luigi Mangione pleads guilty in federal case related to UnitedHealthcare CEO killing",
         "Think interest rates are high now? These charts offer a different perspective.",
         "An active fund holding a whopping 800 stocks is beating major indexes. Here\u2019s how.",
-        "Inflation Is Cooling. But is 2% Out of Reach?"
+        "Fed\u2019s Internal Rate Debate Faces New Scrutiny",
+        "Bonds Face a Bigger Threat Than the Fed as Global Rates Climb"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 6,
-      "pct": 5.4,
-      "sources": "Yahoo(3), Bloomberg(2), MarketWatch(1)",
+      "count": 8,
+      "pct": 7.2,
+      "sources": "Yahoo(5), CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Will Trump accounts and grandparent 529s bring down the price of college in the future?",
-        "Bond Traders Agonize Over AI Companies\u2019 $70 Billion of Shadow Credit Backstops",
-        "\u2018Outlier\u2019 S&P 500 Earnings Strength Cheers Wall Street\u2019s Bulls",
-        "SanDisk CEO reveals what's next after explosive 3,150% stock rally",
-        "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 5,
-      "pct": 4.5,
-      "sources": "Bloomberg(3), CNBC(1), FT(1)",
-      "sample_headlines": [
-        "Beijing is said to move to clarify tax rules stoking confusion among China's ultra-wealthy",
-        "China poised to lift travel ban on Manus founders",
-        "Iran Sanctions Could Put China Oil Trade in Focus",
-        "China Protests Japan PM, Defense Minister\u2019s Yasukuni Actions",
-        "China Film\u2019s Sales Soar as Online Scorn Attracts Curious Viewers"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 3.6,
-      "sources": "CNBC(1), FT(1), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations",
-        "Traders are spoiling for a fight over the yen",
-        "Iran Sanctions Could Put China Oil Trade in Focus",
-        "Nebius Just Gave Bloom Energy a Big Boost. What It Means for BE Stock."
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.6,
-      "sources": "CNBC(2), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "How a niche copper trade became a real-time gauge of Trump\u2019s next tariff move",
-        "Court rules companies can't import Gilead medications from overseas in blow to AFP health programs",
-        "Iran Sanctions Could Put China Oil Trade in Focus",
-        "Buying Bonds Could Be the Single Most Important Investing Decision You Make for 10 Years"
+        "Secret outperformer: Dispelling the 'myths' about an unloved stock market",
+        "Top Wall Street analysts like these 3 dividend stocks for steady income",
+        "At AI-Fueled Market Party, Wall Street Eyes the Rates Punch Bowl",
+        "Billionaire Bill Ackman doubles down on these stocks in Q2",
+        "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 4,
       "pct": 3.6,
-      "sources": "CNBC(2), Yahoo(2)",
+      "sources": "FT(2), CNBC(1), Yahoo(1)",
       "sample_headlines": [
         "Beijing is said to move to clarify tax rules stoking confusion among China's ultra-wealthy",
-        "Mamdani's NYC pied-\u00e0-terre tax can continue rollout during court appeal",
-        "Budgeting tips for single parents: How to make your money go further",
-        "He Spent His 60s Quietly Moving His IRA Into a Roth. At 73, When the IRS Showed Up to Dictate His Withdrawals, There Was Nothing Left to Tax"
+        "California billionaires add millions to bolster fight against wealth tax",
+        "Jamie Dimon warns UK chancellor against higher bank taxes",
+        "Drake told a 23-year-old streamer he'd 'love to' buy her mom a house after picking her on dating show. Who pays the tax?"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "CNBC(1), MarketWatch(1), Yahoo(1)",
+      "sample_headlines": [
+        "Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations",
+        "Here\u2019s the real reason oil prices aren\u2019t moving higher",
+        "Oil Majors Reap $93 Billion Windfall From the Iran War"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "FT(2), Yahoo(1)",
+      "sample_headlines": [
+        "US considers sanctions on Brazil judge in new test of diplomatic ties",
+        "Canadian business braced for 50% US tariffs",
+        "This ETF Is the Most Important in the Market. You Probably Haven\u2019t Heard of It."
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "Yahoo(2), CNBC(1)",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
         "Trump family-backed crypto firm World Liberty gets conditional bank charter approval",
-        "Impermanent loss in crypto: Understanding the real risk of providing liquidity",
-        "Bitcoin and ethereum prices today, Friday, August 14, 2026: Crypto prices backing off further"
+        "Bitcoin Has Never Faced Global Bond Yields This High Since It Was Born"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Beijing is said to move to clarify tax rules stoking confusion among China's ultra-wealthy"
       ]
     }
   ]
