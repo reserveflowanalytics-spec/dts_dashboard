@@ -1,103 +1,116 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 113,
-  "fetched_at": "2026-08-17T21:02:12.838088+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 114,
+  "fetched_at": "2026-08-18T21:02:02.498734+00:00",
   "topics": [
     {
+      "topic": "Equities / Market moves",
+      "count": 16,
+      "pct": 14.0,
+      "sources": "Yahoo(7), Bloomberg(3), CNBC(2), MarketWatch(2), FT(2)",
+      "sample_headlines": [
+        "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
+        "'Worrisome': AI is driving a looming market correction, European central bank economists warn",
+        "Here\u2019s a \u2018ridiculously cheap\u2019 way to protect yourself against a stock-market selloff",
+        "America\u2019s growing debt pile will be the big focus Wednesday as global bond rout deepens",
+        "Disney accuses Trump administration of cracking down on freedom of speech"
+      ]
+    },
+    {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 17.7,
-      "sources": "CNBC(6), Yahoo(6), MarketWatch(4), Bloomberg(3), FT(1)",
+      "count": 14,
+      "pct": 12.3,
+      "sources": "CNBC(7), FT(3), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
         "Meta faces \u2018astronomical\u2019 consequences as legal fight reaches critical moment in California",
-        "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
-        "Nvidia financing initiative follows SEC guidance that takes sponsors off the hook for data center investments",
-        "Synchrony, credit card issuer to Amazon and Walmart, partners with OpenAI for ChatGPT shopping",
-        "OpenAI's Brockman brushes off concerns about leadership changes in CNBC exclusive"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 10.6,
-      "sources": "Yahoo(8), CNBC(1), MarketWatch(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "'Don't get too comfortable': Wall Street\u2019s \u2018fear gauge\u2019 hits 2026 low \u2014 here's why it's unlikely to last",
-        "Why it pays to stay invested: No amount of bad news could stop the stock market\u2019s strongest run in more than 25 years",
-        "US tech stock correction likely, warn ECB economists",
-        "US Bond Selloff Drives 30-Year Yields to Highest Since 2007",
-        "The AI trade got crushed. The bull market barely noticed: Chart of the Day"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 9.7,
-      "sources": "CNBC(4), FT(4), Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump won't extend Iran ceasefire, threatens to 'bomb' Oman if it 'gets in the way'",
-        "Eli Lilly and J&J bounce on new data, as software stocks give up last week's gains",
-        "Prediction market traders see roughly 1-in-4 odds Paramount\u2019s bid to buy Warner Bros. Discovery fails",
-        "Russia targets Danube port after one of Ukraine\u2019s largest aerial attacks of the war",
-        "Crime and punishment in the Middle East"
+        "Apple overhauls Europe app store fees to resolve payments clash",
+        "Contrarian vs. the crowd: One trader made a massive bet against chip stocks",
+        "Nvidia's AI moat is shifting from chips to capital",
+        "Sea Ray parent Brunswick bets on AI navigation and new revenue streams to help stalling boat sales"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 8,
-      "pct": 7.1,
-      "sources": "Yahoo(4), CNBC(2), Bloomberg(2)",
+      "count": 10,
+      "pct": 8.8,
+      "sources": "Bloomberg(4), Yahoo(4), CNBC(2)",
       "sample_headlines": [
-        "30-year Treasury yield tops 5.31%, the highest in 19 years",
-        "Synchrony, credit card issuer to Amazon and Walmart, partners with OpenAI for ChatGPT shopping",
-        "Stocks Slip as Oil and Treasury Yields Rise | Closing Bell",
-        "Dollar Extends Slide as Traders Scale Back Fed Tightening Bets",
-        "'A serious mistake': Moody's Analytics economist says the Fed is putting the economy at risk with its silence"
+        "Bond yields are climbing. Here\u2019s what that means for mortgages and other consumer borrowing",
+        "30-year Treasury yield tops 5.33%, new 19-year high, on inflation and spending concerns",
+        "EM Rally Stalls Amid Surge in Treasury Yields, Mideast Tensions",
+        "Gold Falls as Traders Weigh US Inflation, Rates Amid Bond Rout",
+        "Bond Traders Are Hedging Risk Fed Pivots to Rate Cuts in 2027"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.3,
-      "sources": "Bloomberg(4), CNBC(2)",
+      "topic": "Iran / Middle East conflict",
+      "count": 8,
+      "pct": 7.0,
+      "sources": "CNBC(4), FT(2), Yahoo(2)",
       "sample_headlines": [
-        "Vista Energy up 4% after billionaire Peter Thiel buys stake in the Argentine shale oil producer",
-        "Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations",
-        "Stocks Slip as Oil and Treasury Yields Rise | Closing Bell",
-        "US Stocks Fall as Rising Oil Prices, Yields Offset Chip Gains",
-        "Stocks Fall as Brent Tops $90 on Middle East Risks: Markets Wrap"
+        "Trump says no talks scheduled with Iran as he teases action in Hormuz Strait",
+        "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
+        "'Worrisome': AI is driving a looming market correction, European central bank economists warn",
+        "South Korea must brace for \u2018worst-case scenario,\u2019 President Lee says, as Trump cuts military drills",
+        "Russia warns UK of \u2018consequences\u2019 over Ukraine\u2019s use of British-made drones"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 6,
+      "pct": 5.3,
+      "sources": "CNBC(3), MarketWatch(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "30-year Treasury yield tops 5.31%, the highest in 19 years",
+        "Data centers, crypto, and tax revisions take center stage in Tuesday primaries",
+        "30-year Treasury yield tops 5.33%, new 19-year high, on inflation and spending concerns",
+        "IRS clarifies 'no tax on overtime' deduction rules. What workers need to know",
         "\u2018I\u2019m running out of time\u2019: I sold my $300,000 rental property at a $75,000 loss. Should I buy another one to avoid taxes?",
-        "Stocks Slip as Oil and Treasury Yields Rise | Closing Bell",
-        "American skips taxes for 4 years citing this strategy his CPA approved. Unfortunately, he's not all the way right"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "MarketWatch(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "A new set of Trump tariffs for Canada could take effect Wednesday. Here\u2019s what\u2019s at stake.",
-        "Mark Carney in last-ditch effort to avoid Trump\u2019s latest tariffs",
-        "This ETF Is the Most Important in the Market. You Probably Haven\u2019t Heard of It."
+        "EM Rally Stalls Amid Surge in Treasury Yields, Mideast Tensions"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 5,
+      "pct": 4.4,
+      "sources": "CNBC(2), Yahoo(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Data centers, crypto, and tax revisions take center stage in Tuesday primaries",
+        "A fintech app built by crypto exchange Kraken just launched a cash back debit card in bid for consumer wallets",
+        "SEC Unveils Crypto Plan as Agency Moves Ahead on Digital Assets",
+        "Spot Bitcoin and Ethereum ETFs: The difference between owning the coin and the fund",
+        "Bitcoin and ethereum prices today, Tuesday, August 18, 2026: Crypto prices mixed as Iran stalemate continues"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "Bloomberg(3), Yahoo(1)",
+      "sample_headlines": [
+        "Energy Stocks Hit Record as Oil Rises on Fading Deal Hopes",
+        "Late Billionaire\u2019s Heirs Claim Venezuela Seized Oil Assets",
+        "Latest Oil Market News and Analysis for Aug. 18",
+        "Peter Thiel's Thiel Macro buys stake in Vista Energy Q2 2026"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "Bloomberg(2), Yahoo(1)",
+      "sample_headlines": [
+        "China Trying to 'Run Out the Clock' on Trump Presidency, Says Shehzad Qazi",
+        "Mexico Weighs Tougher Trade Rules for China as US Talks Grind On",
+        "China's Unitree unveils 'Superman' robot as fervour builds ahead of Shanghai debut"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Monday, August 17, 2026: Crypto prices down slightly as analysts question timing of bear market bottom"
+        "Trump, Carney reportedly in talks ahead of new 50% tariffs on Canadian goods"
       ]
     }
   ]
