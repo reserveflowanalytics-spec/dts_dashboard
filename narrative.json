@@ -1,116 +1,113 @@
 {
   "dominant": "No clear dominant narrative",
   "total_headlines": 114,
-  "fetched_at": "2026-08-18T21:02:02.498734+00:00",
+  "fetched_at": "2026-08-19T21:02:24.077843+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 14.0,
-      "sources": "Yahoo(7), Bloomberg(3), CNBC(2), MarketWatch(2), FT(2)",
-      "sample_headlines": [
-        "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-        "'Worrisome': AI is driving a looming market correction, European central bank economists warn",
-        "Here\u2019s a \u2018ridiculously cheap\u2019 way to protect yourself against a stock-market selloff",
-        "America\u2019s growing debt pile will be the big focus Wednesday as global bond rout deepens",
-        "Disney accuses Trump administration of cracking down on freedom of speech"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 14,
-      "pct": 12.3,
-      "sources": "CNBC(7), FT(3), Bloomberg(2), Yahoo(2)",
+      "count": 13,
+      "pct": 11.4,
+      "sources": "CNBC(7), Yahoo(5), Bloomberg(1)",
       "sample_headlines": [
-        "Meta faces \u2018astronomical\u2019 consequences as legal fight reaches critical moment in California",
-        "Apple overhauls Europe app store fees to resolve payments clash",
-        "Contrarian vs. the crowd: One trader made a massive bet against chip stocks",
-        "Nvidia's AI moat is shifting from chips to capital",
-        "Sea Ray parent Brunswick bets on AI navigation and new revenue streams to help stalling boat sales"
+        "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
+        "Meta's legal troubles has options traders eyeing the 'jade lizard'",
+        "Nvidia plays matchmaker in Nordics, sources tell CNBC, as AI data center deals boom in region",
+        "Where we stand on Broadcom after Marvell muscles in on its key customer Google",
+        "Marvell's stock pops 10% on AI chip deal that lets Google buy up to $12.2 billion in shares"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 8.8,
-      "sources": "Bloomberg(4), Yahoo(4), CNBC(2)",
+      "topic": "Equities / Market moves",
+      "count": 12,
+      "pct": 10.5,
+      "sources": "Bloomberg(6), Yahoo(3), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Bond yields are climbing. Here\u2019s what that means for mortgages and other consumer borrowing",
-        "30-year Treasury yield tops 5.33%, new 19-year high, on inflation and spending concerns",
-        "EM Rally Stalls Amid Surge in Treasury Yields, Mideast Tensions",
-        "Gold Falls as Traders Weigh US Inflation, Rates Amid Bond Rout",
-        "Bond Traders Are Hedging Risk Fed Pivots to Rate Cuts in 2027"
+        "Stripe to buy OpenRouter as fintech expands deeper into AI",
+        "World\u2019s largest olive oil company surges over 20% as rivals circle in takeover battle",
+        "Moderna\u2019s cancer-vaccine breakthrough drives broad biopharma stock rally",
+        "Moderna Surges as Stocks Rise & Long-Term Yields Retreat | Closing Bell",
+        "Moderna\u2019s 177% Surge Burns Shorts in \u2018Painful\u2019 $5.5 Billion Loss"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 8,
       "pct": 7.0,
-      "sources": "CNBC(4), FT(2), Yahoo(2)",
+      "sources": "CNBC(3), FT(2), Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "Trump says no talks scheduled with Iran as he teases action in Hormuz Strait",
-        "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-        "'Worrisome': AI is driving a looming market correction, European central bank economists warn",
-        "South Korea must brace for \u2018worst-case scenario,\u2019 President Lee says, as Trump cuts military drills",
-        "Russia warns UK of \u2018consequences\u2019 over Ukraine\u2019s use of British-made drones"
+        "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
+        "UAE severs trade with Iran after reported missile strike",
+        "Zelenskyy faces challenge to his wartime rule as former defense chief calls for election",
+        "Iran eyes military targets in Europe if Trump escalates war, insiders say",
+        "Putin pledges help for Wildberries warehouses hit by Ukraine"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 6,
-      "pct": 5.3,
-      "sources": "CNBC(3), MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 8,
+      "pct": 7.0,
+      "sources": "CNBC(4), Bloomberg(2), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Data centers, crypto, and tax revisions take center stage in Tuesday primaries",
-        "30-year Treasury yield tops 5.33%, new 19-year high, on inflation and spending concerns",
-        "IRS clarifies 'no tax on overtime' deduction rules. What workers need to know",
-        "\u2018I\u2019m running out of time\u2019: I sold my $300,000 rental property at a $75,000 loss. Should I buy another one to avoid taxes?",
-        "EM Rally Stalls Amid Surge in Treasury Yields, Mideast Tensions"
+        "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
+        "Yields pull back from multi-year highs after Treasury Department says it will double government debt repurchase size",
+        "Treasury doubles debt buybacks as Bessent moves to steady bond market",
+        "Treasury, IRS move to restrict refundable tax credits to certain immigrants",
+        "US Treasury to boost long-term bond purchases in bid to steady market"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 5,
-      "pct": 4.4,
-      "sources": "CNBC(2), Yahoo(2), Bloomberg(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 5.3,
+      "sources": "CNBC(3), FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Data centers, crypto, and tax revisions take center stage in Tuesday primaries",
-        "A fintech app built by crypto exchange Kraken just launched a cash back debit card in bid for consumer wallets",
-        "SEC Unveils Crypto Plan as Agency Moves Ahead on Digital Assets",
-        "Spot Bitcoin and Ethereum ETFs: The difference between owning the coin and the fund",
-        "Bitcoin and ethereum prices today, Tuesday, August 18, 2026: Crypto prices mixed as Iran stalemate continues"
+        "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
+        "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
+        "Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
+        "Fed officials express rising concern over persistently high inflation",
+        "Trump Says Interest Rate System Doesn't Make Sense"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 4,
       "pct": 3.5,
-      "sources": "Bloomberg(3), Yahoo(1)",
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Energy Stocks Hit Record as Oil Rises on Fading Deal Hopes",
-        "Late Billionaire\u2019s Heirs Claim Venezuela Seized Oil Assets",
-        "Latest Oil Market News and Analysis for Aug. 18",
-        "Peter Thiel's Thiel Macro buys stake in Vista Energy Q2 2026"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "Bloomberg(2), Yahoo(1)",
-      "sample_headlines": [
-        "China Trying to 'Run Out the Clock' on Trump Presidency, Says Shehzad Qazi",
-        "Mexico Weighs Tougher Trade Rules for China as US Talks Grind On",
-        "China's Unitree unveils 'Superman' robot as fervour builds ahead of Shanghai debut"
+        "World\u2019s largest olive oil company surges over 20% as rivals circle in takeover battle",
+        "Latest Oil Market News and Analysis for Aug. 19",
+        "Chevron Corporation (CVX) Drops as Oil Price Retreats",
+        "Reconnaissance Energy Africa reports progress across Namibia, Gabon and Angola operations during Q2"
       ]
     },
     {
       "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "CNBC(3)",
+      "sample_headlines": [
+        "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far",
+        "Target says its turnaround is picking up steam, with help from a big tariff refund",
+        "Trump pauses 50% scheduled tariffs on Canada for three days, announces 'deal' with Ottawa"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump calls for passage of a key cryptocurrency bill as it falters in the Senate: \u2018We need Congress to take the next step\u2019",
+        "Trump Opens Door to Hyperliquid as US Pulls Crypto Trade Onshore"
+      ]
+    },
+    {
+      "topic": "China",
       "count": 1,
       "pct": 0.9,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Trump, Carney reportedly in talks ahead of new 50% tariffs on Canadian goods"
+        "The U.S. banned Nvidia's best chips from going to China. Now it's trying to close a crucial loophole"
       ]
     }
   ]
