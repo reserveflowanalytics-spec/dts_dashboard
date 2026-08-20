@@ -1,113 +1,101 @@
 {
   "dominant": "No clear dominant narrative",
   "total_headlines": 114,
-  "fetched_at": "2026-08-19T21:02:24.077843+00:00",
+  "fetched_at": "2026-08-20T21:05:22.815107+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 11.4,
-      "sources": "CNBC(7), Yahoo(5), Bloomberg(1)",
+      "count": 17,
+      "pct": 14.9,
+      "sources": "Yahoo(8), CNBC(6), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
-        "Meta's legal troubles has options traders eyeing the 'jade lizard'",
-        "Nvidia plays matchmaker in Nordics, sources tell CNBC, as AI data center deals boom in region",
-        "Where we stand on Broadcom after Marvell muscles in on its key customer Google",
-        "Marvell's stock pops 10% on AI chip deal that lets Google buy up to $12.2 billion in shares"
+        "AI data center outrage is showing up everywhere from ads to elections",
+        "Hyundai to increase U.S. production at new Georgia plant, CEO tells CNBC",
+        "Gatekeeping bots, piles of slop: Welcome to the age of AI weirdness at work",
+        "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
+        "Workers can't agree if junior employees should use AI at work: CNBC survey"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 10.5,
-      "sources": "Bloomberg(6), Yahoo(3), CNBC(2), MarketWatch(1)",
+      "count": 14,
+      "pct": 12.3,
+      "sources": "Yahoo(5), CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
+        "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+        "Bitcoin surges 12% in two days as Trump, crypto execs lead last ditch effort for Clarity Act",
+        "A rare stumble at TJX has Wall Street spooked. We see a buying opportunity",
         "Stripe to buy OpenRouter as fintech expands deeper into AI",
-        "World\u2019s largest olive oil company surges over 20% as rivals circle in takeover battle",
-        "Moderna\u2019s cancer-vaccine breakthrough drives broad biopharma stock rally",
-        "Moderna Surges as Stocks Rise & Long-Term Yields Retreat | Closing Bell",
-        "Moderna\u2019s 177% Surge Burns Shorts in \u2018Painful\u2019 $5.5 Billion Loss"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 7.0,
-      "sources": "CNBC(3), FT(2), Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
-        "UAE severs trade with Iran after reported missile strike",
-        "Zelenskyy faces challenge to his wartime rule as former defense chief calls for election",
-        "Iran eyes military targets in Europe if Trump escalates war, insiders say",
-        "Putin pledges help for Wildberries warehouses hit by Ukraine"
+        "If rising rates were enough to end a bull market, we\u2019d have entered a bear market long ago"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 8,
-      "pct": 7.0,
-      "sources": "CNBC(4), Bloomberg(2), FT(1), Yahoo(1)",
+      "count": 9,
+      "pct": 7.9,
+      "sources": "CNBC(4), FT(2), Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
-        "Yields pull back from multi-year highs after Treasury Department says it will double government debt repurchase size",
-        "Treasury doubles debt buybacks as Bessent moves to steady bond market",
-        "Treasury, IRS move to restrict refundable tax credits to certain immigrants",
-        "US Treasury to boost long-term bond purchases in bid to steady market"
+        "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
+        "Bessent says there's a 'very good chance' U.S. budget deficit under Trump has peaked",
+        "Treasury proposes low-cost investment rules for Trump Accounts",
+        "Oil prices rise after Treasury Secretary says U.S. will collapse Iran with economic pressure",
+        "The US Treasury is buying long bonds, but not very many"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 7,
+      "pct": 6.1,
+      "sources": "CNBC(4), FT(1), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Warsh faces Fed independence test as Bessent moves in on central bank's turf",
+        "Bessent says U.S. likely won't restart large-scale Iran combat as it steps up economic pressure",
+        "Oil prices rise after Treasury Secretary says U.S. will collapse Iran with economic pressure",
+        "Trump says Iran's economy is collapsing. A former central bank adviser in Tehran pushes back",
+        "War comes to Putin\u2019s favourite Black Sea resort"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 5.3,
-      "sources": "CNBC(3), FT(1), Bloomberg(1), Yahoo(1)",
+      "count": 7,
+      "pct": 6.1,
+      "sources": "Yahoo(4), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
+        "Warsh faces Fed independence test as Bessent moves in on central bank's turf",
         "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
-        "Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
-        "Fed officials express rising concern over persistently high inflation",
-        "Trump Says Interest Rate System Doesn't Make Sense"
+        "The rise in interest rates hit a \u2018raw nerve\u2019 at the White House. Bessent\u2019s plan has analysts on edge.",
+        "India rate panel signals impending hikes, eyes inflation path to gauge timing",
+        "Mortgage and refinance interest rates today, Wednesday, August 19, 2026:  Surprisingly calm amid bond market volatility"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "World\u2019s largest olive oil company surges over 20% as rivals circle in takeover battle",
-        "Latest Oil Market News and Analysis for Aug. 19",
-        "Chevron Corporation (CVX) Drops as Oil Price Retreats",
-        "Reconnaissance Energy Africa reports progress across Namibia, Gabon and Angola operations during Q2"
+        "Oil prices rise after Treasury Secretary says U.S. will collapse Iran with economic pressure",
+        "US Stocks Fall as Oil, Yields Climb While Walmart Slumps"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "CNBC(3)",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
         "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far",
-        "Target says its turnaround is picking up steam, with help from a big tariff refund",
-        "Trump pauses 50% scheduled tariffs on Canada for three days, announces 'deal' with Ottawa"
+        "Aluminum Premium Slips as US Set to Cut Tariffs on Canada Metal"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
       "pct": 1.8,
-      "sources": "MarketWatch(1), Bloomberg(1)",
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump calls for passage of a key cryptocurrency bill as it falters in the Senate: \u2018We need Congress to take the next step\u2019",
-        "Trump Opens Door to Hyperliquid as US Pulls Crypto Trade Onshore"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "The U.S. banned Nvidia's best chips from going to China. Now it's trying to close a crucial loophole"
+        "Bitcoin surges 12% in two days as Trump, crypto execs lead last ditch effort for Clarity Act",
+        "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation"
       ]
     }
   ]
