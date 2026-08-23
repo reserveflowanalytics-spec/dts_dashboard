@@ -1,13 +1,13 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 114,
-  "fetched_at": "2026-08-22T21:03:43.183808+00:00",
+  "total_headlines": 112,
+  "fetched_at": "2026-08-23T21:01:37.181692+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 21,
-      "pct": 18.4,
-      "sources": "Yahoo(9), CNBC(7), Bloomberg(5)",
+      "count": 19,
+      "pct": 17.0,
+      "sources": "Yahoo(9), CNBC(5), FT(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
         "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
         "Nvidia customers reportedly warned about AI-related price hikes",
@@ -18,103 +18,95 @@
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 17,
-      "pct": 14.9,
-      "sources": "CNBC(8), Yahoo(4), Bloomberg(3), FT(2)",
+      "count": 12,
+      "pct": 10.7,
+      "sources": "CNBC(4), Bloomberg(3), Yahoo(3), FT(2)",
       "sample_headlines": [
+        "Small UK power generator shut down after cyberattack linked to Iran: Telegraph",
         "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
         "Nvidia customers reportedly warned about AI-related price hikes",
         "Warren Buffett Watch: It's Buffett, not Abel, who appears to be calling the shots on stocks",
-        "Ken Griffin says Citadel unwound more than 80% of risk tied to Situational Awareness portfolio",
-        "As GOP warns data centers put Ohio Senate seat at risk, Husted defends energy policy"
+        "Warsh seeks to soothe investors\u2019 nerves as signs of economic strain mount"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 9.6,
-      "sources": "Yahoo(6), MarketWatch(3), CNBC(2)",
+      "count": 12,
+      "pct": 10.7,
+      "sources": "CNBC(4), Yahoo(4), MarketWatch(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out",
-        "Kalshi traders think the bitcoin rally could end the year near current levels",
-        "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
-        "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
-        "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week"
+        "Top Wall Street analysts believe in the growth potential of these 3 stocks",
+        "Here are the 2 big things we're watching in the stock market this week",
+        "Equal-weight S&P 500 is leading the 2026 market and its flagship trade just hit $100 billion",
+        "Small UK power generator shut down after cyberattack linked to Iran: Telegraph",
+        "Nvidia is the beating heart of the AI boom and the stock market \u2014 which sets up a big test"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "Yahoo(3), CNBC(2), MarketWatch(1), FT(1)",
+      "count": 5,
+      "pct": 4.5,
+      "sources": "Yahoo(3), Bloomberg(2)",
       "sample_headlines": [
-        "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out",
-        "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
-        "Move over, credit cards: Social-media stars are tapping magic wands to buy things",
-        "Russian \u2018double-tap\u2019 attack on Ukrainian shopping mall kills at least 16",
-        "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive"
+        "Fed Faces High Stakes Test at Jackson Hole",
+        "Bessent Has No Easy Fix for What\u2019s Really Driving Bond Yields Up",
+        "Mortgage and refinance interest rates today, Sunday, August 23, 2026: Higher than last weekend as prime selling season wraps up",
+        "Bond Market Won't Affect the Fed: Kashkari"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1), Yahoo(1)",
+      "count": 5,
+      "pct": 4.5,
+      "sources": "CNBC(2), MarketWatch(1), FT(1), Yahoo(1)",
       "sample_headlines": [
         "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
         "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-        "Trump to allow import of 300,000 metric tons of ground beef without tariff",
         "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
-        "Sanctions Target Iran\u2019s Weakened Regional Network"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "Yahoo(3), MarketWatch(2), CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out",
-        "\u2018I\u2019m running out of time\u2019: I sold my $300,000 rental property at a $75,000 loss. Should I buy another one to avoid taxes?",
-        "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week",
-        "Bond Market Tests Limits of Treasury Intervention",
-        "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.3,
-      "sources": "CNBC(3), Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "As GOP warns data centers put Ohio Senate seat at risk, Husted defends energy policy",
-        "Energy sector is in focus because of Iran, AI and California. Here are hedge funds' top plays",
-        "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May",
-        "US Colleges Face a Shrinking Student Pipeline",
-        "Clean Energy Spending Tracking Toward Record $180 Billion in 2026"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "CNBC(2), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
-        "Kalshi traders think the bitcoin rally could end the year near current levels",
-        "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week",
-        "Bitcoin and ethereum prices today, Friday, August 21, 2026: Cryptos continue rally sparked by Treasury repurchase announcement"
+        "Trump accused of risking more pain for Americans with Canada trade war",
+        "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "count": 4,
+      "pct": 3.6,
+      "sources": "Bloomberg(3), Yahoo(1)",
       "sample_headlines": [
-        "Why some of America's biggest brands are losing ground in China",
-        "Tesla recalls 3 million vehicles in China over doorhandle safety, driver monitoring",
-        "Chinese AI Models Gain Ground on Price and Use"
+        "US Push to Isolate Iran Runs Into China",
+        "Europe\u2019s Luxury Giants Discern Green Shoots in Key China Market",
+        "F1 Reviews China Boy Band\u2019s Logo for Similarities: Global Times",
+        "This Chinese Tech Giant Quietly Cut Its Buyback 80% to Fund AI"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
+        "Treasury Buybacks Fail to Calm Bond Market",
+        "Trump\u2019s Bond Buyback Push Puts Kevin Warsh in a Tough Spot \u2014 Peter Schiff Says Treasury \u2018Pulled the Rug Out From Under\u2019"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "Yahoo(2)",
+      "sample_headlines": [
+        "Zoetis Earnings Reveal a Divided Business, But Can its Pipeline Restore Growth?",
+        "2 Energy Stocks Riding the Data Center Power Crunch"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Japan Borrowing Costs Reach 1996 Highs: Will the Weak Yen Hurt Bitcoin?"
       ]
     }
   ]
