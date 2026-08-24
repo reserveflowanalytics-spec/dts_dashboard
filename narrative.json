@@ -1,112 +1,119 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 112,
-  "fetched_at": "2026-08-23T21:01:37.181692+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 117,
+  "fetched_at": "2026-08-24T21:01:58.113433+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
+      "topic": "Iran / Middle East conflict",
       "count": 19,
-      "pct": 17.0,
-      "sources": "Yahoo(9), CNBC(5), FT(2), Bloomberg(2), MarketWatch(1)",
+      "pct": 16.2,
+      "sources": "CNBC(6), FT(5), Yahoo(4), MarketWatch(3), Bloomberg(1)",
       "sample_headlines": [
-        "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
-        "Nvidia customers reportedly warned about AI-related price hikes",
-        "Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers",
-        "Rising yields rattled the market, but we\u2019re sticking with our favorite AI and retail stocks",
-        "Anthropic IPO filing will show AI backlash as a risk factor, sources say"
+        "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
+        "Goldman Sachs partner warns of 'huge danger' in letting AI replace bankers' reasoning skills",
+        "Trump\u2019s oil and gas stocks gained up to $15.5 million amid Iran war, congressional Democrats say",
+        "From Nvidia earnings to trade war tape bombs, a simple strategy could be this week's best bet",
+        "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures"
       ]
     },
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 12,
-      "pct": 10.7,
-      "sources": "CNBC(4), Bloomberg(3), Yahoo(3), FT(2)",
+      "topic": "AI / Tech",
+      "count": 19,
+      "pct": 16.2,
+      "sources": "Yahoo(8), CNBC(6), Bloomberg(3), MarketWatch(2)",
       "sample_headlines": [
-        "Small UK power generator shut down after cyberattack linked to Iran: Telegraph",
-        "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-        "Nvidia customers reportedly warned about AI-related price hikes",
-        "Warren Buffett Watch: It's Buffett, not Abel, who appears to be calling the shots on stocks",
-        "Warsh seeks to soothe investors\u2019 nerves as signs of economic strain mount"
+        "Goldman Sachs partner warns of 'huge danger' in letting AI replace bankers' reasoning skills",
+        "Nvidia says Groq racks will be online this year following $20 billion purchase",
+        "From Nvidia earnings to trade war tape bombs, a simple strategy could be this week's best bet",
+        "Jim Cramer says don't sell Meta on litigation risk \u2014 the stock is worth the wait",
+        "Ex-Google recruiter: This common mistake makes your resume 'invisible'\u2014you have 'six seconds to prove you can do the work'"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 10.7,
-      "sources": "CNBC(4), Yahoo(4), MarketWatch(2), FT(1), Bloomberg(1)",
+      "count": 14,
+      "pct": 12.0,
+      "sources": "Yahoo(5), CNBC(3), Bloomberg(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Top Wall Street analysts believe in the growth potential of these 3 stocks",
-        "Here are the 2 big things we're watching in the stock market this week",
+        "Crypto extends gains after biggest 3-day rally since 2023",
+        "Alibaba plunges after announcing $10.2 billion share placement to fund AI push",
         "Equal-weight S&P 500 is leading the 2026 market and its flagship trade just hit $100 billion",
-        "Small UK power generator shut down after cyberattack linked to Iran: Telegraph",
-        "Nvidia is the beating heart of the AI boom and the stock market \u2014 which sets up a big test"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 4.5,
-      "sources": "Yahoo(3), Bloomberg(2)",
-      "sample_headlines": [
-        "Fed Faces High Stakes Test at Jackson Hole",
-        "Bessent Has No Easy Fix for What\u2019s Really Driving Bond Yields Up",
-        "Mortgage and refinance interest rates today, Sunday, August 23, 2026: Higher than last weekend as prime selling season wraps up",
-        "Bond Market Won't Affect the Fed: Kashkari"
+        "Here\u2019s how overvalued the stock market really is",
+        "Canadian businesses fear \u2018vortex of downward pressures\u2019 from Trump\u2019s tariffs"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 5,
-      "pct": 4.5,
-      "sources": "CNBC(2), MarketWatch(1), FT(1), Yahoo(1)",
+      "count": 8,
+      "pct": 6.8,
+      "sources": "FT(3), CNBC(2), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
-        "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
-        "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-        "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
-        "Trump accused of risking more pain for Americans with Canada trade war",
-        "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus"
+        "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
+        "From Nvidia earnings to trade war tape bombs, a simple strategy could be this week's best bet",
+        "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
+        "Trump\u2019s trade war with Canada could lead the U.S. back to quantitative easing",
+        "Trump says US to increase tariffs on Canadian cars to 50%"
       ]
     },
     {
-      "topic": "China",
-      "count": 4,
-      "pct": 3.6,
-      "sources": "Bloomberg(3), Yahoo(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 7,
+      "pct": 6.0,
+      "sources": "Yahoo(4), CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "US Push to Isolate Iran Runs Into China",
-        "Europe\u2019s Luxury Giants Discern Green Shoots in Key China Market",
-        "F1 Reviews China Boy Band\u2019s Logo for Similarities: Global Times",
-        "This Chinese Tech Giant Quietly Cut Its Buyback 80% to Fund AI"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
-        "Treasury Buybacks Fail to Calm Bond Market",
-        "Trump\u2019s Bond Buyback Push Puts Kevin Warsh in a Tough Spot \u2014 Peter Schiff Says Treasury \u2018Pulled the Rug Out From Under\u2019"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "Yahoo(2)",
-      "sample_headlines": [
-        "Zoetis Earnings Reveal a Divided Business, But Can its Pipeline Restore Growth?",
-        "2 Energy Stocks Riding the Data Center Power Crunch"
+        "Santoli: Why all the fuss about bond yields is happening now",
+        "Shipping industry warns small battery exemption increases fire risk on vessels",
+        "First Brands Bankruptcy-Payout Plan Rejected by Federal Judge",
+        "Trump made a multimillion-dollar bond bet \u2014 and Fed Chair Kevin Warsh could shape the outcome. What investors can learn",
+        "Best high-yield savings interest rates today, Monday, August 24, 2026: Earn up to 4.15% APY"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "count": 7,
+      "pct": 6.0,
+      "sources": "Yahoo(4), CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Japan Borrowing Costs Reach 1996 Highs: Will the Weak Yen Hurt Bitcoin?"
+        "Crypto extends gains after biggest 3-day rally since 2023",
+        "Bitcoin has beaten stocks and gold over six months. Now it\u2019s closing in on $80,000.",
+        "Strategy Sets Up Reserve That Can Be Used to Buy Bitcoin",
+        "Bitcoin Finally Wakes Up While U.S. Debt Hits $40 Trillion",
+        "Gemini crypto exchange review 2026: Bank-grade security comes at a price"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 4.3,
+      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Trump\u2019s oil and gas stocks gained up to $15.5 million amid Iran war, congressional Democrats say",
+        "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
+        "Stocks\u00a0Fall as Chip Rout Overshadows Drop in Oil: Markets Wrap",
+        "Asia Buyers Snap Up American Crude, Add Stress to Tight Market",
+        "Latest Oil Market News and Analysis for Aug. 24"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 3.4,
+      "sources": "CNBC(1), FT(1), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Yields decline on CNBC report Treasury could use General Account to fund buybacks",
+        "Treasury market interventions are only a band-aid",
+        "Treasury Buybacks Are a 'Cloud' Over Markets, Apollo's Slok Says",
+        "A 22-year-old inherited $1.7 million after her mom's sudden death. These are the tax and IRS rules she needs to know now"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "CNBC(1), FT(1)",
+      "sample_headlines": [
+        "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
+        "US plans nuclear-powered merchant fleet to challenge China\u2019s shipbuilding dominance"
       ]
     }
   ]
