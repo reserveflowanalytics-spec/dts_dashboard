@@ -1,119 +1,126 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 117,
-  "fetched_at": "2026-08-24T21:01:58.113433+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 116,
+  "fetched_at": "2026-08-25T21:01:37.392262+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
+      "topic": "Equities / Market moves",
       "count": 19,
-      "pct": 16.2,
-      "sources": "CNBC(6), FT(5), Yahoo(4), MarketWatch(3), Bloomberg(1)",
+      "pct": 16.4,
+      "sources": "Yahoo(14), CNBC(3), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
-        "Goldman Sachs partner warns of 'huge danger' in letting AI replace bankers' reasoning skills",
-        "Trump\u2019s oil and gas stocks gained up to $15.5 million amid Iran war, congressional Democrats say",
-        "From Nvidia earnings to trade war tape bombs, a simple strategy could be this week's best bet",
-        "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures"
+        "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
+        "Bond rout ending? Massive bets on bond rally dominate options market",
+        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace",
+        "Foot Locker owner plunges after warning nervous consumers are cutting spending",
+        "US Natural Gas Falls as Iran Pressure Plan Pulls Down Energy"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 19,
-      "pct": 16.2,
-      "sources": "Yahoo(8), CNBC(6), Bloomberg(3), MarketWatch(2)",
+      "count": 18,
+      "pct": 15.5,
+      "sources": "Yahoo(7), CNBC(4), MarketWatch(4), Bloomberg(3)",
       "sample_headlines": [
-        "Goldman Sachs partner warns of 'huge danger' in letting AI replace bankers' reasoning skills",
-        "Nvidia says Groq racks will be online this year following $20 billion purchase",
-        "From Nvidia earnings to trade war tape bombs, a simple strategy could be this week's best bet",
-        "Jim Cramer says don't sell Meta on litigation risk \u2014 the stock is worth the wait",
-        "Ex-Google recruiter: This common mistake makes your resume 'invisible'\u2014you have 'six seconds to prove you can do the work'"
+        "Apple announces new Mac Mini and Mac Studio models with AI upgrades",
+        "Nvidia\u2019s dependence on hyperscalers faces big test in earnings report",
+        "To cram more AI skills onto LinkedIn profiles, more job seekers are turning to 'time travel,' say researchers",
+        "OpenAI bans Russian ChatGPT accounts used in covert misinformation campaign",
+        "This driverless-truck company could be a \u2018long-term winner\u2019 in a market Tesla plans to enter soon"
       ]
     },
     {
-      "topic": "Equities / Market moves",
+      "topic": "Iran / Middle East conflict",
       "count": 14,
-      "pct": 12.0,
-      "sources": "Yahoo(5), CNBC(3), Bloomberg(3), FT(2), MarketWatch(1)",
+      "pct": 12.1,
+      "sources": "FT(4), CNBC(3), Bloomberg(3), Yahoo(3), MarketWatch(1)",
       "sample_headlines": [
-        "Crypto extends gains after biggest 3-day rally since 2023",
-        "Alibaba plunges after announcing $10.2 billion share placement to fund AI push",
-        "Equal-weight S&P 500 is leading the 2026 market and its flagship trade just hit $100 billion",
-        "Here\u2019s how overvalued the stock market really is",
-        "Canadian businesses fear \u2018vortex of downward pressures\u2019 from Trump\u2019s tariffs"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 8,
-      "pct": 6.8,
-      "sources": "FT(3), CNBC(2), MarketWatch(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
-        "From Nvidia earnings to trade war tape bombs, a simple strategy could be this week's best bet",
-        "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
-        "Trump\u2019s trade war with Canada could lead the U.S. back to quantitative easing",
-        "Trump says US to increase tariffs on Canadian cars to 50%"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 6.0,
-      "sources": "Yahoo(4), CNBC(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Santoli: Why all the fuss about bond yields is happening now",
-        "Shipping industry warns small battery exemption increases fire risk on vessels",
-        "First Brands Bankruptcy-Payout Plan Rejected by Federal Judge",
-        "Trump made a multimillion-dollar bond bet \u2014 and Fed Chair Kevin Warsh could shape the outcome. What investors can learn",
-        "Best high-yield savings interest rates today, Monday, August 24, 2026: Earn up to 4.15% APY"
+        "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
+        "2 of our software stocks face major tests of whether their rallies are for real",
+        "Trump targets Iran\u2019s trade lifelines \u2014 here are the countries most exposed",
+        "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
+        "Canada announces $20bn retaliatory tariffs as US trade war escalates"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 7,
-      "pct": 6.0,
-      "sources": "Yahoo(4), CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "count": 9,
+      "pct": 7.8,
+      "sources": "Yahoo(5), CNBC(3), Bloomberg(1)",
       "sample_headlines": [
-        "Crypto extends gains after biggest 3-day rally since 2023",
-        "Bitcoin has beaten stocks and gold over six months. Now it\u2019s closing in on $80,000.",
-        "Strategy Sets Up Reserve That Can Be Used to Buy Bitcoin",
-        "Bitcoin Finally Wakes Up While U.S. Debt Hits $40 Trillion",
-        "Gemini crypto exchange review 2026: Bank-grade security comes at a price"
+        "Kalshi traders see low likelihood of major crypto bill becoming law this year",
+        "The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style",
+        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace",
+        "Binance Hires Two Senior Compliance Executives From Crypto.com",
+        "SharpLink\u2019s Ethereum Treasury Draws 60% Institutional Ownership"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 6,
+      "pct": 5.2,
+      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "China needs U.S. dollars but is building a hedge against Washington\u2019s sanctions",
+        "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
+        "Canada announces $20bn retaliatory tariffs as US trade war escalates",
+        "US-Canada Cosmetic Tariffs Threaten the $10 Beauty Impulse Buy",
+        "New Iran Sanctions Part of 'Piecemeal Strategy,' Says Rep. Gabe Amo"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 5,
       "pct": 4.3,
-      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1)",
+      "sources": "Bloomberg(4), FT(1)",
       "sample_headlines": [
-        "Trump\u2019s oil and gas stocks gained up to $15.5 million amid Iran war, congressional Democrats say",
-        "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
-        "Stocks\u00a0Fall as Chip Rout Overshadows Drop in Oil: Markets Wrap",
-        "Asia Buyers Snap Up American Crude, Add Stress to Tight Market",
-        "Latest Oil Market News and Analysis for Aug. 24"
+        "\u2018Embarrassing\u2019: US officials recoil from Trump\u2019s Canada attacks",
+        "Stocks Rise Before Nvidia as Oil Drop Lifts Bonds: Markets Wrap",
+        "Oil Falls on Fresh Iran War Diplomacy, Talks on Hormuz",
+        "Treasuries Gain as Oil Drop Eases Pressure on Inflation, Bessent",
+        "US Natural Gas Falls as Iran Pressure Plan Pulls Down Energy"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.4,
-      "sources": "CNBC(1), FT(1), Bloomberg(1), Yahoo(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 5,
+      "pct": 4.3,
+      "sources": "Yahoo(2), CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Yields decline on CNBC report Treasury could use General Account to fund buybacks",
-        "Treasury market interventions are only a band-aid",
-        "Treasury Buybacks Are a 'Cloud' Over Markets, Apollo's Slok Says",
-        "A 22-year-old inherited $1.7 million after her mom's sudden death. These are the tax and IRS rules she needs to know now"
+        "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
+        "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
+        "Treasuries Gain as Oil Drop Eases Pressure on Inflation, Bessent",
+        "Best high-yield savings interest rates today, Tuesday, August 25, 2026: Earn up to 4.15% APY",
+        "Mortgage and refinance interest rates today, Tuesday, August 25, 2026: Rates mixed this morning"
       ]
     },
     {
       "topic": "China",
       "count": 2,
       "pct": 1.7,
-      "sources": "CNBC(1), FT(1)",
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
-        "US plans nuclear-powered merchant fleet to challenge China\u2019s shipbuilding dominance"
+        "China needs U.S. dollars but is building a hedge against Washington\u2019s sanctions",
+        "Trip.com (TCOM): China\u2019s Largest Travel Platform Set for Long Term Gains"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "MarketWatch(1), Yahoo(1)",
+      "sample_headlines": [
+        "Tax tips for TikTok stars, after judge says influencer can\u2019t write off his Grammy tickets",
+        "SharpLink\u2019s Ethereum Treasury Draws 60% Institutional Ownership"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Is Netflix (NFLX) Facing a Growth Slowdown After Its Strong First Quarter?"
       ]
     }
   ]
