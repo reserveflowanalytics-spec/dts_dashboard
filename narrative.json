@@ -1,126 +1,111 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 116,
-  "fetched_at": "2026-08-25T21:01:37.392262+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 111,
+  "fetched_at": "2026-08-26T21:07:31.531550+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 19,
-      "pct": 16.4,
-      "sources": "Yahoo(14), CNBC(3), FT(1), Bloomberg(1)",
+      "topic": "AI / Tech",
+      "count": 25,
+      "pct": 22.5,
+      "sources": "CNBC(10), Yahoo(7), FT(3), Bloomberg(3), MarketWatch(2)",
       "sample_headlines": [
-        "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
-        "Bond rout ending? Massive bets on bond rally dominate options market",
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace",
-        "Foot Locker owner plunges after warning nervous consumers are cutting spending",
-        "US Natural Gas Falls as Iran Pressure Plan Pulls Down Energy"
+        "Salesforce stock jumps 14% on AI growth and Anthropic investment gain",
+        "Okta pops 19% after topping estimates as AI threat spikes demand for identity security",
+        "OpenAI releases sweeping report on Hugging Face AI agent hack",
+        "Apple sets iPhone launch event for Sept. 9, first under new CEO John Ternus",
+        "Amazon service Bezos once called 'artificial artificial intelligence' is shutting down"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 18,
-      "pct": 15.5,
-      "sources": "Yahoo(7), CNBC(4), MarketWatch(4), Bloomberg(3)",
+      "topic": "Equities / Market moves",
+      "count": 16,
+      "pct": 14.4,
+      "sources": "Yahoo(9), Bloomberg(4), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Apple announces new Mac Mini and Mac Studio models with AI upgrades",
-        "Nvidia\u2019s dependence on hyperscalers faces big test in earnings report",
-        "To cram more AI skills onto LinkedIn profiles, more job seekers are turning to 'time travel,' say researchers",
-        "OpenAI bans Russian ChatGPT accounts used in covert misinformation campaign",
-        "This driverless-truck company could be a \u2018long-term winner\u2019 in a market Tesla plans to enter soon"
+        "Amazon service Bezos once called 'artificial artificial intelligence' is shutting down",
+        "Bond rout ending? Massive bets on bond rally dominate options market",
+        "Salesforce\u2019s stock surges as AI momentum fuels revenue growth",
+        "Bitcoin and Gold ETFs Draw $7 Billion as Scarcity Trade Surges",
+        "Gold Rally Eases as Traders Turn Focus to Fed Interest Rate Path"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 14,
-      "pct": 12.1,
-      "sources": "FT(4), CNBC(3), Bloomberg(3), Yahoo(3), MarketWatch(1)",
-      "sample_headlines": [
-        "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
-        "2 of our software stocks face major tests of whether their rallies are for real",
-        "Trump targets Iran\u2019s trade lifelines \u2014 here are the countries most exposed",
-        "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
-        "Canada announces $20bn retaliatory tariffs as US trade war escalates"
-      ]
-    },
-    {
-      "topic": "Crypto",
       "count": 9,
-      "pct": 7.8,
-      "sources": "Yahoo(5), CNBC(3), Bloomberg(1)",
+      "pct": 8.1,
+      "sources": "CNBC(5), MarketWatch(1), FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Kalshi traders see low likelihood of major crypto bill becoming law this year",
-        "The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style",
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace",
-        "Binance Hires Two Senior Compliance Executives From Crypto.com",
-        "SharpLink\u2019s Ethereum Treasury Draws 60% Institutional Ownership"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 6,
-      "pct": 5.2,
-      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "China needs U.S. dollars but is building a hedge against Washington\u2019s sanctions",
-        "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
-        "Canada announces $20bn retaliatory tariffs as US trade war escalates",
-        "US-Canada Cosmetic Tariffs Threaten the $10 Beauty Impulse Buy",
-        "New Iran Sanctions Part of 'Piecemeal Strategy,' Says Rep. Gabe Amo"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.3,
-      "sources": "Bloomberg(4), FT(1)",
-      "sample_headlines": [
-        "\u2018Embarrassing\u2019: US officials recoil from Trump\u2019s Canada attacks",
-        "Stocks Rise Before Nvidia as Oil Drop Lifts Bonds: Markets Wrap",
-        "Oil Falls on Fresh Iran War Diplomacy, Talks on Hormuz",
-        "Treasuries Gain as Oil Drop Eases Pressure on Inflation, Bessent",
-        "US Natural Gas Falls as Iran Pressure Plan Pulls Down Energy"
+        "Anthropic and Nscale strike $45 billion cloud deal, sources say",
+        "Economists want Warsh to share more on his view of the economy at Jackson Hole, says CNBC survey",
+        "Bill Gates warns \u2018there is no plan\u2019 for the \u2018upheaval\u2019 AI will cause",
+        "Dollar and bond markets 'on edge' ahead of Jackson Hole as Bessent's market intervention piles pressure on Warsh",
+        "Iran says the U.S. is standing in the way of Hormuz deal amid talks with Oman"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 4.3,
-      "sources": "Yahoo(2), CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "count": 9,
+      "pct": 8.1,
+      "sources": "CNBC(4), FT(2), Yahoo(2), Bloomberg(1)",
       "sample_headlines": [
-        "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
-        "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
-        "Treasuries Gain as Oil Drop Eases Pressure on Inflation, Bessent",
-        "Best high-yield savings interest rates today, Tuesday, August 25, 2026: Earn up to 4.15% APY",
-        "Mortgage and refinance interest rates today, Tuesday, August 25, 2026: Rates mixed this morning"
+        "Okta pops 19% after topping estimates as AI threat spikes demand for identity security",
+        "Federal judge lifts final block on Trump mail-in voting order, clearing way for midterm restrictions",
+        "Fed, NASA and DOJ among victims of Chinese state-sponsored hacker group: Court documents",
+        "Fed\u2019s preferred inflation gauge shows core prices rose 3.3% annually in July",
+        "Bessent\u2019s bond intervention puts US Treasury on collision course with Fed"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "sample_headlines": [
+        "Are older Americans spoiling the economy for everyone else?",
+        "Latest Oil Market News and Analysis for Aug. 26",
+        "Equinor Eyes Major Oil Discovery Offshore Namibia"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "CNBC(1), Yahoo(1)",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "China needs U.S. dollars but is building a hedge against Washington\u2019s sanctions",
-        "Trip.com (TCOM): China\u2019s Largest Travel Platform Set for Long Term Gains"
+        "Fed, NASA and DOJ among victims of Chinese state-sponsored hacker group: Court documents",
+        "Hundreds reported missing after flash flood on Nepal border with China",
+        "US and Canada Aluminum Groups Slam Tariffs and Point to China"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "Yahoo(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Bitcoin and Gold ETFs Draw $7 Billion as Scarcity Trade Surges",
+        "Bitcoin and ethereum prices today, Tuesday, August 25, 2026: Highest opening for bitcoin in over three months",
+        "Bitcoin and ethereum prices today, Wednesday, August 26, 2026: 'Bitcoin is having a price gusher to close out August'"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods",
+        "US and Canada Aluminum Groups Slam Tariffs and Point to China"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 1.7,
-      "sources": "MarketWatch(1), Yahoo(1)",
+      "pct": 1.8,
+      "sources": "FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Tax tips for TikTok stars, after judge says influencer can\u2019t write off his Grammy tickets",
-        "SharpLink\u2019s Ethereum Treasury Draws 60% Institutional Ownership"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Is Netflix (NFLX) Facing a Growth Slowdown After Its Strong First Quarter?"
+        "Bessent\u2019s bond intervention puts US Treasury on collision course with Fed",
+        "Bessent\u2019s Treasury Twist Makes November Refunding a Wall Street Wildcard"
       ]
     }
   ]
