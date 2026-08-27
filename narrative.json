@@ -1,111 +1,105 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 111,
-  "fetched_at": "2026-08-26T21:07:31.531550+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 107,
+  "fetched_at": "2026-08-27T21:01:44.716002+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 25,
-      "pct": 22.5,
-      "sources": "CNBC(10), Yahoo(7), FT(3), Bloomberg(3), MarketWatch(2)",
+      "topic": "Equities / Market moves",
+      "count": 20,
+      "pct": 18.7,
+      "sources": "Yahoo(8), CNBC(6), Bloomberg(4), MarketWatch(2)",
       "sample_headlines": [
-        "Salesforce stock jumps 14% on AI growth and Anthropic investment gain",
-        "Okta pops 19% after topping estimates as AI threat spikes demand for identity security",
-        "OpenAI releases sweeping report on Hugging Face AI agent hack",
-        "Apple sets iPhone launch event for Sept. 9, first under new CEO John Ternus",
-        "Amazon service Bezos once called 'artificial artificial intelligence' is shutting down"
+        "Salesforce rockets 22% for second-best day ever, leading software rally",
+        "'We have a limited window': 116 companies, entities sign on to major AI cyber defense push",
+        "What's expected at Apple's September event \u2014 plus, an uneven rally in AI stocks",
+        "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown",
+        "Family offices are making a bullish bet on the stock market, according to CNBC Family Office Portfolio Tracker"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 14.4,
-      "sources": "Yahoo(9), Bloomberg(4), CNBC(2), MarketWatch(1)",
+      "topic": "AI / Tech",
+      "count": 18,
+      "pct": 16.8,
+      "sources": "CNBC(8), Bloomberg(5), Yahoo(4), MarketWatch(1)",
       "sample_headlines": [
-        "Amazon service Bezos once called 'artificial artificial intelligence' is shutting down",
-        "Bond rout ending? Massive bets on bond rally dominate options market",
-        "Salesforce\u2019s stock surges as AI momentum fuels revenue growth",
-        "Bitcoin and Gold ETFs Draw $7 Billion as Scarcity Trade Surges",
-        "Gold Rally Eases as Traders Turn Focus to Fed Interest Rate Path"
+        "AI bursts to the front of Massachusetts Democratic Senate primary",
+        "'We have a limited window': 116 companies, entities sign on to major AI cyber defense push",
+        "CrowdStrike posts best day ever, Okta's stock pops nearly 29% as rising AI threat lifts earnings",
+        "What's expected at Apple's September event \u2014 plus, an uneven rally in AI stocks",
+        "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 9,
-      "pct": 8.1,
-      "sources": "CNBC(5), MarketWatch(1), FT(1), Bloomberg(1), Yahoo(1)",
+      "count": 16,
+      "pct": 15.0,
+      "sources": "CNBC(9), Bloomberg(3), Yahoo(3), FT(1)",
       "sample_headlines": [
-        "Anthropic and Nscale strike $45 billion cloud deal, sources say",
-        "Economists want Warsh to share more on his view of the economy at Jackson Hole, says CNBC survey",
-        "Bill Gates warns \u2018there is no plan\u2019 for the \u2018upheaval\u2019 AI will cause",
-        "Dollar and bond markets 'on edge' ahead of Jackson Hole as Bessent's market intervention piles pressure on Warsh",
-        "Iran says the U.S. is standing in the way of Hormuz deal amid talks with Oman"
+        "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
+        "Trump signs order to rename Lake Ontario 'Lake America' amid Canada trade war",
+        "Salesforce rockets 22% for second-best day ever, leading software rally",
+        "What Warsh will say and how the market will react, according to prediction markets",
+        "Brian Sullivan: Gulf nations are unlikely to agree to a toll plan for Strait of Hormuz safe passage"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 8.1,
-      "sources": "CNBC(4), FT(2), Yahoo(2), Bloomberg(1)",
+      "count": 5,
+      "pct": 4.7,
+      "sources": "CNBC(1), MarketWatch(1), FT(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Okta pops 19% after topping estimates as AI threat spikes demand for identity security",
-        "Federal judge lifts final block on Trump mail-in voting order, clearing way for midterm restrictions",
-        "Fed, NASA and DOJ among victims of Chinese state-sponsored hacker group: Court documents",
-        "Fed\u2019s preferred inflation gauge shows core prices rose 3.3% annually in July",
-        "Bessent\u2019s bond intervention puts US Treasury on collision course with Fed"
+        "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
+        "How will stocks perform when the Fed chair speaks at Jackson Hole? Here\u2019s what history tells us.",
+        "Don\u2019t draw the wrong conclusion from Treasury yields",
+        "Gold Tops $4,600 as Investors Weigh Fed Path Before Jackson Hole",
+        "Fed's favored inflation gauge rose more than expected in July"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "MarketWatch(1), Bloomberg(1), Yahoo(1)",
+      "count": 2,
+      "pct": 1.9,
+      "sources": "Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Are older Americans spoiling the economy for everyone else?",
-        "Latest Oil Market News and Analysis for Aug. 26",
-        "Equinor Eyes Major Oil Discovery Offshore Namibia"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Fed, NASA and DOJ among victims of Chinese state-sponsored hacker group: Court documents",
-        "Hundreds reported missing after flash flood on Nepal border with China",
-        "US and Canada Aluminum Groups Slam Tariffs and Point to China"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 2.7,
-      "sources": "Yahoo(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Bitcoin and Gold ETFs Draw $7 Billion as Scarcity Trade Surges",
-        "Bitcoin and ethereum prices today, Tuesday, August 25, 2026: Highest opening for bitcoin in over three months",
-        "Bitcoin and ethereum prices today, Wednesday, August 26, 2026: 'Bitcoin is having a price gusher to close out August'"
+        "Latest Oil Market News and Analysis for Aug. 27",
+        "India\u2019s Russian Oil Imports Slide From Record High as Supply Tightens"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "pct": 1.9,
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods",
-        "US and Canada Aluminum Groups Slam Tariffs and Point to China"
+        "Trump signs order to rename Lake Ontario 'Lake America' amid Canada trade war",
+        "India\u2019s Russian Oil Imports Slide From Record High as Supply Tightens"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "UAE \u2018spy sheikh\u2019 backs 49% stake in Trump family\u2019s crypto bank venture, WSJ reports"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "FT(1), Bloomberg(1)",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Bessent\u2019s bond intervention puts US Treasury on collision course with Fed",
-        "Bessent\u2019s Treasury Twist Makes November Refunding a Wall Street Wildcard"
+        "Don\u2019t draw the wrong conclusion from Treasury yields"
       ]
     }
   ]
