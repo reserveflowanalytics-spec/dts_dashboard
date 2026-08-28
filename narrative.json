@@ -1,105 +1,117 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 107,
-  "fetched_at": "2026-08-27T21:01:44.716002+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 104,
+  "fetched_at": "2026-08-28T21:01:42.972693+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 20,
-      "pct": 18.7,
-      "sources": "Yahoo(8), CNBC(6), Bloomberg(4), MarketWatch(2)",
-      "sample_headlines": [
-        "Salesforce rockets 22% for second-best day ever, leading software rally",
-        "'We have a limited window': 116 companies, entities sign on to major AI cyber defense push",
-        "What's expected at Apple's September event \u2014 plus, an uneven rally in AI stocks",
-        "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown",
-        "Family offices are making a bullish bet on the stock market, according to CNBC Family Office Portfolio Tracker"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 18,
-      "pct": 16.8,
-      "sources": "CNBC(8), Bloomberg(5), Yahoo(4), MarketWatch(1)",
-      "sample_headlines": [
-        "AI bursts to the front of Massachusetts Democratic Senate primary",
-        "'We have a limited window': 116 companies, entities sign on to major AI cyber defense push",
-        "CrowdStrike posts best day ever, Okta's stock pops nearly 29% as rising AI threat lifts earnings",
-        "What's expected at Apple's September event \u2014 plus, an uneven rally in AI stocks",
-        "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 16,
-      "pct": 15.0,
-      "sources": "CNBC(9), Bloomberg(3), Yahoo(3), FT(1)",
+      "count": 27,
+      "pct": 26.0,
+      "sources": "CNBC(10), Bloomberg(8), FT(5), Yahoo(3), MarketWatch(1)",
       "sample_headlines": [
-        "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
-        "Trump signs order to rename Lake Ontario 'Lake America' amid Canada trade war",
-        "Salesforce rockets 22% for second-best day ever, leading software rally",
-        "What Warsh will say and how the market will react, according to prediction markets",
-        "Brian Sullivan: Gulf nations are unlikely to agree to a toll plan for Strait of Hormuz safe passage"
+        "Bessent attacks Warren over yen intervention query, offers \u2018Foreign Exchange for Dummies\u2019 lesson",
+        "Stock traders warm up to Warsh as volatility index touches year-to-date low",
+        "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
+        "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'",
+        "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 4.7,
-      "sources": "CNBC(1), MarketWatch(1), FT(1), Bloomberg(1), Yahoo(1)",
+      "count": 14,
+      "pct": 13.5,
+      "sources": "Bloomberg(5), CNBC(3), MarketWatch(2), FT(2), Yahoo(2)",
       "sample_headlines": [
-        "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
-        "How will stocks perform when the Fed chair speaks at Jackson Hole? Here\u2019s what history tells us.",
-        "Don\u2019t draw the wrong conclusion from Treasury yields",
-        "Gold Tops $4,600 as Investors Weigh Fed Path Before Jackson Hole",
-        "Fed's favored inflation gauge rose more than expected in July"
+        "Trump loses bid to transfer New York hush money case to federal court",
+        "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+        "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
+        "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+        "The biggest risk to retirement plans may no longer be a stock market crash or inflation"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 11,
+      "pct": 10.6,
+      "sources": "CNBC(4), Yahoo(4), MarketWatch(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Apple hikes subscription prices for Apple TV and Apple One in the U.S.",
+        "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics",
+        "Meta's $17 billion settlement mandates new safeguards for kids\u2014many are promising, says safety expert",
+        "AI bursts to the front of Massachusetts Democratic Senate primary",
+        "Nvidia\u2019s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 10,
+      "pct": 9.6,
+      "sources": "Yahoo(5), MarketWatch(2), CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
+        "Nvidia\u2019s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason",
+        "The biggest risk to retirement plans may no longer be a stock market crash or inflation",
+        "US corporate profits surge to record as worker payouts wilt",
+        "Wall Street Bets, Personal Finance Is Broken: Must-Read Books"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 1.9,
-      "sources": "Bloomberg(1), Yahoo(1)",
+      "count": 6,
+      "pct": 5.8,
+      "sources": "CNBC(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Latest Oil Market News and Analysis for Aug. 27",
-        "India\u2019s Russian Oil Imports Slide From Record High as Supply Tightens"
+        "CEO of buy now, pay later giant Affirm says high gas prices are hitting U.S. shoppers",
+        "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare",
+        "Funds Add Bullish Gasoline Bets at Fastest Pace in Six Months",
+        "Pentagon Is in Talks With Venezuelan Mogul for Massive Oil Deal",
+        "Qatar and Kuwait Restore 70% of Pre-War Oil Exports Through Hormuz"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.9,
-      "sources": "CNBC(1), Yahoo(1)",
+      "count": 5,
+      "pct": 4.8,
+      "sources": "CNBC(2), FT(2), Yahoo(1)",
       "sample_headlines": [
-        "Trump signs order to rename Lake Ontario 'Lake America' amid Canada trade war",
-        "India\u2019s Russian Oil Imports Slide From Record High as Supply Tightens"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "UAE \u2018spy sheikh\u2019 backs 49% stake in Trump family\u2019s crypto bank venture, WSJ reports"
+        "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'",
+        "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare",
+        "Former IMF deputy Gita Gopinath: \u2018It\u2019s straight-out protectionism\u2019",
+        "US manufacturing is booming \u2014 but it\u2019s no thanks to Trump\u2019s tariffs",
+        "Qatar and Kuwait Restore 70% of Pre-War Oil Exports Through Hormuz"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "FT(1)",
+      "count": 4,
+      "pct": 3.8,
+      "sources": "CNBC(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Don\u2019t draw the wrong conclusion from Treasury yields"
+        "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
+        "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
+        "US Treasury imposes limits on Egyptian bank for doing business with Iran",
+        "Christina Ruffini's Boot Budget"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.9,
+      "sources": "CNBC(2), Yahoo(1)",
+      "sample_headlines": [
+        "UAE \u2018spy sheikh\u2019 backs 49% stake in Trump family\u2019s crypto bank venture, WSJ reports",
+        "BitGo to acquire NYDIG\u2019s institutional trading business as crypto trading rebounds",
+        "Inflation Is Coming For Your Cash \u2014 Is Gold Or Bitcoin A Solution?"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.9,
+      "sources": "FT(2)",
+      "sample_headlines": [
+        "Is China\u2019s \u2018wise camel\u2019 the winner from the US-Iran war?",
+        "Chinese rescue workers reach border crossing destroyed by Himalayan flood"
       ]
     }
   ]
