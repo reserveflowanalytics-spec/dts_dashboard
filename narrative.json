@@ -1,114 +1,116 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 107,
-  "fetched_at": "2026-08-30T21:04:44.443841+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 104,
+  "fetched_at": "2026-08-31T21:01:34.718576+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 15,
-      "pct": 14.0,
-      "sources": "Yahoo(8), CNBC(4), MarketWatch(1), FT(1), Bloomberg(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 21,
+      "pct": 20.2,
+      "sources": "CNBC(9), MarketWatch(4), Yahoo(3), FT(2), Bloomberg(2), Google News(1)",
       "sample_headlines": [
-        "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
-        "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals",
-        "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
-        "Op-ed: Salesforce just revealed the next battleground in AI \u2014 and it's not the models",
-        "AI isn\u2019t eating software after all \u2014 and the sector\u2019s \u2018epic\u2019 rally could run through October"
+        "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+        "Trump warns 'we're going to hit them hard' after Iran targets U.S. forces in Jordan: Report",
+        "Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel Securities",
+        "Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'",
+        "Bank of England chief warns new AI models threaten global financial stability"
       ]
     },
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 12.1,
-      "sources": "Yahoo(4), CNBC(3), MarketWatch(2), FT(2), Bloomberg(2)",
+      "topic": "AI / Tech",
+      "count": 19,
+      "pct": 18.3,
+      "sources": "Yahoo(7), CNBC(6), FT(3), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
-        "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals",
-        "Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar",
-        "Mark Walter's insurer Delaware Life sees two banks pause sale of its products amid probes",
-        "Party balloons could become a \u2018luxury\u2019 as the Iran war spurs a helium shortage",
-        "AI isn\u2019t eating software after all \u2014 and the sector\u2019s \u2018epic\u2019 rally could run through October"
+        "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+        "Microsoft Outlook and OpenAI's ChatGPT Work are experiencing user outages",
+        "Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'",
+        "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate",
+        "Bank of England chief warns new AI models threaten global financial stability"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 10.3,
-      "sources": "Yahoo(6), CNBC(2), MarketWatch(2), Bloomberg(1)",
+      "count": 14,
+      "pct": 13.5,
+      "sources": "Yahoo(5), Bloomberg(4), FT(2), CNBC(1), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Top Wall Street analysts suggest these 3 dividend stocks for consistent income",
-        "Here are the 3 big things we're watching in the stock market in the week ahead",
-        "These charts show how leverage-happy investors are transforming the stock market",
-        "AI isn\u2019t eating software after all \u2014 and the sector\u2019s \u2018epic\u2019 rally could run through October",
-        "Gold Bulls Turn to Exotic Options, Spreads in \u2018Orderly\u2019 Rally"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 7,
-      "pct": 6.5,
-      "sources": "Yahoo(4), FT(2), CNBC(1)",
-      "sample_headlines": [
-        "Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials",
-        "Friends with fiscal benefits",
-        "What\u2019s the fiscal hit from higher yields?",
-        "Retirees Who Convert to a Roth in a Down-Market Year Move the Same Shares for Less Tax. Almost Nobody Times It.",
-        "She Pulled Cash From His $900,000 401(k) at 51 With No 10% Penalty. The One Divorce Rule That Waives the Under-59\u00bd Tax the IRS Enforces on Everyone Else."
+        "When someone talks down to you, use Dolly Parton's simple trick to 'maintain your dignity and disarm' them, says expert",
+        "The S&P 500 usually falls in September. Why this year should be different.",
+        "Canada-U.S. trade war, rising rates and debt: What stock market investors need to know - Financial Post",
+        "Darializa Avila Chevalier: The face of America\u2019s socialist insurgency",
+        "Consultants head for an AI showdown \u2014 with their own clients"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.6,
-      "sources": "FT(2), Bloomberg(2), CNBC(1), Yahoo(1)",
+      "count": 9,
+      "pct": 8.7,
+      "sources": "CNBC(3), Bloomberg(3), MarketWatch(2), Yahoo(1)",
       "sample_headlines": [
-        "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves",
-        "Controversial Venezuelan executive courts investors after Trump oil deal",
-        "US oil deal denounced by both sides of Venezuelan politics",
-        "How YouTube Filmmakers Are Reshaping Hollywood\u2019s Talent Pipeline",
-        "Venezuela Oil Deal Raises Questions Over US Role"
+        "Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon",
+        "Brent jumps above $90 after flare-up in U.S.-Iran hostilities",
+        "Russia preparing 'massive strikes' on Ukraine's energy sites after deadliest attack of the year",
+        "This maneuver is boosting oil shipments through the Strait of Hormuz",
+        "Global oil prices settle above $90 a barrel after U.S. and Iran exchange fire for first time in a month"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 4.7,
-      "sources": "Yahoo(2), CNBC(1), FT(1), Bloomberg(1)",
+      "count": 9,
+      "pct": 8.7,
+      "sources": "MarketWatch(3), Bloomberg(3), Yahoo(2), CNBC(1)",
       "sample_headlines": [
-        "I'm a psychologist who studies couples: The happiest couples never fight about this 1 thing (it's not sex or money)",
-        "Rising bond yields add tens of billions to G7 countries\u2019 debt costs",
-        "Bond Investors Wary After Warsh Fans Wagers Fed Poised to Hike",
-        "Mortgage and refinance interest rates today, Sunday, August 30, 2026: Purchase rates higher than last week"
+        "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+        "With Warsh running the Fed should bond investors be worried?",
+        "The 10-year Treasury yield just crossed a key threshold that should make people \u2018sit up and take notice\u2019",
+        "Jerome Powell still has one vote on whether rates go up \u2014 the same as Kevin Warsh",
+        "S&P 500 Slips as Oil Spike, Rising Fed Rate Bets Pressure Stocks"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "CNBC(2), Yahoo(1)",
+      "count": 4,
+      "pct": 3.8,
+      "sources": "CNBC(3), Google News(1)",
       "sample_headlines": [
-        "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently",
+        "U.S.-Iran escalation shows Washington's frustration with slow-moving sanctions",
+        "Coupang dispute fuels new U.S. tariff pressure on South Korea",
         "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals",
-        "Canadian Small Businesses to Bear Brunt of New U.S. Tariffs"
+        "Canada-U.S. trade war, rising rates and debt: What stock market investors need to know - Financial Post"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "Yahoo(3)",
+      "count": 4,
+      "pct": 3.8,
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Strategy\u2019s Bitcoin Is $2.8 Billion in Profit\u2014Is Saylor Teeing Up a Buy?",
-        "Russia\u2019s Largest Bank Wants Bitcoin and Ethereum as Collateral",
-        "Michael Saylor Says \u2018We're Back': 3 Reasons MicroStrategy May Resume Buying Bitcoin"
+        "Crypto exchange Gemini not at fault for collapse of Earn lending program, arbitrator says",
+        "Strategy Restarts Bitcoin Buying, Spending $370 Million",
+        "Tim Cook Owns Crypto But Apple Never Bought Bitcoin: Will This Change?",
+        "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 3.8,
+      "sources": "Bloomberg(2), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "The 10-year Treasury yield just crossed a key threshold that should make people \u2018sit up and take notice\u2019",
+        "Whose fiscal problems would you prefer?",
+        "Treasury Market Selloff Sends 10-Year Yield to 19-Month High",
+        "Dollar Weakens for a Second Month on Treasury Buyback"
       ]
     },
     {
       "topic": "China",
       "count": 1,
-      "pct": 0.9,
-      "sources": "Bloomberg(1)",
+      "pct": 1.0,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Chinese Solar Giant Longi Reports Deeper Net Loss in First Half"
+        "China's Xi builds diplomatic clout with multiple state visits ahead of Trump summit"
       ]
     }
   ]
