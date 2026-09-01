@@ -1,116 +1,115 @@
 {
   "dominant": "Iran / Middle East conflict",
-  "total_headlines": 104,
-  "fetched_at": "2026-08-31T21:01:34.718576+00:00",
+  "total_headlines": 109,
+  "fetched_at": "2026-09-01T21:01:51.916729+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 21,
-      "pct": 20.2,
-      "sources": "CNBC(9), MarketWatch(4), Yahoo(3), FT(2), Bloomberg(2), Google News(1)",
+      "count": 18,
+      "pct": 16.5,
+      "sources": "Bloomberg(6), FT(4), Yahoo(4), CNBC(2), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
-        "Trump warns 'we're going to hit them hard' after Iran targets U.S. forces in Jordan: Report",
-        "Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel Securities",
-        "Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'",
-        "Bank of England chief warns new AI models threaten global financial stability"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 19,
-      "pct": 18.3,
-      "sources": "Yahoo(7), CNBC(6), FT(3), MarketWatch(2), Bloomberg(1)",
-      "sample_headlines": [
-        "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
-        "Microsoft Outlook and OpenAI's ChatGPT Work are experiencing user outages",
-        "Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'",
-        "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate",
-        "Bank of England chief warns new AI models threaten global financial stability"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 13.5,
-      "sources": "Yahoo(5), Bloomberg(4), FT(2), CNBC(1), MarketWatch(1), Google News(1)",
-      "sample_headlines": [
-        "When someone talks down to you, use Dolly Parton's simple trick to 'maintain your dignity and disarm' them, says expert",
-        "The S&P 500 usually falls in September. Why this year should be different.",
+        "U.S. strikes Iran as Tehran retaliates, raising risk of wider war",
+        "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
+        "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
         "Canada-U.S. trade war, rising rates and debt: What stock market investors need to know - Financial Post",
-        "Darializa Avila Chevalier: The face of America\u2019s socialist insurgency",
-        "Consultants head for an AI showdown \u2014 with their own clients"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 8.7,
-      "sources": "CNBC(3), Bloomberg(3), MarketWatch(2), Yahoo(1)",
-      "sample_headlines": [
-        "Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon",
-        "Brent jumps above $90 after flare-up in U.S.-Iran hostilities",
-        "Russia preparing 'massive strikes' on Ukraine's energy sites after deadliest attack of the year",
-        "This maneuver is boosting oil shipments through the Strait of Hormuz",
-        "Global oil prices settle above $90 a barrel after U.S. and Iran exchange fire for first time in a month"
+        "US launches further strikes on Iran as conflict flares up"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 8.7,
-      "sources": "MarketWatch(3), Bloomberg(3), Yahoo(2), CNBC(1)",
+      "count": 17,
+      "pct": 15.6,
+      "sources": "Yahoo(6), Bloomberg(5), CNBC(4), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
-        "With Warsh running the Fed should bond investors be worried?",
-        "The 10-year Treasury yield just crossed a key threshold that should make people \u2018sit up and take notice\u2019",
-        "Jerome Powell still has one vote on whether rates go up \u2014 the same as Kevin Warsh",
-        "S&P 500 Slips as Oil Spike, Rising Fed Rate Bets Pressure Stocks"
+        "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+        "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
+        "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
+        "Livestream shopping is gaining steam in the U.S., thanks to apps like TikTok and Whatnot",
+        "This could be the 10-year Treasury\u2019s tipping point into the danger zone"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.8,
-      "sources": "CNBC(3), Google News(1)",
+      "topic": "AI / Tech",
+      "count": 17,
+      "pct": 15.6,
+      "sources": "CNBC(10), Yahoo(3), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "U.S.-Iran escalation shows Washington's frustration with slow-moving sanctions",
-        "Coupang dispute fuels new U.S. tariff pressure on South Korea",
-        "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals",
+        "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
+        "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
+        "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
+        "Hugging Face's new duck robot is selling fast. A Chinese chip powers it",
+        "GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 16,
+      "pct": 14.7,
+      "sources": "Yahoo(7), Bloomberg(3), CNBC(2), MarketWatch(2), Google News(1), FT(1)",
+      "sample_headlines": [
+        "U.S. House votes to avoid government shutdown amid GOP hard-liner resistance",
+        "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
+        "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+        "Broadcom earnings need to answer these questions for the stock to rally again",
         "Canada-U.S. trade war, rising rates and debt: What stock market investors need to know - Financial Post"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 3.8,
-      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "topic": "Oil / Energy",
+      "count": 11,
+      "pct": 10.1,
+      "sources": "CNBC(4), Bloomberg(4), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Crypto exchange Gemini not at fault for collapse of Earn lending program, arbitrator says",
-        "Strategy Restarts Bitcoin Buying, Spending $370 Million",
-        "Tim Cook Owns Crypto But Apple Never Bought Bitcoin: Will This Change?",
-        "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower"
+        "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+        "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
+        "Softbank's SB Energy files for IPO, says it's 'substantially dependent' on OpenAI",
+        "Trump to meet with U.S. oil refiners as White House pushes to lower gas prices",
+        "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 6,
+      "pct": 5.5,
+      "sources": "Yahoo(4), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Crypto enters September with legislative policy gamble hanging by a thread",
+        "Bitcoin ETF Buyers Return as $80,000 Level Tests Market Rally",
+        "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower",
+        "Uphold review 2026: One account for crypto, metals, and cash",
+        "Saylor\u2019s Strategy Restarts Bitcoin Buying, Spending $370 Million"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.8,
-      "sources": "Bloomberg(2), MarketWatch(1), FT(1)",
+      "count": 6,
+      "pct": 5.5,
+      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "The 10-year Treasury yield just crossed a key threshold that should make people \u2018sit up and take notice\u2019",
-        "Whose fiscal problems would you prefer?",
-        "Treasury Market Selloff Sends 10-Year Yield to 19-Month High",
-        "Dollar Weakens for a Second Month on Treasury Buyback"
+        "U.S. House votes to avoid government shutdown amid GOP hard-liner resistance",
+        "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
+        "Waymo and Zoox expand into more U.S. markets as robotaxi race heats up",
+        "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
+        "Vanguard, BlackRock ETF Shuffle Lets Foreign Investors Duck US Tax"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Google News(1)",
+      "sample_headlines": [
+        "Canada-U.S. trade war, rising rates and debt: What stock market investors need to know - Financial Post"
       ]
     },
     {
       "topic": "China",
       "count": 1,
-      "pct": 1.0,
+      "pct": 0.9,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "China's Xi builds diplomatic clout with multiple state visits ahead of Trump summit"
+        "Hugging Face's new duck robot is selling fast. A Chinese chip powers it"
       ]
     }
   ]
