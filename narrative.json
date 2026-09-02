@@ -1,115 +1,99 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 109,
-  "fetched_at": "2026-09-01T21:01:51.916729+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 95,
+  "fetched_at": "2026-09-02T21:02:16.389279+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 18,
-      "pct": 16.5,
-      "sources": "Bloomberg(6), FT(4), Yahoo(4), CNBC(2), MarketWatch(1), Google News(1)",
-      "sample_headlines": [
-        "U.S. strikes Iran as Tehran retaliates, raising risk of wider war",
-        "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
-        "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
-        "Canada-U.S. trade war, rising rates and debt: What stock market investors need to know - Financial Post",
-        "US launches further strikes on Iran as conflict flares up"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 17,
-      "pct": 15.6,
-      "sources": "Yahoo(6), Bloomberg(5), CNBC(4), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
-        "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
-        "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
-        "Livestream shopping is gaining steam in the U.S., thanks to apps like TikTok and Whatnot",
-        "This could be the 10-year Treasury\u2019s tipping point into the danger zone"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 17,
-      "pct": 15.6,
-      "sources": "CNBC(10), Yahoo(3), MarketWatch(2), FT(2)",
+      "count": 18,
+      "pct": 18.9,
+      "sources": "CNBC(6), Yahoo(6), MarketWatch(2), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
-        "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
-        "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
-        "Hugging Face's new duck robot is selling fast. A Chinese chip powers it",
-        "GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%"
+        "Snowflake spikes 22% on healthy results and AI coding momentum",
+        "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
+        "Apple shares are doing something they haven't done in 20 years. Here\u2019s what\u2019s happening",
+        "AI trade faces test with next week's Oracle earnings",
+        "We're starting positions in 2 more defensive stocks to balance our AI exposure"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 14.7,
-      "sources": "Yahoo(7), Bloomberg(3), CNBC(2), MarketWatch(2), Google News(1), FT(1)",
+      "count": 10,
+      "pct": 10.5,
+      "sources": "Bloomberg(4), Yahoo(3), CNBC(2), FT(1)",
       "sample_headlines": [
-        "U.S. House votes to avoid government shutdown amid GOP hard-liner resistance",
-        "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
-        "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
-        "Broadcom earnings need to answer these questions for the stock to rally again",
-        "Canada-U.S. trade war, rising rates and debt: What stock market investors need to know - Financial Post"
+        "Traders are piling into this international stock market that just pulled ahead of the Nasdaq",
+        "New York Fed's Williams says yield surge due to strong economic prospects",
+        "Energy price surge hits bond markets as European gas reaches three-year high",
+        "S&P 500 Rises to Snap Three-Day Skid as Oil Prices Halt Advance",
+        "Stocks Rise as\u00a0Buyers\u00a0Scoop Up Bargains After Rout: Markets Wrap"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 11,
-      "pct": 10.1,
-      "sources": "CNBC(4), Bloomberg(4), FT(2), MarketWatch(1)",
+      "count": 7,
+      "pct": 7.4,
+      "sources": "Bloomberg(3), FT(2), CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
-        "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
-        "Softbank's SB Energy files for IPO, says it's 'substantially dependent' on OpenAI",
-        "Trump to meet with U.S. oil refiners as White House pushes to lower gas prices",
-        "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz"
+        "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
+        "Chevron to double Venezuela oil production with $7bn pledge",
+        "Energy price surge hits bond markets as European gas reaches three-year high",
+        "S&P 500 Rises to Snap Three-Day Skid as Oil Prices Halt Advance",
+        "Stocks Rebound as Oil Prices Stay Elevated | Closing Bell"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 6,
-      "pct": 5.5,
-      "sources": "Yahoo(4), CNBC(1), Bloomberg(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 7,
+      "pct": 7.4,
+      "sources": "CNBC(5), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Crypto enters September with legislative policy gamble hanging by a thread",
-        "Bitcoin ETF Buyers Return as $80,000 Level Tests Market Rally",
-        "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower",
-        "Uphold review 2026: One account for crypto, metals, and cash",
-        "Saylor\u2019s Strategy Restarts Bitcoin Buying, Spending $370 Million"
+        "States now must report undocumented immigrants to DHS or risk federal funding, DOJ says",
+        "New York Fed's Williams says yield surge due to strong economic prospects",
+        "10-year U.S. Treasury yield hits highest level since November 2023",
+        "Bank of Canada mulls Trump tariff shock as it holds interest rates",
+        "Demand for riskier mortgages rises along with interest rates"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 5,
+      "pct": 5.3,
+      "sources": "CNBC(3), Yahoo(2)",
+      "sample_headlines": [
+        "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
+        "Trump floats renaming Strait of Hormuz the 'Trump Strait'",
+        "Iran says two tankers have hit Hormuz naval mines. U.S. disputes claim",
+        "Kaiser\u00a0Aluminum\u00a0(KALU) Stays Ahead Even If Middle East Capacity Returns Faster",
+        "S&P 500 biggest August 2026 winners: Moderna, software stocks"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 6,
-      "pct": 5.5,
-      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1)",
+      "count": 2,
+      "pct": 2.1,
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "U.S. House votes to avoid government shutdown amid GOP hard-liner resistance",
-        "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
-        "Waymo and Zoox expand into more U.S. markets as robotaxi race heats up",
-        "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
-        "Vanguard, BlackRock ETF Shuffle Lets Foreign Investors Duck US Tax"
+        "10-year U.S. Treasury yield hits highest level since November 2023",
+        "Waymo Robotaxis Under Fire From Atlanta Drivers, Union Demands Up To $1 Fee To Protect Human Jobs: Report"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
-      "pct": 0.9,
-      "sources": "Google News(1)",
+      "pct": 1.1,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Canada-U.S. trade war, rising rates and debt: What stock market investors need to know - Financial Post"
+        "Bank of Canada mulls Trump tariff shock as it holds interest rates"
       ]
     },
     {
-      "topic": "China",
+      "topic": "Crypto",
       "count": 1,
-      "pct": 0.9,
-      "sources": "CNBC(1)",
+      "pct": 1.1,
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Hugging Face's new duck robot is selling fast. A Chinese chip powers it"
+        "Grayscale Just Launched the First-Ever ETF for Zcash (ZEC). Here's Why That's Big News for Crypto Investors."
       ]
     }
   ]
