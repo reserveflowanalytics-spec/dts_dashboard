@@ -1,99 +1,102 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 95,
-  "fetched_at": "2026-09-02T21:02:16.389279+00:00",
+  "total_headlines": 115,
+  "fetched_at": "2026-09-03T21:01:56.711649+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
       "count": 18,
-      "pct": 18.9,
-      "sources": "CNBC(6), Yahoo(6), MarketWatch(2), FT(2), Bloomberg(2)",
+      "pct": 15.7,
+      "sources": "CNBC(7), Yahoo(6), FT(3), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Snowflake spikes 22% on healthy results and AI coding momentum",
-        "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
-        "Apple shares are doing something they haven't done in 20 years. Here\u2019s what\u2019s happening",
-        "AI trade faces test with next week's Oracle earnings",
-        "We're starting positions in 2 more defensive stocks to balance our AI exposure"
+        "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities",
+        "Options volume erupts in retail trading favorites as Robinhood, Tesla surge",
+        "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb",
+        "Hugging Face approached Nvidia\u2019s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
+        "How Meta will pull off massive changes to its social media apps"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 10.5,
-      "sources": "Bloomberg(4), Yahoo(3), CNBC(2), FT(1)",
+      "count": 14,
+      "pct": 12.2,
+      "sources": "Yahoo(5), CNBC(3), MarketWatch(2), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Traders are piling into this international stock market that just pulled ahead of the Nasdaq",
-        "New York Fed's Williams says yield surge due to strong economic prospects",
-        "Energy price surge hits bond markets as European gas reaches three-year high",
-        "S&P 500 Rises to Snap Three-Day Skid as Oil Prices Halt Advance",
-        "Stocks Rise as\u00a0Buyers\u00a0Scoop Up Bargains After Rout: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 7.4,
-      "sources": "Bloomberg(3), FT(2), CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
-        "Chevron to double Venezuela oil production with $7bn pledge",
-        "Energy price surge hits bond markets as European gas reaches three-year high",
-        "S&P 500 Rises to Snap Three-Day Skid as Oil Prices Halt Advance",
-        "Stocks Rebound as Oil Prices Stay Elevated | Closing Bell"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 7.4,
-      "sources": "CNBC(5), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "States now must report undocumented immigrants to DHS or risk federal funding, DOJ says",
-        "New York Fed's Williams says yield surge due to strong economic prospects",
-        "10-year U.S. Treasury yield hits highest level since November 2023",
-        "Bank of Canada mulls Trump tariff shock as it holds interest rates",
-        "Demand for riskier mortgages rises along with interest rates"
+        "Lululemon stock plunges 15% on disappointing earnings and outlook",
+        "Options volume erupts in retail trading favorites as Robinhood, Tesla surge",
+        "ChargePoint CEO says 70% stock surge 'is the beginning of the momentum'",
+        "Wall Street is betting on Fed Chair Kevin Warsh to keep a manic bond market from unraveling",
+        "Is the stock market open on Labor Day? Does the post office deliver mail?"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 5,
-      "pct": 5.3,
-      "sources": "CNBC(3), Yahoo(2)",
+      "count": 12,
+      "pct": 10.4,
+      "sources": "Yahoo(6), CNBC(5), MarketWatch(1)",
       "sample_headlines": [
-        "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
-        "Trump floats renaming Strait of Hormuz the 'Trump Strait'",
-        "Iran says two tankers have hit Hormuz naval mines. U.S. disputes claim",
-        "Kaiser\u00a0Aluminum\u00a0(KALU) Stays Ahead Even If Middle East Capacity Returns Faster",
-        "S&P 500 biggest August 2026 winners: Moderna, software stocks"
+        "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities",
+        "Oil prices little changed after Iran fires missiles at Kuwait",
+        "Iran strikes Kuwait as Trump says renewed Mideast hostilities will not last 'too long'",
+        "'Danger zone of extreme weather': UN warns of supersized El Ni\u00f1o set to hit global economy and markets",
+        "Putin floats 'chance' at peace with Ukraine as NATO chief warns Russia is becoming 'increasingly reckless'"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 10,
+      "pct": 8.7,
+      "sources": "Bloomberg(5), FT(2), CNBC(1), MarketWatch(1), Google News(1)",
+      "sample_headlines": [
+        "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
+        "Wall Street is betting on Fed Chair Kevin Warsh to keep a manic bond market from unraveling",
+        "Why bond yields are rising and why everyone should care - PBS",
+        "Treasury yields fall after top Fed official signals support for rate hold",
+        "Yen surges as traders bet on Japan interest rate rises"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 4.3,
+      "sources": "Yahoo(2), CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Oil prices little changed after Iran fires missiles at Kuwait",
+        "Star Citadel energy trader to step down amid tumult in energy markets",
+        "Latest Oil Market News and Analysis for Sept. 3",
+        "Dow Jones Futures Rise As Oil Prices Fall; Dell, Credo, Palo Alto Are Earnings Movers",
+        "America's Greatest Opportunities: Oil Stock Offers A Narrow Buy Window"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "CNBC(4)",
+      "sample_headlines": [
+        "Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.",
+        "Anthropic's distillation battle turns to the dark web as China concerns swell",
+        "Trump and Xi are set to meet in DC. Why some China watchers have low expectations",
+        "Hidden China risks are emerging in America\u2019s multibillion-dollar AI data center boom"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 2.1,
-      "sources": "CNBC(1), Yahoo(1)",
+      "pct": 1.7,
+      "sources": "FT(1), Yahoo(1)",
       "sample_headlines": [
-        "10-year U.S. Treasury yield hits highest level since November 2023",
-        "Waymo Robotaxis Under Fire From Atlanta Drivers, Union Demands Up To $1 Fee To Protect Human Jobs: Report"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.1,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Bank of Canada mulls Trump tariff shock as it holds interest rates"
+        "Treasury yields fall after top Fed official signals support for rate hold",
+        "Peter Schiff warns the US Treasury is gearing up to make a critical mistake, but he sees an off-ramp. Are you ready?"
       ]
     },
     {
       "topic": "Crypto",
       "count": 1,
-      "pct": 1.1,
+      "pct": 0.9,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Grayscale Just Launched the First-Ever ETF for Zcash (ZEC). Here's Why That's Big News for Crypto Investors."
+        "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites"
       ]
     }
   ]
