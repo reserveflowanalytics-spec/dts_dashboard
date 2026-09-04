@@ -1,102 +1,104 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 115,
-  "fetched_at": "2026-09-03T21:01:56.711649+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 108,
+  "fetched_at": "2026-09-04T21:01:50.025756+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 18,
-      "pct": 15.7,
-      "sources": "CNBC(7), Yahoo(6), FT(3), MarketWatch(1), Bloomberg(1)",
+      "count": 15,
+      "pct": 13.9,
+      "sources": "Yahoo(9), CNBC(3), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities",
-        "Options volume erupts in retail trading favorites as Robinhood, Tesla surge",
-        "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb",
-        "Hugging Face approached Nvidia\u2019s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
-        "How Meta will pull off massive changes to its social media apps"
+        "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
+        "Mike Khouw: Cybercabs are a game changer\u2014here's how I'm trading Tesla",
+        "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
+        "Tesla\u2019s stock falls as Cybercab launch lands with a thud",
+        "Micron is doubling down on AI memory chips. That could pay off big time for investors."
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 12.2,
-      "sources": "Yahoo(5), CNBC(3), MarketWatch(2), FT(2), Bloomberg(2)",
+      "count": 13,
+      "pct": 12.0,
+      "sources": "Yahoo(5), CNBC(4), Bloomberg(3), MarketWatch(1)",
       "sample_headlines": [
-        "Lululemon stock plunges 15% on disappointing earnings and outlook",
-        "Options volume erupts in retail trading favorites as Robinhood, Tesla surge",
-        "ChargePoint CEO says 70% stock surge 'is the beginning of the momentum'",
-        "Wall Street is betting on Fed Chair Kevin Warsh to keep a manic bond market from unraveling",
-        "Is the stock market open on Labor Day? Does the post office deliver mail?"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 12,
-      "pct": 10.4,
-      "sources": "Yahoo(6), CNBC(5), MarketWatch(1)",
-      "sample_headlines": [
-        "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities",
-        "Oil prices little changed after Iran fires missiles at Kuwait",
-        "Iran strikes Kuwait as Trump says renewed Mideast hostilities will not last 'too long'",
-        "'Danger zone of extreme weather': UN warns of supersized El Ni\u00f1o set to hit global economy and markets",
-        "Putin floats 'chance' at peace with Ukraine as NATO chief warns Russia is becoming 'increasingly reckless'"
+        "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
+        "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
+        "Lululemon stock plunges 20% on disappointing earnings and outlook",
+        "Global bond sell-off likely not over yet, Mohamed El-Erian tells CNBC",
+        "Micron is doubling down on AI memory chips. That could pay off big time for investors."
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 8.7,
-      "sources": "Bloomberg(5), FT(2), CNBC(1), MarketWatch(1), Google News(1)",
+      "count": 11,
+      "pct": 10.2,
+      "sources": "CNBC(5), Bloomberg(5), Yahoo(1)",
       "sample_headlines": [
-        "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
-        "Wall Street is betting on Fed Chair Kevin Warsh to keep a manic bond market from unraveling",
-        "Why bond yields are rising and why everyone should care - PBS",
-        "Treasury yields fall after top Fed official signals support for rate hold",
-        "Yen surges as traders bet on Japan interest rate rises"
+        "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
+        "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
+        "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
+        "2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates",
+        "Vance says Fed should lower interest rates: 'Would be nice to have some help'"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 10,
+      "pct": 9.3,
+      "sources": "Yahoo(4), CNBC(3), FT(2), Bloomberg(1)",
+      "sample_headlines": [
+        "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties",
+        "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
+        "U.S. 'Economic Outcast\u2019 operation gains momentum as EU joins sanctions; South Korea weighs military backing",
+        "Anthropic close to awarding Morgan Stanley and Goldman top roles in $2tn IPO",
+        "Trump\u2019s Iran war sends US diesel prices to record high"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.3,
-      "sources": "Yahoo(2), CNBC(1), FT(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 5.6,
+      "sources": "Yahoo(3), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Oil prices little changed after Iran fires missiles at Kuwait",
-        "Star Citadel energy trader to step down amid tumult in energy markets",
-        "Latest Oil Market News and Analysis for Sept. 3",
-        "Dow Jones Futures Rise As Oil Prices Fall; Dell, Credo, Palo Alto Are Earnings Movers",
-        "America's Greatest Opportunities: Oil Stock Offers A Narrow Buy Window"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "CNBC(4)",
-      "sample_headlines": [
-        "Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.",
-        "Anthropic's distillation battle turns to the dark web as China concerns swell",
-        "Trump and Xi are set to meet in DC. Why some China watchers have low expectations",
-        "Hidden China risks are emerging in America\u2019s multibillion-dollar AI data center boom"
+        "Manager of Norway\u2019s $2tn oil fund proposes slashing US Treasury holdings",
+        "Hedge Funds\u00a0Hike Bullish Oil Bets to May High as Iran War Flares",
+        "Latest Oil Market News and Analysis for Sept. 4",
+        "MN8, Google and Eos launch clean energy project in West Virginia",
+        "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "FT(1), Yahoo(1)",
+      "count": 6,
+      "pct": 5.6,
+      "sources": "CNBC(2), FT(2), Yahoo(2)",
       "sample_headlines": [
-        "Treasury yields fall after top Fed official signals support for rate hold",
-        "Peter Schiff warns the US Treasury is gearing up to make a critical mistake, but he sees an off-ramp. Are you ready?"
+        "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
+        "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
+        "John Healey puts Britain on notice for tough Budget in \u2018more dangerous world\u2019",
+        "Manager of Norway\u2019s $2tn oil fund proposes slashing US Treasury holdings",
+        "Microsoft restructures reporting segments around AI in fiscal 2027"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties",
+        "U.S. 'Economic Outcast\u2019 operation gains momentum as EU joins sanctions; South Korea weighs military backing"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "count": 2,
+      "pct": 1.9,
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites"
+        "Bitcoin heads for third winning week in a row as macro pressures mount",
+        "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam"
       ]
     }
   ]
