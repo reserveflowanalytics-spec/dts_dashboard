@@ -1,104 +1,110 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 108,
-  "fetched_at": "2026-09-04T21:01:50.025756+00:00",
+  "total_headlines": 114,
+  "fetched_at": "2026-09-05T21:01:44.098808+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 15,
-      "pct": 13.9,
-      "sources": "Yahoo(9), CNBC(3), MarketWatch(2), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 14,
+      "pct": 12.3,
+      "sources": "CNBC(5), Yahoo(4), FT(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
+        "Trump turns up the heat on Warsh as Fed rate hike looms",
+        "U.S. attacks 3 Iranian oil tankers after missiles target Navy warships",
+        "Meet the CISO: A new front line star in the AI cybersecurity war",
+        "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties",
+        "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 12.3,
+      "sources": "Yahoo(8), CNBC(5), Bloomberg(1)",
+      "sample_headlines": [
+        "Meet the CISO: A new front line star in the AI cybersecurity war",
+        "Many truckers don't feel like the rest of America about AI data centers as business booms",
         "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
-        "Mike Khouw: Cybercabs are a game changer\u2014here's how I'm trading Tesla",
-        "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
-        "Tesla\u2019s stock falls as Cybercab launch lands with a thud",
-        "Micron is doubling down on AI memory chips. That could pay off big time for investors."
+        "We got more defensive last week as Wall Street raised the bar for AI stocks",
+        "Mike Khouw: Cybercabs are a game changer\u2014here's how I'm trading Tesla"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 12.0,
-      "sources": "Yahoo(5), CNBC(4), Bloomberg(3), MarketWatch(1)",
+      "count": 12,
+      "pct": 10.5,
+      "sources": "Yahoo(5), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
         "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
-        "Lululemon stock plunges 20% on disappointing earnings and outlook",
-        "Global bond sell-off likely not over yet, Mohamed El-Erian tells CNBC",
-        "Micron is doubling down on AI memory chips. That could pay off big time for investors."
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 10.2,
-      "sources": "CNBC(5), Bloomberg(5), Yahoo(1)",
-      "sample_headlines": [
-        "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-        "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-        "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
-        "2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates",
-        "Vance says Fed should lower interest rates: 'Would be nice to have some help'"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 9.3,
-      "sources": "Yahoo(4), CNBC(3), FT(2), Bloomberg(1)",
-      "sample_headlines": [
-        "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties",
-        "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-        "U.S. 'Economic Outcast\u2019 operation gains momentum as EU joins sanctions; South Korea weighs military backing",
-        "Anthropic close to awarding Morgan Stanley and Goldman top roles in $2tn IPO",
-        "Trump\u2019s Iran war sends US diesel prices to record high"
+        "We got more defensive last week as Wall Street raised the bar for AI stocks",
+        "How to invest in a booming stock market that\u2019s way cheaper than the S&P 500",
+        "Treasury sell-off piles pressure on weakest US borrowers",
+        "Jobs Surge Raises Odds of September Fed Hike"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.6,
-      "sources": "Yahoo(3), Bloomberg(2), FT(1)",
+      "count": 9,
+      "pct": 7.9,
+      "sources": "CNBC(3), Bloomberg(2), Yahoo(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Manager of Norway\u2019s $2tn oil fund proposes slashing US Treasury holdings",
-        "Hedge Funds\u00a0Hike Bullish Oil Bets to May High as Iran War Flares",
-        "Latest Oil Market News and Analysis for Sept. 4",
-        "MN8, Google and Eos launch clean energy project in West Virginia",
-        "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam"
+        "Trump\u2019s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
+        "U.S. attacks 3 Iranian oil tankers after missiles target Navy warships",
+        "GM vs. Ford: U.S. defense, energy sectors add to automakers' century-old rivalry",
+        "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
+        "US strikes three Iranian oil tankers in response to attacks on warships"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 5.3,
+      "sources": "CNBC(3), Bloomberg(2), Yahoo(1)",
+      "sample_headlines": [
+        "Trump turns up the heat on Warsh as Fed rate hike looms",
+        "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
+        "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
+        "Jobs Surge Raises Odds of September Fed Hike",
+        "Philippines\u2019 VP Duterte Posts Bail, Says She Fears for Her Life"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 6,
-      "pct": 5.6,
-      "sources": "CNBC(2), FT(2), Yahoo(2)",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "CNBC(3), FT(1)",
       "sample_headlines": [
+        "From \u2018mystery vacations\u2019 to hostels, budget travelers get thrifty as prices rise",
         "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
         "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
-        "John Healey puts Britain on notice for tough Budget in \u2018more dangerous world\u2019",
-        "Manager of Norway\u2019s $2tn oil fund proposes slashing US Treasury holdings",
-        "Microsoft restructures reporting segments around AI in fiscal 2027"
+        "Treasury sell-off piles pressure on weakest US borrowers"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 1.9,
-      "sources": "CNBC(2)",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties",
-        "U.S. 'Economic Outcast\u2019 operation gains momentum as EU joins sanctions; South Korea weighs military backing"
+        "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "HK\u2019s Lee Says City to Expand Offshore Yuan Usage in 5-Year Plan"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 1.9,
-      "sources": "CNBC(1), Yahoo(1)",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Bitcoin heads for third winning week in a row as macro pressures mount",
-        "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam"
+        "Bitcoin and ethereum prices today, Friday, September 4, 2026: Bitcoin holding above $81,000 following massive ETF inflows"
       ]
     }
   ]
