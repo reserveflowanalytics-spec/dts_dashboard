@@ -1,92 +1,106 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 114,
-  "fetched_at": "2026-09-05T21:01:44.098808+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 109,
+  "fetched_at": "2026-09-06T21:02:10.595769+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 14,
-      "pct": 12.3,
-      "sources": "CNBC(5), Yahoo(4), FT(2), Bloomberg(2), MarketWatch(1)",
+      "topic": "AI / Tech",
+      "count": 17,
+      "pct": 15.6,
+      "sources": "Yahoo(9), CNBC(6), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump turns up the heat on Warsh as Fed rate hike looms",
-        "U.S. attacks 3 Iranian oil tankers after missiles target Navy warships",
+        "AI data centers are transforming rural land markets \u2014 and fueling a backlash",
         "Meet the CISO: A new front line star in the AI cybersecurity war",
-        "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties",
-        "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries"
+        "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace",
+        "'Everyone has an AI secret': This artist has spent a year collecting and sharing hundreds of anonymous AI confessions",
+        "Many truckers don't feel like the rest of America about AI data centers as business booms"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 14,
-      "pct": 12.3,
-      "sources": "Yahoo(8), CNBC(5), Bloomberg(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 10,
+      "pct": 9.2,
+      "sources": "Yahoo(4), CNBC(3), Bloomberg(2), FT(1)",
       "sample_headlines": [
+        "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
+        "Trump turns up the heat on Warsh as Fed rate hike looms",
         "Meet the CISO: A new front line star in the AI cybersecurity war",
-        "Many truckers don't feel like the rest of America about AI data centers as business booms",
-        "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
-        "We got more defensive last week as Wall Street raised the bar for AI stocks",
-        "Mike Khouw: Cybercabs are a game changer\u2014here's how I'm trading Tesla"
+        "Europe failing to deter Russia\u2019s \u2018hybrid\u2019 war, warn defence officials",
+        "US Races to Boost Missile Interceptor Output"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 10.5,
-      "sources": "Yahoo(5), Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
+      "count": 9,
+      "pct": 8.3,
+      "sources": "Yahoo(6), CNBC(2), FT(1)",
       "sample_headlines": [
-        "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
+        "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
         "We got more defensive last week as Wall Street raised the bar for AI stocks",
-        "How to invest in a booming stock market that\u2019s way cheaper than the S&P 500",
-        "Treasury sell-off piles pressure on weakest US borrowers",
-        "Jobs Surge Raises Odds of September Fed Hike"
+        "Far-right AfD surges to first place in German state elections",
+        "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients",
+        "Dow Jones Futures Due With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 7.9,
-      "sources": "CNBC(3), Bloomberg(2), Yahoo(2), MarketWatch(1), FT(1)",
+      "count": 7,
+      "pct": 6.4,
+      "sources": "CNBC(3), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
+        "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
         "Trump\u2019s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
-        "U.S. attacks 3 Iranian oil tankers after missiles target Navy warships",
         "GM vs. Ford: U.S. defense, energy sectors add to automakers' century-old rivalry",
-        "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
-        "US strikes three Iranian oil tankers in response to attacks on warships"
+        "BlackRock to JPMorgan Bet on EM as Turmoil Seizes Global Bonds",
+        "OPEC+ Sticks With Plan to Keep Oil Output Quotas Unchanged"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 6,
-      "pct": 5.3,
-      "sources": "CNBC(3), Bloomberg(2), Yahoo(1)",
+      "pct": 5.5,
+      "sources": "Yahoo(5), CNBC(1)",
       "sample_headlines": [
         "Trump turns up the heat on Warsh as Fed rate hike looms",
-        "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-        "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
-        "Jobs Surge Raises Odds of September Fed Hike",
-        "Philippines\u2019 VP Duterte Posts Bail, Says She Fears for Her Life"
+        "Dow Jones Futures Due With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+        "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week",
+        "He Spent Montana\u2019s Fire Season on Overtime. Social Security Counted Pay His Federal Pension Left Out.",
+        "Inflation, Apple, Adobe, Oracle, Macy\u2019s, and More to Watch This Week"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.5,
-      "sources": "CNBC(3), FT(1)",
+      "count": 6,
+      "pct": 5.5,
+      "sources": "Yahoo(4), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
         "From \u2018mystery vacations\u2019 to hostels, budget travelers get thrifty as prices rise",
-        "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
-        "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
-        "Treasury sell-off piles pressure on weakest US borrowers"
+        "\u2018It\u2019s not fair\u2019: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
+        "Where You Hold SPYI and STAG Matters More Than You Think: The Taxable vs. IRA Math",
+        "Prediction: Snowflake's Product Revenue Passes $8 Billion in Fiscal 2028",
+        "BDC and Mortgage REIT Income Is Taxed Differently Than a Bank Dividend. Here's Where to Hold Each."
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 2.8,
+      "sources": "Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties"
+        "Russian gold floods through Hong Kong in wake of western sanctions",
+        "Rep. Stevens Says Canadian Tariffs Are Squeezing Michigan",
+        "Canada Hits Back With New US Tariffs"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 2.8,
+      "sources": "Yahoo(3)",
+      "sample_headlines": [
+        "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients",
+        "BitGo (BTGO) Buys Into NYDIG\u2019s Trading Desk Just as Crypto Volume Comes Back",
+        "If You'd Invested $1,000 in Bitcoin 10 Years Ago, Here's How Much You'd Have Today"
       ]
     },
     {
@@ -95,16 +109,7 @@
       "pct": 0.9,
       "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "HK\u2019s Lee Says City to Expand Offshore Yuan Usage in 5-Year Plan"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Bitcoin and ethereum prices today, Friday, September 4, 2026: Bitcoin holding above $81,000 following massive ETF inflows"
+        "Traders Flock to Bullish Chinese Stock Bets for AI Alternative"
       ]
     }
   ]
