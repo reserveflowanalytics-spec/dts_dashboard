@@ -1,115 +1,99 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 109,
-  "fetched_at": "2026-09-06T21:02:10.595769+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 114,
+  "fetched_at": "2026-09-07T21:01:49.798774+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 17,
-      "pct": 15.6,
-      "sources": "Yahoo(9), CNBC(6), FT(1), Bloomberg(1)",
+      "topic": "Oil / Energy",
+      "count": 15,
+      "pct": 13.2,
+      "sources": "Bloomberg(7), Yahoo(3), CNBC(2), FT(2), MarketWatch(1)",
       "sample_headlines": [
+        "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
+        "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
+        "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
+        "Oil closes in on $100 as renewed supply crunch looms",
+        "Pricey oil is laying the groundwork for its own decline"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 15,
+      "pct": 13.2,
+      "sources": "Yahoo(8), CNBC(5), MarketWatch(2)",
+      "sample_headlines": [
+        "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts",
         "AI data centers are transforming rural land markets \u2014 and fueling a backlash",
-        "Meet the CISO: A new front line star in the AI cybersecurity war",
         "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace",
         "'Everyone has an AI secret': This artist has spent a year collecting and sharing hundreds of anonymous AI confessions",
         "Many truckers don't feel like the rest of America about AI data centers as business booms"
       ]
     },
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 9.2,
-      "sources": "Yahoo(4), CNBC(3), Bloomberg(2), FT(1)",
-      "sample_headlines": [
-        "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
-        "Trump turns up the heat on Warsh as Fed rate hike looms",
-        "Meet the CISO: A new front line star in the AI cybersecurity war",
-        "Europe failing to deter Russia\u2019s \u2018hybrid\u2019 war, warn defence officials",
-        "US Races to Boost Missile Interceptor Output"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
       "count": 9,
-      "pct": 8.3,
-      "sources": "Yahoo(6), CNBC(2), FT(1)",
+      "pct": 7.9,
+      "sources": "Yahoo(4), CNBC(2), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "Top Wall Street analysts like these 3 stocks for the long haul",
         "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
-        "We got more defensive last week as Wall Street raised the bar for AI stocks",
-        "Far-right AfD surges to first place in German state elections",
-        "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients",
-        "Dow Jones Futures Due With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals"
+        "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
+        "Big US university endowments outperform S&P 500 index",
+        "Why Are Japan\u2019s Bond Yields Rising? What\u2019s Driving the Surge"
       ]
     },
     {
-      "topic": "Oil / Energy",
+      "topic": "Iran / Middle East conflict",
       "count": 7,
-      "pct": 6.4,
-      "sources": "CNBC(3), Bloomberg(2), Yahoo(2)",
+      "pct": 6.1,
+      "sources": "CNBC(3), MarketWatch(2), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
+        "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
+        "Israel-Hezbollah clashes kill 11 as Mideast conflict escalation gathers pace after U.S.-Iran strikes",
         "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
-        "Trump\u2019s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
-        "GM vs. Ford: U.S. defense, energy sectors add to automakers' century-old rivalry",
-        "BlackRock to JPMorgan Bet on EM as Turmoil Seizes Global Bonds",
-        "OPEC+ Sticks With Plan to Keep Oil Output Quotas Unchanged"
+        "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
+        "Chip stock investors beware \u2014 these charts could warn of further weakness ahead"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 5.5,
-      "sources": "Yahoo(5), CNBC(1)",
+      "count": 7,
+      "pct": 6.1,
+      "sources": "Yahoo(4), CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Trump turns up the heat on Warsh as Fed rate hike looms",
-        "Dow Jones Futures Due With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
-        "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week",
-        "He Spent Montana\u2019s Fire Season on Overtime. Social Security Counted Pay His Federal Pension Left Out.",
-        "Inflation, Apple, Adobe, Oracle, Macy\u2019s, and More to Watch This Week"
+        "Far-right AfD landslide in German state piles pressure on federal government",
+        "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
+        "Why Are Japan\u2019s Bond Yields Rising? What\u2019s Driving the Surge",
+        "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth\u2019s going instead",
+        "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 6,
-      "pct": 5.5,
-      "sources": "Yahoo(4), CNBC(1), MarketWatch(1)",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "From \u2018mystery vacations\u2019 to hostels, budget travelers get thrifty as prices rise",
-        "\u2018It\u2019s not fair\u2019: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
-        "Where You Hold SPYI and STAG Matters More Than You Think: The Taxable vs. IRA Math",
-        "Prediction: Snowflake's Product Revenue Passes $8 Billion in Fiscal 2028",
-        "BDC and Mortgage REIT Income Is Taxed Differently Than a Bank Dividend. Here's Where to Hold Each."
+        "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
+        "\u2018The pessimists are wrong\u2019: Fox News tax expert says big refunds signal a strong economy, but is he missing something?"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "Bloomberg(2), FT(1)",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Russian gold floods through Hong Kong in wake of western sanctions",
-        "Rep. Stevens Says Canadian Tariffs Are Squeezing Michigan",
-        "Canada Hits Back With New US Tariffs"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "Yahoo(3)",
-      "sample_headlines": [
-        "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients",
-        "BitGo (BTGO) Buys Into NYDIG\u2019s Trading Desk Just as Crypto Volume Comes Back",
-        "If You'd Invested $1,000 in Bitcoin 10 Years Ago, Here's How Much You'd Have Today"
+        "Copper Hits All-Time High Amid Tariff Turmoil, Mine Struggles"
       ]
     },
     {
       "topic": "China",
       "count": 1,
       "pct": 0.9,
-      "sources": "Bloomberg(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Traders Flock to Bullish Chinese Stock Bets for AI Alternative"
+        "China says it will pump $54 billion into banks and insurers \u2014 but their stocks still fell"
       ]
     }
   ]
