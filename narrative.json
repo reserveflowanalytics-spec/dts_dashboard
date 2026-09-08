@@ -1,99 +1,114 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 114,
-  "fetched_at": "2026-09-07T21:01:49.798774+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 110,
+  "fetched_at": "2026-09-08T21:02:24.200675+00:00",
   "topics": [
     {
-      "topic": "Oil / Energy",
-      "count": 15,
-      "pct": 13.2,
-      "sources": "Bloomberg(7), Yahoo(3), CNBC(2), FT(2), MarketWatch(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 19,
+      "pct": 17.3,
+      "sources": "CNBC(7), Yahoo(6), Bloomberg(3), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
-        "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
-        "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-        "Oil closes in on $100 as renewed supply crunch looms",
-        "Pricey oil is laying the groundwork for its own decline"
+        "U.S. downplays Iran's seizure of unmanned sub in Hormuz Strait",
+        "U.S. sanctions Iranian airlines in aim to tighten economic squeeze as war spreads, oil rises",
+        "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat",
+        "Qualcomm issues warrants to Amazon to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
+        "Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 13.2,
-      "sources": "Yahoo(8), CNBC(5), MarketWatch(2)",
+      "count": 17,
+      "pct": 15.5,
+      "sources": "Yahoo(7), CNBC(5), FT(3), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts",
-        "AI data centers are transforming rural land markets \u2014 and fueling a backlash",
-        "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace",
-        "'Everyone has an AI secret': This artist has spent a year collecting and sharing hundreds of anonymous AI confessions",
-        "Many truckers don't feel like the rest of America about AI data centers as business booms"
+        "Meta pushes into personal AI agents as company faces public reckoning over privacy and safety",
+        "Qualcomm issues warrants to Amazon to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
+        "Chinese giants Xiaomi, Huawei race to get ahead of Apple\u2019s rumored foldable iPhone",
+        "TSMC, Samsung commit to ASML\u2019s newest chipmaking tools as AI drives demand",
+        "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts"
       ]
     },
     {
       "topic": "Equities / Market moves",
+      "count": 13,
+      "pct": 11.8,
+      "sources": "Yahoo(6), Bloomberg(3), CNBC(2), MarketWatch(2)",
+      "sample_headlines": [
+        "U.S. downplays Iran's seizure of unmanned sub in Hormuz Strait",
+        "Visa tells CNBC it is expanding data offering for blockchain lenders as demand for stablecoin-linked cards surges",
+        "Stocks stumble after Labor Day. This year\u2019s easy gains may be over.",
+        "Novartis\u2019s failed trial for cholesterol drug leads to broad biopharma stock selloff",
+        "Stocks Fall as Middle East Jitters Spur Oil Rally: Markets Wrap"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
       "count": 9,
-      "pct": 7.9,
-      "sources": "Yahoo(4), CNBC(2), MarketWatch(1), FT(1), Bloomberg(1)",
+      "pct": 8.2,
+      "sources": "Bloomberg(4), CNBC(3), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Top Wall Street analysts like these 3 stocks for the long haul",
-        "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
-        "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
-        "Big US university endowments outperform S&P 500 index",
-        "Why Are Japan\u2019s Bond Yields Rising? What\u2019s Driving the Surge"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "CNBC(3), MarketWatch(2), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
-        "Israel-Hezbollah clashes kill 11 as Mideast conflict escalation gathers pace after U.S.-Iran strikes",
-        "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
-        "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-        "Chip stock investors beware \u2014 these charts could warn of further weakness ahead"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 6.1,
-      "sources": "Yahoo(4), CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Far-right AfD landslide in German state piles pressure on federal government",
-        "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
-        "Why Are Japan\u2019s Bond Yields Rising? What\u2019s Driving the Surge",
-        "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth\u2019s going instead",
-        "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
-        "\u2018The pessimists are wrong\u2019: Fox News tax expert says big refunds signal a strong economy, but is he missing something?"
+        "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
+        "U.S. sanctions Iranian airlines in aim to tighten economic squeeze as war spreads, oil rises",
+        "Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships",
+        "Refining bottlenecks are emerging as the next big oil problem as Middle East skirmishes flare up",
+        "Stocks Fall as Middle East Jitters Spur Oil Rally: Markets Wrap"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Bloomberg(1)",
+      "count": 5,
+      "pct": 4.5,
+      "sources": "CNBC(3), MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "Copper Hits All-Time High Amid Tariff Turmoil, Mine Struggles"
+        "U.S. sanctions Iranian airlines in aim to tighten economic squeeze as war spreads, oil rises",
+        "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat",
+        "UK announces new Israeli settlement sanctions, despite U.S. warning of economic consequences",
+        "Bombardier\u2019s stock drops as the U.S.-Canada trade war intensifies. Here\u2019s what Trump may target next.",
+        "Range Rover Maker to Cut 4,000 Jobs as Trump\u2019s Tariffs Bite"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 4,
+      "pct": 3.6,
+      "sources": "Bloomberg(2), Yahoo(2)",
+      "sample_headlines": [
+        "Latin American Currencies Lead Gains in EM With US CPI in Focus",
+        "Rising Interest Rates and Surging Bond Yields Explained: Big Take Podcast",
+        "Mortgage and refinance interest rates today, Tuesday, September 8, 2026: Rates down to start holiday-shortened week",
+        "Best high-yield savings interest rates today, Tuesday, September 8, 2026: Earn up to 4.10% APY"
       ]
     },
     {
       "topic": "China",
+      "count": 4,
+      "pct": 3.6,
+      "sources": "CNBC(3), Yahoo(1)",
+      "sample_headlines": [
+        "Trump administration expresses 'profound concern' over Ford's ties to China",
+        "Chinese giants Xiaomi, Huawei race to get ahead of Apple\u2019s rumored foldable iPhone",
+        "The U.S. is trying to reduce its reliance on China for batteries. Here's what it's up against",
+        "Stellantis\u2019 Maserati explores China tie-up with Huawei, JAC Motors \u2013 report"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), Yahoo(1)",
+      "sample_headlines": [
+        "Visa tells CNBC it is expanding data offering for blockchain lenders as demand for stablecoin-linked cards surges",
+        "Bitcoin and ethereum prices today, Tuesday, September 8, 2026: Crypto prices sliding as U.S.-Iran fighting continues"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.9,
-      "sources": "CNBC(1)",
+      "sources": "Yahoo(1)",
       "sample_headlines": [
-        "China says it will pump $54 billion into banks and insurers \u2014 but their stocks still fell"
+        "Amazon Layoffs Continue: How to Play AMZN Stock Now in September 2026"
       ]
     }
   ]
