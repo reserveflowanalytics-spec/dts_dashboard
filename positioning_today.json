@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-04",
-  "computed_at": "2026-09-08T21:02:55Z",
+  "as_of": "2026-09-08",
+  "computed_at": "2026-09-09T21:02:32Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -8,8 +8,8 @@
   "signals": {
     "fiscal_regime": "Supportive",
     "tech_regime": "bearish",
-    "tech_close": 7708.75,
-    "tech_sma20": 7722.3,
+    "tech_close": 7681.0,
+    "tech_sma20": 7718.86,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "3/11",
@@ -20,19 +20,19 @@
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": 11.82
+      "roc_20d": 6.74
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLI/XLP",
       "rationale": "Industrials vs staples",
-      "roc_20d": -4.75
+      "roc_20d": -4.47
     },
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": -3.52
+      "roc_20d": -3.69
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",

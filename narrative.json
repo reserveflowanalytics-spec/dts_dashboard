@@ -1,114 +1,113 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 110,
-  "fetched_at": "2026-09-08T21:02:24.200675+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 109,
+  "fetched_at": "2026-09-09T21:01:58.018829+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 19,
-      "pct": 17.3,
-      "sources": "CNBC(7), Yahoo(6), Bloomberg(3), MarketWatch(2), FT(1)",
+      "topic": "AI / Tech",
+      "count": 16,
+      "pct": 14.7,
+      "sources": "CNBC(6), Yahoo(4), FT(3), Bloomberg(3)",
       "sample_headlines": [
-        "U.S. downplays Iran's seizure of unmanned sub in Hormuz Strait",
-        "U.S. sanctions Iranian airlines in aim to tighten economic squeeze as war spreads, oil rises",
-        "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat",
-        "Qualcomm issues warrants to Amazon to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
-        "Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships"
+        "Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans'",
+        "Conversations from Goldman Sachs' Communacopia: AI blowback, broadband and Disney's free tier",
+        "Google to invest record $15 billion in AI infrastructure in the 'Texas of Europe'",
+        "OpenAI claims to have solved the 90-year-old Navier-Stokes math problem in 88 hours",
+        "Jim Cramer says investors are too focused on AI stocks. Here\u2019s where he says to look instead"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 17,
-      "pct": 15.5,
-      "sources": "Yahoo(7), CNBC(5), FT(3), MarketWatch(1), Bloomberg(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 15,
+      "pct": 13.8,
+      "sources": "CNBC(5), Yahoo(5), FT(3), Google News(1), Bloomberg(1)",
       "sample_headlines": [
-        "Meta pushes into personal AI agents as company faces public reckoning over privacy and safety",
-        "Qualcomm issues warrants to Amazon to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
-        "Chinese giants Xiaomi, Huawei race to get ahead of Apple\u2019s rumored foldable iPhone",
-        "TSMC, Samsung commit to ASML\u2019s newest chipmaking tools as AI drives demand",
-        "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts"
+        "Trump's oil investments have gained millions during Iran war as his accounts keep trading",
+        "U.S. denies claims Iran struck two American vessels in retaliation for earlier strikes",
+        "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
+        "Andreessen- and Thiel-backed defense startup opens U.S. missile factory as it exits stealth",
+        "Trump told Putin U.S.-Russia ties could be 'fully restored' with swift end to Ukraine war, Kremlin says"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 11.8,
-      "sources": "Yahoo(6), Bloomberg(3), CNBC(2), MarketWatch(2)",
+      "count": 11,
+      "pct": 10.1,
+      "sources": "Yahoo(8), CNBC(1), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "U.S. downplays Iran's seizure of unmanned sub in Hormuz Strait",
-        "Visa tells CNBC it is expanding data offering for blockchain lenders as demand for stablecoin-linked cards surges",
-        "Stocks stumble after Labor Day. This year\u2019s easy gains may be over.",
-        "Novartis\u2019s failed trial for cholesterol drug leads to broad biopharma stock selloff",
-        "Stocks Fall as Middle East Jitters Spur Oil Rally: Markets Wrap"
+        "Bond sell-off, stock boom: Why rebalancing is a good strategy right now",
+        "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+        "Financial analyst talks trade war impacts on U.S. economy, stock market - RochesterFirst",
+        "Is Sempra Stock Underperforming the Dow?",
+        "Why Micron Technology Stock Surged 16.5% Last Month"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 9,
-      "pct": 8.2,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(1), Yahoo(1)",
+      "count": 10,
+      "pct": 9.2,
+      "sources": "Bloomberg(3), Yahoo(3), CNBC(2), MarketWatch(2)",
       "sample_headlines": [
-        "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
-        "U.S. sanctions Iranian airlines in aim to tighten economic squeeze as war spreads, oil rises",
-        "Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships",
-        "Refining bottlenecks are emerging as the next big oil problem as Middle East skirmishes flare up",
-        "Stocks Fall as Middle East Jitters Spur Oil Rally: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 5,
-      "pct": 4.5,
-      "sources": "CNBC(3), MarketWatch(1), Yahoo(1)",
-      "sample_headlines": [
-        "U.S. sanctions Iranian airlines in aim to tighten economic squeeze as war spreads, oil rises",
-        "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat",
-        "UK announces new Israeli settlement sanctions, despite U.S. warning of economic consequences",
-        "Bombardier\u2019s stock drops as the U.S.-Canada trade war intensifies. Here\u2019s what Trump may target next.",
-        "Range Rover Maker to Cut 4,000 Jobs as Trump\u2019s Tariffs Bite"
+        "Trump says oil and gas prices won't fall until 'right after' midterm election",
+        "Trump's oil investments have gained millions during Iran war as his accounts keep trading",
+        "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+        "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.",
+        "Stocks Fall as Oil Jump, Treasury Plan Lift Yields: Markets Wrap"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 3.6,
-      "sources": "Bloomberg(2), Yahoo(2)",
+      "count": 10,
+      "pct": 9.2,
+      "sources": "CNBC(3), MarketWatch(3), Yahoo(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Latin American Currencies Lead Gains in EM With US CPI in Focus",
-        "Rising Interest Rates and Surging Bond Yields Explained: Big Take Podcast",
-        "Mortgage and refinance interest rates today, Tuesday, September 8, 2026: Rates down to start holiday-shortened week",
-        "Best high-yield savings interest rates today, Tuesday, September 8, 2026: Earn up to 4.10% APY"
+        "Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say",
+        "Demand for riskier mortgages rises again, along with interest rates",
+        "Volatile yen risks \u2018confused\u2019 global markets, chairman of Japanese shipping giant says",
+        "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+        "Fed rate hike hinges on two key inflation reports in the next two days"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 6,
+      "pct": 5.5,
+      "sources": "Bloomberg(4), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Treasury will buy more government bonds than previously announced. The market remains \u2018underwhelmed.\u2019",
+        "Treasury yields jump as Bessent\u2019s $6bn buyback plan disappoints investors",
+        "Mexican Government Slashes Pemex Aid by 70% in New Budget",
+        "Bessent\u2019s Upsized Buybacks Get Hit by Treasury Market Reality",
+        "Stocks Fall as Oil Jump, Treasury Plan Lift Yields: Markets Wrap"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 2.8,
+      "sources": "CNBC(1), Google News(1), Yahoo(1)",
+      "sample_headlines": [
+        "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
+        "Financial analyst talks trade war impacts on U.S. economy, stock market - RochesterFirst",
+        "Tesla Sales In China Continue Negative Streak; Exports Reach Key Level"
       ]
     },
     {
       "topic": "China",
-      "count": 4,
-      "pct": 3.6,
-      "sources": "CNBC(3), Yahoo(1)",
-      "sample_headlines": [
-        "Trump administration expresses 'profound concern' over Ford's ties to China",
-        "Chinese giants Xiaomi, Huawei race to get ahead of Apple\u2019s rumored foldable iPhone",
-        "The U.S. is trying to reduce its reliance on China for batteries. Here's what it's up against",
-        "Stellantis\u2019 Maserati explores China tie-up with Huawei, JAC Motors \u2013 report"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), Yahoo(1)",
-      "sample_headlines": [
-        "Visa tells CNBC it is expanding data offering for blockchain lenders as demand for stablecoin-linked cards surges",
-        "Bitcoin and ethereum prices today, Tuesday, September 8, 2026: Crypto prices sliding as U.S.-Iran fighting continues"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.9,
       "sources": "Yahoo(1)",
       "sample_headlines": [
-        "Amazon Layoffs Continue: How to Play AMZN Stock Now in September 2026"
+        "Tesla Sales In China Continue Negative Streak; Exports Reach Key Level"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "Yahoo(1)",
+      "sample_headlines": [
+        "Strategy Now Owns 845,050 Bitcoin After Paying $80,300 a Coin for the Latest 4,603. Is Saylor Back?"
       ]
     }
   ]
