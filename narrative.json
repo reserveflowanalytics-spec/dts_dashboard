@@ -1,113 +1,111 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 109,
-  "fetched_at": "2026-09-09T21:01:58.018829+00:00",
+  "total_headlines": 114,
+  "fetched_at": "2026-09-10T21:02:15.767666+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 16,
-      "pct": 14.7,
-      "sources": "CNBC(6), Yahoo(4), FT(3), Bloomberg(3)",
-      "sample_headlines": [
-        "Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans'",
-        "Conversations from Goldman Sachs' Communacopia: AI blowback, broadband and Disney's free tier",
-        "Google to invest record $15 billion in AI infrastructure in the 'Texas of Europe'",
-        "OpenAI claims to have solved the 90-year-old Navier-Stokes math problem in 88 hours",
-        "Jim Cramer says investors are too focused on AI stocks. Here\u2019s where he says to look instead"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 15,
-      "pct": 13.8,
-      "sources": "CNBC(5), Yahoo(5), FT(3), Google News(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump's oil investments have gained millions during Iran war as his accounts keep trading",
-        "U.S. denies claims Iran struck two American vessels in retaliation for earlier strikes",
-        "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
-        "Andreessen- and Thiel-backed defense startup opens U.S. missile factory as it exits stealth",
-        "Trump told Putin U.S.-Russia ties could be 'fully restored' with swift end to Ukraine war, Kremlin says"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 10.1,
-      "sources": "Yahoo(8), CNBC(1), MarketWatch(1), Google News(1)",
+      "count": 16,
+      "pct": 14.0,
+      "sources": "CNBC(8), MarketWatch(2), FT(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
+        "AI is losing its stranglehold on the U.S. stock market. Here's why",
+        "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
+        "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown",
         "Bond sell-off, stock boom: Why rebalancing is a good strategy right now",
-        "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-        "Financial analyst talks trade war impacts on U.S. economy, stock market - RochesterFirst",
-        "Is Sempra Stock Underperforming the Dow?",
-        "Why Micron Technology Stock Surged 16.5% Last Month"
+        "Kalshi launches \u2018perps\u2019 for gold and silver following CFTC approval, expanding futures offerings"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 14,
+      "pct": 12.3,
+      "sources": "CNBC(7), Yahoo(4), FT(2), MarketWatch(1)",
+      "sample_headlines": [
+        "AI is losing its stranglehold on the U.S. stock market. Here's why",
+        "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
+        "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown",
+        "Apple makes biggest change to iPhone release cadence in 7 years in Ternus' first showcase as CEO",
+        "Jim Cramer's least-favorite tech stock gets a new analyst endorsement \u2014 our take"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 10,
-      "pct": 9.2,
-      "sources": "Bloomberg(3), Yahoo(3), CNBC(2), MarketWatch(2)",
+      "count": 11,
+      "pct": 9.6,
+      "sources": "Yahoo(4), Bloomberg(3), CNBC(2), FT(2)",
       "sample_headlines": [
-        "Trump says oil and gas prices won't fall until 'right after' midterm election",
-        "Trump's oil investments have gained millions during Iran war as his accounts keep trading",
-        "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-        "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.",
-        "Stocks Fall as Oil Jump, Treasury Plan Lift Yields: Markets Wrap"
+        "U.S. crude oil tops $100 again \u2013 last seen in May \u2013 as market braces for prolonged Iran war",
+        "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
+        "Global bond sell-off reignites as oil jumps to $108",
+        "Saudi Arabia cuts oil output to lowest this year on Houthi threats",
+        "Stocks, Bonds Drop as Oil Spike Boosts Fed Wagers: Markets Wrap"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 10,
+      "pct": 8.8,
+      "sources": "CNBC(4), Yahoo(3), FT(2), MarketWatch(1)",
+      "sample_headlines": [
+        "Elon Musk's Boring Co. turns to Middle East for expansion in reaching $23 billion valuation",
+        "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown",
+        "U.S. crude oil tops $100 again \u2013 last seen in May \u2013 as market braces for prolonged Iran war",
+        "Trump warns Tehran over Pickaxe Mountain activity; U.S.-Iran exchange attacks on ships near Hormuz",
+        "It\u2019s not just Hormuz. Another war is providing fresh price shocks to fuel and food."
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 10,
-      "pct": 9.2,
-      "sources": "CNBC(3), MarketWatch(3), Yahoo(2), FT(1), Bloomberg(1)",
+      "count": 9,
+      "pct": 7.9,
+      "sources": "Bloomberg(4), CNBC(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say",
-        "Demand for riskier mortgages rises again, along with interest rates",
-        "Volatile yen risks \u2018confused\u2019 global markets, chairman of Japanese shipping giant says",
-        "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-        "Fed rate hike hinges on two key inflation reports in the next two days"
+        "The likelihood of a Fed interest rate hike next week just got a lot higher",
+        "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+        "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
+        "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
+        "Treasury yields hit session highs after Bessent\u2019s buyback operation misses target"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 6,
-      "pct": 5.5,
-      "sources": "Bloomberg(4), MarketWatch(1), FT(1)",
+      "count": 4,
+      "pct": 3.5,
+      "sources": "CNBC(1), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Treasury will buy more government bonds than previously announced. The market remains \u2018underwhelmed.\u2019",
-        "Treasury yields jump as Bessent\u2019s $6bn buyback plan disappoints investors",
-        "Mexican Government Slashes Pemex Aid by 70% in New Budget",
-        "Bessent\u2019s Upsized Buybacks Get Hit by Treasury Market Reality",
-        "Stocks Fall as Oil Jump, Treasury Plan Lift Yields: Markets Wrap"
+        "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
+        "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
+        "Treasury yields hit session highs after Bessent\u2019s buyback operation misses target",
+        "NYC Transit Agency Prepares $785M Mansion Tax Bond Sale"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "CNBC(1), Google News(1), Yahoo(1)",
+      "count": 2,
+      "pct": 1.8,
+      "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
-        "Financial analyst talks trade war impacts on U.S. economy, stock market - RochesterFirst",
-        "Tesla Sales In China Continue Negative Streak; Exports Reach Key Level"
+        "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+        "IMF ditched top candidate for chief economist job over Trump tariff remarks"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown"
       ]
     },
     {
       "topic": "China",
       "count": 1,
       "pct": 0.9,
-      "sources": "Yahoo(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Tesla Sales In China Continue Negative Streak; Exports Reach Key Level"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Yahoo(1)",
-      "sample_headlines": [
-        "Strategy Now Owns 845,050 Bitcoin After Paying $80,300 a Coin for the Latest 4,603. Is Saylor Back?"
+        "Ford announces $1 billion investment at Kentucky plant following DOT criticism on China"
       ]
     }
   ]
