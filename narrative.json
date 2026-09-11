@@ -1,93 +1,93 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 114,
-  "fetched_at": "2026-09-10T21:02:15.767666+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 109,
+  "fetched_at": "2026-09-11T21:01:43.325777+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 14.0,
-      "sources": "CNBC(8), MarketWatch(2), FT(2), Bloomberg(2), Yahoo(2)",
+      "topic": "Iran / Middle East conflict",
+      "count": 23,
+      "pct": 21.1,
+      "sources": "CNBC(9), FT(8), Yahoo(3), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "AI is losing its stranglehold on the U.S. stock market. Here's why",
-        "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
-        "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown",
-        "Bond sell-off, stock boom: Why rebalancing is a good strategy right now",
-        "Kalshi launches \u2018perps\u2019 for gold and silver following CFTC approval, expanding futures offerings"
+        "Iran, Russia condemn Western economic sanctions and urge BRICS bloc to deepen economic ties",
+        "Leopold Aschenbrenner's Situational Awareness is active in options market, sources say",
+        "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
+        "AI regulation calls grow in DC after researcher's extinction warning",
+        "Bessent says 'a large bank' will be sanctioned on Monday as part of Iran strategy"
       ]
     },
     {
       "topic": "AI / Tech",
+      "count": 20,
+      "pct": 18.3,
+      "sources": "Yahoo(10), CNBC(5), MarketWatch(3), FT(2)",
+      "sample_headlines": [
+        "Sub-$100 smartphones becoming a rarity as AI memory prices soar",
+        "AI regulation calls grow in DC after researcher's extinction warning",
+        "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown",
+        "Why fears of AI self-improvement are causing \u2018existential\u2019 concerns at Anthropic and OpenAI",
+        "Oracle posts 30% revenue growth fueled by AI cloud demand as debts hits $125 billion"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
       "count": 14,
-      "pct": 12.3,
-      "sources": "CNBC(7), Yahoo(4), FT(2), MarketWatch(1)",
+      "pct": 12.8,
+      "sources": "Yahoo(5), CNBC(3), Bloomberg(3), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "AI is losing its stranglehold on the U.S. stock market. Here's why",
-        "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
-        "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown",
-        "Apple makes biggest change to iPhone release cadence in 7 years in Ternus' first showcase as CEO",
-        "Jim Cramer's least-favorite tech stock gets a new analyst endorsement \u2014 our take"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 11,
-      "pct": 9.6,
-      "sources": "Yahoo(4), Bloomberg(3), CNBC(2), FT(2)",
-      "sample_headlines": [
-        "U.S. crude oil tops $100 again \u2013 last seen in May \u2013 as market braces for prolonged Iran war",
-        "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
-        "Global bond sell-off reignites as oil jumps to $108",
-        "Saudi Arabia cuts oil output to lowest this year on Houthi threats",
-        "Stocks, Bonds Drop as Oil Spike Boosts Fed Wagers: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 8.8,
-      "sources": "CNBC(4), Yahoo(3), FT(2), MarketWatch(1)",
-      "sample_headlines": [
-        "Elon Musk's Boring Co. turns to Middle East for expansion in reaching $23 billion valuation",
-        "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown",
-        "U.S. crude oil tops $100 again \u2013 last seen in May \u2013 as market braces for prolonged Iran war",
-        "Trump warns Tehran over Pickaxe Mountain activity; U.S.-Iran exchange attacks on ships near Hormuz",
-        "It\u2019s not just Hormuz. Another war is providing fresh price shocks to fuel and food."
+        "Here\u2019s the inflation breakdown for August 2026 \u2014 in one chart",
+        "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks",
+        "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown",
+        "Salesforce\u2019s stock has been riding a wave of AI optimism. Here\u2019s what Wall Street wants to see next.",
+        "Why Dell and HPE were the S&P 500\u2019s top-performing stocks today"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 9,
-      "pct": 7.9,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(1), FT(1)",
+      "count": 13,
+      "pct": 11.9,
+      "sources": "Bloomberg(5), Yahoo(5), CNBC(2), FT(1)",
       "sample_headlines": [
-        "The likelihood of a Fed interest rate hike next week just got a lot higher",
-        "Friday's CPI inflation report is even more important than usual. Here's what to expect",
-        "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
-        "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
-        "Treasury yields hit session highs after Bessent\u2019s buyback operation misses target"
+        "Here\u2019s the inflation breakdown for August 2026 \u2014 in one chart",
+        "Treasury yields remain near multiyear highs as August CPI shows sticky inflation",
+        "Warsh under mounting pressure to raise rates as US inflation persists",
+        "Treasuries End Bruising Week With Fed Hike Bets Firmed After CPI",
+        "Dollar Wavers as CPI Adds to Fed Hike Bets While Oil Falls"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 12,
+      "pct": 11.0,
+      "sources": "CNBC(4), Bloomberg(3), Yahoo(3), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks",
+        "I went to Caracas for Venezuela\u2019s new oil deals. Here\u2019s what stood out",
+        "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
+        "Oil prices fall Friday, but post sharp weekly gains as tensions in the Middle East rise",
+        "The Houthis have opened a new front in the Middle East oil war that\u2019s pushing up prices"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 4,
-      "pct": 3.5,
-      "sources": "CNBC(1), MarketWatch(1), FT(1), Bloomberg(1)",
+      "pct": 3.7,
+      "sources": "CNBC(2), Yahoo(2)",
       "sample_headlines": [
-        "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
-        "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
-        "Treasury yields hit session highs after Bessent\u2019s buyback operation misses target",
-        "NYC Transit Agency Prepares $785M Mansion Tax Bond Sale"
+        "Wealthy investors are pouring billions into this new tax strategy despite risks",
+        "Treasury yields remain near multiyear highs as August CPI shows sticky inflation",
+        "Some Republicans want to raise taxes \u2014 to save Social Security. Here\u2019s why",
+        "\u2018They\u2019re taxing him out\u2019: Minnesota man is suing after his modest 1-bedroom home build spiked his property value 300%"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "Crypto",
       "count": 2,
       "pct": 1.8,
-      "sources": "CNBC(1), FT(1)",
+      "sources": "CNBC(1), Yahoo(1)",
       "sample_headlines": [
-        "Friday's CPI inflation report is even more important than usual. Here's what to expect",
-        "IMF ditched top candidate for chief economist job over Trump tariff remarks"
+        "Hassett kept up to $5 million Coinbase stake as Trump reshaped crypto policy",
+        "Bitcoin and ethereum prices today, Thursday, September 10, 2026: Crypto prices slide back with inflation data on tap"
       ]
     },
     {
@@ -96,16 +96,16 @@
       "pct": 0.9,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown"
+        "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown"
       ]
     },
     {
-      "topic": "China",
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 0.9,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Ford announces $1 billion investment at Kentucky plant following DOT criticism on China"
+        "Iran, Russia condemn Western economic sanctions and urge BRICS bloc to deepen economic ties"
       ]
     }
   ]
