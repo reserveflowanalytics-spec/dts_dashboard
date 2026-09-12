@@ -1,102 +1,111 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 109,
-  "fetched_at": "2026-09-11T21:01:43.325777+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 106,
+  "fetched_at": "2026-09-12T21:01:50.766531+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 23,
-      "pct": 21.1,
-      "sources": "CNBC(9), FT(8), Yahoo(3), Bloomberg(2), MarketWatch(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 14,
+      "pct": 13.2,
+      "sources": "Yahoo(9), CNBC(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
+        "Inflation is outpacing wage growth again, squeezing Americans\u2019 paychecks",
+        "Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish",
+        "The Fed could raise interest rates three times. Here\u2019s where the market could face the stiffest test.",
+        "Energy Driven Inflation Complicates Fed Rate Call",
+        "Higher Interest Rates May Be the New Normal"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 13,
+      "pct": 12.3,
+      "sources": "CNBC(4), Bloomberg(4), Yahoo(3), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Tehran won\u2019t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace",
         "Iran, Russia condemn Western economic sanctions and urge BRICS bloc to deepen economic ties",
         "Leopold Aschenbrenner's Situational Awareness is active in options market, sources say",
         "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
-        "AI regulation calls grow in DC after researcher's extinction warning",
-        "Bessent says 'a large bank' will be sanctioned on Monday as part of Iran strategy"
+        "\u2018I still don\u2019t have my MRI\u2019: My health insurer canceled my plan without warning. Is that legal?"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 18.3,
-      "sources": "Yahoo(10), CNBC(5), MarketWatch(3), FT(2)",
+      "count": 13,
+      "pct": 12.3,
+      "sources": "Yahoo(6), MarketWatch(3), CNBC(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "Musk, Altman support Anthropic\u2019s Amodei as he shares plan to \u2018slow the pace\u2019 of advancing AI capabilities",
         "Sub-$100 smartphones becoming a rarity as AI memory prices soar",
-        "AI regulation calls grow in DC after researcher's extinction warning",
-        "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown",
-        "Why fears of AI self-improvement are causing \u2018existential\u2019 concerns at Anthropic and OpenAI",
-        "Oracle posts 30% revenue growth fueled by AI cloud demand as debts hits $125 billion"
+        "Elon Musk backs Anthropic\u2019s call to slow down AI progress before rogue bots take over the entire internet",
+        "Tesla could transform the trucking business \u2014 and capitalize on high diesel prices",
+        "Oracle shook off fears about AI spending, but its stock still loses ground"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 12.8,
-      "sources": "Yahoo(5), CNBC(3), Bloomberg(3), MarketWatch(2), FT(1)",
+      "count": 9,
+      "pct": 8.5,
+      "sources": "Yahoo(5), CNBC(1), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Here\u2019s the inflation breakdown for August 2026 \u2014 in one chart",
-        "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks",
-        "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown",
-        "Salesforce\u2019s stock has been riding a wave of AI optimism. Here\u2019s what Wall Street wants to see next.",
-        "Why Dell and HPE were the S&P 500\u2019s top-performing stocks today"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 13,
-      "pct": 11.9,
-      "sources": "Bloomberg(5), Yahoo(5), CNBC(2), FT(1)",
-      "sample_headlines": [
-        "Here\u2019s the inflation breakdown for August 2026 \u2014 in one chart",
-        "Treasury yields remain near multiyear highs as August CPI shows sticky inflation",
-        "Warsh under mounting pressure to raise rates as US inflation persists",
-        "Treasuries End Bruising Week With Fed Hike Bets Firmed After CPI",
-        "Dollar Wavers as CPI Adds to Fed Hike Bets While Oil Falls"
+        "Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish",
+        "Elon Musk backs Anthropic\u2019s call to slow down AI progress before rogue bots take over the entire internet",
+        "Rivals Altman and Musk rally behind Dario Amodei\u2019s call for an AI slowdown",
+        "SpaceX to Get Weighting Boost in Nasdaq 100 After Rebalance",
+        "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 12,
-      "pct": 11.0,
-      "sources": "CNBC(4), Bloomberg(3), Yahoo(3), MarketWatch(1), FT(1)",
+      "count": 6,
+      "pct": 5.7,
+      "sources": "CNBC(3), Bloomberg(2), Yahoo(1)",
       "sample_headlines": [
-        "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks",
+        "Oil's roundtrip back to $100. Why China could determine what happens next",
         "I went to Caracas for Venezuela\u2019s new oil deals. Here\u2019s what stood out",
         "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
-        "Oil prices fall Friday, but post sharp weekly gains as tensions in the Middle East rise",
-        "The Houthis have opened a new front in the Middle East oil war that\u2019s pushing up prices"
+        "Energy Driven Inflation Complicates Fed Rate Call",
+        "Oil Supply Risks Rise After Saudi Pipeline Attack"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 3.7,
-      "sources": "CNBC(2), Yahoo(2)",
+      "count": 3,
+      "pct": 2.8,
+      "sources": "Yahoo(2), CNBC(1)",
       "sample_headlines": [
         "Wealthy investors are pouring billions into this new tax strategy despite risks",
-        "Treasury yields remain near multiyear highs as August CPI shows sticky inflation",
-        "Some Republicans want to raise taxes \u2014 to save Social Security. Here\u2019s why",
-        "\u2018They\u2019re taxing him out\u2019: Minnesota man is suing after his modest 1-bedroom home build spiked his property value 300%"
+        "Samsara (IOT) Crosses $2B, But Growth Comes With A Hardware Tax",
+        "Why Treasury\u2019s $6 billion bond buyback didn\u2019t lower mortgage rates"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 1.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Oil's roundtrip back to $100. Why China could determine what happens next",
+        "GM plans U.S. battery development as Trump's DOT attacks Ford for China ties"
       ]
     },
     {
       "topic": "Crypto",
       "count": 2,
-      "pct": 1.8,
-      "sources": "CNBC(1), Yahoo(1)",
+      "pct": 1.9,
+      "sources": "Yahoo(2)",
       "sample_headlines": [
-        "Hassett kept up to $5 million Coinbase stake as Trump reshaped crypto policy",
-        "Bitcoin and ethereum prices today, Thursday, September 10, 2026: Crypto prices slide back with inflation data on tap"
+        "How Low Can Bitcoin Go?",
+        "Bitcoin and ethereum prices today, Friday, September 11, 2026: Bitcoin falls below $77,000 with key inflation data on deck"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 0.9,
-      "sources": "CNBC(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown"
+        "Rivals Altman and Musk rally behind Dario Amodei\u2019s call for an AI slowdown"
       ]
     },
     {

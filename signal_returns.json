@@ -1,7 +1,7 @@
 {
-  "computed_at": "2026-09-11T21:02:13Z",
+  "computed_at": "2026-09-12T21:02:11Z",
   "total_signals": 467,
-  "scored_signals": 462,
+  "scored_signals": 463,
   "summary": {
     "total_signals": 467,
     "date_range": {
@@ -11,11 +11,11 @@
     "regime_performance": {
       "Supportive": {
         "count": 30,
-        "avg_spx_5d": 0.94,
+        "avg_spx_5d": 0.865,
         "hit_rate_5d": {
           "hits": 18,
-          "total": 27,
-          "rate": 66.7
+          "total": 28,
+          "rate": 64.3
         },
         "avg_spx_10d": 2.29,
         "hit_rate_10d": {
@@ -59,40 +59,40 @@
           "total": 265,
           "rate": 40.8
         },
-        "avg_spx_10d": 0.754,
+        "avg_spx_10d": 0.747,
         "hit_rate_10d": {
-          "hits": 93,
-          "total": 263,
-          "rate": 35.4
+          "hits": 94,
+          "total": 264,
+          "rate": 35.6
         },
-        "avg_spx_20d": 1.534,
+        "avg_spx_20d": 1.521,
         "hit_rate_20d": {
-          "hits": 80,
-          "total": 258,
-          "rate": 31.0
+          "hits": 81,
+          "total": 259,
+          "rate": 31.3
         }
       }
     },
     "tech_regime_performance": {
       "bullish": {
         "count": 252,
-        "avg_spx_5d": 0.355,
+        "avg_spx_5d": 0.349,
         "hit_rate_5d": {
           "hits": 152,
-          "total": 251,
-          "rate": 60.6
+          "total": 252,
+          "rate": 60.3
         },
-        "avg_spx_10d": 0.705,
+        "avg_spx_10d": 0.698,
         "hit_rate_10d": {
           "hits": 166,
-          "total": 250,
-          "rate": 66.4
+          "total": 251,
+          "rate": 66.1
         },
-        "avg_spx_20d": 1.736,
+        "avg_spx_20d": 1.721,
         "hit_rate_20d": {
           "hits": 183,
-          "total": 243,
-          "rate": 75.3
+          "total": 244,
+          "rate": 75.0
         }
       },
       "bearish": {
@@ -119,12 +119,12 @@
     },
     "combined_fiscal_tech": {
       "Supportive + Bullish": {
-        "count": 14,
-        "avg_spx_5d": -0.108,
+        "count": 15,
+        "avg_spx_5d": -0.179,
         "hit_rate_5d": {
           "hits": 7,
-          "total": 14,
-          "rate": 50.0
+          "total": 15,
+          "rate": 46.7
         },
         "avg_spx_10d": 0.553,
         "hit_rate_10d": {
@@ -189,13 +189,13 @@
           "total": 0,
           "rate": null
         },
-        "avg_spx_10d": 0.696,
+        "avg_spx_10d": 0.685,
         "hit_rate_10d": {
           "hits": 0,
           "total": 0,
           "rate": null
         },
-        "avg_spx_20d": 1.732,
+        "avg_spx_20d": 1.708,
         "hit_rate_20d": {
           "hits": 0,
           "total": 0,
@@ -241,11 +241,11 @@
           "total": 39,
           "rate": 46.2
         },
-        "avg_ret_20d": 1.247,
+        "avg_ret_20d": 1.144,
         "hit_rate_20d": {
-          "hits": 12,
-          "total": 29,
-          "rate": 41.4
+          "hits": 13,
+          "total": 30,
+          "rate": 43.3
         }
       },
       "sp500_elevated_short": {
@@ -273,17 +273,17 @@
       "sp500_elevated_long": {
         "count": 39,
         "signal": "Elevated Long",
-        "avg_ret_5d": 0.512,
+        "avg_ret_5d": 0.466,
         "hit_rate_5d": {
-          "hits": 14,
-          "total": 35,
-          "rate": 40.0
+          "hits": 15,
+          "total": 36,
+          "rate": 41.7
         },
-        "avg_ret_10d": 1.005,
+        "avg_ret_10d": 0.942,
         "hit_rate_10d": {
-          "hits": 13,
-          "total": 30,
-          "rate": 43.3
+          "hits": 14,
+          "total": 31,
+          "rate": 45.2
         },
         "avg_ret_20d": 2.459,
         "hit_rate_20d": {
@@ -631,37 +631,37 @@
           "total": 50,
           "rate": 32.0
         },
-        "avg_spx_10d": 0.767,
+        "avg_spx_10d": 0.732,
         "hit_rate_10d": {
-          "hits": 21,
-          "total": 48,
-          "rate": 43.8
+          "hits": 22,
+          "total": 49,
+          "rate": 44.9
         },
-        "avg_spx_20d": 1.452,
+        "avg_spx_20d": 1.377,
         "hit_rate_20d": {
-          "hits": 19,
-          "total": 43,
-          "rate": 44.2
+          "hits": 20,
+          "total": 44,
+          "rate": 45.5
         }
       }
     },
     "market_map_performance": {
       "equities": {
-        "count": 100,
+        "count": 101,
         "hit_rate_5d": {
           "hits": 53,
-          "total": 100,
-          "rate": 53.0
+          "total": 101,
+          "rate": 52.5
         },
         "hit_rate_10d": {
-          "hits": 50,
-          "total": 96,
-          "rate": 52.1
+          "hits": 51,
+          "total": 97,
+          "rate": 52.6
         },
         "hit_rate_20d": {
-          "hits": 29,
-          "total": 91,
-          "rate": 31.9
+          "hits": 30,
+          "total": 92,
+          "rate": 32.6
         }
       },
       "usd": {
@@ -731,15 +731,15 @@
         "spx_direction": {
           "low_vix": {
             "count": 127,
-            "spx_up_rate_5d": 49.2,
-            "avg_spx_5d": -0.13,
-            "n_5d": 124,
-            "spx_up_rate_10d": 54.2,
-            "avg_spx_10d": 0.012,
-            "n_10d": 120,
-            "spx_up_rate_20d": 67.3,
-            "avg_spx_20d": 0.619,
-            "n_20d": 110
+            "spx_up_rate_5d": 48.8,
+            "avg_spx_5d": -0.138,
+            "n_5d": 125,
+            "spx_up_rate_10d": 53.7,
+            "avg_spx_10d": 0.004,
+            "n_10d": 121,
+            "spx_up_rate_20d": 66.7,
+            "avg_spx_20d": 0.597,
+            "n_20d": 111
           },
           "mid_vix": {
             "count": 189,
@@ -771,22 +771,22 @@
             "count": 97,
             "hit_rate_5d": {
               "hits": 50,
-              "total": 96,
-              "rate": 52.1
+              "total": 97,
+              "rate": 51.5
             },
-            "avg_spx_5d": -0.093,
+            "avg_spx_5d": -0.104,
             "hit_rate_10d": {
               "hits": 53,
-              "total": 95,
-              "rate": 55.8
+              "total": 96,
+              "rate": 55.2
             },
-            "avg_spx_10d": 0.132,
+            "avg_spx_10d": 0.121,
             "hit_rate_20d": {
               "hits": 64,
-              "total": 88,
-              "rate": 72.7
+              "total": 89,
+              "rate": 71.9
             },
-            "avg_spx_20d": 0.968
+            "avg_spx_20d": 0.937
           },
           "mid_vix": {
             "count": 128,
@@ -85077,9 +85077,9 @@
           "fwd_10d": 7730.99,
           "fwd_10d_date": "2026-08-27",
           "ret_10d": -0.872,
-          "fwd_20d": null,
-          "fwd_20d_date": null,
-          "ret_20d": null
+          "fwd_20d": 7656.98,
+          "fwd_20d_date": "2026-09-11",
+          "ret_20d": -1.821
         },
         "ust2y": {
           "base": 4.15,
@@ -85137,13 +85137,13 @@
       "regime_hits": {
         "5d": "hit",
         "10d": "hit",
-        "20d": null
+        "20d": "hit"
       },
       "map_hits": {
         "equities": {
           "5d": "hit",
           "10d": "hit",
-          "20d": null
+          "20d": "hit"
         },
         "usd": {
           "5d": null,
@@ -85165,7 +85165,7 @@
         "sp500": {
           "5d": "hit",
           "10d": "hit",
-          "20d": null
+          "20d": "hit"
         },
         "10y": {
           "5d": null,
@@ -85198,14 +85198,14 @@
           "result": "hit"
         },
         "20d": {
-          "label": null,
-          "result": null
+          "label": "Restrictive + Crowd Long (highest conviction short)",
+          "result": "hit"
         }
       },
       "tech_hits": {
         "5d": "miss",
         "10d": "miss",
-        "20d": null
+        "20d": "miss"
       },
       "fiscal_tech": {
         "5d": {
@@ -85217,7 +85217,7 @@
           "result": null
         },
         "20d": {
-          "label": null,
+          "label": "Restrictive + Bullish",
           "result": null
         }
       }
@@ -87014,9 +87014,9 @@
           "fwd_5d": 7747.71,
           "fwd_5d_date": "2026-09-03",
           "ret_5d": 0.216,
-          "fwd_10d": null,
-          "fwd_10d_date": null,
-          "ret_10d": null,
+          "fwd_10d": 7656.98,
+          "fwd_10d_date": "2026-09-11",
+          "ret_10d": -0.957,
           "fwd_20d": null,
           "fwd_20d_date": null,
           "ret_20d": null
@@ -87076,13 +87076,13 @@
       },
       "regime_hits": {
         "5d": "miss",
-        "10d": null,
+        "10d": "hit",
         "20d": null
       },
       "map_hits": {
         "equities": {
           "5d": "miss",
-          "10d": null,
+          "10d": "hit",
           "20d": null
         },
         "usd": {
@@ -87104,7 +87104,7 @@
       "cot_hits": {
         "sp500": {
           "5d": "miss",
-          "10d": null,
+          "10d": "hit",
           "20d": null
         },
         "10y": {
@@ -87134,8 +87134,8 @@
           "result": "miss"
         },
         "10d": {
-          "label": null,
-          "result": null
+          "label": "Restrictive + Crowd Long (highest conviction short)",
+          "result": "hit"
         },
         "20d": {
           "label": null,
@@ -87144,7 +87144,7 @@
       },
       "tech_hits": {
         "5d": "hit",
-        "10d": null,
+        "10d": "miss",
         "20d": null
       },
       "fiscal_tech": {
@@ -87153,7 +87153,7 @@
           "result": null
         },
         "10d": {
-          "label": null,
+          "label": "Restrictive + Bullish",
           "result": null
         },
         "20d": {
@@ -87981,9 +87981,9 @@
         "spx": {
           "base": 7747.71,
           "base_date": "2026-09-03",
-          "fwd_5d": null,
-          "fwd_5d_date": null,
-          "ret_5d": null,
+          "fwd_5d": 7656.98,
+          "fwd_5d_date": "2026-09-11",
+          "ret_5d": -1.171,
           "fwd_10d": null,
           "fwd_10d_date": null,
           "ret_10d": null,
@@ -88045,13 +88045,13 @@
         }
       },
       "regime_hits": {
-        "5d": null,
+        "5d": "miss",
         "10d": null,
         "20d": null
       },
       "map_hits": {
         "equities": {
-          "5d": null,
+          "5d": "miss",
           "10d": null,
           "20d": null
         },
@@ -88073,7 +88073,7 @@
       },
       "cot_hits": {
         "sp500": {
-          "5d": null,
+          "5d": "hit",
           "10d": null,
           "20d": null
         },
@@ -88100,7 +88100,7 @@
       },
       "combined": {
         "5d": {
-          "label": null,
+          "label": "Supportive + Crowd Long (no contrarian edge)",
           "result": null
         },
         "10d": {
@@ -88113,14 +88113,14 @@
         }
       },
       "tech_hits": {
-        "5d": null,
+        "5d": "miss",
         "10d": null,
         "20d": null
       },
       "fiscal_tech": {
         "5d": {
-          "label": null,
-          "result": null
+          "label": "Supportive + Bullish",
+          "result": "miss"
         },
         "10d": {
           "label": null,
