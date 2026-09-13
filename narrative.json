@@ -1,120 +1,106 @@
 {
   "dominant": "No clear dominant narrative",
-  "total_headlines": 106,
-  "fetched_at": "2026-09-12T21:01:50.766531+00:00",
+  "total_headlines": 111,
+  "fetched_at": "2026-09-13T21:01:57.486142+00:00",
   "topics": [
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 14,
-      "pct": 13.2,
-      "sources": "Yahoo(9), CNBC(2), Bloomberg(2), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 16,
+      "pct": 14.4,
+      "sources": "Yahoo(6), CNBC(5), Bloomberg(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Inflation is outpacing wage growth again, squeezing Americans\u2019 paychecks",
-        "Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish",
-        "The Fed could raise interest rates three times. Here\u2019s where the market could face the stiffest test.",
-        "Energy Driven Inflation Complicates Fed Rate Call",
-        "Higher Interest Rates May Be the New Normal"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 12.3,
-      "sources": "CNBC(4), Bloomberg(4), Yahoo(3), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Tehran won\u2019t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace",
-        "Iran, Russia condemn Western economic sanctions and urge BRICS bloc to deepen economic ties",
-        "Leopold Aschenbrenner's Situational Awareness is active in options market, sources say",
-        "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
-        "\u2018I still don\u2019t have my MRI\u2019: My health insurer canceled my plan without warning. Is that legal?"
+        "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+        "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+        "Top Wall Street analysts recommend these 3 dividend stocks for higher returns",
+        "Here are the 2 big things we're watching in this week's stock market",
+        "Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 12.3,
-      "sources": "Yahoo(6), MarketWatch(3), CNBC(2), FT(1), Bloomberg(1)",
+      "count": 15,
+      "pct": 13.5,
+      "sources": "Yahoo(12), CNBC(2), FT(1)",
       "sample_headlines": [
-        "Musk, Altman support Anthropic\u2019s Amodei as he shares plan to \u2018slow the pace\u2019 of advancing AI capabilities",
-        "Sub-$100 smartphones becoming a rarity as AI memory prices soar",
-        "Elon Musk backs Anthropic\u2019s call to slow down AI progress before rogue bots take over the entire internet",
-        "Tesla could transform the trucking business \u2014 and capitalize on high diesel prices",
-        "Oracle shook off fears about AI spending, but its stock still loses ground"
+        "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+        "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+        "Donald Trump rejects calls from tech bosses for an AI slowdown",
+        "Dow Jones Futures: Will Anthropic-Led Call For Slowdown Hit AI Stocks? Fed Meeting Ahead",
+        "Nvidia (NVDA) Looks Cheap on Piper\u2019s Forecasts, but the Earnings Assumptions Are the Real Test"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 8.5,
-      "sources": "Yahoo(5), CNBC(1), MarketWatch(1), FT(1), Bloomberg(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 12,
+      "pct": 10.8,
+      "sources": "Yahoo(7), CNBC(2), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
+        "Inflation is outpacing wage growth again, squeezing Americans\u2019 paychecks",
         "Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish",
-        "Elon Musk backs Anthropic\u2019s call to slow down AI progress before rogue bots take over the entire internet",
-        "Rivals Altman and Musk rally behind Dario Amodei\u2019s call for an AI slowdown",
-        "SpaceX to Get Weighting Boost in Nasdaq 100 After Rebalance",
-        "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys"
+        "Fed rate hikes won\u2019t bring down gas prices. Why the bond market is pushing for them anyway.",
+        "A 5% Treasury Yield Is Raising New Risks for Markets, Economy",
+        "After Oil Surge and War, Emerging Markets Unfazed by Fed Risk"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 5.7,
-      "sources": "CNBC(3), Bloomberg(2), Yahoo(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 11,
+      "pct": 9.9,
+      "sources": "Bloomberg(4), CNBC(3), Yahoo(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Oil's roundtrip back to $100. Why China could determine what happens next",
-        "I went to Caracas for Venezuela\u2019s new oil deals. Here\u2019s what stood out",
-        "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
-        "Energy Driven Inflation Complicates Fed Rate Call",
-        "Oil Supply Risks Rise After Saudi Pipeline Attack"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 2.8,
-      "sources": "Yahoo(2), CNBC(1)",
-      "sample_headlines": [
-        "Wealthy investors are pouring billions into this new tax strategy despite risks",
-        "Samsara (IOT) Crosses $2B, But Growth Comes With A Hardware Tax",
-        "Why Treasury\u2019s $6 billion bond buyback didn\u2019t lower mortgage rates"
+        "Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive",
+        "China's Xi urges BRICS nations to work towards peace in the Middle East",
+        "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+        "\u2018I still don\u2019t have my MRI\u2019: My health insurer canceled my plan without warning. Is that legal?",
+        "Russia strikes Ukraine train line moments after foreign dignitaries pass"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.9,
-      "sources": "CNBC(2)",
+      "count": 6,
+      "pct": 5.4,
+      "sources": "CNBC(6)",
       "sample_headlines": [
+        "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+        "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+        "China's Xi urges BRICS nations to work towards peace in the Middle East",
         "Oil's roundtrip back to $100. Why China could determine what happens next",
-        "GM plans U.S. battery development as Trump's DOT attacks Ford for China ties"
+        "Indian Prime Minister Modi says border peace is key to India-China ties"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.9,
-      "sources": "Yahoo(2)",
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 3.6,
+      "sources": "CNBC(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "How Low Can Bitcoin Go?",
-        "Bitcoin and ethereum prices today, Friday, September 11, 2026: Bitcoin falls below $77,000 with key inflation data on deck"
+        "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+        "Oil's roundtrip back to $100. Why China could determine what happens next",
+        "Fed rate hikes won\u2019t bring down gas prices. Why the bond market is pushing for them anyway.",
+        "After Oil Surge and War, Emerging Markets Unfazed by Fed Risk"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 3.6,
+      "sources": "Yahoo(2), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Taxing high earners to help fund Social Security gains bipartisan attention \u2014 what it could mean for benefits",
+        "A 5% Treasury Yield Is Raising New Risks for Markets, Economy",
+        "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
+        "The 10-Year Treasury Bond Yields Nearly 5% Right Now. Here's Why I'd Still Choose PepsiCo for Passive Income."
       ]
     },
     {
       "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "FT(1)",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "CNBC(1), FT(1), Yahoo(1)",
       "sample_headlines": [
-        "Rivals Altman and Musk rally behind Dario Amodei\u2019s call for an AI slowdown"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Iran, Russia condemn Western economic sanctions and urge BRICS bloc to deepen economic ties"
+        "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+        "Donald Trump rejects calls from tech bosses for an AI slowdown",
+        "Dow Jones Futures: Will Anthropic-Led Call For Slowdown Hit AI Stocks? Fed Meeting Ahead"
       ]
     }
   ]
