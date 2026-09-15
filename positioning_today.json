@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-11",
-  "computed_at": "2026-09-14T21:05:34Z",
+  "as_of": "2026-09-14",
+  "computed_at": "2026-09-15T21:02:58Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -8,16 +8,22 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bearish",
-    "tech_close": 7659.0,
-    "tech_sma20": 7694.07,
+    "tech_close": 7624.75,
+    "tech_sma20": 7686.88,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 0/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "0/11",
+    "rs_conviction_label": "Low \u2014 only 1/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "1/11",
     "tier1_open": false,
     "macro_confluence": "1/3"
   },
   "overweight_pairs": [],
-  "underweight_pairs": [],
+  "underweight_pairs": [
+    {
+      "pair": "IWM/SPY",
+      "rationale": "Small cap vs large cap",
+      "roc_20d": -3.71
+    }
+  ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
   "watch_downgrade": "Continued weakness in trend + RS -> further reduce or move to cash"
 }

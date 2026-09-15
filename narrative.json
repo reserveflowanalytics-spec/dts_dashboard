@@ -1,131 +1,130 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 124,
-  "fetched_at": "2026-09-14T21:05:17.607767+00:00",
+  "dominant": "Fed / Rates / Inflation",
+  "total_headlines": 111,
+  "fetched_at": "2026-09-15T21:02:16.695586+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 33,
-      "pct": 26.6,
-      "sources": "Yahoo(15), CNBC(10), FT(4), Bloomberg(3), MarketWatch(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 24,
+      "pct": 21.6,
+      "sources": "Yahoo(8), Bloomberg(7), CNBC(4), MarketWatch(2), FT(2), Google News(1)",
       "sample_headlines": [
-        "Trump goes scorched earth on AI warnings, raging about data center opposition and regulation",
-        "Apple releases test of redesigned Siri AI before iPhone 18 hits stores this week",
-        "AI stocks sink while cybersecurity shares rally on slowdown fears",
-        "Microsoft sets limits for future AI models as industry throttles frontier development",
-        "China says AI CEOs' call for a slowdown is 'fear mongering'"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 19,
-      "pct": 15.3,
-      "sources": "CNBC(7), Yahoo(6), Bloomberg(4), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "AI stocks sink while cybersecurity shares rally on slowdown fears",
-        "Oil prices rise after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz",
-        "As the oil surge continues, trader Mike Khouw sees more upside in this surging name",
-        "China says AI CEOs' call for a slowdown is 'fear mongering'",
-        "What Amodei's AI slowdown could mean for Anthropic's imminent IPO"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 16,
-      "pct": 12.9,
-      "sources": "CNBC(7), Yahoo(4), FT(3), MarketWatch(2)",
-      "sample_headlines": [
+        "No one and done: The Fed will hike at least two times over the next year, according to CNBC survey",
+        "Treasury yields are hovering above a critical threshold. Here's what it means for stocks",
+        "Oil and Treasury yields haven\u2019t moved this closely in seven years. That\u2019s bad news for markets",
         "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
-        "Trump goes scorched earth on AI warnings, raging about data center opposition and regulation",
-        "Warren to rip Clarity Act on Senate floor ahead of key preliminary vote",
-        "Oil prices rise after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz",
-        "Satellite images show extent of damage to Saudi Arabia\u2019s oil pipeline that bypasses Strait of Hormuz"
+        "Why a Federal Reserve rate hike could be a \u2018rare win\u2019 for your retirement money"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 16,
+      "pct": 14.4,
+      "sources": "CNBC(10), Yahoo(4), MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "OpenAI CFO Sarah Friar emphasizes 'need to take safety seriously' on AI risks",
+        "Two camps have emerged in the debate over AI safety and regulation",
+        "Nvidia and Anthropic CEOs diverge on AI safety at Dreamforce: Huang says fast vs. pacing is 'false choice'",
+        "OpenAI, Google, Anthropic discussing collaboration on AI safety issues",
+        "Will AI really destroy humanity? Pioneers who created the tech weigh in"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 14,
-      "pct": 11.3,
-      "sources": "CNBC(6), MarketWatch(2), FT(2), Bloomberg(2), Yahoo(2)",
+      "count": 11,
+      "pct": 9.9,
+      "sources": "Yahoo(5), Bloomberg(3), CNBC(1), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Oil prices rise after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz",
-        "As the oil surge continues, trader Mike Khouw sees more upside in this surging name",
-        "Ukraine says it's open to halting attacks on Russian energy after Trump's claims of deal",
-        "Satellite images show extent of damage to Saudi Arabia\u2019s oil pipeline that bypasses Strait of Hormuz",
-        "Prediction market traders think gas prices will hit new highs for the year"
+        "Oil and Treasury yields haven\u2019t moved this closely in seven years. That\u2019s bad news for markets",
+        "2 charts showing how oil is becoming the global market\u2019s biggest wild card",
+        "How Poland lost $230mn trying to buy Venezuelan oil with crypto",
+        "Emerging Assets Extend Four-Day Slide as Oil, 5% US Yield Bite",
+        "Venezuela Oil Opening Is \u2018Smoke and Mirrors,\u2019 Pickering Says"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 8,
-      "pct": 6.5,
-      "sources": "FT(4), Yahoo(2), CNBC(1), MarketWatch(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 10,
+      "pct": 9.0,
+      "sources": "CNBC(4), FT(2), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "LA Clippers owner Steve Ballmer apologizes over team sanctions",
-        "Saudi Arabia may be just days away from not being able to export much oil",
-        "Carney urges EU to cement trade deal as Ottawa seeks pivot from US",
-        "Oil hits $109 after Saudi Arabia closes vital export pipeline",
-        "France in \u2018astonishing\u2019 push to lift EU sanctions on Russian oligarch"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 5.6,
-      "sources": "CNBC(2), MarketWatch(1), Google News(1), FT(1), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
+        "Iran war has cost on average $246 million per day in its first five months, CBO finds",
+        "AWS says it can't restore service to Bahrain, UAE facilities 6 months after Iran strikes",
+        "Iranian foreign minister will head to China for talks, as Pentagon reveals financial cost of war",
         "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
-        "The Fed is likely to raise interest rates as inflation persists. What that means for consumers",
-        "10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms",
-        "10-year Treasury yield hits 5%, critical threshold for US economy and markets - CNN",
-        "Ten-year Treasury yield hits 5% for first time since 2023"
+        "War \u2018on all fronts\u2019 tests Saudi Arabia\u2019s crown prince"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 6,
-      "pct": 4.8,
-      "sources": "CNBC(3), MarketWatch(1), FT(1), Bloomberg(1)",
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 6.3,
+      "sources": "Yahoo(4), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "AI stocks sink while cybersecurity shares rally on slowdown fears",
-        "China says AI CEOs' call for a slowdown is 'fear mongering'",
-        "What Amodei's AI slowdown could mean for Anthropic's imminent IPO",
-        "Micron, Nvidia and other chip stocks fall after tech leaders call for an AI slowdown. Here\u2019s what to know.",
-        "US tech stocks fall after big AI groups call for slowdown"
+        "Trump\u2019s opposition to AI rules undercuts industry's calls for a slowdown",
+        "Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown",
+        "Dow clinches its worst September start since 2008 as history repeats itself",
+        "Dow Jones Futures Fall, Techs Tumble As Oil Prices Rise, Anthropic Leads AI Slowdown Call",
+        "Is VICI Properties Stock Underperforming the Dow?"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 4.0,
-      "sources": "CNBC(1), MarketWatch(1), Google News(1), FT(1), Yahoo(1)",
+      "count": 7,
+      "pct": 6.3,
+      "sources": "CNBC(2), Yahoo(2), Google News(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Why the election could make Washington's looming next fiscal crisis harder",
-        "10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms",
+        "Treasury yields are hovering above a critical threshold. Here's what it means for stocks",
+        "Oil and Treasury yields haven\u2019t moved this closely in seven years. That\u2019s bad news for markets",
         "10-year Treasury yield hits 5%, critical threshold for US economy and markets - CNN",
-        "Ten-year Treasury yield hits 5% for first time since 2023",
-        "Amazon\u2019s Zoox Enters San Francisco\u2019s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla"
+        "Ten-year Treasury yield hits highest level since 2007",
+        "Carney Expands Tax Break to Broad Range of Investments"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 2.4,
-      "sources": "CNBC(1), MarketWatch(1), Yahoo(1)",
+      "count": 6,
+      "pct": 5.4,
+      "sources": "Yahoo(4), CNBC(1), FT(1)",
       "sample_headlines": [
-        "Trump agrees to ethics requirements in crypto Clarity Act as GOP seeks Democratic votes",
-        "\u2018My total balance should be $20 million\u2019: I invested $1.1 million in a crypto platform. Have I lost it all?",
-        "1 Rising Cryptocurrency I'll Be Buying in September, and 1 I'll Definitely Avoid"
+        "Senate cloture vote on Clarity Act fails, dealing regulatory blow to crypto industry",
+        "How Poland lost $230mn trying to buy Venezuelan oil with crypto",
+        "Ethereum Price Prediction: Clarity Act Could Trigger ETH Breakout",
+        "Bitcoin and ethereum prices today, Monday, September 14, 2026: Crypto prices trying to hold as rate-hike expectations grow",
+        "Bitcoin and ethereum prices today, Tuesday, September 15, 2026: Crypto prices sliding this morning ahead of Fed meeting"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 1.6,
-      "sources": "CNBC(1), FT(1)",
+      "count": 5,
+      "pct": 4.5,
+      "sources": "CNBC(2), FT(2), Bloomberg(1)",
       "sample_headlines": [
-        "China says AI CEOs' call for a slowdown is 'fear mongering'",
-        "Hostile forces using AI for \u2018cognitive warfare\u2019 against China, spy agency warns"
+        "Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown",
+        "Iranian foreign minister will head to China for talks, as Pentagon reveals financial cost of war",
+        "China tightens control of overseas travel in sweeping new law",
+        "China\u2019s economy shows signs of weakness as investment slumps",
+        "Big Pharma Needs New Drugs. China Has Them"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 3,
+      "pct": 2.7,
+      "sources": "CNBC(2), Yahoo(1)",
+      "sample_headlines": [
+        "Trump\u2019s opposition to AI rules undercuts industry's calls for a slowdown",
+        "Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown",
+        "Dow Jones Futures Fall, Techs Tumble As Oil Prices Rise, Anthropic Leads AI Slowdown Call"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 0.9,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "Top Senate Republican floats a diesel export ban as prices soar. It might not work."
       ]
     }
   ]
