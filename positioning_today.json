@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-14",
-  "computed_at": "2026-09-15T21:02:58Z",
+  "as_of": "2026-09-15",
+  "computed_at": "2026-09-16T21:02:20Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -8,20 +8,41 @@
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bearish",
-    "tech_close": 7624.75,
-    "tech_sma20": 7686.88,
-    "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 1/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "1/11",
+    "tech_close": 7589.75,
+    "tech_sma20": 7680.6,
+    "rs_conviction_level": "unknown",
+    "rs_conviction_label": "Moderate \u2014 5/11 pairs aligned with regime",
+    "rs_aligned_pairs": "5/11",
     "tier1_open": false,
-    "macro_confluence": "1/3"
+    "macro_confluence": "0/3"
   },
-  "overweight_pairs": [],
+  "overweight_pairs": [
+    {
+      "pair": "XLE/XLK",
+      "rationale": "Energy vs tech",
+      "roc_20d": 9.13
+    },
+    {
+      "pair": "XLF/XLU",
+      "rationale": "Financials vs utilities",
+      "roc_20d": 5.57
+    }
+  ],
   "underweight_pairs": [
     {
       "pair": "IWM/SPY",
       "rationale": "Small cap vs large cap",
-      "roc_20d": -3.71
+      "roc_20d": -4.08
+    },
+    {
+      "pair": "XLI/GLD",
+      "rationale": "Industrial activity vs hard asset",
+      "roc_20d": -6.77
+    },
+    {
+      "pair": "XLI/XLP",
+      "rationale": "Industrials vs staples",
+      "roc_20d": -8.35
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
