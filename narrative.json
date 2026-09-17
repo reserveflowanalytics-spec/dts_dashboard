@@ -1,112 +1,113 @@
 {
-  "dominant": "Fed / Rates / Inflation",
-  "total_headlines": 112,
-  "fetched_at": "2026-09-16T21:01:43.977581+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 103,
+  "fetched_at": "2026-09-17T21:02:07.611564+00:00",
   "topics": [
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 20,
-      "pct": 17.9,
-      "sources": "CNBC(8), Bloomberg(5), MarketWatch(3), Yahoo(3), FT(1)",
-      "sample_headlines": [
-        "Trump demands 1% or lower interest rate after first Fed hike since 2023",
-        "Jeff Gundlach says the Fed should have hiked rates by more to fight rising inflation",
-        "10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks",
-        "Here is what changed in the new Fed statement under Warsh",
-        "Analysis: How Trump could reignite the Fed independence fight after Warsh's rate hike"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 18,
-      "pct": 16.1,
-      "sources": "CNBC(8), Bloomberg(5), Yahoo(3), FT(2)",
-      "sample_headlines": [
-        "10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks",
-        "Hyperscaler debt signals warning sign, Apollo cautions",
-        "Here is what changed in the new Fed statement under Warsh",
-        "Analysis: How Trump could reignite the Fed independence fight after Warsh's rate hike",
-        "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 11.6,
-      "sources": "CNBC(5), Yahoo(4), MarketWatch(2), FT(2)",
+      "count": 20,
+      "pct": 19.4,
+      "sources": "CNBC(8), FT(5), MarketWatch(3), Bloomberg(2), Yahoo(2)",
       "sample_headlines": [
-        "Anthropic policy chief says AI companies can't be expected to operate on 'honor code'",
-        "Sen. Blumenthal urges AI oversight: 'We're on the verge of losing control'",
-        "Pentagon CTO says U.S. government shouldn't take stakes in tech giants, questions adding AI rules",
-        "OpenAI investors have approached the company about a new funding round",
-        "Anthropic, OpenAI proposed new 'neutral' AI watchdogs. Why you should worry about the idea"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 8.0,
-      "sources": "Yahoo(4), CNBC(2), MarketWatch(2), Bloomberg(1)",
-      "sample_headlines": [
-        "World's top-performing sovereign wealth fund warns of looming pullback in U.S. stock market",
-        "J.B. Hunt stock plunges 13% after company warns third-quarter earnings will fall",
-        "Why optical stocks Lumentum and Coherent were the day\u2019s biggest S&P 500 gainers",
-        "Google is playing a different AI game than everyone else, and Wall Street may be missing the point",
-        "United, American Say Fuel Cost Surge May Mean Capacity Cuts"
+        "Jensen Huang says Nvidia will sell twice as many chips next year",
+        "AI needs to have 'reasonable guidelines,' Palantir's Karp tells CNBC",
+        "House heads home to campaign amid calls for urgent AI action",
+        "OpenAI reports 6 new instances of 'concerning model behavior' since March",
+        "A Chinese AI company just connected its model to Wall Street's leading data providers"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 4.5,
-      "sources": "CNBC(2), FT(2), Bloomberg(1)",
+      "count": 12,
+      "pct": 11.7,
+      "sources": "Bloomberg(5), Yahoo(5), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
-        "Trump donor Harold Hamm's Continental Resources to develop oil region in Venezuela",
-        "Trump oil ally Harold Hamm to invest in Venezuela",
-        "Chinese oil prices hit record highs after attacks on Saudi pipeline",
-        "Harold Hamm\u2019s Continental Set to Announce Venezuela Oil Deal"
+        "Oil prices fall as Saudi Arabia reportedly offers more crude via Hormuz after pipeline attack",
+        "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz",
+        "Gold Surges Along With US Treasuries as Oil Price Slide Deepens",
+        "Stocks, Bonds Rise After Fed-Day Drop as Oil Falls: Markets Wrap",
+        "Oil Drops as Traders See Supply Outages Proving Short-Lived"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 12,
+      "pct": 11.7,
+      "sources": "Yahoo(5), CNBC(3), FT(2), Bloomberg(2)",
+      "sample_headlines": [
+        "Trump photo appears to reference Kennedy Center demolition, judge orders advance notice of any move to knock it down",
+        "A Chinese AI company just connected its model to Wall Street's leading data providers",
+        "What an Oscar-winning movie can teach us about investing through the AI slowdown debate",
+        "Turkish authorities rush to stem fallout from stock market scandal",
+        "Wall Street warns trading boom is losing steam"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 10,
+      "pct": 9.7,
+      "sources": "Bloomberg(5), Yahoo(4), CNBC(1)",
+      "sample_headlines": [
+        "Bank of England defies Fed\u2019s rate-hike lead, leaving rates unchanged",
+        "Stocks, Bonds Rise After Fed-Day Drop as Oil Falls: Markets Wrap",
+        "Big Take: Why The Federal Reserve Raised Interest Rates",
+        "US Stocks Bounce Back From Fed Decision Slump as Oil Falls",
+        "Fed Hikes, Warsh's Credibility, Credit Concerns | Real Yield 9/17/2026"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 9,
+      "pct": 8.7,
+      "sources": "CNBC(3), MarketWatch(2), FT(2), Bloomberg(2)",
+      "sample_headlines": [
+        "GM touts new V-8 engines in revived \u2018truck wars\u2019 with Ford, Ram amid lackluster EV sales",
+        "Trump says U.S. \u2018hopefully\u2019 nearing end of Iran war as Saudi Arabia, Houthis trade strikes",
+        "Oil prices fall as Saudi Arabia reportedly offers more crude via Hormuz after pipeline attack",
+        "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz",
+        "Why growth stocks\u2019 surprising strength may be warning of a market bubble"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 3.6,
-      "sources": "CNBC(2), Bloomberg(2)",
+      "count": 3,
+      "pct": 2.9,
+      "sources": "CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "House set to pass sweeping Russia sanctions bill honoring Lindsey Graham",
-        "Canada invited to become EU\u2019s first \u2018associate member\u2019 as Trump trade war intensifies",
-        "Canadian M&A Sentiment Amid Trade War"
+        "'Hostile act': Trump threatens EU with tariffs over Canada associate membership proposal",
+        "Trump gains a tariff weapon against China and India. Will he use it?",
+        "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 2.9,
+      "sources": "CNBC(2), FT(1)",
+      "sample_headlines": [
+        "A Chinese AI company just connected its model to Wall Street's leading data providers",
+        "Trump gains a tariff weapon against China and India. Will he use it?",
+        "China\u2019s AI labs must accelerate development, says Huawei chair"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 3,
-      "pct": 2.7,
-      "sources": "CNBC(2), Yahoo(1)",
+      "pct": 2.9,
+      "sources": "CNBC(3)",
       "sample_headlines": [
-        "10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks",
-        "Living abroad doesn't end your U.S. tax obligations. What young expats need to know",
-        "Ocean Power Technologies grows defense footprint as backlog rises in fiscal Q1"
+        "As Republicans tout Trump's 'big beautiful bill,' here's who the tax breaks benefited most",
+        "Lawmakers must 'keep their options open' on Social Security reform, former Treasury Secretary Jack Lew says",
+        "Salesforce issues revenue target of over $63 billion for fiscal 2030, beating estimates"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 1.8,
-      "sources": "Yahoo(2)",
-      "sample_headlines": [
-        "Bitcoin and crypto stock prices today: Investors are on edge ahead of crucial \u2018Clarity Act\u2019 Senate vote",
-        "Clarity Act cloture vote fails: What it means for your crypto holdings"
-      ]
-    },
-    {
-      "topic": "China",
+      "topic": "Recession / Slowdown",
       "count": 1,
-      "pct": 0.9,
-      "sources": "FT(1)",
+      "pct": 1.0,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Chinese oil prices hit record highs after attacks on Saudi pipeline"
+        "What an Oscar-winning movie can teach us about investing through the AI slowdown debate"
       ]
     }
   ]
