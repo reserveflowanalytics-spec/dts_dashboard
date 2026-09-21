@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-17",
-  "computed_at": "2026-09-20T21:02:25Z",
+  "as_of": "2026-09-18",
+  "computed_at": "2026-09-21T21:03:34Z",
   "bias": "REDUCED",
   "conviction": "low",
   "bias_reason": "Tech bearish, RS conviction weak; hold cash buffer.",
@@ -21,17 +21,17 @@
     {
       "pair": "IWM/SPY",
       "rationale": "Small cap vs large cap",
-      "roc_20d": -4.35
+      "roc_20d": -4.43
     },
     {
       "pair": "XLI/GLD",
       "rationale": "Industrial activity vs hard asset",
-      "roc_20d": -3.5
+      "roc_20d": -2.26
     },
     {
       "pair": "XLI/XLP",
       "rationale": "Industrials vs staples",
-      "roc_20d": -3.72
+      "roc_20d": -2.7
     }
   ],
   "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
