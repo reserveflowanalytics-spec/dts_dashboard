@@ -1,125 +1,116 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 117,
-  "fetched_at": "2026-09-23T21:01:56.208052+00:00",
+  "total_headlines": 115,
+  "fetched_at": "2026-09-24T21:02:28.902649+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 24,
-      "pct": 20.5,
-      "sources": "Yahoo(9), CNBC(7), MarketWatch(3), Bloomberg(3), FT(2)",
+      "count": 19,
+      "pct": 16.5,
+      "sources": "Yahoo(9), Bloomberg(4), CNBC(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it",
-        "Why McDonald's is following Walmart and Amazon into the advertising business",
-        "Tesla Roadster reveal is creating a unique options opportunity, says Mike Khouw",
-        "A rare Microsoft bear warms up to the stock. Here's what changed their mind",
-        "Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 15,
-      "pct": 12.8,
-      "sources": "CNBC(7), Bloomberg(4), FT(3), MarketWatch(1)",
-      "sample_headlines": [
-        "Here's what happens to the economy when Treasury yields soar like they are now",
-        "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
-        "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert",
-        "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports",
-        "McDonald's CEO expects high inflation, lackluster traffic are here to stay"
+        "Mark Zuckerberg debuts $1,299 Meta VR Glasses and Muse Charm pendant as part of AI agent push",
+        "Meta's standoff with Amazon over Muse could be a sign of things to come",
+        "Hyundai expected to outsell Ford in third quarter as Detroit automakers lack hybrids",
+        "Here\u2019s how to position your portfolio for the next AI wave, according to Morgan Stanley",
+        "The AI agent revolution has moved a big step closer"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 15,
-      "pct": 12.8,
-      "sources": "Yahoo(10), Bloomberg(2), CNBC(1), MarketWatch(1), FT(1)",
+      "count": 19,
+      "pct": 16.5,
+      "sources": "Bloomberg(7), Yahoo(7), CNBC(4), MarketWatch(1)",
       "sample_headlines": [
-        "Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down",
-        "Bond yields surge above 5% as Wall Street fears more Fed rate hikes",
-        "Countries cancel Iran flights after US threatens to \u2018shut down\u2019 airlines",
-        "No Slowdown Expected Ahead of Midterms: Top Dealmakers",
-        "Copper Snaps Six-Day Rally as Inflation Concerns Cool Metals"
+        "Senate narrowly votes down resolution calling for end to Iran war",
+        "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
+        "As bond rout worsens, a trade Wall Street uses to replace them booms in popularity",
+        "Family offices double down on stocks and private equity even as inflation spurs worry, Citi survey finds",
+        "8% mortgage rates are \u2018not an impossibility\u2019 as the 30-year fixed rate surges"
       ]
     },
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 9.4,
-      "sources": "CNBC(6), FT(2), Yahoo(2), Bloomberg(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 13,
+      "pct": 11.3,
+      "sources": "CNBC(8), Bloomberg(2), Yahoo(2), MarketWatch(1)",
       "sample_headlines": [
-        "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
-        "Iran's president blames U.S., Israel for global instability in defiant UN speech",
-        "A rare Microsoft bear warms up to the stock. Here's what changed their mind",
-        "Iran says Trump\u2019s threats a sign of \u2018strategic desperation,\u2019 floats conditions for Hormuz reopening",
-        "AI drone maker hits $6.4 billion valuation as Ukraine war spurs defense tech"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 8,
-      "pct": 6.8,
-      "sources": "Bloomberg(3), Yahoo(3), CNBC(2)",
-      "sample_headlines": [
-        "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
-        "Activist Toms Capital urges Devon Energy in letter to explore alternatives, including a sale",
-        "Venezuela Spot Oil Sales Snarled by Surging Freight Costs",
-        "Latest Oil Market News and Analysis for Sept. 23",
-        "Oil Companies Taking Advantage of American Public, Says Rep. Burchett"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 6,
-      "pct": 5.1,
-      "sources": "CNBC(3), FT(1), Bloomberg(1), Yahoo(1)",
-      "sample_headlines": [
-        "As Trump and Xi meet, Chinese automakers could be a Pandora's box for U.S. auto industry",
-        "Trump faces Xi as strains with allies complicate U.S. pressure on China",
-        "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
-        "Xi Jinping set to arrive for high-stakes summit with Donald Trump",
-        "European Union Needs to Reduce Dependency on China, Says Spain's Prime Minister"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 2.6,
-      "sources": "CNBC(1), FT(1), Yahoo(1)",
-      "sample_headlines": [
-        "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
-        "US Treasury yields soar most since \u2018liberation day\u2019 tariffs shook markets",
-        "BMW CEO sees risk of cheap Chinese cars in Europe but opposes tariffs"
+        "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+        "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
+        "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
+        "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy",
+        "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 10,
+      "pct": 8.7,
+      "sources": "CNBC(5), Bloomberg(2), Yahoo(2), FT(1)",
+      "sample_headlines": [
+        "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+        "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
+        "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
+        "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy",
+        "Here's what happens to the economy when Treasury yields soar like they are now"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 9,
+      "pct": 7.8,
+      "sources": "CNBC(3), FT(3), Yahoo(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Senate narrowly votes down resolution calling for end to Iran war",
+        "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+        "Trump, Xi to talk Taiwan, AI, trade and Iran as DC summit kicks off",
+        "Goldman reaped more than $200mn in fees from hedge fund Situational Awareness",
+        "Russia could attack Nato country within months, Denmark warns"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 5,
+      "pct": 4.3,
+      "sources": "Bloomberg(2), CNBC(1), FT(1), Yahoo(1)",
+      "sample_headlines": [
+        "As Trump and Xi meet, Chinese automakers could be a Pandora's box for U.S. auto industry",
+        "Xi says US and China must \u2018coexist in peace\u2019 in historic White House visit",
+        "Senators Say They Want More on F-35 Parts Diverted to China",
+        "US, China Relationship 'Too Big to Fail,' Says Sen. Steve Daines",
+        "Chinese beauty product exporters are sitting pretty despite US trade dispute"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
       "count": 3,
       "pct": 2.6,
-      "sources": "CNBC(2), FT(1)",
+      "sources": "Bloomberg(3)",
       "sample_headlines": [
-        "Here's what happens to the economy when Treasury yields soar like they are now",
-        "Surging Treasury yields, big bond losses offer sizable tax savings opportunity to investors",
-        "US Treasury yields soar most since \u2018liberation day\u2019 tariffs shook markets"
+        "Stocks Waver as Oil Rally Triggers Bond Volatility: Markets Wrap",
+        "Gold Falls as Traders Monitor Oil Rebound and Fed Rate Path",
+        "Latest Oil Market News and Analysis for Sept. 24"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 1.7,
-      "sources": "Yahoo(2)",
+      "count": 3,
+      "pct": 2.6,
+      "sources": "CNBC(1), Bloomberg(1), Yahoo(1)",
       "sample_headlines": [
-        "Grant Cardone offers 10 Bitcoin bounty on finding a buyer for his private jet",
-        "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day"
+        "Pete Hegseth reports at least $3.1 million in cash, investments and bitcoin",
+        "Fed Unveils More Stablecoin Plans as Regulators Embrace Crypto",
+        "Strive CEO: Bitcoin Could \u2018Go to Infinity' as Dollar Debt Crisis Breaks"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 0.9,
-      "sources": "Bloomberg(1)",
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 1.7,
+      "sources": "MarketWatch(1), Yahoo(1)",
       "sample_headlines": [
-        "No Slowdown Expected Ahead of Midterms: Top Dealmakers"
+        "Costco earnings beat expectations, thanks to tariff refunds",
+        "Chinese beauty product exporters are sitting pretty despite US trade dispute"
       ]
     }
   ]
