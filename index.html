@@ -105,9 +105,9 @@ details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--se
     <span>Reserve Flow Analytics</span>
     <span><a href="https://reserveflowanalytics.substack.com" target="_blank" rel="noopener">Subscribe for the daily note &rarr;</a></span>
   </div>
-  <p class="disclaimer">Analytical research, not investment advice. Past signal performance does not guarantee
-    future results. All figures are generated algorithmically from public data (US Treasury, CFTC, FINRA, FRED);
-    no proprietary market data is used. Position sizing, entry timing, and risk management are your responsibility.
+  <p class="disclaimer">Analytical research, not investment advice. Nothing on this page is a trade signal:
+    it describes Treasury cash flows and the plumbing they move through. All figures are generated algorithmically
+    from public data (US Treasury, CFTC, FINRA, FRED); no proprietary market data is used.
     Contact: <a href="mailto:reserveflowanalytics@gmail.com" style="color:var(--mut)">reserveflowanalytics@gmail.com</a></p>
 </div>
 <script>
@@ -126,16 +126,15 @@ const monoFont  = {family:"'JetBrains Mono',monospace"};
 async function loadAll(){
   const j = async (u) => { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) throw new Error(u); return r.json(); };
   const t = async (u) => { try { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) return null; return r.text(); } catch(e) { return null; } };
-  const [viz, pos, sigTxt, sigRet, spx, spellTest] = await Promise.all([
+  const [viz, sigTxt, sigRet, spx, spellTest] = await Promise.all([
     j('viz_data.json'),
-    j('positioning_today.json').catch(()=>null),
     t('signal_log.jsonl'),
     j('signal_returns.json').catch(()=>null),
     j('spx_series.json').catch(()=>null),
     j('regime_spell_test_results.json').catch(()=>null),
   ]);
   const signalLog = (sigTxt||'').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l));
-  return { viz, pos, signalLog, signalReturns: sigRet, spx, spellTest };
+  return { viz, signalLog, signalReturns: sigRet, spx, spellTest };
 }
 
 function regimeStreak(log){
@@ -148,11 +147,10 @@ function regimeStreak(log){
 function renderToday(D){
   const el = document.getElementById('sec-today');
   const meta = D.viz.meta, cards = D.viz.cards, rep = D.viz.report || {};
-  const pos = D.pos;
   const rc = regimeColor(meta.regime);
-  const biasTxt = pos ? pos.bias.charAt(0)+pos.bias.slice(1).toLowerCase() : meta.regime;
-  const conv = pos ? pos.conviction : '';
-  const stale = pos && pos.as_of < meta.latest;
+  const cal = D.viz.calendar_context;
+  // Latest week where every buyer line is known (bank data lags about two weeks)
+  const absorb = (D.viz.issuance_absorption||[]).filter(w=>w.other_private_bn!=null).slice(-1)[0];
   const streak = regimeStreak(D.signalLog);
   const tga5 = (D.viz.narrative && D.viz.narrative.tga_5d != null) ? D.viz.narrative.tga_5d : null;
 
@@ -170,12 +168,15 @@ function renderToday(D){
 
   el.innerHTML = `
   <div class="bias-line">
-    <span class="bias-k">Today's Bias</span>
-    <span class="bias-v">${biasTxt}</span>
-    <span class="chip" style="color:${rc};border-color:${rc}">${meta.regime}</span>
-    ${conv?`<span class="mono" style="font-size:11px;color:var(--mut)">conviction: ${conv}</span>`:''}
+    <span class="bias-k">Fiscal regime</span>
+    <span class="bias-v" style="color:${rc}">${meta.regime}</span>
   </div>
-  ${stale?`<div class="stale">Positioning as of ${pos.as_of}; DTS data through ${meta.latest}.</div>`:''}
+  ${cal?`<p class="caption">Month to date through business day ${cal.business_day}:
+    <span class="mono">${fmtB(cal.mtd_bn)}</span> against a ${cal.years_used}-year average of
+    <span class="mono">${fmtB(cal.typical_mtd_bn)}</span> for this point in the month
+    (prior years <span class="mono">${fmtB(cal.prior_min_bn)}</span> to <span class="mono">${fmtB(cal.prior_max_bn)}</span>).
+    The regime label is largely a calendar clock: about 74% of its sign is predictable from the date alone,
+    so the comparison with prior years says more than the label.</p>`:''}
   <p class="lede">${md2b((rep.executive_summary||'').split('. ').slice(0,3).join('. ')+'.')}</p>
   <div class="statrow">
     <div class="stat"><div class="k">CFI 20d avg</div>
@@ -187,6 +188,12 @@ function renderToday(D){
     <div class="stat"><div class="k">Regime streak</div>
       <div class="v mono">${streak} days</div></div>
   </div>
+  ${absorb?`<p class="caption">Week to ${absorb.week_ending}: <span class="mono">${fmtB(absorb.issuance_bn)}</span> net Treasury
+    issuance, absorbed by the Fed <span class="mono">${fmtB(absorb.fed_bn)}</span>, banks
+    <span class="mono">${fmtB(absorb.banks_bn)}</span>, RRP-funded money funds <span class="mono">${fmtB(absorb.rrp_funded_bn)}</span>,
+    foreign official <span class="mono">${fmtB(absorb.foreign_official_bn)}</span> and other private buyers
+    <span class="mono">${fmtB(absorb.other_private_bn)}</span>. Only the other-private share drains both deposits and
+    reserves; see Under the Hood.</p>`:''}
   <svg viewBox="0 0 640 190" style="width:100%;display:block" role="img"
        aria-label="Sources and uses of Treasury cash over the last 20 sessions">
     <rect class="flownode" x="10" y="18" width="104" height="36" rx="2"/>
@@ -303,7 +310,6 @@ function renderDataSection(D){
 function renderTrackRecord(D){
   const el = document.getElementById('sec-track');
   const sum = D.signalReturns && D.signalReturns.summary;
-  const tt = D.viz.timing_trades && D.viz.timing_trades.track_record;
   const st = D.spellTest;
   const lp = v => v==null ? 'n/a' : ((v>=0?'+':MINUS)+Math.abs(v*100).toFixed(2)+'%');
 
@@ -347,8 +353,6 @@ function renderTrackRecord(D){
         ${hint5&&hint10?`Shorter horizons showed nominal positives (5d p = ${hint5.p.toFixed(2)},
         10d p = ${hint10.p.toFixed(2)}) that fail multiple-testing correction and concentrate in 2020
         ${exCovid?`(ex-COVID: ${lp(exCovid.obs)})`:''}; disclosed, not claimed.`:''}</p>
-      ${tt?`<p class="caption" style="margin-top:10px">Timing system (separate rules): ${tt.n_winners}/${tt.n_closed} closed trades
-        positive, ${tt.mean_return_pct>=0?'+':''}${tt.mean_return_pct}% mean return, avg hold ${Math.round(tt.avg_days_held)} days.</p>`:''}
     </div>
   </div>
   <p class="prose" style="margin-top:12px">Every signal logged since ${sum?sum.date_range.first:'inception'},
@@ -433,6 +437,35 @@ function setupUnderHood(D){
     <div class="chartwrap" style="height:180px;margin-top:12px"><canvas id="ch-iss"></canvas></div>
     <p class="caption">Net weekly settlement: positive = cash drained to fund issuance.</p>
   </details>
+  <details class="uth" id="uth-absorb">
+    <summary>Who absorbed Treasury issuance &middot; weekly, last 13 weeks</summary>
+    ${(D.viz.issuance_absorption||[]).length?`<div style="overflow-x:auto"><table class="rf-table"><thead><tr><th style="text-align:left">Week to</th>
+      <th>Net issuance</th><th>Fed</th><th>Banks</th><th>RRP-funded</th><th>Foreign official</th><th>Other private</th><th>Reserves</th>
+      </tr></thead><tbody>${D.viz.issuance_absorption.slice().reverse().map(w=>`<tr><td class="mono" style="text-align:left;white-space:nowrap">${w.week_ending}</td>
+      ${['issuance_bn','fed_bn','banks_bn','rrp_funded_bn','foreign_official_bn','other_private_bn','reserves_change_bn']
+        .map(k=>`<td class="mono">${w[k]==null?'pending':fmtB(w[k])}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`
+      :'<p class="caption">Absorption data unavailable.</p>'}
+    <p class="caption">Who buys the debt decides what issuance does. Fed purchases create reserves and deposits; bank
+      purchases swap reserves for bills with deposits unchanged; RRP-funded money-fund purchases draw down RRP and leave
+      reserves untouched; only other private buyers drain both deposits and reserves. Other private is the residual and
+      also holds measurement gaps (RRP is a proxy for money-fund buying). Bank data (Fed H.8) publishes about two weeks
+      after the Fed balance sheet (H.4.1), so recent weeks show pending. Reserves also move with the TGA and currency.</p>
+  </details>
+  <details class="uth" id="uth-wage">
+    <summary>Wage bill early read &middot; withheld taxes vs BEA wages (experimental)</summary>
+    ${(D.viz.wage_bill||[]).length?`<table class="rf-table"><thead><tr><th style="text-align:left">Month</th>
+      <th>Withheld taxes</th><th>DTS 3m YoY</th><th>BEA wages 3m YoY</th><th>Gap</th></tr></thead><tbody>
+      ${D.viz.wage_bill.slice().reverse().map(w=>`<tr><td class="mono" style="text-align:left;white-space:nowrap">${w.month}</td>
+        <td class="mono">$${w.withheld_bn.toFixed(1)}B</td>
+        <td class="mono">${w.dts_yoy_pct>=0?'+':MINUS}${Math.abs(w.dts_yoy_pct).toFixed(1)}%</td>
+        <td class="mono">${w.bea_yoy_pct==null?'pending':(w.bea_yoy_pct>=0?'+':MINUS)+Math.abs(w.bea_yoy_pct).toFixed(1)+'%'}</td>
+        <td class="mono">${w.gap_pp==null?'pending':(w.gap_pp>=0?'+':MINUS)+Math.abs(w.gap_pp).toFixed(1)+' pp'}</td></tr>`).join('')}
+      </tbody></table>`:'<p class="caption">Wage bill data unavailable.</p>'}
+    <p class="caption">Employers remit withheld income and payroll taxes within days of payday, so the Treasury total
+      tracks the national wage bill about four weeks before BEA publishes wages. It tracks only while withholding tables
+      are stable: in 2018 new tables pushed this measure to about ${MINUS}3% while wages grew about 5% for a year. Single
+      months can differ from BEA by 1 to 2 points. Experimental: shown beside the official figure so any gap is visible.</p>
+  </details>
   <details class="uth" id="uth-about">
     <summary>About the framework &middot; data, definitions, method</summary>
     <div style="font-size:12.5px;line-height:1.65;color:var(--sec);margin-top:10px">
@@ -444,8 +477,9 @@ function setupUnderHood(D){
       fiscal state from month-to-date flows, their year-over-year pace, and short-vs-medium momentum.
       It is a description, not a prediction: our pre-registered 2006-2026 test found no reliable forward
       SPX edge from the label alone, and the Track Record section reports that result rather than hiding it.
-      Where we do claim timing value (the trade signals), the claims come from separately tested rules
-      and every signal is logged the day it fires.</p>
+      Nothing on this page is a trade signal. Tests of the regime, calendar-adjusted flows, and positioning
+      rules against forward market returns found no reliable edge, so the site describes the flows rather
+      than forecasting from them.</p>
     </div>
   </details>`;
 
