@@ -1,101 +1,104 @@
 {
   "dominant": "No clear dominant narrative",
   "total_headlines": 71,
-  "fetched_at": "2026-09-25T21:03:15.678132+00:00",
+  "fetched_at": "2026-09-26T21:06:52.814633+00:00",
   "topics": [
     {
       "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 11.3,
-      "sources": "CNBC(6), Bloomberg(2)",
+      "count": 9,
+      "pct": 12.7,
+      "sources": "CNBC(5), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
-        "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
-        "U.S. crude oil falls nearly 8% for the week after Tehran and Washington hold talks at the U.N.",
-        "Warsh's regime change at the Fed pushes ahead \u2013 and meets resistance",
-        "Russia could attack a NATO country within months, Danish intelligence warns"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 9.9,
-      "sources": "CNBC(3), Bloomberg(3), FT(1)",
-      "sample_headlines": [
-        "Coca-Cola hires Rob Gehring from Monster Energy to run its North American operations",
+        "Boeing flags 737 Max software glitch affecting some automated approach functions",
+        "Trump rejects Iran's conditional ceasefire proposal, WSJ reports, as Saudi coalition intercepts projectiles",
         "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
         "U.S. crude oil falls nearly 8% for the week after Tehran and Washington hold talks at the U.N.",
-        "Maga base recoils as Trump goes all-in on AI",
-        "Stocks Climb as Oil Retreats on US-Iran Deal Hopes: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 9.9,
-      "sources": "CNBC(4), Bloomberg(2), FT(1)",
-      "sample_headlines": [
-        "Warsh's regime change at the Fed pushes ahead \u2013 and meets resistance",
-        "10-year Treasury yield hit a 19-year high\u2014and some investors see opportunity to buy bonds",
-        "10-year Treasury yield is little changed to end a volatile week",
-        "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-        "Soaring bond yields \u2018not even close\u2019 to cooling red-hot US economy, investors say"
+        "Warsh's regime change at the Fed pushes ahead \u2013 and meets resistance"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 7,
-      "pct": 9.9,
-      "sources": "CNBC(4), MarketWatch(3)",
+      "count": 8,
+      "pct": 11.3,
+      "sources": "CNBC(7), Bloomberg(1)",
       "sample_headlines": [
-        "Meta's 'powerful breakout' sets up a unique trading strategy, says Mike Khouw",
-        "Trump says Scott Bessent won't be AI czar",
-        "Microsoft packages business AI in single app as it tries to compete with Anthropic",
-        "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven",
-        "Apple\u2019s expensive new iPhones could be a double-edged sword for the company"
+        "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+        "OpenAI expands review of model behavior after more rogue agent incidents emerge",
+        "This may be the \u2018missing piece\u2019 for investors looking to boost AI exposure",
+        "China wants in on U.S. AI data center boom. Here's why",
+        "The blue-collar AI job market is booming. Will data center backlash make it go bust?"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 8.5,
+      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2)",
+      "sample_headlines": [
+        "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+        "Warsh's regime change at the Fed pushes ahead \u2013 and meets resistance",
+        "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
+        "Tax-free bond yields are in a sweet spot. Get in before it\u2019s too late.",
+        "McDonald\u2019s Selloff Hits 30% as Big Mac Inflation Spurs Pushback"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 5,
+      "pct": 7.0,
+      "sources": "CNBC(2), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Audemars Piguet says its Royal Pop collaboration with Swatch is breaking sales records, despite luxury watch slump and tariffs",
+        "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
+        "Medicines run short in Iran under US sanctions",
+        "Trump-Xi Summit Yields Coal Pledge as Tariff Talks Extend",
+        "The China Trade Problem That Tariffs Alone Can't Fix"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 5,
+      "pct": 7.0,
+      "sources": "CNBC(3), Bloomberg(2)",
+      "sample_headlines": [
+        "China wants in on U.S. AI data center boom. Here's why",
+        "Why Xi believes the U.S. and China can overcome the 'Thucydides Trap'",
+        "Chinese AI models surge in global popularity \u2014 and Washington is worried",
+        "US and China Seek Common Ground on AI",
+        "The China Trade Problem That Tariffs Alone Can't Fix"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(3)",
+      "sample_headlines": [
+        "Coca-Cola hires Rob Gehring from Monster Energy to run its North American operations",
+        "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
+        "U.S. crude oil falls nearly 8% for the week after Tehran and Washington hold talks at the U.N."
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 6,
-      "pct": 8.5,
-      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1), FT(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(1), Google News(1), Bloomberg(1)",
       "sample_headlines": [
-        "Top 10 things to watch in the stock market Friday",
-        "Nike\u2019s stock is one of the worst in the S&P 500 \u2014 and BofA says it\u2019s not done sliding",
-        "US bond sell-off pushes long-term yields to highest since 2004",
-        "Wall Street\u2019s \u201880/20\u2019 Shift Finds Fresh Fuel in Stock Bounceback",
-        "Dollar\u2019s Best Run Since March Has Wall Street Rethink View"
+        "Chinese AI models surge in global popularity \u2014 and Washington is worried",
+        "There's a New Threat to the Stock Market and President Donald Trump's Economy - Yahoo Finance",
+        "McDonald\u2019s Selloff Hits 30% as Big Mac Inflation Spurs Pushback"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 3,
       "pct": 4.2,
-      "sources": "CNBC(3)",
+      "sources": "CNBC(1), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "10-year Treasury yield hit a 19-year high\u2014and some investors see opportunity to buy bonds",
-        "10-year Treasury yield is little changed to end a volatile week",
-        "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.",
-        "China saw 'surprise' jump in U.S. orders ahead of Trump-Xi summit, private survey shows"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage"
+        "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+        "Tax-free bond yields are in a sweet spot. Get in before it\u2019s too late.",
+        "The great tourist tax boom"
       ]
     }
   ]
