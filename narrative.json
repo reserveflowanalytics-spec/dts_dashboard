@@ -1,99 +1,111 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 66,
-  "fetched_at": "2026-09-27T21:03:51.235727+00:00",
+  "total_headlines": 70,
+  "fetched_at": "2026-09-28T21:02:05.668385+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 22.7,
-      "sources": "CNBC(7), Bloomberg(4), FT(3), MarketWatch(1)",
+      "count": 18,
+      "pct": 25.7,
+      "sources": "CNBC(11), FT(3), MarketWatch(2), Bloomberg(2)",
       "sample_headlines": [
-        "Debt-hungry AI companies face increased risk as bond yields spike",
-        "Meta's Muse agent is attacking one of the economy's most profitable weak spots",
-        "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
-        "OpenAI expands review of model behavior after more rogue agent incidents emerge",
-        "This may be the \u2018missing piece\u2019 for investors looking to boost AI exposure"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 9,
-      "pct": 13.6,
-      "sources": "Bloomberg(6), CNBC(2), FT(1)",
-      "sample_headlines": [
-        "Iran's foreign minister says Tehran ready for 'doomsday' war with U.S., but leaves diplomacy on the table",
-        "Boeing flags 737 Max software glitch affecting some automated approach functions",
-        "Big companies warn lack of \u2018AI openness\u2019 could hit investment in Europe",
-        "Paramount Warner Deal Tests Hollywood\u2019s Future",
-        "US Iran Talks Hit Familiar Sticking Points"
+        "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
+        "Michael Burry believes the AI bubble 'may burst' sooner than he first believed",
+        "OpenAI sparked Hugging Face bids with early investment offer ahead of Nvidia's $13 billion deal",
+        "Nvidia share buyback plan gets $150 billion boost",
+        "Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 10.6,
-      "sources": "CNBC(4), MarketWatch(2), Bloomberg(1)",
+      "count": 11,
+      "pct": 15.7,
+      "sources": "Bloomberg(5), CNBC(3), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "At NFL games this season, drone defense tech aims to bring down disruptions",
-        "Wall Street money takes back over from small investors as driving force of the stock market",
-        "Top Wall Street analysts like these 3 dividend stocks for steady income",
-        "Here are the 4 big things we're watching in the stock market in the week ahead",
-        "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth"
+        "Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown",
+        "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
+        "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
+        "Bond yields move relentlessly higher, as Wall Street wonders how much more tech stocks can take",
+        "PepsiCo plans to raise prices on sodas, chips and dip \u2014 and that has Wall Street worried"
       ]
     },
     {
-      "topic": "China",
-      "count": 5,
-      "pct": 7.6,
-      "sources": "CNBC(2), Bloomberg(2), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 8,
+      "pct": 11.4,
+      "sources": "Bloomberg(4), CNBC(3), FT(1)",
       "sample_headlines": [
-        "China wants in on U.S. AI data center boom. Here's why",
-        "Why Xi believes the U.S. and China can overcome the 'Thucydides Trap'",
-        "Trump asked Xi if China wanted to buy American weapons, US envoy says",
-        "China Dispatches Pair of Pandas to Atlanta Zoo: CCTV Reports",
-        "China\u2019s Consumer Stocks Face Lost Decade as AI Steals Spotlight"
+        "Boeing 737 Max 10 certification delayed by software issue, FAA says",
+        "Five arrested over alleged bomb plot at UK air base used by U.S.; Iran denies link",
+        "Meta, Google, Amazon, Microsoft draw Sen. Warren questions about AI tax subsidies",
+        "Netanyahu under pressure over reports he was warned about October 7",
+        "Stocks Tumble as US-Iran Stalemate Stokes Inflation Concerns"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 4.5,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "count": 6,
+      "pct": 8.6,
+      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Debt-hungry AI companies face increased risk as bond yields spike",
-        "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
-        "Inflation Keeps Pressure on the Fed"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 4.5,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Audemars Piguet says its Royal Pop collaboration with Swatch is breaking sales records, despite luxury watch slump and tariffs",
-        "The India shock: exporting workers to the world",
-        "A Hockey Legend, a New Bridge, and the Trade War Tearing Neighbors Apart"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 3.0,
-      "sources": "FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Private credit turmoil eases as investor withdrawals slow",
-        "Tremors From AI to Oil Boost Popular Hedge Fund Dispersion Trade"
+        "Feds can't withhold counterterrorism funds from states to force election admin changes, judge rules",
+        "Treasury yields rise as march to multiyear highs continues",
+        "Bond yields move relentlessly higher, as Wall Street wonders how much more tech stocks can take",
+        "Stocks Tumble as US-Iran Stalemate Stokes Inflation Concerns",
+        "Stocks Fall as US-Iran Standoff Boosts Bond Yields: Markets Wrap"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 5,
+      "pct": 7.1,
+      "sources": "CNBC(4), Bloomberg(1)",
+      "sample_headlines": [
+        "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
+        "Treasury yields rise as march to multiyear highs continues",
+        "Meta, Google, Amazon, Microsoft draw Sen. Warren questions about AI tax subsidies",
+        "Taxpayer-funded Trump ads draw bipartisan scrutiny ahead of midterms",
+        "EM Debt Turns Negative for Year as Treasury Selloff Bites"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 5.7,
+      "sources": "Bloomberg(2), CNBC(1), FT(1)",
+      "sample_headlines": [
+        "Oil prices off highs after reports Saudi pipeline ramping back up",
+        "Bond sell-off deepens as oil prices rise",
+        "Latest Oil Market News and Analysis for Sept. 28",
+        "Kenyan Court Pauses Construction of $16 Billion Dangote Refinery"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Trump \u2018very seriously\u2019 considering diesel export ban as global supply crunch worsens",
+        "The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point."
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
       "count": 1,
-      "pct": 1.5,
+      "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "The 10-year Treasury yield is at its highest in nearly two decades. How we got here"
+        "Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point."
       ]
     }
   ]
