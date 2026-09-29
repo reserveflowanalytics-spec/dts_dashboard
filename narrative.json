@@ -1,93 +1,98 @@
 {
   "dominant": "AI / Tech",
   "total_headlines": 70,
-  "fetched_at": "2026-09-28T21:02:05.668385+00:00",
+  "fetched_at": "2026-09-29T21:02:53.755100+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 18,
-      "pct": 25.7,
-      "sources": "CNBC(11), FT(3), MarketWatch(2), Bloomberg(2)",
-      "sample_headlines": [
-        "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
-        "Michael Burry believes the AI bubble 'may burst' sooner than he first believed",
-        "OpenAI sparked Hugging Face bids with early investment offer ahead of Nvidia's $13 billion deal",
-        "Nvidia share buyback plan gets $150 billion boost",
-        "Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
       "count": 11,
       "pct": 15.7,
-      "sources": "Bloomberg(5), CNBC(3), MarketWatch(2), FT(1)",
+      "sources": "CNBC(6), MarketWatch(3), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown",
-        "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
-        "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
-        "Bond yields move relentlessly higher, as Wall Street wonders how much more tech stocks can take",
-        "PepsiCo plans to raise prices on sodas, chips and dip \u2014 and that has Wall Street worried"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 11.4,
-      "sources": "Bloomberg(4), CNBC(3), FT(1)",
-      "sample_headlines": [
-        "Boeing 737 Max 10 certification delayed by software issue, FAA says",
-        "Five arrested over alleged bomb plot at UK air base used by U.S.; Iran denies link",
-        "Meta, Google, Amazon, Microsoft draw Sen. Warren questions about AI tax subsidies",
-        "Netanyahu under pressure over reports he was warned about October 7",
-        "Stocks Tumble as US-Iran Stalemate Stokes Inflation Concerns"
+        "Trump says he and tech leaders signed AI agreement that is 'morally binding'",
+        "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+        "Gina Raimondo thinks AI ultimately will create jobs. It's the initial mass layoffs wave that worries her",
+        "John Ternus' vision for Apple is coming into view, and we like what we see",
+        "Microsoft shares might be rangebound. Here's how you can still make money"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 6,
       "pct": 8.6,
-      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1)",
+      "sources": "CNBC(3), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Feds can't withhold counterterrorism funds from states to force election admin changes, judge rules",
-        "Treasury yields rise as march to multiyear highs continues",
-        "Bond yields move relentlessly higher, as Wall Street wonders how much more tech stocks can take",
-        "Stocks Tumble as US-Iran Stalemate Stokes Inflation Concerns",
-        "Stocks Fall as US-Iran Standoff Boosts Bond Yields: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 7.1,
-      "sources": "CNBC(4), Bloomberg(1)",
-      "sample_headlines": [
-        "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
-        "Treasury yields rise as march to multiyear highs continues",
-        "Meta, Google, Amazon, Microsoft draw Sen. Warren questions about AI tax subsidies",
-        "Taxpayer-funded Trump ads draw bipartisan scrutiny ahead of midterms",
-        "EM Debt Turns Negative for Year as Treasury Selloff Bites"
+        "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
+        "30-year Treasury bond yield scales to highest level since 2002",
+        "Education Department extends deadline for student loan interest rate discount",
+        "Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves",
+        "US 30-year Treasury yield hits highest since 2002"
       ]
     },
     {
       "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 7.1,
+      "sources": "Bloomberg(4), FT(1)",
+      "sample_headlines": [
+        "Bond investors become oil traders as Iran war drives yields",
+        "Bank of Canada Deputy Sees \u2018Dilemma\u2019 on Trade War, Energy Shock",
+        "Chile\u2019s Largest Refinery to Undergo Work Amid Diesel Crunch",
+        "Latest Oil Market News and Analysis for Sept. 29",
+        "OPEC+ Likely to Stick With Plan for Steady Quotas, Delegates Say"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
       "count": 4,
       "pct": 5.7,
-      "sources": "Bloomberg(2), CNBC(1), FT(1)",
+      "sources": "FT(3), Bloomberg(1)",
       "sample_headlines": [
-        "Oil prices off highs after reports Saudi pipeline ramping back up",
-        "Bond sell-off deepens as oil prices rise",
-        "Latest Oil Market News and Analysis for Sept. 28",
-        "Kenyan Court Pauses Construction of $16 Billion Dangote Refinery"
+        "Anthropic warns of \u2018existential risks to humanity\u2019 in IPO prospectus",
+        "Mediators push to break US-Iran deadlock",
+        "Bond investors become oil traders as Iran war drives yields",
+        "Bank of Canada Deputy Sees \u2018Dilemma\u2019 on Trade War, Energy Shock"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 4.3,
+      "sources": "CNBC(2), FT(1)",
+      "sample_headlines": [
+        "30-year Treasury bond yield scales to highest level since 2002",
+        "Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury",
+        "US 30-year Treasury yield hits highest since 2002"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 2,
       "pct": 2.9,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump \u2018very seriously\u2019 considering diesel export ban as global supply crunch worsens",
-        "The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point."
+        "America's Canadian import restrictions come into force. Here are the products barred from entry",
+        "Bank of Canada Deputy Sees \u2018Dilemma\u2019 on Trade War, Energy Shock"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not U.S.",
+        "Two Indian nationals charged with smuggling counterfeit Ozempic from China: DOJ"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Trump says he and tech leaders signed AI agreement that is 'morally binding'",
+        "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity"
       ]
     },
     {
@@ -96,16 +101,16 @@
       "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown"
+        "Gina Raimondo thinks AI ultimately will create jobs. It's the initial mass layoffs wave that worries her"
       ]
     },
     {
-      "topic": "China",
+      "topic": "Crypto",
       "count": 1,
       "pct": 1.4,
       "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point."
+        "\u2018I\u2019m never selling\u2019: I\u2019m 47 and buy bitcoin with every dollar I earn. Am I crazy?"
       ]
     }
   ]

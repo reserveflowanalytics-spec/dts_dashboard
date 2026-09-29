@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-25",
-  "computed_at": "2026-09-28T21:02:42Z",
+  "as_of": "2026-09-28",
+  "computed_at": "2026-09-29T21:03:13Z",
   "bias": "LONG",
   "conviction": "low-medium",
   "bias_reason": "Tech bullish but RS conviction not at high.",
@@ -8,11 +8,11 @@
   "signals": {
     "fiscal_regime": "Supportive",
     "tech_regime": "bullish",
-    "tech_close": 7804.75,
-    "tech_sma20": 7696.69,
+    "tech_close": 7746.5,
+    "tech_sma20": 7697.89,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 2/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "2/11",
+    "rs_conviction_label": "Low \u2014 only 3/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "3/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -20,12 +20,17 @@
     {
       "pair": "XLI/GLD",
       "rationale": "Industrial activity vs hard asset",
-      "roc_20d": 2.67
+      "roc_20d": 3.37
+    },
+    {
+      "pair": "HYG/TLT",
+      "rationale": "Credit risk appetite vs duration safety",
+      "roc_20d": 2.68
     },
     {
       "pair": "KRE/XLU",
       "rationale": "Regional banks vs utilities",
-      "roc_20d": 5.0
+      "roc_20d": 3.2
     }
   ],
   "underweight_pairs": [],
