@@ -1,116 +1,100 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 70,
-  "fetched_at": "2026-09-29T21:02:53.755100+00:00",
+  "total_headlines": 71,
+  "fetched_at": "2026-09-30T21:01:37.985543+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 15.7,
-      "sources": "CNBC(6), MarketWatch(3), FT(1), Bloomberg(1)",
+      "count": 15,
+      "pct": 21.1,
+      "sources": "CNBC(7), Bloomberg(4), FT(3), MarketWatch(1)",
       "sample_headlines": [
-        "Trump says he and tech leaders signed AI agreement that is 'morally binding'",
-        "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
-        "Gina Raimondo thinks AI ultimately will create jobs. It's the initial mass layoffs wave that worries her",
-        "John Ternus' vision for Apple is coming into view, and we like what we see",
-        "Microsoft shares might be rangebound. Here's how you can still make money"
+        "Sen. Hawley: OpenAI CEO Sam Altman declined to testify at rogue AI hearing",
+        "Two trades that just happened in 'Magnificent Seven' stocks point to big gains ahead",
+        "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+        "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+        "The market search for balance sheet cash cow 'quality' stocks is shifting with mega AI spend"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 8.6,
-      "sources": "CNBC(3), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 9,
+      "pct": 12.7,
+      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
-        "30-year Treasury bond yield scales to highest level since 2002",
-        "Education Department extends deadline for student loan interest rate discount",
-        "Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves",
-        "US 30-year Treasury yield hits highest since 2002"
+        "Fed watchdog finds renovation failures, but no grounds for criminal referral",
+        "DOJ accuses Minnesota federal judges of misconduct for NY Times immigration interviews",
+        "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
+        "10-year Treasury yield is higher as traders look past inflation data, await jobs report",
+        "U.S. bond yields post biggest jump in a generation as global rout rattles investors"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 7.1,
-      "sources": "Bloomberg(4), FT(1)",
+      "topic": "Equities / Market moves",
+      "count": 8,
+      "pct": 11.3,
+      "sources": "Bloomberg(6), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Bond investors become oil traders as Iran war drives yields",
-        "Bank of Canada Deputy Sees \u2018Dilemma\u2019 on Trade War, Energy Shock",
-        "Chile\u2019s Largest Refinery to Undergo Work Amid Diesel Crunch",
-        "Latest Oil Market News and Analysis for Sept. 29",
-        "OPEC+ Likely to Stick With Plan for Steady Quotas, Delegates Say"
+        "U.S. bond yields post biggest jump in a generation as global rout rattles investors",
+        "US government debt rout triggers \u2018vicious loop\u2019 of selling",
+        "S&P 500 Falls at End of Worst Month Since June: Markets Wrap",
+        "S&P 500 Suffers Worst Month Since June as Rate Worries Persist",
+        "Munis Snap Selloff in Biggest Rally in More Than a Year"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 4,
-      "pct": 5.7,
-      "sources": "FT(3), Bloomberg(1)",
+      "count": 6,
+      "pct": 8.5,
+      "sources": "CNBC(4), FT(2)",
       "sample_headlines": [
-        "Anthropic warns of \u2018existential risks to humanity\u2019 in IPO prospectus",
-        "Mediators push to break US-Iran deadlock",
-        "Bond investors become oil traders as Iran war drives yields",
-        "Bank of Canada Deputy Sees \u2018Dilemma\u2019 on Trade War, Energy Shock"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 4.3,
-      "sources": "CNBC(2), FT(1)",
-      "sample_headlines": [
-        "30-year Treasury bond yield scales to highest level since 2002",
-        "Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury",
-        "US 30-year Treasury yield hits highest since 2002"
+        "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained",
+        "Elon Musk, Palmer Luckey and Newt Gingrich to help Pentagon with warfare initiative, Hegseth says",
+        "Commerce Secretary Howard Lutnick reports more than $250 million in income last year",
+        "Trump denies offering Iran sanctions relief; Tehran receives U.S. proposal following Qatar talks",
+        "One pilot of Israel-bound flight stabbed the other and tried to crash plane"
       ]
     },
     {
       "topic": "Trade / Tariffs",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "CNBC(3), Google News(1)",
+      "sample_headlines": [
+        "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained",
+        "Trump's latest global tariffs face trade court challenge",
+        "Trump denies offering Iran sanctions relief; Tehran receives U.S. proposal following Qatar talks",
+        "U.S. Ban Officially Takes Effect on $1 Billion in Canadian Imports - American Ag Network"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
       "count": 2,
-      "pct": 2.9,
+      "pct": 2.8,
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "America's Canadian import restrictions come into force. Here are the products barred from entry",
-        "Bank of Canada Deputy Sees \u2018Dilemma\u2019 on Trade War, Energy Shock"
+        "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained",
+        "Latest Oil Market News and Analysis for Sept. 30"
       ]
     },
     {
       "topic": "China",
       "count": 2,
-      "pct": 2.9,
-      "sources": "CNBC(2)",
+      "pct": 2.8,
+      "sources": "CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not U.S.",
-        "Two Indian nationals charged with smuggling counterfeit Ozempic from China: DOJ"
+        "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
+        "Adding Lilly\u2019s new drug to Zepbound helped people lose more weight \u2014 but there were more side effects"
       ]
     },
     {
-      "topic": "Equities / Market moves",
+      "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 2.9,
+      "pct": 2.8,
       "sources": "CNBC(2)",
       "sample_headlines": [
-        "Trump says he and tech leaders signed AI agreement that is 'morally binding'",
-        "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Gina Raimondo thinks AI ultimately will create jobs. It's the initial mass layoffs wave that worries her"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "MarketWatch(1)",
-      "sample_headlines": [
-        "\u2018I\u2019m never selling\u2019: I\u2019m 47 and buy bitcoin with every dollar I earn. Am I crazy?"
+        "Treasury launches student loan support center as new data show 9.3 million borrowers in default",
+        "10-year Treasury yield is higher as traders look past inflation data, await jobs report"
       ]
     }
   ]
