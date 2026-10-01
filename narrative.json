@@ -1,100 +1,101 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 71,
-  "fetched_at": "2026-09-30T21:01:37.985543+00:00",
+  "total_headlines": 72,
+  "fetched_at": "2026-10-01T21:03:22.322966+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 21.1,
-      "sources": "CNBC(7), Bloomberg(4), FT(3), MarketWatch(1)",
+      "count": 11,
+      "pct": 15.3,
+      "sources": "CNBC(7), FT(3), MarketWatch(1)",
       "sample_headlines": [
-        "Sen. Hawley: OpenAI CEO Sam Altman declined to testify at rogue AI hearing",
-        "Two trades that just happened in 'Magnificent Seven' stocks point to big gains ahead",
-        "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-        "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
-        "The market search for balance sheet cash cow 'quality' stocks is shifting with mega AI spend"
+        "California Gov. Gavin Newsom bans AI 'robo bosses' in landmark state law, reversing his earlier veto",
+        "Google unveils latest AI model, but Wall Street wants a breakout personal agent",
+        "Jim Cramer sees a huge catalyst on the horizon for Apple. How to play the stock",
+        "Former LinkedIn chief Roslansky to leave Microsoft, following other exec departures",
+        "Next OpenAIs and Anthropics may come straight to retail market. Here's what to know before investing"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 9,
-      "pct": 12.7,
-      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
+      "pct": 12.5,
+      "sources": "Bloomberg(4), CNBC(3), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Fed watchdog finds renovation failures, but no grounds for criminal referral",
-        "DOJ accuses Minnesota federal judges of misconduct for NY Times immigration interviews",
-        "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
-        "10-year Treasury yield is higher as traders look past inflation data, await jobs report",
-        "U.S. bond yields post biggest jump in a generation as global rout rattles investors"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 11.3,
-      "sources": "Bloomberg(6), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "U.S. bond yields post biggest jump in a generation as global rout rattles investors",
-        "US government debt rout triggers \u2018vicious loop\u2019 of selling",
-        "S&P 500 Falls at End of Worst Month Since June: Markets Wrap",
-        "S&P 500 Suffers Worst Month Since June as Rate Worries Persist",
-        "Munis Snap Selloff in Biggest Rally in More Than a Year"
+        "Trump could target three Fed governors. Removing them may be harder than it looks",
+        "10-year Treasury yield slides after hitting highest levels in 24 years",
+        "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+        "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
+        "Top Fed official signals central bank will keep rates on hold in October"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.5,
-      "sources": "CNBC(4), FT(2)",
+      "count": 8,
+      "pct": 11.1,
+      "sources": "CNBC(4), FT(3), MarketWatch(1)",
       "sample_headlines": [
-        "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained",
-        "Elon Musk, Palmer Luckey and Newt Gingrich to help Pentagon with warfare initiative, Hegseth says",
-        "Commerce Secretary Howard Lutnick reports more than $250 million in income last year",
-        "Trump denies offering Iran sanctions relief; Tehran receives U.S. proposal following Qatar talks",
-        "One pilot of Israel-bound flight stabbed the other and tried to crash plane"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "CNBC(3), Google News(1)",
-      "sample_headlines": [
-        "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained",
-        "Trump's latest global tariffs face trade court challenge",
-        "Trump denies offering Iran sanctions relief; Tehran receives U.S. proposal following Qatar talks",
-        "U.S. Ban Officially Takes Effect on $1 Billion in Canadian Imports - American Ag Network"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained",
-        "Latest Oil Market News and Analysis for Sept. 30"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
-        "Adding Lilly\u2019s new drug to Zepbound helped people lose more weight \u2014 but there were more side effects"
+        "Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East",
+        "Boeing engineers and technical workers approve new contract, avoiding strike",
+        "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack",
+        "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
+        "Financial stocks are falling below a key chart level to warn the worst is yet to come"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(2)",
+      "count": 7,
+      "pct": 9.7,
+      "sources": "CNBC(4), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
-        "Treasury launches student loan support center as new data show 9.3 million borrowers in default",
-        "10-year Treasury yield is higher as traders look past inflation data, await jobs report"
+        "Trump Accounts have auto-enrolled more than 60 million children, Treasury says",
+        "10-year Treasury yield slides after hitting highest levels in 24 years",
+        "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack",
+        "Racehorse market breaks records riding high on tax breaks, stock market gains",
+        "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 5,
+      "pct": 6.9,
+      "sources": "CNBC(2), FT(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Google unveils latest AI model, but Wall Street wants a breakout personal agent",
+        "Racehorse market breaks records riding high on tax breaks, stock market gains",
+        "Accenture shares surge as consultancy confounds AI fears",
+        "Eurozone borrowing costs surge in global bond rout",
+        "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "CNBC(4)",
+      "sample_headlines": [
+        "Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East",
+        "Europe\u2019s winter energy crunch may already be underway. Two U.S. stocks that may benefit",
+        "Billionaire family offices bet on geothermal energy, brain implants in September",
+        "South Korean President Lee pushes back on Alaska LNG project after Trump touts Seoul's participation"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Nike announces layoffs as part of restructuring plan"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack"
       ]
     }
   ]
