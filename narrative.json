@@ -1,102 +1,99 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 74,
-  "fetched_at": "2026-10-02T21:01:54.215036+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 69,
+  "fetched_at": "2026-10-03T21:02:21.827740+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 17.6,
-      "sources": "CNBC(5), FT(4), Bloomberg(3), MarketWatch(1)",
+      "topic": "AI / Tech",
+      "count": 9,
+      "pct": 13.0,
+      "sources": "CNBC(6), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes",
-        "The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
-        "Nike shares tumble after weak revenue outlook and layoff plans underway",
-        "How AI is redefining Wall Street jobs \u2014 and boosting demand for this new 'hottest skill' by 1,721%",
-        "The secret signs the bond sell-off might be ending"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 12,
-      "pct": 16.2,
-      "sources": "CNBC(4), Bloomberg(4), FT(3), Google News(1)",
-      "sample_headlines": [
-        "DOJ says it will not reopen criminal probe into former Fed Chair Powell",
-        "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
-        "Traders now see little chance of a Fed rate hike in October after weak jobs report",
-        "Trump could target three Fed governors. Removing them may be harder than it looks",
-        "More swings for bond yields rattle financial markets worldwide - PBS"
+        "Tesla\u2019s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
+        "FlyDubai plane attack by co-pilot was an attempted 'terrorist' act, UAE says",
+        "Ford fends off Hyundai to retain No. 3 U.S. sales position in third quarter",
+        "How Nvidia, Micron and a surprising jobs report drove last week's stock action",
+        "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 10.8,
-      "sources": "CNBC(5), FT(3)",
+      "count": 6,
+      "pct": 8.7,
+      "sources": "CNBC(3), Bloomberg(3)",
       "sample_headlines": [
-        "FAA says Boeing 737 Max software glitch not a flight-safety issue",
         "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
-        "David Ellison says combined Paramount and Warner Bros. Discovery will be named Skydance",
         "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis",
-        "U.S. to send third carrier group to Mideast as Trump warns of new Iran strikes"
+        "FAA says Boeing 737 Max software glitch not a flight-safety issue",
+        "US Military Buildup Raises Iran Escalation Risk",
+        "Israel\u2019s Supreme Court Overturns Election Ban on Arab Parties"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 9.5,
-      "sources": "Bloomberg(4), CNBC(2), FT(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 8.7,
+      "sources": "CNBC(4), Google News(1), Bloomberg(1)",
       "sample_headlines": [
-        "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis",
-        "Trump wants South Korea in on Alaska LNG. Here\u2019s why Seoul is cautious",
-        "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels",
-        "Dollar Falls as Soft Job Data Roils Timing of Fed Rate-Hike Bets",
-        "CME Shelves Plans for 24/7 Oil Contract After Industry Pushback"
+        "High mortgage rates are trapping homeowners in place, and making renovations harder to afford",
+        "DOJ says it will not reopen criminal probe into former Fed Chair Powell",
+        "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
+        "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+        "The Powerful Yet Fragile Force Propping Up Stocks and the Economy - The New York Times"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 4,
-      "pct": 5.4,
-      "sources": "CNBC(3), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 6,
+      "pct": 8.7,
+      "sources": "CNBC(5), Bloomberg(1)",
       "sample_headlines": [
-        "Ford fends off Hyundai to retain No. 3 U.S. sales position in third quarter",
-        "How AI is redefining Wall Street jobs \u2014 and boosting demand for this new 'hottest skill' by 1,721%",
-        "Can Google's new model really catch up to OpenAI and Anthropic at the frontier?",
-        "Does AI have a soul? Pope Leo and Anthropic clash."
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 3,
-      "pct": 4.1,
-      "sources": "CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
-        "Nike shares tumble after weak revenue outlook and layoff plans underway",
-        "Why Robert Reich Is So Worried About Stagflation"
+        "Novig credits Sydney Sweeney-backed campaign for platform\u2019s surge in growth",
+        "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+        "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes",
+        "The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
+        "Nike shares tumble after weak revenue outlook and layoff plans underway"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 4.1,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "count": 4,
+      "pct": 5.8,
+      "sources": "CNBC(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
         "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes",
         "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
-        "Treasury Yields Climb, Adding to Weekly Gains | Closing Bell"
+        "The Treasury Department started Trump accounts for 60 million kids \u2014 but families still have to take this step if they want one",
+        "Can AI Outrun America\u2019s Deficit Problem?"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+        "Nike shares tumble after weak revenue outlook and layoff plans underway"
       ]
     },
     {
       "topic": "China",
       "count": 2,
-      "pct": 2.7,
-      "sources": "CNBC(2)",
+      "pct": 2.9,
+      "sources": "FT(2)",
       "sample_headlines": [
-        "Big Pharma\u2019s China deal spree grows with latest tie-up worth up to $7.8 billion",
-        "Brazil votes in high-stakes election as U.S.-China rivalry and debt loom large"
+        "China, America and the new Great Game",
+        "China launches anti-dumping probe into European chemical exports"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis"
       ]
     },
     {
@@ -105,7 +102,16 @@
       "pct": 1.4,
       "sources": "FT(1)",
       "sample_headlines": [
-        "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels"
+        "China launches anti-dumping probe into European chemical exports"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "MarketWatch(1)",
+      "sample_headlines": [
+        "\u2018I\u2019m never selling\u2019: I\u2019m 47 and buy bitcoin with every dollar I earn. Am I crazy?"
       ]
     }
   ]
