@@ -1,117 +1,96 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 69,
-  "fetched_at": "2026-10-03T21:02:21.827740+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 66,
+  "fetched_at": "2026-10-04T21:02:21.900529+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 9,
-      "pct": 13.0,
-      "sources": "CNBC(6), Bloomberg(2), FT(1)",
+      "count": 10,
+      "pct": 15.2,
+      "sources": "CNBC(4), FT(3), Bloomberg(3)",
       "sample_headlines": [
+        "A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables",
+        "Trump taps Director of National Intelligence Jay Clayton as AI czar",
         "Tesla\u2019s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
         "FlyDubai plane attack by co-pilot was an attempted 'terrorist' act, UAE says",
-        "Ford fends off Hyundai to retain No. 3 U.S. sales position in third quarter",
-        "How Nvidia, Micron and a surprising jobs report drove last week's stock action",
-        "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.7,
-      "sources": "CNBC(3), Bloomberg(3)",
-      "sample_headlines": [
-        "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
-        "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis",
-        "FAA says Boeing 737 Max software glitch not a flight-safety issue",
-        "US Military Buildup Raises Iran Escalation Risk",
-        "Israel\u2019s Supreme Court Overturns Election Ban on Arab Parties"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 8.7,
-      "sources": "CNBC(4), Google News(1), Bloomberg(1)",
-      "sample_headlines": [
-        "High mortgage rates are trapping homeowners in place, and making renovations harder to afford",
-        "DOJ says it will not reopen criminal probe into former Fed Chair Powell",
-        "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
-        "Traders now see little chance of a Fed rate hike in October after weak jobs report",
-        "The Powerful Yet Fragile Force Propping Up Stocks and the Economy - The New York Times"
+        "Legal risks pile up for Altman as OpenAI uncovers dozens of hacks"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 6,
-      "pct": 8.7,
-      "sources": "CNBC(5), Bloomberg(1)",
+      "count": 7,
+      "pct": 10.6,
+      "sources": "Bloomberg(3), CNBC(2), FT(2)",
       "sample_headlines": [
-        "Novig credits Sydney Sweeney-backed campaign for platform\u2019s surge in growth",
         "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
-        "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes",
-        "The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
-        "Nike shares tumble after weak revenue outlook and layoff plans underway"
+        "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+        "Dealmaking slowdown threatens early end to M&A boom",
+        "Wall Street\u2019s IPO fervour cools on tepid demand and valuation worries",
+        "Wall Street Strategists Steer Investors to Cross-Asset Hedges"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "Iran / Middle East conflict",
       "count": 4,
-      "pct": 5.8,
-      "sources": "CNBC(2), MarketWatch(1), Bloomberg(1)",
+      "pct": 6.1,
+      "sources": "CNBC(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes",
-        "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
-        "The Treasury Department started Trump accounts for 60 million kids \u2014 but families still have to take this step if they want one",
-        "Can AI Outrun America\u2019s Deficit Problem?"
+        "Ukraine\u2019s surprise robot offensive exposes a vulnerability in Putin\u2019s war machine",
+        "More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz",
+        "Schneider Electric nears deal to buy software group PTC for $20bn",
+        "Iraq Shifts Oil Strategy by Arranging Tanker to Move Past Hormuz"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 2,
-      "pct": 2.9,
-      "sources": "CNBC(2)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 4,
+      "pct": 6.1,
+      "sources": "MarketWatch(2), CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
-        "Nike shares tumble after weak revenue outlook and layoff plans underway"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 2.9,
-      "sources": "FT(2)",
-      "sample_headlines": [
-        "China, America and the new Great Game",
-        "China launches anti-dumping probe into European chemical exports"
+        "High mortgage rates are trapping homeowners in place, and making renovations harder to afford",
+        "Fed minutes coming this week could give markets important clues about future rate hikes",
+        "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
+        "Jobs Slow but Inflation Keeps Fed on Alert"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 4.5,
+      "sources": "Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis"
+        "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
+        "OPEC+ Agrees to Keep Oil Output Targets Steady in November",
+        "Iraq Shifts Oil Strategy by Arranging Tanker to Move Past Hormuz"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 4.5,
+      "sources": "FT(2), Bloomberg(1)",
+      "sample_headlines": [
+        "China closes hundreds of banks to bolster financial system",
+        "Japanese and Korean shipbuilders deploy robots to take on China",
+        "Can America Break China\u2019s Grip on Rare Earths?"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 1.5,
+      "sources": "FT(1)",
+      "sample_headlines": [
+        "Dealmaking slowdown threatens early end to M&A boom"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
-      "pct": 1.4,
-      "sources": "FT(1)",
-      "sample_headlines": [
-        "China launches anti-dumping probe into European chemical exports"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 1.4,
+      "pct": 1.5,
       "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "\u2018I\u2019m never selling\u2019: I\u2019m 47 and buy bitcoin with every dollar I earn. Am I crazy?"
+        "Fed minutes coming this week could give markets important clues about future rate hikes"
       ]
     }
   ]
