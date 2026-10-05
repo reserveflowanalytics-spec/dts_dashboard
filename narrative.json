@@ -1,96 +1,101 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 66,
-  "fetched_at": "2026-10-04T21:02:21.900529+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 72,
+  "fetched_at": "2026-10-05T21:01:34.097002+00:00",
   "topics": [
+    {
+      "topic": "Equities / Market moves",
+      "count": 11,
+      "pct": 15.3,
+      "sources": "Bloomberg(6), MarketWatch(4), CNBC(1)",
+      "sample_headlines": [
+        "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
+        "Investors see big opportunity in ferocious 2026 bond-market rout",
+        "\u2018The pain was excruciating\u2019: A friend in her 80s fell down her basement stairs. Could it have been avoided?",
+        "Saudi Aramco\u2019s CEO may be too downbeat about the road to restocking global oil supplies",
+        "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat"
+      ]
+    },
     {
       "topic": "AI / Tech",
       "count": 10,
-      "pct": 15.2,
-      "sources": "CNBC(4), FT(3), Bloomberg(3)",
+      "pct": 13.9,
+      "sources": "CNBC(6), MarketWatch(3), Bloomberg(1)",
       "sample_headlines": [
-        "A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables",
-        "Trump taps Director of National Intelligence Jay Clayton as AI czar",
-        "Tesla\u2019s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
-        "FlyDubai plane attack by co-pilot was an attempted 'terrorist' act, UAE says",
-        "Legal risks pile up for Altman as OpenAI uncovers dozens of hacks"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 10.6,
-      "sources": "Bloomberg(3), CNBC(2), FT(2)",
-      "sample_headlines": [
-        "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
-        "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
-        "Dealmaking slowdown threatens early end to M&A boom",
-        "Wall Street\u2019s IPO fervour cools on tepid demand and valuation worries",
-        "Wall Street Strategists Steer Investors to Cross-Asset Hedges"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 4,
-      "pct": 6.1,
-      "sources": "CNBC(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Ukraine\u2019s surprise robot offensive exposes a vulnerability in Putin\u2019s war machine",
-        "More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz",
-        "Schneider Electric nears deal to buy software group PTC for $20bn",
-        "Iraq Shifts Oil Strategy by Arranging Tanker to Move Past Hormuz"
+        "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
+        "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
+        "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
+        "Cerebras stock pops 9% after Sam Altman calls the chipmaker a 'close partner'",
+        "Nvidia's $20 billion Groq deal faces lawsuit alleging startup's stockholders were shortchanged"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 6.1,
-      "sources": "MarketWatch(2), CNBC(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "CNBC(2), FT(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "High mortgage rates are trapping homeowners in place, and making renovations harder to afford",
-        "Fed minutes coming this week could give markets important clues about future rate hikes",
-        "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
-        "Jobs Slow but Inflation Keeps Fed on Alert"
+        "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
+        "Surging Treasury yields don\u2019t signal a U.S. 'fiscal apocalypse' \u2014 yet",
+        "AI chatbots recommend shopping at Walmart over just about anywhere else, analysts find",
+        "French central bank head warns country at risk of being \u2018strangled by interest rates\u2019",
+        "Trump poised to ease red diesel limits in attempt to quell fuel inflation"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 5,
+      "pct": 6.9,
+      "sources": "CNBC(3), FT(2)",
+      "sample_headlines": [
+        "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
+        "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
+        "All U.S. bombers leave UK air base on concerns of suspected terror plots; more tankers struck near Iran in the Middle East",
+        "French central bank head warns country at risk of being \u2018strangled by interest rates\u2019",
+        "Citi to speed up promotion path for junior bankers as hiring war heats up"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.5,
-      "sources": "Bloomberg(2), MarketWatch(1)",
+      "count": 5,
+      "pct": 6.9,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
-        "OPEC+ Agrees to Keep Oil Output Targets Steady in November",
-        "Iraq Shifts Oil Strategy by Arranging Tanker to Move Past Hormuz"
+        "Trump tells South Korea to sign on to Alaska LNG deal or 'I'll just charge them more'",
+        "Saudi Aramco\u2019s CEO may be too downbeat about the road to restocking global oil supplies",
+        "TotalEnergies boss hails \u2018opportunities\u2019 created by global market turmoil",
+        "Latest Oil Market News and Analysis for Oct. 5",
+        "Ninepoint\u2019s Athabasca Bet Delivers 6,500% Gain on Cenovus Oil Merger Deal"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "CNBC(2), Bloomberg(2)",
+      "sample_headlines": [
+        "Three tax votes in November that will affect high earners",
+        "Surging Treasury yields don\u2019t signal a U.S. 'fiscal apocalypse' \u2014 yet",
+        "LA Schools Face High Fiscal Solvency Risk, State Report Finds",
+        "Trump Plans to Ease Limits on Tax-Exempt Diesel Variety"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 4.5,
-      "sources": "FT(2), Bloomberg(1)",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "China closes hundreds of banks to bolster financial system",
-        "Japanese and Korean shipbuilders deploy robots to take on China",
-        "Can America Break China\u2019s Grip on Rare Earths?"
+        "China shuts hundreds of banks as Beijing moves to shore up its financial system"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "Crypto",
       "count": 1,
-      "pct": 1.5,
-      "sources": "FT(1)",
+      "pct": 1.4,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Dealmaking slowdown threatens early end to M&A boom"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.5,
-      "sources": "MarketWatch(1)",
-      "sample_headlines": [
-        "Fed minutes coming this week could give markets important clues about future rate hikes"
+        "Fairshake crypto PAC network backs 32 House candidates in midterms"
       ]
     }
   ]
