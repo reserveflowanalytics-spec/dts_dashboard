@@ -1,101 +1,100 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 72,
-  "fetched_at": "2026-10-05T21:01:34.097002+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 73,
+  "fetched_at": "2026-10-06T21:01:46.094330+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 15.3,
-      "sources": "Bloomberg(6), MarketWatch(4), CNBC(1)",
-      "sample_headlines": [
-        "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
-        "Investors see big opportunity in ferocious 2026 bond-market rout",
-        "\u2018The pain was excruciating\u2019: A friend in her 80s fell down her basement stairs. Could it have been avoided?",
-        "Saudi Aramco\u2019s CEO may be too downbeat about the road to restocking global oil supplies",
-        "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 10,
-      "pct": 13.9,
-      "sources": "CNBC(6), MarketWatch(3), Bloomberg(1)",
+      "count": 13,
+      "pct": 17.8,
+      "sources": "CNBC(7), MarketWatch(3), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
-        "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
-        "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
-        "Cerebras stock pops 9% after Sam Altman calls the chipmaker a 'close partner'",
-        "Nvidia's $20 billion Groq deal faces lawsuit alleging startup's stockholders were shortchanged"
+        "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
+        "Meta joins with group of companies to tame \u2018chaos\u2019 of doing business with AI bots",
+        "Meta Muse popularity lifts AMD stock to fresh highs as AI agents juice CPU sales",
+        "Mistral unveils new AI model it says rivals best open systems from China",
+        "Google DeepMind's Lila Ibrahim, world's top AI 'readiness' officer, on preparing for what's to come"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(2), FT(2), MarketWatch(1), Bloomberg(1)",
+      "topic": "Equities / Market moves",
+      "count": 12,
+      "pct": 16.4,
+      "sources": "Bloomberg(4), MarketWatch(3), CNBC(2), FT(2), Google News(1)",
       "sample_headlines": [
-        "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
-        "Surging Treasury yields don\u2019t signal a U.S. 'fiscal apocalypse' \u2014 yet",
-        "AI chatbots recommend shopping at Walmart over just about anywhere else, analysts find",
-        "French central bank head warns country at risk of being \u2018strangled by interest rates\u2019",
-        "Trump poised to ease red diesel limits in attempt to quell fuel inflation"
+        "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+        "Treasury yields slide as surge to multiyear highs cools",
+        "Marvell just impressed Wall Street with \u2018good numbers plus a better story\u2019",
+        "The S&P 500 is back in record territory as the \u2018Magnificent Seven\u2019 ride to the rescue",
+        "How Meta\u2019s stock can surge to $1,000, according to the biggest bull on Wall Street"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 5,
-      "pct": 6.9,
-      "sources": "CNBC(3), FT(2)",
+      "count": 8,
+      "pct": 11.0,
+      "sources": "CNBC(5), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
-        "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
-        "All U.S. bombers leave UK air base on concerns of suspected terror plots; more tankers struck near Iran in the Middle East",
-        "French central bank head warns country at risk of being \u2018strangled by interest rates\u2019",
-        "Citi to speed up promotion path for junior bankers as hiring war heats up"
+        "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+        "Emmy Awards leave broadcast TV for Prime Video in 2027 under six-year deal",
+        "Paramount's hard-fought takeover of Warner Bros. Discovery closed Tuesday. Here's how we got here",
+        "UBS CEO warns \u2018hard measures\u2019 are needed to tackle French debt crisis, as turmoil worsens",
+        "Car buyers are stretching loans to afford payments \u2014 it's a 'potential warning light,' analyst says"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 6.9,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1), FT(1)",
+      "count": 7,
+      "pct": 9.6,
+      "sources": "Bloomberg(4), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Trump tells South Korea to sign on to Alaska LNG deal or 'I'll just charge them more'",
-        "Saudi Aramco\u2019s CEO may be too downbeat about the road to restocking global oil supplies",
-        "TotalEnergies boss hails \u2018opportunities\u2019 created by global market turmoil",
-        "Latest Oil Market News and Analysis for Oct. 5",
-        "Ninepoint\u2019s Athabasca Bet Delivers 6,500% Gain on Cenovus Oil Merger Deal"
+        "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+        "UBS CEO warns \u2018hard measures\u2019 are needed to tackle French debt crisis, as turmoil worsens",
+        "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
+        "Emerging-Market Assets Gain as US Yields Drop, Oil Steadies",
+        "Constellation Energy Surges 12% on Google Nuclear Power Deal | Closing Bell"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "CNBC(2), Bloomberg(2)",
+      "count": 5,
+      "pct": 6.8,
+      "sources": "CNBC(2), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Three tax votes in November that will affect high earners",
-        "Surging Treasury yields don\u2019t signal a U.S. 'fiscal apocalypse' \u2014 yet",
-        "LA Schools Face High Fiscal Solvency Risk, State Report Finds",
-        "Trump Plans to Ease Limits on Tax-Exempt Diesel Variety"
+        "Student riots engulf France as far-right presidential frontrunner Le Pen vows fiscal turnaround",
+        "Treasury yields slide as surge to multiyear highs cools",
+        "Trump waives rules on red-dyed diesel, but local tax and other concerns remain",
+        "California\u2019s oligarch tax would change America",
+        "NYC Can Proceed With Pied-a-Terre Tax as Court Weighs Appeal"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 2,
+      "pct": 2.7,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Boomers' dividend stocks take beating from bond yields, with retirement income on the line",
+        "Treasury yields slide as surge to multiyear highs cools"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
+      "count": 2,
+      "pct": 2.7,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "China shuts hundreds of banks as Beijing moves to shore up its financial system"
+        "Mistral unveils new AI model it says rivals best open systems from China",
+        "Copper Swings in Thin Trading as Market Awaits China\u2019s Return"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Fairshake crypto PAC network backs 32 House candidates in midterms"
+        "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks"
       ]
     }
   ]
