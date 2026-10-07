@@ -1,100 +1,106 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 73,
-  "fetched_at": "2026-10-06T21:01:46.094330+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 70,
+  "fetched_at": "2026-10-07T21:01:31.833323+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 13,
-      "pct": 17.8,
-      "sources": "CNBC(7), MarketWatch(3), Bloomberg(2), FT(1)",
-      "sample_headlines": [
-        "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
-        "Meta joins with group of companies to tame \u2018chaos\u2019 of doing business with AI bots",
-        "Meta Muse popularity lifts AMD stock to fresh highs as AI agents juice CPU sales",
-        "Mistral unveils new AI model it says rivals best open systems from China",
-        "Google DeepMind's Lila Ibrahim, world's top AI 'readiness' officer, on preparing for what's to come"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 16.4,
-      "sources": "Bloomberg(4), MarketWatch(3), CNBC(2), FT(2), Google News(1)",
-      "sample_headlines": [
-        "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-        "Treasury yields slide as surge to multiyear highs cools",
-        "Marvell just impressed Wall Street with \u2018good numbers plus a better story\u2019",
-        "The S&P 500 is back in record territory as the \u2018Magnificent Seven\u2019 ride to the rescue",
-        "How Meta\u2019s stock can surge to $1,000, according to the biggest bull on Wall Street"
-      ]
-    },
-    {
       "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 11.0,
-      "sources": "CNBC(5), Bloomberg(2), FT(1)",
+      "count": 11,
+      "pct": 15.7,
+      "sources": "CNBC(5), FT(3), Bloomberg(3)",
       "sample_headlines": [
-        "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
-        "Emmy Awards leave broadcast TV for Prime Video in 2027 under six-year deal",
-        "Paramount's hard-fought takeover of Warner Bros. Discovery closed Tuesday. Here's how we got here",
-        "UBS CEO warns \u2018hard measures\u2019 are needed to tackle French debt crisis, as turmoil worsens",
-        "Car buyers are stretching loans to afford payments \u2014 it's a 'potential warning light,' analyst says"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 9.6,
-      "sources": "Bloomberg(4), CNBC(2), MarketWatch(1)",
-      "sample_headlines": [
-        "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
-        "UBS CEO warns \u2018hard measures\u2019 are needed to tackle French debt crisis, as turmoil worsens",
-        "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
-        "Emerging-Market Assets Gain as US Yields Drop, Oil Steadies",
-        "Constellation Energy Surges 12% on Google Nuclear Power Deal | Closing Bell"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 5,
-      "pct": 6.8,
-      "sources": "CNBC(2), MarketWatch(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Student riots engulf France as far-right presidential frontrunner Le Pen vows fiscal turnaround",
-        "Treasury yields slide as surge to multiyear highs cools",
-        "Trump waives rules on red-dyed diesel, but local tax and other concerns remain",
-        "California\u2019s oligarch tax would change America",
-        "NYC Can Proceed With Pied-a-Terre Tax as Court Weighs Appeal"
+        "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
+        "Americans grow more pessimistic about their finances, New York Fed finds \u2014 expert warns of \u2018tough choices\u2019 ahead",
+        "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
+        "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
+        "Chevron CEO warns against 'unwise' diesel export ban, saying it could make things worse"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 2,
-      "pct": 2.7,
-      "sources": "CNBC(2)",
+      "count": 11,
+      "pct": 15.7,
+      "sources": "CNBC(5), Bloomberg(3), MarketWatch(2), FT(1)",
       "sample_headlines": [
-        "Boomers' dividend stocks take beating from bond yields, with retirement income on the line",
-        "Treasury yields slide as surge to multiyear highs cools"
+        "Fed officials see another hike coming, but no sign as to when, minutes show",
+        "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+        "Americans grow more pessimistic about their finances, New York Fed finds \u2014 expert warns of \u2018tough choices\u2019 ahead",
+        "Home heating oil prices are soaring \u2014 and users' winter bills could rise 21%, federal outlook shows",
+        "'Get your house in order': IMF chief's stark warning for France over surging bond yields"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 11,
+      "pct": 15.7,
+      "sources": "CNBC(6), MarketWatch(3), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+        "FCC to vote on auctioning 25MHz of 'prime spectrum' in move that could benefit Amazon, SpaceX",
+        "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+        "SpaceX\u2019s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
+        "Google ordered to halt work on two data centers in \u2018Texas of Europe\u2019"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 10.0,
+      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+        "Strange market anomaly is creating a buying opportunity in the Nasdaq 100",
+        "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+        "Washington and Wall Street chose to delay paying their bills \u2014 and to put them on your tab",
+        "China slaps down EU request for voluntary curbs on hybrid car exports"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 7.1,
+      "sources": "CNBC(2), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Oil prices fall as IEA members agree to prioritize release of diesel stocks",
+        "Home heating oil prices are soaring \u2014 and users' winter bills could rise 21%, federal outlook shows",
+        "US oil trader takes $2bn gamble on tankers as carriers steer clear of Hormuz",
+        "Emerging Market Assets Snap Rally Amid Oil Swings, Rising Dollar",
+        "Latest Oil Market News and Analysis for Oct. 7"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 2.7,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 4,
+      "pct": 5.7,
+      "sources": "CNBC(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Mistral unveils new AI model it says rivals best open systems from China",
-        "Copper Swings in Thin Trading as Market Awaits China\u2019s Return"
+        "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
+        "Trading platform Webull's China ties create national security risk, congressional panel finds; stock drops 18%",
+        "China slaps down EU request for voluntary curbs on hybrid car exports",
+        "Why China Shock 2.0 Is Different"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 5.7,
+      "sources": "FT(2), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+        "US government bonds steady after strong 10-year Treasury auction",
+        "How US mortgage bonds can trigger a \u2018vicious loop\u2019 for Treasury yields",
+        "Fed Used Treasury Funds to Support Yen in Joint Intervention"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 4.3,
+      "sources": "CNBC(2), FT(1)",
       "sample_headlines": [
-        "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks"
+        "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
+        "Chevron CEO warns against 'unwise' diesel export ban, saying it could make things worse",
+        "China slaps down EU request for voluntary curbs on hybrid car exports"
       ]
     }
   ]
