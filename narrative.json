@@ -1,106 +1,116 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 70,
-  "fetched_at": "2026-10-07T21:01:31.833323+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 71,
+  "fetched_at": "2026-10-08T21:01:41.756138+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 11,
-      "pct": 15.7,
-      "sources": "CNBC(5), FT(3), Bloomberg(3)",
-      "sample_headlines": [
-        "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
-        "Americans grow more pessimistic about their finances, New York Fed finds \u2014 expert warns of \u2018tough choices\u2019 ahead",
-        "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
-        "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
-        "Chevron CEO warns against 'unwise' diesel export ban, saying it could make things worse"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 11,
-      "pct": 15.7,
-      "sources": "CNBC(5), Bloomberg(3), MarketWatch(2), FT(1)",
-      "sample_headlines": [
-        "Fed officials see another hike coming, but no sign as to when, minutes show",
-        "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
-        "Americans grow more pessimistic about their finances, New York Fed finds \u2014 expert warns of \u2018tough choices\u2019 ahead",
-        "Home heating oil prices are soaring \u2014 and users' winter bills could rise 21%, federal outlook shows",
-        "'Get your house in order': IMF chief's stark warning for France over surging bond yields"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 15.7,
-      "sources": "CNBC(6), MarketWatch(3), FT(1), Bloomberg(1)",
+      "count": 16,
+      "pct": 22.5,
+      "sources": "CNBC(6), Bloomberg(5), FT(4), MarketWatch(1)",
       "sample_headlines": [
-        "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
-        "FCC to vote on auctioning 25MHz of 'prime spectrum' in move that could benefit Amazon, SpaceX",
-        "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
-        "SpaceX\u2019s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
-        "Google ordered to halt work on two data centers in \u2018Texas of Europe\u2019"
+        "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+        "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
+        "Why a Starbucks takeover of Chipotle would \u2014 and wouldn't \u2014 make sense for both companies",
+        "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
+        "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 10.0,
-      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), FT(1)",
+      "count": 10,
+      "pct": 14.1,
+      "sources": "CNBC(6), Bloomberg(2), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
-        "Strange market anomaly is creating a buying opportunity in the Nasdaq 100",
-        "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
-        "Washington and Wall Street chose to delay paying their bills \u2014 and to put them on your tab",
-        "China slaps down EU request for voluntary curbs on hybrid car exports"
+        "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+        "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
+        "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+        "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds",
+        "Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 9,
+      "pct": 12.7,
+      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+        "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+        "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction",
+        "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
+        "Should I put my nest egg in a 30-year Treasury bond?"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 8,
+      "pct": 11.3,
+      "sources": "CNBC(4), FT(2), Bloomberg(2)",
+      "sample_headlines": [
+        "Trump says U.S. will not attack Iran before midterm election",
+        "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+        "Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
+        "Trump's former defense secretary sees no end in sight for Iran war \u2014 to the benefit of America's 'greatest adversary'",
+        "Trump says US \u2018will not be attacking Iran\u2019 before midterm elections"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 8.5,
+      "sources": "CNBC(4), MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+        "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+        "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction",
+        "Why REITs aren't getting killed by rising interest rates this time around",
+        "The options market is reminding investors there\u2019s a cure for rising bond yields \u2014 higher yields"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 5,
-      "pct": 7.1,
+      "pct": 7.0,
       "sources": "CNBC(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Oil prices fall as IEA members agree to prioritize release of diesel stocks",
-        "Home heating oil prices are soaring \u2014 and users' winter bills could rise 21%, federal outlook shows",
-        "US oil trader takes $2bn gamble on tankers as carriers steer clear of Hormuz",
-        "Emerging Market Assets Snap Rally Amid Oil Swings, Rising Dollar",
-        "Latest Oil Market News and Analysis for Oct. 7"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 4,
-      "pct": 5.7,
-      "sources": "CNBC(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
-        "Trading platform Webull's China ties create national security risk, congressional panel finds; stock drops 18%",
-        "China slaps down EU request for voluntary curbs on hybrid car exports",
-        "Why China Shock 2.0 Is Different"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 5.7,
-      "sources": "FT(2), CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
-        "US government bonds steady after strong 10-year Treasury auction",
-        "How US mortgage bonds can trigger a \u2018vicious loop\u2019 for Treasury yields",
-        "Fed Used Treasury Funds to Support Yen in Joint Intervention"
+        "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
+        "Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
+        "Oil prices jump on tanker attacks and slowing flows through Strait of Hormuz",
+        "Carlyle Says Deal to Buy Lukoil International Assets Expired",
+        "Latest Oil Market News and Analysis for Oct. 8"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 3,
-      "pct": 4.3,
-      "sources": "CNBC(2), FT(1)",
+      "pct": 4.2,
+      "sources": "CNBC(3)",
       "sample_headlines": [
-        "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
-        "Chevron CEO warns against 'unwise' diesel export ban, saying it could make things worse",
-        "China slaps down EU request for voluntary curbs on hybrid car exports"
+        "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+        "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+        "We're adding to our position in a hard-hit stock before important catalysts arrive"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "America shut out Chinese EVs. Britain welcomed them \u2014 and now faces a difficult choice",
+        "China races to build data centres in bid for AI supremacy",
+        "Why China Generates Too Much Power"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds",
+        "A big AI super PAC tried to follow crypto\u2019s playbook to influence the midterms. Critics say it\u2019s not working out."
       ]
     }
   ]
