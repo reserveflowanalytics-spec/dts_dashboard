@@ -1,116 +1,121 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 71,
-  "fetched_at": "2026-10-08T21:01:41.756138+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 72,
+  "fetched_at": "2026-10-09T21:01:16.012318+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 16,
-      "pct": 22.5,
-      "sources": "CNBC(6), Bloomberg(5), FT(4), MarketWatch(1)",
-      "sample_headlines": [
-        "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
-        "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
-        "Why a Starbucks takeover of Chipotle would \u2014 and wouldn't \u2014 make sense for both companies",
-        "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
-        "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 14.1,
-      "sources": "CNBC(6), Bloomberg(2), MarketWatch(1), FT(1)",
+      "count": 13,
+      "pct": 18.1,
+      "sources": "Bloomberg(6), CNBC(4), MarketWatch(3)",
       "sample_headlines": [
-        "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
-        "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
-        "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
-        "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds",
-        "Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction"
+        "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
+        "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
+        "What's behind the recovery rally in tech stocks \u2014 plus, Elon Musk's very good week",
+        "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
+        "\u2018I have no children\u2019: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children."
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 9,
-      "pct": 12.7,
-      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
+      "topic": "AI / Tech",
+      "count": 8,
+      "pct": 11.1,
+      "sources": "CNBC(5), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
-        "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
-        "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction",
-        "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
-        "Should I put my nest egg in a 30-year Treasury bond?"
+        "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
+        "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
+        "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
+        "What's behind the recovery rally in tech stocks \u2014 plus, Elon Musk's very good week",
+        "ChatGPT for Teens is not necessarily 'safer than the previous version,' Common Sense Media finds"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 7,
+      "pct": 9.7,
+      "sources": "FT(3), Bloomberg(2), CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
+        "Hurricane Isaias to \u2018stress test\u2019 oil markets already hobbled by tight fuel supplies",
+        "Oil and gas production disrupted as Hurricane Isaias barrels towards Gulf",
+        "EU to explore windfall tax on energy companies",
+        "Trump pressures Mexico for energy deals in crunch trade talks"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 11.3,
-      "sources": "CNBC(4), FT(2), Bloomberg(2)",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "CNBC(5), FT(1)",
       "sample_headlines": [
-        "Trump says U.S. will not attack Iran before midterm election",
-        "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
-        "Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
-        "Trump's former defense secretary sees no end in sight for Iran war \u2014 to the benefit of America's 'greatest adversary'",
-        "Trump says US \u2018will not be attacking Iran\u2019 before midterm elections"
+        "Trump strikes deal with Putin to supply Russian diesel to U.S. and global markets",
+        "Americans' debt problems are flashing a warning not seen since the Great Recession",
+        "Junk bonds are 'flashing yellow.' Watch these warning signs",
+        "Pilot killed in attacks by Iran-backed Houthis on Riyadh airport; Saudi-led coalition vows 'firm' response",
+        "South Africa lawyer 'Navi' Pillay wins Nobel Peace Prize for efforts to prosecute war crimes, genocide"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 6,
-      "pct": 8.5,
-      "sources": "CNBC(4), MarketWatch(1), Bloomberg(1)",
+      "pct": 8.3,
+      "sources": "CNBC(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
-        "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
-        "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction",
-        "Why REITs aren't getting killed by rising interest rates this time around",
-        "The options market is reminding investors there\u2019s a cure for rising bond yields \u2014 higher yields"
+        "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+        "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
+        "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+        "Here\u2019s how Treasury yields could rise to 6% \u2014 even without market upheaval",
+        "Trump launches committee to investigate Fed governor Lisa Cook"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 7.0,
-      "sources": "CNBC(2), Bloomberg(2), FT(1)",
+      "topic": "Fiscal / Government spending",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "CNBC(2), FT(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
-        "Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
-        "Oil prices jump on tanker attacks and slowing flows through Strait of Hormuz",
-        "Carlyle Says Deal to Buy Lukoil International Assets Expired",
-        "Latest Oil Market News and Analysis for Oct. 8"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(3)",
-      "sample_headlines": [
-        "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
-        "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
-        "We're adding to our position in a hard-hit stock before important catalysts arrive"
+        "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+        "How to navigate new tax rules in year-end planning, according to top-ranked advisors",
+        "Here\u2019s how Treasury yields could rise to 6% \u2014 even without market upheaval",
+        "EU to explore windfall tax on energy companies",
+        "US 10-year Treasury yields risk hitting 6% for first time since 2000, Pimco says"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "America shut out Chinese EVs. Britain welcomed them \u2014 and now faces a difficult choice",
-        "China races to build data centres in bid for AI supremacy",
-        "Why China Generates Too Much Power"
+        "China and Europe agree to cut Chinese hybrid vehicle exports by half",
+        "Copper Clinches Weekly Gain as Chinese Demand Signals Strengthen"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Americans' debt problems are flashing a warning not seen since the Great Recession"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "China and Europe agree to cut Chinese hybrid vehicle exports by half"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds",
-        "A big AI super PAC tried to follow crypto\u2019s playbook to influence the midterms. Critics say it\u2019s not working out."
+        "Blockchain.com seeks U.S. approval for prediction markets, crypto derivatives trading"
       ]
     }
   ]
