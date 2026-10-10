@@ -1,84 +1,80 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 72,
-  "fetched_at": "2026-10-09T21:01:16.012318+00:00",
+  "dominant": "No clear dominant narrative",
+  "total_headlines": 71,
+  "fetched_at": "2026-10-10T21:01:09.015570+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 18.1,
-      "sources": "Bloomberg(6), CNBC(4), MarketWatch(3)",
-      "sample_headlines": [
-        "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
-        "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
-        "What's behind the recovery rally in tech stocks \u2014 plus, Elon Musk's very good week",
-        "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
-        "\u2018I have no children\u2019: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children."
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 8,
-      "pct": 11.1,
-      "sources": "CNBC(5), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 10,
+      "pct": 14.1,
+      "sources": "CNBC(6), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
-        "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
-        "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
+        "Vance says Microsoft replaced laid-off workers with foreign hires. Here\u2019s what the visa data shows",
+        "Microsoft's Nadella says AI needs an \u2018emergency brake\u2019 that humans control",
+        "Nvidia GPUs are everywhere. Here are the ways companies are accessing them",
         "What's behind the recovery rally in tech stocks \u2014 plus, Elon Musk's very good week",
-        "ChatGPT for Teens is not necessarily 'safer than the previous version,' Common Sense Media finds"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 9.7,
-      "sources": "FT(3), Bloomberg(2), CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
-        "Hurricane Isaias to \u2018stress test\u2019 oil markets already hobbled by tight fuel supplies",
-        "Oil and gas production disrupted as Hurricane Isaias barrels towards Gulf",
-        "EU to explore windfall tax on energy companies",
-        "Trump pressures Mexico for energy deals in crunch trade talks"
+        "AI is changing how lawyers work \u2014 and putting the billable hour under pressure"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(5), FT(1)",
+      "count": 7,
+      "pct": 9.9,
+      "sources": "FT(4), CNBC(3)",
       "sample_headlines": [
-        "Trump strikes deal with Putin to supply Russian diesel to U.S. and global markets",
+        "Putin relayed Iran war proposal to Trump, Kremlin says",
         "Americans' debt problems are flashing a warning not seen since the Great Recession",
         "Junk bonds are 'flashing yellow.' Watch these warning signs",
-        "Pilot killed in attacks by Iran-backed Houthis on Riyadh airport; Saudi-led coalition vows 'firm' response",
-        "South Africa lawyer 'Navi' Pillay wins Nobel Peace Prize for efforts to prosecute war crimes, genocide"
+        "AI borrowing slows as investors grow wary of debt binge",
+        "US warns Kyiv that strikes on Russia jeopardise intelligence-sharing"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(3), FT(2), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 5,
+      "pct": 7.0,
+      "sources": "CNBC(4), MarketWatch(1)",
       "sample_headlines": [
-        "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
-        "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
-        "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
-        "Here\u2019s how Treasury yields could rise to 6% \u2014 even without market upheaval",
-        "Trump launches committee to investigate Fed governor Lisa Cook"
+        "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
+        "Buffett's 'trips down YouTube rabbit hole' revealed",
+        "What's behind the recovery rally in tech stocks \u2014 plus, Elon Musk's very good week",
+        "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
+        "How to downsize like a pro \u2014 and free yourself from being a \u2018prisoner of your possessions\u2019"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(2), FT(2), MarketWatch(1), Bloomberg(1)",
+      "count": 5,
+      "pct": 7.0,
+      "sources": "MarketWatch(3), CNBC(1), FT(1)",
       "sample_headlines": [
         "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
-        "How to navigate new tax rules in year-end planning, according to top-ranked advisors",
-        "Here\u2019s how Treasury yields could rise to 6% \u2014 even without market upheaval",
-        "EU to explore windfall tax on energy companies",
-        "US 10-year Treasury yields risk hitting 6% for first time since 2000, Pimco says"
+        "Should I put my nest egg in a 30-year Treasury bond?",
+        "Taxing stocks, estates and employee benefits could keep Social Security from running out of money. Here\u2019s who could pay the most.",
+        "Ken Paxton is right. Tax cuts will mean Social Security and Medicare cuts.",
+        "EU joint budget proposal slashed in race to find end-year agreement"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "CNBC(3), MarketWatch(1)",
+      "sample_headlines": [
+        "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+        "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
+        "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+        "Rising interest rates: The good, the bad and the ugly for retirees"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
+        "China and Europe agree to cut Chinese hybrid vehicle exports by half"
       ]
     },
     {
@@ -88,7 +84,16 @@
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
         "China and Europe agree to cut Chinese hybrid vehicle exports by half",
-        "Copper Clinches Weekly Gain as Chinese Demand Signals Strengthen"
+        "China Passenger Vehicle Retail Sales Drop 24% in September"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries"
       ]
     },
     {
@@ -98,24 +103,6 @@
       "sources": "CNBC(1)",
       "sample_headlines": [
         "Americans' debt problems are flashing a warning not seen since the Great Recession"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "China and Europe agree to cut Chinese hybrid vehicle exports by half"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Blockchain.com seeks U.S. approval for prediction markets, crypto derivatives trading"
       ]
     }
   ]
