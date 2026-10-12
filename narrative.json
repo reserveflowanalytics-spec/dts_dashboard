@@ -1,94 +1,84 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 65,
-  "fetched_at": "2026-10-11T21:01:07.902237+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 67,
+  "fetched_at": "2026-10-12T21:01:22.459199+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 13,
-      "pct": 20.0,
-      "sources": "Bloomberg(5), CNBC(4), FT(3), Google News(1)",
+      "topic": "AI / Tech",
+      "count": 12,
+      "pct": 17.9,
+      "sources": "CNBC(7), MarketWatch(3), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
-        "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
-        "AI is automating coding. So why are software developer job postings on the rise?",
-        "Putin relayed Iran war proposal to Trump, Kremlin says",
-        "The Stock Market Flashes a Warning as Investors Get Bad News About President Trump\u2019s Economy. History Says This Will Happen Next. - The Motley Fool"
+        "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
+        "Starbucks says it is not buying Chipotle after takeover speculation",
+        "Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
+        "Vance says Microsoft replaced laid-off workers with foreign hires. Here\u2019s what the visa data shows",
+        "AI may change the price of your Big Mac and groceries \u2014 what this means for shoppers"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 16.9,
-      "sources": "MarketWatch(4), Bloomberg(3), CNBC(2), Google News(2)",
+      "topic": "Iran / Middle East conflict",
+      "count": 10,
+      "pct": 14.9,
+      "sources": "CNBC(6), FT(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Buffett's 'trips down YouTube rabbit hole' revealed",
-        "Here are the 6 big things we're watching in the stock market this week",
-        "\u2018I have no children\u2019: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-        "I\u2019m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
-        "We\u2019re about to get a huge read on whether earnings can keep propping up the stock market"
+        "FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks",
+        "Saudi Arabia says drones and missiles still targeting kingdom as Iran-backed Houthis step up attacks",
+        "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+        "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
+        "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 4,
-      "pct": 6.2,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
+      "pct": 6.0,
+      "sources": "CNBC(3), Bloomberg(1)",
       "sample_headlines": [
-        "AI\u2019s quiet safety gatekeepers are stepping into the spotlight",
-        "We\u2019re about to get a huge read on whether earnings can keep propping up the stock market",
-        "Bond Selloff May Mean Fewer Rate Hikes From Global Central Banks",
-        "US Bond Traders Await CPI, Warsh For Insight on Fed\u2019s Rate Path"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 4,
-      "pct": 6.2,
-      "sources": "CNBC(4)",
-      "sample_headlines": [
-        "Vance says Microsoft replaced laid-off workers with foreign hires. Here\u2019s what the visa data shows",
-        "AI is automating coding. So why are software developer job postings on the rise?",
-        "Nvidia GPUs are everywhere. Here are the ways companies are accessing them",
-        "AI is changing how lawyers work \u2014 and putting the billable hour under pressure"
+        "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'",
+        "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
+        "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
+        "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 3.1,
-      "sources": "CNBC(1), FT(1)",
+      "count": 3,
+      "pct": 4.5,
+      "sources": "Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
-        "Oil chiefs pull out of Riyadh energy congress after airport missile strike"
+        "Trump\u2019s \u2018energy ceasefire\u2019 collides with real-world problems of dwindling fuel supplies",
+        "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook",
+        "Latest Oil Market News and Analysis for Oct. 12"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 3,
+      "pct": 4.5,
+      "sources": "Bloomberg(2), CNBC(1)",
+      "sample_headlines": [
+        "Earnings beats are now the norm. What the stock market needs to keep rallying",
+        "Bank Stocks Mired in Correction Into Earnings as Yields Rise",
+        "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 3.1,
-      "sources": "FT(2)",
-      "sample_headlines": [
-        "EU \u2018safeguards\u2019 hybrid car sector from Chinese imports under new deal",
-        "VW chief calls for France and Germany to co-operate on China car fightback"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 1.5,
-      "sources": "FT(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "EU \u2018safeguards\u2019 hybrid car sector from Chinese imports under new deal"
+        "Beckham, Yao Ming attend NBA China Games in a boost to Macao's live events"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 1.5,
-      "sources": "MarketWatch(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Should I put my nest egg in a 30-year Treasury bond?"
+        "Judge orders Trump administration to immediately stop taxpayer-funded TV ads"
       ]
     }
   ]
