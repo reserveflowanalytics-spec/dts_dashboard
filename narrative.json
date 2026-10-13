@@ -1,84 +1,108 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 67,
-  "fetched_at": "2026-10-12T21:01:22.459199+00:00",
+  "total_headlines": 71,
+  "fetched_at": "2026-10-13T21:01:14.885851+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
       "count": 12,
-      "pct": 17.9,
-      "sources": "CNBC(7), MarketWatch(3), FT(1), Bloomberg(1)",
+      "pct": 16.9,
+      "sources": "CNBC(6), Bloomberg(4), FT(2)",
       "sample_headlines": [
-        "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
-        "Starbucks says it is not buying Chipotle after takeover speculation",
-        "Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
-        "Vance says Microsoft replaced laid-off workers with foreign hires. Here\u2019s what the visa data shows",
-        "AI may change the price of your Big Mac and groceries \u2014 what this means for shoppers"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 14.9,
-      "sources": "CNBC(6), FT(2), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks",
-        "Saudi Arabia says drones and missiles still targeting kingdom as Iran-backed Houthis step up attacks",
-        "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
-        "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
-        "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 6.0,
-      "sources": "CNBC(3), Bloomberg(1)",
-      "sample_headlines": [
-        "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'",
-        "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-        "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
-        "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.5,
-      "sources": "Bloomberg(2), MarketWatch(1)",
-      "sample_headlines": [
-        "Trump\u2019s \u2018energy ceasefire\u2019 collides with real-world problems of dwindling fuel supplies",
-        "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook",
-        "Latest Oil Market News and Analysis for Oct. 12"
+        "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+        "Michael Dell says AI needs safeguards and controls, and government has a role to play",
+        "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+        "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
+        "The AI trade is cracking. Here's how to profit"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 3,
-      "pct": 4.5,
-      "sources": "Bloomberg(2), CNBC(1)",
+      "count": 11,
+      "pct": 15.5,
+      "sources": "Bloomberg(6), CNBC(4), FT(1)",
       "sample_headlines": [
-        "Earnings beats are now the norm. What the stock market needs to keep rallying",
-        "Bank Stocks Mired in Correction Into Earnings as Yields Rise",
-        "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook"
+        "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+        "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
+        "Why this little known Chinese chipmaker has caused a global stock rout",
+        "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
+        "Investors brave US Treasury rout to lock in highest yields in decades"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 9,
+      "pct": 12.7,
+      "sources": "CNBC(4), FT(4), Bloomberg(1)",
+      "sample_headlines": [
+        "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+        "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
+        "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
+        "Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight",
+        "Saudi Aramco HQ attacked in suspected Houthi strike"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 6,
+      "pct": 8.5,
+      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1)",
+      "sample_headlines": [
+        "The latest inflation data is expected to show price increases are accelerating",
+        "Don't let inflation bite \u2014 how to hedge with TIPS, commodities and infrastructure funds",
+        "Williams says Fed may not have to hike rates in 2027, at odds with traders",
+        "How you can prepare for 6% bond yields",
+        "Gold Pares Losses as Fed\u2019s Williams Signals 2027 End to Hikes"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "Bloomberg(2), CNBC(1), FT(1)",
+      "sample_headlines": [
+        "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
+        "Saudi Aramco HQ attacked in suspected Houthi strike",
+        "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
+        "Latest Oil Market News and Analysis for Oct. 13"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 1.5,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Beckham, Yao Ming attend NBA China Games in a boost to Macao's live events"
+        "Why this little known Chinese chipmaker has caused a global stock rout",
+        "Micron\u2019s stock extends declines as China competition heats up",
+        "Get Ready for the Chinese Data Center Ramp"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "Sheinbaum Vows to Buy More From US to Reach Trump Trade Deal"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "Strategy\u2019s Saylor Sees Bitcoin Moving Back Up Beyond $100,000"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 1,
-      "pct": 1.5,
-      "sources": "CNBC(1)",
+      "pct": 1.4,
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Judge orders Trump administration to immediately stop taxpayer-funded TV ads"
+        "Investors brave US Treasury rout to lock in highest yields in decades"
       ]
     }
   ]

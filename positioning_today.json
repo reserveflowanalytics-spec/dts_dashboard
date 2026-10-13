@@ -1,15 +1,16 @@
 {
-  "as_of": "2026-10-08",
-  "computed_at": "2026-10-12T21:01:42Z",
-  "bias": "LONG",
-  "conviction": "low-medium",
-  "bias_reason": "Tech bullish but RS conviction not at high.",
-  "action": "Hold 100% SPY baseline (no leveraged overlay since Tier-1 dormant). Apply RS pair tilts within the long position.",
+  "as_of": "2026-10-09",
+  "computed_at": "2026-10-13T21:01:38Z",
+  "bias": "BULLISH",
+  "conviction": "technicals only",
+  "bias_reason": "SPX 7,807 above SMA20 7,714; long since 2026-09-21; fiscal regime Neutral does not agree (reported, not acted on).",
+  "action": "Long since 2026-09-21 (7,765). Stop 7,619, trailing 200 points below the 7,819 highest close. The stop is the only exit; closes below SMA20 (7,714) do not exit.",
+  "stop": 7618.93,
   "signals": {
-    "fiscal_regime": "Supportive",
+    "fiscal_regime": "Neutral",
     "tech_regime": "bullish",
-    "tech_close": 7779.0,
-    "tech_sma20": 7706.56,
+    "tech_close": 7807.24,
+    "tech_sma20": 7714.14,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 0/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "0/11",
@@ -18,6 +19,6 @@
   },
   "overweight_pairs": [],
   "underweight_pairs": [],
-  "watch_upgrade": "Tier-1 fires (count=0 + VIX>=32) -> scale to 125-200% via overlay",
-  "watch_downgrade": "Tech regime flips bearish OR RS conviction drops below medium -> reduce baseline"
+  "watch_upgrade": "Fiscal regime turns Supportive -> VERY BULLISH (label only)",
+  "watch_downgrade": "Close at or below the 7,619 stop -> exit, flat"
 }
