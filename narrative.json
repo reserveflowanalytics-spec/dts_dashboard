@@ -1,90 +1,91 @@
 {
   "dominant": "AI / Tech",
   "total_headlines": 71,
-  "fetched_at": "2026-10-13T21:01:14.885851+00:00",
+  "fetched_at": "2026-10-14T21:01:34.644147+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 12,
-      "pct": 16.9,
-      "sources": "CNBC(6), Bloomberg(4), FT(2)",
+      "count": 15,
+      "pct": 21.1,
+      "sources": "CNBC(7), Bloomberg(4), FT(3), MarketWatch(1)",
       "sample_headlines": [
-        "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
-        "Michael Dell says AI needs safeguards and controls, and government has a role to play",
-        "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
-        "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
-        "The AI trade is cracking. Here's how to profit"
+        "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
+        "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
+        "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+        "OpenAI\u2019s Sachin Katti to leave infrastructure role, stay on as advisor",
+        "AI infrastructure stocks tumble. Here's a few reasons for the sell-off"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 15.5,
-      "sources": "Bloomberg(6), CNBC(4), FT(1)",
+      "count": 13,
+      "pct": 18.3,
+      "sources": "CNBC(6), Bloomberg(5), MarketWatch(2)",
       "sample_headlines": [
-        "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
-        "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
-        "Why this little known Chinese chipmaker has caused a global stock rout",
-        "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
-        "Investors brave US Treasury rout to lock in highest yields in decades"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 9,
-      "pct": 12.7,
-      "sources": "CNBC(4), FT(4), Bloomberg(1)",
-      "sample_headlines": [
-        "Airport attacks put aviation in crosshairs of geopolitical conflicts",
-        "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
-        "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
-        "Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight",
-        "Saudi Aramco HQ attacked in suspected Houthi strike"
+        "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
+        "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+        "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
+        "Here's the inflation breakdown for September 2026 \u2014 in one chart",
+        "AI infrastructure stocks tumble. Here's a few reasons for the sell-off"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 8.5,
-      "sources": "CNBC(3), Bloomberg(2), MarketWatch(1)",
+      "count": 12,
+      "pct": 16.9,
+      "sources": "Bloomberg(4), CNBC(3), MarketWatch(3), FT(2)",
       "sample_headlines": [
-        "The latest inflation data is expected to show price increases are accelerating",
-        "Don't let inflation bite \u2014 how to hedge with TIPS, commodities and infrastructure funds",
-        "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-        "How you can prepare for 6% bond yields",
-        "Gold Pares Losses as Fed\u2019s Williams Signals 2027 End to Hikes"
+        "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+        "Here's the inflation breakdown for September 2026 \u2014 in one chart",
+        "10-year Treasury yield dips as traders look ahead to Thursday economic reports",
+        "What to expect at the next Fed meeting now that rate-hike odds are rising",
+        "Did this year\u2019s COLA beat inflation? Here\u2019s how spending by American seniors stacks up so far in 2026."
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 10,
+      "pct": 14.1,
+      "sources": "CNBC(5), Bloomberg(3), FT(2)",
+      "sample_headlines": [
+        "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
+        "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+        "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
+        "Iran says it\u2019s \u2018counting the moments\u2019 until it can strike U.S. warships; Saudi Aramco facilities attacked",
+        "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "Bloomberg(2), CNBC(1), FT(1)",
+      "count": 5,
+      "pct": 7.0,
+      "sources": "CNBC(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
-        "Saudi Aramco HQ attacked in suspected Houthi strike",
-        "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
-        "Latest Oil Market News and Analysis for Oct. 13"
+        "Iran says it\u2019s \u2018counting the moments\u2019 until it can strike U.S. warships; Saudi Aramco facilities attacked",
+        "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
+        "He linked Saudi Arabia to Silicon Valley. Then OpenAI found a bug wrapped in toilet paper",
+        "Oil Gains as Middle East, Russia Hostilities Imperil Flows",
+        "Latest Oil Market News and Analysis for Oct. 14"
       ]
     },
     {
-      "topic": "China",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Why this little known Chinese chipmaker has caused a global stock rout",
-        "Micron\u2019s stock extends declines as China competition heats up",
-        "Get Ready for the Chinese Data Center Ramp"
+        "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
+        "\u2018Some people did everything right\u2019: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "Bloomberg(1)",
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "Sheinbaum Vows to Buy More From US to Reach Trump Trade Deal"
+        "Treasury says largest U.S. banks let politics influence who received banking services",
+        "10-year Treasury yield dips as traders look ahead to Thursday economic reports"
       ]
     },
     {
@@ -93,16 +94,7 @@
       "pct": 1.4,
       "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Strategy\u2019s Saylor Sees Bitcoin Moving Back Up Beyond $100,000"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "FT(1)",
-      "sample_headlines": [
-        "Investors brave US Treasury rout to lock in highest yields in decades"
+        "Bitcoin Slides as Wall Street Risk Pullback Tests Bullish Turn"
       ]
     }
   ]
