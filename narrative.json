@@ -1,81 +1,79 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 71,
-  "fetched_at": "2026-10-14T21:01:34.644147+00:00",
+  "total_headlines": 72,
+  "fetched_at": "2026-10-15T21:01:24.925665+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 21.1,
-      "sources": "CNBC(7), Bloomberg(4), FT(3), MarketWatch(1)",
+      "count": 19,
+      "pct": 26.4,
+      "sources": "CNBC(7), FT(6), MarketWatch(3), Bloomberg(3)",
       "sample_headlines": [
-        "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
-        "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
-        "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-        "OpenAI\u2019s Sachin Katti to leave infrastructure role, stay on as advisor",
-        "AI infrastructure stocks tumble. Here's a few reasons for the sell-off"
+        "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
+        "Tesla plans next-generation Roadster reveal after almost a decade of delays",
+        "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
+        "Apple and Meta team up to make Muse AI model run on Mac computers",
+        "Equal-weight failed. Now tech stocks look shaky again. So what should you do about S&P 500 risk?"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 18.3,
-      "sources": "CNBC(6), Bloomberg(5), MarketWatch(2)",
-      "sample_headlines": [
-        "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
-        "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-        "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
-        "Here's the inflation breakdown for September 2026 \u2014 in one chart",
-        "AI infrastructure stocks tumble. Here's a few reasons for the sell-off"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
       "count": 12,
-      "pct": 16.9,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(3), FT(2)",
+      "pct": 16.7,
+      "sources": "Bloomberg(4), MarketWatch(3), FT(3), CNBC(2)",
       "sample_headlines": [
-        "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-        "Here's the inflation breakdown for September 2026 \u2014 in one chart",
-        "10-year Treasury yield dips as traders look ahead to Thursday economic reports",
-        "What to expect at the next Fed meeting now that rate-hike odds are rising",
-        "Did this year\u2019s COLA beat inflation? Here\u2019s how spending by American seniors stacks up so far in 2026."
+        "Harvard\u2019s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
+        "Equal-weight failed. Now tech stocks look shaky again. So what should you do about S&P 500 risk?",
+        "Big pharma stocks close near all-time highs as tech selloff pushes investors toward safer bets",
+        "CoreWeave\u2019s polarizing stock rebounds as Wall Street squares off about AI spending",
+        "This one governor\u2019s race could derail the AI trade that\u2019s powered the stock market"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 14.1,
-      "sources": "CNBC(5), Bloomberg(3), FT(2)",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "CNBC(2), MarketWatch(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
-        "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
-        "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
-        "Iran says it\u2019s \u2018counting the moments\u2019 until it can strike U.S. warships; Saudi Aramco facilities attacked",
-        "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure"
+        "Banks with Jeffrey Epstein ties eyed by Democrats Warren and Garcia",
+        "U.S. reportedly considers use of 'mother of all bombs' as Iran vows to fight on",
+        "Big pharma stocks close near all-time highs as tech selloff pushes investors toward safer bets",
+        "The COLA wars are coming for Social Security",
+        "Zelenskyy defies Trump as Ukraine resumes strikes on Russian refineries"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 5,
+      "pct": 6.9,
+      "sources": "CNBC(2), Bloomberg(2), MarketWatch(1)",
+      "sample_headlines": [
+        "Economists: Hot PPI shows Fed's work is not done",
+        "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+        "Did this year\u2019s COLA beat inflation? Here\u2019s how spending by American seniors stacks up so far in 2026.",
+        "Inflation Pointing for the Fed to Act: Rajappa",
+        "Copper Falls for Third Day as Strong US Inflation Spurs Selloff"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 7.0,
-      "sources": "CNBC(2), Bloomberg(2), FT(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Iran says it\u2019s \u2018counting the moments\u2019 until it can strike U.S. warships; Saudi Aramco facilities attacked",
-        "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
-        "He linked Saudi Arabia to Silicon Valley. Then OpenAI found a bug wrapped in toilet paper",
-        "Oil Gains as Middle East, Russia Hostilities Imperil Flows",
-        "Latest Oil Market News and Analysis for Oct. 14"
+        "Brian Sullivan: Why the 'real' price of oil is likely $30-$40 higher than where it is now",
+        "International Energy Agency to release more than 20 million barrels of diesel as soon as possible",
+        "Latest Oil Market News and Analysis for Oct. 15"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
+      "topic": "Trade / Tariffs",
       "count": 2,
       "pct": 2.8,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
-        "\u2018Some people did everything right\u2019: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?"
+        "Bolivia Loosens Gold Export Controls While Ending Purchases",
+        "Slovakia Connects Nuclear Reactor in Boost for Power Exports"
       ]
     },
     {
@@ -84,17 +82,17 @@
       "pct": 2.8,
       "sources": "CNBC(2)",
       "sample_headlines": [
-        "Treasury says largest U.S. banks let politics influence who received banking services",
-        "10-year Treasury yield dips as traders look ahead to Thursday economic reports"
+        "Harvard\u2019s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
+        "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "China",
       "count": 1,
       "pct": 1.4,
-      "sources": "Bloomberg(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Bitcoin Slides as Wall Street Risk Pullback Tests Bullish Turn"
+        "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries"
       ]
     }
   ]
