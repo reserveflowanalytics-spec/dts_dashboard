@@ -1,98 +1,101 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 72,
-  "fetched_at": "2026-10-15T21:01:24.925665+00:00",
+  "total_headlines": 73,
+  "fetched_at": "2026-10-16T21:01:46.813301+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 19,
-      "pct": 26.4,
-      "sources": "CNBC(7), FT(6), MarketWatch(3), Bloomberg(3)",
+      "count": 21,
+      "pct": 28.8,
+      "sources": "CNBC(8), Bloomberg(5), MarketWatch(4), FT(4)",
       "sample_headlines": [
-        "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
-        "Tesla plans next-generation Roadster reveal after almost a decade of delays",
-        "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
-        "Apple and Meta team up to make Muse AI model run on Mac computers",
-        "Equal-weight failed. Now tech stocks look shaky again. So what should you do about S&P 500 risk?"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 16.7,
-      "sources": "Bloomberg(4), MarketWatch(3), FT(3), CNBC(2)",
-      "sample_headlines": [
-        "Harvard\u2019s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
-        "Equal-weight failed. Now tech stocks look shaky again. So what should you do about S&P 500 risk?",
-        "Big pharma stocks close near all-time highs as tech selloff pushes investors toward safer bets",
-        "CoreWeave\u2019s polarizing stock rebounds as Wall Street squares off about AI spending",
-        "This one governor\u2019s race could derail the AI trade that\u2019s powered the stock market"
+        "Apple\u2019s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+        "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
+        "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
+        "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
+        "Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(2), MarketWatch(2), FT(1), Bloomberg(1)",
+      "count": 9,
+      "pct": 12.3,
+      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Banks with Jeffrey Epstein ties eyed by Democrats Warren and Garcia",
-        "U.S. reportedly considers use of 'mother of all bombs' as Iran vows to fight on",
-        "Big pharma stocks close near all-time highs as tech selloff pushes investors toward safer bets",
-        "The COLA wars are coming for Social Security",
-        "Zelenskyy defies Trump as Ukraine resumes strikes on Russian refineries"
+        "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+        "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
+        "Trump says he won't use nuclear weapons or send ground troops to Iran",
+        "Fed's Warsh withholds rate signal, praises recent global tightening",
+        "The COLA wars are coming for Social Security"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 7,
+      "pct": 9.6,
+      "sources": "CNBC(2), Google News(2), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Wall Street's fear gauge is ripping. Traders see it going even higher",
+        "Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations",
+        "Chicago Fed\u2019s Goolsbee says the stock market isn\u2019t propping up consumer spending. It\u2019s strong on its own. - Yahoo Finance",
+        "Gov't vows stern action against unfair practices amid heightened stock market volatility - The Korea Times",
+        "The data centre IPO debacle that sparked a market meltdown"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 6.9,
-      "sources": "CNBC(2), Bloomberg(2), MarketWatch(1)",
+      "count": 6,
+      "pct": 8.2,
+      "sources": "CNBC(3), MarketWatch(2), Google News(1)",
       "sample_headlines": [
-        "Economists: Hot PPI shows Fed's work is not done",
+        "Wall Street's fear gauge is ripping. Traders see it going even higher",
         "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-        "Did this year\u2019s COLA beat inflation? Here\u2019s how spending by American seniors stacks up so far in 2026.",
-        "Inflation Pointing for the Fed to Act: Rajappa",
-        "Copper Falls for Third Day as Strong US Inflation Spurs Selloff"
+        "Fed's Warsh withholds rate signal, praises recent global tightening",
+        "Your Social Security check will rise an average of $75 a month \u2014 will it be able to keep up with inflation?",
+        "Did this year\u2019s COLA beat inflation? Here\u2019s how spending by American seniors stacks up so far in 2026."
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "count": 5,
+      "pct": 6.8,
+      "sources": "Bloomberg(4), CNBC(1)",
       "sample_headlines": [
-        "Brian Sullivan: Why the 'real' price of oil is likely $30-$40 higher than where it is now",
-        "International Energy Agency to release more than 20 million barrels of diesel as soon as possible",
-        "Latest Oil Market News and Analysis for Oct. 15"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "Bloomberg(2)",
-      "sample_headlines": [
-        "Bolivia Loosens Gold Export Controls While Ending Purchases",
-        "Slovakia Connects Nuclear Reactor in Boost for Power Exports"
+        "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+        "Gold Steady as Rate-Hike Bets Ease, Oil Pushes Yields Higher",
+        "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+        "Brent Oil Taps $110 for First Time Since May as Risks Swirl",
+        "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(2)",
+      "count": 3,
+      "pct": 4.1,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
-        "Harvard\u2019s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
-        "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge"
+        "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+        "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
+        "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs"
       ]
     },
     {
       "topic": "China",
+      "count": 2,
+      "pct": 2.7,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+        "Peru Indigenous Group Bids for Part of China-Owned Mine"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 1.4,
-      "sources": "CNBC(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries"
+        "Republicans turn on Trump\u2019s tariffs in battle for \u2018political survival\u2019"
       ]
     }
   ]
