@@ -1,101 +1,111 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 73,
-  "fetched_at": "2026-10-16T21:01:46.813301+00:00",
+  "total_headlines": 70,
+  "fetched_at": "2026-10-17T21:01:18.219318+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 21,
-      "pct": 28.8,
-      "sources": "CNBC(8), Bloomberg(5), MarketWatch(4), FT(4)",
+      "count": 15,
+      "pct": 21.4,
+      "sources": "CNBC(9), MarketWatch(2), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Apple\u2019s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+        "Semiconductor market to remain solid \u2018at least through next year,\u2019 South Korea finance minister says",
+        "Some companies give AI to everyone. This CEO is doing the opposite",
+        "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
         "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
-        "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
-        "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
-        "Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 9,
-      "pct": 12.3,
-      "sources": "CNBC(4), MarketWatch(2), Bloomberg(2), FT(1)",
-      "sample_headlines": [
-        "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-        "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
-        "Trump says he won't use nuclear weapons or send ground troops to Iran",
-        "Fed's Warsh withholds rate signal, praises recent global tightening",
-        "The COLA wars are coming for Social Security"
+        "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 9.6,
-      "sources": "CNBC(2), Google News(2), Bloomberg(2), FT(1)",
+      "count": 8,
+      "pct": 11.4,
+      "sources": "CNBC(4), MarketWatch(2), Google News(1), Bloomberg(1)",
       "sample_headlines": [
+        "Berkshire shares buck market sell-off, rally to highest since Buffett said he would step down as CEO",
+        "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
         "Wall Street's fear gauge is ripping. Traders see it going even higher",
         "Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations",
-        "Chicago Fed\u2019s Goolsbee says the stock market isn\u2019t propping up consumer spending. It\u2019s strong on its own. - Yahoo Finance",
-        "Gov't vows stern action against unfair practices amid heightened stock market volatility - The Korea Times",
-        "The data centre IPO debacle that sparked a market meltdown"
+        "Silver\u2019s recent 50% drop from a record high hints that an economic slowdown looms"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 6,
+      "pct": 8.6,
+      "sources": "FT(3), Bloomberg(2), CNBC(1)",
+      "sample_headlines": [
+        "Software\u2019s new consolidator gets big vote of confidence from Berkshire",
+        "Are we sleepwalking into World War III?",
+        "Israeli settlers attack European diplomats in the West Bank",
+        "Houthis encircle new target in conflict with Saudi-backed forces",
+        "Freeland Warns US Alliances Are Fraying"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 8.2,
-      "sources": "CNBC(3), MarketWatch(2), Google News(1)",
+      "count": 5,
+      "pct": 7.1,
+      "sources": "CNBC(3), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
+        "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
         "Wall Street's fear gauge is ripping. Traders see it going even higher",
         "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-        "Fed's Warsh withholds rate signal, praises recent global tightening",
-        "Your Social Security check will rise an average of $75 a month \u2014 will it be able to keep up with inflation?",
-        "Did this year\u2019s COLA beat inflation? Here\u2019s how spending by American seniors stacks up so far in 2026."
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 6.8,
-      "sources": "Bloomberg(4), CNBC(1)",
-      "sample_headlines": [
-        "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-        "Gold Steady as Rate-Hike Bets Ease, Oil Pushes Yields Higher",
-        "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
-        "Brent Oil Taps $110 for First Time Since May as Risks Swirl",
-        "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 4.1,
-      "sources": "CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-        "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
-        "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 2,
-      "pct": 2.7,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
-        "Peru Indigenous Group Bids for Part of China-Owned Mine"
+        "Fake shopping sprees and \u2018happiness insurance\u2019: The latest fintech apps reveal our financial anxieties",
+        "Can the Fed Fight Inflation Without Hurting Farmers?"
       ]
     },
     {
       "topic": "Trade / Tariffs",
+      "count": 4,
+      "pct": 5.7,
+      "sources": "Bloomberg(2), CNBC(1), FT(1)",
+      "sample_headlines": [
+        "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
+        "Trump exempts Russia from further sanctions mandated by new law",
+        "Russia Sanctions Waived, AI Debt Concerns, Making 'GTA VI'",
+        "Trump Puts New Russia Sanctions on Hold"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 4,
+      "pct": 5.7,
+      "sources": "Bloomberg(3), CNBC(1)",
+      "sample_headlines": [
+        "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+        "China Warns Corrupt Officials Can\u2019t Expect a Safe Landing",
+        "Japan\u2019s Takaichi to Attend APEC in China if Parliament Allows",
+        "China Encourages Cinemas to Add Sports Events and Lottery Sales"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "MarketWatch(2)",
+      "sample_headlines": [
+        "\u2018Some people did everything right\u2019: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+        "Silver\u2019s recent 50% drop from a record high hints that an economic slowdown looms"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+        "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
       "count": 1,
       "pct": 1.4,
-      "sources": "FT(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Republicans turn on Trump\u2019s tariffs in battle for \u2018political survival\u2019"
+        "Oil Trader Yaoyao Liu Who Made Billions for Vitol Is Leaving"
       ]
     }
   ]

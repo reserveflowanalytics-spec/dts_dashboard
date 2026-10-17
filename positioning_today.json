@@ -1,16 +1,16 @@
 {
   "as_of": "2026-10-15",
-  "computed_at": "2026-10-16T21:02:15Z",
-  "bias": "BULLISH",
-  "conviction": "technicals only",
-  "bias_reason": "SPX 7,744 above SMA20 7,739; long since 2026-09-21; fiscal regime Neutral does not agree (reported, not acted on).",
+  "computed_at": "2026-10-17T21:01:37Z",
+  "bias": "HOLD LONG",
+  "conviction": "below SMA20, stop not hit",
+  "bias_reason": "SPX 7,659 below SMA20 7,739; long since 2026-09-21, stop 7,619 not hit, so the position holds.",
   "action": "Long since 2026-09-21 (7,765). Stop 7,619, trailing 200 points below the 7,819 highest close. The stop is the only exit; closes below SMA20 (7,739) do not exit.",
   "stop": 7618.93,
   "signals": {
     "fiscal_regime": "Neutral",
-    "tech_regime": "bullish",
-    "tech_close": 7744.06,
-    "tech_sma20": 7738.79,
+    "tech_regime": "bearish",
+    "tech_close": 7659.44,
+    "tech_sma20": 7739.24,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 0/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "0/11",
@@ -19,6 +19,6 @@
   },
   "overweight_pairs": [],
   "underweight_pairs": [],
-  "watch_upgrade": "Fiscal regime turns Supportive -> VERY BULLISH (label only)",
+  "watch_upgrade": "Close back above SMA20 -> BULLISH",
   "watch_downgrade": "Close at or below the 7,619 stop -> exit, flat"
 }
