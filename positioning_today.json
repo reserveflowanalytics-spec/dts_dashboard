@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-15",
-  "computed_at": "2026-10-17T21:01:37Z",
+  "computed_at": "2026-10-18T21:01:46Z",
   "bias": "HOLD LONG",
   "conviction": "below SMA20, stop not hit",
   "bias_reason": "SPX 7,659 below SMA20 7,739; long since 2026-09-21, stop 7,619 not hit, so the position holds.",
