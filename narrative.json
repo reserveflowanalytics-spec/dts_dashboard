@@ -1,93 +1,100 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 63,
-  "fetched_at": "2026-10-18T21:01:27.385459+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 67,
+  "fetched_at": "2026-10-19T21:01:33.887283+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 15.9,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(3)",
+      "topic": "AI / Tech",
+      "count": 16,
+      "pct": 23.9,
+      "sources": "CNBC(10), MarketWatch(3), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
-        "Here are the 3 big things we're watching in the stock market this week",
-        "Berkshire shares buck market sell-off, rally to highest since Buffett said he would step down as CEO",
-        "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
-        "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs"
+        "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay",
+        "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+        "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
+        "Anthropic is AI trade's last big hope for a major IPO this year",
+        "Google says it can build data centers the right way. Some experts and residents are skeptical"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 13,
+      "pct": 19.4,
+      "sources": "Bloomberg(5), MarketWatch(3), FT(3), CNBC(2)",
+      "sample_headlines": [
+        "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
+        "Indonesian stocks plunge to six-year low as MSCI downgrade fears mount",
+        "The Treasury\u2019s financing plans are sparking anxiety on Wall Street",
+        "CoreWeave\u2019s selloff is a lesson in \u2018Finance 101\u2019 \u2014 and Wall Street says the stock can recover",
+        "Micron and other chip stocks spring back to life after bruising selloff"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 6,
-      "pct": 9.5,
-      "sources": "CNBC(3), MarketWatch(1), FT(1), Bloomberg(1)",
+      "pct": 9.0,
+      "sources": "CNBC(4), FT(2)",
       "sample_headlines": [
+        "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+        "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+        "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war \u2014 without Zelenskyy",
         "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
-        "Iran says it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes",
-        "Software\u2019s new consolidator gets big vote of confidence from Berkshire",
-        "There is a silent market rotation inside the S&P 500 that\u2019s warning of more weakness ahead",
-        "US army chief in Asia calls for show of enhanced military muscle"
+        "Saudi Arabia to postpone \u2018Davos in the desert\u2019 after Houthi attacks"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 6,
-      "pct": 9.5,
-      "sources": "CNBC(4), Bloomberg(2)",
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 6.0,
+      "sources": "Bloomberg(4)",
       "sample_headlines": [
-        "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
-        "Semiconductor market to remain solid \u2018at least through next year,\u2019 South Korea finance minister says",
-        "Some companies give AI to everyone. This CEO is doing the opposite",
-        "Apple\u2019s $1,999 iPhone Duo puts the company's status-symbol power to the test",
-        "Bond Market\u2019s Big Short Bet Gets Wakeup Call as AI Trade Wobbles"
+        "Gold Declines as Bond Yields Stay Elevated Despite Oil Drop",
+        "Secretary Wright on Diesel Shortage, Gas Prices, Oil Shipping",
+        "Latest Oil Market News and Analysis for Oct. 19",
+        "US Natural Gas Futures Fall as Offshore Production Recovers"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
+      "count": 4,
+      "pct": 6.0,
+      "sources": "Bloomberg(3), CNBC(1)",
+      "sample_headlines": [
+        "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+        "New Zealand\u2019s Year-End Inflation Surge Points to More Rate Hikes",
+        "Gold Declines as Bond Yields Stay Elevated Despite Oil Drop",
+        "Secretary Wright on Diesel Shortage, Gas Prices, Oil Shipping"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
       "count": 3,
-      "pct": 4.8,
+      "pct": 4.5,
       "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Iran says it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes",
-        "Fake shopping sprees and \u2018happiness insurance\u2019: The latest fintech apps reveal our financial anxieties",
-        "CPI Test Set to Make or Break New Zealand Dollar\u2019s Losing Run"
+        "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
+        "One of this year\u2019s most important relationships in global financial markets is falling apart",
+        "The Copper Rally Faces a Tariff Test"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 3.0,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
+        "China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 3.2,
-      "sources": "CNBC(2)",
+      "pct": 3.0,
+      "sources": "CNBC(1), MarketWatch(1)",
       "sample_headlines": [
         "Boomers are buying into the promise of monthly income from options ETFs, but there's a tax catch",
-        "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 1.6,
-      "sources": "MarketWatch(1)",
-      "sample_headlines": [
-        "\u2018Some people did everything right\u2019: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.6,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "Traders Grow Wary of Copper Bull Market With No Sign of Tariffs"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 1.6,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "China Condemns Japan\u2019s \u2018Negative Moves\u2019 Over Yasukuni Shrine"
+        "The Treasury\u2019s financing plans are sparking anxiety on Wall Street"
       ]
     }
   ]
