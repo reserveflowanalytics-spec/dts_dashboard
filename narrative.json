@@ -1,100 +1,106 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 67,
-  "fetched_at": "2026-10-19T21:01:33.887283+00:00",
+  "dominant": "Iran / Middle East conflict",
+  "total_headlines": 71,
+  "fetched_at": "2026-10-20T21:01:59.869961+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 16,
-      "pct": 23.9,
-      "sources": "CNBC(10), MarketWatch(3), Bloomberg(2), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 12,
+      "pct": 16.9,
+      "sources": "CNBC(6), Bloomberg(4), FT(2)",
       "sample_headlines": [
-        "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay",
-        "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
-        "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
-        "Anthropic is AI trade's last big hope for a major IPO this year",
-        "Google says it can build data centers the right way. Some experts and residents are skeptical"
+        "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+        "France to deploy military as it braces for fresh unrest this weekend",
+        "Oil prices fall as traders hope for diplomatic progress in Middle East",
+        "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
+        "Draymond Green says he's 'not Steph Curry,' wants to play another year even if he leaves Golden State Warriors"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 9,
+      "pct": 12.7,
+      "sources": "CNBC(6), MarketWatch(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Former OpenAI exec has quietly built $1.5 billion startup, betting AI can revive U.S. manufacturing",
+        "We're booking big profits in an AI stock and trimming a credit-exposed bank",
+        "Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight",
+        "Apple shares aren't cheap. Here's how to get long for less",
+        "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 13,
-      "pct": 19.4,
-      "sources": "Bloomberg(5), MarketWatch(3), FT(3), CNBC(2)",
+      "count": 9,
+      "pct": 12.7,
+      "sources": "CNBC(3), MarketWatch(2), FT(2), Google News(1), Bloomberg(1)",
       "sample_headlines": [
-        "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
-        "Indonesian stocks plunge to six-year low as MSCI downgrade fears mount",
-        "The Treasury\u2019s financing plans are sparking anxiety on Wall Street",
-        "CoreWeave\u2019s selloff is a lesson in \u2018Finance 101\u2019 \u2014 and Wall Street says the stock can recover",
-        "Micron and other chip stocks spring back to life after bruising selloff"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 9.0,
-      "sources": "CNBC(4), FT(2)",
-      "sample_headlines": [
-        "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
-        "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
-        "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war \u2014 without Zelenskyy",
-        "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
-        "Saudi Arabia to postpone \u2018Davos in the desert\u2019 after Houthi attacks"
+        "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
+        "Data center stocks remain under pressure after Korea IPO plunges 30%",
+        "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
+        "Bull markets tend to peak with a whimper, not a bang \u2014 but a 15% correction for the S&P 500 may be next",
+        "Wall Street researchers just used Claude to design a drug. The experiment has spawned a new investment thesis."
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 4,
-      "pct": 6.0,
-      "sources": "Bloomberg(4)",
-      "sample_headlines": [
-        "Gold Declines as Bond Yields Stay Elevated Despite Oil Drop",
-        "Secretary Wright on Diesel Shortage, Gas Prices, Oil Shipping",
-        "Latest Oil Market News and Analysis for Oct. 19",
-        "US Natural Gas Futures Fall as Offshore Production Recovers"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 6.0,
+      "pct": 5.6,
       "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
-        "New Zealand\u2019s Year-End Inflation Surge Points to More Rate Hikes",
-        "Gold Declines as Bond Yields Stay Elevated Despite Oil Drop",
-        "Secretary Wright on Diesel Shortage, Gas Prices, Oil Shipping"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 4.5,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
-        "One of this year\u2019s most important relationships in global financial markets is falling apart",
-        "The Copper Rally Faces a Tariff Test"
+        "Oil prices fall as traders hope for diplomatic progress in Middle East",
+        "Latest Oil Market News and Analysis for Oct. 20",
+        "Carney to Unveil Budget Nov 5 As PBO Warns Oil Windfall Gone",
+        "Treasuries Rise as Oil Retreats From Highest Levels in Weeks"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 3.0,
-      "sources": "CNBC(2)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "Bloomberg(2), Google News(1)",
       "sample_headlines": [
-        "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
-        "China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround"
+        "Asian Stock Markets Churn on Tech, China Economy Outlooks - Yahoo Finance",
+        "Brazil Readies China Bond Debut for as Soon as Next Week",
+        "Carney to Unveil Budget Nov 5 As PBO Warns Oil Windfall Gone"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+        "Gold Wavers as Traders Weigh US-Iran Talks, Fed Rate Path"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 3.0,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "pct": 2.8,
+      "sources": "MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Boomers are buying into the promise of monthly income from options ETFs, but there's a tax catch",
-        "The Treasury\u2019s financing plans are sparking anxiety on Wall Street"
+        "It\u2019s not just California\u2019s billionaire tax. Wealth is on the ballot in the midterm elections.",
+        "Carney to Unveil Budget Nov 5 As PBO Warns Oil Windfall Gone"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Trump sued over 50% tariffs on Canada in latest trade challenge"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "Maybe We Were Wrong About Blockchain"
       ]
     }
   ]
