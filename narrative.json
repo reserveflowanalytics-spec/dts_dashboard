@@ -1,106 +1,110 @@
 {
-  "dominant": "Iran / Middle East conflict",
-  "total_headlines": 71,
-  "fetched_at": "2026-10-20T21:01:59.869961+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 69,
+  "fetched_at": "2026-10-22T21:01:30.525922+00:00",
   "topics": [
     {
-      "topic": "Iran / Middle East conflict",
-      "count": 12,
-      "pct": 16.9,
-      "sources": "CNBC(6), Bloomberg(4), FT(2)",
-      "sample_headlines": [
-        "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-        "France to deploy military as it braces for fresh unrest this weekend",
-        "Oil prices fall as traders hope for diplomatic progress in Middle East",
-        "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
-        "Draymond Green says he's 'not Steph Curry,' wants to play another year even if he leaves Golden State Warriors"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 9,
-      "pct": 12.7,
-      "sources": "CNBC(6), MarketWatch(1), FT(1), Bloomberg(1)",
+      "count": 16,
+      "pct": 23.2,
+      "sources": "CNBC(8), MarketWatch(3), Bloomberg(3), FT(2)",
       "sample_headlines": [
-        "Former OpenAI exec has quietly built $1.5 billion startup, betting AI can revive U.S. manufacturing",
-        "We're booking big profits in an AI stock and trimming a credit-exposed bank",
-        "Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight",
-        "Apple shares aren't cheap. Here's how to get long for less",
-        "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay"
+        "Meta\u2019s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
+        "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+        "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
+        "AI debt and French bonds face a stress test \u2014 why it may not be over",
+        "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here\u2019s why"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 12.7,
-      "sources": "CNBC(3), MarketWatch(2), FT(2), Google News(1), Bloomberg(1)",
+      "count": 11,
+      "pct": 15.9,
+      "sources": "Bloomberg(5), CNBC(4), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
-        "Data center stocks remain under pressure after Korea IPO plunges 30%",
-        "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
-        "Bull markets tend to peak with a whimper, not a bang \u2014 but a 15% correction for the S&P 500 may be next",
-        "Wall Street researchers just used Claude to design a drug. The experiment has spawned a new investment thesis."
+        "Moderna shares plunge after leak of cancer vaccine data despite positive results",
+        "Trump asked Musk to lift Starlink slowdown, WSJ reports",
+        "Reported fraud losses among older Americans hit $3 billion in 2025 as big losses surge: FTC report",
+        "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here\u2019s why",
+        "Moderna\u2019s cancer vaccine hits its targets, but a data leak rattled investors and the stock tumbled"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 6,
+      "pct": 8.7,
+      "sources": "CNBC(3), FT(2), MarketWatch(1)",
+      "sample_headlines": [
+        "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+        "American Express brings Airbnb bookings and rewards to Amex Travel platform",
+        "Brent crude tops $113, highest level since May, after Trump hints at action on Iran",
+        "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+        "No wars and no inflation: Has Trump delivered on his big promises?"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "Bloomberg(3), CNBC(1)",
+      "count": 6,
+      "pct": 8.7,
+      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1)",
       "sample_headlines": [
-        "Oil prices fall as traders hope for diplomatic progress in Middle East",
-        "Latest Oil Market News and Analysis for Oct. 20",
-        "Carney to Unveil Budget Nov 5 As PBO Warns Oil Windfall Gone",
-        "Treasuries Rise as Oil Retreats From Highest Levels in Weeks"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "Bloomberg(2), Google News(1)",
-      "sample_headlines": [
-        "Asian Stock Markets Churn on Tech, China Economy Outlooks - Yahoo Finance",
-        "Brazil Readies China Bond Debut for as Soon as Next Week",
-        "Carney to Unveil Budget Nov 5 As PBO Warns Oil Windfall Gone"
+        "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+        "Brent crude tops $113, highest level since May, after Trump hints at action on Iran",
+        "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+        "Nasdaq 100 Drops 3% as Risk-Off Dominates With Oil Prices Rising",
+        "Oil Tankers Plying the US-China Route Command $60 Million. It\u2019s Crushing Demand."
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 8.7,
+      "sources": "CNBC(2), FT(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-        "Gold Wavers as Traders Weigh US-Iran Talks, Fed Rate Path"
+        "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+        "CoreWeave\u2019s market confidence erodes as bond yields spike and stock sinks",
+        "\u2018AI is on trial\u2019: Bond yields sink below 5% as investors look for safety",
+        "Europe\u2019s bracing reality on US bond yields",
+        "No wars and no inflation: Has Trump delivered on his big promises?"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Trump asked Musk to lift Starlink slowdown, WSJ reports",
+        "Jobless claims near the lowest since the 1960s as low-fire trend continues"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
+        "Young investors are betting on prediction markets and crypto. But this bestselling author says the boring money moves still work."
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 2.8,
-      "sources": "MarketWatch(1), Bloomberg(1)",
+      "pct": 2.9,
+      "sources": "CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "It\u2019s not just California\u2019s billionaire tax. Wealth is on the ballot in the midterm elections.",
-        "Carney to Unveil Budget Nov 5 As PBO Warns Oil Windfall Gone"
+        "Meta\u2019s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
+        "Zuckerberg\u2019s California tax move is a win for Meta \u2014 and for him"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Trump sued over 50% tariffs on Canada in latest trade challenge"
-      ]
-    },
-    {
-      "topic": "Crypto",
+      "topic": "China",
       "count": 1,
       "pct": 1.4,
       "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Maybe We Were Wrong About Blockchain"
+        "Oil Tankers Plying the US-China Route Command $60 Million. It\u2019s Crushing Demand."
       ]
     }
   ]
