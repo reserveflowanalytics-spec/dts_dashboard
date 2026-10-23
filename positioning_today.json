@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-21",
-  "computed_at": "2026-10-22T21:01:49Z",
+  "as_of": "2026-10-22",
+  "computed_at": "2026-10-23T21:01:42Z",
   "bias": "BULLISH",
   "conviction": "technicals only",
   "bias_reason": "SPX 7,757 above SMA20 7,736; long since 2026-09-21; fiscal regime Restrictive does not agree (reported, not acted on).",
@@ -21,24 +21,24 @@
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": 13.22
+      "roc_20d": 15.26
     }
   ],
   "underweight_pairs": [
     {
       "pair": "HYG/TLT",
       "rationale": "Credit risk appetite vs duration safety",
-      "roc_20d": -1.12
+      "roc_20d": -3.78
     },
     {
       "pair": "XLI/XLP",
       "rationale": "Industrials vs staples",
-      "roc_20d": -6.37
+      "roc_20d": -10.34
     },
     {
       "pair": "XLY/XLP",
       "rationale": "Consumer discretionary vs staples",
-      "roc_20d": -1.2
+      "roc_20d": -5.35
     }
   ],
   "watch_upgrade": "Fiscal regime turns Supportive -> VERY BULLISH (label only)",
