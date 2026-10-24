@@ -1,103 +1,99 @@
 {
-  "dominant": "No clear dominant narrative",
+  "dominant": "AI / Tech",
   "total_headlines": 72,
-  "fetched_at": "2026-10-23T21:01:27.369824+00:00",
+  "fetched_at": "2026-10-24T21:00:47.840787+00:00",
   "topics": [
+    {
+      "topic": "AI / Tech",
+      "count": 11,
+      "pct": 15.3,
+      "sources": "CNBC(9), Bloomberg(2)",
+      "sample_headlines": [
+        "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+        "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+        "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+        "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+        "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields"
+      ]
+    },
     {
       "topic": "Iran / Middle East conflict",
       "count": 10,
       "pct": 13.9,
-      "sources": "CNBC(4), FT(4), MarketWatch(2)",
+      "sources": "FT(4), CNBC(3), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
+        "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+        "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
         "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
-        "CrowdStrike CEO's alarming prediction \u2014 plus, the sell-off spreads beyond tech",
-        "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
-        "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
-        "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 10,
-      "pct": 13.9,
-      "sources": "CNBC(6), Bloomberg(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
-        "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
-        "With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage",
-        "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
-        "On the ground at Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 13.9,
-      "sources": "Bloomberg(4), CNBC(3), MarketWatch(2), FT(1)",
-      "sample_headlines": [
-        "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
-        "Doctors call Moderna, Merck cancer vaccine data a major advancement \u2014 despite Wall Street reaction",
-        "CrowdStrike CEO's alarming prediction \u2014 plus, the sell-off spreads beyond tech",
-        "Some Republicans are opposing Trump on tariffs. Maine\u2019s Susan Collins just got him to back down on Canadian levies.",
-        "Can Nvidia\u2019s stock become a safe haven as Wall Street rethinks the AI trade?"
+        "Over 40% of Americans are heading toward retirement \u2018blind\u2019 \u2014 with no plan",
+        "Ukraine military says Starlink service restrictions have been lifted"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 9.7,
-      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "CNBC(3), Bloomberg(3)",
       "sample_headlines": [
+        "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+        "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
         "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
-        "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
-        "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
-        "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
-        "Hedge Funds Are Record Short Natural Gas on Mild Winter Outlook"
+        "Indonesia Begins Trimming Pipeline Gas Exports to Singapore",
+        "Persistent Oil Prices Threaten Inflation Outlook"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 5,
+      "pct": 6.9,
+      "sources": "CNBC(2), Google News(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+        "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
+        "Indonesia\u2019s Stock Market Crisis Is Self-Inflicted - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
+        "France avoids downgrade from Moody\u2019s in boost for Macron\u2019s government",
+        "\u2018Total Meltdown\u2019 in Riskiest Debt Unnerves Market: Credit Weekly"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "CNBC(3), Bloomberg(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
+        "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
         "Trump dropping some Canada tariffs but 'replacing' them with other products",
-        "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
-        "Higher interest rates have made family offices pickier about investing in real estate",
-        "US\u00a0Consumer\u00a0Sentiment Slips to Five-Month Low on Inflation"
+        "Persistent Oil Prices Threaten Inflation Outlook"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "FT(2), CNBC(1), MarketWatch(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
         "Trump dropping some Canada tariffs but 'replacing' them with other products",
-        "Some Republicans are opposing Trump on tariffs. Maine\u2019s Susan Collins just got him to back down on Canadian levies.",
-        "The limits of Trump\u2019s trade war",
-        "Trump to cut Canadian tariffs after pressure from Republicans"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "CNBC(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
-        "Meta\u2019s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
-        "Zuckerberg\u2019s deal to stay in California cheered by wealth tax campaign",
-        "AI Trade Stumbles Again as Investors Rediscover Treasury Haven"
+        "Israel central bank rejects Netanyahu\u2019s plan to use crypto to evade sanctions",
+        "Indonesia Begins Trimming Pipeline Gas Exports to Singapore"
       ]
     },
     {
       "topic": "China",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
+        "Venezuela to Restart a Crucial Power Plant With China\u2019s Help"
+      ]
+    },
+    {
+      "topic": "Crypto",
       "count": 1,
       "pct": 1.4,
-      "sources": "CNBC(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch"
+        "Israel central bank rejects Netanyahu\u2019s plan to use crypto to evade sanctions"
       ]
     }
   ]
