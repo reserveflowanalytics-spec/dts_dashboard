@@ -1,99 +1,90 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 72,
-  "fetched_at": "2026-10-24T21:00:47.840787+00:00",
+  "total_headlines": 64,
+  "fetched_at": "2026-10-25T22:02:36.490893+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
       "count": 11,
-      "pct": 15.3,
-      "sources": "CNBC(9), Bloomberg(2)",
+      "pct": 17.2,
+      "sources": "CNBC(8), Bloomberg(3)",
       "sample_headlines": [
         "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
-        "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
         "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
-        "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-        "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields"
+        "Biotech stocks are surging. How investors can play the new drug innovation boom",
+        "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+        "More pain may be coming for the AI trade. Why I\u2019m not giving up on it"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 13.9,
-      "sources": "FT(4), CNBC(3), Bloomberg(2), MarketWatch(1)",
+      "count": 6,
+      "pct": 9.4,
+      "sources": "CNBC(4), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
+        "Ukraine disputes Elon Musk\u2019s claim that its military violated Starlink terms during drone operations",
+        "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
         "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
         "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
-        "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
-        "Over 40% of Americans are heading toward retirement \u2018blind\u2019 \u2014 with no plan",
-        "Ukraine military says Starlink service restrictions have been lifted"
+        "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?"
       ]
     },
     {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(3), Bloomberg(3)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 5,
+      "pct": 7.8,
+      "sources": "CNBC(2), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-        "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-        "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
-        "Indonesia Begins Trimming Pipeline Gas Exports to Singapore",
-        "Persistent Oil Prices Threaten Inflation Outlook"
+        "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+        "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
+        "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I\u2019m crazy. Who\u2019s right?",
+        "London\u2019s most famous shopping street bans cars in bid to revive its fortunes",
+        "Fed Looks Set to Pause After September Rate Hike"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 5,
-      "pct": 6.9,
-      "sources": "CNBC(2), Google News(1), FT(1), Bloomberg(1)",
+      "pct": 7.8,
+      "sources": "MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
-        "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
-        "Indonesia\u2019s Stock Market Crisis Is Self-Inflicted - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
-        "France avoids downgrade from Moody\u2019s in boost for Macron\u2019s government",
-        "\u2018Total Meltdown\u2019 in Riskiest Debt Unnerves Market: Credit Weekly"
+        "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
+        "Worried about this stock-market selloff? Relief may be coming after the midterms \u2014 no matter who wins.",
+        "Bon Secours nears $6bn takeover of Bain-backed Surgery Partners",
+        "Zero-Day Option Traders Are Betting Against Big S&P 500 Swings",
+        "French Bond Rout Puts Crisis at Heart of ECB Succession Endgame"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 6.2,
+      "sources": "CNBC(2), Bloomberg(2)",
       "sample_headlines": [
-        "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
-        "Trump dropping some Canada tariffs but 'replacing' them with other products",
-        "Persistent Oil Prices Threaten Inflation Outlook"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump dropping some Canada tariffs but 'replacing' them with other products",
-        "Israel central bank rejects Netanyahu\u2019s plan to use crypto to evade sanctions",
+        "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+        "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+        "Singapore\u2019s Wong Vows More Support for Workers, Energy Security",
         "Indonesia Begins Trimming Pipeline Gas Exports to Singapore"
       ]
     },
     {
-      "topic": "China",
+      "topic": "Trade / Tariffs",
       "count": 2,
-      "pct": 2.8,
+      "pct": 3.1,
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
-        "Venezuela to Restart a Crucial Power Plant With China\u2019s Help"
+        "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
+        "Indonesia Begins Trimming Pipeline Gas Exports to Singapore"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "FT(1)",
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 3.1,
+      "sources": "Bloomberg(2)",
       "sample_headlines": [
-        "Israel central bank rejects Netanyahu\u2019s plan to use crypto to evade sanctions"
+        "Senegal Premier Raises Constitutional Option in Budget Standoff",
+        "Emerging Debt Outruns Treasuries as Rich-World Fiscal Fears Grow"
       ]
     }
   ]
