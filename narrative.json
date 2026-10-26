@@ -1,90 +1,81 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 64,
-  "fetched_at": "2026-10-25T22:02:36.490893+00:00",
+  "total_headlines": 66,
+  "fetched_at": "2026-10-26T22:01:25.180308+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 17.2,
-      "sources": "CNBC(8), Bloomberg(3)",
+      "count": 12,
+      "pct": 18.2,
+      "sources": "CNBC(6), MarketWatch(2), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
-        "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
-        "Biotech stocks are surging. How investors can play the new drug innovation boom",
-        "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
-        "More pain may be coming for the AI trade. Why I\u2019m not giving up on it"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 9.4,
-      "sources": "CNBC(4), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Ukraine disputes Elon Musk\u2019s claim that its military violated Starlink terms during drone operations",
-        "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
-        "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
-        "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
-        "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 7.8,
-      "sources": "CNBC(2), MarketWatch(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
-        "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
-        "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I\u2019m crazy. Who\u2019s right?",
-        "London\u2019s most famous shopping street bans cars in bid to revive its fortunes",
-        "Fed Looks Set to Pause After September Rate Hike"
+        "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+        "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
+        "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks",
+        "Meta announces $95 billion stock offering to fund AI expansion",
+        "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 5,
-      "pct": 7.8,
-      "sources": "MarketWatch(2), Bloomberg(2), FT(1)",
+      "pct": 7.6,
+      "sources": "MarketWatch(2), CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
-        "Worried about this stock-market selloff? Relief may be coming after the midterms \u2014 no matter who wins.",
-        "Bon Secours nears $6bn takeover of Bain-backed Surgery Partners",
-        "Zero-Day Option Traders Are Betting Against Big S&P 500 Swings",
-        "French Bond Rout Puts Crisis at Heart of ECB Succession Endgame"
+        "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer",
+        "Why Lumentum\u2019s stock led the S&P 500 higher on Monday",
+        "Sorry investors, but there\u2019s no such thing as an early \u2018Santa Claus rally.\u2019 Here\u2019s when the real gains typically happen.",
+        "Brazil\u2019s currency plunges most since 1999 after Lula\u2019s surprise victory",
+        "Whirlpool Plunges After Cutting Outlook For Third Time This Year"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 4,
+      "pct": 6.1,
+      "sources": "CNBC(2), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Trump says he'll soon decide whether to \u2018make a deal\u2019 with Iran or \u2018finish it off'",
+        "Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate",
+        "Over 40% of Americans are heading toward retirement \u2018blind\u2019 \u2014 with no plan",
+        "Trump, Netanyahu and the politics of escalation against Iran"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 2,
+      "pct": 3.0,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+        "Fanatics teams up with OpenAI for new AI-powered shopping suggestion feature"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 6.2,
-      "sources": "CNBC(2), Bloomberg(2)",
+      "count": 1,
+      "pct": 1.5,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-        "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-        "Singapore\u2019s Wong Vows More Support for Workers, Energy Security",
-        "Indonesia Begins Trimming Pipeline Gas Exports to Singapore"
+        "Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 3.1,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 1,
+      "pct": 1.5,
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
-        "Indonesia Begins Trimming Pipeline Gas Exports to Singapore"
+        "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 3.1,
-      "sources": "Bloomberg(2)",
+      "count": 1,
+      "pct": 1.5,
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Senegal Premier Raises Constitutional Option in Budget Standoff",
-        "Emerging Debt Outruns Treasuries as Rich-World Fiscal Fears Grow"
+        "Colombia Sells $5.2 Billion in New Bonds Amid Fiscal Strain"
       ]
     }
   ]
