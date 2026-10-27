@@ -1,81 +1,94 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 66,
-  "fetched_at": "2026-10-26T22:01:25.180308+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 71,
+  "fetched_at": "2026-10-27T22:01:17.072065+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
+      "topic": "Equities / Market moves",
       "count": 12,
-      "pct": 18.2,
-      "sources": "CNBC(6), MarketWatch(2), FT(2), Bloomberg(2)",
+      "pct": 16.9,
+      "sources": "CNBC(4), MarketWatch(3), Bloomberg(3), FT(2)",
       "sample_headlines": [
-        "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
-        "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
-        "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks",
-        "Meta announces $95 billion stock offering to fund AI expansion",
-        "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer"
+        "Neil Young sues Trump committee for $10M for playing 'Rockin' in the Free World' at rally",
+        "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+        "Margin debt growth slows sharply as stock market warning signs build",
+        "JetBlue stock surges as company outlook calms investors",
+        "My husband wants to sell our $1.5 million home and downsize. But this is where we raised our kids \u2014 and I can\u2019t bear to leave."
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 5,
-      "pct": 7.6,
-      "sources": "MarketWatch(2), CNBC(1), FT(1), Bloomberg(1)",
+      "topic": "AI / Tech",
+      "count": 11,
+      "pct": 15.5,
+      "sources": "CNBC(5), MarketWatch(2), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer",
-        "Why Lumentum\u2019s stock led the S&P 500 higher on Monday",
-        "Sorry investors, but there\u2019s no such thing as an early \u2018Santa Claus rally.\u2019 Here\u2019s when the real gains typically happen.",
-        "Brazil\u2019s currency plunges most since 1999 after Lula\u2019s surprise victory",
-        "Whirlpool Plunges After Cutting Outlook For Third Time This Year"
+        "Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI",
+        "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch.",
+        "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
+        "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
+        "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 4,
-      "pct": 6.1,
-      "sources": "CNBC(2), MarketWatch(1), FT(1)",
+      "count": 5,
+      "pct": 7.0,
+      "sources": "CNBC(3), FT(2)",
       "sample_headlines": [
-        "Trump says he'll soon decide whether to \u2018make a deal\u2019 with Iran or \u2018finish it off'",
-        "Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate",
-        "Over 40% of Americans are heading toward retirement \u2018blind\u2019 \u2014 with no plan",
-        "Trump, Netanyahu and the politics of escalation against Iran"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 2,
-      "pct": 3.0,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
-        "Fanatics teams up with OpenAI for new AI-powered shopping suggestion feature"
+        "Honda warns 50% Canada auto tariffs would be catastrophic for industry",
+        "Margin debt growth slows sharply as stock market warning signs build",
+        "Ripple strikes deal with Robinhood to expand its RLUSD digital dollar",
+        "No clear winner in Israeli parliamentary election, exit polls suggest",
+        "Israel election turnout highest in decades"
       ]
     },
     {
       "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(1), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+        "As Trump touts energy companies\u2019 fortunes, U.S. consumers face the most expensive year for gas prices ever",
+        "Washington discusses Russian deals for US oil majors in Ukraine peace talks"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses",
+        "Retail traders buy the dip on chip stocks \u2014 but Robinhood gets burned by the crypto market"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), FT(1)",
+      "sample_headlines": [
+        "Lula\u2019s election win leaves Brazil facing a fiscal tightrope",
+        "Lula faces a fiscal reckoning after Brazil\u2019s market rout"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
       "count": 1,
-      "pct": 1.5,
+      "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate"
+        "As holiday shopping approaches, seasonal hiring gives 'mixed signals,' experts say"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
-      "pct": 1.5,
+      "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 1.5,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "Colombia Sells $5.2 Billion in New Bonds Amid Fiscal Strain"
+        "Honda warns 50% Canada auto tariffs would be catastrophic for industry"
       ]
     }
   ]
