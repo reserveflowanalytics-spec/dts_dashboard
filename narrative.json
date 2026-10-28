@@ -1,94 +1,96 @@
 {
-  "dominant": "Equities / Market moves",
+  "dominant": "Fed / Rates / Inflation",
   "total_headlines": 71,
-  "fetched_at": "2026-10-27T22:01:17.072065+00:00",
+  "fetched_at": "2026-10-28T22:01:14.989652+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 16.9,
-      "sources": "CNBC(4), MarketWatch(3), Bloomberg(3), FT(2)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 19,
+      "pct": 26.8,
+      "sources": "CNBC(9), Bloomberg(8), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Neil Young sues Trump committee for $10M for playing 'Rockin' in the Free World' at rally",
-        "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
-        "Margin debt growth slows sharply as stock market warning signs build",
-        "JetBlue stock surges as company outlook calms investors",
-        "My husband wants to sell our $1.5 million home and downsize. But this is where we raised our kids \u2014 and I can\u2019t bear to leave."
+        "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
+        "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+        "10-year Treasury yield creeps higher even as Fed keeps rates the same",
+        "Bessent says 'not necessarily' a mistake if the Fed hikes again",
+        "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 15.5,
-      "sources": "CNBC(5), MarketWatch(2), FT(2), Bloomberg(2)",
+      "count": 13,
+      "pct": 18.3,
+      "sources": "CNBC(6), MarketWatch(3), FT(3), Bloomberg(1)",
       "sample_headlines": [
-        "Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI",
-        "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch.",
-        "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
-        "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
-        "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership"
+        "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+        "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
+        "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
+        "We're adding a new, high-profile AI play to our Bullpen stocks to watch list",
+        "The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 9,
+      "pct": 12.7,
+      "sources": "Bloomberg(4), CNBC(3), Google News(1), FT(1)",
+      "sample_headlines": [
+        "Fed chairman talks tough on inflation \u2014 plus, what's behind Micron's big rally",
+        "The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down",
+        "Options traders break down a massive Alphabet trade into earnings",
+        "China\u2019s stock markets are the great global exception - The Economist",
+        "Google shares tumble 9% after $51bn AI outlay deepens cash burn"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 5,
-      "pct": 7.0,
-      "sources": "CNBC(3), FT(2)",
+      "count": 6,
+      "pct": 8.5,
+      "sources": "FT(2), Bloomberg(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Honda warns 50% Canada auto tariffs would be catastrophic for industry",
-        "Margin debt growth slows sharply as stock market warning signs build",
-        "Ripple strikes deal with Robinhood to expand its RLUSD digital dollar",
-        "No clear winner in Israeli parliamentary election, exit polls suggest",
-        "Israel election turnout highest in decades"
+        "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+        "Why did the Fed hold off on raising interest rates? Warsh says it\u2019s because an \u2018information-rich\u2019 period is coming.",
+        "How Israel\u2019s opposition fell short against Netanyahu",
+        "Israel\u2019s Arabs seek a slice of power",
+        "The Fed Will Deliver Price Stability, Warsh Says"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(1), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
-        "As Trump touts energy companies\u2019 fortunes, U.S. consumers face the most expensive year for gas prices ever",
-        "Washington discusses Russian deals for US oil majors in Ukraine peace talks"
-      ]
-    },
-    {
-      "topic": "Crypto",
       "count": 2,
       "pct": 2.8,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "sources": "MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses",
-        "Retail traders buy the dip on chip stocks \u2014 but Robinhood gets burned by the crypto market"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), FT(1)",
-      "sample_headlines": [
-        "Lula\u2019s election win leaves Brazil facing a fiscal tightrope",
-        "Lula faces a fiscal reckoning after Brazil\u2019s market rout"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "As holiday shopping approaches, seasonal hiring gives 'mixed signals,' experts say"
+        "U.S. oil-refinery stocks are up roughly 150% this year. How long could this historic run last?",
+        "Latest Oil Market News and Analysis for Oct. 28"
       ]
     },
     {
       "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+        "Chris Wright Says Diesel Exports From Arabian Gulf Likely to Increase"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "Google News(1)",
+      "sample_headlines": [
+        "China\u2019s stock markets are the great global exception - The Economist"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
       "count": 1,
       "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Honda warns 50% Canada auto tariffs would be catastrophic for industry"
+        "10-year Treasury yield creeps higher even as Fed keeps rates the same"
       ]
     }
   ]
