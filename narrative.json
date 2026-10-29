@@ -1,96 +1,97 @@
 {
-  "dominant": "Fed / Rates / Inflation",
-  "total_headlines": 71,
-  "fetched_at": "2026-10-28T22:01:14.989652+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 72,
+  "fetched_at": "2026-10-29T22:01:24.076590+00:00",
   "topics": [
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 19,
-      "pct": 26.8,
-      "sources": "CNBC(9), Bloomberg(8), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
-        "Here are five key takeaways from the Fed rate decision and Warsh news conference",
-        "10-year Treasury yield creeps higher even as Fed keeps rates the same",
-        "Bessent says 'not necessarily' a mistake if the Fed hikes again",
-        "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts"
-      ]
-    },
-    {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 18.3,
-      "sources": "CNBC(6), MarketWatch(3), FT(3), Bloomberg(1)",
+      "count": 17,
+      "pct": 23.6,
+      "sources": "CNBC(9), Bloomberg(5), FT(3)",
       "sample_headlines": [
-        "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-        "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
-        "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
-        "We're adding a new, high-profile AI play to our Bullpen stocks to watch list",
-        "The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down"
+        "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
+        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance",
+        "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+        "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+        "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 9,
-      "pct": 12.7,
-      "sources": "Bloomberg(4), CNBC(3), Google News(1), FT(1)",
+      "count": 14,
+      "pct": 19.4,
+      "sources": "CNBC(7), Bloomberg(3), MarketWatch(2), Google News(1), FT(1)",
       "sample_headlines": [
-        "Fed chairman talks tough on inflation \u2014 plus, what's behind Micron's big rally",
-        "The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down",
-        "Options traders break down a massive Alphabet trade into earnings",
-        "China\u2019s stock markets are the great global exception - The Economist",
-        "Google shares tumble 9% after $51bn AI outlay deepens cash burn"
+        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance",
+        "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+        "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
+        "Big Oil earnings are set to surge. Why investors may want to be cautious",
+        "Norwegian shares surge 13% on earnings beat, guidance raise"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.5,
-      "sources": "FT(2), Bloomberg(2), CNBC(1), MarketWatch(1)",
+      "count": 5,
+      "pct": 6.9,
+      "sources": "CNBC(3), Bloomberg(2)",
       "sample_headlines": [
-        "Here are five key takeaways from the Fed rate decision and Warsh news conference",
-        "Why did the Fed hold off on raising interest rates? Warsh says it\u2019s because an \u2018information-rich\u2019 period is coming.",
-        "How Israel\u2019s opposition fell short against Netanyahu",
-        "Israel\u2019s Arabs seek a slice of power",
-        "The Fed Will Deliver Price Stability, Warsh Says"
+        "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+        "Aon CEO warns AI data center insurance risks could threaten financing",
+        "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks",
+        "Oil Wavers on Conflicting Reports of US Military Moves in Iran",
+        "Polymarket Investigates Suspicious Trades on Israel Election"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "MarketWatch(1), Bloomberg(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "U.S. oil-refinery stocks are up roughly 150% this year. How long could this historic run last?",
-        "Latest Oil Market News and Analysis for Oct. 28"
+        "Big Oil earnings are set to surge. Why investors may want to be cautious",
+        "ExxonMobil boss pulls out of Gulf energy conference over security concerns",
+        "Oil Wavers on Conflicting Reports of US Military Moves in Iran"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(3)",
       "sample_headlines": [
-        "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
-        "Chris Wright Says Diesel Exports From Arabian Gulf Likely to Increase"
+        "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
+        "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+        "European Central Bank keeps key interest rate on hold at 2.5%"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "Google News(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(1), MarketWatch(1), Google News(1)",
       "sample_headlines": [
+        "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+        "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock closed at a record high.",
         "China\u2019s stock markets are the great global exception - The Economist"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
+      "topic": "Recession / Slowdown",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance",
+        "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates"
+      ]
+    },
+    {
+      "topic": "Crypto",
       "count": 1,
       "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "10-year Treasury yield creeps higher even as Fed keeps rates the same"
+        "Rare Stanley Druckenmiller post sends crypto-linked stock surging"
       ]
     }
   ]
