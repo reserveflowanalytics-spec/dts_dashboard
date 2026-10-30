@@ -1,97 +1,87 @@
 {
-  "dominant": "AI / Tech",
+  "dominant": "Equities / Market moves",
   "total_headlines": 72,
-  "fetched_at": "2026-10-29T22:01:24.076590+00:00",
+  "fetched_at": "2026-10-30T22:01:15.099765+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 17,
-      "pct": 23.6,
-      "sources": "CNBC(9), Bloomberg(5), FT(3)",
-      "sample_headlines": [
-        "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
-        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance",
-        "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
-        "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
-        "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'"
-      ]
-    },
-    {
       "topic": "Equities / Market moves",
-      "count": 14,
-      "pct": 19.4,
-      "sources": "CNBC(7), Bloomberg(3), MarketWatch(2), Google News(1), FT(1)",
+      "count": 11,
+      "pct": 15.3,
+      "sources": "Bloomberg(5), MarketWatch(3), CNBC(2), FT(1)",
       "sample_headlines": [
-        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance",
-        "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
-        "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
-        "Big Oil earnings are set to surge. Why investors may want to be cautious",
-        "Norwegian shares surge 13% on earnings beat, guidance raise"
+        "Wall Street braces for Democratic gains as 2026 midterm election nears",
+        "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
+        "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+        "Microsoft is winning the cloud wars and becoming Wall Street\u2019s new golden child",
+        "The selloff in tech stocks is shifting into overdrive"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 5,
-      "pct": 6.9,
-      "sources": "CNBC(3), Bloomberg(2)",
+      "count": 10,
+      "pct": 13.9,
+      "sources": "CNBC(5), MarketWatch(3), FT(2)",
       "sample_headlines": [
-        "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
-        "Aon CEO warns AI data center insurance risks could threaten financing",
-        "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks",
-        "Oil Wavers on Conflicting Reports of US Military Moves in Iran",
-        "Polymarket Investigates Suspicious Trades on Israel Election"
+        "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+        "Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars",
+        "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
+        "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+        "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 7,
+      "pct": 9.7,
+      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
+        "Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout",
+        "Microsoft is winning the cloud wars and becoming Wall Street\u2019s new golden child",
+        "The selloff in tech stocks is shifting into overdrive",
+        "US tech stocks tumble as concerns over AI spending intensify"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 3,
       "pct": 4.2,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
-        "Big Oil earnings are set to surge. Why investors may want to be cautious",
-        "ExxonMobil boss pulls out of Gulf energy conference over security concerns",
-        "Oil Wavers on Conflicting Reports of US Military Moves in Iran"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(3)",
-      "sample_headlines": [
-        "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
-        "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-        "European Central Bank keeps key interest rate on hold at 2.5%"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(1), MarketWatch(1), Google News(1)",
-      "sample_headlines": [
-        "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
-        "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock closed at a record high.",
-        "China\u2019s stock markets are the great global exception - The Economist"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance",
-        "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates"
+        "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+        "Hedge Funds Boost Natural Gas Short Positions to Most on Record",
+        "Latest Oil Market News and Analysis for Oct. 30"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(3)",
       "sample_headlines": [
-        "Rare Stanley Druckenmiller post sends crypto-linked stock surging"
+        "Binance loses $6.3 billion in crypto heist\u2014what happens to your money when an exchange gets hacked",
+        "Why bitcoin held up better after the record Binance hack",
+        "$6.3 billion Binance hack is largest crypto theft on record"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Fed officials are already saying they\u2019ll need to get back to hiking rates",
+        "Warsh wants the Fed to say less. Two officials are pushing for more transparency."
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+        "Wall Street Boom to Cut New York State Budget Deficit in Half"
       ]
     }
   ]
