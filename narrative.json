@@ -1,87 +1,87 @@
 {
-  "dominant": "Equities / Market moves",
+  "dominant": "AI / Tech",
   "total_headlines": 72,
-  "fetched_at": "2026-10-30T22:01:15.099765+00:00",
+  "fetched_at": "2026-10-31T22:01:00.646272+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 15.3,
-      "sources": "Bloomberg(5), MarketWatch(3), CNBC(2), FT(1)",
+      "topic": "AI / Tech",
+      "count": 12,
+      "pct": 16.7,
+      "sources": "Bloomberg(5), CNBC(4), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Wall Street braces for Democratic gains as 2026 midterm election nears",
-        "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
-        "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-        "Microsoft is winning the cloud wars and becoming Wall Street\u2019s new golden child",
-        "The selloff in tech stocks is shifting into overdrive"
+        "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+        "Humans are still doing the work behind some AI agents",
+        "Meta outlook revised downward by S&P on cash flow and capex concerns",
+        "AI is coming to construction sites. But does it make workers safer?",
+        "Medicare used AI to pre-approve patient care, and it immediately led to a large drop in medical services"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 10,
+      "pct": 13.9,
+      "sources": "CNBC(5), FT(2), Bloomberg(2), Google News(1)",
+      "sample_headlines": [
+        "Anthropic's path to the Nasdaq just got a lot bumpier",
+        "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
+        "Berkshire ekes out some new highs, but October rally stalls",
+        "Meta outlook revised downward by S&P on cash flow and capex concerns",
+        "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 10,
-      "pct": 13.9,
-      "sources": "CNBC(5), MarketWatch(3), FT(2)",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "CNBC(2), FT(2), Bloomberg(2)",
       "sample_headlines": [
-        "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
-        "Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars",
-        "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
-        "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
-        "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise"
-      ]
-    },
-    {
-      "topic": "AI / Tech",
-      "count": 7,
-      "pct": 9.7,
-      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), FT(1)",
-      "sample_headlines": [
-        "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
-        "Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout",
-        "Microsoft is winning the cloud wars and becoming Wall Street\u2019s new golden child",
-        "The selloff in tech stocks is shifting into overdrive",
-        "US tech stocks tumble as concerns over AI spending intensify"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "Bloomberg(2), CNBC(1)",
-      "sample_headlines": [
-        "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
-        "Hedge Funds Boost Natural Gas Short Positions to Most on Record",
-        "Latest Oil Market News and Analysis for Oct. 30"
+        "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
+        "Meta outlook revised downward by S&P on cash flow and capex concerns",
+        "Steve Bannon: Republicans will erupt in \u2018civil war\u2019 after midterm elections",
+        "Iran warns it will retaliate without \u2018geographical limitations\u2019 if attacked",
+        "EU\u2019s Kallas Says Hosting Putin at G20 May Normalize War Crimes"
       ]
     },
     {
       "topic": "Crypto",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(3)",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "CNBC(3), Bloomberg(1)",
       "sample_headlines": [
+        "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
         "Binance loses $6.3 billion in crypto heist\u2014what happens to your money when an exchange gets hacked",
         "Why bitcoin held up better after the record Binance hack",
-        "$6.3 billion Binance hack is largest crypto theft on record"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "Fed officials are already saying they\u2019ll need to get back to hiking rates",
-        "Warsh wants the Fed to say less. Two officials are pushing for more transparency."
+        "Crypto Hack Reignites Regulatory Debate"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
         "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
-        "Wall Street Boom to Cut New York State Budget Deficit in Half"
+        "How to start an art collection on any budget",
+        "Senegal Lawmakers Reject Budget Again, Risking IMF Deal"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Trump promised to slash energy costs  \u2014 but gasoline, diesel and jet fuel all soared instead",
+        "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "Russia Extends Ban on Most Diesel Exports Through January"
       ]
     }
   ]
