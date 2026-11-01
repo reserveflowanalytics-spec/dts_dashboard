@@ -1,87 +1,86 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 72,
-  "fetched_at": "2026-10-31T22:01:00.646272+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 68,
+  "fetched_at": "2026-11-01T22:01:07.536892+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 12,
-      "pct": 16.7,
-      "sources": "Bloomberg(5), CNBC(4), FT(2), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 13,
+      "pct": 19.1,
+      "sources": "CNBC(5), Bloomberg(5), MarketWatch(1), Google News(1), FT(1)",
       "sample_headlines": [
-        "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
-        "Humans are still doing the work behind some AI agents",
-        "Meta outlook revised downward by S&P on cash flow and capex concerns",
-        "AI is coming to construction sites. But does it make workers safer?",
-        "Medicare used AI to pre-approve patient care, and it immediately led to a large drop in medical services"
+        "Anthropic's path to the Nasdaq just got a lot bumpier",
+        "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
+        "Here are 3 big things we're watching in the stock market in the week ahead",
+        "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
+        "Berkshire ekes out some new highs, but October rally stalls"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 13.9,
-      "sources": "CNBC(5), FT(2), Bloomberg(2), Google News(1)",
+      "topic": "AI / Tech",
+      "count": 9,
+      "pct": 13.2,
+      "sources": "CNBC(6), Bloomberg(2), MarketWatch(1)",
       "sample_headlines": [
-        "Anthropic's path to the Nasdaq just got a lot bumpier",
-        "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
-        "Berkshire ekes out some new highs, but October rally stalls",
-        "Meta outlook revised downward by S&P on cash flow and capex concerns",
-        "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down"
+        "Why AI is boosting Meta's ad business while hurting Google search",
+        "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
+        "Everything changed for the oil, AI and bond trades over the past month",
+        "Companies promised AI gains \u2014 here's how the payoff showed up in earnings",
+        "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(2), FT(2), Bloomberg(2)",
+      "pct": 8.8,
+      "sources": "Bloomberg(4), FT(2)",
       "sample_headlines": [
-        "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
-        "Meta outlook revised downward by S&P on cash flow and capex concerns",
-        "Steve Bannon: Republicans will erupt in \u2018civil war\u2019 after midterm elections",
-        "Iran warns it will retaliate without \u2018geographical limitations\u2019 if attacked",
-        "EU\u2019s Kallas Says Hosting Putin at G20 May Normalize War Crimes"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "CNBC(3), Bloomberg(1)",
-      "sample_headlines": [
-        "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
-        "Binance loses $6.3 billion in crypto heist\u2014what happens to your money when an exchange gets hacked",
-        "Why bitcoin held up better after the record Binance hack",
-        "Crypto Hack Reignites Regulatory Debate"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
-        "How to start an art collection on any budget",
-        "Senegal Lawmakers Reject Budget Again, Risking IMF Deal"
+        "Gulf braced for escalation of war between US-Israel alliance and Iran",
+        "Military briefing: what would another US-Iran conflict look like?",
+        "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval",
+        "AI Talent War Spreads to Wall Street",
+        "Brazil Shakeup Sounds Warning on Crowded Emerging-Market Trades"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(2)",
+      "count": 4,
+      "pct": 5.9,
+      "sources": "CNBC(3), Bloomberg(1)",
       "sample_headlines": [
+        "Everything changed for the oil, AI and bond trades over the past month",
         "Trump promised to slash energy costs  \u2014 but gasoline, diesel and jet fuel all soared instead",
-        "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since"
+        "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
+        "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "Fed / Rates / Inflation",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "I'm a psychologist who studies couples: People in the happiest relationships do 1 thing differently after time apart\u2014whether it's hours, days or weeks",
+        "Tech Selloff Could Ease Pressure on the Fed"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+        "Binance\u2019s $6.3 billion hack raises questions about crypto wallet safety"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
       "count": 1,
-      "pct": 1.4,
+      "pct": 1.5,
       "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Russia Extends Ban on Most Diesel Exports Through January"
+        "Wall Street Braces for Biggest Treasury Sales Overhaul in Years"
       ]
     }
   ]
