@@ -1,86 +1,100 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 68,
-  "fetched_at": "2026-11-01T22:01:07.536892+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 70,
+  "fetched_at": "2026-11-02T22:01:23.964463+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
+      "topic": "AI / Tech",
       "count": 13,
-      "pct": 19.1,
-      "sources": "CNBC(5), Bloomberg(5), MarketWatch(1), Google News(1), FT(1)",
+      "pct": 18.6,
+      "sources": "CNBC(5), Bloomberg(4), MarketWatch(2), FT(2)",
       "sample_headlines": [
-        "Anthropic's path to the Nasdaq just got a lot bumpier",
-        "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
-        "Here are 3 big things we're watching in the stock market in the week ahead",
-        "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
-        "Berkshire ekes out some new highs, but October rally stalls"
+        "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
+        "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+        "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
+        "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
+        "AI is coming to construction sites. But does it make workers safer?"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 9,
-      "pct": 13.2,
-      "sources": "CNBC(6), Bloomberg(2), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 11,
+      "pct": 15.7,
+      "sources": "MarketWatch(5), Bloomberg(4), CNBC(2)",
       "sample_headlines": [
-        "Why AI is boosting Meta's ad business while hurting Google search",
-        "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
-        "Everything changed for the oil, AI and bond trades over the past month",
-        "Companies promised AI gains \u2014 here's how the payoff showed up in earnings",
-        "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round"
+        "Stock market after midterm elections: What S&P 500 history shows",
+        "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+        "Wall Street\u2019s most hated stocks are faring far better than its favorites",
+        "The stock market has gone nowhere for the past 5 months. It\u2019s now looking like a bargain.",
+        "How soon gas prices could go down now that oil is tumbling"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.8,
-      "sources": "Bloomberg(4), FT(2)",
+      "count": 8,
+      "pct": 11.4,
+      "sources": "CNBC(4), Bloomberg(4)",
       "sample_headlines": [
-        "Gulf braced for escalation of war between US-Israel alliance and Iran",
-        "Military briefing: what would another US-Iran conflict look like?",
-        "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval",
-        "AI Talent War Spreads to Wall Street",
-        "Brazil Shakeup Sounds Warning on Crowded Emerging-Market Trades"
+        "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+        "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
+        "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
+        "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
+        "S&P 500 Falls as Chip Rout Offsets US-Iran Hopes: Markets Wrap"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 4,
-      "pct": 5.9,
-      "sources": "CNBC(3), Bloomberg(1)",
+      "count": 7,
+      "pct": 10.0,
+      "sources": "Bloomberg(5), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Everything changed for the oil, AI and bond trades over the past month",
-        "Trump promised to slash energy costs  \u2014 but gasoline, diesel and jet fuel all soared instead",
-        "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
-        "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval"
+        "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+        "How soon gas prices could go down now that oil is tumbling",
+        "Chilean, Mexican Pesos Lead EM Currencies Higher as Oil Sinks",
+        "Treasury Yields Extend Past Month\u2019s Slide as Oil Prices Drop",
+        "Gold Rebounds as Iran Diplomacy Hopes Send Oil Tumbling"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 2,
-      "pct": 2.9,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 5,
+      "pct": 7.1,
+      "sources": "CNBC(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "I'm a psychologist who studies couples: People in the happiest relationships do 1 thing differently after time apart\u2014whether it's hours, days or weeks",
-        "Tech Selloff Could Ease Pressure on the Fed"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 2.9,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
-        "Binance\u2019s $6.3 billion hack raises questions about crypto wallet safety"
+        "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+        "Fed will vote on rates less often. What that could mean for borrowers",
+        "Big majority of US voters disapprove of Trump\u2019s handling of inflation: FT poll",
+        "Gold\u2019s Faded Haven Allure Hinges on Deficit, Inflation Fears",
+        "Treasury Yields Extend Past Month\u2019s Slide as Oil Prices Drop"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 1.5,
-      "sources": "Bloomberg(1)",
+      "count": 3,
+      "pct": 4.3,
+      "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
-        "Wall Street Braces for Biggest Treasury Sales Overhaul in Years"
+        "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
+        "Gold\u2019s Faded Haven Allure Hinges on Deficit, Inflation Fears",
+        "Treasury Yields Extend Past Month\u2019s Slide as Oil Prices Drop"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "FT(1)",
+      "sample_headlines": [
+        "Apple\u2019s strong iPhone and Mac sales offset weaker performance in China"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Defense, healthcare, crypto and AI: How the midterm election could affect stocks"
       ]
     }
   ]
