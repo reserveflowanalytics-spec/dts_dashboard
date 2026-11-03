@@ -1,46 +1,24 @@
 {
-  "as_of": "2026-10-30",
-  "computed_at": "2026-11-03T08:19:00Z",
+  "as_of": "2026-11-02",
+  "computed_at": "2026-11-03T22:01:48Z",
   "bias": "FLAT",
   "conviction": "n/a",
-  "bias_reason": "SPX 7,580 at or below SMA20 7,730; flat, never short.",
-  "action": "Flat. No shorts. Enters long on a close above SMA20 (7,730).",
+  "bias_reason": "SPX 7,541 at or below SMA20 7,718; flat, never short.",
+  "action": "Flat. No shorts. Enters long on a close above SMA20 (7,718).",
   "stop": null,
   "signals": {
-    "fiscal_regime": "Supportive",
+    "fiscal_regime": "Neutral",
     "tech_regime": "bearish",
-    "tech_close": 7580.07,
-    "tech_sma20": 7729.9,
+    "tech_close": 7541.4,
+    "tech_sma20": 7718.28,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 4/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "4/11",
+    "rs_conviction_label": "Low \u2014 only 0/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "0/11",
     "tier1_open": false,
     "macro_confluence": "1/3"
   },
-  "overweight_pairs": [
-    {
-      "pair": "XLI/GLD",
-      "rationale": "Industrial activity vs hard asset",
-      "roc_20d": 5.24
-    }
-  ],
-  "underweight_pairs": [
-    {
-      "pair": "XLF/XLU",
-      "rationale": "Financials vs utilities",
-      "roc_20d": -3.11
-    },
-    {
-      "pair": "XLY/XLV",
-      "rationale": "Discretionary vs healthcare",
-      "roc_20d": -5.75
-    },
-    {
-      "pair": "KRE/XLU",
-      "rationale": "Regional banks vs utilities",
-      "roc_20d": -6.7
-    }
-  ],
+  "overweight_pairs": [],
+  "underweight_pairs": [],
   "watch_upgrade": "Close above SMA20 -> BULLISH",
   "watch_downgrade": "n/a (already flat)"
 }
