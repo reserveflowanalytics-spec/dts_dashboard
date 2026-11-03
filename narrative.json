@@ -1,91 +1,82 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 70,
-  "fetched_at": "2026-11-02T22:01:23.964463+00:00",
+  "total_headlines": 71,
+  "fetched_at": "2026-11-03T08:18:44.220587+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 18.6,
-      "sources": "CNBC(5), Bloomberg(4), MarketWatch(2), FT(2)",
+      "count": 14,
+      "pct": 19.7,
+      "sources": "CNBC(6), MarketWatch(3), FT(3), Google News(1), Bloomberg(1)",
       "sample_headlines": [
+        "OpenAI hires former U.S. Army Secretary Dan Driscoll for national security role",
+        "CNBC's The China Connection newsletter: Nvidia's humanoid push relies on China-made robot hands",
+        "Jim Cramer says these six fashion stocks are buys beyond the AI trade",
         "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
-        "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
-        "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
-        "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
-        "AI is coming to construction sites. But does it make workers safer?"
+        "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 11,
-      "pct": 15.7,
-      "sources": "MarketWatch(5), Bloomberg(4), CNBC(2)",
+      "count": 12,
+      "pct": 16.9,
+      "sources": "MarketWatch(5), CNBC(3), Bloomberg(3), Google News(1)",
       "sample_headlines": [
         "Stock market after midterm elections: What S&P 500 history shows",
+        "Intel foundry push faces critical test after stock's 45% plunge in October",
         "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
-        "Wall Street\u2019s most hated stocks are faring far better than its favorites",
-        "The stock market has gone nowhere for the past 5 months. It\u2019s now looking like a bargain.",
-        "How soon gas prices could go down now that oil is tumbling"
+        "Here\u2019s why Palantir\u2019s stock is down despite a \u2018bombastic\u2019 quarter",
+        "Nasdaq-100 tumbles into its third correction this year as AI worries mount"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 8,
-      "pct": 11.4,
-      "sources": "CNBC(4), Bloomberg(4)",
+      "count": 10,
+      "pct": 14.1,
+      "sources": "Bloomberg(4), CNBC(3), FT(2), Google News(1)",
       "sample_headlines": [
-        "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+        "U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for \u2018negotiated settlement\u2019 with Tehran",
         "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
         "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
-        "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
-        "S&P 500 Falls as Chip Rout Offsets US-Iran Hopes: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 7,
-      "pct": 10.0,
-      "sources": "Bloomberg(5), CNBC(1), MarketWatch(1)",
-      "sample_headlines": [
-        "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
-        "How soon gas prices could go down now that oil is tumbling",
-        "Chilean, Mexican Pesos Lead EM Currencies Higher as Oil Sinks",
-        "Treasury Yields Extend Past Month\u2019s Slide as Oil Prices Drop",
-        "Gold Rebounds as Iran Diplomacy Hopes Send Oil Tumbling"
+        "A lasting AI sell-off is one of the biggest risks to the economy, BofA warns - Yahoo Finance",
+        "Apple warns \u2018unprecedented\u2019 memory chip costs will hit margins"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 5,
-      "pct": 7.1,
-      "sources": "CNBC(2), Bloomberg(2), FT(1)",
+      "pct": 7.0,
+      "sources": "CNBC(4), Bloomberg(1)",
       "sample_headlines": [
         "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+        "Australia hikes rates to 18-year high to fight inflation",
+        "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
         "Fed will vote on rates less often. What that could mean for borrowers",
-        "Big majority of US voters disapprove of Trump\u2019s handling of inflation: FT poll",
-        "Gold\u2019s Faded Haven Allure Hinges on Deficit, Inflation Fears",
-        "Treasury Yields Extend Past Month\u2019s Slide as Oil Prices Drop"
+        "PIMCO Says Mideast Crisis Driving High Interest Rates"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 4.3,
-      "sources": "Bloomberg(2), CNBC(1)",
+      "topic": "Oil / Energy",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "Bloomberg(3), FT(1)",
       "sample_headlines": [
-        "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
-        "Gold\u2019s Faded Haven Allure Hinges on Deficit, Inflation Fears",
-        "Treasury Yields Extend Past Month\u2019s Slide as Oil Prices Drop"
+        "Oil prices steady at $106 after sharp declines",
+        "Eyesan: Strong Interest in New Nigerian Oil Blocks (Video)",
+        "Gold Falls After Oil Rebounds on Lack of US-Iran Deal Progress",
+        "Latest Oil Market News and Analysis for Nov. 3"
       ]
     },
     {
       "topic": "China",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "FT(1)",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "Bloomberg(2), CNBC(1), FT(1)",
       "sample_headlines": [
-        "Apple\u2019s strong iPhone and Mac sales offset weaker performance in China"
+        "CNBC's The China Connection newsletter: Nvidia's humanoid push relies on China-made robot hands",
+        "Nvidia orders data centre clients to reduce China exposure",
+        "Huafa\u2019s $62 Billion Debt Strain Shakes China\u2019s Credit Market",
+        "Chinese Stock Selloff Resumes as Rescue Tools Face Skepticism"
       ]
     },
     {
@@ -95,6 +86,15 @@
       "sources": "CNBC(1)",
       "sample_headlines": [
         "Defense, healthcare, crypto and AI: How the midterm election could affect stocks"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "FT(1)",
+      "sample_headlines": [
+        "Italy\u2019s \u2018exit tax\u2019 plan spooks rich expats"
       ]
     }
   ]
