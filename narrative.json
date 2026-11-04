@@ -1,87 +1,87 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 71,
-  "fetched_at": "2026-11-03T22:01:28.040986+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 74,
+  "fetched_at": "2026-11-04T22:01:15.302842+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 13,
-      "pct": 18.3,
-      "sources": "CNBC(6), Bloomberg(4), MarketWatch(2), FT(1)",
+      "topic": "Equities / Market moves",
+      "count": 16,
+      "pct": 21.6,
+      "sources": "Bloomberg(7), CNBC(3), FT(3), MarketWatch(2), Google News(1)",
       "sample_headlines": [
-        "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
-        "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
-        "CrowdStrike launches AI kill switch that it says can stop internal agents that go rogue",
-        "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
-        "Eaton's strong quarter should mark a bottom for shares of the AI buildout winner"
+        "What was really behind Wednesday's monster rally? Trump quickly making peace",
+        "Hyperscalers and Apple surge after election results remove investor uncertainty",
+        "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
+        "Big Tech is driving a historic divide in the S&P 500. Why investors need to take notice.",
+        "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress"
+      ]
+    },
+    {
+      "topic": "AI / Tech",
+      "count": 8,
+      "pct": 10.8,
+      "sources": "MarketWatch(4), CNBC(3), Google News(1)",
+      "sample_headlines": [
+        "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
+        "Hyperscalers and Apple surge after election results remove investor uncertainty",
+        "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
+        "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
+        "Figma\u2019s stock falls as investors worry that AI momentum is coming at a high price"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 7,
-      "pct": 9.9,
-      "sources": "CNBC(5), FT(2)",
+      "count": 6,
+      "pct": 8.1,
+      "sources": "CNBC(3), MarketWatch(1), Google News(1), FT(1)",
       "sample_headlines": [
-        "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
-        "CrowdStrike launches AI kill switch that it says can stop internal agents that go rogue",
-        "Bill Ackman warns of 'casino' stock market as speculative trading grows",
-        "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
-        "Russia confirms new Ukraine peace talks as Melania Trump prepares to host ceasefire meeting"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 9.9,
-      "sources": "Bloomberg(3), CNBC(2), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
-        "Bill Ackman warns of 'casino' stock market as speculative trading grows",
-        "S&P 500 is looking over the edge of a technical cliff \u2014 what happens if it falls off?",
-        "Former Weil partners lawyer up over firm\u2019s wind-down",
-        "Chip Stocks Rally as Bonds Fall on US Election Day: Markets Wrap"
+        "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
+        "What Trump losing power over Congress means for Iran, Ukraine and foreign policy",
+        "Americans have said 'NO TO WAR,' Iran speaker says as Democrats take Congress",
+        "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
+        "China\u2019s AI stock-market struggles are a warning - The Economist"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 7.0,
-      "sources": "CNBC(2), Bloomberg(2), MarketWatch(1)",
+      "count": 6,
+      "pct": 8.1,
+      "sources": "Bloomberg(4), CNBC(1), FT(1)",
       "sample_headlines": [
-        "Sullivan: What the 2026 midterms could mean for energy investors",
-        "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
-        "An overlooked energy source could solve AI\u2019s power crunch \u2014 and these 2 stocks are prime plays",
-        "Latest Oil Market News and Analysis for Nov. 3",
-        "Canadian Oil at Widest Discount to US Prices Since 2018"
+        "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
+        "Oil tumbles below $100 on post-election peace hopes",
+        "US Stocks Surge as Election Drives Oil Down, Fuels Tech Optimism",
+        "Stocks, Bonds Climb After US Election as Oil Sinks: Markets Wrap",
+        "Treasuries Gain as Oil Prices Tumble After Democrats Elected"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 2,
-      "pct": 2.8,
+      "pct": 2.7,
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%",
-        "New Zealand Jobless Rises to 11-Year High as Election Looms"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Binance breach puts custody at center of crypto infrastructure trade",
-        "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto"
+        "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
+        "Credit Traders Make Big Post-Midterm Bet on Data-Center Slowdown"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 2.7,
+      "sources": "Bloomberg(2)",
+      "sample_headlines": [
+        "Wall Street Revises Treasury Sales Forecasts on Guidance Revamp",
+        "Wall Street Girding for US Debt Ceiling Showdown in 2027"
+      ]
+    },
+    {
+      "topic": "China",
       "count": 1,
       "pct": 1.4,
-      "sources": "CNBC(1)",
+      "sources": "Google News(1)",
       "sample_headlines": [
-        "The 'poison pill' ballot measure that could kill the California billionaire tax"
+        "China\u2019s AI stock-market struggles are a warning - The Economist"
       ]
     }
   ]
