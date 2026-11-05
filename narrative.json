@@ -1,87 +1,94 @@
 {
   "dominant": "Equities / Market moves",
-  "total_headlines": 74,
-  "fetched_at": "2026-11-04T22:01:15.302842+00:00",
+  "total_headlines": 73,
+  "fetched_at": "2026-11-05T22:01:20.637205+00:00",
   "topics": [
     {
       "topic": "Equities / Market moves",
-      "count": 16,
-      "pct": 21.6,
-      "sources": "Bloomberg(7), CNBC(3), FT(3), MarketWatch(2), Google News(1)",
+      "count": 20,
+      "pct": 27.4,
+      "sources": "MarketWatch(6), CNBC(5), Bloomberg(5), FT(4)",
       "sample_headlines": [
-        "What was really behind Wednesday's monster rally? Trump quickly making peace",
-        "Hyperscalers and Apple surge after election results remove investor uncertainty",
-        "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
-        "Big Tech is driving a historic divide in the S&P 500. Why investors need to take notice.",
-        "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress"
+        "Nasdaq drops into correction territory \u2014 here\u2019s what typically happens next",
+        "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
+        "Here's what the Democratic election rout could mean for the U.S. economy",
+        "What Wall Street billionaires are saying about Democrats' midterm sweep",
+        "What was really behind Wednesday's monster rally? Trump quickly making peace"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 8,
-      "pct": 10.8,
-      "sources": "MarketWatch(4), CNBC(3), Google News(1)",
+      "count": 16,
+      "pct": 21.9,
+      "sources": "CNBC(6), MarketWatch(4), FT(4), Bloomberg(2)",
       "sample_headlines": [
-        "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
-        "Hyperscalers and Apple surge after election results remove investor uncertainty",
-        "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
-        "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
-        "Figma\u2019s stock falls as investors worry that AI momentum is coming at a high price"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.1,
-      "sources": "CNBC(3), MarketWatch(1), Google News(1), FT(1)",
-      "sample_headlines": [
-        "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
-        "What Trump losing power over Congress means for Iran, Ukraine and foreign policy",
-        "Americans have said 'NO TO WAR,' Iran speaker says as Democrats take Congress",
-        "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
-        "China\u2019s AI stock-market struggles are a warning - The Economist"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 8.1,
-      "sources": "Bloomberg(4), CNBC(1), FT(1)",
-      "sample_headlines": [
-        "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
-        "Oil tumbles below $100 on post-election peace hopes",
-        "US Stocks Surge as Election Drives Oil Down, Fuels Tech Optimism",
-        "Stocks, Bonds Climb After US Election as Oil Sinks: Markets Wrap",
-        "Treasuries Gain as Oil Prices Tumble After Democrats Elected"
-      ]
-    },
-    {
-      "topic": "Recession / Slowdown",
-      "count": 2,
-      "pct": 2.7,
-      "sources": "CNBC(1), Bloomberg(1)",
-      "sample_headlines": [
-        "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
-        "Credit Traders Make Big Post-Midterm Bet on Data-Center Slowdown"
+        "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+        "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+        "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+        "Expedia CEO says AI agents aren't changing booking habits \u2014 yet",
+        "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 8,
+      "pct": 11.0,
+      "sources": "CNBC(6), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "IRS unveils higher capital gains tax brackets for 2027",
+        "IRS announces bigger estate and gift tax exemption for 2027",
+        "IRS announces new federal income tax brackets for 2027",
+        "California\u2019s billionaire tax faces defeat, but Democrats plan higher taxes on the wealthy",
+        "HSA-eligible health plans in 2027: What to know about tax savings vs. higher deductibles"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 4.1,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Trump's energy deals are about to face a wave of investigations by Democrats",
+        "Bloom Energy\u2019s stock is one of the S&P 500\u2019s biggest losers amid fears of data-center delays",
+        "Latest Oil Market News and Analysis for Nov. 5"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
       "count": 2,
       "pct": 2.7,
-      "sources": "Bloomberg(2)",
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "Wall Street Revises Treasury Sales Forecasts on Guidance Revamp",
-        "Wall Street Girding for US Debt Ceiling Showdown in 2027"
+        "IRS announces new federal income tax brackets for 2027",
+        "Barkin sees interest rate hikes ahead, but at a gradual pace"
       ]
     },
     {
       "topic": "China",
+      "count": 2,
+      "pct": 2.7,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+        "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
       "count": 1,
       "pct": 1.4,
-      "sources": "Google News(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "China\u2019s AI stock-market struggles are a warning - The Economist"
+        "US midterm results herald upheaval in Middle East policy"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Democratic sweep puts crypto on defensive in Washington"
       ]
     }
   ]
