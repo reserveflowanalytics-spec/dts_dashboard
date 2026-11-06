@@ -1,94 +1,86 @@
 {
   "dominant": "Equities / Market moves",
-  "total_headlines": 73,
-  "fetched_at": "2026-11-05T22:01:20.637205+00:00",
+  "total_headlines": 74,
+  "fetched_at": "2026-11-06T22:01:31.697427+00:00",
   "topics": [
     {
       "topic": "Equities / Market moves",
-      "count": 20,
-      "pct": 27.4,
-      "sources": "MarketWatch(6), CNBC(5), Bloomberg(5), FT(4)",
+      "count": 19,
+      "pct": 25.7,
+      "sources": "Bloomberg(8), CNBC(7), FT(2), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Nasdaq drops into correction territory \u2014 here\u2019s what typically happens next",
-        "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
-        "Here's what the Democratic election rout could mean for the U.S. economy",
-        "What Wall Street billionaires are saying about Democrats' midterm sweep",
-        "What was really behind Wednesday's monster rally? Trump quickly making peace"
+        "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
+        "Data center double-down: Hassett says blue wave won't stop AI build-out",
+        "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says",
+        "Wall Street's fear gauge may be flashing a buy sign",
+        "Nasdaq drops into correction territory \u2014 here\u2019s what typically happens next"
       ]
     },
     {
       "topic": "AI / Tech",
-      "count": 16,
-      "pct": 21.9,
-      "sources": "CNBC(6), MarketWatch(4), FT(4), Bloomberg(2)",
+      "count": 18,
+      "pct": 24.3,
+      "sources": "CNBC(12), Bloomberg(4), MarketWatch(1), FT(1)",
       "sample_headlines": [
-        "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
-        "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
-        "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
-        "Expedia CEO says AI agents aren't changing booking habits \u2014 yet",
-        "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC"
+        "OpenAI bugging suspect Alfozan pleads not guilty",
+        "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+        "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
+        "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
+        "Data center double-down: Hassett says blue wave won't stop AI build-out"
       ]
     },
     {
-      "topic": "Fiscal / Government spending",
-      "count": 8,
-      "pct": 11.0,
-      "sources": "CNBC(6), MarketWatch(1), FT(1)",
+      "topic": "Fed / Rates / Inflation",
+      "count": 4,
+      "pct": 5.4,
+      "sources": "CNBC(4)",
       "sample_headlines": [
-        "IRS unveils higher capital gains tax brackets for 2027",
-        "IRS announces bigger estate and gift tax exemption for 2027",
-        "IRS announces new federal income tax brackets for 2027",
-        "California\u2019s billionaire tax faces defeat, but Democrats plan higher taxes on the wealthy",
-        "HSA-eligible health plans in 2027: What to know about tax savings vs. higher deductibles"
+        "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
+        "The AI \u2018credit card\u2019 is getting costlier as CoreWeave bond yield tops 16%",
+        "Democratic sweep gives markets a reason to rethink path of interest rates",
+        "Small retailers brace for 'huge hit' this holiday season as shipping costs spike"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 3,
+      "pct": 4.1,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Top House Oversight Democrat warns Trump family to 'lawyer up'",
+        "US warns China it must \u2018immediately\u2019 meet terms of Busan trade deal",
+        "Oil Swings as Traders Parse Iran War De-Escalation Prospects"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 3,
       "pct": 4.1,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
-        "Trump's energy deals are about to face a wave of investigations by Democrats",
-        "Bloom Energy\u2019s stock is one of the S&P 500\u2019s biggest losers amid fears of data-center delays",
-        "Latest Oil Market News and Analysis for Nov. 5"
+        "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
+        "Hedge Funds\u00a0Fled Bullish Oil Bets\u00a0Ahead of\u00a0Election Day Drop",
+        "Oil Swings as Traders Parse Iran War De-Escalation Prospects"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
-      "count": 2,
-      "pct": 2.7,
-      "sources": "CNBC(2)",
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 4.1,
+      "sources": "FT(2), Bloomberg(1)",
       "sample_headlines": [
-        "IRS announces new federal income tax brackets for 2027",
-        "Barkin sees interest rate hikes ahead, but at a gradual pace"
+        "Trump has taught the world that tariffs are useless",
+        "US warns China it must \u2018immediately\u2019 meet terms of Busan trade deal",
+        "Copper Moves Lower as US Election Undermines AI and Tariff Trade"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 2.7,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
-        "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
       "count": 1,
       "pct": 1.4,
       "sources": "FT(1)",
       "sample_headlines": [
-        "US midterm results herald upheaval in Middle East policy"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Democratic sweep puts crypto on defensive in Washington"
+        "US warns China it must \u2018immediately\u2019 meet terms of Busan trade deal"
       ]
     }
   ]
