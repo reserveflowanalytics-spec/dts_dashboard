@@ -1,106 +1,105 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 72,
-  "fetched_at": "2026-11-07T22:01:09.223876+00:00",
+  "total_headlines": 69,
+  "fetched_at": "2026-11-08T22:01:22.042167+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 18.1,
-      "sources": "CNBC(9), FT(2), Google News(1), Bloomberg(1)",
+      "count": 11,
+      "pct": 15.9,
+      "sources": "CNBC(7), FT(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
+        "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+        "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
+        "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations",
         "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-        "Berkshire shares surge as Wall Street swoons amid AI fears",
-        "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now",
-        "Tech companies face mounting child safety lawsuits while pushing AI into schools",
-        "America's newest small business owners with no employees are off to a hot start in AI era"
+        "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 13.9,
-      "sources": "Bloomberg(4), CNBC(2), FT(2), MarketWatch(1), Google News(1)",
+      "count": 8,
+      "pct": 11.6,
+      "sources": "CNBC(4), Bloomberg(3), MarketWatch(1)",
       "sample_headlines": [
+        "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
+        "Top Wall Street analysts like these 3 dividend stocks for consistent income",
+        "Here are the 2 big things we're watching in the stock market in the week ahead",
         "Berkshire shares surge as Wall Street swoons amid AI fears",
-        "Data center double-down: Hassett says blue wave won't stop AI build-out",
-        "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
-        "Finance minister vows timely actions to ease stock market volatility - Yonhap News Agency",
-        "The mother of all American course corrections"
+        "Corporate America\u2019s profit numbers are just barely beating Wall Street\u2019s expectations"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 5,
-      "pct": 6.9,
-      "sources": "CNBC(2), Bloomberg(2), FT(1)",
+      "pct": 7.2,
+      "sources": "CNBC(3), Bloomberg(2)",
       "sample_headlines": [
+        "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but warns he could still strike",
         "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
         "Trump says U.S. carried out \u2018minor strikes\u2019 on Iran as missiles hit Qeshm Island",
-        "Israel\u2019s president gives Gadi Eisenkot first shot at forming a government",
-        "How the Iran War Is Making Alaskans Both Richer and Poorer",
-        "Young Travelers Are Warming Up to Cruises"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "Bloomberg(3), FT(1)",
-      "sample_headlines": [
-        "US believes Nvidia\u2019s Huang had romantic relationship with alleged Chinese spy",
-        "Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch",
-        "China Extends Gold-Buying Streak to Two Years as Prices Drop",
-        "Beijing Vows to Hit Back Against US Sanctions on China Companies"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(2), Bloomberg(1)",
-      "sample_headlines": [
-        "Mississippi Senate: Colom increases lead over Hyde-Smith to nearly 2,500 votes",
-        "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
-        "US Jobs Surge Raises Odds of December Fed Hike"
+        "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
+        "Israel\u2019s Election Fight Shifts to Coalition Building"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(2)",
+      "count": 3,
+      "pct": 4.3,
+      "sources": "Bloomberg(2), CNBC(1)",
       "sample_headlines": [
         "What midterm election blue wave rebuke of Trump means for renewable energy",
-        "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote"
+        "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
+        "China Set to Lead World in Energy Investment in 2026, CCTV Says"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 4.3,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+        "Nvidia\u2019s Huang admits to affair after allegations of relationship with Chinese spy",
+        "China Set to Lead World in Energy Investment in 2026, CCTV Says"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 2,
+      "pct": 2.9,
+      "sources": "CNBC(2)",
+      "sample_headlines": [
+        "Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty",
+        "Mississippi Senate: Colom increases lead over Hyde-Smith to nearly 2,500 votes"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 2.8,
-      "sources": "MarketWatch(2)",
+      "pct": 2.9,
+      "sources": "FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Here are the 2027 capital-gains tax rates for each income level",
-        "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be."
+        "Apple saves $2.7bn in taxes by booking profits in Singapore",
+        "Treasury Rally Gets New Boost as Election Hammers the AI Trade"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
       "pct": 1.4,
-      "sources": "Bloomberg(1)",
+      "sources": "CNBC(1)",
       "sample_headlines": [
-        "Beijing Vows to Hit Back Against US Sanctions on China Companies"
+        "How Democrats will try to end Trump's tariffs"
       ]
     },
     {
       "topic": "Crypto",
       "count": 1,
       "pct": 1.4,
-      "sources": "Bloomberg(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Crypto\u2019s Trump-Fueled Washington Boom Reaches Its Endgame"
+        "Crypto industry braces for reckoning over Trump ties"
       ]
     }
   ]
