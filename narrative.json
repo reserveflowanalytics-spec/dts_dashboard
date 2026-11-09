@@ -1,105 +1,99 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 69,
-  "fetched_at": "2026-11-08T22:01:22.042167+00:00",
+  "total_headlines": 71,
+  "fetched_at": "2026-11-09T22:01:20.674078+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 11,
-      "pct": 15.9,
-      "sources": "CNBC(7), FT(2), MarketWatch(1), Bloomberg(1)",
+      "count": 17,
+      "pct": 23.9,
+      "sources": "CNBC(7), MarketWatch(3), FT(3), Bloomberg(3), Google News(1)",
       "sample_headlines": [
-        "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-        "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
-        "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations",
-        "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-        "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO"
+        "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+        "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+        "A massive trade in Nvidia just went off \u2013 here are the details",
+        "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+        "Why Jim Cramer believes Nvidia is still valuable despite the CEO affair controversy"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 11.6,
-      "sources": "CNBC(4), Bloomberg(3), MarketWatch(1)",
+      "count": 15,
+      "pct": 21.1,
+      "sources": "CNBC(5), MarketWatch(5), Bloomberg(4), Google News(1)",
       "sample_headlines": [
-        "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
-        "Top Wall Street analysts like these 3 dividend stocks for consistent income",
-        "Here are the 2 big things we're watching in the stock market in the week ahead",
-        "Berkshire shares surge as Wall Street swoons amid AI fears",
-        "Corporate America\u2019s profit numbers are just barely beating Wall Street\u2019s expectations"
+        "Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
+        "Lucid misses Wall Street\u2019s earnings expectations, expands loan from Saudi Arabia fund",
+        "This beaten-down data center stock could be worth a look, says Mike Khouw",
+        "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+        "CoreWeave confronts 'doom cycle' narrative as neocloud credit risk overshadows growth"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 5,
-      "pct": 7.2,
-      "sources": "CNBC(3), Bloomberg(2)",
+      "count": 10,
+      "pct": 14.1,
+      "sources": "FT(5), Bloomberg(3), CNBC(2)",
       "sample_headlines": [
-        "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but warns he could still strike",
-        "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
-        "Trump says U.S. carried out \u2018minor strikes\u2019 on Iran as missiles hit Qeshm Island",
-        "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
-        "Israel\u2019s Election Fight Shifts to Coalition Building"
+        "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
+        "Rubio sees little hope of diplomatic breakthrough to Mideast deadlock amid 'outrageous' Iranian demands",
+        "Trump, Putin and the short war illusion",
+        "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
+        "Russia rations petrol after new Ukrainian strikes on refineries"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.3,
-      "sources": "Bloomberg(2), CNBC(1)",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "What midterm election blue wave rebuke of Trump means for renewable energy",
-        "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
-        "China Set to Lead World in Energy Investment in 2026, CCTV Says"
+        "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+        "Oil Tanker Rates Drop, Making Long-Haul Crude Trades Attractive",
+        "Oil Falls to August Lows on Signs of Iran War Peace Progress",
+        "US Natural Gas Surges Most in Six Weeks, Triggers Short Squeeze"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "MarketWatch(2), CNBC(1)",
+      "sample_headlines": [
+        "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+        "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+        "Hot U.S. inflation hasn\u2019t cooled off. Rising consumer prices to keep Fed rate hike on track."
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(2), Google News(1)",
+      "sample_headlines": [
+        "Trump administration proposes stricter work-search rules for unemployment benefits",
+        "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+        "Stocks will drop further as AI investment slows next year then falls in 2028 and drags GDP down too - Fortune"
       ]
     },
     {
       "topic": "China",
       "count": 3,
-      "pct": 4.3,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "pct": 4.2,
+      "sources": "FT(2), Bloomberg(1)",
       "sample_headlines": [
-        "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-        "Nvidia\u2019s Huang admits to affair after allegations of relationship with Chinese spy",
-        "China Set to Lead World in Energy Investment in 2026, CCTV Says"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 2,
-      "pct": 2.9,
-      "sources": "CNBC(2)",
-      "sample_headlines": [
-        "Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty",
-        "Mississippi Senate: Colom increases lead over Hyde-Smith to nearly 2,500 votes"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 2.9,
-      "sources": "FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Apple saves $2.7bn in taxes by booking profits in Singapore",
-        "Treasury Rally Gets New Boost as Election Hammers the AI Trade"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "How Democrats will try to end Trump's tariffs"
+        "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors",
+        "Nvidia shares fall as it probes alleged Chinese spy scandal",
+        "JBS Profit Hit as China Quotas Overshadow US Beef Improvement"
       ]
     },
     {
       "topic": "Crypto",
       "count": 1,
       "pct": 1.4,
-      "sources": "FT(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Crypto industry braces for reckoning over Trump ties"
+        "S&P 500 Erases Midterm Losses, Bitcoin Bounce"
       ]
     }
   ]
