@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-11-06",
-  "computed_at": "2026-11-09T22:01:42Z",
+  "as_of": "2026-11-09",
+  "computed_at": "2026-11-10T22:01:54Z",
   "bias": "FLAT",
   "conviction": "n/a",
-  "bias_reason": "SPX 7,354 at or below SMA20 7,680; flat, never short.",
-  "action": "Flat. No shorts. Enters long on a close above SMA20 (7,680).",
+  "bias_reason": "SPX 7,550 at or below SMA20 7,645; flat, never short.",
+  "action": "Flat. No shorts. Enters long on a close above SMA20 (7,645).",
   "stop": null,
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bearish",
-    "tech_close": 7353.73,
-    "tech_sma20": 7679.54,
+    "tech_close": 7549.94,
+    "tech_sma20": 7644.94,
     "rs_conviction_level": "low",
-    "rs_conviction_label": "Low \u2014 only 2/11 pairs aligned, mixed signals",
-    "rs_aligned_pairs": "2/11",
+    "rs_conviction_label": "Low \u2014 only 1/11 pairs aligned, mixed signals",
+    "rs_aligned_pairs": "1/11",
     "tier1_open": false,
     "macro_confluence": "1/3"
   },
@@ -21,16 +21,10 @@
     {
       "pair": "XLF/XLU",
       "rationale": "Financials vs utilities",
-      "roc_20d": 0.27
+      "roc_20d": 0.14
     }
   ],
-  "underweight_pairs": [
-    {
-      "pair": "XLI/GLD",
-      "rationale": "Industrial activity vs hard asset",
-      "roc_20d": -0.78
-    }
-  ],
+  "underweight_pairs": [],
   "watch_upgrade": "Close above SMA20 -> BULLISH",
   "watch_downgrade": "n/a (already flat)"
 }
