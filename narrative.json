@@ -1,93 +1,101 @@
 {
-  "dominant": "No clear dominant narrative",
-  "total_headlines": 69,
-  "fetched_at": "2026-11-11T22:01:28.994364+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 71,
+  "fetched_at": "2026-11-12T12:21:48.266572+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 9,
-      "pct": 13.0,
-      "sources": "CNBC(5), Bloomberg(3), FT(1)",
+      "count": 22,
+      "pct": 31.0,
+      "sources": "CNBC(7), Bloomberg(6), MarketWatch(5), FT(4)",
       "sample_headlines": [
-        "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-        "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
-        "Analysis: Is Nvidia too big to fail?\u00a0Its AI financing web raises the stakes",
+        "Nvidia stock falls 8% as investors await Jensen Huang\u2019s fate",
         "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
-        "Tired of spending time fixing other people's AI slop at work? How to talk to them about it"
+        "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
+        "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
+        "Analysis: Is Nvidia too big to fail?\u00a0Its AI financing web raises the stakes"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 8,
-      "pct": 11.6,
-      "sources": "Bloomberg(4), MarketWatch(3), FT(1)",
+      "topic": "Iran / Middle East conflict",
+      "count": 7,
+      "pct": 9.9,
+      "sources": "CNBC(4), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market",
-        "Bloom Energy\u2019s stock is rallying as data-center jitters subside",
-        "Should a widow leave her late partner\u2019s home to her stepkids \u2014 or cut off contact with them?",
-        "US tech stocks rally as AI trade revives",
-        "Paraguay on Watch for Downgrade at Fitch After Bank Collapse"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 6,
-      "pct": 8.7,
-      "sources": "Bloomberg(4), MarketWatch(2)",
-      "sample_headlines": [
-        "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market",
-        "Bloom Energy\u2019s stock is rallying as data-center jitters subside",
-        "Latest Oil Market News and Analysis for Nov. 11",
-        "Canadian Heavy Crude Rebounds Amid Cheaper Tanker Costs",
-        "John Kerry on the Case for Clean Energy"
+        "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
+        "Canada\u2019s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+        "Zelenskyy warns Ukraine is 'not real estate' as experts say a Russia peace deal remains elusive",
+        "General strikes to paralyze Spain as protestors clash with police ahead of election campaign",
+        "Tech stocks may soon enjoy a \u2018violent bounce\u2019 \u2014 but one strategist warns investors not to take the bait"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 5,
-      "pct": 7.2,
-      "sources": "CNBC(4), Bloomberg(1)",
+      "pct": 7.0,
+      "sources": "CNBC(3), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Mississippi Senate: Scott Colom lead over Hyde-Smith pops to more than 4,400 votes",
         "Feds arrest top official of healthcare company, alleging illegal drug importation",
-        "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds",
-        "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
-        "Gold Falls Below $4,000 as Traders Assess Inflation, Fed Remarks"
+        "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
+        "Treasury yields edge higher as investors await fresh inflation and housing data",
+        "Scott Colom wins historic Senate race in Mississippi",
+        "Gold Extends Fall Below $4,000 as Market Watches Fed"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 5,
-      "pct": 7.2,
-      "sources": "CNBC(3), MarketWatch(1), FT(1)",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "CNBC(3), FT(1)",
       "sample_headlines": [
-        "Canada\u2019s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
         "Feds arrest top official of healthcare company, alleging illegal drug importation",
-        "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
-        "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market",
-        "Anthropic\u2019s IPO is too important to fail"
+        "Canada\u2019s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+        "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
+        "Russian diesel exports double after Trump lifts sanctions, but US gets none"
       ]
     },
     {
-      "topic": "Iran / Middle East conflict",
+      "topic": "China",
       "count": 4,
-      "pct": 5.8,
-      "sources": "CNBC(3), Bloomberg(1)",
+      "pct": 5.6,
+      "sources": "CNBC(3), FT(1)",
       "sample_headlines": [
-        "Canada\u2019s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-        "Zelenskyy warns Ukraine is 'not real estate' as experts say a Russia peace deal remains elusive",
-        "General strikes to paralyze Spain as protestors clash with police ahead of election campaign",
-        "Funds Warn Brazil $126 Billion Stock Market Rout Isn\u2019t Over"
+        "Lutnick should ban Chinese memory maker CXMT from U.S., Sen. Cotton says",
+        "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
+        "Nissan cuts sales forecast again on China woes as CEO outlines plan to fight back",
+        "China warns US not to use Nvidia scandal as pretext for tech curbs"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "Bloomberg(3)",
+      "sample_headlines": [
+        "Benin Ships First Crude Cargo for Decades From Revived Oil Field",
+        "Latest Oil Market News and Analysis for Nov. 12",
+        "AMD, Broadcom Poised to Gain From Scandal Roiling Nvidia"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "MarketWatch(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+        "Maga architects blame Big Tech and AI data centres for midterms rout",
+        "Nvidia Sinks as Analyst Downgrades Start to Come In: Street Wrap"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 2.9,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "pct": 2.8,
+      "sources": "CNBC(2)",
       "sample_headlines": [
         "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
-        "Lula Unveils Plan to Curb Spending Growth in Bid to Calm Fiscal Worries"
+        "Treasury yields edge higher as investors await fresh inflation and housing data"
       ]
     },
     {
@@ -97,15 +105,6 @@
       "sources": "CNBC(1)",
       "sample_headlines": [
         "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
-      "sample_headlines": [
-        "Nissan cuts sales forecast again on China woes as CEO outlines plan to fight back"
       ]
     }
   ]
