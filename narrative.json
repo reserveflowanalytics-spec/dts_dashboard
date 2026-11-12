@@ -1,110 +1,102 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 71,
-  "fetched_at": "2026-11-12T12:21:48.266572+00:00",
+  "total_headlines": 72,
+  "fetched_at": "2026-11-12T22:01:28.555937+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 22,
-      "pct": 31.0,
-      "sources": "CNBC(7), Bloomberg(6), MarketWatch(5), FT(4)",
+      "count": 27,
+      "pct": 37.5,
+      "sources": "CNBC(15), Bloomberg(5), FT(4), MarketWatch(3)",
       "sample_headlines": [
-        "Nvidia stock falls 8% as investors await Jensen Huang\u2019s fate",
-        "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
-        "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
-        "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
-        "Analysis: Is Nvidia too big to fail?\u00a0Its AI financing web raises the stakes"
+        "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+        "Microsoft outage hits Outlook. AWS and Google users also report issues",
+        "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
+        "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+        "Jensen Huang is out and Nvidia stock is down\u2014what market pros say about buying dips"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 10,
+      "pct": 13.9,
+      "sources": "CNBC(5), MarketWatch(2), Bloomberg(2), Google News(1)",
+      "sample_headlines": [
+        "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
+        "Jensen Huang is out and Nvidia stock is down\u2014what market pros say about buying dips",
+        "Jensen Huang's Nvidia exit casts shadow over Wall Street\u2019s $500 billion AI financing bet",
+        "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
+        "As credit card balances hit a record high, medical bills can become 'shadow debt,' expert says"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 7,
-      "pct": 9.9,
-      "sources": "CNBC(4), FT(2), MarketWatch(1)",
+      "pct": 9.7,
+      "sources": "CNBC(3), FT(3), Bloomberg(1)",
       "sample_headlines": [
-        "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
-        "Canada\u2019s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-        "Zelenskyy warns Ukraine is 'not real estate' as experts say a Russia peace deal remains elusive",
-        "General strikes to paralyze Spain as protestors clash with police ahead of election campaign",
-        "Tech stocks may soon enjoy a \u2018violent bounce\u2019 \u2014 but one strategist warns investors not to take the bait"
+        "Trump says \u2018we don\u2019t need a deal with Iran\u2019",
+        "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+        "Disney's 'Star Wars' is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
+        "Quantum Systems drones grounded by German military after cyber attack",
+        "Trump signals end to vice-president\u2019s Iran peace deal push"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 7.0,
-      "sources": "CNBC(3), FT(1), Bloomberg(1)",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "CNBC(3), Bloomberg(3)",
       "sample_headlines": [
-        "Feds arrest top official of healthcare company, alleging illegal drug importation",
+        "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
         "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
-        "Treasury yields edge higher as investors await fresh inflation and housing data",
-        "Scott Colom wins historic Senate race in Mississippi",
-        "Gold Extends Fall Below $4,000 as Market Watches Fed"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "CNBC(3), FT(1)",
-      "sample_headlines": [
         "Feds arrest top official of healthcare company, alleging illegal drug importation",
-        "Canada\u2019s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-        "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
-        "Russian diesel exports double after Trump lifts sanctions, but US gets none"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "CNBC(3), FT(1)",
-      "sample_headlines": [
-        "Lutnick should ban Chinese memory maker CXMT from U.S., Sen. Cotton says",
-        "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
-        "Nissan cuts sales forecast again on China woes as CEO outlines plan to fight back",
-        "China warns US not to use Nvidia scandal as pretext for tech curbs"
+        "Fed's Goolsbee Says Inflation 'Inching' Into Tough Spot",
+        "Daly Says More Fed Rates Hikes Likely Needed"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "Bloomberg(3)",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "Benin Ships First Crude Cargo for Decades From Revived Oil Field",
-        "Latest Oil Market News and Analysis for Nov. 12",
-        "AMD, Broadcom Poised to Gain From Scandal Roiling Nvidia"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "MarketWatch(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
-        "Maga architects blame Big Tech and AI data centres for midterms rout",
-        "Nvidia Sinks as Analyst Downgrades Start to Come In: Street Wrap"
+        "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+        "Stocks Fall on Nvidia Rout as Oil Jump Sinks Bonds: Markets Wrap",
+        "Oil Supertanker Squeeze Is Crimping US Crude Exports, Texas Port CEO Says",
+        "Oil Rises After Trump Declares US Doesn\u2019t Need a Deal With Iran"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(2)",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "Bloomberg(3), CNBC(1)",
       "sample_headlines": [
-        "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
-        "Treasury yields edge higher as investors await fresh inflation and housing data"
+        "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+        "Port Authority of NY and NJ Proposes $10.3 Billion 2027 Budget",
+        "US Records $404 Billion Deficit in First Month of Fiscal Year",
+        "NYC Sees Nearly $1 Billion Tax-Revenue Jump on Wall Street Gains"
       ]
     },
     {
-      "topic": "Recession / Slowdown",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report"
+        "Feds arrest top official of healthcare company, alleging illegal drug importation",
+        "Oil Supertanker Squeeze Is Crimping US Crude Exports, Texas Port CEO Says"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+        "Australia\u2019s Biggest Pension Fund Mulls Chinese AI as Costs Spike"
       ]
     }
   ]

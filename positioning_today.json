@@ -1,16 +1,16 @@
 {
-  "as_of": "2026-11-09",
-  "computed_at": "2026-11-12T12:22:03Z",
+  "as_of": "2026-11-10",
+  "computed_at": "2026-11-12T22:01:49Z",
   "bias": "FLAT",
   "conviction": "n/a",
-  "bias_reason": "SPX 7,521 at or below SMA20 7,631; flat, never short.",
-  "action": "Flat. No shorts. Enters long on a close above SMA20 (7,631).",
+  "bias_reason": "SPX 7,619 at or below SMA20 7,626; flat, never short.",
+  "action": "Flat. No shorts. Enters long on a close above SMA20 (7,626).",
   "stop": null,
   "signals": {
     "fiscal_regime": "Restrictive",
     "tech_regime": "bearish",
-    "tech_close": 7520.93,
-    "tech_sma20": 7630.71,
+    "tech_close": 7619.38,
+    "tech_sma20": 7625.73,
     "rs_conviction_level": "low",
     "rs_conviction_label": "Low \u2014 only 1/11 pairs aligned, mixed signals",
     "rs_aligned_pairs": "1/11",
@@ -21,7 +21,7 @@
     {
       "pair": "XLF/XLU",
       "rationale": "Financials vs utilities",
-      "roc_20d": 0.14
+      "roc_20d": 1.81
     }
   ],
   "underweight_pairs": [],
