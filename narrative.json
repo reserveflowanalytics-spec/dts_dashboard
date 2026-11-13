@@ -1,82 +1,89 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 72,
-  "fetched_at": "2026-11-12T22:01:28.555937+00:00",
+  "total_headlines": 71,
+  "fetched_at": "2026-11-13T22:01:32.857929+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 27,
-      "pct": 37.5,
-      "sources": "CNBC(15), Bloomberg(5), FT(4), MarketWatch(3)",
+      "count": 21,
+      "pct": 29.6,
+      "sources": "CNBC(11), FT(4), Bloomberg(4), MarketWatch(2)",
       "sample_headlines": [
-        "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
-        "Microsoft outage hits Outlook. AWS and Google users also report issues",
-        "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
-        "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
-        "Jensen Huang is out and Nvidia stock is down\u2014what market pros say about buying dips"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 13.9,
-      "sources": "CNBC(5), MarketWatch(2), Bloomberg(2), Google News(1)",
-      "sample_headlines": [
-        "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
-        "Jensen Huang is out and Nvidia stock is down\u2014what market pros say about buying dips",
-        "Jensen Huang's Nvidia exit casts shadow over Wall Street\u2019s $500 billion AI financing bet",
-        "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
-        "As credit card balances hit a record high, medical bills can become 'shadow debt,' expert says"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 7,
-      "pct": 9.7,
-      "sources": "CNBC(3), FT(3), Bloomberg(1)",
-      "sample_headlines": [
-        "Trump says \u2018we don\u2019t need a deal with Iran\u2019",
-        "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
-        "Disney's 'Star Wars' is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
-        "Quantum Systems drones grounded by German military after cyber attack",
-        "Trump signals end to vice-president\u2019s Iran peace deal push"
+        "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+        "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+        "Lutnick faces questions over Nvidia spy scandal. His sons\u2019 firm has deep ties to the chipmaker",
+        "AI risks are the biggest threat to the financial system, Fed survey finds",
+        "Microsoft apologizes for massive outage that took down Outlook and other 365 services"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(3), Bloomberg(3)",
+      "count": 10,
+      "pct": 14.1,
+      "sources": "Bloomberg(7), CNBC(3)",
       "sample_headlines": [
-        "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-        "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
-        "Feds arrest top official of healthcare company, alleging illegal drug importation",
-        "Fed's Goolsbee Says Inflation 'Inching' Into Tough Spot",
-        "Daly Says More Fed Rates Hikes Likely Needed"
+        "AI risks are the biggest threat to the financial system, Fed survey finds",
+        "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+        "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
+        "Emerging-Market Assets Dip as Chip Rout, Fed Rate Worries Linger",
+        "Gold Set for Worst Week Since March as Fed Rate Hike Bets Mount"
       ]
     },
     {
-      "topic": "Oil / Energy",
+      "topic": "Equities / Market moves",
+      "count": 8,
+      "pct": 11.3,
+      "sources": "Bloomberg(4), CNBC(3), MarketWatch(1)",
+      "sample_headlines": [
+        "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+        "Is a bottom in for the Nasdaq-100? Charts to watch",
+        "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
+        "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+        "Emerging-Market Assets Dip as Chip Rout, Fed Rate Worries Linger"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
       "count": 4,
       "pct": 5.6,
-      "sources": "Bloomberg(3), CNBC(1)",
+      "sources": "CNBC(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
-        "Stocks Fall on Nvidia Rout as Oil Jump Sinks Bonds: Markets Wrap",
-        "Oil Supertanker Squeeze Is Crimping US Crude Exports, Texas Port CEO Says",
-        "Oil Rises After Trump Declares US Doesn\u2019t Need a Deal With Iran"
+        "Trump says he wants to \u2018get Cuba done\u2019 before leaving office, would consider military force",
+        "\u2018We will sue them\u2019: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans",
+        "Nscale warns it needs more cash ahead of $35bn IPO",
+        "Swiss Respiratory Biotech Windward Soars 68% in US Trading Debut"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(2), MarketWatch(1)",
+      "sample_headlines": [
+        "U.S. seizes $1.2 billion in cryptocurrency stolen from Binance",
+        "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
+        "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "Bloomberg(3), CNBC(1)",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
-        "Port Authority of NY and NJ Proposes $10.3 Billion 2027 Budget",
-        "US Records $404 Billion Deficit in First Month of Fiscal Year",
-        "NYC Sees Nearly $1 Billion Tax-Revenue Jump on Wall Street Gains"
+        "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
+        "Budget airlines are going upscale with first-class seats and faster wifi",
+        "US Treasury Weighs Loan to Help Venezuela Pay Debt to IDB"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Anthropic\u2019s Amodei \u2018not super fussed\u2019 about market turmoil ahead of IPO",
+        "Stocks End Week Higher Amid Tech Turmoil | Closing Bell"
       ]
     },
     {
@@ -85,18 +92,26 @@
       "pct": 2.8,
       "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "Feds arrest top official of healthcare company, alleging illegal drug importation",
-        "Oil Supertanker Squeeze Is Crimping US Crude Exports, Texas Port CEO Says"
+        "\u2018We will sue them\u2019: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans",
+        "Nvidia Has Worst Week Since Trump Tariff Selloff as Huang Exits"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear"
       ]
     },
     {
       "topic": "China",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
-        "Australia\u2019s Biggest Pension Fund Mulls Chinese AI as Costs Spike"
+        "Jensen Huang was a \u2018China salesman\u2019 for Nvidia. His exit is weighing on Chinese tech stocks."
       ]
     }
   ]
