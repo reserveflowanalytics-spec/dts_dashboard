@@ -1,93 +1,110 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 67,
-  "fetched_at": "2026-11-14T22:01:04.907803+00:00",
+  "total_headlines": 69,
+  "fetched_at": "2026-11-16T22:01:44.535379+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 20,
-      "pct": 29.9,
-      "sources": "CNBC(12), Bloomberg(6), FT(2)",
+      "count": 24,
+      "pct": 34.8,
+      "sources": "CNBC(13), Bloomberg(5), MarketWatch(3), FT(3)",
       "sample_headlines": [
-        "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-        "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-        "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-        "Trump doesn\u2019t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-        "After Jensen Huang\u2019s exit, what top financial advisors are doing with Nvidia: Exclusive CNBC poll"
+        "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
+        "California sues OpenAI over Hugging Face, other AI model loss of control",
+        "Market's Nvidia obsession obscuring an opportunity in this name",
+        "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang\u2019s exit"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 7,
+      "pct": 10.1,
+      "sources": "CNBC(5), MarketWatch(1), FT(1)",
+      "sample_headlines": [
+        "JPMorgan Chase says temporary software bug is affecting consumer banking",
+        "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
+        "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
+        "\u2018Standing on one leg\u2019: IMF chief warns about global economy as AI circular financing hits $1 trillion"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 14.9,
-      "sources": "CNBC(3), FT(3), Bloomberg(3), MarketWatch(1)",
+      "count": 7,
+      "pct": 10.1,
+      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
-        "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
-        "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
-        "Should a widow leave her late partner\u2019s home to her stepkids \u2014 or cut off contact with them?",
-        "Record polar vortex breakdown raises cold weather risk"
+        "Anthropic\u2019s Wall Street whisperer: Meet CFO Krishna Rao",
+        "A major NFT marketplace is shutting down\u20145 years after the boom, there's a lesson for investors",
+        "Micron, AMD and other AI stocks fall as the chip sector\u2019s selloff intensifies",
+        "The FDA declined to approve one of biotech\u2019s most closely watched cancer drugs. The company\u2019s stock tumbled.",
+        "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade"
       ]
     },
     {
-      "topic": "Oil / Energy",
+      "topic": "Fed / Rates / Inflation",
       "count": 4,
-      "pct": 6.0,
-      "sources": "CNBC(3), Bloomberg(1)",
+      "pct": 5.8,
+      "sources": "CNBC(2), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-        "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
-        "Ecuador wants to monetize its biodiversity \u2014 while still drilling for oil",
-        "The Oil Market Is Brimming With Crude Despite Tanker Attacks"
+        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
+        "Big-ticket holiday items may be harder to find as shipping costs rise",
+        "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+        "Uruguay Central Bank Keeps Interest Rate at 6%, Maintains Expansive Policy"
       ]
     },
     {
       "topic": "China",
       "count": 4,
-      "pct": 6.0,
-      "sources": "Bloomberg(3), CNBC(1)",
+      "pct": 5.8,
+      "sources": "CNBC(3), FT(1)",
       "sample_headlines": [
-        "Trump doesn\u2019t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-        "How China\u2019s Intelligence Operations Target Tech",
-        "Bessent, Lutnick Clash Over Nvidia China Curbs",
-        "Trump Heads to China for Talks With Xi and Putin"
+        "Nvidia fallout: Commerce targets loophole for China's data center use",
+        "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting",
+        "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+        "Russia aims for \u2018joint statement\u2019 from trilateral summit with US and China"
       ]
     },
     {
-      "topic": "Fed / Rates / Inflation",
+      "topic": "Oil / Energy",
+      "count": 3,
+      "pct": 4.3,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+        "Chevron nears $5bn deal for Blackstone-backed oil group in US Gulf",
+        "Latest Oil Market News and Analysis for Nov. 16"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 3,
+      "pct": 4.3,
+      "sources": "CNBC(2), FT(1)",
+      "sample_headlines": [
+        "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
+        "Russia\u2019s richest woman hit by EU sanctions"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 3.0,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "pct": 2.9,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "AI risks are the biggest threat to the financial system, Fed survey finds",
-        "The Entrepreneurs Behind Poppi Start Over"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 1,
-      "pct": 1.5,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "The Stadium Bidding War Shaking Up the Midwest"
+        "There's a growing 'property tax revolt' as homeowners face rising costs. How it could impact your bill",
+        "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks"
       ]
     },
     {
       "topic": "Crypto",
       "count": 1,
-      "pct": 1.5,
-      "sources": "FT(1)",
-      "sample_headlines": [
-        "Trump Media group stares down $1bn debt crunch as bitcoin bet fades"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 1,
-      "pct": 1.5,
+      "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Juice your growth and save on taxes in this workplace investment account"
+        "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly"
       ]
     }
   ]
