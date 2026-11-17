@@ -1,110 +1,86 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 69,
-  "fetched_at": "2026-11-16T22:01:44.535379+00:00",
+  "total_headlines": 72,
+  "fetched_at": "2026-11-17T22:01:27.111626+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
       "count": 24,
-      "pct": 34.8,
-      "sources": "CNBC(13), Bloomberg(5), MarketWatch(3), FT(3)",
+      "pct": 33.3,
+      "sources": "CNBC(12), Bloomberg(6), FT(5), MarketWatch(1)",
       "sample_headlines": [
-        "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
-        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
-        "California sues OpenAI over Hugging Face, other AI model loss of control",
-        "Market's Nvidia obsession obscuring an opportunity in this name",
-        "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang\u2019s exit"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 7,
-      "pct": 10.1,
-      "sources": "CNBC(5), MarketWatch(1), FT(1)",
-      "sample_headlines": [
-        "JPMorgan Chase says temporary software bug is affecting consumer banking",
-        "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
-        "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
-        "\u2018Standing on one leg\u2019: IMF chief warns about global economy as AI circular financing hits $1 trillion"
+        "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+        "Jensen Huang scandal fuels bipartisan push to block AI chip sales to China",
+        "Wall Street's fear gauge is surging again and this time it's not just about AI jitters",
+        "Trump\u2019s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+        "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 10.1,
-      "sources": "CNBC(2), MarketWatch(2), Bloomberg(2), FT(1)",
+      "count": 11,
+      "pct": 15.3,
+      "sources": "CNBC(6), MarketWatch(4), Bloomberg(1)",
       "sample_headlines": [
-        "Anthropic\u2019s Wall Street whisperer: Meet CFO Krishna Rao",
-        "A major NFT marketplace is shutting down\u20145 years after the boom, there's a lesson for investors",
-        "Micron, AMD and other AI stocks fall as the chip sector\u2019s selloff intensifies",
-        "The FDA declined to approve one of biotech\u2019s most closely watched cancer drugs. The company\u2019s stock tumbled.",
-        "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade"
+        "Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices",
+        "Wall Street's fear gauge is surging again and this time it's not just about AI jitters",
+        "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout",
+        "FAA pauses installation of new routers after ground stop",
+        "Kalshi takes down controversial Trump 'mention' markets at CFTC's request"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 5.8,
-      "sources": "CNBC(2), MarketWatch(1), Bloomberg(1)",
+      "count": 5,
+      "pct": 6.9,
+      "sources": "CNBC(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
-        "Big-ticket holiday items may be harder to find as shipping costs rise",
-        "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-        "Uruguay Central Bank Keeps Interest Rate at 6%, Maintains Expansive Policy"
+        "Lisa Cook lawyer signals Fed governor won't attend Trump committee's hearing",
+        "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+        "Fed\u2019s Lisa Cook refuses to attend hearing convened by Trump",
+        "US 10-Year Yield Set for Historic Run Above 5% on Fed Cycle",
+        "Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "CNBC(4)",
+      "sample_headlines": [
+        "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout",
+        "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
+        "Trump has arrived in Asia. Here\u2019s what he said about Iran and Deutsche Bank",
+        "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC"
       ]
     },
     {
       "topic": "China",
-      "count": 4,
-      "pct": 5.8,
-      "sources": "CNBC(3), FT(1)",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "Nvidia fallout: Commerce targets loophole for China's data center use",
-        "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting",
-        "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
-        "Russia aims for \u2018joint statement\u2019 from trilateral summit with US and China"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.3,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-        "Chevron nears $5bn deal for Blackstone-backed oil group in US Gulf",
-        "Latest Oil Market News and Analysis for Nov. 16"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 3,
-      "pct": 4.3,
-      "sources": "CNBC(2), FT(1)",
-      "sample_headlines": [
-        "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
-        "Russia\u2019s richest woman hit by EU sanctions"
+        "Jensen Huang scandal fuels bipartisan push to block AI chip sales to China",
+        "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 2.9,
-      "sources": "CNBC(2)",
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
       "sample_headlines": [
-        "There's a growing 'property tax revolt' as homeowners face rising costs. How it could impact your bill",
-        "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks"
+        "Deutsche Bank shares sink as whistleblowers reveal Epstein payments, Trump tax leak, Russia bets",
+        "Treasury Buyback Operation Nets Smallest Amount Since Expansion"
       ]
     },
     {
-      "topic": "Crypto",
+      "topic": "Oil / Energy",
       "count": 1,
       "pct": 1.4,
-      "sources": "CNBC(1)",
+      "sources": "Bloomberg(1)",
       "sample_headlines": [
-        "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly"
+        "Oil Swings as Mideast Flareups Threaten Ample Supply Outlook"
       ]
     }
   ]
