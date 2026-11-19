@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-11-17",
-  "computed_at": "2026-11-19T20:11:47Z",
+  "as_of": "2026-11-18",
+  "computed_at": "2026-11-19T22:01:43Z",
   "bias": "FLAT",
   "conviction": "n/a",
   "bias_reason": "SPX 7,324 at or below SMA20 7,559; flat, never short.",
@@ -21,29 +21,34 @@
     {
       "pair": "XLI/GLD",
       "rationale": "Industrial activity vs hard asset",
-      "roc_20d": 5.82
+      "roc_20d": 8.66
+    },
+    {
+      "pair": "IWM/SPY",
+      "rationale": "Small cap vs large cap",
+      "roc_20d": 3.44
     },
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": 5.88
+      "roc_20d": 3.5
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLF/XLU",
       "rationale": "Financials vs utilities",
-      "roc_20d": -1.21
-    },
-    {
-      "pair": "XLY/XLV",
-      "rationale": "Discretionary vs healthcare",
-      "roc_20d": -1.58
+      "roc_20d": -2.91
     },
     {
       "pair": "KRE/XLU",
       "rationale": "Regional banks vs utilities",
-      "roc_20d": -3.23
+      "roc_20d": -3.7
+    },
+    {
+      "pair": "XLB/XLRE",
+      "rationale": "Materials vs real estate",
+      "roc_20d": -5.19
     }
   ],
   "watch_upgrade": "Close above SMA20 -> BULLISH",

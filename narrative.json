@@ -1,76 +1,79 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 72,
-  "fetched_at": "2026-11-19T20:11:32.842684+00:00",
+  "total_headlines": 74,
+  "fetched_at": "2026-11-19T22:01:27.097955+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 13,
-      "pct": 18.1,
-      "sources": "CNBC(10), MarketWatch(2), Bloomberg(1)",
+      "count": 15,
+      "pct": 20.3,
+      "sources": "CNBC(9), MarketWatch(3), Bloomberg(3)",
       "sample_headlines": [
+        "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
         "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-        "Amazon launches in-app push against Mamdani-backed delivery bill in New York City",
-        "Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out",
         "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
-        "Anthropic IPO, AI wealth spawn a new, leaner kind of family office"
+        "Amazon app warns New York of higher costs if Mamdani delivery law passes",
+        "Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out"
       ]
     },
     {
       "topic": "China",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(3), Bloomberg(2), FT(1)",
+      "count": 8,
+      "pct": 10.8,
+      "sources": "CNBC(4), FT(2), Bloomberg(2)",
       "sample_headlines": [
         "AMD dives on short-seller report of alleged China exposure",
+        "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
         "Takaichi gets chilly reception in China on first Japan leader visit since 2019",
         "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
-        "AMD shares fall after short seller report on China links",
-        "China Sells $2 Billion of Dollar Bonds as Xi, Trump Meet"
+        "Australian PM to meet Xi Jinping as iron ore tensions loom"
       ]
     },
     {
       "topic": "Equities / Market moves",
       "count": 6,
-      "pct": 8.3,
-      "sources": "MarketWatch(2), Bloomberg(2), CNBC(1), FT(1)",
+      "pct": 8.1,
+      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1), FT(1)",
       "sample_headlines": [
         "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
-        "Social Security should be shut down, this Republican senator says",
-        "UnitedHealth\u2019s stock keeps plunging after government signals crackdown on Medicare Advantage fraud",
-        "Anthropic soars in Wall Street debut",
-        "US Stocks Drop for Sixth Day as Dow Jones Index Eyes Correction"
+        "UnitedHealth\u2019s stock tumbles after government signals crackdown on Medicare Advantage fraud",
+        "Anthropic shares jump 17% after record Wall Street listing",
+        "Mexican Peso Rout Deepens as Banxico, Fed Policies Diverge",
+        "Stocks Log Longest Slide Since 2024 as Dow Jones Eyes Correction"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 4,
+      "pct": 5.4,
+      "sources": "Bloomberg(3), CNBC(1)",
+      "sample_headlines": [
+        "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "Mexican Peso Rout Deepens as Banxico, Fed Policies Diverge",
+        "Gold Set for Longest Losing Streak Since May on AI, Fed Fears",
+        "Fed's Barr Says Inflation Calls for Further Policy Adjustment"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
       "count": 3,
-      "pct": 4.2,
-      "sources": "FT(2), CNBC(1)",
+      "pct": 4.1,
+      "sources": "CNBC(2), Bloomberg(1)",
       "sample_headlines": [
+        "Amazon app warns New York of higher costs if Mamdani delivery law passes",
         "Trump praises \u2018great relationship\u2019 with Putin after meeting, as Ukraine war takes center stage",
-        "Houthi air strike hits Saudi sovereign wealth fund headquarters",
-        "Gulf flare-up stokes fears of return to Iran war"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "Bloomberg(2), CNBC(1)",
-      "sample_headlines": [
-        "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-        "Fed's Barr Says Inflation Calls for Further Policy Adjustment",
-        "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027"
+        "War-Driven Cost Squeeze Alarms Companies, Bank of America Says"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
+      "count": 3,
+      "pct": 4.1,
+      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
       "sample_headlines": [
-        "Trump, Xi, Putin said they plan to boost oil production, revamp UN after trilateral talks"
+        "Trump, Xi, Putin said they plan to boost oil production, revamp UN after trilateral talks",
+        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Should I sell my stocks and buy real estate \u2014 or ride out the storm?",
+        "Latest Oil Market News and Analysis for Nov. 19"
       ]
     },
     {
