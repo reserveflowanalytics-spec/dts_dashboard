@@ -1,79 +1,85 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 70,
-  "fetched_at": "2026-11-18T22:01:34.195376+00:00",
+  "total_headlines": 72,
+  "fetched_at": "2026-11-19T20:11:32.842684+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 24,
-      "pct": 34.3,
-      "sources": "CNBC(11), MarketWatch(5), Bloomberg(5), FT(3)",
+      "count": 13,
+      "pct": 18.1,
+      "sources": "CNBC(10), MarketWatch(2), Bloomberg(1)",
       "sample_headlines": [
-        "Nvidia interim CEO Kress tells employees \u2018let\u2019s move forward\u2019 at first all-hands meeting since Jensen Huang exit",
-        "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-        "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
-        "Nvidia reverses, metals crash ahead of Anthropic IPO",
-        "Is Apple the safe haven investors think it is?\u00a0Here's a way to trade it with less risk"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 7,
-      "pct": 10.0,
-      "sources": "Bloomberg(3), CNBC(2), MarketWatch(2)",
-      "sample_headlines": [
-        "Why Anthropic's hot IPO is bringing out sellers \u2014 plus, a silver lining of the down market",
-        "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
-        "Has the stock market\u2019s slump hit bottom yet? Here\u2019s what these contrarian indicators say.",
-        "Copper\u2019s plunge could make the AI data-center buildout more painful",
-        "Stocks Fall on Nvidia Rout as Anthropic in Focus: Markets Wrap"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 7.1,
-      "sources": "CNBC(3), MarketWatch(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-        "Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike",
-        "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks",
-        "Fed minutes show growing unease about the outlook for inflation",
-        "Gold Slumps 3% to Lowest in Over a Year on Hawkish Fed Signals"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 4,
-      "pct": 5.7,
-      "sources": "CNBC(2), FT(2)",
-      "sample_headlines": [
-        "Nvidia interim CEO Kress tells employees \u2018let\u2019s move forward\u2019 at first all-hands meeting since Jensen Huang exit",
-        "U.S. soldier taken into military custody over suspected spying for Russia",
-        "\u2018Situational Awareness 2.0\u2019: Leopold Aschenbrenner plots comeback",
-        "US and Venezuela to expand military co-operation to target drug trafficking"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.3,
-      "sources": "Bloomberg(2), MarketWatch(1)",
-      "sample_headlines": [
-        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Should I sell my stocks and buy real estate \u2014 or ride out the storm?",
-        "Canadian Stocks Sink to June Low as Metals, Oil Losses Mount",
-        "Treasuries Higher for a Third Day as Oil Prices Slide"
+        "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "Amazon launches in-app push against Mamdani-backed delivery bill in New York City",
+        "Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out",
+        "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
+        "Anthropic IPO, AI wealth spawn a new, leaner kind of family office"
       ]
     },
     {
       "topic": "China",
-      "count": 3,
-      "pct": 4.3,
-      "sources": "CNBC(3)",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "CNBC(3), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
-        "Read Jim Cramer\u2019s full interview with Nvidia\u2019s Colette Kress: Demand, buybacks and China",
-        "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions"
+        "AMD dives on short-seller report of alleged China exposure",
+        "Takaichi gets chilly reception in China on first Japan leader visit since 2019",
+        "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
+        "AMD shares fall after short seller report on China links",
+        "China Sells $2 Billion of Dollar Bonds as Xi, Trump Meet"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 6,
+      "pct": 8.3,
+      "sources": "MarketWatch(2), Bloomberg(2), CNBC(1), FT(1)",
+      "sample_headlines": [
+        "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
+        "Social Security should be shut down, this Republican senator says",
+        "UnitedHealth\u2019s stock keeps plunging after government signals crackdown on Medicare Advantage fraud",
+        "Anthropic soars in Wall Street debut",
+        "US Stocks Drop for Sixth Day as Dow Jones Index Eyes Correction"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "FT(2), CNBC(1)",
+      "sample_headlines": [
+        "Trump praises \u2018great relationship\u2019 with Putin after meeting, as Ukraine war takes center stage",
+        "Houthi air strike hits Saudi sovereign wealth fund headquarters",
+        "Gulf flare-up stokes fears of return to Iran war"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "Bloomberg(2), CNBC(1)",
+      "sample_headlines": [
+        "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "Fed's Barr Says Inflation Calls for Further Policy Adjustment",
+        "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Trump, Xi, Putin said they plan to boost oil production, revamp UN after trilateral talks"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "CNBC(1)",
+      "sample_headlines": [
+        "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges"
       ]
     }
   ]

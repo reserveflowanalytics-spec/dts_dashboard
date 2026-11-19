@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-18T22:01:47Z",
+  "computed_at": "2026-11-19T20:11:45Z",
   "total_signals": 513,
   "scored_signals": 509,
   "summary": {
@@ -38,7 +38,7 @@
           "total": 0,
           "rate": null
         },
-        "avg_spx_10d": 0.192,
+        "avg_spx_10d": 0.165,
         "hit_rate_10d": {
           "hits": 0,
           "total": 0,
@@ -65,11 +65,11 @@
           "total": 287,
           "rate": 36.2
         },
-        "avg_spx_20d": 1.413,
+        "avg_spx_20d": 1.388,
         "hit_rate_20d": {
-          "hits": 90,
-          "total": 281,
-          "rate": 32.0
+          "hits": 91,
+          "total": 282,
+          "rate": 32.3
         }
       }
     },
@@ -88,11 +88,11 @@
           "total": 273,
           "rate": 64.1
         },
-        "avg_spx_20d": 1.442,
+        "avg_spx_20d": 1.415,
         "hit_rate_20d": {
           "hits": 190,
-          "total": 269,
-          "rate": 70.6
+          "total": 270,
+          "rate": 70.4
         }
       },
       "bearish": {
@@ -103,11 +103,11 @@
           "total": 146,
           "rate": 39.0
         },
-        "avg_spx_10d": 1.028,
+        "avg_spx_10d": 0.988,
         "hit_rate_10d": {
-          "hits": 56,
-          "total": 141,
-          "rate": 39.7
+          "hits": 57,
+          "total": 142,
+          "rate": 40.1
         },
         "avg_spx_20d": 2.192,
         "hit_rate_20d": {
@@ -195,7 +195,7 @@
           "total": 0,
           "rate": null
         },
-        "avg_spx_20d": 1.617,
+        "avg_spx_20d": 1.57,
         "hit_rate_20d": {
           "hits": 0,
           "total": 0,
@@ -615,11 +615,11 @@
           "total": 45,
           "rate": 31.1
         },
-        "avg_ret_20d": 2.479,
+        "avg_ret_20d": 2.599,
         "hit_rate_20d": {
           "hits": 8,
-          "total": 44,
-          "rate": 18.2
+          "total": 45,
+          "rate": 17.8
         }
       }
     },
@@ -681,9 +681,9 @@
           "rate": 51.5
         },
         "hit_rate_20d": {
-          "hits": 44,
-          "total": 123,
-          "rate": 35.8
+          "hits": 45,
+          "total": 124,
+          "rate": 36.3
         }
       },
       "usd": {
@@ -768,12 +768,12 @@
             "spx_up_rate_5d": 62.1,
             "avg_spx_5d": 0.332,
             "n_5d": 203,
-            "spx_up_rate_10d": 66.3,
-            "avg_spx_10d": 0.512,
-            "n_10d": 202,
-            "spx_up_rate_20d": 68.5,
-            "avg_spx_20d": 0.912,
-            "n_20d": 197
+            "spx_up_rate_10d": 66.0,
+            "avg_spx_10d": 0.486,
+            "n_10d": 203,
+            "spx_up_rate_20d": 68.2,
+            "avg_spx_20d": 0.88,
+            "n_20d": 198
           },
           "high_vix": {
             "count": 164,
@@ -826,10 +826,10 @@
             "avg_spx_10d": 0.599,
             "hit_rate_20d": {
               "hits": 98,
-              "total": 131,
-              "rate": 74.8
+              "total": 132,
+              "rate": 74.2
             },
-            "avg_spx_20d": 1.583
+            "avg_spx_20d": 1.529
           },
           "high_vix": {
             "count": 28,
@@ -884,11 +884,11 @@
             },
             "avg_spx_5d": 0.853,
             "hit_rate_10d": {
-              "hits": 7,
-              "total": 33,
-              "rate": 21.2
+              "hits": 8,
+              "total": 34,
+              "rate": 23.5
             },
-            "avg_spx_10d": 1.269,
+            "avg_spx_10d": 1.092,
             "hit_rate_20d": {
               "hits": 7,
               "total": 31,
@@ -94217,9 +94217,9 @@
           "fwd_10d": 7688.62,
           "fwd_10d_date": "2026-11-04",
           "ret_10d": -0.884,
-          "fwd_20d": null,
-          "fwd_20d_date": null,
-          "ret_20d": null
+          "fwd_20d": 7323.63,
+          "fwd_20d_date": "2026-11-18",
+          "ret_20d": -5.589
         },
         "ust2y": {
           "base": 4.81,
@@ -94269,21 +94269,21 @@
           "fwd_10d": 16.61,
           "fwd_10d_date": "2026-11-04",
           "ret_10d": -0.07,
-          "fwd_20d": null,
-          "fwd_20d_date": null,
-          "ret_20d": null
+          "fwd_20d": 24.56,
+          "fwd_20d_date": "2026-11-18",
+          "ret_20d": 7.88
         }
       },
       "regime_hits": {
         "5d": "hit",
         "10d": "hit",
-        "20d": null
+        "20d": "hit"
       },
       "map_hits": {
         "equities": {
           "5d": "hit",
           "10d": "hit",
-          "20d": null
+          "20d": "hit"
         },
         "usd": {
           "5d": "miss",
@@ -94325,7 +94325,7 @@
         "vix": {
           "5d": "miss",
           "10d": "hit",
-          "20d": null
+          "20d": "miss"
         }
       },
       "combined": {
@@ -94345,7 +94345,7 @@
       "tech_hits": {
         "5d": "miss",
         "10d": "miss",
-        "20d": null
+        "20d": "miss"
       },
       "fiscal_tech": {
         "5d": {
@@ -94357,7 +94357,7 @@
           "result": null
         },
         "20d": {
-          "label": null,
+          "label": "Restrictive + Bullish",
           "result": null
         }
       }
@@ -96154,9 +96154,9 @@
           "fwd_5d": 7619.38,
           "fwd_5d_date": "2026-11-11",
           "ret_5d": -0.901,
-          "fwd_10d": null,
-          "fwd_10d_date": null,
-          "ret_10d": null,
+          "fwd_10d": 7323.63,
+          "fwd_10d_date": "2026-11-18",
+          "ret_10d": -4.747,
           "fwd_20d": null,
           "fwd_20d_date": null,
           "ret_20d": null
@@ -96206,9 +96206,9 @@
           "fwd_5d": 17.49,
           "fwd_5d_date": "2026-11-11",
           "ret_5d": 0.88,
-          "fwd_10d": null,
-          "fwd_10d_date": null,
-          "ret_10d": null,
+          "fwd_10d": 24.56,
+          "fwd_10d_date": "2026-11-18",
+          "ret_10d": 7.95,
           "fwd_20d": null,
           "fwd_20d_date": null,
           "ret_20d": null
@@ -96284,7 +96284,7 @@
       },
       "tech_hits": {
         "5d": "hit",
-        "10d": null,
+        "10d": "hit",
         "20d": null
       },
       "fiscal_tech": {
