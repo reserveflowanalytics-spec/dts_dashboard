@@ -1,88 +1,108 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 74,
-  "fetched_at": "2026-11-19T22:01:27.097955+00:00",
+  "total_headlines": 71,
+  "fetched_at": "2026-11-20T22:01:32.594949+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 20.3,
-      "sources": "CNBC(9), MarketWatch(3), Bloomberg(3)",
+      "count": 17,
+      "pct": 23.9,
+      "sources": "CNBC(7), Bloomberg(6), FT(2), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
-        "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-        "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
-        "Amazon app warns New York of higher costs if Mamdani delivery law passes",
-        "Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 8,
-      "pct": 10.8,
-      "sources": "CNBC(4), FT(2), Bloomberg(2)",
-      "sample_headlines": [
-        "AMD dives on short-seller report of alleged China exposure",
-        "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
-        "Takaichi gets chilly reception in China on first Japan leader visit since 2019",
-        "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
-        "Australian PM to meet Xi Jinping as iron ore tensions loom"
+        "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+        "A massive bearish trade just happened in the chip stocks",
+        "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+        "Anthropic was supposed to save the AI trade. What went wrong?",
+        "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 6,
-      "pct": 8.1,
-      "sources": "Bloomberg(3), CNBC(1), MarketWatch(1), FT(1)",
+      "count": 14,
+      "pct": 19.7,
+      "sources": "Bloomberg(8), CNBC(5), MarketWatch(1)",
       "sample_headlines": [
-        "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
-        "UnitedHealth\u2019s stock tumbles after government signals crackdown on Medicare Advantage fraud",
-        "Anthropic shares jump 17% after record Wall Street listing",
-        "Mexican Peso Rout Deepens as Banxico, Fed Policies Diverge",
-        "Stocks Log Longest Slide Since 2024 as Dow Jones Eyes Correction"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 4,
-      "pct": 5.4,
-      "sources": "Bloomberg(3), CNBC(1)",
-      "sample_headlines": [
-        "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-        "Mexican Peso Rout Deepens as Banxico, Fed Policies Diverge",
-        "Gold Set for Longest Losing Streak Since May on AI, Fed Fears",
-        "Fed's Barr Says Inflation Calls for Further Policy Adjustment"
+        "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+        "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+        "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot",
+        "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs \u2014 what happens next?",
+        "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 3,
-      "pct": 4.1,
-      "sources": "CNBC(2), Bloomberg(1)",
+      "count": 9,
+      "pct": 12.7,
+      "sources": "Bloomberg(4), CNBC(3), FT(2)",
       "sample_headlines": [
-        "Amazon app warns New York of higher costs if Mamdani delivery law passes",
-        "Trump praises \u2018great relationship\u2019 with Putin after meeting, as Ukraine war takes center stage",
-        "War-Driven Cost Squeeze Alarms Companies, Bank of America Says"
+        "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+        "Warsh wants Fed officials to talk less. Instead, they\u2019re talking more",
+        "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
+        "Trump considering new Iran strikes as US military warns of strain on forces",
+        "Is Trump stuck with Iran forever?"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 3,
-      "pct": 4.1,
-      "sources": "CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "Trump, Xi, Putin said they plan to boost oil production, revamp UN after trilateral talks",
-        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Should I sell my stocks and buy real estate \u2014 or ride out the storm?",
-        "Latest Oil Market News and Analysis for Nov. 19"
+        "A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
+        "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year\u2019s peak",
+        "Argentina Hit Hard by Global Turmoil as Bonds Slip Into Distress",
+        "VIX Hits Highest Level Since 2025 Tariff Turmoil as Volatility Warning Flash"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(2), FT(1)",
+      "sample_headlines": [
+        "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+        "SpaceX\u2019s subsidiary Cursor tells lawmakers it's considering phasing out Chinese AI models",
+        "\u2019Tis the season to be grateful to China"
       ]
     },
     {
       "topic": "Crypto",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "CNBC(3)",
+      "sample_headlines": [
+        "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs \u2014 what happens next?",
+        "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
+        "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 3,
+      "pct": 4.2,
+      "sources": "FT(2), CNBC(1)",
+      "sample_headlines": [
+        "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+        "Donald Trump threatens \u2018tremendous\u2019 tax on data centres built outside US",
+        "Jamie Dimon vows to claw back \u2018unfair\u2019 UK bank tax"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
       "count": 1,
       "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges"
+        "Warsh wants Fed officials to talk less. Instead, they\u2019re talking more"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "Bloomberg(1)",
+      "sample_headlines": [
+        "VIX Hits Highest Level Since 2025 Tariff Turmoil as Volatility Warning Flash"
       ]
     }
   ]

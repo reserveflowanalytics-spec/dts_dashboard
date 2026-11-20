@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-11-18",
-  "computed_at": "2026-11-19T22:01:43Z",
+  "as_of": "2026-11-19",
+  "computed_at": "2026-11-20T22:01:52Z",
   "bias": "FLAT",
   "conviction": "n/a",
-  "bias_reason": "SPX 7,324 at or below SMA20 7,559; flat, never short.",
-  "action": "Flat. No shorts. Enters long on a close above SMA20 (7,559).",
+  "bias_reason": "SPX 7,176 at or below SMA20 7,535; flat, never short.",
+  "action": "Flat. No shorts. Enters long on a close above SMA20 (7,535).",
   "stop": null,
   "signals": {
     "fiscal_regime": "Supportive",
     "tech_regime": "bearish",
-    "tech_close": 7323.63,
-    "tech_sma20": 7559.28,
+    "tech_close": 7175.83,
+    "tech_sma20": 7534.9,
     "rs_conviction_level": "unknown",
-    "rs_conviction_label": "Moderate \u2014 7/11 pairs aligned with regime",
-    "rs_aligned_pairs": "7/11",
+    "rs_conviction_label": "Moderate \u2014 6/11 pairs aligned with regime",
+    "rs_aligned_pairs": "6/11",
     "tier1_open": false,
     "macro_confluence": "0/3"
   },
@@ -21,29 +21,29 @@
     {
       "pair": "XLI/GLD",
       "rationale": "Industrial activity vs hard asset",
-      "roc_20d": 8.66
+      "roc_20d": 6.54
     },
     {
       "pair": "IWM/SPY",
       "rationale": "Small cap vs large cap",
-      "roc_20d": 3.44
+      "roc_20d": 1.92
     },
     {
       "pair": "XLE/XLK",
       "rationale": "Energy vs tech",
-      "roc_20d": 3.5
+      "roc_20d": 2.26
     }
   ],
   "underweight_pairs": [
     {
       "pair": "XLF/XLU",
       "rationale": "Financials vs utilities",
-      "roc_20d": -2.91
+      "roc_20d": -2.21
     },
     {
       "pair": "KRE/XLU",
       "rationale": "Regional banks vs utilities",
-      "roc_20d": -3.7
+      "roc_20d": -4.66
     },
     {
       "pair": "XLB/XLRE",
