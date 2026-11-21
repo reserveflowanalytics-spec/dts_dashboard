@@ -1,99 +1,90 @@
 {
   "dominant": "AI / Tech",
   "total_headlines": 71,
-  "fetched_at": "2026-11-21T00:17:34.333166+00:00",
+  "fetched_at": "2026-11-21T22:01:02.212163+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 23,
-      "pct": 32.4,
-      "sources": "Bloomberg(9), CNBC(8), FT(3), MarketWatch(2), Google News(1)",
+      "count": 20,
+      "pct": 28.2,
+      "sources": "Bloomberg(7), CNBC(6), FT(6), MarketWatch(1)",
       "sample_headlines": [
         "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
         "A massive bearish trade just happened in the chip stocks",
+        "AI is changing software engineering \u2014 and some developers miss the struggle",
         "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-        "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
-        "Anthropic was supposed to save the AI trade. What went wrong?"
+        "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 15,
-      "pct": 21.1,
-      "sources": "CNBC(6), Bloomberg(6), MarketWatch(2), FT(1)",
+      "count": 10,
+      "pct": 14.1,
+      "sources": "CNBC(7), MarketWatch(1), FT(1), Bloomberg(1)",
       "sample_headlines": [
+        "Anthropic\u2019s record IPO collides with tech\u2019s worst week on Wall Street since 2020",
+        "Warren Buffett quadruples Thanksgiving gifts: A breakdown of how much wealth he's giving away",
         "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-        "The bull market has a new problem. The 'smart money' is selling",
-        "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-        "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot",
-        "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs \u2014 what happens next?"
+        "During Wall Street's worst week in over a year, we put money to work. What we're buying",
+        "An early breakdown in the polar vortex is threatening already depleted gas stocks"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.5,
-      "sources": "CNBC(3), Bloomberg(2), FT(1)",
+      "count": 7,
+      "pct": 9.9,
+      "sources": "CNBC(4), Bloomberg(3)",
       "sample_headlines": [
+        "Warren Buffett quadruples Thanksgiving gifts: A breakdown of how much wealth he's giving away",
         "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+        "AI is changing software engineering \u2014 and some developers miss the struggle",
         "Warsh wants Fed officials to talk less. Instead, they\u2019re talking more",
-        "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
-        "Trump considering new Iran strikes as US military warns of strain on forces",
-        "CrowdStrike Said in Talks to Buy Cybersecurity Firm Zscaler"
+        "The 1982 War Still Haunts the Middle East"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 5,
+      "pct": 7.0,
+      "sources": "Bloomberg(3), CNBC(1), FT(1)",
+      "sample_headlines": [
+        "How China is using summits to expand its global influence",
+        "Nvidia affair puts Chinese spies in spotlight",
+        "China Military Bars SF Express Over Procurement Misconduct",
+        "How AI Is Forcing China to Reshape Industrial Policy",
+        "Odd Lots: How AI Reshaped Chinese Industrial Policy (Podcast)"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "CNBC(2), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Retirees face a looming deadline for required withdrawals \u2014 missing it could trigger a tax penalty",
+        "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+        "Navy budget pick has family investments in Trump Jr-linked contractor",
+        "'Raise Taxes, Cut Spending': Bill Dudley on the Debt"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
       "count": 3,
       "pct": 4.2,
-      "sources": "Bloomberg(2), CNBC(1)",
+      "sources": "CNBC(2), MarketWatch(1)",
       "sample_headlines": [
+        "State and federal battle over prediction markets regulation heats up after midterms",
         "Warsh wants Fed officials to talk less. Instead, they\u2019re talking more",
-        "Gold Logs Worst Week Since March on Hawkish Fed, AI Selloff",
-        "AI Euphoria Gives Way to Fear And \u2018Face-Ripping Volatility\u2019"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(2), FT(1)",
-      "sample_headlines": [
-        "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
-        "SpaceX\u2019s subsidiary Cursor tells lawmakers it's considering phasing out Chinese AI models",
-        "\u2019Tis the season to be grateful to China"
-      ]
-    },
-    {
-      "topic": "Crypto",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(3)",
-      "sample_headlines": [
-        "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs \u2014 what happens next?",
-        "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
-        "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "FT(2), CNBC(1)",
-      "sample_headlines": [
-        "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
-        "Donald Trump threatens \u2018tremendous\u2019 tax on data centres built outside US",
-        "Jamie Dimon vows to claw back \u2018unfair\u2019 UK bank tax"
+        "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
-        "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year\u2019s peak"
+        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Is it time to sell my stocks?"
       ]
     },
     {
