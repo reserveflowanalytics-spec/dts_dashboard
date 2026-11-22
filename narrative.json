@@ -1,99 +1,99 @@
 {
-  "dominant": "AI / Tech",
-  "total_headlines": 71,
-  "fetched_at": "2026-11-21T22:01:02.212163+00:00",
+  "dominant": "Equities / Market moves",
+  "total_headlines": 66,
+  "fetched_at": "2026-11-22T22:01:09.007401+00:00",
   "topics": [
     {
-      "topic": "AI / Tech",
-      "count": 20,
-      "pct": 28.2,
-      "sources": "Bloomberg(7), CNBC(6), FT(6), MarketWatch(1)",
+      "topic": "Equities / Market moves",
+      "count": 19,
+      "pct": 28.8,
+      "sources": "CNBC(9), Bloomberg(4), Google News(3), FT(2), MarketWatch(1)",
       "sample_headlines": [
-        "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-        "A massive bearish trade just happened in the chip stocks",
-        "AI is changing software engineering \u2014 and some developers miss the struggle",
-        "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-        "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged"
+        "Anthropic\u2019s record IPO collides with tech\u2019s worst week on Wall Street since 2020",
+        "S&P 500 correction: Five forces behind the market sell-off",
+        "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+        "The Nasdaq is in freefall. Here's one stock to look at",
+        "Warren Buffett quadruples Thanksgiving gifts: A breakdown of how much wealth he's giving away"
       ]
     },
     {
-      "topic": "Equities / Market moves",
-      "count": 10,
-      "pct": 14.1,
-      "sources": "CNBC(7), MarketWatch(1), FT(1), Bloomberg(1)",
+      "topic": "AI / Tech",
+      "count": 9,
+      "pct": 13.6,
+      "sources": "Bloomberg(3), CNBC(2), FT(2), MarketWatch(1), Google News(1)",
       "sample_headlines": [
-        "Anthropic\u2019s record IPO collides with tech\u2019s worst week on Wall Street since 2020",
-        "Warren Buffett quadruples Thanksgiving gifts: A breakdown of how much wealth he's giving away",
+        "26-year-old Google worker earns $323,000 a year\u2014but lives on less than minimum wage",
         "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-        "During Wall Street's worst week in over a year, we put money to work. What we're buying",
-        "An early breakdown in the polar vortex is threatening already depleted gas stocks"
+        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Is it time to sell my stocks and buy real estate?",
+        "The AI bust is a growing threat to China's economy and a 'moment of real danger' for President Xi Jinping, analyst warns - Fortune",
+        "Bessent refuses to rule out Huang\u2019s return to Nvidia"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 7,
-      "pct": 9.9,
-      "sources": "CNBC(4), Bloomberg(3)",
-      "sample_headlines": [
-        "Warren Buffett quadruples Thanksgiving gifts: A breakdown of how much wealth he's giving away",
-        "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
-        "AI is changing software engineering \u2014 and some developers miss the struggle",
-        "Warsh wants Fed officials to talk less. Instead, they\u2019re talking more",
-        "The 1982 War Still Haunts the Middle East"
-      ]
-    },
-    {
-      "topic": "China",
       "count": 5,
-      "pct": 7.0,
-      "sources": "Bloomberg(3), CNBC(1), FT(1)",
+      "pct": 7.6,
+      "sources": "CNBC(3), Google News(1), Bloomberg(1)",
       "sample_headlines": [
-        "How China is using summits to expand its global influence",
-        "Nvidia affair puts Chinese spies in spotlight",
-        "China Military Bars SF Express Over Procurement Misconduct",
-        "How AI Is Forcing China to Reshape Industrial Policy",
-        "Odd Lots: How AI Reshaped Chinese Industrial Policy (Podcast)"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "CNBC(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Retirees face a looming deadline for required withdrawals \u2014 missing it could trigger a tax penalty",
-        "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
-        "Navy budget pick has family investments in Trump Jr-linked contractor",
-        "'Raise Taxes, Cut Spending': Bill Dudley on the Debt"
+        "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+        "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
+        "Warren Buffett quadruples Thanksgiving gifts: A breakdown of how much wealth he's giving away",
+        "The AI bust is a growing threat to China's economy and a 'moment of real danger' for President Xi Jinping, analyst warns - Fortune",
+        "Goldman Traders See Entry Point in US Stocks But Warn of Risks"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(2), MarketWatch(1)",
+      "count": 5,
+      "pct": 7.6,
+      "sources": "Google News(2), Bloomberg(2), CNBC(1)",
       "sample_headlines": [
         "State and federal battle over prediction markets regulation heats up after midterms",
-        "Warsh wants Fed officials to talk less. Instead, they\u2019re talking more",
-        "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?"
+        "President Donald Trump's Economy and the AI-Driven Stock Market Are in Trouble, Thanks to a Newly Identified Source of Inflation - Yahoo Finance",
+        "Bond Market\u2019s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
+        "Fed\u2019s Inflation Fight May Require More Hikes"
       ]
     },
     {
       "topic": "Oil / Energy",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "MarketWatch(1)",
+      "count": 4,
+      "pct": 6.1,
+      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
       "sample_headlines": [
-        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Is it time to sell my stocks?"
+        "Quantum computing\u2019s first real-world payoff may come in energy, not drug discovery",
+        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Is it time to sell my stocks and buy real estate?",
+        "Bond Market\u2019s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
+        "Oil Shock Response Sets Emerging-Market Bond Winners and Losers"
+      ]
+    },
+    {
+      "topic": "China",
+      "count": 3,
+      "pct": 4.5,
+      "sources": "CNBC(1), Google News(1), Bloomberg(1)",
+      "sample_headlines": [
+        "How China is using summits to expand its global influence",
+        "The AI bust is a growing threat to China's economy and a 'moment of real danger' for President Xi Jinping, analyst warns - Fortune",
+        "Rahm Emanuel Says Trump Is Playing Into China\u2019s Hands"
+      ]
+    },
+    {
+      "topic": "Fiscal / Government spending",
+      "count": 2,
+      "pct": 3.0,
+      "sources": "CNBC(1), Google News(1)",
+      "sample_headlines": [
+        "Retirees face a looming deadline for required withdrawals \u2014 missing it could trigger a tax penalty",
+        "Preparations underway to activate Stock Market Stabilization Fund immediately; treasury stock buyback limits eased for 3 months - \uc7ac\uacbd\uc77c\ubcf4"
       ]
     },
     {
       "topic": "Trade / Tariffs",
       "count": 1,
-      "pct": 1.4,
-      "sources": "CNBC(1)",
+      "pct": 1.5,
+      "sources": "MarketWatch(1)",
       "sample_headlines": [
-        "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged"
+        "Ron Johnson\u2019s Social Security gaffe buried important news"
       ]
     }
   ]
