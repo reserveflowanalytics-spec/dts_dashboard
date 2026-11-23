@@ -1,99 +1,86 @@
 {
-  "dominant": "Equities / Market moves",
-  "total_headlines": 66,
-  "fetched_at": "2026-11-22T22:01:09.007401+00:00",
+  "dominant": "AI / Tech",
+  "total_headlines": 65,
+  "fetched_at": "2026-11-23T17:03:19.924560+00:00",
   "topics": [
     {
-      "topic": "Equities / Market moves",
-      "count": 19,
-      "pct": 28.8,
-      "sources": "CNBC(9), Bloomberg(4), Google News(3), FT(2), MarketWatch(1)",
+      "topic": "AI / Tech",
+      "count": 18,
+      "pct": 27.7,
+      "sources": "Bloomberg(7), CNBC(6), FT(3), MarketWatch(2)",
       "sample_headlines": [
-        "Anthropic\u2019s record IPO collides with tech\u2019s worst week on Wall Street since 2020",
-        "S&P 500 correction: Five forces behind the market sell-off",
-        "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
-        "The Nasdaq is in freefall. Here's one stock to look at",
-        "Warren Buffett quadruples Thanksgiving gifts: A breakdown of how much wealth he's giving away"
+        "Trump tells CNBC \u2018I made the deal\u2019 to reinstate Nvidia\u2019s Jensen Huang",
+        "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 33%",
+        "Tech stocks rally after Nvidia board approves Jensen Huang's return as CEO",
+        "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+        "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks"
       ]
     },
     {
-      "topic": "AI / Tech",
-      "count": 9,
-      "pct": 13.6,
-      "sources": "Bloomberg(3), CNBC(2), FT(2), MarketWatch(1), Google News(1)",
+      "topic": "Equities / Market moves",
+      "count": 12,
+      "pct": 18.5,
+      "sources": "CNBC(7), MarketWatch(2), Bloomberg(2), FT(1)",
       "sample_headlines": [
-        "26-year-old Google worker earns $323,000 a year\u2014but lives on less than minimum wage",
-        "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Is it time to sell my stocks and buy real estate?",
-        "The AI bust is a growing threat to China's economy and a 'moment of real danger' for President Xi Jinping, analyst warns - Fortune",
-        "Bessent refuses to rule out Huang\u2019s return to Nvidia"
+        "\u2018This establishes a bottom\u2019: Jensen Huang\u2019s return seen as likely to stop market sell-off, for now",
+        "Tech stocks rally after Nvidia board approves Jensen Huang's return as CEO",
+        "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market",
+        "Wall Street's 'Fear Gauge' just flashed a buy sign",
+        "The Nasdaq is in freefall. Here's one stock to look at"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 5,
-      "pct": 7.6,
-      "sources": "CNBC(3), Google News(1), Bloomberg(1)",
+      "count": 10,
+      "pct": 15.4,
+      "sources": "CNBC(4), FT(3), MarketWatch(1), Google News(1), Bloomberg(1)",
       "sample_headlines": [
+        "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks",
+        "Zelenskyy praises \u2018exemplary\u2019 drone operation that sank Russian warship in a Libyan port",
+        "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
         "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
-        "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
-        "Warren Buffett quadruples Thanksgiving gifts: A breakdown of how much wealth he's giving away",
-        "The AI bust is a growing threat to China's economy and a 'moment of real danger' for President Xi Jinping, analyst warns - Fortune",
-        "Goldman Traders See Entry Point in US Stocks But Warn of Risks"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 5,
-      "pct": 7.6,
-      "sources": "Google News(2), Bloomberg(2), CNBC(1)",
-      "sample_headlines": [
-        "State and federal battle over prediction markets regulation heats up after midterms",
-        "President Donald Trump's Economy and the AI-Driven Stock Market Are in Trouble, Thanks to a Newly Identified Source of Inflation - Yahoo Finance",
-        "Bond Market\u2019s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
-        "Fed\u2019s Inflation Fight May Require More Hikes"
+        "Cybersecurity stocks have been hot \u2014 and now CrowdStrike inks deal to buy Zscaler"
       ]
     },
     {
       "topic": "Oil / Energy",
       "count": 4,
-      "pct": 6.1,
-      "sources": "Bloomberg(2), CNBC(1), MarketWatch(1)",
+      "pct": 6.2,
+      "sources": "CNBC(2), Bloomberg(2)",
       "sample_headlines": [
-        "Quantum computing\u2019s first real-world payoff may come in energy, not drug discovery",
-        "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Is it time to sell my stocks and buy real estate?",
-        "Bond Market\u2019s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
-        "Oil Shock Response Sets Emerging-Market Bond Winners and Losers"
+        "The biggest money-making energy trade looks over. What to buy instead",
+        "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+        "Ukraine Hits Russian Oil Refinery as 15 Attacked This Month",
+        "Latest Oil Market News and Analysis for Nov. 23"
       ]
     },
     {
-      "topic": "China",
-      "count": 3,
-      "pct": 4.5,
-      "sources": "CNBC(1), Google News(1), Bloomberg(1)",
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 3.1,
+      "sources": "CNBC(2)",
       "sample_headlines": [
-        "How China is using summits to expand its global influence",
-        "The AI bust is a growing threat to China's economy and a 'moment of real danger' for President Xi Jinping, analyst warns - Fortune",
-        "Rahm Emanuel Says Trump Is Playing Into China\u2019s Hands"
+        "Trump hosts crypto gala as his meme coin falls below $1",
+        "Netflix\u2019s \u2018The Altruists\u2019 sparks FTX portrayal debate among crypto bigwigs from CZ to Star Xu"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
       "count": 2,
-      "pct": 3.0,
-      "sources": "CNBC(1), Google News(1)",
+      "pct": 3.1,
+      "sources": "CNBC(1), FT(1)",
       "sample_headlines": [
-        "Retirees face a looming deadline for required withdrawals \u2014 missing it could trigger a tax penalty",
-        "Preparations underway to activate Stock Market Stabilization Fund immediately; treasury stock buyback limits eased for 3 months - \uc7ac\uacbd\uc77c\ubcf4"
+        "More Americans pay this Obama-era investment tax every year \u2014 how to avoid it",
+        "Macron proposes French budget \u2018golden rule\u2019"
       ]
     },
     {
-      "topic": "Trade / Tariffs",
+      "topic": "China",
       "count": 1,
       "pct": 1.5,
-      "sources": "MarketWatch(1)",
+      "sources": "FT(1)",
       "sample_headlines": [
-        "Ron Johnson\u2019s Social Security gaffe buried important news"
+        "China is winning the car war"
       ]
     }
   ]
