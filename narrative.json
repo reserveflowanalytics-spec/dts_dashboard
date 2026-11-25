@@ -1,100 +1,121 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 72,
-  "fetched_at": "2026-11-24T22:01:33.161199+00:00",
+  "total_headlines": 71,
+  "fetched_at": "2026-11-25T22:06:56.065581+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 18,
-      "pct": 25.0,
-      "sources": "CNBC(10), Bloomberg(4), MarketWatch(2), FT(2)",
+      "count": 15,
+      "pct": 21.1,
+      "sources": "CNBC(8), MarketWatch(3), FT(3), Bloomberg(1)",
       "sample_headlines": [
+        "Saudi national in OpenAI bugging case is out on bond after DOJ tries to block release",
+        "Liesman: Nvidia whiplash tests Kevin Warsh\u2019s push to read market signals",
+        "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
         "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
-        "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
-        "Saudi national charged in OpenAI bugging to be released on $1 million bond",
-        "Congress shreds Nvidia's 'outrageous' decision to bring back Huang: 'Failure of character'",
-        "How Meta is using Instagram to get an ad boost from its Muse personal AI agent"
-      ]
-    },
-    {
-      "topic": "Equities / Market moves",
-      "count": 12,
-      "pct": 16.7,
-      "sources": "Bloomberg(6), CNBC(2), MarketWatch(2), Google News(1), FT(1)",
-      "sample_headlines": [
-        "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma\u2019s biggest deal in three years",
-        "Nvidia shares fall more than 5% as Huang comeback rally cools",
-        "A 66-year-old nurse is facing down retirement with just $500 saved. Who\u2019s to blame?",
-        "The stock market is hardly cheap, even taking recent declines into account",
-        "South Korea vows to stabilise stock market after KOSPI drops 5% - Yahoo Finance"
-      ]
-    },
-    {
-      "topic": "Trade / Tariffs",
-      "count": 7,
-      "pct": 9.7,
-      "sources": "Bloomberg(5), FT(2)",
-      "sample_headlines": [
-        "Trump readies raft of new tariffs on major economies",
-        "Huawei convicted in US trial that exposed corporate espionage and sanctions evasion",
-        "Gold Slips as Investors Weigh Fed Outlook, US Tariff Plans",
-        "US Readies Tariff Hike on China, EU Goods",
-        "Nasdaq 100 Tumbles as Nvidia Euphoria Fades, New Tariffs Loom"
+        "Prediction markets push OpenAI IPO expectations later into 2027"
       ]
     },
     {
       "topic": "Iran / Middle East conflict",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "FT(3), CNBC(1), MarketWatch(1), Bloomberg(1)",
+      "count": 7,
+      "pct": 9.9,
+      "sources": "CNBC(4), FT(3)",
       "sample_headlines": [
-        "Russia accuses NATO member Estonia of hostile actions \u2018on the verge of unleashing open war\u2019",
-        "Micron\u2019s stock falls as an analyst warns about a future supply glut",
-        "Inside the \u2018war room\u2019 that lobbied Trump to bring back Jensen Huang",
-        "Russian navy licks its wounds as another warship is sunk",
-        "Pentagon delays Patriot missile shipments to Ukraine"
+        "Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike",
+        "Liesman: Nvidia whiplash tests Kevin Warsh\u2019s push to read market signals",
+        "Budget carrier Norse Atlantic falls 78% after warning its finances are \u2018critical\u2019 amid soaring fuel costs",
+        "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+        "\u2018Tech bros strike back\u2019 as Trump rescues Nvidia\u2019s Huang"
       ]
     },
     {
       "topic": "Fed / Rates / Inflation",
-      "count": 6,
-      "pct": 8.3,
-      "sources": "CNBC(3), Bloomberg(3)",
+      "count": 7,
+      "pct": 9.9,
+      "sources": "CNBC(3), MarketWatch(2), FT(1), Bloomberg(1)",
       "sample_headlines": [
-        "Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist",
-        "Commercial real estate activity falls 14% in October, as interest rates rise",
-        "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-        "Gold Slips as Investors Weigh Fed Outlook, US Tariff Plans",
-        "Bond Traders Rush to Hedge Risk of Fed Hikes Stalling Economy"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 3,
-      "pct": 4.2,
-      "sources": "CNBC(1), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
-        "Shanghai\u2019s powerful Communist Party boss toppled as Xi  escalates purge",
-        "US Readies Tariff Hike on China, EU Goods"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 1,
-      "pct": 1.4,
-      "sources": "Bloomberg(1)",
-      "sample_headlines": [
-        "Latest Oil Market News and Analysis for Nov. 24"
+        "Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+        "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+        "10-year Treasury yield slides despite sticky inflation data as investors buy bonds for protection",
+        "How to spot \u2018bogus boutiques\u2019 and other Black Friday shopping scams",
+        "The Fed says inflation hasn\u2019t gotten any better ahead of its key December vote to raise rates"
       ]
     },
     {
       "topic": "Fiscal / Government spending",
+      "count": 6,
+      "pct": 8.5,
+      "sources": "CNBC(4), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "10-year Treasury yield slides despite sticky inflation data as investors buy bonds for protection",
+        "Wealthy investors seek tax savings from municipal bonds as yields remain elevated",
+        "Budget carrier Norse Atlantic falls 78% after warning its finances are \u2018critical\u2019 amid soaring fuel costs",
+        "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+        "US Treasury financial crime watchdog hit by suspected cyber attack"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 5,
+      "pct": 7.0,
+      "sources": "CNBC(2), Bloomberg(2), FT(1)",
+      "sample_headlines": [
+        "Investors led by U.S. billionaire Todd Boehly to buy Lukoil's oil and gas assets outside Russia, sources say",
+        "Ukraine tells Putin to \u2018stop complaining\u2019 over oil refinery attacks as Russia promises retaliation",
+        "Billionaire financier Todd Boehly strikes deal for Lukoil assets",
+        "Targa Is Said in Talks to Buy Kinetik in Major Pipeline Tie-Up",
+        "Latest Oil Market News and Analysis for Nov. 25"
+      ]
+    },
+    {
+      "topic": "Equities / Market moves",
+      "count": 4,
+      "pct": 5.6,
+      "sources": "MarketWatch(2), CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "We're buying more of a stock down big from its July highs",
+        "Nvidia\u2019s stock has given back more than half of Monday\u2019s rally as dip buyers cash in",
+        "HP\u2019s stock is a standout gainer in the tech selloff, as an earnings beat still matters",
+        "Australia\u2019s Beaten-Down Small Caps Look Primed for 2027 Comeback"
+      ]
+    },
+    {
+      "topic": "Trade / Tariffs",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), Bloomberg(1)",
+      "sample_headlines": [
+        "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+        "US Tariff Proposal Raises Stakes for India to Clinch Trade Deal"
+      ]
+    },
+    {
+      "topic": "Crypto",
+      "count": 2,
+      "pct": 2.8,
+      "sources": "CNBC(1), MarketWatch(1)",
+      "sample_headlines": [
+        "Crypto talent will return \u2018when AI implodes,\u2019 Arthur Hayes says",
+        "Why macro investor Raoul Pal says the dollar is the signal to watch for stocks and crypto"
+      ]
+    },
+    {
+      "topic": "Recession / Slowdown",
+      "count": 1,
+      "pct": 1.4,
+      "sources": "FT(1)",
+      "sample_headlines": [
+        "Upgrade to US GDP figures keeps December rate rise in play for Fed"
+      ]
+    },
+    {
+      "topic": "China",
       "count": 1,
       "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "Trump Account contributions from friends and family pass $1 billion mark, Treasury says"
+        "U.S. proposes new tariffs on 14 trading partners, including China and the EU"
       ]
     }
   ]
