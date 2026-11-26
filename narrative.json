@@ -1,121 +1,103 @@
 {
   "dominant": "AI / Tech",
-  "total_headlines": 71,
-  "fetched_at": "2026-11-25T22:06:56.065581+00:00",
+  "total_headlines": 70,
+  "fetched_at": "2026-11-26T22:01:16.543689+00:00",
   "topics": [
     {
       "topic": "AI / Tech",
-      "count": 15,
-      "pct": 21.1,
-      "sources": "CNBC(8), MarketWatch(3), FT(3), Bloomberg(1)",
+      "count": 17,
+      "pct": 24.3,
+      "sources": "CNBC(10), MarketWatch(3), Bloomberg(3), FT(1)",
       "sample_headlines": [
-        "Saudi national in OpenAI bugging case is out on bond after DOJ tries to block release",
-        "Liesman: Nvidia whiplash tests Kevin Warsh\u2019s push to read market signals",
-        "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
-        "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
-        "Prediction markets push OpenAI IPO expectations later into 2027"
-      ]
-    },
-    {
-      "topic": "Iran / Middle East conflict",
-      "count": 7,
-      "pct": 9.9,
-      "sources": "CNBC(4), FT(3)",
-      "sample_headlines": [
-        "Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike",
-        "Liesman: Nvidia whiplash tests Kevin Warsh\u2019s push to read market signals",
-        "Budget carrier Norse Atlantic falls 78% after warning its finances are \u2018critical\u2019 amid soaring fuel costs",
-        "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
-        "\u2018Tech bros strike back\u2019 as Trump rescues Nvidia\u2019s Huang"
-      ]
-    },
-    {
-      "topic": "Fed / Rates / Inflation",
-      "count": 7,
-      "pct": 9.9,
-      "sources": "CNBC(3), MarketWatch(2), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
-        "Secondhand shopping is going mainstream this holiday season as consumers seek value",
-        "10-year Treasury yield slides despite sticky inflation data as investors buy bonds for protection",
-        "How to spot \u2018bogus boutiques\u2019 and other Black Friday shopping scams",
-        "The Fed says inflation hasn\u2019t gotten any better ahead of its key December vote to raise rates"
-      ]
-    },
-    {
-      "topic": "Fiscal / Government spending",
-      "count": 6,
-      "pct": 8.5,
-      "sources": "CNBC(4), FT(1), Bloomberg(1)",
-      "sample_headlines": [
-        "10-year Treasury yield slides despite sticky inflation data as investors buy bonds for protection",
-        "Wealthy investors seek tax savings from municipal bonds as yields remain elevated",
-        "Budget carrier Norse Atlantic falls 78% after warning its finances are \u2018critical\u2019 amid soaring fuel costs",
-        "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
-        "US Treasury financial crime watchdog hit by suspected cyber attack"
-      ]
-    },
-    {
-      "topic": "Oil / Energy",
-      "count": 5,
-      "pct": 7.0,
-      "sources": "CNBC(2), Bloomberg(2), FT(1)",
-      "sample_headlines": [
-        "Investors led by U.S. billionaire Todd Boehly to buy Lukoil's oil and gas assets outside Russia, sources say",
-        "Ukraine tells Putin to \u2018stop complaining\u2019 over oil refinery attacks as Russia promises retaliation",
-        "Billionaire financier Todd Boehly strikes deal for Lukoil assets",
-        "Targa Is Said in Talks to Buy Kinetik in Major Pipeline Tie-Up",
-        "Latest Oil Market News and Analysis for Nov. 25"
+        "Semiconductor chips are the new oil. Here's why",
+        "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+        "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+        "\u2018Your booth is waiting\u2019: Denny\u2019s welcomes Jensen Huang back as Nvidia CEO",
+        "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC"
       ]
     },
     {
       "topic": "Equities / Market moves",
-      "count": 4,
-      "pct": 5.6,
-      "sources": "MarketWatch(2), CNBC(1), Bloomberg(1)",
+      "count": 11,
+      "pct": 15.7,
+      "sources": "CNBC(5), MarketWatch(2), Bloomberg(2), Google News(1), FT(1)",
       "sample_headlines": [
-        "We're buying more of a stock down big from its July highs",
-        "Nvidia\u2019s stock has given back more than half of Monday\u2019s rally as dip buyers cash in",
-        "HP\u2019s stock is a standout gainer in the tech selloff, as an earnings beat still matters",
-        "Australia\u2019s Beaten-Down Small Caps Look Primed for 2027 Comeback"
+        "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+        "Switzerland\u2019s biggest bank set for showdown with lawmakers as capital fight intensifies amid crisis planning",
+        "Wealthy Europeans look beyond stocks amid AI selloff. Here\u2019s where they\u2019re investing",
+        "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+        "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday"
+      ]
+    },
+    {
+      "topic": "Oil / Energy",
+      "count": 7,
+      "pct": 10.0,
+      "sources": "CNBC(3), Bloomberg(3), FT(1)",
+      "sample_headlines": [
+        "Semiconductor chips are the new oil. Here's why",
+        "Trump, NATO chief caution Russia as attacks on Ukraine\u2019s energy infrastructure intensify",
+        "Latin America has the copper and energy the AI build-out needs. Infrastructure is the test",
+        "Hawkish Fed poised to raise rates despite stock market turmoil",
+        "Australia Passes Gas Reserve Law in Upset to LNG Exporters"
+      ]
+    },
+    {
+      "topic": "Iran / Middle East conflict",
+      "count": 6,
+      "pct": 8.6,
+      "sources": "CNBC(3), FT(2), Bloomberg(1)",
+      "sample_headlines": [
+        "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+        "Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse",
+        "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+        "Two Italians killed in drone strike on Kuwait",
+        "Israel\u2019s Eisenkot takes steps towards replacing Netanyahu"
       ]
     },
     {
       "topic": "Trade / Tariffs",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), Bloomberg(1)",
+      "count": 5,
+      "pct": 7.1,
+      "sources": "CNBC(4), Bloomberg(1)",
       "sample_headlines": [
+        "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+        "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
         "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-        "US Tariff Proposal Raises Stakes for India to Clinch Trade Deal"
+        "How Trump\u2019s latest tariff moves hand India an edge over rival Asian exporters",
+        "Australia Passes Gas Reserve Law in Upset to LNG Exporters"
       ]
     },
     {
-      "topic": "Crypto",
-      "count": 2,
-      "pct": 2.8,
-      "sources": "CNBC(1), MarketWatch(1)",
+      "topic": "China",
+      "count": 4,
+      "pct": 5.7,
+      "sources": "CNBC(3), Bloomberg(1)",
       "sample_headlines": [
-        "Crypto talent will return \u2018when AI implodes,\u2019 Arthur Hayes says",
-        "Why macro investor Raoul Pal says the dollar is the signal to watch for stocks and crypto"
+        "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+        "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+        "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
+        "Stellantis to Pause More Europe Plants as Chinese Rivals Advance"
+      ]
+    },
+    {
+      "topic": "Fed / Rates / Inflation",
+      "count": 3,
+      "pct": 4.3,
+      "sources": "CNBC(1), FT(1), Bloomberg(1)",
+      "sample_headlines": [
+        "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+        "Hawkish Fed poised to raise rates despite stock market turmoil",
+        "Gold Hovers Near 15-Month Low as Traders Eye Fed Path, AI Stocks"
       ]
     },
     {
       "topic": "Recession / Slowdown",
       "count": 1,
       "pct": 1.4,
-      "sources": "FT(1)",
-      "sample_headlines": [
-        "Upgrade to US GDP figures keeps December rate rise in play for Fed"
-      ]
-    },
-    {
-      "topic": "China",
-      "count": 1,
-      "pct": 1.4,
       "sources": "CNBC(1)",
       "sample_headlines": [
-        "U.S. proposes new tariffs on 14 trading partners, including China and the EU"
+        "Trump demands probe into \u2018record setting error\u2019 after third-quarter GDP data gets massive revision higher"
       ]
     }
   ]
