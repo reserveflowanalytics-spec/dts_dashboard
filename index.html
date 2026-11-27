@@ -64,6 +64,20 @@ body{background:#efe9df;font-family:'Source Serif 4',Georgia,serif;color:var(--i
 .subtoggle button{font-family:'Source Serif 4',Georgia,serif;font-size:11px;padding:3px 12px;
   background:var(--paper);border:1px solid var(--hair);color:var(--mut);cursor:pointer}
 .subtoggle button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+/* Compare-years controls: lookback, yearly/monthly, same-months switch */
+.cmp-ctl{display:flex;flex-wrap:wrap;gap:0 12px;align-items:center}
+.cmp-ctl[hidden]{display:none}
+.cmp-same{font-size:11px;color:var(--mut);margin:0 0 8px;cursor:pointer}
+.cmp-same.off{opacity:.4;pointer-events:none}
+/* Seasonal lore section */
+.lore-live{font-size:12.5px;line-height:1.6;background:var(--panel);border-left:3px solid var(--ox);
+  padding:8px 12px;margin:0 0 10px;color:var(--sec)}
+.lore-table td{text-align:left;vertical-align:top;padding:8px 6px}
+.lore-table th:last-child,.lore-table td.lore-v{text-align:right;white-space:nowrap}
+.lore-table td.lore-v{font-weight:700;font-size:11.5px}
+.lore-rule{font-style:italic;color:var(--mut);margin-top:1px}
+.lore-ev{color:var(--sec);margin-top:4px;line-height:1.5}
+.lore-sub{margin-top:26px;padding-top:10px;border-top:1px solid var(--hair)}
 .tr-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:18px;align-items:start}
 @media(max-width:640px){.tr-grid{grid-template-columns:1fr}}
 .bigstat{text-align:center;padding:10px 0 2px}
@@ -99,6 +113,7 @@ details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--se
   <section id="sec-today" hidden></section>
   <section id="sec-data" hidden></section>
   <section id="sec-track" hidden></section>
+  <section id="sec-lore" hidden></section>
   <section id="sec-hood" hidden></section>
   <div class="foot" id="foot" hidden>
     <span>Source: US Treasury DTS</span>
@@ -126,15 +141,16 @@ const monoFont  = {family:"'JetBrains Mono',monospace"};
 async function loadAll(){
   const j = async (u) => { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) throw new Error(u); return r.json(); };
   const t = async (u) => { try { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) return null; return r.text(); } catch(e) { return null; } };
-  const [viz, sigTxt, sigRet, spx, spellTest] = await Promise.all([
+  const [viz, sigTxt, sigRet, spx, spellTest, lore] = await Promise.all([
     j('viz_data.json'),
     t('signal_log.jsonl'),
     j('signal_returns.json').catch(()=>null),
     j('spx_series.json').catch(()=>null),
     j('regime_spell_test_results.json').catch(()=>null),
+    j('seasonal_lore.json').catch(()=>null),
   ]);
   const signalLog = (sigTxt||'').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l));
-  return { viz, signalLog, signalReturns: sigRet, spx, spellTest };
+  return { viz, signalLog, signalReturns: sigRet, spx, spellTest, lore };
 }
 
 function regimeStreak(log){
@@ -250,9 +266,15 @@ function renderDataSection(D){
     <p class="caption">Core fiscal injection per session, last ${D.viz.daily.length} sessions.</p>
   </div>
   <p class="prose">${md2b(rep.what_changed||'')}</p>
-  <div class="chartblock"><div class="ttl">Cumulative injection &middot; FY${D.viz.meta.fiscal_year} vs FY${D.viz.meta.fiscal_year-1}</div>
-    <div class="subtoggle"><button id="tg-cum" class="on">Cumulative</button><button id="tg-gap">YoY gap</button></div>
+  <div class="chartblock"><div class="ttl" id="cum-ttl">Cumulative injection &middot; FY${D.viz.meta.fiscal_year} vs FY${D.viz.meta.fiscal_year-1}</div>
+    <div class="subtoggle"><button id="tg-cum" class="on">Cumulative</button><button id="tg-gap">YoY gap</button><button id="tg-cmp">Compare years</button></div>
+    <div id="cmp-ctl" class="cmp-ctl" hidden>
+      <div class="subtoggle" id="cmp-lb"><button data-n="3">3Y</button><button data-n="5" class="on">5Y</button><button data-n="10">10Y</button><button data-n="15">15Y</button><button data-n="0">Max</button></div>
+      <div class="subtoggle" id="cmp-view"><button data-v="year" class="on">Yearly</button><button data-v="month">Monthly</button></div>
+      <label class="cmp-same"><input type="checkbox" id="cmp-same"> Same months only</label>
+    </div>
     <div class="chartwrap"><canvas id="ch-cum"></canvas></div>
+    <p class="caption" id="cmp-cap" hidden></p>
   </div>
   <p class="prose">${md2b(rep.base_case||'')}</p>`;
 
@@ -302,9 +324,99 @@ function renderDataSection(D){
       });
   };
   mk('cum');
-  const bC=document.getElementById('tg-cum'), bG=document.getElementById('tg-gap');
-  bC.onclick=()=>{bC.classList.add('on');bG.classList.remove('on');mk('cum');};
-  bG.onclick=()=>{bG.classList.add('on');bC.classList.remove('on');mk('gap');};
+
+  // Compare years: CFI per fiscal year (Oct-Sep), as yearly totals or by month.
+  // Lookback N = the N most recent fiscal years, including the current partial one.
+  const cmp = {n:5, view:'year', same:false};
+  const ttl = document.getElementById('cum-ttl'), ttlDefault = ttl.innerHTML;
+  const ctl = document.getElementById('cmp-ctl'), cap = document.getElementById('cmp-cap');
+  const sameBox = document.getElementById('cmp-same');
+  const allFys = Object.keys(D.viz.cumulative).map(Number).filter(y=>y<=+fy).sort((a,b)=>a-b);
+  const MONTHS = ['Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep'];
+  // Grey ramp from light (oldest) to dark (newest past year); the current FY is always oxblood
+  const shade = (i,n) => {
+    const a=[0xd8,0xd0,0xc2], b=[0x4a,0x45,0x3d], t = n<=1 ? 1 : i/(n-1);
+    return '#'+a.map((v,j)=>Math.round(v+(b[j]-v)*t).toString(16).padStart(2,'0')).join('');
+  };
+  const mkCmp = () => {
+    if(charts.cum) charts.cum.destroy();
+    const fys = cmp.n ? allFys.slice(-cmp.n) : allFys;
+    const k = cur.length;                       // months the current FY has so far
+    const through = MONTHS[k-1];
+    const isCur = y => String(y)===fy;
+    sameBox.parentElement.classList.toggle('off', cmp.view!=='year');
+    ttl.textContent = `Core fiscal injection by fiscal year · FY${fys[0]}–FY${fys[fys.length-1]}`;
+
+    if(cmp.view==='year'){
+      // Full year = last cumulative point; same months = sum of monthly CFI over Oct..through
+      const val = y => { const m = D.viz.cumulative[y]||[];
+        return +(cmp.same ? m.slice(0,k).reduce((s,x)=>s+x.cfi,0) : (m.length?m[m.length-1].cum_cfi:0)).toFixed(1); };
+      const data = fys.map(val);
+      const col = v => v>=0 ? C.grn : C.ox;
+      charts.cum = new Chart(document.getElementById('ch-cum'),{
+        type:'bar',
+        data:{labels:fys.map(y=>'FY'+String(y).slice(2)+(isCur(y)&&!cmp.same?' TD':'')),
+          datasets:[{data,
+            // current FY: faint fill with full outline, so a partial year reads as unfinished
+            backgroundColor:data.map((v,i)=>col(v)+(isCur(fys[i])?'22':'66')),
+            borderColor:data.map(col),
+            borderWidth:fys.map(y=>isCur(y)?1.5:{top:1})}]},
+        options:{animation:false,responsive:true,maintainAspectRatio:false,
+          plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+            title:c=>{ const y=fys[c[0].dataIndex];
+              return 'FY'+y+(cmp.same?` · Oct–${through}`:isCur(y)?' · to date':' · full year'); },
+            label:c=>'CFI '+fmtB(c.parsed.y)}}},
+          scales:AXIS(cmp.same?`$B, Oct–${through}`:'$B per fiscal year')}
+      });
+      cap.textContent = cmp.same
+        ? `Each year totalled over Oct–${through} only, matching the months FY${fy} has so far. ${through} FY${fy} is month to date, past years are full months.`
+        : `Full fiscal-year totals (Oct–Sep). The outlined FY${fy} bar is to date (${k} month${k>1?'s':''}); tick Same months only for a like-for-like comparison.`;
+    } else {
+      // Monthly: grouped bars up to 5 years, one line per year beyond that so it stays readable
+      const bars = fys.length<=5, past = fys.filter(y=>!isCur(y));
+      const ds = fys.map(y=>{
+        const m = D.viz.cumulative[y]||[];
+        const c = isCur(y) ? C.ox : shade(past.indexOf(y), past.length);
+        const data = MONTHS.map((_,i)=>m[i]?m[i].cfi:null);
+        return bars
+          ? {type:'bar',label:'FY'+y,data,backgroundColor:c+(isCur(y)?'aa':'cc'),borderColor:c,borderWidth:{top:1}}
+          : {type:'line',label:'FY'+y,data,borderColor:c,borderWidth:isCur(y)?2.2:1,
+             pointRadius:isCur(y)?2:0,tension:.25,order:isCur(y)?0:1};
+      });
+      charts.cum = new Chart(document.getElementById('ch-cum'),{
+        data:{labels:MONTHS,datasets:ds},
+        options:{animation:false,responsive:true,maintainAspectRatio:false,
+          interaction:{mode:'index',intersect:false},
+          plugins:{legend:{display:fys.length<=10,labels:{font:{...serifFont,size:10},color:C.sec,
+            boxWidth:bars?10:18,boxHeight:bars?10:2}},
+            tooltip:{...TOOLTIP,itemSort:(a,b)=>b.datasetIndex-a.datasetIndex,callbacks:{
+              label:c=>c.dataset.label+' '+fmtB(c.parsed.y)}}},
+          scales:AXIS('$B per month')}
+      });
+      cap.textContent = `Monthly core fiscal injection, each fiscal year side by side. ${through} FY${fy} is month to date.`
+        + (fys.length>10 ? ' Hover a month for every year’s value.' : '');
+    }
+  };
+
+  // Mode switching between Cumulative, YoY gap and Compare years
+  const bC=document.getElementById('tg-cum'), bG=document.getElementById('tg-gap'), bX=document.getElementById('tg-cmp');
+  const setMode = (mode) => {
+    for(const [b,m] of [[bC,'cum'],[bG,'gap'],[bX,'cmp']]) b.classList.toggle('on', m===mode);
+    ctl.hidden = cap.hidden = mode!=='cmp';
+    if(mode==='cmp') mkCmp(); else { ttl.innerHTML = ttlDefault; mk(mode); }
+  };
+  bC.onclick=()=>setMode('cum'); bG.onclick=()=>setMode('gap'); bX.onclick=()=>setMode('cmp');
+  // Wire a button group: mark the clicked one on, store its value, redraw
+  const pick = (groupId, attr, apply) => {
+    const g = document.getElementById(groupId);
+    g.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+      g.querySelectorAll('button').forEach(x=>x.classList.toggle('on', x===b));
+      apply(b.dataset[attr]); mkCmp();
+    });
+  };
+  pick('cmp-lb','n', v=>cmp.n=+v);
+  pick('cmp-view','v', v=>cmp.view=v);
+  sameBox.onchange=()=>{cmp.same=sameBox.checked; mkCmp();};
 }
 
 function renderTrackRecord(D){
@@ -418,10 +530,125 @@ function renderTrackRecord(D){
     w.hidden = false;
   };
 }
+// Seasonal lore, tested: Santa Claus Rally and January Barometer against S&P 500 history.
+// Every number and verdict comes from seasonal_lore.json (scripts/seasonal_lore.py); nothing is hand-typed.
+function renderLore(D){
+  const L = D.lore, el = document.getElementById('sec-lore');
+  if(!L){ el.hidden = true; return; }
+  const K = 'since_1972';
+  const sd = iso => new Date(iso+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'});
+  const pp = v => (v>=0?'+':MINUS)+Math.abs(v).toFixed(2)+'%';
+  const vcol = v => v==='Supported'||v==='Beats base rate' ? C.grn : v==='Weak' ? C.mut : C.ox;
+
+  // Live line: where the calendar is relative to the Santa window and the latest January
+  const s = L.live.santa, j = L.live.january;
+  const santaTxt = s.state==='complete'
+      ? `The ${s.season}/${s.season+1} Santa window closed ${pp(s.pct)}.`
+    : s.state==='in_progress'
+      ? `The ${s.season}/${s.season+1} Santa window is in progress: ${pp(s.pct)} since the ${sd(s.start)} close, ending ${sd(s.end)}.`
+      : `The next Santa window runs from the ${sd(s.start)} close to the ${sd(s.end)} close.`
+        + (s.previous ? ` Last year's was ${pp(s.previous.pct)}.` : '');
+  const janTxt = j.running
+      ? `January ${j.running.year} so far: ${pp(j.running.pct)}.`
+      : `January ${j.year} closed ${pp(j.pct)}` + (j.rest_so_far_pct!=null
+          ? `; since then ${pp(j.rest_so_far_pct)} (through ${sd(j.through)}).` : '.');
+
+  const vtable = list => `<table class="rf-table lore-table"><thead><tr><th>Claim and evidence</th><th>Verdict</th></tr></thead>
+    <tbody>${list.map(v=>`<tr>
+      <td><b>${v.claim}</b><div class="lore-rule">${v.rule}</div><div class="lore-ev">${v.evidence}</div></td>
+      <td class="lore-v" style="color:${vcol(v.verdict)}">${v.verdict}</td></tr>`).join('')}</tbody></table>`;
+  const sa = L.santa[K];
+
+  // Presidential cycle block (older JSON without it simply omits the block)
+  const cy = L.cycle, cl = L.live.cycle;
+  const cycleHtml = !cy ? '' : `
+  <div class="ttl lore-sub">The Presidential Cycle</div>
+  <p class="prose">The claim: stocks struggle in the first two years of a presidential term and rally in the
+    third and fourth, with the pre-election year the strongest. Tested on calendar-year returns since 1951, split
+    into halves to check it holds in both.</p>
+  <div class="lore-live">${cl.year} is a ${cl.name.toLowerCase()} year (year ${cl.cycle} of the term):
+    ${pp(cl.ytd_pct)} year to date and ${pp(cl.above_low_pct)} above its lowest close, through ${sd(cl.through)}.
+    ${cl.next.year} is the ${cl.next.name.toLowerCase()} year.</div>
+  ${vtable(L.cycle_verdicts)}
+  <div class="chartblock" style="margin-top:18px"><div class="ttl">Average S&amp;P 500 calendar-year return by year of the presidential term</div>
+    <div class="chartwrap"><canvas id="ch-cycle"></canvas></div>
+    <p class="caption">${[1,2,3,4].map(g=>`${cy.groups[g].name}: up ${cy.groups[g].up_rate}% of ${cy.groups[g].n} years`).join(' · ')}.
+      Across all four years together the pattern is borderline (permutation p=${cy.spread_p}); the pre-election year carries it.</p>
+  </div>`;
+
+  el.innerHTML = `
+  <div class="sechdr"><span>Seasonal Lore, Tested</span><span class="n">IV</span></div>
+  <p class="prose">Calendar rules traders lean on, checked against every S&amp;P 500 year since 1950.
+    Each is judged against a base rate: the index rises in most years and most weeks anyway, so a rule
+    that says &ldquo;up&rdquo; looks right by default. Santa and January verdicts use ${K.replace('since_','')} onward only,
+    the years after Hirsch published both rules.</p>
+  <div class="lore-live">${santaTxt} ${janTxt}</div>
+  ${vtable(L.verdicts)}
+
+  <div class="chartblock" style="margin-top:18px"><div class="ttl">Santa window return by year</div>
+    <div class="chartwrap"><canvas id="ch-santa"></canvas></div>
+    <p class="caption">Close before the last 5 December sessions to the 2nd January session close.
+      Since 1972: up ${sa.win_rate}% of years, mean ${pp(sa.mean_pct)}, against ${sa.base_win_rate}% and ${pp(sa.base_mean_pct)} for any 7-session window.</p>
+  </div>
+  <div class="chartblock"><div class="ttl">Is January special? Each month's direction vs the next 11 months</div>
+    <div class="chartwrap"><canvas id="ch-monthctl"></canvas></div>
+    <p class="caption">Mean next-11-month return after an up month minus after a down month, all years since 1950.
+      January leads, but several months show the same kind of gap: partly ordinary momentum.</p>
+  </div>
+  ${cycleHtml}
+  <p class="disclaimer">Descriptive history, not a trade signal. S&amp;P 500 cash index daily closes
+    (Yahoo Finance from ${L.data.first.slice(0,4)}, FRED for recent sessions) through ${sd(L.data.last)};
+    ES futures track it closely. Permutation and bootstrap tests, Fisher exact for up/down tables.</p>`;
+
+  const sy = L.years.santa;
+  charts.santa = new Chart(document.getElementById('ch-santa'),{
+    type:'bar',
+    data:{labels:sy.map(r=>String(r.year)),datasets:[{data:sy.map(r=>r.santa_pct),
+      backgroundColor:sy.map(r=>(r.santa_pct>=0?C.grn:C.ox)+'66'),
+      borderColor:sy.map(r=>r.santa_pct>=0?C.grn:C.ox),borderWidth:{top:1}}]},
+    options:{animation:false,responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+        title:c=>`Santa ${sy[c[0].dataIndex].year}/${sy[c[0].dataIndex].year+1}`,
+        label:c=>pp(c.parsed.y)}}},
+      scales:AXIS('% over 7 sessions')}
+  });
+
+  const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const mc = MON.map((_,i)=>L.month_control[String(i+1)]);
+  charts.monthctl = new Chart(document.getElementById('ch-monthctl'),{
+    type:'bar',
+    data:{labels:MON,datasets:[{data:mc.map(v=>v.diff_mean_pct),
+      backgroundColor:MON.map((_,i)=>(i===0?C.ox:C.mut)+(i===0?'aa':'55')),
+      borderColor:MON.map((_,i)=>i===0?C.ox:C.mut),borderWidth:{top:1}}]},
+    options:{animation:false,responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+        label:c=>{ const v=mc[c.dataIndex];
+          return [`Gap ${v.diff_mean_pct>=0?'+':MINUS}${Math.abs(v.diff_mean_pct).toFixed(1)}pp`,
+                  `Next 11m up: ${v.rest_up_rate_after_up}% after up, ${v.rest_up_rate_after_down}% after down`]; }}}},
+      scales:AXIS('pp, after up minus after down')}
+  });
+
+  if(cy){
+    // Mean bars per term year; the current term year is oxblood, the rest muted
+    const G = [1,2,3,4].map(g=>cy.groups[g]);
+    const col = i => i+1===cl.cycle ? C.ox : C.mut;
+    charts.cycle = new Chart(document.getElementById('ch-cycle'),{
+      type:'bar',
+      data:{labels:G.map((g,i)=>`Y${i+1} ${g.name}`),datasets:[{data:G.map(g=>g.mean_pct),
+        backgroundColor:G.map((_,i)=>col(i)+'66'),borderColor:G.map((_,i)=>col(i)),borderWidth:{top:1}}]},
+      options:{animation:false,responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
+          label:c=>{ const g=G[c.dataIndex];
+            return [`Mean ${pp(g.mean_pct)}, median ${pp(g.median_pct)}`, `Up ${g.up_rate}% of ${g.n} years`]; }}}},
+        scales:AXIS('% per calendar year')}
+    });
+  }
+}
+
 function setupUnderHood(D){
   const el = document.getElementById('sec-hood');
   el.innerHTML = `
-  <div class="sechdr"><span>Under the Hood</span><span class="n">IV</span></div>
+  <div class="sechdr"><span>Under the Hood</span><span class="n">V</span></div>
   <details class="uth" id="uth-comp">
     <summary>Receipts &amp; spending composition &middot; taxes, transfers, interest, tariffs</summary>
     <div class="mini-grid">
@@ -534,13 +761,14 @@ async function main(){
   document.getElementById('dl-date').textContent = longDate(D.viz.meta.latest);
   document.getElementById('dl-issue').textContent = 'Issue No. '+D.signalLog.length;
   document.getElementById('loader').hidden = true;
-  ['sec-today','sec-data','sec-track','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
+  ['sec-today','sec-data','sec-track','sec-lore','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
   if(typeof Chart==='undefined'){ document.getElementById('sec-data').innerHTML =
     '<p class="caption">Charts unavailable (Chart.js failed to load). Data sections are text-only until reload.</p>'; }
   try {
     if(typeof renderToday==='function') renderToday(D);
     if(typeof Chart!=='undefined' && typeof renderDataSection==='function') renderDataSection(D);
     if(typeof Chart!=='undefined' && typeof renderTrackRecord==='function') renderTrackRecord(D);
+    if(typeof Chart!=='undefined' && typeof renderLore==='function') renderLore(D);
     if(typeof Chart!=='undefined' && typeof setupUnderHood==='function') setupUnderHood(D);
   } catch(e) { console.error('render failure', e); }
 }
