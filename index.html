@@ -112,6 +112,7 @@ details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--se
   <div class="loading" id="loader">Loading today's issue&hellip;</div>
   <section id="sec-today" hidden></section>
   <section id="sec-data" hidden></section>
+  <section id="sec-nowcast" hidden></section>
   <section id="sec-track" hidden></section>
   <section id="sec-lore" hidden></section>
   <section id="sec-hood" hidden></section>
@@ -141,16 +142,17 @@ const monoFont  = {family:"'JetBrains Mono',monospace"};
 async function loadAll(){
   const j = async (u) => { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) throw new Error(u); return r.json(); };
   const t = async (u) => { try { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) return null; return r.text(); } catch(e) { return null; } };
-  const [viz, sigTxt, sigRet, spx, spellTest, lore] = await Promise.all([
+  const [viz, sigTxt, sigRet, spx, spellTest, lore, nowcast] = await Promise.all([
     j('viz_data.json'),
     t('signal_log.jsonl'),
     j('signal_returns.json').catch(()=>null),
     j('spx_series.json').catch(()=>null),
     j('regime_spell_test_results.json').catch(()=>null),
     j('seasonal_lore.json').catch(()=>null),
+    j('deficit_nowcast.json').catch(()=>null),
   ]);
   const signalLog = (sigTxt||'').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l));
-  return { viz, signalLog, signalReturns: sigRet, spx, spellTest, lore };
+  return { viz, signalLog, signalReturns: sigRet, spx, spellTest, lore, nowcast };
 }
 
 function regimeStreak(log){
@@ -445,7 +447,7 @@ function renderTrackRecord(D){
   }
 
   el.innerHTML = `
-  <div class="sechdr"><span>Track Record</span><span class="n">III</span></div>
+  <div class="sechdr"><span>Track Record</span><span class="n">IV</span></div>
   <div class="tr-grid">
     <div><div class="ttl" style="font-size:13px;font-weight:600">Fiscal regime vs S&amp;P 500</div>
       <div class="chartwrap" style="height:240px"><canvas id="ch-link"></canvas></div>
@@ -577,7 +579,7 @@ function renderLore(D){
   </div>`;
 
   el.innerHTML = `
-  <div class="sechdr"><span>Seasonal Lore, Tested</span><span class="n">IV</span></div>
+  <div class="sechdr"><span>Seasonal Lore, Tested</span><span class="n">V</span></div>
   <p class="prose">Calendar rules traders lean on, checked against every S&amp;P 500 year since 1950.
     Each is judged against a base rate: the index rises in most years and most weeks anyway, so a rule
     that says &ldquo;up&rdquo; looks right by default. Santa and January verdicts use ${K.replace('since_','')} onward only,
@@ -645,19 +647,96 @@ function renderLore(D){
   }
 }
 
+function renderNowcast(D){
+  const N = D.nowcast, el = document.getElementById('sec-nowcast');
+  if(!N || !N.months || !Object.keys(N.months).length){ el.hidden = true; return; }
+  const months = Object.keys(N.months).sort();
+  const bal = v => v==null ? 'pending'
+    : v<0 ? `$${Math.abs(v).toFixed(1)}B surplus` : `$${v.toFixed(1)}B`;
+  const mname = ym => new Date(ym+'-15T12:00:00Z').toLocaleDateString('en-US',{month:'long',year:'numeric',timeZone:'UTC'});
+  const sd = iso => new Date(iso+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'});
+  const last = a => a[a.length-1];
+
+  // The month being estimated now: the latest month the official statement has not yet scored
+  const open = months.filter(m=>N.months[m].mts_deficit_bn==null);
+  const cur = open.length ? last(open) : last(months);
+  const ce = N.months[cur].entries, now = last(ce);
+
+  // Scored months: the last estimate logged for the month against the official figure
+  const scored = months.filter(m=>N.months[m].mts_deficit_bn!=null).map(m=>{
+    const f = last(N.months[m].entries);
+    return {m, est:f.estimate_bn, asof:f.dts_date, mts:N.months[m].mts_deficit_bn,
+            miss:f.miss_bn, band:f.backtest_median_miss_bn};
+  });
+  const inside = scored.filter(r=>r.band!=null && Math.abs(r.miss)<=r.band).length;
+  const nextMonth = ym => { const [y,m] = ym.split('-').map(Number); return mname(`${m===12?y+1:y}-${String(m%12+1).padStart(2,'0')}`); };
+
+  el.innerHTML = `
+  <div class="sechdr"><span>Deficit Nowcast</span><span class="n">III</span></div>
+  <p class="prose">A running estimate of this month's federal deficit, built each day from the Daily Treasury
+    Statement and scored against the official Monthly Treasury Statement when Treasury publishes it. Every estimate
+    is logged before the official figure exists, so the record below cannot be revised after the fact.</p>
+  <div class="lore-live">${N.months[cur].mts_deficit_bn==null ? `Estimate for ${mname(cur)}` : `Last estimate for ${mname(cur)}`}:
+    <span class="mono"><b>${bal(now.estimate_bn)}</b></span>${now.backtest_median_miss_bn!=null
+      ? `, typical miss at this point in the month <span class="mono">&plusmn;$${now.backtest_median_miss_bn.toFixed(0)}B</span>` : ''},
+    from daily data through ${sd(now.dts_date)}.${N.months[cur].mts_deficit_bn==null
+      ? ` Scored against the official figure when Treasury publishes it, about the eighth business day of ${nextMonth(cur)}.` : ''}</div>
+  ${ce.length>=3 && typeof Chart!=='undefined' ? `<div class="chartblock"><div class="ttl">${mname(cur)}: estimate by day of data</div>
+    <div class="chartwrap" style="height:170px"><canvas id="ch-nowcast"></canvas></div></div>` : ''}
+  <div class="ttl" style="font-size:13px;font-weight:600;margin-top:14px">Scored months</div>
+  ${scored.length ? `<table class="rf-table"><thead><tr><th>Month</th><th>Last estimate</th><th>Official</th><th>Miss</th><th>Typical miss</th></tr></thead>
+    <tbody>${scored.slice().reverse().map(r=>`<tr><td>${mname(r.m)}</td>
+      <td class="mono">${bal(r.est)} <span style="color:var(--mut)">(${sd(r.asof)})</span></td>
+      <td class="mono">${bal(r.mts)}</td>
+      <td class="mono" style="color:${r.band!=null&&Math.abs(r.miss)<=r.band?C.grn:C.ox}">${fmtB(r.miss)}</td>
+      <td class="mono">${r.band!=null?'&plusmn;$'+r.band.toFixed(0)+'B':'n/a'}</td></tr>`).join('')}</tbody></table>
+    <p class="caption">${inside} of ${scored.length} scored months missed by less than the backtest's typical miss.
+      By construction about half should.</p>`
+    : `<p class="caption">No months scored yet. The first, ${mname(months[0])}, is scored when Treasury publishes
+      its Monthly Treasury Statement.</p>`}
+  <p class="disclaimer">Method: month-to-date flows from the Daily Treasury Statement, plus the rest of the month taken
+    from up to five earlier years with the same payment calendar (the median, scaled to this year's flows), plus interest
+    as the official statement books it (accrued, not paid). Backtest 2016 to 2026, 128 months: median miss $31B with
+    10 days of data and $27B from day 20, against $58B for simply using the same month last year. The method was fixed
+    before live logging began on 28 November 2026. Cash basis: non-cash entries such as student-loan cost revisions
+    appear in the official statement but never in daily cash, so some months will miss by far more. A description
+    of government finances, not a market signal.</p>`;
+
+  if(ce.length>=3 && typeof Chart!=='undefined'){
+    const band = ce.map(e=>e.backtest_median_miss_bn);
+    charts.nowcast = new Chart(document.getElementById('ch-nowcast'),{
+      type:'line',
+      data:{labels:ce.map(e=>sd(e.dts_date)),datasets:[
+        {data:ce.map(e=>e.estimate_bn),borderColor:C.ink,borderWidth:1.6,pointRadius:2,tension:0},
+        {data:ce.map((e,i)=>band[i]==null?null:e.estimate_bn+band[i]),borderColor:C.mut,borderDash:[4,4],borderWidth:1,pointRadius:0},
+        {data:ce.map((e,i)=>band[i]==null?null:e.estimate_bn-band[i]),borderColor:C.mut,borderDash:[4,4],borderWidth:1,pointRadius:0}]},
+      options:{animation:false,responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:false},tooltip:{...TOOLTIP,filter:c=>c.datasetIndex===0,
+          callbacks:{label:c=>'Estimate '+bal(c.parsed.y)}}},
+        scales:AXIS('$B deficit')}
+    });
+  }
+}
+
 function setupUnderHood(D){
   const el = document.getElementById('sec-hood');
+  // Net customs from the Monthly Treasury Statement (scorecard row added by the pipeline)
+  const customsNet = (D.viz.scorecard||[]).find(r=>r.label.startsWith('Customs duties, net of refunds'));
   el.innerHTML = `
-  <div class="sechdr"><span>Under the Hood</span><span class="n">V</span></div>
+  <div class="sechdr"><span>Under the Hood</span><span class="n">VI</span></div>
   <details class="uth" id="uth-comp">
-    <summary>Receipts &amp; spending composition &middot; taxes, transfers, interest, tariffs</summary>
+    <summary>Receipts &amp; spending composition &middot; taxes, transfers, interest, customs</summary>
     <div class="mini-grid">
       ${['taxes','hh','interest','tariffs'].map(k=>`<div>
         <div class="mt">${{taxes:'Tax receipts',hh:'Household transfers',
-          interest:'Interest payments',tariffs:'Tariff receipts'}[k]}</div>
+          interest:'Interest payments',tariffs:'Customs deposits (gross, before refunds)'}[k]}</div>
         <div class="mini-wrap"><canvas id="mini-${k}"></canvas></div></div>`).join('')}
     </div>
-    <p class="caption">Monthly totals, FY${D.viz.meta.fiscal_year} bars vs FY${D.viz.meta.fiscal_year-1} dashed.</p>
+    <p class="caption">Monthly totals, FY${D.viz.meta.fiscal_year} bars vs FY${D.viz.meta.fiscal_year-1} dashed.
+      Customs deposits are gross: tariff refunds leave the Treasury as separate withdrawals, so gross deposits
+      overstate tariff revenue when refunds are large.${customsNet ? ` Net of refunds, the Monthly Treasury
+      Statement shows <span class="mono">$${customsNet.current.toFixed(1)}B</span> ${customsNet.label.replace(/^Customs duties, net of refunds \(MTS, /,'(').replace(/\)$/,')')}
+      against <span class="mono">$${customsNet.prior.toFixed(1)}B</span> a year earlier.` : ''}</p>
   </details>
   <details class="uth" id="uth-iss">
     <summary>Issuance mix &middot; bills vs coupons, last 12 weeks</summary>
@@ -689,9 +768,10 @@ function setupUnderHood(D){
         <td class="mono">${w.gap_pp==null?'pending':(w.gap_pp>=0?'+':MINUS)+Math.abs(w.gap_pp).toFixed(1)+' pp'}</td></tr>`).join('')}
       </tbody></table>`:'<p class="caption">Wage bill data unavailable.</p>'}
     <p class="caption">Employers remit withheld income and payroll taxes within days of payday, so the Treasury total
-      tracks the national wage bill about four weeks before BEA publishes wages. It tracks only while withholding tables
-      are stable: in 2018 new tables pushed this measure to about ${MINUS}3% while wages grew about 5% for a year. Single
-      months can differ from BEA by 1 to 2 points. Experimental: shown beside the official figure so any gap is visible.</p>
+      is known about four weeks before BEA publishes wages. Known earlier is not the same as more informative: a
+      pre-registered test (2014 to 2026, against BEA's first print) found it does not improve on last month's BEA figure
+      (average miss 0.61 points against 0.59). It also drifts when withholding tables change: in 2018 new tables pushed
+      it to about ${MINUS}3% while wages grew about 5%. Shown beside the official figure so any gap is visible.</p>
   </details>
   <details class="uth" id="uth-about">
     <summary>About the framework &middot; data, definitions, method</summary>
@@ -761,12 +841,13 @@ async function main(){
   document.getElementById('dl-date').textContent = longDate(D.viz.meta.latest);
   document.getElementById('dl-issue').textContent = 'Issue No. '+D.signalLog.length;
   document.getElementById('loader').hidden = true;
-  ['sec-today','sec-data','sec-track','sec-lore','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
+  ['sec-today','sec-data','sec-nowcast','sec-track','sec-lore','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
   if(typeof Chart==='undefined'){ document.getElementById('sec-data').innerHTML =
     '<p class="caption">Charts unavailable (Chart.js failed to load). Data sections are text-only until reload.</p>'; }
   try {
     if(typeof renderToday==='function') renderToday(D);
     if(typeof Chart!=='undefined' && typeof renderDataSection==='function') renderDataSection(D);
+    if(typeof renderNowcast==='function') renderNowcast(D);
     if(typeof Chart!=='undefined' && typeof renderTrackRecord==='function') renderTrackRecord(D);
     if(typeof Chart!=='undefined' && typeof renderLore==='function') renderLore(D);
     if(typeof Chart!=='undefined' && typeof setupUnderHood==='function') setupUnderHood(D);

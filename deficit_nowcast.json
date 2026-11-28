@@ -1,0 +1,17 @@
+{
+  "method": "trial4-2026-11-28",
+  "basis": "cash (DTS); non-cash MTS items not visible",
+  "months": {
+    "2026-11": {
+      "mts_deficit_bn": null,
+      "entries": [
+        {
+          "dts_date": "2026-11-25",
+          "estimate_bn": 174.1,
+          "miss_bn": null,
+          "backtest_median_miss_bn": 26.8
+        }
+      ]
+    }
+  }
+}
