@@ -10,6 +10,15 @@
       "run_date": "2026-07-15"
     },
     {
+      "claim": "Our reserve-mechanics read beats the headline's market call",
+      "rule": "Weekly from October 2026: one market direction implied by a mainstream headline against the framework's opposite call, scored on the instrument's move over a fixed window (code-set bands)",
+      "verdict": "Too few to judge",
+      "evidence": "3 calls made: framework right 1, headline right 0, expired 0, still open 2. Retired on 28 November 2026 because our own tests found no market-timing edge in fiscal flows; open calls are scored to completion.",
+      "sample": "2026-10-16 to 2026-11-20",
+      "script": "scripts/thesis_ledger.py",
+      "run_date": "2026-11-20"
+    },
+    {
       "claim": "Net liquidity moves with stocks",
       "rule": "4-week changes in Fed balance sheet minus Treasury account minus reverse repo move with the S&P 500 over the same 4 weeks",
       "verdict": "Not supported",

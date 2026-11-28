@@ -201,14 +201,17 @@ function renderToday(D){
     ${(cards.mtd_cfi>=0)===(cards.fytd_cfi>=0) ? `<span class="mono">$${Math.abs(cards.fytd_cfi).toFixed(1)}B</span>` : netPhrase(cards.fytd_cfi)}
     this fiscal year${cards.fytd_yoy_pct!=null?` (${cards.fytd_yoy_pct>=0?'+':MINUS}${Math.abs(cards.fytd_yoy_pct).toFixed(1)}% on the same point a year earlier)`:''}.
     Debt principal is excluded; interest is counted when paid.</p>
-  <p class="caption">Fiscal regime reading: <b style="color:${rc}">${meta.regime}</b>. A description of month-to-date
-    flows, not a forecast: our own test found it says nothing about where markets go next (see Claims Tested).</p>
+  <p class="caption"><b>Direction:</b> ${cards.mtd_cfi>=0?'spending above receipts':'receipts above spending'} this month.
+    <b>Pace:</b> ${cards.avg_5d_cfi>=cards.avg_20d_cfi?'faster':'slower'}, net <span class="mono">$${cards.avg_5d_cfi.toFixed(1)}B</span> a day over the
+    last 5 sessions against <span class="mono">$${cards.avg_20d_cfi.toFixed(1)}B</span> over the last 20.
+    <b>Market link:</b> none found; in our 2006 to 2026 test these flows did not predict the direction of the S&amp;P 500
+    (see Claims Tested).</p>
   ${cal?`<p class="caption">Month to date through business day ${cal.business_day}:
     <span class="mono">${fmtB(cal.mtd_bn)}</span> against a ${cal.years_used}-year average of
     <span class="mono">${fmtB(cal.typical_mtd_bn)}</span> for this point in the month
     (prior years <span class="mono">${fmtB(cal.prior_min_bn)}</span> to <span class="mono">${fmtB(cal.prior_max_bn)}</span>).
-    The regime label is largely a calendar clock: about 74% of its sign is predictable from the date alone,
-    so the comparison with prior years says more than the label.</p>`:''}
+    Daily flows follow the calendar closely (pay dates, tax dates, auction settlements), so the comparison with
+    the same point in prior years says more than the raw figure.</p>`:''}
   <div class="statrow">
     <div class="stat"><div class="k">Net flow 20d avg</div>
       <div class="v mono" style="color:${cards.avg_20d_cfi>=0?C.grn:C.ox}">${fmtB(cards.avg_20d_cfi)}/d</div></div>
@@ -216,8 +219,8 @@ function renderToday(D){
       <div class="v mono" style="color:${cards.avg_5d_cfi>=0?C.grn:C.ox}">${fmtB(cards.avg_5d_cfi)}/d</div></div>
     <div class="stat"><div class="k">TGA ${tga5!=null?'5d &Delta;':'level'}</div>
       <div class="v mono">${tga5!=null?fmtB(tga5):'$'+cards.tga_level.toFixed(0)+'B'}</div></div>
-    <div class="stat"><div class="k">Regime streak</div>
-      <div class="v mono">${streak} days</div></div>
+    <div class="stat"><div class="k">FYTD vs last year</div>
+      <div class="v mono">${cards.fytd_yoy_pct==null?'n/a':(cards.fytd_yoy_pct>=0?'+':MINUS)+Math.abs(cards.fytd_yoy_pct).toFixed(1)+'%'}</div></div>
   </div>
   ${absorb?`<p class="caption">Week to ${absorb.week_ending}: <span class="mono">${fmtB(absorb.issuance_bn)}</span> net Treasury
     issuance, absorbed by the Fed <span class="mono">${fmtB(absorb.fed_bn)}</span>, banks
@@ -697,7 +700,7 @@ function renderLedger(D){
 function renderClaims(D){
   const K = D.claims, el = document.getElementById('sec-claims');
   if(!K || !(K.claims||[]).length){ el.hidden = true; return; }
-  const vcol = v => v==='Supported' ? C.grn : v==='Weak' ? C.mut : C.ox;
+  const vcol = v => v==='Supported' ? C.grn : (v==='Weak' || v==='Too few to judge') ? C.mut : C.ox;
   el.innerHTML = `
   <div class="sechdr"><span>Claims Tested</span><span class="n">III</span></div>
   <p class="prose">Widely repeated claims about markets and the economy, each tested against the record with the rule
@@ -860,13 +863,13 @@ function setupUnderHood(D){
       <p style="margin-bottom:8px">The daily edition on Substack and YouTube is written by an AI model from this
       data and checked against it by code before publication. The research on this page (the nowcast, ledger and
       tests) is specified and built in code, with each method fixed before its results were seen.</p>
-      <p style="margin-bottom:8px">The regime label (Supportive / Neutral / Restrictive) describes the current
-      fiscal state from month-to-date flows, their year-over-year pace, and short-vs-medium momentum.
-      It is a description, not a prediction: our pre-registered 2006-2026 test found no reliable forward
-      SPX edge from the label alone, and the Track Record section reports that result rather than hiding it.
-      Nothing on this page is a trade signal. Tests of the regime, calendar-adjusted flows, and positioning
-      rules against forward market returns found no reliable edge, so the site describes the flows rather
-      than forecasting from them.</p>
+      <p style="margin-bottom:8px">Flows are described three ways: direction (spending above or below receipts),
+      size against the same point a year earlier, and pace (the last 5 sessions against the last 20). Earlier
+      issues summarised them with a regime label (Supportive / Neutral / Restrictive). Our pre-registered 2006-2026
+      test found the label did not predict the S&amp;P 500, so it was retired from public use on 28 November 2026;
+      the Regime Track Record section keeps that result. Nothing on this page is a trade signal: tests of the
+      regime, calendar-adjusted flows and positioning rules against forward market returns found no reliable
+      edge, so the site describes the flows rather than forecasting from them.</p>
     </div>
   </details>`;
 
