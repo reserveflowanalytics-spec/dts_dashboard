@@ -1,24 +1,6 @@
 {
   "claims": [
     {
-      "claim": "Our fiscal regime label tells you where stocks go next",
-      "rule": "S&P 500 returns 5 to 60 sessions after Supportive or Restrictive spells differ from the base rate, after multiple-testing correction",
-      "verdict": "Not supported",
-      "evidence": "No test survived the multiple-testing correction (0 of 26). The label describes the fiscal state; it does not forecast the market.",
-      "sample": "2006 to 2026, daily",
-      "script": "scripts/research/regime_spell_test.py",
-      "run_date": "2026-07-15"
-    },
-    {
-      "claim": "Our reserve-mechanics read beats the headline's market call",
-      "rule": "Weekly from October 2026: one market direction implied by a mainstream headline against the framework's opposite call, scored on the instrument's move over a fixed window (code-set bands)",
-      "verdict": "Too few to judge",
-      "evidence": "3 calls made: framework right 1, headline right 0, expired 0, still open 2. Retired on 28 November 2026 because our own tests found no market-timing edge in fiscal flows; open calls are scored to completion.",
-      "sample": "2026-10-16 to 2026-11-20",
-      "script": "scripts/thesis_ledger.py",
-      "run_date": "2026-11-20"
-    },
-    {
       "claim": "Net liquidity moves with stocks",
       "rule": "4-week changes in Fed balance sheet minus Treasury account minus reverse repo move with the S&P 500 over the same 4 weeks",
       "verdict": "Not supported",
@@ -79,15 +61,6 @@
       "sample": "1982 to 2026",
       "evidence": "4 of 5 inversions were followed by a recession and 4 of 4 recessions were preceded by one. False alarm: 2022-11. One hit, 2020, was the pandemic. A record, not a significance test.",
       "script": "scripts/research/folklore_market_tests.py",
-      "run_date": "2026-11-28"
-    },
-    {
-      "claim": "Withheld taxes give an early read on wage growth",
-      "rule": "Daily Treasury withheld taxes improve on last month's BEA wage figure for the month BEA has not yet published",
-      "verdict": "Not supported",
-      "evidence": "Average miss 0.61 points against 0.59 for last month's BEA figure (gain 95% CI [-0.09, +0.02]); direction right 85 of 154 months.",
-      "sample": "2014-01 to 2026-10, BEA first prints",
-      "script": "scripts/research/wage_bill_nowcast_test.py",
       "run_date": "2026-11-28"
     }
   ]

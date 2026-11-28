@@ -28,6 +28,14 @@ body{background:#efe9df;font-family:'Source Serif 4',Georgia,serif;color:var(--i
   display:flex;justify-content:space-between}
 .sechdr .n{color:#b7ad9c}
 .caption{font-size:11px;font-style:italic;color:var(--mut);margin-top:6px}
+.reading{font-size:12px;line-height:1.6;color:var(--sec);margin-top:6px}
+/* Italic notes fold into one small dropdown per group (foldNotes) */
+details.note{margin-top:6px}
+details.note summary{font-size:11px;color:var(--mut);cursor:pointer;list-style:none;letter-spacing:.3px}
+details.note summary::-webkit-details-marker{display:none}
+details.note summary::before{content:'+';font-family:'JetBrains Mono',monospace;margin-right:6px}
+details.note[open] summary::before{content:'\2212'}
+details.note > p{margin-top:4px}
 .prose{font-size:13.5px;line-height:1.68;color:#2e2a24;margin:10px 0 18px}
 .loading{padding:60px 0;text-align:center;font-style:italic;color:var(--mut)}
 .err{padding:40px;text-align:center;color:var(--ox)}
@@ -125,7 +133,6 @@ details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--se
   <section id="sec-claims" hidden></section>
   <section id="sec-today" hidden></section>
   <section id="sec-data" hidden></section>
-  <section id="sec-track" hidden></section>
   <section id="sec-lore" hidden></section>
   <section id="sec-hood" hidden></section>
   <div class="foot" id="foot" hidden>
@@ -133,7 +140,7 @@ details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--se
     <span>Reserve Flow Analytics</span>
     <span><a href="https://reserveflowanalytics.substack.com" target="_blank" rel="noopener">Subscribe for the daily note &rarr;</a></span>
   </div>
-  <p class="disclaimer">The daily edition is AI-written from this data and fact-checked by code; the research
+  <p class="disclaimer" data-fold="Disclosures and contact">The daily edition is AI-written from this data and fact-checked by code; the research
     sections are built in code. Analytical research, not investment advice. Nothing on this page is a trade signal:
     it describes Treasury cash flows and the plumbing they move through. All figures are generated algorithmically
     from public data (US Treasury, CFTC, FINRA, FRED); no proprietary market data is used.
@@ -146,7 +153,6 @@ const C = { paper:'#faf6ef', panel:'#f5f0e6', hair:'#d8d0c2', ink:'#1c1a17',
 const MINUS = '−';
 function fmtB(n, dp=1){ const s = n<0 ? MINUS : '+'; return s+'$'+Math.abs(n).toFixed(dp)+'B'; }
 function md2b(s){ return (s||'').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>'); }
-function regimeColor(r){ return r==='Supportive'?C.grn : r==='Restrictive'?C.ox : C.mut; }
 function longDate(iso){ return new Date(iso+'T12:00:00Z').toLocaleDateString('en-US',
   {weekday:'long',year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }
 const serifFont = {family:"'Source Serif 4',Georgia,serif"};
@@ -155,26 +161,16 @@ const monoFont  = {family:"'JetBrains Mono',monospace"};
 async function loadAll(){
   const j = async (u) => { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) throw new Error(u); return r.json(); };
   const t = async (u) => { try { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) return null; return r.text(); } catch(e) { return null; } };
-  const [viz, sigTxt, sigRet, spx, spellTest, lore, nowcast, ledger, claims] = await Promise.all([
+  const [viz, sigTxt, lore, nowcast, ledger, claims] = await Promise.all([
     j('viz_data.json'),
     t('signal_log.jsonl'),
-    j('signal_returns.json').catch(()=>null),
-    j('spx_series.json').catch(()=>null),
-    j('regime_spell_test_results.json').catch(()=>null),
     j('seasonal_lore.json').catch(()=>null),
     j('deficit_nowcast.json').catch(()=>null),
     j('fiscal_ledger.json').catch(()=>null),
     j('claims_tested.json').catch(()=>null),
   ]);
   const signalLog = (sigTxt||'').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l));
-  return { viz, signalLog, signalReturns: sigRet, spx, spellTest, lore, nowcast, ledger, claims };
-}
-
-function regimeStreak(log){
-  if(!log.length) return 0;
-  const r = log[log.length-1].regime; let n = 0;
-  for(let i=log.length-1;i>=0 && log[i].regime===r;i--) n++;
-  return n;
+  return { viz, signalLog, lore, nowcast, ledger, claims };
 }
 
 // "spending exceeded receipts by $X" or the reverse, unsigned
@@ -186,11 +182,9 @@ function netPhrase(v){
 function renderToday(D){
   const el = document.getElementById('sec-today');
   const meta = D.viz.meta, cards = D.viz.cards, rep = D.viz.report || {};
-  const rc = regimeColor(meta.regime);
   const cal = D.viz.calendar_context;
   // Latest week where every buyer line is known (bank data lags about two weeks)
   const absorb = (D.viz.issuance_absorption||[]).filter(w=>w.other_private_bn!=null).slice(-1)[0];
-  const streak = regimeStreak(D.signalLog);
   const tga5 = (D.viz.narrative && D.viz.narrative.tga_5d != null) ? D.viz.narrative.tga_5d : null;
 
   // 20d flow sums for the map
@@ -211,11 +205,10 @@ function renderToday(D){
     ${(cards.mtd_cfi>=0)===(cards.fytd_cfi>=0) ? `<span class="mono">$${Math.abs(cards.fytd_cfi).toFixed(1)}B</span>` : netPhrase(cards.fytd_cfi)}
     this fiscal year${cards.fytd_yoy_pct!=null?` (${cards.fytd_yoy_pct>=0?'+':MINUS}${Math.abs(cards.fytd_yoy_pct).toFixed(1)}% on the same point a year earlier)`:''}.
     Debt principal is excluded; interest is counted when paid.</p>
-  <p class="caption"><b>Direction:</b> ${cards.mtd_cfi>=0?'spending above receipts':'receipts above spending'} this month.
+  <p class="reading"><b>Direction:</b> ${cards.mtd_cfi>=0?'spending above receipts':'receipts above spending'} this month.
     <b>Pace:</b> ${cards.avg_5d_cfi>=cards.avg_20d_cfi?'faster':'slower'}, net <span class="mono">$${cards.avg_5d_cfi.toFixed(1)}B</span> a day over the
     last 5 sessions against <span class="mono">$${cards.avg_20d_cfi.toFixed(1)}B</span> over the last 20.
-    <b>Market link:</b> none found; in our 2006 to 2026 test these flows did not predict the direction of the S&amp;P 500
-    (see Claims Tested).</p>
+    <b>Market link:</b> none found; in a 2006 to 2026 test these flows did not predict the direction of the S&amp;P 500.</p>
   ${cal?`<p class="caption">Month to date through business day ${cal.business_day}:
     <span class="mono">${fmtB(cal.mtd_bn)}</span> against a ${cal.years_used}-year average of
     <span class="mono">${fmtB(cal.typical_mtd_bn)}</span> for this point in the month
@@ -305,7 +298,7 @@ function renderDataSection(D){
   </div>
 `;
 
-  // daily bars (20d trend lives in the stat row and the Track Record chart)
+  // daily bars (20d trend lives in the stat row)
   const days = D.viz.daily;
   charts.daily = new Chart(document.getElementById('ch-daily'),{
     data:{labels:days.map(d=>d.date.slice(5)),datasets:[
@@ -429,7 +422,7 @@ function renderDataSection(D){
   const bC=document.getElementById('tg-cum'), bG=document.getElementById('tg-gap'), bX=document.getElementById('tg-cmp');
   const setMode = (mode) => {
     for(const [b,m] of [[bC,'cum'],[bG,'gap'],[bX,'cmp']]) b.classList.toggle('on', m===mode);
-    ctl.hidden = cap.hidden = mode!=='cmp';
+    ctl.hidden = cap.hidden = noteBox(cap).hidden = mode!=='cmp';
     if(mode==='cmp') mkCmp(); else { ttl.innerHTML = ttlDefault; mk(mode); }
   };
   bC.onclick=()=>setMode('cum'); bG.onclick=()=>setMode('gap'); bX.onclick=()=>setMode('cmp');
@@ -446,117 +439,6 @@ function renderDataSection(D){
   sameBox.onchange=()=>{cmp.same=sameBox.checked; mkCmp();};
 }
 
-function renderTrackRecord(D){
-  const el = document.getElementById('sec-track');
-  const sum = D.signalReturns && D.signalReturns.summary;
-  const st = D.spellTest;
-  const lp = v => v==null ? 'n/a' : ((v>=0?'+':MINUS)+Math.abs(v*100).toFixed(2)+'%');
-
-  // spell-level table from the pre-registered 2006-2026 test
-  let tableRows = '';
-  let primary = null, hint5 = null, hint10 = null, exCovid = null;
-  if(st && st.spell && st.spell_ci){
-    for(const r of ['Supportive','Neutral','Restrictive']){
-      const s = st.spell[r] && st.spell[r]['20'];
-      const c = st.spell_ci[r] && st.spell_ci[r]['20'];
-      if(!s) continue;
-      const ci = c && c.lo!=null ? `[${lp(c.lo)}, ${lp(c.hi)}]` : 'n/a';
-      tableRows += `<tr><td style="color:${regimeColor(r)};font-weight:600">${r}
-        <span style="color:var(--mut);font-weight:400">(n=${s.n})</span></td>
-        <td class="mono">${lp(s.lift)}</td><td class="mono" style="font-size:10px">${ci}</td></tr>`;
-    }
-    primary = st.pvals && st.pvals["('spell', 20, 'S_R')"];
-    hint5 = st.pvals && st.pvals["('spell', 5, 'S_R')"];
-    hint10 = st.pvals && st.pvals["('spell', 10, 'S_R')"];
-    exCovid = st.robustness && st.robustness.ex_covid;
-  }
-
-  el.innerHTML = `
-  <div class="sechdr"><span>Regime Track Record</span><span class="n">VI</span></div>
-  <div class="tr-grid">
-    <div><div class="ttl" style="font-size:13px;font-weight:600">Fiscal regime vs S&amp;P 500</div>
-      <div class="chartwrap" style="height:240px"><canvas id="ch-link"></canvas></div>
-      <p class="caption">20-day average net fiscal flow (left) against SPX (right).
-        Background bands mark the logged regime: green supportive, red restrictive.
-        Descriptive, not predictive: see the test at right.</p></div>
-    <div>
-      <div class="ttl" style="font-size:13px;font-weight:600">Does the regime time the market?</div>
-      ${primary?`<p class="caption" style="margin:4px 0 8px">Pre-registered test, 2006-2026, one observation
-        per regime spell, entry two sessions after the data date: Supportive minus Restrictive at 20 sessions
-        was <b class="mono">${lp(primary.obs)}</b> (permutation p = <span class="mono">${primary.p.toFixed(2)}</span>).
-        <b>No demonstrated timing value.</b> The regime describes the fiscal state; it is not a trade signal.</p>`:''}
-      <table class="rf-table"><thead><tr><th>Regime</th><th>20d lift</th><th>95% CI</th></tr></thead>
-      <tbody>${tableRows||'<tr><td colspan="3" style="font-style:italic">spell test results unavailable</td></tr>'}</tbody></table>
-      <p class="caption">Lift = average forward SPX log return after spell start minus the unconditional
-        baseline. Every interval spans zero.
-        ${hint5&&hint10?`Shorter horizons showed nominal positives (5d p = ${hint5.p.toFixed(2)},
-        10d p = ${hint10.p.toFixed(2)}) that fail multiple-testing correction and concentrate in 2020
-        ${exCovid?`(ex-COVID: ${lp(exCovid.obs)})`:''}; disclosed, not claimed.`:''}</p>
-    </div>
-  </div>
-  <p class="prose" style="margin-top:12px">Every signal logged since ${sum?sum.date_range.first:'inception'},
-    reconstruction verified against the live log on 100/100 lived-forward days.
-    <button class="ledgerlink" id="ledger-btn">Full ledger &rarr;</button></p>
-  <div id="ledger-wrap" hidden></div>`;
-
-  // linkage chart from signal_log + spx_series
-  const log = D.signalLog, spx = D.spx||{};
-  const keys = Object.keys(spx).sort();
-  const near = d => { if(spx[d]!==undefined) return spx[d];
-    let lo=0,hi=keys.length-1,best=null;
-    while(lo<=hi){const m=(lo+hi)>>1; if(keys[m]<=d){best=keys[m];lo=m+1;}else hi=m-1;}
-    return best?spx[best]:null; };
-  const bands = {id:'bands',beforeDraw(ch){
-    const {ctx,chartArea:a,scales:{x}} = ch; if(!a) return;
-    log.forEach((e,i)=>{
-      if(e.regime==='Neutral') return;
-      const x0 = x.getPixelForValue(i-0.5), x1 = x.getPixelForValue(i+0.5);
-      ctx.fillStyle = e.regime==='Supportive' ? 'rgba(63,109,78,0.10)' : 'rgba(140,35,50,0.08)';
-      ctx.fillRect(x0, a.top, x1-x0, a.bottom-a.top);
-    });
-  }};
-  charts.link = new Chart(document.getElementById('ch-link'),{
-    type:'line',
-    data:{labels:log.map(e=>e.date),datasets:[
-      {data:log.map(e=>+(e.net_fiscal_injection_20d/1000).toFixed(2)),yAxisID:'y',
-       borderColor:C.ink,borderWidth:1.5,pointRadius:0,tension:.3},
-      {data:log.map(e=>near(e.date)),yAxisID:'y1',
-       borderColor:C.ox,borderWidth:1.5,pointRadius:0,tension:.2}]},
-    options:{animation:false,responsive:true,maintainAspectRatio:false,
-      interaction:{mode:'index',intersect:false},
-      plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
-        label:c=>c.datasetIndex===0?('Net flow 20d '+fmtB(c.parsed.y)+'/d'):('SPX '+c.parsed.y.toFixed(0))}}},
-      scales:{
-        x:{grid:{display:false},border:{color:C.hair},
-           ticks:{font:{...serifFont,size:10},color:C.mut,maxRotation:0,autoSkip:true,maxTicksLimit:8,
-             callback(v){const d=this.getLabelForValue(v);return d.slice(0,7);}}},
-        y:{position:'left',grid:{color:'#e9e2d4'},border:{display:false},
-           ticks:{font:{...monoFont,size:10},color:C.mut,callback:v=>v+'B/d'}},
-        y1:{position:'right',grid:{display:false},border:{display:false},
-           ticks:{font:{...monoFont,size:10},color:C.ox}}}},
-    plugins:[bands]
-  });
-
-  // ledger toggle: last 60 entries, newest first
-  document.getElementById('ledger-btn').onclick = () => {
-    const w = document.getElementById('ledger-wrap');
-    if(!w.hidden){ w.hidden = true; return; }
-    if(!w.innerHTML){
-      const rows = log.slice(-60).reverse().map(e=>`<tr>
-        <td class="mono">${e.date}</td>
-        <td style="color:${regimeColor(e.regime)};text-align:left">${e.regime}</td>
-        <td style="text-align:left">${e.regime_momentum||''}</td>
-        <td class="mono">$${(e.tga_level||0).toFixed(0)}B</td>
-        <td style="text-align:left">${e.tga_trend||''}</td>
-        <td style="text-align:left">${e.composite_label||''}</td></tr>`).join('');
-      w.innerHTML = `<table class="rf-table"><thead><tr><th style="text-align:left">Date</th>
-        <th style="text-align:left">Regime</th><th style="text-align:left">Momentum</th>
-        <th>TGA</th><th style="text-align:left">Trend</th><th style="text-align:left">Composite</th>
-        </tr></thead><tbody>${rows}</tbody></table>`;
-    }
-    w.hidden = false;
-  };
-}
 // Seasonal lore, tested: Santa Claus Rally and January Barometer against S&P 500 history.
 // Every number and verdict comes from seasonal_lore.json (scripts/seasonal_lore.py); nothing is hand-typed.
 function renderLore(D){
@@ -605,7 +487,7 @@ function renderLore(D){
   </div>`;
 
   el.innerHTML = `
-  <div class="sechdr"><span>Seasonal Lore, Tested</span><span class="n">VII</span></div>
+  <div class="sechdr"><span>Seasonal Lore, Tested</span><span class="n">VI</span></div>
   <p class="prose">Calendar rules traders lean on, checked against every S&amp;P 500 year since 1950.
     Each is judged against a base rate: the index rises in most years and most weeks anyway, so a rule
     that says &ldquo;up&rdquo; looks right by default. Santa and January verdicts use ${K.replace('since_','')} onward only,
@@ -627,7 +509,7 @@ function renderLore(D){
   </div>
   ${cycleChart}
   </details>
-  <p class="disclaimer">Descriptive history, not a trade signal. S&amp;P 500 cash index daily closes
+  <p class="disclaimer" data-fold="Sources and method">Descriptive history, not a trade signal. S&amp;P 500 cash index daily closes
     (Yahoo Finance from ${L.data.first.slice(0,4)}, FRED for recent sessions) through ${sd(L.data.last)};
     ES futures track it closely. Permutation and bootstrap tests, Fisher exact for up/down tables.</p>`;
 
@@ -715,6 +597,7 @@ function renderLedger(D){
   el.querySelectorAll('#ledger-tg button').forEach(b=>b.addEventListener('click',()=>{
     el.querySelectorAll('#ledger-tg button').forEach(x=>x.classList.toggle('on',x===b));
     document.getElementById('ledger-body').innerHTML = table(b.dataset.k);
+    foldNotes(document.getElementById('ledger-body'));
   }));
 }
 
@@ -731,14 +614,14 @@ function renderClaims(D){
   el.innerHTML = `
   <div class="sechdr"><span>Claims Tested</span><span class="n">III</span></div>
   <p class="prose">Widely repeated claims about markets and the economy, each tested against the record with the rule
-    written down before the data was run. Results are published whatever they show, including tests of our own work.</p>
+    written down before the data was run. Results are published whatever they show.</p>
   <p class="caption" style="margin-bottom:6px">${K.claims.length} claims: ${tally}. Select a claim for its rule and evidence.</p>
   <div style="border-top:1px solid var(--ink)">${K.claims.map(c=>`<details class="claim">
     <summary><span class="c">${c.claim}</span><span class="v" style="color:${vcol(c.verdict)}">${c.verdict}</span></summary>
     <div class="body"><div class="lore-rule">${c.rule}</div><div class="lore-ev">${c.evidence}</div>
       <div class="lore-rule" style="font-size:10px;margin-top:3px">${c.sample} &middot; <span class="mono">${c.script}</span> &middot; run ${c.run_date}</div></div>
   </details>`).join('')}</div>
-  <p class="disclaimer">Tests use permutation and bootstrap methods on public data (FRED, Treasury, FINRA, BEA, NBER).
+  <p class="disclaimer" data-fold="Method">Tests use permutation and bootstrap methods on public data (FRED, Treasury, FINRA, BEA, NBER).
     A verdict covers the stated rule and sample only. Descriptive research, not investment advice.</p>`;
 }
 
@@ -785,11 +668,11 @@ function renderNowcast(D){
       <td class="mono">${bal(r.mts)}</td>
       <td class="mono" style="color:${r.band!=null&&Math.abs(r.miss)<=r.band?C.grn:C.ox}">${fmtB(r.miss)}</td>
       <td class="mono">${r.band!=null?'&plusmn;$'+r.band.toFixed(0)+'B':'n/a'}</td></tr>`).join('')}</tbody></table>
-    <p class="caption">${inside} of ${scored.length} scored months missed by less than the backtest's typical miss.
+    <p class="reading">${inside} of ${scored.length} scored months missed by less than the backtest's typical miss.
       By construction about half should.</p>`
-    : `<p class="caption">No months scored yet. The first, ${mname(months[0])}, is scored when Treasury publishes
+    : `<p class="reading">No months scored yet. The first, ${mname(months[0])}, is scored when Treasury publishes
       its Monthly Treasury Statement.</p>`}
-  <p class="disclaimer">Method: month-to-date flows from the Daily Treasury Statement, plus the rest of the month taken
+  <p class="disclaimer" data-fold="Method, backtest and data files">Method: month-to-date flows from the Daily Treasury Statement, plus the rest of the month taken
     from up to five earlier years with the same payment calendar (the median, scaled to this year's flows), plus interest
     as the official statement books it (accrued, not paid). Backtest 2016 to 2026, 128 months: median miss $31B with
     10 days of data and $27B from day 20, against $58B for simply using the same month last year. The method was fixed
@@ -821,7 +704,7 @@ function setupUnderHood(D){
   // Net customs from the Monthly Treasury Statement (scorecard row added by the pipeline)
   const customsNet = (D.viz.scorecard||[]).find(r=>r.label.startsWith('Customs duties, net of refunds'));
   el.innerHTML = `
-  <div class="sechdr"><span>Under the Hood</span><span class="n">VIII</span></div>
+  <div class="sechdr"><span>Under the Hood</span><span class="n">VII</span></div>
   <details class="uth" id="uth-comp">
     <summary>Receipts &amp; spending composition &middot; taxes, transfers, interest, customs</summary>
     <div class="mini-grid">
@@ -855,22 +738,6 @@ function setupUnderHood(D){
       also holds measurement gaps (RRP is a proxy for money-fund buying). Bank data (Fed H.8) publishes about two weeks
       after the Fed balance sheet (H.4.1), so recent weeks show pending. Reserves also move with the TGA and currency.</p>
   </details>
-  <details class="uth" id="uth-wage">
-    <summary>Wage bill early read &middot; withheld taxes vs BEA wages (experimental)</summary>
-    ${(D.viz.wage_bill||[]).length?`<table class="rf-table"><thead><tr><th style="text-align:left">Month</th>
-      <th>Withheld taxes</th><th>DTS 3m YoY</th><th>BEA wages 3m YoY</th><th>Gap</th></tr></thead><tbody>
-      ${D.viz.wage_bill.slice().reverse().map(w=>`<tr><td class="mono" style="text-align:left;white-space:nowrap">${w.month}</td>
-        <td class="mono">$${w.withheld_bn.toFixed(1)}B</td>
-        <td class="mono">${w.dts_yoy_pct>=0?'+':MINUS}${Math.abs(w.dts_yoy_pct).toFixed(1)}%</td>
-        <td class="mono">${w.bea_yoy_pct==null?'pending':(w.bea_yoy_pct>=0?'+':MINUS)+Math.abs(w.bea_yoy_pct).toFixed(1)+'%'}</td>
-        <td class="mono">${w.gap_pp==null?'pending':(w.gap_pp>=0?'+':MINUS)+Math.abs(w.gap_pp).toFixed(1)+' pp'}</td></tr>`).join('')}
-      </tbody></table>`:'<p class="caption">Wage bill data unavailable.</p>'}
-    <p class="caption">Employers remit withheld income and payroll taxes within days of payday, so the Treasury total
-      is known about four weeks before BEA publishes wages. Known earlier is not the same as more informative: a
-      pre-registered test (2014 to 2026, against BEA's first print) found it does not improve on last month's BEA figure
-      (average miss 0.61 points against 0.59). It also drifts when withholding tables change: in 2018 new tables pushed
-      it to about ${MINUS}3% while wages grew about 5%. Shown beside the official figure so any gap is visible.</p>
-  </details>
   <details class="uth" id="uth-corr">
     <summary>Corrections</summary>
     <div style="font-size:12.5px;line-height:1.65;color:var(--sec);margin-top:10px">
@@ -892,12 +759,9 @@ function setupUnderHood(D){
       data and checked against it by code before publication. The research on this page (the nowcast, ledger and
       tests) is specified and built in code, with each method fixed before its results were seen.</p>
       <p style="margin-bottom:8px">Flows are described three ways: direction (spending above or below receipts),
-      size against the same point a year earlier, and pace (the last 5 sessions against the last 20). Earlier
-      issues summarised them with a regime label (Supportive / Neutral / Restrictive). Our pre-registered 2006-2026
-      test found the label did not predict the S&amp;P 500, so it was retired from public use on 28 November 2026;
-      the Regime Track Record section keeps that result. Nothing on this page is a trade signal: tests of the
-      regime, calendar-adjusted flows and positioning rules against forward market returns found no reliable
-      edge, so the site describes the flows rather than forecasting from them.</p>
+      size against the same point a year earlier, and pace (the last 5 sessions against the last 20). Nothing on
+      this page is a trade signal: tests of fiscal flows and positioning rules against forward S&amp;P 500 returns
+      (2006 to 2026) found no reliable edge, so the site describes the flows rather than forecasting from them.</p>
     </div>
   </details>`;
 
@@ -943,6 +807,26 @@ function setupUnderHood(D){
   });
 }
 
+// Move every italic note (caption or disclaimer) that is not already inside a dropdown
+// into a small "Notes" dropdown. Consecutive notes share one dropdown; a hidden note
+// gives a hidden dropdown, and code that shows it later uses noteBox() to show both.
+function foldNotes(root){
+  root.querySelectorAll('p.caption, p.disclaimer').forEach(p=>{
+    if(p.closest('details')) return;
+    let box = p.previousElementSibling;
+    if(!(box && box.matches('details.note') && !p.dataset.fold && !box.dataset.labelled)){
+      box = document.createElement('details');
+      box.className = 'note';
+      box.innerHTML = `<summary>${p.dataset.fold||'Notes'}</summary>`;
+      if(p.dataset.fold) box.dataset.labelled = '1';
+      box.hidden = p.hidden;
+      p.before(box);
+    }
+    box.appendChild(p);
+  });
+}
+const noteBox = p => p.closest('details.note') || p;
+
 async function main(){
   let D;
   try { D = await loadAll(); }
@@ -952,7 +836,7 @@ async function main(){
   document.getElementById('dl-date').textContent = longDate(D.viz.meta.latest);
   document.getElementById('dl-issue').textContent = 'Issue No. '+D.signalLog.length;
   document.getElementById('loader').hidden = true;
-  ['sec-nowcast','sec-ledger','sec-claims','sec-today','sec-data','sec-track','sec-lore','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
+  ['sec-nowcast','sec-ledger','sec-claims','sec-today','sec-data','sec-lore','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
   if(typeof Chart==='undefined'){ document.getElementById('sec-data').innerHTML =
     '<p class="caption">Charts unavailable (Chart.js failed to load). Data sections are text-only until reload.</p>'; }
   try {
@@ -961,9 +845,9 @@ async function main(){
     if(typeof renderClaims==='function') renderClaims(D);
     if(typeof renderToday==='function') renderToday(D);
     if(typeof Chart!=='undefined' && typeof renderDataSection==='function') renderDataSection(D);
-    if(typeof Chart!=='undefined' && typeof renderTrackRecord==='function') renderTrackRecord(D);
     if(typeof Chart!=='undefined' && typeof renderLore==='function') renderLore(D);
     if(typeof Chart!=='undefined' && typeof setupUnderHood==='function') setupUnderHood(D);
+    foldNotes(document.querySelector('.page'));
   } catch(e) { console.error('render failure', e); }
 }
 main();
