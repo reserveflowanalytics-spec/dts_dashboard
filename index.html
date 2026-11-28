@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Reserve Flow · Daily Treasury Flow Research</title>
+<title>Reserve Flow · US Treasury Cash-Flow Research</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500;700&display=swap');
@@ -104,15 +104,17 @@ details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--se
 <div class="page">
   <div class="mast">
     <div class="name">Reserve Flow</div>
-    <div class="tag">Daily Treasury Flow Research</div>
+    <div class="tag">Independent research on US Treasury cash flows</div>
   </div>
   <div class="dateline">
     <span id="dl-date">&nbsp;</span><span id="dl-issue">&nbsp;</span><span class="mono">DTS T+1</span>
   </div>
   <div class="loading" id="loader">Loading today's issue&hellip;</div>
+  <section id="sec-nowcast" hidden></section>
+  <section id="sec-ledger" hidden></section>
+  <section id="sec-claims" hidden></section>
   <section id="sec-today" hidden></section>
   <section id="sec-data" hidden></section>
-  <section id="sec-nowcast" hidden></section>
   <section id="sec-track" hidden></section>
   <section id="sec-lore" hidden></section>
   <section id="sec-hood" hidden></section>
@@ -121,7 +123,8 @@ details.uth summary{font-size:12px;font-weight:600;cursor:pointer;color:var(--se
     <span>Reserve Flow Analytics</span>
     <span><a href="https://reserveflowanalytics.substack.com" target="_blank" rel="noopener">Subscribe for the daily note &rarr;</a></span>
   </div>
-  <p class="disclaimer">Analytical research, not investment advice. Nothing on this page is a trade signal:
+  <p class="disclaimer">The daily edition is AI-written from this data and fact-checked by code; the research
+    sections are built in code. Analytical research, not investment advice. Nothing on this page is a trade signal:
     it describes Treasury cash flows and the plumbing they move through. All figures are generated algorithmically
     from public data (US Treasury, CFTC, FINRA, FRED); no proprietary market data is used.
     Contact: <a href="mailto:reserveflowanalytics@gmail.com" style="color:var(--mut)">reserveflowanalytics@gmail.com</a></p>
@@ -142,7 +145,7 @@ const monoFont  = {family:"'JetBrains Mono',monospace"};
 async function loadAll(){
   const j = async (u) => { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) throw new Error(u); return r.json(); };
   const t = async (u) => { try { const r = await fetch(u+'?v='+Date.now()); if(!r.ok) return null; return r.text(); } catch(e) { return null; } };
-  const [viz, sigTxt, sigRet, spx, spellTest, lore, nowcast] = await Promise.all([
+  const [viz, sigTxt, sigRet, spx, spellTest, lore, nowcast, ledger, claims] = await Promise.all([
     j('viz_data.json'),
     t('signal_log.jsonl'),
     j('signal_returns.json').catch(()=>null),
@@ -150,9 +153,11 @@ async function loadAll(){
     j('regime_spell_test_results.json').catch(()=>null),
     j('seasonal_lore.json').catch(()=>null),
     j('deficit_nowcast.json').catch(()=>null),
+    j('fiscal_ledger.json').catch(()=>null),
+    j('claims_tested.json').catch(()=>null),
   ]);
   const signalLog = (sigTxt||'').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l));
-  return { viz, signalLog, signalReturns: sigRet, spx, spellTest, lore, nowcast };
+  return { viz, signalLog, signalReturns: sigRet, spx, spellTest, lore, nowcast, ledger, claims };
 }
 
 function regimeStreak(log){
@@ -160,6 +165,12 @@ function regimeStreak(log){
   const r = log[log.length-1].regime; let n = 0;
   for(let i=log.length-1;i>=0 && log[i].regime===r;i--) n++;
   return n;
+}
+
+// "spending exceeded receipts by $X" or the reverse, unsigned
+function netPhrase(v){
+  const amt = `<span class="mono">$${Math.abs(v).toFixed(1)}B</span>`;
+  return v>=0 ? `spending exceeded receipts by ${amt}` : `receipts exceeded spending by ${amt}`;
 }
 
 function renderToday(D){
@@ -185,21 +196,23 @@ function renderToday(D){
   const w = v => Math.max(1.5, Math.min(9, Math.abs(v)/40)); // stroke width per $B
 
   el.innerHTML = `
-  <div class="bias-line">
-    <span class="bias-k">Fiscal regime</span>
-    <span class="bias-v" style="color:${rc}">${meta.regime}</span>
-  </div>
+  <div class="sechdr"><span>Today's Flows</span><span class="n">IV</span></div>
+  <p class="lede">Through ${longDate(meta.latest)}: ${netPhrase(cards.mtd_cfi)} this month, and
+    ${(cards.mtd_cfi>=0)===(cards.fytd_cfi>=0) ? `<span class="mono">$${Math.abs(cards.fytd_cfi).toFixed(1)}B</span>` : netPhrase(cards.fytd_cfi)}
+    this fiscal year${cards.fytd_yoy_pct!=null?` (${cards.fytd_yoy_pct>=0?'+':MINUS}${Math.abs(cards.fytd_yoy_pct).toFixed(1)}% on the same point a year earlier)`:''}.
+    Debt principal is excluded; interest is counted when paid.</p>
+  <p class="caption">Fiscal regime reading: <b style="color:${rc}">${meta.regime}</b>. A description of month-to-date
+    flows, not a forecast: our own test found it says nothing about where markets go next (see Claims Tested).</p>
   ${cal?`<p class="caption">Month to date through business day ${cal.business_day}:
     <span class="mono">${fmtB(cal.mtd_bn)}</span> against a ${cal.years_used}-year average of
     <span class="mono">${fmtB(cal.typical_mtd_bn)}</span> for this point in the month
     (prior years <span class="mono">${fmtB(cal.prior_min_bn)}</span> to <span class="mono">${fmtB(cal.prior_max_bn)}</span>).
     The regime label is largely a calendar clock: about 74% of its sign is predictable from the date alone,
     so the comparison with prior years says more than the label.</p>`:''}
-  <p class="lede">${md2b((rep.executive_summary||'').split('. ').slice(0,3).join('. ')+'.')}</p>
   <div class="statrow">
-    <div class="stat"><div class="k">CFI 20d avg</div>
+    <div class="stat"><div class="k">Net flow 20d avg</div>
       <div class="v mono" style="color:${cards.avg_20d_cfi>=0?C.grn:C.ox}">${fmtB(cards.avg_20d_cfi)}/d</div></div>
-    <div class="stat"><div class="k">CFI 5d avg</div>
+    <div class="stat"><div class="k">Net flow 5d avg</div>
       <div class="v mono" style="color:${cards.avg_5d_cfi>=0?C.grn:C.ox}">${fmtB(cards.avg_5d_cfi)}/d</div></div>
     <div class="stat"><div class="k">TGA ${tga5!=null?'5d &Delta;':'level'}</div>
       <div class="v mono">${tga5!=null?fmtB(tga5):'$'+cards.tga_level.toFixed(0)+'B'}</div></div>
@@ -242,8 +255,8 @@ function renderToday(D){
     <path class="flowpath" d="${other20<0?'M224,116 C186,126 152,136 114,148':'M114,148 C152,136 186,126 224,116'}"
       stroke="${C.mut}" fill="none" stroke-width="${Math.max(1,Math.min(6,Math.abs(other20)/60))}" stroke-opacity=".6"/>
   </svg>
-  <p class="caption">Sources and uses of Treasury cash, last 20 sessions. Spending and receipts are core (CFI)
-    flows; issuance is cash raised from the private sector in exchange for securities; "other flows" nets
+  <p class="caption">Sources and uses of Treasury cash, last 20 sessions. Spending and receipts are core
+    flows (debt principal excluded); issuance is cash raised from the private sector in exchange for securities; "other flows" nets
     everything the core measure excludes (refunds, GAS, interest, trust funds) so the arithmetic reconciles
     exactly with the TGA change of ${fmtB(tgaChg,0)}. Line weight scales with dollar size.</p>`;
 }
@@ -262,13 +275,12 @@ function renderDataSection(D){
   const el = document.getElementById('sec-data');
   const rep = D.viz.report||{};
   el.innerHTML = `
-  <div class="sechdr"><span>The Data</span><span class="n">II</span></div>
+  <div class="sechdr"><span>Flow Charts</span><span class="n">V</span></div>
   <div class="chartblock"><div class="ttl">Daily net fiscal flows</div>
     <div class="chartwrap"><canvas id="ch-daily"></canvas></div>
-    <p class="caption">Core fiscal injection per session, last ${D.viz.daily.length} sessions.</p>
+    <p class="caption">Net fiscal flow (spending minus receipts, debt principal excluded) per session, last ${D.viz.daily.length} sessions.</p>
   </div>
-  <p class="prose">${md2b(rep.what_changed||'')}</p>
-  <div class="chartblock"><div class="ttl" id="cum-ttl">Cumulative injection &middot; FY${D.viz.meta.fiscal_year} vs FY${D.viz.meta.fiscal_year-1}</div>
+  <div class="chartblock"><div class="ttl" id="cum-ttl">Cumulative net fiscal flow &middot; FY${D.viz.meta.fiscal_year} vs FY${D.viz.meta.fiscal_year-1}</div>
     <div class="subtoggle"><button id="tg-cum" class="on">Cumulative</button><button id="tg-gap">YoY gap</button><button id="tg-cmp">Compare years</button></div>
     <div id="cmp-ctl" class="cmp-ctl" hidden>
       <div class="subtoggle" id="cmp-lb"><button data-n="3">3Y</button><button data-n="5" class="on">5Y</button><button data-n="10">10Y</button><button data-n="15">15Y</button><button data-n="0">Max</button></div>
@@ -278,7 +290,7 @@ function renderDataSection(D){
     <div class="chartwrap"><canvas id="ch-cum"></canvas></div>
     <p class="caption" id="cmp-cap" hidden></p>
   </div>
-  <p class="prose">${md2b(rep.base_case||'')}</p>`;
+`;
 
   // daily bars (20d trend lives in the stat row and the Track Record chart)
   const days = D.viz.daily;
@@ -290,7 +302,7 @@ function renderDataSection(D){
     options:{animation:false,responsive:true,maintainAspectRatio:false,
       interaction:{mode:'index',intersect:false},
       plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
-        label:c=>'CFI '+fmtB(c.parsed.y)}}},
+        label:c=>'Net flow '+fmtB(c.parsed.y)}}},
       scales:AXIS('$B / session')}
   });
 
@@ -347,7 +359,7 @@ function renderDataSection(D){
     const through = MONTHS[k-1];
     const isCur = y => String(y)===fy;
     sameBox.parentElement.classList.toggle('off', cmp.view!=='year');
-    ttl.textContent = `Core fiscal injection by fiscal year · FY${fys[0]}–FY${fys[fys.length-1]}`;
+    ttl.textContent = `Net fiscal flow by fiscal year · FY${fys[0]}–FY${fys[fys.length-1]}`;
 
     if(cmp.view==='year'){
       // Full year = last cumulative point; same months = sum of monthly CFI over Oct..through
@@ -367,7 +379,7 @@ function renderDataSection(D){
           plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
             title:c=>{ const y=fys[c[0].dataIndex];
               return 'FY'+y+(cmp.same?` · Oct–${through}`:isCur(y)?' · to date':' · full year'); },
-            label:c=>'CFI '+fmtB(c.parsed.y)}}},
+            label:c=>'Net flow '+fmtB(c.parsed.y)}}},
           scales:AXIS(cmp.same?`$B, Oct–${through}`:'$B per fiscal year')}
       });
       cap.textContent = cmp.same
@@ -395,7 +407,7 @@ function renderDataSection(D){
               label:c=>c.dataset.label+' '+fmtB(c.parsed.y)}}},
           scales:AXIS('$B per month')}
       });
-      cap.textContent = `Monthly core fiscal injection, each fiscal year side by side. ${through} FY${fy} is month to date.`
+      cap.textContent = `Monthly net fiscal flow, each fiscal year side by side. ${through} FY${fy} is month to date.`
         + (fys.length>10 ? ' Hover a month for every year’s value.' : '');
     }
   };
@@ -447,11 +459,11 @@ function renderTrackRecord(D){
   }
 
   el.innerHTML = `
-  <div class="sechdr"><span>Track Record</span><span class="n">IV</span></div>
+  <div class="sechdr"><span>Regime Track Record</span><span class="n">VI</span></div>
   <div class="tr-grid">
     <div><div class="ttl" style="font-size:13px;font-weight:600">Fiscal regime vs S&amp;P 500</div>
       <div class="chartwrap" style="height:240px"><canvas id="ch-link"></canvas></div>
-      <p class="caption">20-day average injection (left) against SPX (right).
+      <p class="caption">20-day average net fiscal flow (left) against SPX (right).
         Background bands mark the logged regime: green supportive, red restrictive.
         Descriptive, not predictive: see the test at right.</p></div>
     <div>
@@ -500,7 +512,7 @@ function renderTrackRecord(D){
     options:{animation:false,responsive:true,maintainAspectRatio:false,
       interaction:{mode:'index',intersect:false},
       plugins:{legend:{display:false},tooltip:{...TOOLTIP,callbacks:{
-        label:c=>c.datasetIndex===0?('CFI 20d '+fmtB(c.parsed.y)+'/d'):('SPX '+c.parsed.y.toFixed(0))}}},
+        label:c=>c.datasetIndex===0?('Net flow 20d '+fmtB(c.parsed.y)+'/d'):('SPX '+c.parsed.y.toFixed(0))}}},
       scales:{
         x:{grid:{display:false},border:{color:C.hair},
            ticks:{font:{...serifFont,size:10},color:C.mut,maxRotation:0,autoSkip:true,maxTicksLimit:8,
@@ -579,7 +591,7 @@ function renderLore(D){
   </div>`;
 
   el.innerHTML = `
-  <div class="sechdr"><span>Seasonal Lore, Tested</span><span class="n">V</span></div>
+  <div class="sechdr"><span>Seasonal Lore, Tested</span><span class="n">VII</span></div>
   <p class="prose">Calendar rules traders lean on, checked against every S&amp;P 500 year since 1950.
     Each is judged against a base rate: the index rises in most years and most weeks anyway, so a rule
     that says &ldquo;up&rdquo; looks right by default. Santa and January verdicts use ${K.replace('since_','')} onward only,
@@ -647,6 +659,58 @@ function renderLore(D){
   }
 }
 
+function renderLedger(D){
+  const L = D.ledger, el = document.getElementById('sec-ledger');
+  if(!L || !L.last_fy){ el.hidden = true; return; }
+  const sd = iso => new Date(iso+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'});
+  const fyOf = iso => +iso.slice(0,4) + (+iso.slice(5,7) >= 10 ? 1 : 0);
+  const views = {
+    fy:   {rows:L.last_fy, cur:`FY${fyOf(L.last_fy_release)}`, prv:`FY${fyOf(L.last_fy_release)-1}`,
+           note:`Full fiscal year to ${sd(L.last_fy_release)}.`},
+    ttm:  {rows:L.ttm, cur:'Last 12 months', prv:'Prior 12',
+           note:`Twelve months to ${sd(L.latest_release)} against the twelve before.`},
+    fytd: {rows:L.fytd||[], cur:`FY${fyOf(L.latest_release)} to date`, prv:'Year earlier',
+           note:`Fiscal year to ${sd(L.latest_release)} against the same months a year earlier.`},
+  };
+  const money = v => (v<0?MINUS:'')+'$'+Math.abs(v).toLocaleString('en-US',{maximumFractionDigits:0})+'B';
+  const table = k => { const v = views[k];
+    return `<table class="rf-table"><thead><tr><th>Line</th><th>${v.cur}</th><th>${v.prv}</th><th>Change</th></tr></thead>
+    <tbody>${v.rows.map(r=>{ const tot = r.line.startsWith('Total');
+      const head = r.line==='Social Security' ? '<tr><td colspan="4" style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mut);padding-top:8px">Outlays</td></tr>'
+        : r.line==='Individual Income Taxes' ? '<tr><td colspan="4" style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mut);padding-top:10px">Receipts</td></tr>' : '';
+      return head+`<tr${tot?' style="font-weight:700"':''}><td>${r.line}</td><td class="mono">${money(r.current_bn)}</td>
+        <td class="mono">${money(r.prior_bn)}</td><td class="mono">${r.change_pct==null?'n/a':(r.change_pct>=0?'+':MINUS)+Math.abs(r.change_pct).toFixed(1)+'%'}</td></tr>`; }).join('')}</tbody></table>
+    <p class="caption">${v.note} Source: Monthly Treasury Statement, Table 9.</p>`; };
+  el.innerHTML = `
+  <div class="sechdr"><span>Fiscal Ledger</span><span class="n">II</span></div>
+  <p class="prose">The federal budget's main lines from the official Monthly Treasury Statement, for checking claims
+    such as "interest now costs more than defense". Outlays are net by budget function: Medicare is net of premiums,
+    net interest is net of interest the government receives, and customs duties are net of refunds.</p>
+  <div class="subtoggle" id="ledger-tg"><button data-k="fy" class="on">Last fiscal year</button><button data-k="ttm">Last 12 months</button><button data-k="fytd">This fiscal year</button></div>
+  <div id="ledger-body">${table('fy')}</div>`;
+  el.querySelectorAll('#ledger-tg button').forEach(b=>b.addEventListener('click',()=>{
+    el.querySelectorAll('#ledger-tg button').forEach(x=>x.classList.toggle('on',x===b));
+    document.getElementById('ledger-body').innerHTML = table(b.dataset.k);
+  }));
+}
+
+function renderClaims(D){
+  const K = D.claims, el = document.getElementById('sec-claims');
+  if(!K || !(K.claims||[]).length){ el.hidden = true; return; }
+  const vcol = v => v==='Supported' ? C.grn : v==='Weak' ? C.mut : C.ox;
+  el.innerHTML = `
+  <div class="sechdr"><span>Claims Tested</span><span class="n">III</span></div>
+  <p class="prose">Widely repeated claims about markets and the economy, each tested against the record with the rule
+    written down before the data was run. Results are published whatever they show, including tests of our own work.</p>
+  <table class="rf-table lore-table"><thead><tr><th>Claim, rule and evidence</th><th>Verdict</th></tr></thead>
+    <tbody>${K.claims.map(c=>`<tr>
+      <td><b>${c.claim}</b><div class="lore-rule">${c.rule}</div><div class="lore-ev">${c.evidence}</div>
+        <div class="lore-rule" style="font-size:10px;margin-top:3px">${c.sample} &middot; <span class="mono">${c.script}</span> &middot; run ${c.run_date}</div></td>
+      <td class="lore-v" style="color:${vcol(c.verdict)}">${c.verdict}</td></tr>`).join('')}</tbody></table>
+  <p class="disclaimer">Tests use permutation and bootstrap methods on public data (FRED, Treasury, FINRA, BEA, NBER).
+    A verdict covers the stated rule and sample only. Descriptive research, not investment advice.</p>`;
+}
+
 function renderNowcast(D){
   const N = D.nowcast, el = document.getElementById('sec-nowcast');
   if(!N || !N.months || !Object.keys(N.months).length){ el.hidden = true; return; }
@@ -672,7 +736,7 @@ function renderNowcast(D){
   const nextMonth = ym => { const [y,m] = ym.split('-').map(Number); return mname(`${m===12?y+1:y}-${String(m%12+1).padStart(2,'0')}`); };
 
   el.innerHTML = `
-  <div class="sechdr"><span>Deficit Nowcast</span><span class="n">III</span></div>
+  <div class="sechdr"><span>Deficit Nowcast</span><span class="n">I</span></div>
   <p class="prose">A running estimate of this month's federal deficit, built each day from the Daily Treasury
     Statement and scored against the official Monthly Treasury Statement when Treasury publishes it. Every estimate
     is logged before the official figure exists, so the record below cannot be revised after the fact.</p>
@@ -726,7 +790,7 @@ function setupUnderHood(D){
   // Net customs from the Monthly Treasury Statement (scorecard row added by the pipeline)
   const customsNet = (D.viz.scorecard||[]).find(r=>r.label.startsWith('Customs duties, net of refunds'));
   el.innerHTML = `
-  <div class="sechdr"><span>Under the Hood</span><span class="n">VI</span></div>
+  <div class="sechdr"><span>Under the Hood</span><span class="n">VIII</span></div>
   <details class="uth" id="uth-comp">
     <summary>Receipts &amp; spending composition &middot; taxes, transfers, interest, customs</summary>
     <div class="mini-grid">
@@ -776,13 +840,26 @@ function setupUnderHood(D){
       (average miss 0.61 points against 0.59). It also drifts when withholding tables change: in 2018 new tables pushed
       it to about ${MINUS}3% while wages grew about 5%. Shown beside the official figure so any gap is visible.</p>
   </details>
+  <details class="uth" id="uth-corr">
+    <summary>Corrections</summary>
+    <div style="font-size:12.5px;line-height:1.65;color:var(--sec);margin-top:10px">
+      <p><b>28 November 2026.</b> Customs figures were labelled "tariff receipts" but were gross Daily Treasury
+      Statement deposits. From May 2026 tariff refunds have run far above normal and are paid out as separate
+      withdrawals, so gross deposits overstated tariff revenue. The label now reads "customs deposits (gross,
+      before refunds)" and the net figure from the Monthly Treasury Statement is shown beside it.</p>
+    </div>
+  </details>
   <details class="uth" id="uth-about">
     <summary>About the framework &middot; data, definitions, method</summary>
     <div style="font-size:12.5px;line-height:1.65;color:var(--sec);margin-top:10px">
       <p style="margin-bottom:8px">Every figure on this page is computed algorithmically from public data:
       the US Treasury's Daily Treasury Statement (published the next business day), CFTC positioning,
-      FINRA margin data, and FRED. Core fiscal injection (CFI) is spending into the private sector minus
-      taxes and other core receipts; positive means the government added net financial assets that day.</p>
+      FINRA margin data, and FRED. Net fiscal flow is federal spending minus taxes and other core receipts, with
+      debt principal excluded; positive means the Treasury paid out more than it took in that day. Data sections
+      use plain accounting language; interpretation, where offered, is labelled as such.</p>
+      <p style="margin-bottom:8px">The daily edition on Substack and YouTube is written by an AI model from this
+      data and checked against it by code before publication. The research on this page (the nowcast, ledger and
+      tests) is specified and built in code, with each method fixed before its results were seen.</p>
       <p style="margin-bottom:8px">The regime label (Supportive / Neutral / Restrictive) describes the current
       fiscal state from month-to-date flows, their year-over-year pace, and short-vs-medium momentum.
       It is a description, not a prediction: our pre-registered 2006-2026 test found no reliable forward
@@ -844,13 +921,15 @@ async function main(){
   document.getElementById('dl-date').textContent = longDate(D.viz.meta.latest);
   document.getElementById('dl-issue').textContent = 'Issue No. '+D.signalLog.length;
   document.getElementById('loader').hidden = true;
-  ['sec-today','sec-data','sec-nowcast','sec-track','sec-lore','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
+  ['sec-nowcast','sec-ledger','sec-claims','sec-today','sec-data','sec-track','sec-lore','sec-hood','foot'].forEach(id=>document.getElementById(id).hidden=false);
   if(typeof Chart==='undefined'){ document.getElementById('sec-data').innerHTML =
     '<p class="caption">Charts unavailable (Chart.js failed to load). Data sections are text-only until reload.</p>'; }
   try {
+    if(typeof renderNowcast==='function') renderNowcast(D);
+    if(typeof renderLedger==='function') renderLedger(D);
+    if(typeof renderClaims==='function') renderClaims(D);
     if(typeof renderToday==='function') renderToday(D);
     if(typeof Chart!=='undefined' && typeof renderDataSection==='function') renderDataSection(D);
-    if(typeof renderNowcast==='function') renderNowcast(D);
     if(typeof Chart!=='undefined' && typeof renderTrackRecord==='function') renderTrackRecord(D);
     if(typeof Chart!=='undefined' && typeof renderLore==='function') renderLore(D);
     if(typeof Chart!=='undefined' && typeof setupUnderHood==='function') setupUnderHood(D);

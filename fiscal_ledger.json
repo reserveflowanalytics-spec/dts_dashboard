@@ -1,0 +1,621 @@
+{
+  "latest_release": "2026-10-31",
+  "last_fy_release": "2026-09-30",
+  "definitions": "MTS net outlays by budget function; receipts net of refunds",
+  "fytd": [
+    {
+      "line": "Social Security",
+      "current_bn": 142.7,
+      "prior_bn": 134.1,
+      "change_bn": 8.6,
+      "change_pct": 6.4,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Medicare",
+      "current_bn": 170.0,
+      "prior_bn": 150.6,
+      "change_bn": 19.5,
+      "change_pct": 12.9,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Health",
+      "current_bn": 93.5,
+      "prior_bn": 88.1,
+      "change_bn": 5.4,
+      "change_pct": 6.2,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Net Interest",
+      "current_bn": 103.1,
+      "prior_bn": 90.9,
+      "change_bn": 12.2,
+      "change_pct": 13.4,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "National Defense",
+      "current_bn": 128.9,
+      "prior_bn": 99.9,
+      "change_bn": 28.9,
+      "change_pct": 29.0,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Income Security",
+      "current_bn": 58.5,
+      "prior_bn": 62.2,
+      "change_bn": -3.7,
+      "change_pct": -5.9,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Veterans Benefits and Services",
+      "current_bn": 54.3,
+      "prior_bn": 49.7,
+      "change_bn": 4.6,
+      "change_pct": 9.2,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Education, Training, Employment, and Social Services",
+      "current_bn": 13.7,
+      "prior_bn": 21.2,
+      "change_bn": -7.5,
+      "change_pct": -35.2,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Transportation",
+      "current_bn": 13.0,
+      "prior_bn": 10.9,
+      "change_bn": 2.1,
+      "change_pct": 18.8,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Agriculture",
+      "current_bn": 17.6,
+      "prior_bn": 4.8,
+      "change_bn": 12.8,
+      "change_pct": 266.8,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Total outlays",
+      "current_bn": 773.0,
+      "prior_bn": 688.7,
+      "change_bn": 84.3,
+      "change_pct": 12.2,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Individual Income Taxes",
+      "current_bn": 186.4,
+      "prior_bn": 217.0,
+      "change_bn": -30.6,
+      "change_pct": -14.1,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Employment and General Retirement",
+      "current_bn": 128.6,
+      "prior_bn": 123.9,
+      "change_bn": 4.8,
+      "change_pct": 3.9,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Corporation Income Taxes",
+      "current_bn": 18.0,
+      "prior_bn": 15.1,
+      "change_bn": 3.0,
+      "change_pct": 19.7,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Customs Duties",
+      "current_bn": 19.2,
+      "prior_bn": 31.4,
+      "change_bn": -12.1,
+      "change_pct": -38.7,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Excise Taxes",
+      "current_bn": 5.9,
+      "prior_bn": 6.0,
+      "change_bn": -0.1,
+      "change_pct": -0.9,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Estate and Gift Taxes",
+      "current_bn": 3.8,
+      "prior_bn": 3.7,
+      "change_bn": 0.0,
+      "change_pct": 1.2,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Miscellaneous Receipts",
+      "current_bn": 4.1,
+      "prior_bn": 3.5,
+      "change_bn": 0.6,
+      "change_pct": 18.1,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    },
+    {
+      "line": "Total receipts",
+      "current_bn": 368.9,
+      "prior_bn": 404.4,
+      "change_bn": -35.4,
+      "change_pct": -8.8,
+      "source": "MTS Table 9, 2026-10-31, FYTD columns"
+    }
+  ],
+  "last_fy": [
+    {
+      "line": "Social Security",
+      "current_bn": 1667.1,
+      "prior_bn": 1580.7,
+      "change_bn": 86.4,
+      "change_pct": 5.5,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Medicare",
+      "current_bn": 1072.6,
+      "prior_bn": 996.7,
+      "change_bn": 75.9,
+      "change_pct": 7.6,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Health",
+      "current_bn": 1025.6,
+      "prior_bn": 978.9,
+      "change_bn": 46.7,
+      "change_pct": 4.8,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Net Interest",
+      "current_bn": 1051.8,
+      "prior_bn": 970.4,
+      "change_bn": 81.4,
+      "change_pct": 8.4,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "National Defense",
+      "current_bn": 965.2,
+      "prior_bn": 916.6,
+      "change_bn": 48.5,
+      "change_pct": 5.3,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Income Security",
+      "current_bn": 694.2,
+      "prior_bn": 701.6,
+      "change_bn": -7.4,
+      "change_pct": -1.0,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Veterans Benefits and Services",
+      "current_bn": 416.2,
+      "prior_bn": 377.2,
+      "change_bn": 39.0,
+      "change_pct": 10.4,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Education, Training, Employment, and Social Services",
+      "current_bn": 107.6,
+      "prior_bn": 71.0,
+      "change_bn": 36.5,
+      "change_pct": 51.5,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Transportation",
+      "current_bn": 142.9,
+      "prior_bn": 145.8,
+      "change_bn": -2.9,
+      "change_pct": -2.0,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Agriculture",
+      "current_bn": 52.6,
+      "prior_bn": 49.4,
+      "change_bn": 3.2,
+      "change_pct": 6.5,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Total outlays",
+      "current_bn": 7395.8,
+      "prior_bn": 7010.0,
+      "change_bn": 385.8,
+      "change_pct": 5.5,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Individual Income Taxes",
+      "current_bn": 2845.5,
+      "prior_bn": 2656.0,
+      "change_bn": 189.5,
+      "change_pct": 7.1,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Employment and General Retirement",
+      "current_bn": 1754.3,
+      "prior_bn": 1685.6,
+      "change_bn": 68.6,
+      "change_pct": 4.1,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Corporation Income Taxes",
+      "current_bn": 381.4,
+      "prior_bn": 452.1,
+      "change_bn": -70.7,
+      "change_pct": -15.6,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Customs Duties",
+      "current_bn": 173.2,
+      "prior_bn": 194.9,
+      "change_bn": -21.6,
+      "change_pct": -11.1,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Excise Taxes",
+      "current_bn": 106.0,
+      "prior_bn": 105.9,
+      "change_bn": 0.1,
+      "change_pct": 0.1,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Estate and Gift Taxes",
+      "current_bn": 38.7,
+      "prior_bn": 29.5,
+      "change_bn": 9.3,
+      "change_pct": 31.4,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Miscellaneous Receipts",
+      "current_bn": 46.7,
+      "prior_bn": 47.9,
+      "change_bn": -1.3,
+      "change_pct": -2.6,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    },
+    {
+      "line": "Total receipts",
+      "current_bn": 5403.3,
+      "prior_bn": 5234.6,
+      "change_bn": 168.7,
+      "change_pct": 3.2,
+      "source": "MTS Table 9, 2026-09-30, FYTD columns"
+    }
+  ],
+  "ttm": [
+    {
+      "line": "Social Security",
+      "current_bn": 1675.6,
+      "prior_bn": 1589.9,
+      "change_bn": 85.7,
+      "change_pct": 5.4,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Medicare",
+      "current_bn": 1092.1,
+      "prior_bn": 1070.1,
+      "change_bn": 22.0,
+      "change_pct": 2.1,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Health",
+      "current_bn": 1031.0,
+      "prior_bn": 982.0,
+      "change_bn": 49.0,
+      "change_pct": 5.0,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Net Interest",
+      "current_bn": 1064.0,
+      "prior_bn": 981.2,
+      "change_bn": 82.7,
+      "change_pct": 8.4,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "National Defense",
+      "current_bn": 994.1,
+      "prior_bn": 913.1,
+      "change_bn": 81.0,
+      "change_pct": 8.9,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Income Security",
+      "current_bn": 690.5,
+      "prior_bn": 718.5,
+      "change_bn": -28.0,
+      "change_pct": -3.9,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Veterans Benefits and Services",
+      "current_bn": 420.8,
+      "prior_bn": 395.9,
+      "change_bn": 24.8,
+      "change_pct": 6.3,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Education, Training, Employment, and Social Services",
+      "current_bn": 100.1,
+      "prior_bn": 64.2,
+      "change_bn": 35.9,
+      "change_pct": 55.8,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Transportation",
+      "current_bn": 144.9,
+      "prior_bn": 145.3,
+      "change_bn": -0.4,
+      "change_pct": -0.3,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Agriculture",
+      "current_bn": 65.4,
+      "prior_bn": 46.3,
+      "change_bn": 19.1,
+      "change_pct": 41.2,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Total outlays",
+      "current_bn": 7480.0,
+      "prior_bn": 7114.8,
+      "change_bn": 365.2,
+      "change_pct": 5.1,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Individual Income Taxes",
+      "current_bn": 2815.0,
+      "prior_bn": 2705.0,
+      "change_bn": 110.0,
+      "change_pct": 4.1,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Employment and General Retirement",
+      "current_bn": 1759.0,
+      "prior_bn": 1691.1,
+      "change_bn": 68.0,
+      "change_pct": 4.0,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Corporation Income Taxes",
+      "current_bn": 384.4,
+      "prior_bn": 454.3,
+      "change_bn": -69.9,
+      "change_pct": -15.4,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Customs Duties",
+      "current_bn": 161.1,
+      "prior_bn": 218.9,
+      "change_bn": -57.8,
+      "change_pct": -26.4,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Excise Taxes",
+      "current_bn": 105.9,
+      "prior_bn": 101.5,
+      "change_bn": 4.5,
+      "change_pct": 4.4,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Estate and Gift Taxes",
+      "current_bn": 38.8,
+      "prior_bn": 30.4,
+      "change_bn": 8.4,
+      "change_pct": 27.5,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Miscellaneous Receipts",
+      "current_bn": 47.2,
+      "prior_bn": 48.4,
+      "change_bn": -1.2,
+      "change_pct": -2.5,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    },
+    {
+      "line": "Total receipts",
+      "current_bn": 5367.8,
+      "prior_bn": 5312.2,
+      "change_bn": 55.6,
+      "change_pct": 1.0,
+      "source": "MTS Table 9, releases 2025-11-30..2026-10-31 vs 2024-11-30..2025-10-31"
+    }
+  ],
+  "month": [
+    {
+      "line": "Social Security",
+      "current_bn": 142.7,
+      "prior_bn": 134.1,
+      "change_bn": 8.6,
+      "change_pct": 6.4,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Medicare",
+      "current_bn": 170.0,
+      "prior_bn": 150.6,
+      "change_bn": 19.5,
+      "change_pct": 12.9,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Health",
+      "current_bn": 93.5,
+      "prior_bn": 88.1,
+      "change_bn": 5.4,
+      "change_pct": 6.2,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Net Interest",
+      "current_bn": 103.1,
+      "prior_bn": 90.9,
+      "change_bn": 12.2,
+      "change_pct": 13.4,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "National Defense",
+      "current_bn": 128.9,
+      "prior_bn": 99.9,
+      "change_bn": 28.9,
+      "change_pct": 29.0,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Income Security",
+      "current_bn": 58.5,
+      "prior_bn": 62.2,
+      "change_bn": -3.7,
+      "change_pct": -5.9,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Veterans Benefits and Services",
+      "current_bn": 54.3,
+      "prior_bn": 49.7,
+      "change_bn": 4.6,
+      "change_pct": 9.2,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Education, Training, Employment, and Social Services",
+      "current_bn": 13.7,
+      "prior_bn": 21.2,
+      "change_bn": -7.5,
+      "change_pct": -35.2,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Transportation",
+      "current_bn": 13.0,
+      "prior_bn": 10.9,
+      "change_bn": 2.1,
+      "change_pct": 18.8,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Agriculture",
+      "current_bn": 17.6,
+      "prior_bn": 4.8,
+      "change_bn": 12.8,
+      "change_pct": 266.8,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Total outlays",
+      "current_bn": 773.0,
+      "prior_bn": 688.7,
+      "change_bn": 84.3,
+      "change_pct": 12.2,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Individual Income Taxes",
+      "current_bn": 186.4,
+      "prior_bn": 217.0,
+      "change_bn": -30.6,
+      "change_pct": -14.1,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Employment and General Retirement",
+      "current_bn": 128.6,
+      "prior_bn": 123.9,
+      "change_bn": 4.8,
+      "change_pct": 3.9,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Corporation Income Taxes",
+      "current_bn": 18.0,
+      "prior_bn": 15.1,
+      "change_bn": 3.0,
+      "change_pct": 19.7,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Customs Duties",
+      "current_bn": 19.2,
+      "prior_bn": 31.4,
+      "change_bn": -12.1,
+      "change_pct": -38.7,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Excise Taxes",
+      "current_bn": 5.9,
+      "prior_bn": 6.0,
+      "change_bn": -0.1,
+      "change_pct": -0.9,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Estate and Gift Taxes",
+      "current_bn": 3.8,
+      "prior_bn": 3.7,
+      "change_bn": 0.0,
+      "change_pct": 1.2,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Miscellaneous Receipts",
+      "current_bn": 4.1,
+      "prior_bn": 3.5,
+      "change_bn": 0.6,
+      "change_pct": 18.1,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    },
+    {
+      "line": "Total receipts",
+      "current_bn": 368.9,
+      "prior_bn": 404.4,
+      "change_bn": -35.4,
+      "change_pct": -8.8,
+      "source": "MTS Table 9, 2026-10-31 vs 2025-10-31"
+    }
+  ]
+}

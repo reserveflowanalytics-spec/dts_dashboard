@@ -1,0 +1,85 @@
+{
+  "claims": [
+    {
+      "claim": "Our fiscal regime label tells you where stocks go next",
+      "rule": "S&P 500 returns 5 to 60 sessions after Supportive or Restrictive spells differ from the base rate, after multiple-testing correction",
+      "verdict": "Not supported",
+      "evidence": "No test survived the multiple-testing correction (0 of 26). The label describes the fiscal state; it does not forecast the market.",
+      "sample": "2006 to 2026, daily",
+      "script": "scripts/research/regime_spell_test.py",
+      "run_date": "2026-07-15"
+    },
+    {
+      "claim": "Net liquidity moves with stocks",
+      "rule": "4-week changes in Fed balance sheet minus Treasury account minus reverse repo move with the S&P 500 over the same 4 weeks",
+      "verdict": "Not supported",
+      "evidence": "Correlation -0.06 (permutation p=0.30). The familiar chart reflects both series trending up, not moving together.",
+      "sample": "2003 to 2026, 311 non-overlapping 4-week periods",
+      "script": "scripts/research/net_liquidity_test.py",
+      "run_date": "2026-11-28"
+    },
+    {
+      "claim": "Net liquidity leads stocks",
+      "rule": "The 4-week change predicts the S&P 500 return over the next 20 trading days",
+      "verdict": "Weak",
+      "evidence": "Pre-registered result: the correlation test passed, the trading-rule test did not. Correlation +0.13 (p=0.029), under 2% of the variance; trading on its sign: +0.8 points per period, 95% CI [-0.1, +1.9], not significant. The small lead comes from the Fed balance sheet; the Treasury account and reverse repo parts show none.",
+      "sample": "2003 to 2026, 311 non-overlapping 4-week periods",
+      "script": "scripts/research/net_liquidity_test.py",
+      "run_date": "2026-11-28"
+    },
+    {
+      "claim": "Weak auctions push yields up on the day",
+      "rule": "Lower bid-to-cover than the previous 6 auctions goes with a larger rise in yield from the prior close to the auction-day close",
+      "verdict": "Supported",
+      "sample": "2009 to 2026, 644 10-, 20- and 30-year auctions",
+      "evidence": "Correlation -0.15 (p=0.0003); weakest tenth of auctions +1.2bp on the day against +0.1bp for the rest.",
+      "script": "scripts/research/auction_demand_test.py",
+      "run_date": "2026-11-28"
+    },
+    {
+      "claim": "Weak auctions keep pushing yields up",
+      "rule": "The same demand surprise predicts the yield change over the next 5 trading days",
+      "verdict": "Not supported",
+      "sample": "2009 to 2026, 644 10-, 20- and 30-year auctions",
+      "evidence": "Correlation +0.03 (p=0.47); after the weakest tenth, yields moved -1.1bp over the next week against -0.3bp. Priced within the day.",
+      "script": "scripts/research/auction_demand_test.py",
+      "run_date": "2026-11-28"
+    },
+    {
+      "claim": "Record margin debt signals a market top",
+      "rule": "S&P 500 returns over the 12 months after FINRA margin debt sets a record are lower than after other months",
+      "verdict": "Not supported",
+      "sample": "1997-01 to 2025-09, FINRA monthly",
+      "evidence": "After records: +6.4% next 12 months against +7.5% otherwise (difference 95% CI [-9.1, +4.5] points). A 20% fall followed 4% of records against 20% of other months.",
+      "script": "scripts/research/folklore_market_tests.py",
+      "run_date": "2026-11-28"
+    },
+    {
+      "claim": "A surge in margin debt signals a market top",
+      "rule": "Same test when year-on-year margin debt growth is in the top tenth of its history",
+      "verdict": "Not supported",
+      "sample": "17 surge months, about three episodes",
+      "evidence": "After surges: -4.4% against +9.6% (95% CI [-25.7, +7.0] points). Lower on average, but too few episodes to separate from chance.",
+      "script": "scripts/research/folklore_market_tests.py",
+      "run_date": "2026-11-28"
+    },
+    {
+      "claim": "An inverted yield curve means a recession is coming",
+      "rule": "An NBER recession starts within 24 months of the 10-year minus 3-month spread turning negative",
+      "verdict": "Supported",
+      "sample": "1982 to 2026",
+      "evidence": "4 of 5 inversions were followed by a recession and 4 of 4 recessions were preceded by one. False alarm: 2022-11. One hit, 2020, was the pandemic. A record, not a significance test.",
+      "script": "scripts/research/folklore_market_tests.py",
+      "run_date": "2026-11-28"
+    },
+    {
+      "claim": "Withheld taxes give an early read on wage growth",
+      "rule": "Daily Treasury withheld taxes improve on last month's BEA wage figure for the month BEA has not yet published",
+      "verdict": "Not supported",
+      "evidence": "Average miss 0.61 points against 0.59 for last month's BEA figure (gain 95% CI [-0.09, +0.02]); direction right 85 of 154 months.",
+      "sample": "2014-01 to 2026-10, BEA first prints",
+      "script": "scripts/research/wage_bill_nowcast_test.py",
+      "run_date": "2026-11-28"
+    }
+  ]
+}
