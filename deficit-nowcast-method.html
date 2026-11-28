@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deficit Nowcast Method</title>
+<meta name="description" content="Method, backtest and data files for the Reserve Flow monthly federal deficit nowcast.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap');
+:root{--paper:#faf6ef;--panel:#f5f0e6;--hair:#d8d0c2;--ink:#1c1a17;--sec:#4a453d;--mut:#6b6459;--ox:#8c2332}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#efe9df;font-family:'Source Serif 4',Georgia,serif;color:var(--ink);padding:28px 16px;
+  -webkit-font-smoothing:antialiased}
+.page{max-width:720px;margin:0 auto;background:var(--paper);border:1px solid var(--hair);padding:36px 44px 30px}
+.mono,code{font-family:'JetBrains Mono',monospace;font-size:.88em}
+.mast{border-bottom:2.5px solid var(--ink);padding-bottom:12px;margin-bottom:6px}
+.mast .k{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ox);font-weight:600}
+.mast h1{font-size:26px;margin-top:4px}
+.meta{font-size:11px;color:var(--mut);margin:6px 0 22px}
+h2{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ox);font-weight:600;
+  border-top:1px solid var(--ink);padding-top:8px;margin:26px 0 10px}
+p,li{font-size:13.5px;line-height:1.68;color:#2e2a24}
+p{margin-bottom:10px}
+ol,ul{margin:0 0 10px 20px}
+li{margin-bottom:5px}
+table{width:100%;border-collapse:collapse;font-size:11.5px;margin:6px 0 10px}
+th{text-align:right;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--mut);
+  border-bottom:1px solid var(--ink);padding:4px 6px;font-weight:600}
+td{text-align:right;padding:4px 6px;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left}
+.box{background:var(--panel);border-left:3px solid var(--ox);padding:9px 13px;margin:8px 0 12px;font-size:13px;line-height:1.6}
+.cap{font-size:11px;font-style:italic;color:var(--mut)}
+a{color:var(--ox)}
+.foot{border-top:2.5px solid var(--ink);margin-top:28px;padding-top:9px;font-size:10px;color:var(--mut);
+  letter-spacing:1px;text-transform:uppercase;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+@media(max-width:640px){.page{padding:24px 18px}.mast h1{font-size:22px}table{font-size:10.5px}}
+@media print{body{background:#fff;padding:0}.page{border:none;max-width:none;padding:0 6mm}a{color:var(--ink)}}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="mast">
+    <div class="k">Reserve Flow &middot; Methodology note</div>
+    <h1>Monthly federal deficit nowcast</h1>
+  </div>
+  <div class="meta">Version 1, 28 November 2026. Method frozen on that date; live record at
+    <a href="https://reserveflow.info/">reserveflow.info</a>, section III.</div>
+
+  <div class="box"><b>In one paragraph.</b> Each business day we estimate the current month's federal deficit,
+    as the Monthly Treasury Statement (MTS) will report it, from the Daily Treasury Statement (DTS). The estimate
+    is logged with a timestamp before the official figure exists and scored against it when Treasury publishes
+    the MTS, about the eighth business day of the following month. In a 128-month backtest (March 2016 to
+    October 2026) the median miss was $31 billion with ten days of data and $27 billion from day 20, against
+    $58 billion for using the same month a year earlier. It is a cash-basis estimate: non-cash entries in the
+    MTS are invisible to it.</div>
+
+  <h2>What is estimated</h2>
+  <p>The first-release MTS deficit (Table 1, "current month" deficit or surplus) for the calendar month in
+    progress. Positive is a deficit, negative a surplus. All figures in billions of US dollars.</p>
+
+  <h2>Data</h2>
+  <ul>
+    <li>Daily Treasury Statement, deposits and withdrawals of operating cash: US Treasury Fiscal Data API,
+      <code>/v1/accounting/dts/deposits_withdrawals_operating_cash</code>, October 2005 on.</li>
+    <li>Monthly Treasury Statement Table 1 (the referee) and Table 9 "Net Interest" (accrued interest):
+      <code>/v1/accounting/mts/mts_table_1</code> and <code>mts_table_9</code>, 2015 on.</li>
+  </ul>
+  <p>No other inputs. No judgement enters the estimate after the method was frozen.</p>
+
+  <h2>Method</h2>
+  <ol>
+    <li><b>Month to date.</b> Sum DTS withdrawals minus deposits from the first of the month to the latest
+      statement, excluding public debt cash issues and redemptions, internal transfers between Treasury
+      accounts, and cash interest on Treasury securities.</li>
+    <li><b>Rest of the month.</b> Take up to five of the previous nine years in which the payments due on the
+      1st of the following month fell the same way: paid early inside this month when the 1st is a Saturday,
+      Sunday or New Year's Day, or paid on the 1st. For each, take its withdrawals and its deposits after the
+      same calendar day, scale each by this year's trailing-365-day gross flow relative to that year's, and take
+      the median across years. Withdrawals and deposits are forecast separately.</li>
+    <li><b>Interest.</b> The MTS records interest on the debt as it accrues; the DTS records coupon cash when
+      paid, which overstates the deficit in February, May, August and November and understates it otherwise.
+      Add the mean MTS net interest of the second to fourth previous months (the previous month's MTS is not
+      yet published early in the month).</li>
+    <li><b>Estimate</b> = month to date + rest of month + interest.</li>
+  </ol>
+  <p>How the method was chosen: four rule sets were tested in sequence on the same history, each written down
+    before it ran. Matching the payment calendar (step 2) cut the day-10 median miss from $59 billion to
+    $34 billion; using the median rather than the mean of the template years absorbed one-off events such as
+    the 2020 tax deadline moving to July, which had distorted later Aprils and Julys; forecasting customs
+    receipts separately made no difference and was dropped. Because four trials were run on one sample, the
+    backtest selects the method but cannot prove it. The live record is the test.</p>
+
+  <h2>Backtest, March 2016 to October 2026 (128 months)</h2>
+  <table>
+    <thead><tr><th>Data through day</th><th>Median miss</th><th>Mean miss</th><th>80% of misses within</th>
+      <th>Bias</th><th>Beats last year</th></tr></thead>
+    <tbody>
+      <tr><td>5</td><td>$34B</td><td>$68B</td><td>$74B</td><td>&minus;$11B</td><td>84 of 128</td></tr>
+      <tr><td>10</td><td>$31B</td><td>$65B</td><td>$73B</td><td>&minus;$10B</td><td>82 of 128</td></tr>
+      <tr><td>15</td><td>$30B</td><td>$54B</td><td>$66B</td><td>&minus;$4B</td><td>90 of 128</td></tr>
+      <tr><td>20</td><td>$27B</td><td>$46B</td><td>$61B</td><td>&minus;$6B</td><td>94 of 128</td></tr>
+    </tbody>
+  </table>
+  <p class="cap">Miss = estimate minus first-release MTS deficit. Bias below zero means the estimate tends to run
+    low. Baseline (same month a year earlier): median miss $58B, mean $112B. Mean misses are pulled up by a
+    few very large months, below.</p>
+
+  <h2>Known failure modes</h2>
+  <ul>
+    <li><b>Non-cash entries.</b> The MTS records some costs without any cash moving, such as revisions to the
+      estimated cost of federal loan programmes. The DTS cannot see them. The largest backtest misses are of
+      this kind or are pandemic months: June 2020 (&minus;$477B), September 2022 (&minus;$354B), August 2023
+      (+$343B), April 2020 (&minus;$265B), September 2025 (+$183B). Expect such months to recur
+      without warning in the daily data.</li>
+    <li><b>Policy shifts in timing.</b> A moved tax deadline or a shutdown changes this year's pattern relative
+      to the template years.</li>
+    <li><b>Customs refunds.</b> From May 2026 tariff refunds have been paid out as Customs and Border Protection
+      withdrawals while the MTS nets them against customs receipts. The deficit is the same either way, so the
+      estimate is unaffected; gross DTS customs deposits should not be read as tariff revenue.</li>
+  </ul>
+
+  <h2>Live record and data files</h2>
+  <p>Logging began with the statement for 25 November 2026. Each estimate's timestamp is recorded when it is
+    made, and the files below are republished to a public repository daily, so each version carries an
+    independent date.</p>
+  <table>
+    <thead><tr><th>File</th><th>Contents</th></tr></thead>
+    <tbody>
+      <tr><td><a href="deficit_nowcast_log.csv"><code>deficit_nowcast_log.csv</code></a></td>
+        <td style="text-align:left">Every live estimate: month, dts_date, logged_at_utc, method, cutoff_day, mtd_bn,
+          rest_bn, interest_bn, estimate_bn, backtest_median_miss_bn, mts_deficit_bn and miss_bn (blank until the
+          MTS is out)</td></tr>
+      <tr><td><a href="deficit_nowcast.json"><code>deficit_nowcast.json</code></a></td>
+        <td style="text-align:left">The same record grouped by month, with the official figure and each miss</td></tr>
+      <tr><td><a href="deficit_nowcast_backtest.csv"><code>deficit_nowcast_backtest.csv</code></a></td>
+        <td style="text-align:left">The frozen method replayed on every month since March 2016 at days 5, 10, 15
+          and 20, with the MTS figure and the last-year baseline</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Citing</h2>
+  <p>Reserve Flow Analytics, "Monthly federal deficit nowcast", reserveflow.info, with the estimate's month and
+    data date (for example: November 2026 estimate, DTS data through 25 November 2026).</p>
+  <p>A description of government finances, not investment advice or a market signal. Questions and corrections:
+    <a href="mailto:reserveflowanalytics@gmail.com">reserveflowanalytics@gmail.com</a>.</p>
+
+  <div class="foot"><span>Source: US Treasury DTS and MTS</span><span>Reserve Flow Analytics</span>
+    <span><a href="https://reserveflow.info/">reserveflow.info</a></span></div>
+</div>
+</body>
+</html>

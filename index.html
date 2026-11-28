@@ -700,7 +700,10 @@ function renderNowcast(D){
     10 days of data and $27B from day 20, against $58B for simply using the same month last year. The method was fixed
     before live logging began on 28 November 2026. Cash basis: non-cash entries such as student-loan cost revisions
     appear in the official statement but never in daily cash, so some months will miss by far more. A description
-    of government finances, not a market signal.</p>`;
+    of government finances, not a market signal.
+    <a href="deficit-nowcast-method.html">Method note</a> (<a href="deficit-nowcast-method.pdf">PDF</a>) &middot;
+    data: <a href="deficit_nowcast_log.csv">live log CSV</a>, <a href="deficit_nowcast_backtest.csv">backtest CSV</a>,
+    <a href="deficit_nowcast.json">JSON</a>.</p>`;
 
   if(ce.length>=3 && typeof Chart!=='undefined'){
     const band = ce.map(e=>e.backtest_median_miss_bn);

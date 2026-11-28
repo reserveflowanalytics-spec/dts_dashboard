@@ -1,0 +1,2 @@
+month,dts_date,logged_at_utc,method,cutoff_day,mtd_bn,rest_bn,interest_bn,estimate_bn,backtest_median_miss_bn,mts_deficit_bn,miss_bn
+2026-11,2026-11-25,2026-11-28T09:32:00+00:00,trial4-2026-11-28,25,95.8,3.4,74.9,174.1,26.8,,
