@@ -580,10 +580,10 @@ function renderLore(D){
       : `January ${j.year} closed ${pp(j.pct)}` + (j.rest_so_far_pct!=null
           ? `; since then ${pp(j.rest_so_far_pct)} (through ${sd(j.through)}).` : '.');
 
-  const vtable = list => `<table class="rf-table lore-table"><thead><tr><th>Claim and evidence</th><th>Verdict</th></tr></thead>
-    <tbody>${list.map(v=>`<tr>
-      <td><b>${v.claim}</b><div class="lore-rule">${v.rule}</div><div class="lore-ev">${v.evidence}</div></td>
-      <td class="lore-v" style="color:${vcol(v.verdict)}">${v.verdict}</td></tr>`).join('')}</tbody></table>`;
+  const vtable = list => `<div style="border-top:1px solid var(--ink)">${list.map(v=>`<details class="claim">
+    <summary><span class="c">${v.claim}</span><span class="v" style="color:${vcol(v.verdict)}">${v.verdict}</span></summary>
+    <div class="body"><div class="lore-rule">${v.rule}</div><div class="lore-ev">${v.evidence}</div></div>
+  </details>`).join('')}</div>`;
   const sa = L.santa[K];
 
   // Presidential cycle block (older JSON without it simply omits the block)
@@ -596,8 +596,9 @@ function renderLore(D){
   <div class="lore-live">${cl.year} is a ${cl.name.toLowerCase()} year (year ${cl.cycle} of the term):
     ${pp(cl.ytd_pct)} year to date and ${pp(cl.above_low_pct)} above its lowest close, through ${sd(cl.through)}.
     ${cl.next.year} is the ${cl.next.name.toLowerCase()} year.</div>
-  ${vtable(L.cycle_verdicts)}
-  <div class="chartblock" style="margin-top:18px"><div class="ttl">Average S&amp;P 500 calendar-year return by year of the presidential term</div>
+  ${vtable(L.cycle_verdicts)}`;
+  const cycleChart = !cy ? '' : `
+  <div class="chartblock" style="margin-top:14px"><div class="ttl">Average S&amp;P 500 calendar-year return by year of the presidential term</div>
     <div class="chartwrap"><canvas id="ch-cycle"></canvas></div>
     <p class="caption">${[1,2,3,4].map(g=>`${cy.groups[g].name}: up ${cy.groups[g].up_rate}% of ${cy.groups[g].n} years`).join(' · ')}.
       Across all four years together the pattern is borderline (permutation p=${cy.spread_p}); the pre-election year carries it.</p>
@@ -611,8 +612,10 @@ function renderLore(D){
     the years after Hirsch published both rules.</p>
   <div class="lore-live">${santaTxt} ${janTxt}</div>
   ${vtable(L.verdicts)}
-
-  <div class="chartblock" style="margin-top:18px"><div class="ttl">Santa window return by year</div>
+  ${cycleHtml}
+  <details class="uth" id="lore-charts" style="margin-top:14px">
+    <summary>Charts &middot; Santa window by year, each month vs the next 11, presidential cycle</summary>
+  <div class="chartblock" style="margin-top:12px"><div class="ttl">Santa window return by year</div>
     <div class="chartwrap"><canvas id="ch-santa"></canvas></div>
     <p class="caption">Close before the last 5 December sessions to the 2nd January session close.
       Since 1972: up ${sa.win_rate}% of years, mean ${pp(sa.mean_pct)}, against ${sa.base_win_rate}% and ${pp(sa.base_mean_pct)} for any 7-session window.</p>
@@ -622,11 +625,18 @@ function renderLore(D){
     <p class="caption">Mean next-11-month return after an up month minus after a down month, all years since 1950.
       January leads, but several months show the same kind of gap: partly ordinary momentum.</p>
   </div>
-  ${cycleHtml}
+  ${cycleChart}
+  </details>
   <p class="disclaimer">Descriptive history, not a trade signal. S&amp;P 500 cash index daily closes
     (Yahoo Finance from ${L.data.first.slice(0,4)}, FRED for recent sessions) through ${sd(L.data.last)};
     ES futures track it closely. Permutation and bootstrap tests, Fisher exact for up/down tables.</p>`;
 
+  document.getElementById('lore-charts').addEventListener('toggle', function(ev){
+    if(!ev.target.open || charts.santa) return;
+    drawLoreCharts();
+  });
+
+  function drawLoreCharts(){
   const sy = L.years.santa;
   charts.santa = new Chart(document.getElementById('ch-santa'),{
     type:'bar',
@@ -670,6 +680,7 @@ function renderLore(D){
         scales:AXIS('% per calendar year')}
     });
   }
+  }   // end drawLoreCharts
 }
 
 function renderLedger(D){
